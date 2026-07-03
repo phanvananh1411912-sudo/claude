@@ -1,30 +1,41 @@
-# Hán Tự Engine · Ghép Bộ Thủ Chữ Hán
+# Hán Tự Emoji · Tra chữ Hán theo lục thư bằng emoji
 
-Phần mềm web học chữ Hán theo mô hình **component · variant · structure**: phân tích cấu tạo, ghép bộ thủ thành chữ, và tra chữ từ các mảnh. Một file `index.html` duy nhất — mở bằng trình duyệt là chạy, không cài đặt, không cần internet.
+Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) → phân rã thành phần → công thức emoji**, chạy trên dữ liệu **makemeahanzi** + bảng emoji bộ thủ + **Thuyết Văn Giải Tự (說文解字)**. Một file `index.html` mở là chạy, không cài đặt, không internet.
 
-Ứng dụng học chữ Hán qua ghép bộ thủ — thiết kế "Hán Tự Engine", chạy hoàn toàn offline.
+## Nguyên tắc hiển thị
 
-## Cách dùng
+- **Thành phần NGHĨA** (semantic) → hiện bằng **emoji**, viền/nền **xanh dương**, kèm nghĩa đen + vai trò khi ghép (Thuyết Văn) và nút mở rộng nguyên văn 說文解字.
+- **Thành phần ÂM** (phonetic) → giữ **chữ Hán + pinyin**, viền/nền **đỏ**; nếu thành phần âm có emoji riêng (vd 青→🌿) thì hiện mờ phía sau.
+- **Chữ tượng hình / chỉ sự** → **một emoji lớn** + badge loại chữ (🖼 Tượng hình / 💡 Chỉ sự·Hội ý / 🧩 Hình thanh).
+- **Công thức**: `[emoji NGHĨA 🔵] + [chữ ÂM 🔴 + pinyin] = chữ`.
 
-Mở `index.html` bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox, Safari…). App có **5 chế độ**:
+## 5 chế độ
 
 | Chế độ | Mô tả |
 |--------|-------|
-| **Học chữ** | Cho nghĩa, chọn đúng tất cả thành phần tạo nên chữ → xem khung 田字格, thẻ giải thích và câu ghi nhớ. |
-| **Phân tích** | Chọn một chữ, bóc tách thành phần **tạo NGHĨA** (xanh) / **tạo ÂM** (lam); rê chuột để làm nổi từng bộ. |
-| **Ghép chữ** | Kéo-thả (hoặc chạm) các mảnh vào đúng ô trong khung để dựng chữ 情 / 清 / 快. Có âm thanh & rung phản hồi. |
-| **Sáng tạo** | Chọn ≥ 2 mảnh (kể cả biến thể như 忄, 氵, 扌) → tìm ra các chữ chứa đủ các mảnh đó. |
-| **Đố bộ thủ** | Trắc nghiệm: chữ này được tạo nghĩa từ bộ thủ nào? Có tính điểm. |
+| **Tra chữ** | Ô tìm kiếm (chữ Hán hoặc pinyin) → thẻ kết quả: công thức emoji, khung 田字格, thẻ thành phần NGHĨA/ÂM kèm Thuyết Văn, badge lục thư. |
+| **Học chữ** | Cho nghĩa → chọn đúng tất cả thành phần → xem công thức + giải thích. |
+| **Ghép chữ** | Kéo-thả mảnh vào ô đúng để dựng chữ. Âm thanh & rung phản hồi. |
+| **Sáng tạo** | Chọn ≥ 2 mảnh (biến thể tự quy về gốc) → tìm chữ chứa đủ. |
+| **Đố bộ thủ** | Trắc nghiệm: chữ này được tạo nghĩa từ bộ thủ nào? |
 
-## Thiết kế & kỹ thuật
+## Dữ liệu & resolver
 
-- Port từ thiết kế **"Hán Tự Engine"** (bản export Lovable: TanStack Start + React + Tailwind + shadcn) sang **HTML/CSS/JS thuần trong một file**, giữ nguyên bố cục, bảng màu sand/clay/ink + semantic/phonetic, gradient động, khung 田字格 và các tương tác.
-- Tầng dữ liệu theo schema gốc: `COMPONENT` (bộ thủ) → `VARIANT` (biến thể theo vị trí) → `CHARACTER` (chữ, gồm các part có vai trò semantic/phonetic + câu ghi nhớ).
-- Phản hồi âm thanh (Web Audio) và rung (Vibration API); giao diện sáng/tối tự động; không tải tài nguyên ngoài → chạy offline.
+- `index.html` **nhúng sẵn** 3 nguồn: bảng emoji 84 bộ thủ (`radical_emoji_map.json`), Thuyết Văn 84 bộ (`shuowen_radicals_vi.json`), và **26 chữ demo** định dạng makemeahanzi (`sample_dictionary.txt`).
+- **Resolver** (logic phân giải thành phần):
+  - Biến thể → gốc: `氵→水`, `忄→心`, `灬→火`, `讠→言`…
+  - Nhập nhằng theo vị trí/ngữ cảnh: `阝` trái=阜🏔️ / phải=邑🏘️ · `月` nhóm cơ thể=肉🥩 / thường=🌙 · `王` trái=玉💎.
+  - Fallback: thành phần không có emoji (`彳`, `冖`…) → hiển thị nguyên chữ trong khung xám, không bỏ trống.
+- Module test độc lập: **`resolver.mjs`** (logic thuần) + **`resolver.test.mjs`** — chạy `node resolver.test.mjs` (20/20 pass). App cũng tự chạy 11 test resolver khi tải (xem góc footer).
 
-## Mở rộng dữ liệu
+## Nạp từ điển đầy đủ
 
-Chỉnh trực tiếp trong `index.html`:
+App mặc định dùng 26 chữ demo. Để tra **mọi chữ**, tải bản đầy đủ (~10MB) rồi bấm **📄 Nạp dictionary.txt đầy đủ** trong tab *Tra chữ* (đọc tại chỗ bằng trình duyệt, không cần server):
 
-- Thêm bộ thủ: `COMPONENT` + màu trong `COMP_COLOR` + (nếu có) biến thể trong `VARIANT` và ánh xạ `NORMALIZE`.
-- Thêm chữ: một phần tử trong mảng `CHARACTER` với `parts` gồm `{comp, variant, role, pos}` và `memory` (câu ghi nhớ, cho phép thẻ `<b>`).
+```bash
+curl -L -o dictionary.txt https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt
+```
+
+## Ghi chú
+
+Phần nguyên văn Thuyết Văn ở vài bộ (đánh dấu `*`) được soạn từ tri thức, **cần đối chiếu** với `swjz.xml` (cjkvi-dict) hoặc ctext.org trước khi phát hành chính thức.

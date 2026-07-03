@@ -3,70 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hán Tự Emoji · Phân tích chữ Hán bằng emoji</title>
+<title>Hán Tự Emoji · Tra chữ Hán theo lục thư bằng emoji</title>
 <style>
 :root{
-  --sand:#f3ecdd; --sand-deep:#e4d7bd; --clay:#b46a43; --ink:#2f2a22; --ink-soft:#8a8073;
-  --card:#fffdf7; --border:#e9dfca; --primary:#cf5a2c; --primary-foreground:#fff;
-  --semantic:#2f9e6f; --semantic-soft:#e2f3ea;   /* xanh lá = TRẠNG THÁI thành công */
-  --nghia:#2f7fd6; --nghia-soft:#e4eefb;         /* xanh dương = NGHĨA (semantic) */
-  --am:#d6455d; --am-soft:#fbe6ea;               /* đỏ = ÂM (phonetic) */
-  --danger:#d6455d; --berry:#c94f7c; --sun:#f2b705;
+  --sand:#f3ecdd;--sand-deep:#e4d7bd;--clay:#b46a43;--ink:#2f2a22;--ink-soft:#8a8073;
+  --card:#fffdf7;--border:#e9dfca;--primary:#cf5a2c;--primary-foreground:#fff;
+  --semantic:#2f9e6f;--semantic-soft:#e2f3ea;
+  --nghia:#2f7fd6;--nghia-soft:#e4eefb;--am:#d6455d;--am-soft:#fbe6ea;
+  --danger:#d6455d;--berry:#c94f7c;--sun:#f2b705;
   --grad-hero:linear-gradient(120deg,#f7913d 0%,#e0567a 52%,#9a6cf0 100%);
-  --shadow-pop:0 8px 20px -6px rgba(207,90,44,.45);
-  --shadow-lift:0 22px 48px -16px rgba(60,40,20,.32);
-  --bg:#f7f1e5;
+  --shadow-pop:0 8px 20px -6px rgba(207,90,44,.45);--shadow-lift:0 22px 48px -16px rgba(60,40,20,.32);--bg:#f7f1e5;
 }
-@media (prefers-color-scheme: dark){
-  :root{
-    --sand:#2b2620; --sand-deep:#3d3529; --clay:#d68a5c; --ink:#efe8db; --ink-soft:#a89e8c;
-    --card:#241f19; --border:#3a332a; --primary:#e06a3c; --primary-foreground:#fff;
-    --semantic:#4bbe8a; --semantic-soft:#1e3a2e;
-    --nghia:#5b9dd8; --nghia-soft:#1d2c3d; --am:#e0687c; --am-soft:#3a1e26;
-    --danger:#e0687c; --berry:#dd6f9a; --sun:#f2c33f; --bg:#191510;
-    --shadow-lift:0 22px 48px -16px rgba(0,0,0,.55);
-  }
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  background:
-    radial-gradient(1100px 520px at 12% -8%, color-mix(in srgb,var(--berry) 10%, transparent), transparent),
-    radial-gradient(1000px 480px at 100% 0%, color-mix(in srgb,var(--nghia) 10%, transparent), transparent),
-    var(--bg);
-  color:var(--ink); min-height:100vh;
-  font-family:"DM Sans","Segoe UI",Roboto,-apple-system,system-ui,sans-serif; line-height:1.5;
-}
+@media (prefers-color-scheme: dark){:root{
+  --sand:#2b2620;--sand-deep:#3d3529;--clay:#d68a5c;--ink:#efe8db;--ink-soft:#a89e8c;
+  --card:#241f19;--border:#3a332a;--primary:#e06a3c;--semantic:#4bbe8a;--semantic-soft:#1e3a2e;
+  --nghia:#5b9dd8;--nghia-soft:#1d2c3d;--am:#e0687c;--am-soft:#3a1e26;--danger:#e0687c;--berry:#dd6f9a;--sun:#f2c33f;--bg:#191510;
+  --shadow-lift:0 22px 48px -16px rgba(0,0,0,.55);
+}}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{background:radial-gradient(1100px 520px at 12% -8%,color-mix(in srgb,var(--berry) 10%,transparent),transparent),radial-gradient(1000px 480px at 100% 0%,color-mix(in srgb,var(--nghia) 10%,transparent),transparent),var(--bg);color:var(--ink);min-height:100vh;font-family:"DM Sans","Segoe UI",Roboto,-apple-system,system-ui,sans-serif;line-height:1.5}
 .font-cjk{font-family:"Noto Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei","Songti SC",serif}
 h1,h2,h3{font-family:"Space Grotesk","DM Sans",system-ui,sans-serif}
-em{font-style:italic}
-
 .shell{position:relative;overflow:hidden;min-height:100vh}
 .container{position:relative;max-width:1100px;margin:0 auto;padding:40px 24px 60px}
 @media(max-width:640px){.container{padding:24px 16px 48px}}
 .float-layer{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .float-glyph{position:absolute;font-weight:700;user-select:none;animation:float 9s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-26px)}}
-
-header.app{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:32px}
+header.app{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:30px}
 .brand{display:flex;align-items:center;gap:16px}
-.logo{position:relative;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;
-  font-size:34px;background:var(--grad-hero);background-size:200% 200%;box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite}
+.logo{position:relative;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:34px;background:var(--grad-hero);background-size:200% 200%;box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite}
 .logo .spark{position:absolute;top:-4px;right:-4px;width:16px;height:16px;border-radius:50%;background:var(--sun);animation:glow 2s ease-in-out infinite}
 @keyframes glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sun) 70%,transparent)}50%{box-shadow:0 0 0 8px transparent}}
 .brand h1{margin:0;font-size:32px;letter-spacing:-.5px;font-weight:700}
 .grad-text{background:var(--grad-hero);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gradient 6s ease infinite}
-.brand p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}
-.brand p b{color:var(--clay);font-weight:600}
+.brand p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}.brand p b{color:var(--clay);font-weight:600}
 .status-tag{display:flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:var(--card);border:1px solid var(--border)}
 .status-tag .dot{width:8px;height:8px;border-radius:50%;background:var(--semantic);animation:pulse 1.8s ease-in-out infinite}
 .status-tag span.txt{font-size:12px;font-weight:600;color:var(--ink-soft)}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 @media(max-width:560px){.status-tag{display:none}.brand h1{font-size:26px}}
-
-nav.modes{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
-.mode-btn{position:relative;border:2px solid var(--border);background:var(--card);color:var(--ink-soft);
-  padding:12px 18px;border-radius:16px;font-size:14px;font-weight:700;cursor:pointer;transition:.16s;overflow:hidden}
+nav.modes{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.mode-btn{position:relative;border:2px solid var(--border);background:var(--card);color:var(--ink-soft);padding:12px 18px;border-radius:16px;font-size:14px;font-weight:700;cursor:pointer;transition:.16s;overflow:hidden}
 .mode-btn:hover{color:var(--ink);transform:translateY(-2px);border-color:color-mix(in srgb,var(--clay) 40%,transparent)}
 .mode-btn.active{color:#fff;border-color:transparent;box-shadow:var(--shadow-pop);transform:scale(1.05)}
 .mode-btn .bar{position:absolute;inset:0;background-size:200% 200%;animation:gradient 6s ease infinite;opacity:0}
@@ -74,63 +52,52 @@ nav.modes{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
 .mode-btn .lbl{position:relative;display:flex;align-items:center;gap:8px}
 .mode-btn .hint{font-size:11px;font-weight:500;opacity:.7}
 @media(max-width:680px){.mode-btn .hint{display:none}}
-
-main.panel{position:relative;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(6px);
-  border:2px solid color-mix(in srgb,var(--border) 70%,transparent);border-radius:32px;
-  box-shadow:var(--shadow-lift);padding:40px;overflow:hidden;animation:popIn .4s cubic-bezier(.2,.8,.2,1)}
+main.panel{position:relative;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(6px);border:2px solid color-mix(in srgb,var(--border) 70%,transparent);border-radius:32px;box-shadow:var(--shadow-lift);padding:40px;overflow:hidden;animation:popIn .4s cubic-bezier(.2,.8,.2,1)}
 @media(max-width:640px){main.panel{padding:22px}}
 .panel-bar{position:absolute;left:0;right:0;top:0;height:6px;background-size:200% 200%;animation:gradient 6s ease infinite}
 @keyframes popIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
 @keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-
 footer.app{margin-top:34px;text-align:center;font-size:12px;color:var(--ink-soft)}
 footer.app code{background:var(--card);border:1px solid var(--border);padding:2px 8px;border-radius:7px;color:var(--clay);font-weight:600;margin:0 2px}
-
 .split{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:start}
 @media(max-width:900px){.split{grid-template-columns:1fr;gap:26px}}
-
-.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--grad-hero);background-size:200% 200%;
-  color:#fff;font-weight:700;padding:12px 24px;border:none;border-radius:16px;cursor:pointer;
-  box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite;transition:transform .15s,box-shadow .2s}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--grad-hero);background-size:200% 200%;color:#fff;font-weight:700;padding:12px 24px;border:none;border-radius:16px;cursor:pointer;box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite;transition:transform .15s,box-shadow .2s}
 .btn-primary:hover{transform:translateY(-2px) scale(1.02);box-shadow:var(--shadow-lift)}
-.btn-ghost{display:inline-flex;align-items:center;background:var(--card);color:var(--ink);border:2px solid var(--border);
-  font-weight:700;padding:10px 22px;border-radius:16px;cursor:pointer;transition:.15s}
+.btn-ghost{display:inline-flex;align-items:center;background:var(--card);color:var(--ink);border:2px solid var(--border);font-weight:700;padding:10px 22px;border-radius:16px;cursor:pointer;transition:.15s}
 .btn-ghost:hover{background:var(--sand);border-color:var(--clay);transform:translateY(-1px)}
-
-.pill{padding:8px 16px;border-radius:999px;font-size:14px;font-weight:500;border:1px solid var(--border);
-  background:var(--sand);color:var(--ink);cursor:pointer;transition:.14s}
+.pill{padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;border:1px solid var(--border);background:var(--sand);color:var(--ink);cursor:pointer;transition:.14s}
 .pill:hover{border-color:var(--sand-deep)}
 .pill.active{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}
 .pill .cjk{font-family:"Noto Sans SC",serif;margin-right:4px;font-size:16px}
-
-.step{display:flex;align-items:center;gap:8px;margin:26px 0 12px}
-.step:first-child{margin-top:0}
+.step{display:flex;align-items:center;gap:8px;margin:24px 0 12px}.step:first-child{margin-top:0}
 .step .num{width:24px;height:24px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center}
 .step h3{margin:0;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--clay)}
-
-/* type badge */
 .type-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--card);border:1px solid var(--border);font-size:13px;font-weight:700;color:var(--clay)}
-
-/* ===== CÔNG THỨC (formula) ===== */
+/* search + loader */
+.searchbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.searchbar input{flex:1;min-width:180px;padding:11px 14px;border:1px solid var(--border);border-radius:12px;background:var(--card);color:var(--ink);font-size:15px;outline:none}
+.searchbar input:focus{border-color:var(--nghia)}
+.pillwrap{display:flex;flex-wrap:wrap;gap:8px;max-height:118px;overflow:auto;margin-bottom:14px;padding:2px}
+.loader{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);margin-bottom:16px}
+.loader .file{cursor:pointer;padding:7px 14px;border-radius:10px;border:1px dashed var(--border);background:var(--sand);font-weight:600;color:var(--ink)}
+.loader .file:hover{border-color:var(--clay)}
+.loader input[type=file]{display:none}
+/* formula */
 .formula{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:18px 14px;border-radius:18px;background:var(--sand);border:1px solid var(--border);margin:14px 0}
 .fchip{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:70px;padding:10px 12px;border-radius:14px;background:var(--card);position:relative;overflow:hidden}
-.fchip.nghia{border:2px solid var(--nghia)}
-.fchip.am{border:2px solid var(--am)}
-.fchip.picto{border:2px dashed var(--border);min-width:96px}
-.fchip .fe{font-size:34px;line-height:1}
-.fchip.picto .fe{font-size:56px}
+.fchip.nghia{border:2px solid var(--nghia)}.fchip.am{border:2px solid var(--am)}
+.fchip.picto{border:2px dashed var(--border);min-width:96px}.fchip.plain{border:2px dashed var(--ink-soft)}
+.fchip .fe{font-size:34px;line-height:1}.fchip.picto .fe{font-size:56px}
 .fchip .fc{font-family:"Noto Sans SC",serif;font-size:32px;font-weight:600;color:var(--am);line-height:1}
+.fchip.nghia .fc,.fchip.plain .fc{color:var(--ink)}
 .fchip .fpy{font-size:12px;color:var(--am);font-weight:700}
-.fchip .fvi{font-size:10px;color:var(--ink-soft);max-width:76px;text-align:center}
+.fchip .fvi{font-size:10px;color:var(--ink-soft);max-width:80px;text-align:center}
 .fchip small{font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
-.fchip.nghia small{color:var(--nghia)}
-.fchip.am small{color:var(--am)}
+.fchip.nghia small{color:var(--nghia)}.fchip.am small{color:var(--am)}.fchip.plain small,.fchip.picto small{color:var(--ink-soft)}
 .fchip .ffade{position:absolute;right:-6px;bottom:-8px;font-size:30px;opacity:.16;pointer-events:none}
 .feq{font-size:24px;color:var(--ink-soft);font-weight:800}
 .fbig{font-family:"Noto Sans SC",serif;font-size:56px;font-weight:700;line-height:1}
-.fbig-wrap{display:flex;flex-direction:column;align-items:center;gap:2px}
-.fbig-wrap .fpy{font-size:13px;color:var(--ink-soft);font-weight:600}
-
+.fbig-wrap{display:flex;flex-direction:column;align-items:center;gap:2px}.fbig-wrap .fpy{font-size:13px;color:var(--ink-soft);font-weight:600}
 /* tianzige */
 .tianzige{position:relative;margin:0 auto;border-radius:20px;border:1px solid var(--border);background:var(--card);box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
 .tianzige.lg{aspect-ratio:1;width:100%;max-width:380px}
@@ -139,17 +106,14 @@ footer.app code{background:var(--card);border:1px solid var(--border);padding:2p
 .tz-cell{position:absolute;display:flex;align-items:center;justify-content:center;padding:12px;transition:all .3s}
 .tz-cell.left{left:0;top:0;bottom:0;width:50%}.tz-cell.right{right:0;top:0;bottom:0;width:50%}
 .tz-cell.top{left:0;right:0;top:0;height:50%}.tz-cell.bottom{left:0;right:0;bottom:0;height:50%}
+.tz-cell.whole,.tz-cell.part{inset:0}
 .tz-glyph{font-family:"Noto Sans SC",serif;font-weight:600;line-height:1}
-.tianzige.lg .tz-glyph{font-size:clamp(3.2rem,14vw,5.8rem)}
+.tianzige.lg .tz-glyph{font-size:clamp(3rem,13vw,5.4rem)}
 .tz-cell.dim{opacity:.2}
-.tz-full .tz-glyph{font-size:8rem;color:color-mix(in srgb,var(--sand-deep) 60%,transparent)}
-.tz-badge{position:absolute;right:-12px;bottom:-12px;width:56px;height:56px;border-radius:50%;background:var(--semantic);color:#fff;display:grid;place-items:center;font-size:26px;font-weight:700;box-shadow:var(--shadow-lift);animation:popIn .3s}
-/* pictograph big panel */
 .picto-panel{aspect-ratio:1;width:100%;max-width:380px;margin:0 auto;border-radius:20px;border:1px solid var(--border);background:var(--card);display:grid;place-items:center;box-shadow:inset 0 2px 12px rgba(60,45,30,.08);position:relative}
-.picto-panel .pe{font-size:9rem;line-height:1}
-.picto-panel .pg{position:absolute;right:16px;bottom:12px;font-family:"Noto Sans SC",serif;font-size:2.4rem;color:color-mix(in srgb,var(--sand-deep) 70%,transparent);font-weight:600}
-
-/* chips (learn/quiz/create) */
+.picto-panel .pe{font-size:8.5rem;line-height:1}
+.picto-panel .pchar{font-size:7rem}
+.picto-panel .pg{position:absolute;right:16px;bottom:12px;font-family:"Noto Sans SC",serif;font-size:2.2rem;color:color-mix(in srgb,var(--sand-deep) 70%,transparent);font-weight:600}
 .chip-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .radical-chip{width:96px;padding:12px;border-radius:14px;border:2px solid var(--border);background:var(--sand);cursor:pointer;transition:.15s;text-align:center;display:flex;flex-direction:column;align-items:center}
 .radical-chip:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
@@ -160,52 +124,59 @@ footer.app code{background:var(--card);border:1px solid var(--border);padding:2p
 .radical-chip .glyph{font-family:"Noto Sans SC",serif;font-size:22px;font-weight:600;margin-top:8px}
 .radical-chip .cap{font-size:11px;color:var(--ink-soft);margin-top:4px;min-height:26px}
 @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
-
-/* part card — new principle */
 .part-card{padding:14px;border-radius:14px;background:var(--card);border:1px solid var(--border);border-left:4px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.05);transition:.2s}
 .part-card:hover{box-shadow:0 6px 16px rgba(60,45,30,.1)}
-.part-card.nghia{border-left-color:var(--nghia)}
-.part-card.am{border-left-color:var(--am)}
+.part-card.nghia{border-left-color:var(--nghia)}.part-card.am{border-left-color:var(--am)}.part-card.plain{border-left-color:var(--ink-soft)}
 .part-card .row{display:flex;align-items:center;gap:14px}
 .role-visual{width:62px;height:62px;border-radius:14px;display:grid;place-items:center;flex-shrink:0;position:relative;overflow:hidden}
 .role-visual.nghia{background:var(--nghia-soft);border:2px solid var(--nghia)}
 .role-visual.am{background:var(--am-soft);border:2px solid var(--am)}
+.role-visual.plain{background:var(--sand);border:2px dashed var(--ink-soft)}
 .role-visual .rv-emoji{font-size:32px;line-height:1}
 .role-visual .rv-char{font-family:"Noto Sans SC",serif;font-size:34px;font-weight:600;color:var(--am);line-height:1}
+.role-visual.plain .rv-char{color:var(--ink-soft)}
 .role-visual .rv-fade{position:absolute;right:-4px;bottom:-6px;font-size:26px;opacity:.18}
-.part-card .meta{flex:1;min-width:0}
-.part-card .meta .head{font-size:15px}
-.part-card .meta .head b{font-weight:700}
+.part-card .meta{flex:1;min-width:0}.part-card .meta .head{font-size:15px}.part-card .meta .head b{font-weight:700}
 .part-card .meta .sub{font-size:12px;color:var(--ink-soft);margin-top:2px}
 .tags{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:999px}
-.tag.nghia{background:var(--nghia-soft);color:var(--nghia)}
-.tag.am{background:var(--am-soft);color:var(--am)}
+.tag.nghia{background:var(--nghia-soft);color:var(--nghia)}.tag.am{background:var(--am-soft);color:var(--am)}
 .tag.neutral{background:var(--sand);color:var(--ink-soft);border:1px solid var(--border)}
-.memory{margin-top:20px;padding:18px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic)}
-.memory .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:8px}
-.memory p{margin:0;font-size:15px;line-height:1.6}
+.memory{margin-top:18px;padding:16px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic)}
+.memory .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:6px}
+.memory p{margin:0;font-size:14px;line-height:1.6}
 .legend{display:flex;gap:16px;font-size:12px;color:var(--ink-soft);font-weight:500;margin:6px 0 14px;flex-wrap:wrap}
 .legend i{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:6px;vertical-align:middle}
 .vnote{margin-top:10px;font-size:12px;color:var(--ink-soft);background:var(--sand);border:1px dashed var(--border);border-radius:10px;padding:8px 12px}
-
-/* puzzle */
+.swblock{margin-top:10px;font-size:13px;line-height:1.5}
+.swblock .den{color:var(--ink)}.swblock .den b{color:var(--nghia)}
+.swblock .phai{color:var(--ink-soft);margin-top:2px}
+.swblock .kc{color:var(--clay);font-size:11px}
+.shuowen{margin-top:8px;border-top:1px dashed var(--border);padding-top:6px}
+.shuowen summary{cursor:pointer;font-size:11px;font-weight:700;color:var(--clay);letter-spacing:.04em;list-style:none}
+.shuowen summary::-webkit-details-marker{display:none}
+.shuowen summary::before{content:"▸ ";font-size:10px}
+.shuowen[open] summary::before{content:"▾ "}
+.shuowen .body{margin-top:8px;background:var(--sand);border-radius:10px;padding:10px 12px}
+.shuowen .sw-han{font-family:"Noto Sans SC",serif;font-size:15px;color:var(--ink);line-height:1.6}
+.shuowen .sw-lbl{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase;margin-bottom:4px}
+.shuowen .sw-dich{font-size:12px;color:var(--ink-soft);margin-top:6px}
+.shuowen .sw-vd{font-size:12px;color:var(--ink-soft);margin-top:8px;font-family:"Noto Sans SC",serif}
 .puzzle-board{aspect-ratio:1;width:100%;max-width:380px;margin:0 auto;position:relative;border-radius:20px;border:1px solid var(--border);background:var(--card);box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
 .puzzle-slot{position:absolute;border:2px dashed var(--border);border-radius:12px;display:grid;place-items:center;transition:.18s;background:color-mix(in srgb,var(--sand) 40%,transparent)}
 .puzzle-slot.is-over{border-color:var(--semantic);background:var(--semantic-soft);transform:scale(1.03)}
 .puzzle-slot.is-locked{border-style:solid;border-color:var(--border);background:var(--card)}
 .puzzle-slot.is-shake{animation:shake .45s;border-color:var(--danger)}
 .puzzle-slot .slot-hint{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:color-mix(in srgb,var(--ink-soft) 75%,transparent);text-align:center;padding:0 8px}
-.puzzle-slot .tz-glyph{font-size:clamp(3rem,13vw,5.2rem)}
+.puzzle-slot .tz-glyph{font-size:clamp(3rem,12vw,4.8rem)}
 .tray{display:flex;flex-wrap:wrap;gap:12px}
-.puzzle-piece{width:80px;padding:12px;border-radius:16px;border:2px solid var(--border);background:var(--card);box-shadow:0 2px 8px rgba(60,45,30,.06);text-align:center;cursor:grab;transition:.15s}
+.puzzle-piece{width:82px;padding:12px;border-radius:16px;border:2px solid var(--border);background:var(--card);box-shadow:0 2px 8px rgba(60,45,30,.06);text-align:center;cursor:grab;transition:.15s}
 .puzzle-piece:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
 .puzzle-piece.is-selected{border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 30%,transparent)}
 .puzzle-piece.is-used{opacity:.3;pointer-events:none;cursor:default}
 .puzzle-piece .em{font-size:20px;line-height:1}
-.puzzle-piece .g{font-family:"Noto Sans SC",serif;font-size:30px;font-weight:600;margin-top:4px}
-.puzzle-piece .c{font-size:10px;color:var(--ink-soft);margin-top:4px;font-family:"Noto Sans SC",serif}
-
+.puzzle-piece .g{font-family:"Noto Sans SC",serif;font-size:28px;font-weight:600;margin-top:4px}
+.puzzle-piece .c{font-size:10px;color:var(--ink-soft);margin-top:4px}
 .result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media(max-width:640px){.result-grid{grid-template-columns:repeat(2,1fr)}}
 .result-card{padding:16px;border-radius:14px;background:var(--card);border:1px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.05)}
@@ -215,14 +186,12 @@ footer.app code{background:var(--card);border:1px solid var(--border);padding:2p
 .result-card .rc-parts{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);text-align:center;font-size:12px;color:var(--ink-soft)}
 .result-card .rc-parts .g{font-family:"Noto Sans SC",serif;font-size:16px}
 .result-card .rc-parts .g.nghia{color:var(--nghia)}.result-card .rc-parts .g.am{color:var(--am)}
-
 .center{text-align:center}.muted{color:var(--ink-soft)}
-.util-row{margin-top:24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.util-row{margin-top:22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .quiz-glyph{margin:24px auto 0;width:190px;height:190px;border-radius:20px;background:var(--card);border:1px solid var(--border);display:grid;place-items:center;font-family:"Noto Sans SC",serif;font-size:88px;font-weight:600}
 .done-box{margin-top:20px;padding:20px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic);animation:popIn .35s}
 .done-box .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:6px}
 .char-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
-.char-head .big{font-family:"Noto Sans SC",serif;font-size:30px;font-weight:700}
 .char-head .info{font-size:14px;color:var(--ink-soft)}
 </style>
 </head>
@@ -233,406 +202,352 @@ footer.app code{background:var(--card);border:1px solid var(--border);padding:2p
     <div class="float-glyph" style="top:46%;right:-8px;font-size:8rem;opacity:.08;animation-delay:1.5s">💧</div>
     <div class="float-glyph" style="bottom:40px;left:22%;font-size:6rem;opacity:.08;animation-delay:3s">🔥</div>
   </div>
-
   <div class="container">
     <header class="app">
       <div class="brand">
         <div class="logo">🈶<span class="spark"></span></div>
-        <div>
-          <h1>Hán Tự <span class="grad-text">Emoji</span></h1>
-          <p>Chữ → loại chữ → phân rã → <b>công thức emoji</b> · NGHĨA 🔵 + ÂM 🔴</p>
-        </div>
+        <div><h1>Hán Tự <span class="grad-text">Emoji</span></h1>
+          <p>Chữ → lục thư → phân rã → <b>công thức emoji</b> · dữ liệu makemeahanzi</p></div>
       </div>
-      <div class="status-tag"><span class="dot"></span><span class="txt">5 chế độ · lục thư</span></div>
+      <div class="status-tag"><span class="dot"></span><span class="txt" id="dictCount">— chữ</span></div>
     </header>
-
     <nav class="modes" id="modeNav"></nav>
     <main class="panel"><div class="panel-bar" id="panelBar"></div><div id="panel"></div></main>
-
     <footer class="app">
-      Nguyên tắc hiển thị: <b>NGHĨA</b> = emoji (xanh dương) · <b>ÂM</b> = chữ Hán + pinyin (đỏ) · Tượng hình = emoji lớn.
-      &nbsp;Schema <code>component</code>·<code>variant</code>·<code>character</code> — chạy ngoại tuyến.
+      <b>NGHĨA</b> = emoji (xanh dương) · <b>ÂM</b> = chữ Hán + pinyin (đỏ) · Tượng hình = emoji lớn · thành phần nghĩa kèm <b>說文解字</b>.
+      &nbsp;Resolver: <code>variants</code>·<code>ambiguous</code> (阝月王)·<code>fallback</code> — <span id="testFlag">tests…</span> — chạy ngoại tuyến.
     </footer>
   </div>
 </div>
-
 <script>
-/* ===== FEEDBACK ===== */
+/* ================= FEEDBACK ================= */
 let _ac=null;
-function beep(freq=880,dur=90,type="sine",gain=0.06){try{_ac=_ac||new (window.AudioContext||window.webkitAudioContext)();const c=_ac,o=c.createOscillator(),g=c.createGain();o.type=type;o.frequency.value=freq;g.gain.setValueAtTime(gain,c.currentTime);g.gain.exponentialRampToValueAtTime(0.0001,c.currentTime+dur/1000);o.connect(g).connect(c.destination);o.start();o.stop(c.currentTime+dur/1000);}catch(e){}}
+function beep(f=880,d=90,t="sine",g=0.06){try{_ac=_ac||new (window.AudioContext||window.webkitAudioContext)();const c=_ac,o=c.createOscillator(),ga=c.createGain();o.type=t;o.frequency.value=f;ga.gain.setValueAtTime(g,c.currentTime);ga.gain.exponentialRampToValueAtTime(0.0001,c.currentTime+d/1000);o.connect(ga).connect(c.destination);o.start();o.stop(c.currentTime+d/1000);}catch(e){}}
 function buzz(p=25){try{navigator.vibrate&&navigator.vibrate(p);}catch(e){}}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function toneless(s){return (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();}
 
-/* ===== BẢNG EMOJI BỘ THỦ (từ radical_emoji_map.json) ===== */
-const RADICAL_MAP={
-  radicals:{
-    "人":["🧍","rén","người"],"女":["👩","nǚ","phụ nữ"],"子":["👶","zǐ","đứa trẻ / con"],
-    "口":["👄","kǒu","miệng"],"心":["❤️","xīn","tim / tâm trí"],"手":["✋","shǒu","tay"],
-    "水":["💧","shuǐ","nước"],"火":["🔥","huǒ","lửa"],"木":["🌳","mù","cây / gỗ"],
-    "日":["☀️","rì","mặt trời / ngày"],"月":["🌙","yuè","mặt trăng / tháng"],"山":["⛰️","shān","núi"],
-    "土":["🟫","tǔ","đất"],"田":["🌾","tián","ruộng"],"目":["👁️","mù","mắt"],"耳":["👂","ěr","tai"],
-    "足":["🦶","zú","chân"],"言":["💬","yán","lời nói"],"金":["🪙","jīn","kim loại / vàng"],
-    "糸":["🧵","sī","sợi tơ"],"竹":["🎋","zhú","tre trúc"],"米":["🍚","mǐ","gạo"],"食":["🍽️","shí","ăn / thức ăn"],
-    "衣":["👕","yī","áo quần"],"示":["⛩️","shì","thần linh / tế lễ"],"犬":["🐕","quǎn","chó"],
-    "牛":["🐂","niú","trâu bò"],"馬":["🐴","mǎ","ngựa"],"羊":["🐑","yáng","dê cừu"],"鳥":["🐦","niǎo","chim"],
-    "魚":["🐟","yú","cá"],"虫":["🐛","chóng","sâu bọ"],"貝":["🐚","bèi","vỏ sò (tiền)"],"車":["🚗","chē","xe"],
-    "門":["🚪","mén","cửa"],"雨":["🌧️","yǔ","mưa"],"風":["🌬️","fēng","gió"],"石":["🪨","shí","đá"],
-    "玉":["💎","yù","ngọc"],"刀":["🔪","dāo","dao"],"力":["💪","lì","sức mạnh"],"弓":["🏹","gōng","cây cung"],
-    "矢":["🎯","shǐ","mũi tên"],"走":["🏃","zǒu","chạy / đi"],"辵":["🚶","chuò","bước đi"],
-    "阜":["🏔️","fù","gò đất (trái)"],"邑":["🏘️","yì","thành ấp (phải)"],"肉":["🥩","ròu","thịt / cơ thể"],
-    "骨":["🦴","gǔ","xương"],"頁":["👤","yè","đầu người"],"疒":["🤒","nè","bệnh tật"],"宀":["🏠","mián","mái nhà"],
-    "广":["🏚️","yǎn","mái hiên"],"穴":["🕳️","xué","hang / lỗ"],"网":["🕸️","wǎng","cái lưới"],
-    "爪":["🐾","zhǎo","móng vuốt"],"老":["👴","lǎo","già"],"舟":["⛵","zhōu","thuyền"],"飛":["✈️","fēi","bay"],
-    "冫":["❄️","bīng","băng / lạnh"],"夕":["🌇","xī","chiều tối"],"立":["🕴️","lì","đứng"],"大":["🙆","dà","to lớn"],
-    "小":["🤏","xiǎo","nhỏ"],"白":["⚪","bái","trắng"],"青":["🌿","qīng","xanh (cây cỏ)"],
-    "黑":["⚫","hēi","đen"],"赤":["🔴","chì","đỏ"],"禾":["🌾","hé","cây lúa"],"艸":["🌱","cǎo","cỏ"],
-    "又":["🫱","yòu","tay phải"],"止":["🛑","zhǐ","bàn chân / dừng"],"戈":["🗡️","gē","cây giáo"],
-    "皿":["🥣","mǐn","bát đĩa"],"酉":["🍶","yǒu","bình rượu"]
-  },
-  variants:{"氵":"水","氺":"水","忄":"心","㣺":"心","扌":"手","龵":"手","灬":"火","亻":"人","𠆢":"人","刂":"刀","⺈":"刀","犭":"犬","艹":"艸","⺿":"艸","衤":"衣","礻":"示","飠":"食","饣":"食","讠":"言","訁":"言","钅":"金","釒":"金","纟":"糸","糹":"糸","⻊":"足","罒":"网","⺲":"网","⺩":"玉","牜":"牛","⺶":"羊","攵":"攴","耂":"老","⺮":"竹","辶":"辵","爫":"爪","见":"見","贝":"貝","页":"頁","门":"門","马":"馬","鸟":"鳥","鱼":"魚","车":"車","长":"長","风":"風","龙":"龍","齿":"齒","⻖":"阜","⻏":"邑"},
-  ambiguous:{"阝":{left:"阜",right:"邑"},"月":{default:"月",flesh:"肉"},"王":{default:"王",jade:"玉"}}
-};
-function baseOf(g){return RADICAL_MAP.variants[g]||g;}
-function emojiForHan(g){const r=RADICAL_MAP.radicals[baseOf(g)];return r?r[0]:null;}
+/* ================= DỮ LIỆU (radical_emoji_map + sample_dictionary) ================= */
+const RAD_RADICALS={"人":["🧍","rén","người"],"女":["👩","nǚ","phụ nữ"],"子":["👶","zǐ","đứa trẻ / con"],"口":["👄","kǒu","miệng"],"心":["❤️","xīn","tim / tâm trí"],"手":["✋","shǒu","tay"],"水":["💧","shuǐ","nước"],"火":["🔥","huǒ","lửa"],"木":["🌳","mù","cây / gỗ"],"日":["☀️","rì","mặt trời / ngày"],"月":["🌙","yuè","mặt trăng / tháng"],"山":["⛰️","shān","núi"],"土":["🟫","tǔ","đất"],"田":["🌾","tián","ruộng"],"目":["👁️","mù","mắt"],"耳":["👂","ěr","tai"],"足":["🦶","zú","chân"],"言":["💬","yán","lời nói"],"金":["🪙","jīn","kim loại / vàng"],"糸":["🧵","mì/sī","sợi tơ"],"竹":["🎋","zhú","tre trúc"],"米":["🍚","mǐ","gạo"],"食":["🍽️","shí","ăn / thức ăn"],"衣":["👕","yī","áo quần"],"示":["⛩️","shì","thần linh / tế lễ"],"犬":["🐕","quǎn","chó"],"牛":["🐂","niú","trâu bò"],"馬":["🐴","mǎ","ngựa"],"羊":["🐑","yáng","dê cừu"],"鳥":["🐦","niǎo","chim"],"魚":["🐟","yú","cá"],"虫":["🐛","chóng","sâu bọ / côn trùng"],"貝":["🐚","bèi","vỏ sò (tiền bạc)"],"車":["🚗","chē","xe"],"門":["🚪","mén","cửa"],"雨":["🌧️","yǔ","mưa"],"風":["🌬️","fēng","gió"],"石":["🪨","shí","đá"],"玉":["💎","yù","ngọc"],"刀":["🔪","dāo","dao"],"力":["💪","lì","sức mạnh"],"弓":["🏹","gōng","cây cung"],"矢":["🎯","shǐ","mũi tên"],"走":["🏃","zǒu","chạy / đi"],"辵":["🚶","chuò","bước đi / di chuyển"],"阜":["🏔️","fù","gò đất (bên TRÁI)"],"邑":["🏘️","yì","thành ấp (bên PHẢI)"],"肉":["🥩","ròu","thịt / cơ thể"],"骨":["🦴","gǔ","xương"],"頁":["👤","yè","đầu người"],"疒":["🤒","nè","bệnh tật"],"宀":["🏠","mián","mái nhà"],"广":["🏚️","yǎn","mái hiên / nhà rộng"],"穴":["🕳️","xué","hang / lỗ"],"网":["🕸️","wǎng","cái lưới"],"爪":["🐾","zhǎo","móng vuốt / bàn tay chụp xuống"],"攴":["✊","pū","tay cầm gậy gõ (hành động)"],"老":["👴","lǎo","già"],"龍":["🐉","lóng","rồng"],"齒":["🦷","chǐ","răng"],"長":["📏","cháng","dài / tóc dài"],"舟":["⛵","zhōu","thuyền"],"飛":["✈️","fēi","bay"],"鹿":["🦌","lù","hươu nai"],"虎":["🐯","hǔ","hổ"],"豕":["🐷","shǐ","lợn"],"鼠":["🐭","shǔ","chuột"],"龜":["🐢","guī","rùa"],"冫":["❄️","bīng","băng / lạnh"],"夕":["🌇","xī","buổi chiều tối"],"立":["🕴️","lì","đứng"],"大":["🙆","dà","to lớn (người dang tay)"],"小":["🤏","xiǎo","nhỏ"],"白":["⚪","bái","trắng"],"青":["🌿","qīng","xanh (màu cây cỏ)"],"黑":["⚫","hēi","đen"],"赤":["🔴","chì","đỏ"],"禾":["🌾","hé","cây lúa"],"艸":["🌱","cǎo","cỏ"],"又":["🫱","yòu","bàn tay phải"],"止":["🛑","zhǐ","bàn chân / dừng"],"戈":["🗡️","gē","cây giáo"],"皿":["🥣","mǐn","bát đĩa"],"酉":["🍶","yǒu","bình rượu"]};
+const RAD_VARIANTS={"氵":"水","氺":"水","忄":"心","㣺":"心","扌":"手","龵":"手","灬":"火","亻":"人","𠆢":"人","刂":"刀","⺈":"刀","犭":"犬","艹":"艸","⺿":"艸","衤":"衣","礻":"示","飠":"食","饣":"食","讠":"言","訁":"言","钅":"金","釒":"金","纟":"糸","糹":"糸","⻊":"足","罒":"网","⺲":"网","⺩":"玉","牜":"牛","⺧":"牛","⺶":"羊","⺷":"羊","攵":"攴","耂":"老","⺮":"竹","辶":"辵","⻌":"辵","⻍":"辵","爫":"爪","⺤":"爪","见":"見","贝":"貝","页":"頁","门":"門","马":"馬","鸟":"鳥","鱼":"魚","车":"車","长":"長","风":"風","龙":"龍","齿":"齒","⻖":"阜","⻏":"邑"};
+const RAD_ABSTRACT=["彳","冖","廴","尢","夂","癶","毋","无","匸","匚"];
+/* pinyin dự phòng cho thành phần ÂM không có mục riêng trong từ điển */
+const PINYIN_FB={"亡":"wáng","相":"xiàng","执":"zhí","昭":"zhāo","工":"gōng","可":"kě","者":"zhě","退":"tuì","干":"gān","元":"yuán","求":"qiú","艮":"gèn","子":"zǐ","元":"yuán"};
+/* Thuyết văn giải tự (4 tầng nghĩa) — shuowen_radicals_vi.json */
+const SHUOWEN={"人":["Hình người đứng nghiêng, thấy tay và chân","Chỉ con người, hành vi, phẩm chất, quan hệ giữa người với người","天地之性最貴者也。象臂脛之形。","Loài quý nhất trong tính của trời đất. Tượng hình cánh tay và ống chân.","他 (nó), 們 (những), 休 (nghỉ - người tựa cây)",0],"女":["Hình người quỳ, hai tay chắp trước ngực (tư thế phụ nữ thời cổ)","Chỉ phụ nữ, quan hệ hôn nhân - gia tộc; thời cổ còn gán cả nét nghĩa đẹp/xấu theo quan niệm xưa","婦人也。象形。","Là người đàn bà. Tượng hình.","媽 (mẹ), 妹 (em gái), 婚 (kết hôn), 好 (tốt)",0],"子":["Hình đứa trẻ sơ sinh: đầu to, hai tay dang, chân quấn tã","Chỉ con cái, trẻ nhỏ, sự sinh sôi; sau mở rộng thành hậu tố danh từ","十一月，陽气動，萬物滋，人以爲偁。象形。","Tháng mười một, khí dương chuyển động, vạn vật sinh sôi, người ta lấy đó làm tên gọi. Tượng hình.","孩 (trẻ), 孫 (cháu), 字 (chữ - con sinh trong nhà)",1],"口":["Hình cái miệng mở","Mọi thứ liên quan đến nói, ăn, âm thanh, lối ra vào (cửa khẩu)","人所以言食也。象形。","Cái mà người dùng để nói và ăn. Tượng hình.","吃 (ăn), 叫 (gọi), 唱 (hát), 問 (hỏi)",0],"心":["Hình quả tim (người xưa coi tim là nơi suy nghĩ)","Mọi hoạt động tâm lý: cảm xúc, suy nghĩ, ý chí, tính cách","人心，土藏，在身之中。象形。","Tim người, tạng thuộc hành thổ, nằm giữa thân. Tượng hình.","想 (nghĩ), 情 (tình cảm), 怕 (sợ), 忘 (quên)",0],"手":["Hình bàn tay xoè năm ngón","Mọi động tác dùng tay: cầm, đánh, kéo, đẩy, làm","拳也。象形。","Là nắm tay. Tượng hình.","打 (đánh), 拿 (cầm), 推 (đẩy), 找 (tìm)",0],"水":["Hình dòng nước chảy giữa hai bờ","Mọi thứ liên quan chất lỏng: sông hồ, mưa, rửa, chìm nổi, trong đục","準也。北方之行。象眾水並流，中有微陽之气也。","Là chuẩn mực (mặt nước phẳng). Hành của phương Bắc. Tượng hình các dòng nước cùng chảy, giữa có khí dương nhỏ.","河 (sông), 洗 (rửa), 汗 (mồ hôi), 酒 (rượu)",0],"火":["Hình ngọn lửa bốc cháy","Nhiệt, đốt, nấu nướng, ánh sáng, nóng giận","燬也。南方之行，炎而上。象形。","Là thiêu đốt. Hành của phương Nam, cháy bốc lên trên. Tượng hình.","熱 (nóng), 燒 (đốt), 煮 (nấu), 燈 (đèn)",0],"木":["Hình cái cây có cành trên, rễ dưới","Cây cối, gỗ và vật làm bằng gỗ","冒也。冒地而生。東方之行。","Là trồi lên. Trồi khỏi mặt đất mà mọc. Hành của phương Đông.","林 (rừng), 桌 (bàn), 椅 (ghế), 樹 (cây)",0],"日":["Hình mặt trời tròn có chấm giữa","Ánh sáng, thời gian (ngày, mùa), sáng - tối","實也。太陽之精不虧。","Là đầy đặn. Tinh của mặt trời không bao giờ khuyết.","明 (sáng), 時 (thời gian), 晚 (muộn), 春 (xuân)",0],"月":["Hình trăng lưỡi liềm","Trăng, tháng, ban đêm. CHÚ Ý: 月 đứng bên trái chữ đa số là biến dạng của 肉 (thịt), không phải trăng","闕也。大陰之精。","Là khuyết. Tinh của thái âm (mặt trăng lúc tròn lúc khuyết).","明 (sáng - trăng thật), 期 (kỳ hạn); còn 腿/肝 là 肉",0],"山":["Hình ba ngọn núi","Núi non, địa hình cao, hiểm trở","宣也。宣气散，生萬物，有石而高。","Là tuyên tán. Tuyên tán khí, sinh vạn vật, có đá mà cao.","峰 (đỉnh), 島 (đảo), 岸 (bờ)",0],"土":["Hình đống đất trên mặt nền","Đất đai, xây đắp, vùng miền","地之吐生物者也。","Là cái của đất nhả ra sinh vật.","地 (đất), 城 (thành), 場 (bãi), 坐 (ngồi)",0],"田":["Hình thửa ruộng chia bờ ngang dọc","Ruộng đồng, canh tác, khu vực","陳也。樹穀曰田。象四口。","Là bày hàng lối. Nơi trồng lúa gọi là điền. Tượng hình bốn ô ruộng.","界 (ranh giới), 留 (giữ lại), 男 (đàn ông - sức làm ruộng)",0],"目":["Hình con mắt (dựng đứng lại thành 目)","Nhìn, thấy, quan sát","人眼。象形。","Mắt người. Tượng hình.","看 (nhìn), 眼 (mắt), 睡 (ngủ - mắt nhắm)",0],"耳":["Hình cái tai","Nghe, âm thanh đến tai","主聽也。象形。","Chủ về nghe. Tượng hình.","聽 (nghe), 聞 (nghe/ngửi), 聲 (tiếng)",0],"足":["Hình cẳng chân nối bàn chân","Đi, chạy, nhảy, đá - mọi động tác của chân","人之足也。在下。从止口。","Chân người, ở phía dưới. Gồm 止 (bàn chân) và 口.","跑 (chạy), 跳 (nhảy), 踢 (đá), 路 (đường)",1],"言":["Hình cái lưỡi/miệng phát ra tiếng","Nói năng, ngôn ngữ, bàn luận, hứa hẹn","直言曰言，論難曰語。","Nói thẳng gọi là ngôn, bàn luận vặn hỏi gọi là ngữ.","說 (nói), 話 (lời), 請 (mời), 謝 (cảm ơn)",0],"金":["Hình quặng kim loại trong lòng đất","Kim loại nói chung, tiền bạc, đồ kim khí","五色金也。黃爲之長。","Kim loại năm màu, vàng đứng đầu.","錢 (tiền), 銀 (bạc), 鐘 (chuông), 鐵 (sắt)",0],"糸":["Hình bó sợi tơ xoắn","Sợi, vải, dệt, buộc nối, liên kết","細絲也。象束絲之形。","Tơ nhỏ. Tượng hình bó tơ.","紅 (đỏ - vải nhuộm), 線 (sợi chỉ), 給 (đưa), 結 (buộc)",0],"竹":["Hình hai nhánh lá tre rủ xuống","Tre trúc và đồ làm từ tre: sách (thẻ tre), bút, sáo, rổ rá","冬生艸也。象形。","Loài cỏ mọc mùa đông (xanh quanh năm). Tượng hình.","筆 (bút), 箱 (hòm), 簡 (thẻ tre/giản)",0],"米":["Hình các hạt gạo rời","Gạo, lương thực dạng hạt, bột","粟實也。象禾實之形。","Hạt của cây lúa. Tượng hình hạt lúa.","粉 (bột), 糖 (đường), 精 (tinh)",0],"食":["Hình nắp đậy trên bát cơm đầy","Ăn uống, thức ăn, nuôi dưỡng","(cần đối chiếu nguyên văn từ swjz.xml)","Nghĩa gốc: cơm, đồ ăn.","飯 (cơm), 餓 (đói), 館 (quán), 飲 (uống)",1],"衣":["Hình chiếc áo có cổ và hai vạt","Quần áo, vải vóc, che phủ","依也。上曰衣，下曰裳。","Là nương tựa (thân nương vào áo). Mặc trên gọi là y, dưới gọi là thường.","被 (chăn/bị), 裙 (váy), 補 (vá)",0],"示":["Hình bàn thờ tế lễ (một mặt bàn trên chân đế)","Thần linh, cúng tế, phúc hoạ, lễ nghi - KHÔNG phải nghĩa hiện đại 'cho xem'","天垂象，見吉凶，所以示人也。","Trời buông điềm tượng, cho thấy lành dữ, để bảo cho người biết.","神 (thần), 祖 (tổ tiên), 福 (phúc), 禮 (lễ)",0],"犬":["Hình con chó (dựng đứng)","Chó và thú bốn chân nói chung, tính hoang dã","狗之有縣蹄者也。象形。","Loài chó có móng treo. Tượng hình.","狗 (chó), 貓 (mèo), 獨 (một mình), 猜 (đoán)",0],"牛":["Hình đầu bò nhìn thẳng: hai sừng, hai tai","Trâu bò, gia súc lớn, việc đồng áng","大牲也。","Con vật tế lớn.","物 (vật), 牧 (chăn), 特 (đặc biệt - bò đực)",0],"馬":["Hình con ngựa có bờm tung","Ngựa, cưỡi, di chuyển nhanh","怒也。武也。象馬頭髦尾四足之形。","Là hăng, là võ dũng. Tượng hình đầu, bờm, đuôi, bốn chân ngựa.","騎 (cưỡi), 駛 (lái), 驚 (kinh sợ - ngựa hoảng)",0],"羊":["Hình đầu dê nhìn thẳng có hai sừng cong","Dê cừu; vì là vật tế nên phái sinh sang tốt lành, đẹp","祥也。象頭角足尾之形。","Là điềm lành. Tượng hình đầu, sừng, chân, đuôi.","美 (đẹp - dê to), 群 (bầy), 鮮 (tươi)",0],"鳥":["Hình con chim đủ mỏ, cánh, đuôi, chân","Các loài chim","長尾禽緫名也。象形。","Tên chung của loài chim đuôi dài. Tượng hình.","鴨 (vịt), 雞/鷄 (gà), 鳴 (hót)",0],"魚":["Hình con cá: đầu, thân vảy, đuôi (4 chấm dưới là đuôi, không phải lửa)","Cá và sinh vật thuỷ sinh","水蟲也。象形。","Loài vật sống dưới nước. Tượng hình.","鮮 (tươi), 鯨 (cá voi), 漁 (đánh cá)",0],"虫":["Hình con rắn - nghĩa gốc là RẮN, không phải sâu","Mở rộng thành côn trùng, bò sát, sinh vật nhỏ nói chung","一名蝮，博三寸，首大如擘指。","Tên khác là rắn hổ mang (phúc xà), rộng ba tấc, đầu to như ngón tay cái.","蛇 (rắn), 蚊 (muỗi), 蝦 (tôm), 蝶 (bướm)",0],"貝":["Hình vỏ sò","Vì vỏ sò từng là tiền tệ nên phái sinh: tiền bạc, của cải, mua bán, quý giá","海介蟲也。古者貨貝而寶龜。","Loài vật có vỏ ở biển. Thời cổ dùng vỏ sò làm tiền, coi rùa là báu.","買 (mua), 賣 (bán), 貴 (quý), 財 (tài sản)",0],"車":["Hình chiếc xe nhìn từ trên: thùng xe giữa, trục hai bên","Xe cộ, chuyên chở, máy móc quay","輿輪之緫名。夏后時奚仲所造。","Tên chung của thùng xe và bánh xe. Do Hề Trọng thời nhà Hạ chế ra.","輪 (bánh xe), 軍 (quân - xe trận), 轉 (quay)",0],"門":["Hình cửa hai cánh","Cửa, lối ra vào, gia môn, trường phái","聞也。从二戶。象形。","Là nghe (nơi trong ngoài nghe nhau). Gồm hai cánh 戶. Tượng hình.","開 (mở), 關 (đóng), 間 (khoảng giữa), 閱 (duyệt đọc)",0],"雨":["Hình giọt mưa rơi từ mây dưới bầu trời","Mọi hiện tượng thời tiết từ trên trời: mưa, tuyết, sương, sấm, mây","水從雲下也。一象天，冂象雲，水霝其閒也。","Nước từ mây rơi xuống. Nét 一 tượng trời, 冂 tượng mây, các chấm là nước rơi ở giữa.","雪 (tuyết), 雷 (sấm), 霧 (sương mù), 電 (điện/chớp)",0],"風":["Gió - trong chữ có 虫 vì quan niệm cổ gió sinh trùng","Gió, phong khí, phong tục, phong cách","八風也。風動蟲生。","Tám thứ gió (tám hướng). Gió động thì côn trùng sinh (nên trong chữ có 虫).","颳 (gió thổi), 飄 (bay phất phơ)",1],"石":["Hình hòn đá dưới vách núi","Đá, cứng rắn, khoáng vật","山石也。在厂之下；口，象形。","Đá núi. Ở dưới vách núi 厂; 口 tượng hình hòn đá.","硬 (cứng), 碗 (bát), 破 (vỡ), 礦 (mỏ)",0],"玉":["Hình chuỗi ba viên ngọc xâu bằng dây","Ngọc, đồ quý, trân bảo. Đứng bên trái chữ viết thành 王","石之美。有五德。","Loại đá đẹp, có năm đức (nhân, nghĩa, trí, dũng, khiết).","珍 (trân quý), 環 (vòng), 理 (vân ngọc/lý lẽ)",0],"刀":["Hình con dao có sống và lưỡi","Cắt, chém, chia tách, sắc bén","兵也。象形。","Là binh khí. Tượng hình.","分 (chia), 切 (cắt), 別 (tách/biệt), 利 (sắc/lợi)",0],"力":["Hình cánh tay gồng gân (hoặc cái cày)","Sức lực, cố gắng, công lao","筋也。象人筋之形。","Là gân. Tượng hình gân sức của người (hoặc cái cày theo giải nghĩa hiện đại).","動 (động), 助 (giúp), 勞 (lao động), 加 (thêm)",0],"弓":["Hình cây cung","Cung nỏ, bắn, cong, kéo căng","以近窮遠。象形。","Dùng cái gần để đạt tới cái xa. Tượng hình.","張 (giương), 引 (kéo/dẫn), 彈 (bật/đạn)",0],"矢":["Hình mũi tên: đầu nhọn, thân, đuôi lông","Tên bắn, thẳng, nhanh, thề (như tên đã bắn)","弓弩矢也。","Tên của cung nỏ.","知 (biết - nhanh như tên), 短 (ngắn), 矮 (thấp)",1],"走":["Hình người vung tay chạy trên bàn chân (夭 + 止)","Chạy, đi nhanh, rời đi","趨也。","Là rảo bước, chạy.","起 (dậy), 越 (vượt), 趕 (đuổi), 超 (siêu/vượt)",0],"辵":["Bước chân di chuyển trên đường","Di chuyển, đường đi, đến - lui, quá trình","乍行乍止也。从彳从止。","Chợt đi chợt dừng. Gồm 彳 (bước) và 止 (bàn chân).","過 (qua), 進 (tiến), 送 (đưa tiễn), 道 (đường/đạo)",0],"阜":["Hình bậc thang đất/gò đồi (viết bên TRÁI chữ thành 阝)","Địa hình cao thấp, lên xuống, chướng ngại","大陸，山無石者。象形。","Đất liền rộng lớn, núi không có đá. Tượng hình.","陽 (mặt trời phía gò - dương), 陰 (âm), 降 (xuống), 階 (bậc thang)",0],"邑":["Hình vòng thành (囗) trên người quỳ (卩) - nơi dân cư trú (viết bên PHẢI chữ thành 阝)","Thành ấp, địa danh, đơn vị hành chính","國也。","Là nước, là ấp (vùng đất có người ở, có phép tắc).","都 (đô), 郊 (ngoại ô), 部 (bộ), 那 (địa danh cổ)",0],"肉":["Hình miếng thịt có vân","Thịt, cơ thể, bộ phận cơ thể. Đứng cạnh chữ viết thành ⺼ (giống 月)","胾肉。象形。","Miếng thịt lớn. Tượng hình.","肚 (bụng), 腦 (não), 臉 (mặt), 胖 (béo)",0],"骨":["Hình khớp xương còn dính thịt","Xương cốt, khung sườn, cốt cách","肉之覈也。从冎有肉。","Là cái lõi của thịt. Gồm 冎 (xương sọ) có thêm thịt.","體 (thân thể), 骼 (bộ xương), 髓 (tuỷ)",0],"頁":["Hình người quỳ nhấn mạnh phần đầu - nghĩa gốc là ĐẦU, không phải 'trang giấy'","Đầu, mặt, các bộ phận và trạng thái vùng đầu","頭也。","Là cái đầu.","頭 (đầu), 顏 (mặt), 題 (đề/trán), 顧 (ngoảnh nhìn)",0],"疒":["Hình người ốm nằm tựa trên giường (giường dựng đứng)","Bệnh tật, đau ốm, tật xấu","倚也。人有疾病，象倚箸之形。","Là tựa. Người có bệnh, tượng hình người tựa vào giường.","病 (bệnh), 疼 (đau), 瘦 (gầy), 癌 (ung thư)",0],"宀":["Hình mái nhà có nóc và hai mái xuôi","Nhà cửa, chốn ở, sự che chở, ở yên","交覆深屋也。象形。","Nhà sâu có mái che phủ giao nhau. Tượng hình.","家 (nhà), 安 (yên), 室 (phòng), 宿 (trọ)",0],"广":["Hình mái nhà một bên dựa vách (nhà rộng mở một phía)","Nhà lớn, công trình có mái: xưởng, kho, phủ","因厂爲屋也。","Dựa vào vách núi 厂 mà làm nhà.","店 (cửa hàng), 廠 (xưởng), 座 (chỗ ngồi), 府 (phủ)",0],"穴":["Hình hang có mái che - nhà hang thời thượng cổ","Hang, lỗ, khoang rỗng, xuyên thủng","土室也。","Nhà trong đất (hang làm chỗ ở).","空 (rỗng/không), 窗 (cửa sổ), 突 (xông ra), 洞 dùng 氵nhưng 窟 dùng 穴",0],"网":["Hình tấm lưới có khung và mắt lưới đan chéo","Lưới, bắt giữ, bao trùm, hình phạt. Trên đầu chữ viết thành 罒","庖犧所結繩以漁。","Cái mà vua Bào Hy (Phục Hy) kết dây để đánh cá.","罪 (tội - lưới bắt), 罰 (phạt), 買 (mua - lưới + bối)",0],"爪":["Hình bàn tay chụp từ trên xuống","Cầm nắm, vồ lấy, móng vuốt. Trên đầu chữ viết thành 爫","丮也。覆手曰爪。","Là nắm giữ. Bàn tay úp xuống gọi là trảo.","抓 (vồ), 爬 (bò/leo), 采 (hái - tay trên cây)",0],"攴":["Hình bàn tay (又) cầm gậy/roi gõ xuống","Hành động tác động, sai khiến, sửa trị - bộ 'động từ hoá' rất mạnh. Đứng bên phải viết thành 攵","小擊也。","Là đánh nhẹ.","教 (dạy), 改 (sửa), 收 (thu), 放 (thả)",0],"老":["Hình người già tóc dài lưng còng chống gậy","Già, lâu năm, bậc trên, cũ kỹ","考也。七十曰老。","Là thọ khảo. Bảy mươi tuổi gọi là lão.","考 (khảo), 孝 (hiếu - con đỡ người già), 者 (kẻ/người)",0],"龍":["Hình con rồng: đầu có sừng, thân uốn","Rồng, đế vương, phi thường","鱗蟲之長。能幽能明，能細能巨，能短能長。","Đứng đầu loài có vảy. Có thể ẩn có thể hiện, có thể nhỏ có thể lớn, có thể ngắn có thể dài.","寵 (sủng ái), 龐 (to lớn/bàng)",0],"齒":["Hình hàm răng trong miệng mở (thêm 止 báo âm)","Răng, tuổi tác (xem răng biết tuổi), cắn","口齗骨也。象口齒之形。","Xương trong lợi miệng. Tượng hình răng trong miệng.","齡 (tuổi), 咬 dùng 口 nhưng 齧 dùng 齒",0],"長":["Hình người tóc dài (tóc dài = sống lâu)","Dài, lâu, trưởng thành, đứng đầu","久遠也。","Là lâu dài, xa xôi.","張 (giương - 長 báo âm), 髮 liên quan tóc dùng bộ 髟 (từ 長)",0],"舟":["Hình con thuyền độc mộc nhìn từ trên","Thuyền bè, chở, vượt sông","船也。古者共鼓貨狄，刳木爲舟。","Là thuyền. Thời xưa Cung Cổ, Hoá Địch khoét gỗ làm thuyền.","船 (thuyền), 航 (hàng hải), 般 (bàn/loại)",0],"飛":["Hình chim dang cánh bay, thấy cổ và hai cánh","Bay, nhanh, lơ lửng","鳥翥也。象形。","Chim cất cánh bay lên. Tượng hình.","飛機 (máy bay - từ ghép), 翻 dùng 羽 cùng họ hình tượng",0],"鹿":["Hình con hươu có gạc","Hươu nai và vẻ đẹp thanh tú","獸也。象頭角四足之形。","Loài thú. Tượng hình đầu, sừng, bốn chân.","麗 (đẹp - đôi gạc), 麓 (chân núi)",0],"虎":["Hình con hổ há miệng, thân vằn","Hổ, dũng mãnh, dữ tợn. Phần trên viết thành 虍","山獸之君。","Vua của loài thú núi.","號 (gào/hiệu), 虛 (hư - gò hổ ở), 慮 (lo)",0],"豕":["Hình con lợn bụng tròn đuôi cong","Lợn, gia súc trong nhà","彘也。竭其尾，故謂之豕。","Là con lợn. Vểnh đuôi lên nên gọi là thỉ.","家 (nhà - lợn dưới mái: nhà có gia súc), 豬 (lợn)",0],"鼠":["Hình con chuột: răng, bụng, chân, đuôi","Chuột và loài gặm nhấm","穴蟲之緫名也。象形。","Tên chung của loài vật ở hang. Tượng hình.","鼬 (chồn), 竄 (chạy trốn - chuột vào hang)",0],"龜":["Hình con rùa nhìn nghiêng: đầu, mai, chân, đuôi","Rùa, bói toán (mai rùa), trường thọ","舊也。外骨內肉者也。","Là lâu đời. Loài xương ngoài thịt trong.","Chủ yếu đứng độc lập; xuất hiện trong 龝 (thu cổ)",0],"冫":["Hình vân nứt của băng","Lạnh, đông cứng","凍也。象水凝之形。","Là đóng băng. Tượng hình nước đông lại (chữ gốc là 仌).","冷 (lạnh), 冰 (băng), 凍 (đông), 涼 dùng 氵nhưng 凉 dùng 冫",0],"夕":["Hình trăng non mới hiện - lúc chập tối","Buổi tối, đêm","莫也。从月半見。","Là chiều tối (mộ). Hình mặt trăng ló nửa.","夜 (đêm), 名 (tên - tối phải xưng tên), 多 (nhiều - hai đêm nối nhau)",0],"立":["Hình người (大) đứng trên mặt đất (一)","Đứng, dựng lập, tồn tại ngay","住也。","Là đứng yên.","站 (đứng), 位 (vị trí), 端 (đầu mối/ngay ngắn)",1],"大":["Hình người đứng thẳng dang rộng hai tay hai chân","To lớn, quan trọng, hết mức","天大，地大，人亦大。故大象人形。","Trời lớn, đất lớn, người cũng lớn. Nên chữ đại tượng hình người.","太 (thái/quá), 夫 (đàn ông trưởng thành), 天 (trời - trên đầu người)",0],"小":["Hình ba hạt cát/điểm nhỏ (vật chia nhỏ ra)","Nhỏ, ít, trẻ","物之微也。","Là cái nhỏ bé của vạn vật.","少 (ít), 尖 (nhọn - trên nhỏ dưới to), 尚 (còn/chuộng)",0],"白":["Có thuyết là hạt gạo, có thuyết là ánh mặt trời ló - biểu ý màu trắng/sáng","Trắng, sáng rõ, trống không, uổng phí","西方色也。陰用事，物色白。","Màu của phương Tây. Khí âm hành sự, vật ngả màu trắng.","的 (đích/trắng rõ), 皎 (sáng), 百 (trăm - 白 báo âm)",0],"青":["Màu của cây cỏ đang mọc - xanh lam/lục","Xanh, tươi trẻ; làm thành phần ÂM rất năng suất (qīng/jīng/qíng)","東方色也。木生火，从生丹。","Màu của phương Đông. Mộc sinh hoả, gồm 生 (mọc) và 丹 (khoáng đỏ).","清 (trong), 情 (tình), 請 (mời), 晴 (nắng)",0],"黑":["Hình ống khói/mặt người bị hun đen bên trên ngọn lửa","Đen, tối, mờ ám","火所熏之色也。","Màu do lửa hun khói mà thành.","墨 (mực), 默 (im lặng/mặc), 點 (chấm/điểm)",0],"赤":["Người trước đống lửa lớn - màu đỏ rực","Đỏ, trần trụi, trung thành (lòng son)","南方色也。从大从火。","Màu của phương Nam. Gồm 大 (người) và 火 (lửa).","赫 (rực rỡ), 赦 (tha - 赤 báo âm)",0],"禾":["Hình cây lúa trĩu bông cúi đầu","Lúa má, mùa màng, thuế khoá (nộp bằng thóc)","嘉穀也。二月始生，八月而孰。","Loài lúa quý. Tháng hai bắt đầu mọc, tháng tám thì chín.","種 (trồng/giống), 秋 (mùa thu), 稅 (thuế), 和 (hoà - 禾 báo âm)",0],"艸":["Hình hai mầm cỏ mọc lên (trên đầu chữ viết thành 艹)","Cỏ cây, thực vật thân mềm, thuốc (thảo dược)","百芔也。从二屮。","Trăm loài cỏ. Gồm hai chữ 屮 (mầm mọc).","花 (hoa), 茶 (trà), 菜 (rau), 藥 (thuốc)",0],"又":["Hình bàn tay phải nhìn nghiêng","Cầm nắm, hành động bằng tay; hư hoá thành 'lại, cũng'","手也。象形。","Là bàn tay. Tượng hình (ba ngón thay cho năm).","取 (lấy - tay cầm tai), 友 (bạn - hai tay nắm), 受 (nhận)",0],"止":["Hình BÀN CHÂN (giáp cốt văn thấy rõ ngón chân) - nghĩa gốc là chân, phái sinh mới là dừng","Đi đứng, dừng lại, vị trí đặt chân","下基也。象艸木出有址，故以止爲足。","Là nền dưới. Tượng cây cỏ mọc có gốc nền, nên mượn 止 làm nghĩa bàn chân.","步 (bước - hai bàn chân), 正 (chính - chân hướng đích), 此 (này)",0],"戈":["Hình cây qua - vũ khí đặc trưng thời Thương Chu","Chiến tranh, đánh dẹp, vũ khí","平頭戟也。","Loại kích đầu bằng (binh khí cán dài lưỡi ngang).","戰 (chiến), 我 (ta - vốn là một loại vũ khí), 或 (hoặc/vùng đất có vũ khí giữ), 伐 (đánh phạt)",0],"皿":["Hình cái bát/chậu có chân đế nhìn ngang","Đồ đựng, chứa","飯食之用器也。象形。","Đồ đựng dùng khi ăn cơm. Tượng hình.","盆 (chậu), 盒 (hộp), 盛 (đựng/thịnh), 益 (ích - nước tràn chậu)",0],"酉":["Hình vò rượu cổ thắt đáy nhọn - nghĩa gốc là BÌNH RƯỢU (sau bị mượn làm chi Dậu)","Rượu, lên men, ủ chế","就也。八月黍成，可爲酎酒。","Là thành tựu. Tháng tám lúa nếp chín, có thể cất rượu.","酒 (rượu), 醉 (say), 醋 (giấm), 醫 (y - rượu làm thuốc)",0]};
+let DICT=[{"character":"清","pinyin":["qīng"],"definition":"clear, pure; peaceful","decomposition":"⿰氵青","radical":"氵","etymology":{"type":"pictophonetic","semantic":"氵","hint":"water","phonetic":"青"}},{"character":"情","pinyin":["qíng"],"definition":"feeling, emotion","decomposition":"⿰忄青","radical":"忄","etymology":{"type":"pictophonetic","semantic":"忄","hint":"heart","phonetic":"青"}},{"character":"忙","pinyin":["máng"],"definition":"busy","decomposition":"⿰忄亡","radical":"忄","etymology":{"type":"pictophonetic","semantic":"忄","hint":"heart","phonetic":"亡"}},{"character":"想","pinyin":["xiǎng"],"definition":"to think, to want","decomposition":"⿱相心","radical":"心","etymology":{"type":"pictophonetic","semantic":"心","hint":"heart","phonetic":"相"}},{"character":"热","pinyin":["rè"],"definition":"hot, heat","decomposition":"⿱执灬","radical":"灬","etymology":{"type":"pictophonetic","semantic":"灬","hint":"fire","phonetic":"执"}},{"character":"照","pinyin":["zhào"],"definition":"to shine, to illuminate","decomposition":"⿱昭灬","radical":"灬","etymology":{"type":"pictophonetic","semantic":"灬","hint":"fire","phonetic":"昭"}},{"character":"江","pinyin":["jiāng"],"definition":"river","decomposition":"⿰氵工","radical":"氵","etymology":{"type":"pictophonetic","semantic":"氵","hint":"water","phonetic":"工"}},{"character":"河","pinyin":["hé"],"definition":"river","decomposition":"⿰氵可","radical":"氵","etymology":{"type":"pictophonetic","semantic":"氵","hint":"water","phonetic":"可"}},{"character":"阿","pinyin":["ā"],"definition":"prefix for names","decomposition":"⿰阝可","radical":"阝","etymology":{"type":"pictophonetic","semantic":"阝","hint":"mound","phonetic":"可"}},{"character":"都","pinyin":["dōu","dū"],"definition":"all; capital city","decomposition":"⿰者阝","radical":"阝","etymology":{"type":"pictophonetic","semantic":"阝","hint":"city","phonetic":"者"}},{"character":"腿","pinyin":["tuǐ"],"definition":"leg","decomposition":"⿰月退","radical":"月","etymology":{"type":"pictophonetic","semantic":"月","hint":"flesh","phonetic":"退"}},{"character":"肝","pinyin":["gān"],"definition":"liver","decomposition":"⿰月干","radical":"月","etymology":{"type":"pictophonetic","semantic":"月","hint":"flesh","phonetic":"干"}},{"character":"明","pinyin":["míng"],"definition":"bright, clear","decomposition":"⿰日月","radical":"日","etymology":{"type":"ideographic","hint":"the sun 日 and moon 月 shining together"}},{"character":"玩","pinyin":["wán"],"definition":"to play","decomposition":"⿰王元","radical":"王","etymology":{"type":"pictophonetic","semantic":"王","hint":"jade","phonetic":"元"}},{"character":"球","pinyin":["qiú"],"definition":"ball, sphere","decomposition":"⿰王求","radical":"王","etymology":{"type":"pictophonetic","semantic":"王","hint":"jade","phonetic":"求"}},{"character":"妈","pinyin":["mā"],"definition":"mother, mom","decomposition":"⿰女马","radical":"女","etymology":{"type":"pictophonetic","semantic":"女","hint":"woman","phonetic":"马"}},{"character":"好","pinyin":["hǎo","hào"],"definition":"good; to like","decomposition":"⿰女子","radical":"女","etymology":{"type":"ideographic","hint":"a woman 女 with a child 子"}},{"character":"很","pinyin":["hěn"],"definition":"very, quite","decomposition":"⿰彳艮","radical":"彳","etymology":{"type":"pictophonetic","semantic":"彳","hint":"step","phonetic":"艮"}},{"character":"木","pinyin":["mù"],"definition":"tree, wood","decomposition":"","radical":"木","etymology":{"type":"pictographic","hint":"a tree with branches and roots"}},{"character":"上","pinyin":["shàng"],"definition":"up, above; to go up","decomposition":"","radical":"一","etymology":{"type":"ideographic","hint":"a mark above the line 一"}},{"character":"水","pinyin":["shuǐ"],"definition":"water","decomposition":"","radical":"水","etymology":{"type":"pictographic","hint":"a river running between two banks"}},{"character":"火","pinyin":["huǒ"],"definition":"fire","decomposition":"","radical":"火","etymology":{"type":"pictographic","hint":"rising flames"}},{"character":"心","pinyin":["xīn"],"definition":"heart, mind","decomposition":"","radical":"心","etymology":{"type":"pictographic","hint":"a heart"}},{"character":"人","pinyin":["rén"],"definition":"person, human","decomposition":"","radical":"人","etymology":{"type":"pictographic","hint":"a person walking"}},{"character":"马","pinyin":["mǎ"],"definition":"horse","decomposition":"","radical":"马","etymology":{"type":"pictographic","hint":"a horse with mane and legs"}},{"character":"青","pinyin":["qīng"],"definition":"blue-green; young","decomposition":"⿱⺩月","radical":"青","etymology":{"type":"ideographic","hint":"the color of sprouting plants"}}];
 
-/* ===== component · variant · character ===== */
-const COMPONENT={
-  heart:{canonical:"心",variantGlyph:"忄",emoji:"❤️",pinyin:"xīn",vi:"tim / cảm xúc (bộ Tâm)"},
-  water:{canonical:"水",variantGlyph:"氵",emoji:"💧",pinyin:"shuǐ",vi:"nước (bộ Thủy)"},
-  hand:{canonical:"手",variantGlyph:"扌",emoji:"✋",pinyin:"shǒu",vi:"bàn tay (bộ Thủ)"},
-  sun:{canonical:"日",emoji:"☀️",pinyin:"rì",vi:"mặt trời, ngày (bộ Nhật)"},
-  moon:{canonical:"月",emoji:"🌙",pinyin:"yuè",vi:"mặt trăng, tháng (bộ Nguyệt)"},
-  tree:{canonical:"木",emoji:"🌳",pinyin:"mù",vi:"cây, gỗ (bộ Mộc)"},
-  woman:{canonical:"女",emoji:"👩",pinyin:"nǚ",vi:"nữ, con gái (bộ Nữ)"},
-  qing:{canonical:"青",emoji:"🌿",pinyin:"qīng",vi:"xanh (thanh)"},
-  ke:{canonical:"可",emoji:null,pinyin:"kě",vi:"có thể (khả)"},
-  gong:{canonical:"工",emoji:null,pinyin:"gōng",vi:"công việc (công)"},
-  bai:{canonical:"白",emoji:"⚪",pinyin:"bái",vi:"trắng (bạch)"},
-  guai:{canonical:"夬",emoji:null,pinyin:"guài",vi:"quải"},
-  ma:{canonical:"马",emoji:"🐴",pinyin:"mǎ",vi:"ngựa (mã)"},
-  yang:{canonical:"羊",emoji:"🐑",pinyin:"yáng",vi:"dê (dương)"},
-  wang:{canonical:"亡",emoji:null,pinyin:"wáng",vi:"mất (vong)"},
-  ding:{canonical:"丁",emoji:null,pinyin:"dīng",vi:"đinh"},
-};
-const VARIANT=[
-  {id:"heart_l",glyph:"忄",comp:"heart",pos:"left",canonical:false},
-  {id:"heart_b",glyph:"心",comp:"heart",pos:"bottom",canonical:true},
-  {id:"water_l",glyph:"氵",comp:"water",pos:"left",canonical:false},
-  {id:"hand_l",glyph:"扌",comp:"hand",pos:"left",canonical:false},
-  {id:"sun_l",glyph:"日",comp:"sun",pos:"left",canonical:true},
-  {id:"moon_r",glyph:"月",comp:"moon",pos:"right",canonical:true},
-  {id:"tree_l",glyph:"木",comp:"tree",pos:"left",canonical:true},
-  {id:"tree_r",glyph:"木",comp:"tree",pos:"right",canonical:true},
-  {id:"woman_l",glyph:"女",comp:"woman",pos:"left",canonical:true},
-  {id:"qing_r",glyph:"青",comp:"qing",pos:"right",canonical:true},
-  {id:"ke_r",glyph:"可",comp:"ke",pos:"right",canonical:true},
-  {id:"gong_r",glyph:"工",comp:"gong",pos:"right",canonical:true},
-  {id:"bai_r",glyph:"白",comp:"bai",pos:"right",canonical:true},
-  {id:"guai_r",glyph:"夬",comp:"guai",pos:"right",canonical:true},
-  {id:"ma_r",glyph:"马",comp:"ma",pos:"right",canonical:true},
-  {id:"yang_r",glyph:"羊",comp:"yang",pos:"right",canonical:true},
-  {id:"wang_t",glyph:"亡",comp:"wang",pos:"top",canonical:true},
-  {id:"ding_r",glyph:"丁",comp:"ding",pos:"right",canonical:true},
-];
-const variantById={};VARIANT.forEach(v=>variantById[v.id]=v);
-
-/* Chữ hình thanh / hội ý (có phân rã NGHĨA + ÂM) */
-const CHARACTER=[
-  {glyph:"情",pinyin:"qíng",meaning:"tình cảm",type:"hình thanh",parts:[{comp:"heart",variant:"heart_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],memory:"Trái <b>tim</b> ❤️ rung động trước sắc <b>xanh</b> 青 → <b>情</b> tình cảm."},
-  {glyph:"清",pinyin:"qīng",meaning:"trong, sạch",type:"hình thanh",parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],memory:"<b>Nước</b> 💧 ánh <b>xanh</b> 青 trong veo → <b>清</b> trong sạch."},
-  {glyph:"快",pinyin:"kuài",meaning:"nhanh; vui",type:"hình thanh",parts:[{comp:"heart",variant:"heart_l",role:"semantic",pos:"left"},{comp:"guai",variant:"guai_r",role:"phonetic",pos:"right"}],memory:"<b>Tim</b> ❤️ rộn ràng 夬 → <b>快</b> nhanh, vui."},
-  {glyph:"晴",pinyin:"qíng",meaning:"trời nắng",type:"hình thanh",parts:[{comp:"sun",variant:"sun_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],memory:"<b>Mặt trời</b> ☀️ giữa trời <b>xanh</b> 青 → <b>晴</b> nắng đẹp."},
-  {glyph:"河",pinyin:"hé",meaning:"sông",type:"hình thanh",parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"ke",variant:"ke_r",role:"phonetic",pos:"right"}],memory:"<b>Nước</b> 💧 chảy 可 → <b>河</b> dòng sông."},
-  {glyph:"江",pinyin:"jiāng",meaning:"sông lớn",type:"hình thanh",parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"gong",variant:"gong_r",role:"phonetic",pos:"right"}],memory:"<b>Nước</b> 💧 mênh mông 工 → <b>江</b> sông lớn."},
-  {glyph:"洋",pinyin:"yáng",meaning:"đại dương",type:"hình thanh",parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"yang",variant:"yang_r",role:"phonetic",pos:"right"}],memory:"<b>Nước</b> 💧 bao la 羊 → <b>洋</b> đại dương."},
-  {glyph:"拍",pinyin:"pāi",meaning:"vỗ, đập",type:"hình thanh",parts:[{comp:"hand",variant:"hand_l",role:"semantic",pos:"left"},{comp:"bai",variant:"bai_r",role:"phonetic",pos:"right"}],memory:"<b>Tay</b> ✋ vỗ 白 → <b>拍</b> vỗ tay."},
-  {glyph:"打",pinyin:"dǎ",meaning:"đánh",type:"hình thanh",parts:[{comp:"hand",variant:"hand_l",role:"semantic",pos:"left"},{comp:"ding",variant:"ding_r",role:"phonetic",pos:"right"}],memory:"<b>Tay</b> ✋ vung 丁 → <b>打</b> đánh."},
-  {glyph:"妈",pinyin:"mā",meaning:"mẹ",type:"hình thanh",parts:[{comp:"woman",variant:"woman_l",role:"semantic",pos:"left"},{comp:"ma",variant:"ma_r",role:"phonetic",pos:"right"}],memory:"<b>Người nữ</b> 👩 thân thương 马 → <b>妈</b> mẹ."},
-  {glyph:"忘",pinyin:"wàng",meaning:"quên",type:"hội ý + thanh",parts:[{comp:"wang",variant:"wang_t",role:"phonetic",pos:"top"},{comp:"heart",variant:"heart_b",role:"semantic",pos:"bottom"}],memory:"<b>Mất</b> 亡 khỏi trái <b>tim</b> ❤️ → <b>忘</b> quên."},
-  {glyph:"明",pinyin:"míng",meaning:"sáng",type:"hội ý",parts:[{comp:"sun",variant:"sun_l",role:"semantic",pos:"left"},{comp:"moon",variant:"moon_r",role:"semantic",pos:"right"}],memory:"<b>Mặt trời</b> ☀️ và <b>mặt trăng</b> 🌙 → <b>明</b> sáng."},
-  {glyph:"林",pinyin:"lín",meaning:"rừng",type:"hội ý",parts:[{comp:"tree",variant:"tree_l",role:"semantic",pos:"left"},{comp:"tree",variant:"tree_r",role:"semantic",pos:"right"}],memory:"Hai <b>cây</b> 🌳🌳 → <b>林</b> rừng."},
-];
-
-/* Chữ tượng hình / chỉ sự → 1 emoji lớn */
-const PICTOGRAPH=[
-  {glyph:"木",pinyin:"mù",meaning:"cây, gỗ",type:"tượng hình",emoji:"🌳",hint:"Hình một cái cây có cành và rễ."},
-  {glyph:"日",pinyin:"rì",meaning:"mặt trời, ngày",type:"tượng hình",emoji:"☀️",hint:"Vòng tròn mặt trời với chấm ở giữa."},
-  {glyph:"月",pinyin:"yuè",meaning:"mặt trăng, tháng",type:"tượng hình",emoji:"🌙",hint:"Hình vầng trăng khuyết."},
-  {glyph:"水",pinyin:"shuǐ",meaning:"nước",type:"tượng hình",emoji:"💧",hint:"Dòng nước đang chảy."},
-  {glyph:"火",pinyin:"huǒ",meaning:"lửa",type:"tượng hình",emoji:"🔥",hint:"Ngọn lửa bốc lên."},
-  {glyph:"山",pinyin:"shān",meaning:"núi",type:"tượng hình",emoji:"⛰️",hint:"Ba đỉnh núi nhô lên."},
-  {glyph:"女",pinyin:"nǚ",meaning:"phụ nữ",type:"tượng hình",emoji:"👩",hint:"Hình người phụ nữ đang quỳ."},
-  {glyph:"口",pinyin:"kǒu",meaning:"miệng",type:"tượng hình",emoji:"👄",hint:"Hình cái miệng mở."},
-  {glyph:"目",pinyin:"mù",meaning:"mắt",type:"tượng hình",emoji:"👁️",hint:"Hình con mắt (dựng đứng)."},
-  {glyph:"手",pinyin:"shǒu",meaning:"tay",type:"tượng hình",emoji:"✋",hint:"Bàn tay với năm ngón."},
-  {glyph:"人",pinyin:"rén",meaning:"người",type:"tượng hình",emoji:"🧍",hint:"Hình người đứng nhìn nghiêng."},
-  {glyph:"田",pinyin:"tián",meaning:"ruộng",type:"tượng hình",emoji:"🌾",hint:"Thửa ruộng chia ô."},
-  {glyph:"上",pinyin:"shàng",meaning:"phía trên",type:"chỉ sự",emoji:"⬆️",hint:"Vạch ngắn nằm TRÊN vạch dài → ý niệm 'trên'."},
-  {glyph:"下",pinyin:"xià",meaning:"phía dưới",type:"chỉ sự",emoji:"⬇️",hint:"Vạch ngắn nằm DƯỚI vạch dài → ý niệm 'dưới'."},
-];
-const ALLCHARS=CHARACTER.concat(PICTOGRAPH);
-
-const POS_LABEL={left:"bên trái",right:"bên phải",top:"phía trên",bottom:"phía dưới"};
-const NORMALIZE={"心":"heart","忄":"heart","⺗":"heart","水":"water","氵":"water","氺":"water","手":"hand","扌":"hand","日":"sun","月":"moon","木":"tree","女":"woman","青":"qing","可":"ke","工":"gong","白":"bai","夬":"guai","马":"ma","羊":"yang","亡":"wang","丁":"ding"};
-function normalize(g){return NORMALIZE[g]||null;}
-function findChar(g){return ALLCHARS.find(c=>c.glyph===g)||null;}
-function searchByComponents(ids){return CHARACTER.filter(c=>ids.every(id=>c.parts.some(p=>p.comp===id)));}
-
-const TYPE_BADGE={
-  "tượng hình":["🖼","Tượng hình"],"chỉ sự":["💡","Chỉ sự"],
-  "hội ý":["💡","Hội ý"],"hội ý + thanh":["🧩","Hội ý + thanh"],"hình thanh":["🧩","Hình thanh"],
-};
-function typeBadge(t){const b=TYPE_BADGE[t]||["❓","Chưa phân loại"];return `<span class="type-badge">${b[0]} ${b[1]}</span>`;}
-
-/* ===== CÔNG THỨC / FORMULA ===== */
-function formulaChip(part){
-  const c=COMPONENT[part.comp],v=variantById[part.variant];
-  if(part.role==="semantic"){
-    const emo=c.emoji||emojiForHan(c.canonical)||c.canonical;
-    return `<span class="fchip nghia"><span class="fe">${emo}</span><span class="fvi">${esc(c.vi.split("(")[0].trim())}</span><small>NGHĨA</small></span>`;
+/* ================= RESOLVER (logic thuần) ================= */
+function baseOf(g){return RAD_VARIANTS[g]||g;}
+function emojiForHan(g){const r=RAD_RADICALS[baseOf(g)];return r?r[0]:null;}
+function radInfo(base,orig){
+  const r=RAD_RADICALS[base];
+  if(r) return {found:true,base,orig,emoji:r[0],pinyin:r[1],vi:r[2],isVariant:base!==orig};
+  return {found:false,base,orig,emoji:null,pinyin:PINYIN_FB[orig]||null,vi:null,isVariant:false,text:orig};
+}
+/* resolveComponent: (comp, position, context{hint}) -> {found,emoji,pinyin,vi,base,isVariant} */
+function resolveComponent(comp,position,context){
+  context=context||{};
+  if(comp==="阝") return radInfo(position==="right"?"邑":"阜",comp);
+  if(comp==="月") return radInfo(context.hint==="flesh"?"肉":"月",comp);
+  if(comp==="王") return radInfo(position==="left"?"玉":"王",comp);
+  return radInfo(baseOf(comp),comp);
+}
+/* Parser IDS -> danh sách thành phần cấp cao nhất kèm vị trí */
+const IDS_BINARY=new Set(["⿰","⿱","⿴","⿵","⿶","⿷","⿸","⿹","⿺","⿻"]);
+const IDS_TERNARY=new Set(["⿲","⿳"]);
+const IDS_POS={"⿰":["left","right"],"⿱":["top","bottom"],"⿲":["left","middle","right"],"⿳":["top","middle","bottom"],"⿴":["outer","inner"],"⿵":["outer","inner"],"⿶":["outer","inner"],"⿷":["outer","inner"],"⿸":["outer","inner"],"⿹":["outer","inner"],"⿺":["outer","inner"],"⿻":["outer","inner"]};
+function parseNode(chars,i){
+  const ch=chars[i];
+  if(IDS_BINARY.has(ch)||IDS_TERNARY.has(ch)){
+    const n=IDS_TERNARY.has(ch)?3:2;let idx=i+1;const kids=[];
+    for(let k=0;k<n;k++){const r=parseNode(chars,idx);kids.push(r[0]);idx=r[1];}
+    return [{op:ch,kids},idx];
   }
-  const fade=emojiForHan(c.canonical);
-  return `<span class="fchip am"><span class="fc font-cjk">${esc(v.glyph)}</span><span class="fpy">${c.pinyin}</span><small>ÂM</small>${fade?`<span class="ffade">${fade}</span>`:""}</span>`;
+  return [{leaf:ch},i+1];
+}
+function nodeGlyph(n){return n.leaf?n.leaf:(n.kids?n.kids.map(nodeGlyph).join(""):"");}
+function topOperands(decomp){
+  if(!decomp) return [];
+  const chars=Array.from(decomp);
+  let root;try{root=parseNode(chars,0)[0];}catch(e){return [];}
+  if(!root.op) return [{glyph:root.leaf,pos:"whole"}];
+  const poss=IDS_POS[root.op]||[];
+  return root.kids.map((k,idx)=>({glyph:nodeGlyph(k),pos:poss[idx]||"part"}));
+}
+/* analyzeCharacter: entry makemeahanzi -> đối tượng hiển thị chuẩn hoá */
+function lookupPinyin(g){const e=DICT_BY_CHAR[g];if(e)return e.pinyin[0];return PINYIN_FB[g]||null;}
+function analyzeChar(entry){
+  const ety=entry.etymology||{};
+  const base={glyph:entry.character,pinyin:(entry.pinyin||[])[0]||"",def:entry.definition||"",decomp:entry.decomposition||"",radical:entry.radical};
+  const ops=topOperands(entry.decomposition);
+  const posOf=g=>{const o=ops.find(o=>o.glyph===g);return o?o.pos:null;};
+  if(ety.type==="pictophonetic"){
+    const sPos=posOf(ety.semantic)||"left";
+    const sem=resolveComponent(ety.semantic,sPos,{hint:ety.hint});
+    const pPos=posOf(ety.phonetic)||(sPos==="left"?"right":sPos==="top"?"bottom":"right");
+    return {...base,type:"hình thanh",kind:"pictophonetic",hint:ety.hint,
+      parts:[{role:"semantic",glyph:ety.semantic,pos:sPos,res:sem},
+             {role:"phonetic",glyph:ety.phonetic,pos:pPos,pinyin:lookupPinyin(ety.phonetic),fade:emojiForHan(ety.phonetic)}]};
+  }
+  if(ety.type==="pictographic"){
+    return {...base,type:"tượng hình",kind:"pictographic",hint:ety.hint,pictoEmoji:emojiForHan(entry.character)};
+  }
+  /* ideographic / chỉ sự / hội ý */
+  if(RAD_RADICALS[baseOf(entry.character)]){
+    return {...base,type:entry.decomposition?"hội ý":"chỉ sự",kind:"ideographic",hint:ety.hint,pictoEmoji:RAD_RADICALS[baseOf(entry.character)][0]};
+  }
+  if(entry.decomposition){
+    const parts=ops.map(o=>({role:"semantic",glyph:o.glyph,pos:o.pos,res:resolveComponent(o.glyph,o.pos,{hint:ety.hint})}));
+    return {...base,type:"hội ý",kind:"ideographic",hint:ety.hint,parts};
+  }
+  return {...base,type:"chỉ sự",kind:"ideographic",hint:ety.hint};
+}
+
+/* ================= INDEX ================= */
+let DICT_BY_CHAR={},CHARS=[],CHAR_BY_GLYPH={},COMPOUNDS=[];
+function rebuildIndex(){
+  DICT_BY_CHAR={};DICT.forEach(e=>DICT_BY_CHAR[e.character]=e);
+  CHARS=DICT.map(analyzeChar);CHAR_BY_GLYPH={};CHARS.forEach(c=>CHAR_BY_GLYPH[c.glyph]=c);
+  COMPOUNDS=CHARS.filter(c=>c.kind==="pictophonetic");
+  const el=document.getElementById("dictCount");if(el)el.textContent=DICT.length+" chữ";
+}
+function partKey(p){return p.role==="semantic"?p.res.base:baseOf(p.glyph);}
+function compInfo(base){const r=RAD_RADICALS[base];return {base,emoji:r?r[0]:null,pinyin:r?r[1]:(PINYIN_FB[base]||""),vi:r?r[2]:""};}
+function searchByComponents(bases){return COMPOUNDS.filter(c=>bases.every(b=>c.parts.some(p=>partKey(p)===b)));}
+
+/* ================= HELPER HIỂN THỊ ================= */
+const TYPE_BADGE={"hình thanh":["🧩","Hình thanh"],"tượng hình":["🖼","Tượng hình"],"chỉ sự":["💡","Chỉ sự"],"hội ý":["💡","Hội ý"]};
+function typeBadge(t){const b=TYPE_BADGE[t]||["❓","Chưa phân loại"];return `<span class="type-badge">${b[0]} ${b[1]}</span>`;}
+function formulaChip(p){
+  if(p.role==="semantic"){
+    const r=p.res;
+    if(r.emoji) return `<span class="fchip nghia"><span class="fe">${r.emoji}</span><span class="fvi">${esc(r.vi||"")}</span><small>NGHĨA</small></span>`;
+    return `<span class="fchip plain"><span class="fc font-cjk">${esc(p.glyph)}</span><small>NGHĨA</small></span>`;
+  }
+  return `<span class="fchip am"><span class="fc font-cjk">${esc(p.glyph)}</span>${p.pinyin?`<span class="fpy">${p.pinyin}</span>`:""}<small>ÂM</small>${p.fade?`<span class="ffade">${p.fade}</span>`:""}</span>`;
 }
 function renderFormula(ch){
-  if(!ch.parts||!ch.parts.length){
-    return `<div class="formula"><span class="fchip picto"><span class="fe">${ch.emoji||"❓"}</span><small>${(ch.type||"").toUpperCase()}</small></span>
-      <span class="feq">=</span><span class="fbig-wrap"><span class="fbig font-cjk">${ch.glyph}</span><span class="fpy">${ch.pinyin}</span></span></div>`;
-  }
-  const chips=ch.parts.map(formulaChip).join('<span class="feq">+</span>');
-  return `<div class="formula">${chips}<span class="feq">=</span><span class="fbig-wrap"><span class="fbig font-cjk">${ch.glyph}</span><span class="fpy">${ch.pinyin}</span></span></div>`;
+  const eq=`<span class="feq">=</span><span class="fbig-wrap"><span class="fbig font-cjk">${ch.glyph}</span><span class="fpy">${ch.pinyin}</span></span>`;
+  if(ch.pictoEmoji) return `<div class="formula"><span class="fchip picto"><span class="fe">${ch.pictoEmoji}</span><small>${ch.type}</small></span>${eq}</div>`;
+  if(ch.parts&&ch.parts.length){return `<div class="formula">${ch.parts.map(formulaChip).join('<span class="feq">+</span>')}${eq}</div>`;}
+  return `<div class="formula"><span class="fchip plain"><span class="fc font-cjk">${ch.glyph}</span><small>${ch.type}</small></span>${eq}</div>`;
 }
-
-/* ===== TIANZIGE (màu theo VAI TRÒ: NGHĨA xanh dương / ÂM đỏ) ===== */
 function Tianzige(parts,dimComp){
-  let cells;
-  if(parts.length){
-    cells=parts.map(p=>{
-      const color=p.role==="semantic"?"var(--nghia)":"var(--am)";
-      const dim=(dimComp&&p.comp&&p.comp!==dimComp)?"dim":"";
-      return `<div class="tz-cell ${p.pos} ${dim}"><span class="tz-glyph" style="color:${color}">${esc(p.glyph)}</span></div>`;
-    }).join("");
-  }else cells=`<div class="tz-cell tz-full" style="inset:0;width:100%;height:100%"><span class="tz-glyph">字</span></div>`;
+  const cells=parts.map(p=>{const color=p.role==="phonetic"?"var(--am)":"var(--nghia)";const dim=(dimComp&&p.glyph!==dimComp)?"dim":"";return `<div class="tz-cell ${p.pos} ${dim}"><span class="tz-glyph" style="color:${color}">${esc(p.glyph)}</span></div>`;}).join("");
   return `<div class="tianzige lg"><div class="tz-hline"></div><div class="tz-vline"></div>${cells}</div>`;
 }
-
-/* ===== PART CARD (theo nguyên tắc mới) ===== */
-function PartCard(part,idx){
-  const c=COMPONENT[part.comp],v=variantById[part.variant];
-  if(part.role==="semantic"){
-    const emo=c.emoji||emojiForHan(c.canonical)||c.canonical;
-    const note=!v.canonical?`<div class="vnote">${esc(v.glyph)} là dạng biến thể (${POS_LABEL[part.pos]}) của <b class="font-cjk">${esc(c.canonical)}</b> ${emo}</div>`:"";
-    return `<div class="part-card nghia" data-part="${idx}">
-      <div class="row">
-        <div class="role-visual nghia"><span class="rv-emoji">${emo}</span></div>
-        <div class="meta"><div class="head">Bộ <b class="font-cjk">${esc(c.canonical)}</b> · <b>${c.pinyin}</b> — ${esc(c.vi.split("(")[0].trim())}</div>
-          <div class="sub">Thành phần tạo NGHĨA, hiển thị bằng emoji.</div></div>
-      </div>
-      <div class="tags"><span class="tag nghia">tạo NGHĨA</span><span class="tag neutral">${POS_LABEL[part.pos]}</span></div>
-      ${note}</div>`;
+/* Khối Thuyết Văn Giải Tự cho bộ thủ (nghia_den + nghia_phai_sinh + mở rộng nguyên văn) */
+function shuowenBlock(base){
+  const s=SHUOWEN[base];
+  if(!s) return `<div class="sub">Thành phần tạo NGHĨA, hiển thị bằng emoji.</div>`;
+  const [den,phai,nguyen,dich,vd,kc]=s;
+  const star=kc?` <span class="kc" title="nguyên văn đang chờ đối chiếu với swjz.xml">(*)</span>`:"";
+  const detail=nguyen?`<details class="shuowen"><summary>說文解字 · Xem Thuyết văn${star}</summary>
+    <div class="body"><div class="sw-lbl">Nguyên văn 說文解字</div><div class="sw-han">${esc(nguyen)}</div>
+    <div class="sw-dich">${esc(dich)}</div>${vd?`<div class="sw-vd">Ví dụ: ${esc(vd)}</div>`:""}${kc?`<div class="kc" style="margin-top:8px">(*) Nguyên văn soạn từ tri thức, đang chờ đối chiếu swjz.xml/ctext.org.</div>`:""}</div></details>`:"";
+  return `<div class="swblock"><div class="den"><b>Nghĩa đen:</b> ${esc(den)}</div><div class="phai"><b>Vai trò khi ghép:</b> ${esc(phai)}</div>${detail}</div>`;
+}
+function PartCard(p,idx){
+  if(p.role==="semantic"){
+    const r=p.res;
+    if(r.emoji){
+      const note=r.isVariant?`<div class="vnote">${esc(p.glyph)} là dạng biến thể (${p.pos==="left"?"đứng bên trái":p.pos}) của <b class="font-cjk">${esc(r.base)}</b> ${r.emoji}</div>`:"";
+      return `<div class="part-card nghia" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual nghia"><span class="rv-emoji">${r.emoji}</span></div>
+        <div class="meta"><div class="head">Bộ <b class="font-cjk">${esc(r.base)}</b> · <b>${r.pinyin||""}</b> — ${esc(r.vi||"")}</div>${shuowenBlock(r.base)}</div></div>
+        <div class="tags"><span class="tag nghia">tạo NGHĨA</span><span class="tag neutral">${esc(p.pos)}</span></div>${note}</div>`;
+    }
+    return `<div class="part-card plain" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual plain"><span class="rv-char font-cjk">${esc(p.glyph)}</span></div>
+      <div class="meta"><div class="head">Thành phần <b class="font-cjk">${esc(p.glyph)}</b>${p.res&&p.res.pinyin?` · <b>${p.res.pinyin}</b>`:""}</div><div class="sub">Chưa có emoji — hiển thị nguyên chữ trong khung xám.</div></div></div>
+      <div class="tags"><span class="tag neutral">tạo NGHĨA</span><span class="tag neutral">${esc(p.pos)}</span></div></div>`;
   }
-  const fade=emojiForHan(c.canonical);
-  return `<div class="part-card am" data-part="${idx}">
-    <div class="row">
-      <div class="role-visual am"><span class="rv-char font-cjk">${esc(v.glyph)}</span>${fade?`<span class="rv-fade">${fade}</span>`:""}</div>
-      <div class="meta"><div class="head">Chữ <b class="font-cjk">${esc(v.glyph)}</b> · <b>${c.pinyin}</b> — gợi ÂM đọc</div>
-        <div class="sub">Thành phần tạo ÂM: giữ nguyên chữ Hán + pinyin${fade?`, có emoji riêng ${fade} (mờ)`:""}.</div></div>
-    </div>
-    <div class="tags"><span class="tag am">tạo ÂM</span><span class="tag neutral">${POS_LABEL[part.pos]}</span></div>
-  </div>`;
+  return `<div class="part-card am" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual am"><span class="rv-char font-cjk">${esc(p.glyph)}</span>${p.fade?`<span class="rv-fade">${p.fade}</span>`:""}</div>
+    <div class="meta"><div class="head">Chữ <b class="font-cjk">${esc(p.glyph)}</b>${p.pinyin?` · <b>${p.pinyin}</b>`:""} — gợi ÂM đọc</div><div class="sub">Thành phần tạo ÂM: giữ nguyên chữ Hán + pinyin${p.fade?`, có emoji riêng ${p.fade} (mờ)`:""}.</div></div></div>
+    <div class="tags"><span class="tag am">tạo ÂM</span><span class="tag neutral">${esc(p.pos)}</span></div></div>`;
 }
 
-/* ===== CHẾ ĐỘ ===== */
-const MODES=[
-  {id:"analyze",label:"Phân tích",hint:"Công thức emoji"},
-  {id:"learn",label:"Học chữ",hint:"Đoán từ nghĩa"},
-  {id:"assemble",label:"Ghép chữ",hint:"Dựng nửa trái"},
-  {id:"create",label:"Sáng tạo",hint:"Tìm chữ từ mảnh"},
-  {id:"quiz",label:"Đố bộ thủ",hint:"Trắc nghiệm"},
-];
+/* ================= CHẾ ĐỘ ================= */
+const MODES=[{id:"analyze",label:"Tra chữ",hint:"Công thức emoji"},{id:"learn",label:"Học chữ",hint:"Đoán từ nghĩa"},{id:"assemble",label:"Ghép chữ",hint:"Dựng nửa trái"},{id:"create",label:"Sáng tạo",hint:"Tìm chữ từ mảnh"},{id:"quiz",label:"Đố bộ thủ",hint:"Trắc nghiệm"}];
 const MODE_GRAD={analyze:"linear-gradient(135deg,#2f8fd6,#d6455d)",learn:"linear-gradient(135deg,#f59331,#d94f9e)",assemble:"linear-gradient(135deg,#f4c542,#f59331)",create:"linear-gradient(135deg,#d94f9e,#7b5cd6)",quiz:"linear-gradient(135deg,#4aa3d8,#d94f9e)"};
 
-/* ---------- ANALYZE (trung tâm nguyên tắc hiển thị) ---------- */
+/* ---------- TRA CHỮ ---------- */
 let analyze=null;
 function renderAnalyze(){
-  if(!analyze) analyze={glyph:"清",dim:null};
-  const ch=findChar(analyze.glyph);
-  const pills=ALLCHARS.map(c=>`<button class="pill ${c.glyph===analyze.glyph?"active":""}" data-g="${c.glyph}"><span class="cjk font-cjk">${c.glyph}</span>${c.pinyin}</button>`).join("");
+  if(!analyze) analyze={glyph:"清",dim:null,query:""};
+  if(!CHAR_BY_GLYPH[analyze.glyph]) analyze.glyph=CHARS[0].glyph;
+  const ch=CHAR_BY_GLYPH[analyze.glyph];
+  const q=toneless(analyze.query);
+  const list=CHARS.filter(c=>!q||c.glyph===analyze.query||toneless(c.pinyin).includes(q)||toneless(c.def).includes(q));
+  const pills=list.map(c=>`<button class="pill ${c.glyph===analyze.glyph?"active":""}" data-g="${c.glyph}"><span class="cjk font-cjk">${c.glyph}</span>${c.pinyin}</button>`).join("")||`<span class="muted" style="font-size:13px">Không có chữ khớp “${esc(analyze.query)}”.</span>`;
 
-  // Tượng hình / chỉ sự → 1 emoji lớn
-  if(!ch.parts||!ch.parts.length){
-    return {html:`<div>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">${pills}</div>
-      <div class="split">
-        <div><div class="picto-panel"><span class="pe">${ch.emoji}</span><span class="pg font-cjk">${ch.glyph}</span></div></div>
-        <div>
-          <div class="char-head"><span class="big font-cjk">${ch.glyph}</span><span class="info">${ch.pinyin} · ${ch.meaning}</span>${typeBadge(ch.type)}</div>
-          ${renderFormula(ch)}
-          <div class="memory"><div class="k">Gợi ý hình tượng</div><p>${esc(ch.hint||ch.meaning)}</p></div>
-        </div>
-      </div></div>`,wire(){wirePills();}};
+  let left,right;
+  if(ch.pictoEmoji){
+    left=`<div class="picto-panel"><span class="pe">${ch.pictoEmoji}</span><span class="pg font-cjk">${ch.glyph}</span></div>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}<div class="memory"><div class="k">Gợi ý hình tượng</div><p>${esc(ch.hint||ch.def)}</p></div><p class="muted" style="font-size:13px;margin-top:12px">Nghĩa: ${esc(ch.def)}</p>`;
+  }else if(ch.parts&&ch.parts.length){
+    left=`${Tianzige(ch.parts,ch.dim)}<p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${esc(ch.def)}</p>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>
+      <div class="legend"><span><i style="background:var(--nghia)"></i>NGHĨA · emoji (xanh dương)</span><span><i style="background:var(--am)"></i>ÂM · chữ + pinyin (đỏ)</span></div>
+      <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
+      ${ch.hint?`<div class="memory"><div class="k">Gợi ý</div><p>${esc(ch.hint)}</p></div>`:""}`;
+  }else{
+    left=`<div class="picto-panel"><span class="pchar font-cjk">${ch.glyph}</span></div>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}<div class="memory"><div class="k">Gợi ý</div><p>${esc(ch.hint||ch.def)}</p></div>`;
   }
 
-  const parts=ch.parts.map(p=>({...p,glyph:variantById[p.variant].glyph}));
   return {html:`<div>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">${pills}</div>
-    ${renderFormula(ch)}
-    <div class="split">
-      <div>${Tianzige(parts,analyze.dim)}
-        <p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${ch.meaning}</p>
-      </div>
-      <div>
-        <div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>
-        <div class="legend"><span><i style="background:var(--nghia)"></i>NGHĨA · emoji (xanh dương)</span><span><i style="background:var(--am)"></i>ÂM · chữ + pinyin (đỏ)</span></div>
-        <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
-      </div>
-    </div></div>`,wire(){
-    wirePills();
-    document.querySelectorAll(".part-card").forEach((el,i)=>{
-      el.onmouseenter=()=>{analyze.dim=ch.parts[i].comp;paintDim();};
-      el.onmouseleave=()=>{analyze.dim=null;paintDim();};
-    });
-    function paintDim(){document.querySelectorAll(".tz-cell").forEach((cell,i)=>{const p=parts[i];if(p)cell.classList.toggle("dim",!!(analyze.dim&&p.comp!==analyze.dim));});}
+    <div class="searchbar"><input type="text" id="searchInput" placeholder="Nhập chữ Hán hoặc pinyin (vd: 清, qing, river)…" value="${esc(analyze.query)}" autocomplete="off"></div>
+    <div class="loader"><label class="file">📄 Nạp dictionary.txt đầy đủ<input type="file" id="dictFile" accept=".txt"></label><span>Đang dùng: <b style="color:var(--ink)">${DICT.length}</b> chữ (demo). Tải bản đầy đủ ~10MB từ makemeahanzi để tra mọi chữ.</span></div>
+    <div class="pillwrap">${pills}</div>
+    ${ch.parts&&ch.parts.length?renderFormula(ch):""}
+    <div class="split"><div>${left}</div><div>${right}</div></div>
+  </div>`,wire(){
+    const si=document.getElementById("searchInput");
+    si.oninput=()=>{analyze.query=si.value;const q=toneless(si.value);const exact=CHARS.find(c=>c.glyph===si.value);if(exact)analyze.glyph=exact.glyph;else{const m=CHARS.find(c=>toneless(c.pinyin)===q);if(m)analyze.glyph=m.glyph;}const pos=si.selectionStart;mountMode();const ns=document.getElementById("searchInput");ns.focus();try{ns.setSelectionRange(pos,pos);}catch(e){}};
+    si.onkeydown=e=>{if(e.key==="Enter"){const f=list[0];if(f){analyze.glyph=f.glyph;analyze.query="";beep(760,60,"sine",0.04);mountMode();}}};
+    document.querySelectorAll(".pill[data-g]").forEach(b=>b.onclick=()=>{analyze.glyph=b.dataset.g;beep(700,60,"sine",0.04);mountMode();});
+    document.querySelectorAll(".part-card[data-g]").forEach(el=>{el.onmouseenter=()=>{document.querySelectorAll(".tz-cell").forEach(c=>{const g=c.querySelector(".tz-glyph").textContent;c.classList.toggle("dim",g!==el.dataset.g);});};el.onmouseleave=()=>{document.querySelectorAll(".tz-cell").forEach(c=>c.classList.remove("dim"));};});
+    const df=document.getElementById("dictFile");if(df)df.onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const lines=rd.result.split("\n").map(l=>l.trim()).filter(Boolean);const parsed=lines.map(l=>JSON.parse(l));DICT=parsed;rebuildIndex();analyze.query="";beep(1046,90,"triangle");mountMode();}catch(err){alert("Không đọc được file: "+err.message);}};rd.readAsText(f);};
   }};
-  function wirePills(){document.querySelectorAll(".pill[data-g]").forEach(b=>b.onclick=()=>{analyze.glyph=b.dataset.g;analyze.dim=null;beep(700,60,"sine",0.04);mountMode();});}
 }
 
-/* ---------- LEARN ---------- */
+/* ---------- HỌC CHỮ ---------- */
 let learn=null;
 function learnInit(idx){
-  const ch=CHARACTER[idx%CHARACTER.length];
-  const correct=new Set(ch.parts.map(p=>p.comp));
-  const distract=shuffle(Object.keys(COMPONENT).filter(id=>!correct.has(id))).slice(0,3);
-  learn={idx,chips:shuffle([...correct,...distract]),selected:new Set(),status:"idle",bad:new Set()};
+  const ch=COMPOUNDS[idx%COMPOUNDS.length];
+  const correct=[...new Set(ch.parts.map(partKey))];
+  const pool=Object.keys(RAD_RADICALS).filter(b=>!correct.includes(b));
+  learn={idx,chips:shuffle([...correct,...shuffle(pool).slice(0,3)]),selected:new Set(),status:"idle",bad:new Set()};
 }
 function renderLearn(){
+  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh trong từ điển.</p>`,wire(){}};
   if(!learn) learnInit(0);
-  const ch=CHARACTER[learn.idx%CHARACTER.length];
-  const correct=new Set(ch.parts.map(p=>p.comp));
+  const ch=COMPOUNDS[learn.idx%COMPOUNDS.length];
+  const correct=new Set(ch.parts.map(partKey));
   if(learn.status==="done"){
-    const parts=ch.parts.map(p=>({...p,glyph:variantById[p.variant].glyph}));
-    return {html:`<div class="split">
-      <div>${Tianzige(parts)}
-        <p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${ch.meaning}</p>
-      </div>
-      <div>
-        <div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>
-        ${renderFormula(ch)}
+    return {html:`<div class="split"><div>${Tianzige(ch.parts)}<p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${esc(ch.def)}</p></div>
+      <div><div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}
         <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
-        <div class="memory"><div class="k">Câu ghi nhớ</div><p>${ch.memory}</p></div>
-        <button class="btn-primary" id="learnNext" style="margin-top:20px">Chữ tiếp theo →</button>
-      </div></div>`,wire(){document.getElementById("learnNext").onclick=()=>{learnInit(learn.idx+1);mountMode();beep(1046,90,"triangle");};}};
+        <div class="memory"><div class="k">Ghi nhớ</div><p>${esc(ch.hint||ch.def)}</p></div>
+        <button class="btn-primary" id="learnNext" style="margin-top:18px">Chữ tiếp theo →</button></div></div>`,wire(){document.getElementById("learnNext").onclick=()=>{learnInit(learn.idx+1);mountMode();beep(1046,90,"triangle");};}};
   }
   return {html:`<div>
-    <div class="center" style="margin-bottom:26px">
-      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:var(--clay)">Nghĩa của chữ</div>
-      <div style="font-size:34px;font-weight:700;margin-top:8px">${ch.meaning}</div>
-      <div class="muted" style="font-size:14px;margin-top:4px">âm đọc: ${ch.pinyin} · gồm ${correct.size} thành phần</div>
-    </div>
+    <div class="center" style="margin-bottom:24px"><div style="font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:var(--clay)">Nghĩa của chữ</div>
+      <div style="font-size:30px;font-weight:700;margin-top:8px">${esc(ch.def)}</div>
+      <div class="muted" style="font-size:14px;margin-top:4px">âm đọc: ${ch.pinyin} · gồm ${correct.size} thành phần</div></div>
     <p class="center" style="font-size:15px;margin-bottom:18px;font-weight:500">Chọn <b>tất cả</b> thành phần tạo nên chữ này:</p>
-    <div class="chip-grid" style="max-width:560px;margin:0 auto">
-      ${learn.chips.map(id=>{const c=COMPONENT[id],on=learn.selected.has(id),bad=learn.bad.has(id);const st=bad?"is-wrong":on?"is-selected":"";
-        return `<button class="radical-chip ${st}" data-id="${id}"><div class="emoji">${c.emoji||emojiForHan(c.canonical)||"🔸"}</div><div class="glyph font-cjk">${esc(c.canonical)}</div><div class="cap">${esc(c.vi.split("(")[0].trim())}</div></button>`;}).join("")}
-    </div>
-    <div class="center" style="margin-top:26px"><button class="btn-primary" id="learnCheck">Kiểm tra</button>
-      ${learn.status==="wrong"?`<p style="color:var(--danger);margin-top:16px;font-size:14px;font-weight:500">Chưa đúng — bỏ mảnh viền đỏ và chọn lại nhé.</p>`:""}</div>
+    <div class="chip-grid" style="max-width:560px;margin:0 auto">${learn.chips.map(b=>{const ci=compInfo(b),on=learn.selected.has(b),bad=learn.bad.has(b);const st=bad?"is-wrong":on?"is-selected":"";return `<button class="radical-chip ${st}" data-b="${esc(b)}"><div class="emoji">${ci.emoji||"🔸"}</div><div class="glyph font-cjk">${esc(ci.base)}</div><div class="cap">${esc(ci.vi||"")}</div></button>`;}).join("")}</div>
+    <div class="center" style="margin-top:24px"><button class="btn-primary" id="learnCheck">Kiểm tra</button>${learn.status==="wrong"?`<p style="color:var(--danger);margin-top:16px;font-size:14px;font-weight:500">Chưa đúng — bỏ mảnh viền đỏ và chọn lại nhé.</p>`:""}</div>
   </div>`,wire(){
-    document.querySelectorAll(".radical-chip").forEach(b=>b.onclick=()=>{const id=b.dataset.id;learn.selected.has(id)?learn.selected.delete(id):learn.selected.add(id);if(learn.bad.has(id))learn.bad.delete(id);if(learn.status!=="idle")learn.status="idle";beep(660,50,"sine",0.04);mountMode();});
+    document.querySelectorAll(".radical-chip").forEach(b=>b.onclick=()=>{const id=b.dataset.b;learn.selected.has(id)?learn.selected.delete(id):learn.selected.add(id);if(learn.bad.has(id))learn.bad.delete(id);if(learn.status!=="idle")learn.status="idle";beep(660,50,"sine",0.04);mountMode();});
     document.getElementById("learnCheck").onclick=()=>{if(!learn.selected.size)return;const extra=[...learn.selected].filter(id=>!correct.has(id));const missing=[...correct].filter(id=>!learn.selected.has(id));if(!extra.length&&!missing.length){learn.status="done";beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);}else{learn.status="wrong";learn.bad=new Set(extra);beep(220,140,"square",0.05);buzz([15,30,15]);}mountMode();};
   }};
 }
 
-/* ---------- ASSEMBLE ---------- */
-const TARGETS=["情","清","快"];
+/* ---------- GHÉP CHỮ ---------- */
 let assemble=null;
-function assembleInit(t){const target=t||"情",ch=findChar(target);const correct=ch.parts.map(p=>p.variant);const pool=VARIANT.map(v=>v.id).filter(id=>!correct.includes(id));assemble={target,tray:shuffle([...correct,...shuffle(pool).slice(0,3)]),placed:{},picked:null,over:null,shake:null,done:false,attempts:0};}
-function posStyle(pos){const i="8%";if(pos==="left")return `left:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="right")return `right:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="top")return `left:${i};right:${i};top:${i};height:calc(50% - ${i})`;return `left:${i};right:${i};bottom:${i};height:calc(50% - ${i})`;}
+function asmTargets(){const t=["清","情","妈"].filter(g=>CHAR_BY_GLYPH[g]&&CHAR_BY_GLYPH[g].kind==="pictophonetic");return t.length?t:COMPOUNDS.slice(0,3).map(c=>c.glyph);}
+function assembleInit(t){const T=asmTargets();const target=t||T[0];const ch=CHAR_BY_GLYPH[target];const correct=ch.parts.map(p=>p.glyph);const pool=[...new Set(COMPOUNDS.flatMap(c=>c.parts.map(p=>p.glyph)).filter(g=>!correct.includes(g)))];assemble={target,tray:shuffle([...correct,...shuffle(pool).slice(0,3)]),placed:{},picked:null,over:null,shake:null,done:false,attempts:0};}
+function posStyle(pos){const i="8%";if(pos==="left")return `left:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="right")return `right:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="top")return `left:${i};right:${i};top:${i};height:calc(50% - ${i})`;if(pos==="bottom")return `left:${i};right:${i};bottom:${i};height:calc(50% - ${i})`;return `inset:${i}`;}
+function pieceInfo(g){const c=COMPOUNDS.flatMap(x=>x.parts).find(p=>p.glyph===g);if(c&&c.role==="semantic"&&c.res.emoji)return {emoji:c.res.emoji,label:c.res.base};if(c&&c.role==="phonetic")return {emoji:emojiForHan(g),label:c.pinyin||""};return {emoji:emojiForHan(g),label:""};}
 function renderAssemble(){
-  if(!assemble) assembleInit("情");
-  const A=assemble,ch=findChar(A.target);
-  const slots=ch.parts.map((p,i)=>{const placed=!!A.placed[i];const glyph=placed?variantById[A.placed[i]].glyph:"";const color=p.role==="semantic"?"var(--nghia)":"var(--am)";const cls=`puzzle-slot ${A.over===i?"is-over":""} ${A.shake===i?"is-shake":""} ${placed?"is-locked":""}`;const inner=placed?`<span class="tz-glyph font-cjk" style="color:${color}">${esc(glyph)}</span>`:`<span class="slot-hint">${POS_LABEL[p.pos]}</span>`;return `<div class="${cls}" style="${posStyle(p.pos)}" data-slot="${i}">${inner}</div>`;}).join("");
-  return {html:`<div class="split">
-    <div><div style="transition:transform .5s;${A.done?"transform:scale(1.04)":""}"><div class="puzzle-board"><div class="tz-hline"></div><div class="tz-vline"></div>${slots}${A.done?`<div class="tz-badge">✓</div>`:""}</div></div>
-      <p class="center muted" style="margin-top:14px;font-size:14px">Kéo / chạm mảnh vào ô đúng để tạo <b class="font-cjk" style="font-size:18px;color:var(--ink)">${A.target}</b> (${ch.pinyin} — ${ch.meaning})</p></div>
-    <div>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">${TARGETS.map(g=>{const c=findChar(g);return `<button class="pill ${g===A.target?"active":""}" data-t="${g}">Mục tiêu: <span class="cjk font-cjk">${g}</span> ${c.pinyin}</button>`;}).join("")}</div>
+  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh.</p>`,wire(){}};
+  if(!assemble) assembleInit();
+  const A=assemble,ch=CHAR_BY_GLYPH[A.target],T=asmTargets();
+  const slots=ch.parts.map((p,i)=>{const placed=!!A.placed[i];const glyph=placed?A.placed[i]:"";const color=p.role==="phonetic"?"var(--am)":"var(--nghia)";const cls=`puzzle-slot ${A.over===i?"is-over":""} ${A.shake===i?"is-shake":""} ${placed?"is-locked":""}`;const inner=placed?`<span class="tz-glyph font-cjk" style="color:${color}">${esc(glyph)}</span>`:`<span class="slot-hint">${esc(p.pos)}</span>`;return `<div class="${cls}" style="${posStyle(p.pos)}" data-slot="${i}">${inner}</div>`;}).join("");
+  return {html:`<div class="split"><div><div style="transition:transform .5s;${A.done?"transform:scale(1.04)":""}"><div class="puzzle-board"><div class="tz-hline"></div><div class="tz-vline"></div>${slots}${A.done?`<div class="type-badge" style="position:absolute;right:-8px;bottom:-8px;background:var(--semantic);color:#fff;border:none">✓ xong</div>`:""}</div></div>
+    <p class="center muted" style="margin-top:14px;font-size:14px">Kéo / chạm mảnh vào ô đúng để tạo <b class="font-cjk" style="font-size:18px;color:var(--ink)">${A.target}</b> (${ch.pinyin} — ${esc(ch.def)})</p></div>
+    <div><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">${T.map(g=>{const c=CHAR_BY_GLYPH[g];return `<button class="pill ${g===A.target?"active":""}" data-t="${g}">Mục tiêu: <span class="cjk font-cjk">${g}</span> ${c.pinyin}</button>`;}).join("")}</div>
       <div class="step"><span class="num">1</span><h3>Kho mảnh ghép</h3></div>
       <p class="muted" style="font-size:14px;margin-bottom:12px">Kéo mảnh vào khung, hoặc chạm 1 mảnh rồi chạm ô đích. Ghép sai không bị phạt.</p>
-      <div class="tray">${A.tray.map(vId=>{const v=variantById[vId],c=COMPONENT[v.comp];const used=Object.values(A.placed).includes(vId),sel=A.picked===vId;return `<div class="puzzle-piece ${used?"is-used":""} ${sel?"is-selected":""}" data-piece="${vId}" ${used?"":'draggable="true"'} title="${esc(c.vi)} — ${POS_LABEL[v.pos]}"><div class="em">${c.emoji||emojiForHan(c.canonical)||"🔸"}</div><div class="g" style="color:${c.emoji||emojiForHan(c.canonical)?"var(--nghia)":"var(--am)"}">${esc(v.glyph)}</div><div class="c">${esc(c.canonical)}</div></div>`;}).join("")}</div>
-      <div class="util-row"><button class="btn-ghost" id="asmReset">Làm lại</button><span class="muted" style="font-size:12px">Đã ghép: <b style="color:var(--ink)">${Object.keys(A.placed).length}/${ch.parts.length}</b>${A.attempts>0?` · Thử: <b style="color:var(--ink)">${A.attempts+Object.keys(A.placed).length}</b>`:""}</span></div>
-      ${A.done?`<div class="done-box"><div class="k">Hoàn thành!</div><p style="font-size:15px;margin:0">✓ Bạn đã ghép ra <span class="font-cjk" style="font-size:24px;font-weight:600">${A.target}</span> — ${ch.pinyin} · ${ch.meaning}.</p><div style="margin-top:12px;display:flex;gap:12px"><button class="btn-primary" id="asmNext">Chữ tiếp theo →</button><button class="btn-ghost" id="asmAgain">Ghép lại</button></div></div>`:""}
+      <div class="tray">${A.tray.map(g=>{const info=pieceInfo(g),used=Object.values(A.placed).includes(g),sel=A.picked===g;return `<div class="puzzle-piece ${used?"is-used":""} ${sel?"is-selected":""}" data-piece="${esc(g)}" ${used?"":'draggable="true"'} title="${esc(info.label)}"><div class="em">${info.emoji||"🔸"}</div><div class="g" style="color:${info.emoji?"var(--nghia)":"var(--am)"}">${esc(g)}</div><div class="c">${esc(info.label)}</div></div>`;}).join("")}</div>
+      <div class="util-row"><button class="btn-ghost" id="asmReset">Làm lại</button><span class="muted" style="font-size:12px">Đã ghép: <b style="color:var(--ink)">${Object.keys(A.placed).length}/${ch.parts.length}</b></span></div>
+      ${A.done?`<div class="done-box"><div class="k">Hoàn thành!</div><p style="font-size:15px;margin:0">✓ Bạn đã ghép ra <span class="font-cjk" style="font-size:24px;font-weight:600">${A.target}</span> — ${ch.pinyin} · ${esc(ch.def)}.</p><div style="margin-top:12px;display:flex;gap:12px"><button class="btn-primary" id="asmNext">Chữ tiếp theo →</button><button class="btn-ghost" id="asmAgain">Ghép lại</button></div></div>`:""}
     </div></div>`,wire(){
-    function tryPlace(slot,vId){if(A.placed[slot])return;if(vId===ch.parts[slot].variant){A.placed[slot]=vId;A.picked=null;beep(880,90,"triangle");buzz(30);if(Object.keys(A.placed).length===ch.parts.length)setTimeout(()=>{A.done=true;beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);mountMode();},220);mountMode();}else{A.attempts++;A.shake=slot;A.picked=null;beep(220,140,"square",0.05);buzz([15,30,15]);mountMode();setTimeout(()=>{A.shake=null;mountMode();},450);}}
-    document.querySelectorAll(".puzzle-piece").forEach(el=>{const vId=el.dataset.piece;el.ondragstart=e=>{e.dataTransfer.setData("text/plain",vId);e.dataTransfer.effectAllowed="move";A.picked=vId;};el.onclick=()=>{if(el.classList.contains("is-used"))return;A.picked=(A.picked===vId?null:vId);mountMode();};});
+    function tryPlace(slot,g){if(A.placed[slot])return;if(g===ch.parts[slot].glyph){A.placed[slot]=g;A.picked=null;beep(880,90,"triangle");buzz(30);if(Object.keys(A.placed).length===ch.parts.length)setTimeout(()=>{A.done=true;beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);mountMode();},220);mountMode();}else{A.attempts++;A.shake=slot;A.picked=null;beep(220,140,"square",0.05);buzz([15,30,15]);mountMode();setTimeout(()=>{A.shake=null;mountMode();},450);}}
+    document.querySelectorAll(".puzzle-piece").forEach(el=>{const g=el.dataset.piece;el.ondragstart=e=>{e.dataTransfer.setData("text/plain",g);e.dataTransfer.effectAllowed="move";A.picked=g;};el.onclick=()=>{if(el.classList.contains("is-used"))return;A.picked=(A.picked===g?null:g);mountMode();};});
     document.querySelectorAll(".puzzle-slot").forEach(el=>{const slot=+el.dataset.slot;el.ondragover=e=>{if(!A.placed[slot]){e.preventDefault();el.classList.add("is-over");A.over=slot;}};el.ondragleave=()=>{if(A.over===slot){A.over=null;el.classList.remove("is-over");}};el.ondrop=e=>{e.preventDefault();A.over=null;const id=e.dataTransfer.getData("text/plain");if(id)tryPlace(slot,id);};el.onclick=()=>{if(A.picked&&!A.placed[slot])tryPlace(slot,A.picked);};});
-    const r=document.getElementById("asmReset");if(r)r.onclick=()=>{assembleInit(A.target);mountMode();};
+    document.getElementById("asmReset").onclick=()=>{assembleInit(A.target);mountMode();};
     document.querySelectorAll(".pill[data-t]").forEach(b=>b.onclick=()=>{assembleInit(b.dataset.t);mountMode();});
-    const nx=document.getElementById("asmNext");if(nx)nx.onclick=()=>{const i=TARGETS.indexOf(A.target);assembleInit(TARGETS[(i+1)%TARGETS.length]);mountMode();};
+    const nx=document.getElementById("asmNext");if(nx)nx.onclick=()=>{const i=T.indexOf(A.target);assembleInit(T[(i+1)%T.length]);mountMode();};
     const ag=document.getElementById("asmAgain");if(ag)ag.onclick=()=>{assembleInit(A.target);mountMode();};
   }};
 }
 
-/* ---------- CREATE ---------- */
-const PALETTE=["心","忄","⺗","水","氵","手","扌","青","可","白","夬"];
+/* ---------- SÁNG TẠO ---------- */
+const PALETTE=["忄","氵","扌","灬","女","青","可","马","日","月","王"];
 let create=null;
 function renderCreate(){
   if(!create) create={picked:[],results:null};
   const C=create;
-  const canonicals=[...new Set(C.picked.map(g=>COMPONENT[normalize(g)].canonical))];
   return {html:`<div>
-    <p class="muted" style="font-size:14px;margin:0 0 16px">Chọn ≥ 2 mảnh (kể cả biến thể 忄/氵/扌) → tìm chữ chứa đủ các mảnh đó. Emoji hiện ra là thành phần NGHĨA.</p>
-    <div class="chip-grid" style="justify-content:flex-start;gap:24px 14px">
-      ${PALETTE.map(g=>{const active=C.picked.includes(g),id=normalize(g),emo=COMPONENT[id].emoji||emojiForHan(COMPONENT[id].canonical);
-        return `<div style="position:relative"><button class="radical-chip ${active?"is-selected":""}" data-g="${g}" style="width:70px;padding:8px">
-          <div class="emoji" style="font-size:20px">${emo||"🔸"}</div><div class="glyph font-cjk" style="font-size:22px;margin-top:4px">${esc(g)}</div></button>
-          <small style="position:absolute;left:0;right:0;bottom:-19px;text-align:center;font-size:10px;font-weight:600;color:var(--ink-soft)">→ ${esc(COMPONENT[id].canonical)}</small></div>`;}).join("")}
-    </div>
-    <div class="muted" style="margin-top:42px;min-height:2.5rem;font-size:14px">
-      ${C.picked.length?`Đã chọn: ${C.picked.map(g=>`<span style="margin-right:12px"><b class="font-cjk" style="color:var(--ink)">${esc(g)}</b> <span style="color:var(--clay)">→</span> ${esc(COMPONENT[normalize(g)].canonical)}</span>`).join("")}<div style="font-size:12px;margin-top:4px">Quy về gốc: ${canonicals.map(c=>`<b class="font-cjk" style="margin-right:4px">${esc(c)}</b>`).join("")}</div>`:"Chưa chọn mảnh nào."}
-    </div>
-    <div style="display:flex;gap:12px;margin-top:16px"><button class="btn-primary" id="crRun">Tìm chữ</button><button class="btn-ghost" id="crClear">Xoá chọn</button></div>
-    ${C.results!==null?`<div style="margin-top:24px">${C.results.length===0?`<p class="muted" style="font-size:14px">${C.picked.length<2?"Hãy chọn ít nhất 2 mảnh.":"Không có chữ nào chứa đủ các mảnh này."}</p>`:`<div class="result-grid">${C.results.map(ch=>`<div class="result-card"><div class="rc-glyph font-cjk">${ch.glyph}</div><div class="rc-py">${ch.pinyin}</div><div class="rc-mean">${ch.meaning}</div><div class="rc-parts">${ch.parts.map((p,i)=>`${i>0?'<span style="color:var(--clay)"> + </span>':""}<span class="g ${p.role==="semantic"?"nghia":"am"} font-cjk">${esc(variantById[p.variant].glyph)}</span>`).join("")}</div></div>`).join("")}</div>`}</div>`:""}
+    <p class="muted" style="font-size:14px;margin:0 0 16px">Chọn ≥ 2 mảnh (biến thể tự quy về gốc: 忄→心, 氵→水…) → tìm chữ chứa đủ các mảnh đó.</p>
+    <div class="chip-grid" style="justify-content:flex-start;gap:24px 14px">${PALETTE.map(g=>{const active=C.picked.includes(g),b=resolveComponent(g,"left",{}).base,emo=emojiForHan(g);return `<div style="position:relative"><button class="radical-chip ${active?"is-selected":""}" data-g="${esc(g)}" style="width:70px;padding:8px"><div class="emoji" style="font-size:20px">${emo||"🔸"}</div><div class="glyph font-cjk" style="font-size:22px;margin-top:4px">${esc(g)}</div></button><small style="position:absolute;left:0;right:0;bottom:-19px;text-align:center;font-size:10px;font-weight:600;color:var(--ink-soft)">→ ${esc(b)}</small></div>`;}).join("")}</div>
+    <div class="muted" style="margin-top:42px;min-height:2.5rem;font-size:14px">${C.picked.length?`Đã chọn: ${C.picked.map(g=>`<span style="margin-right:12px"><b class="font-cjk" style="color:var(--ink)">${esc(g)}</b> <span style="color:var(--clay)">→</span> ${esc(resolveComponent(g,"left",{}).base)}</span>`).join("")}`:"Chưa chọn mảnh nào."}</div>
+    <div style="display:flex;gap:12px;margin-top:12px"><button class="btn-primary" id="crRun">Tìm chữ</button><button class="btn-ghost" id="crClear">Xoá chọn</button></div>
+    ${C.results!==null?`<div style="margin-top:24px">${C.results.length===0?`<p class="muted" style="font-size:14px">${C.picked.length<2?"Hãy chọn ít nhất 2 mảnh.":"Không có chữ nào (trong dữ liệu hiện tại) chứa đủ các mảnh này."}</p>`:`<div class="result-grid">${C.results.map(ch=>`<div class="result-card"><div class="rc-glyph font-cjk">${ch.glyph}</div><div class="rc-py">${ch.pinyin}</div><div class="rc-mean">${esc(ch.def)}</div><div class="rc-parts">${ch.parts.map((p,i)=>`${i>0?'<span style="color:var(--clay)"> + </span>':""}<span class="g ${p.role==="semantic"?"nghia":"am"} font-cjk">${esc(p.glyph)}</span>`).join("")}</div></div>`).join("")}</div>`}</div>`:""}
   </div>`,wire(){
     document.querySelectorAll(".radical-chip[data-g]").forEach(b=>b.onclick=()=>{const g=b.dataset.g,i=C.picked.indexOf(g);C.picked=i>=0?C.picked.filter((_,k)=>k!==i):[...C.picked,g];C.results=null;beep(660,50,"sine",0.04);mountMode();});
-    document.getElementById("crRun").onclick=()=>{if(C.picked.length<2)C.results=[];else{C.results=searchByComponents(C.picked.map(g=>normalize(g)));beep(880,90,"triangle");}mountMode();};
+    document.getElementById("crRun").onclick=()=>{if(C.picked.length<2)C.results=[];else{C.results=searchByComponents([...new Set(C.picked.map(g=>resolveComponent(g,"left",{}).base))]);beep(880,90,"triangle");}mountMode();};
     document.getElementById("crClear").onclick=()=>{C.picked=[];C.results=null;mountMode();};
   }};
 }
 
-/* ---------- QUIZ ---------- */
+/* ---------- ĐỐ BỘ THỦ ---------- */
 let quiz=null;
-function quizNew(){const ch=CHARACTER[Math.floor(Math.random()*CHARACTER.length)];const sem=ch.parts.find(p=>p.role==="semantic");const used=new Set(ch.parts.map(p=>p.comp));const distr=shuffle(Object.keys(COMPONENT).filter(id=>!used.has(id))).slice(0,3);return {ch,sem,options:shuffle([sem.comp,...distr])};}
+function quizNew(){const ch=COMPOUNDS[Math.floor(Math.random()*COMPOUNDS.length)];const sem=ch.parts.find(p=>p.role==="semantic");const ans=partKey(sem);const used=new Set(ch.parts.map(partKey));const distr=shuffle(Object.keys(RAD_RADICALS).filter(b=>!used.has(b))).slice(0,3);return {ch,sem,ans,options:shuffle([ans,...distr])};}
 function renderQuiz(){
+  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh.</p>`,wire(){}};
   if(!quiz) quiz={q:quizNew(),score:{correct:0,total:0},answered:null};
-  const Q=quiz,q=Q.q,v=variantById[q.sem.variant],comp=COMPONENT[q.sem.comp];
-  return {html:`<div class="center">
-    <div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
+  const Q=quiz,q=Q.q,ci=compInfo(q.ans);
+  return {html:`<div class="center"><div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
     <div class="quiz-glyph">${q.ch.glyph}</div>
-    <p style="margin-top:20px;font-size:15px">Chữ <b class="font-cjk" style="font-size:18px">${q.ch.glyph}</b> (${q.ch.pinyin} — ${q.ch.meaning}) được tạo NGHĨA từ bộ thủ (emoji) nào?</p>
-    <div class="chip-grid" style="max-width:520px;margin:20px auto 0">
-      ${q.options.map(id=>{const c=COMPONENT[id],ok=id===q.sem.comp,sel=Q.answered===id,show=Q.answered!==null;const st=show&&ok?"is-correct":show&&sel?"is-wrong":"";const emo=c.emoji||emojiForHan(c.canonical)||"🔸";
-        return `<button class="radical-chip ${st}" data-id="${id}" ${Q.answered?"disabled":""}><div class="emoji" style="font-size:30px">${emo}</div><div class="cap" style="min-height:24px;margin-top:6px">${esc(c.vi.split("(")[0].trim())}</div></button>`;}).join("")}
-    </div>
-    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:460px;margin-left:auto;margin-right:auto;color:${Q.answered===q.sem.comp?"var(--nghia)":"var(--danger)"}">${Q.answered===q.sem.comp?"✓ Đúng!":"✗ Chưa đúng."} Bộ <span class="font-cjk" style="color:var(--ink)">${comp.canonical}</span> ${comp.emoji||emojiForHan(comp.canonical)||""}${!v.canonical?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(v.glyph)}</span> khi ở ${POS_LABEL[q.sem.pos]})`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${q.ch.glyph}</span>.</p><button class="btn-primary" id="quizNext" style="margin-top:20px">Câu tiếp theo</button>`:""}
+    <p style="margin-top:20px;font-size:15px">Chữ <b class="font-cjk" style="font-size:18px">${q.ch.glyph}</b> (${q.ch.pinyin} — ${esc(q.ch.def)}) được tạo NGHĨA từ bộ thủ (emoji) nào?</p>
+    <div class="chip-grid" style="max-width:520px;margin:20px auto 0">${q.options.map(b=>{const c=compInfo(b),ok=b===q.ans,sel=Q.answered===b,show=Q.answered!==null;const st=show&&ok?"is-correct":show&&sel?"is-wrong":"";return `<button class="radical-chip ${st}" data-b="${esc(b)}" ${Q.answered?"disabled":""}><div class="emoji" style="font-size:30px">${c.emoji||"🔸"}</div><div class="cap" style="min-height:24px;margin-top:6px">${esc(c.vi||c.base)}</div></button>`;}).join("")}</div>
+    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:460px;margin-left:auto;margin-right:auto;color:${Q.answered===q.ans?"var(--nghia)":"var(--danger)"}">${Q.answered===q.ans?"✓ Đúng!":"✗ Chưa đúng."} Bộ <span class="font-cjk" style="color:var(--ink)">${ci.base}</span> ${ci.emoji||""}${q.sem.res&&q.sem.res.isVariant?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(q.sem.glyph)}</span> khi ghép)`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${q.ch.glyph}</span>.</p><button class="btn-primary" id="quizNext" style="margin-top:20px">Câu tiếp theo</button>`:""}
   </div>`,wire(){
-    document.querySelectorAll(".radical-chip[data-id]").forEach(b=>b.onclick=()=>{if(Q.answered)return;const id=b.dataset.id,ok=id===q.sem.comp;Q.answered=id;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}mountMode();});
+    document.querySelectorAll(".radical-chip[data-b]").forEach(b=>b.onclick=()=>{if(Q.answered)return;const id=b.dataset.b,ok=id===q.ans;Q.answered=id;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}mountMode();});
     const nx=document.getElementById("quizNext");if(nx)nx.onclick=()=>{quiz.q=quizNew();quiz.answered=null;mountMode();};
   }};
 }
 
-/* ===== SHELL ===== */
+/* ================= SHELL ================= */
 let currentMode="analyze";
 const RENDERERS={analyze:renderAnalyze,learn:renderLearn,assemble:renderAssemble,create:renderCreate,quiz:renderQuiz};
 function mountMode(){const {html,wire}=RENDERERS[currentMode]();const panel=document.getElementById("panel");panel.innerHTML=html;if(wire)wire();}
 function buildNav(){
   const nav=document.getElementById("modeNav");
   nav.innerHTML=MODES.map(m=>`<button class="mode-btn ${m.id===currentMode?"active":""}" data-mode="${m.id}"><span class="bar" style="background:${MODE_GRAD[m.id]}"></span><span class="lbl">${m.label}<span class="hint">· ${m.hint}</span></span></button>`).join("");
-  nav.querySelectorAll(".mode-btn").forEach(b=>b.onclick=()=>{currentMode=b.dataset.mode;if(currentMode==="analyze")analyze=null;if(currentMode==="learn")learn=null;if(currentMode==="assemble")assemble=null;if(currentMode==="create")create=null;if(currentMode==="quiz")quiz=null;nav.querySelectorAll(".mode-btn").forEach(x=>x.classList.toggle("active",x.dataset.mode===currentMode));document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];beep(740,60,"sine",0.04);mountMode();});
+  nav.querySelectorAll(".mode-btn").forEach(b=>b.onclick=()=>{currentMode=b.dataset.mode;if(currentMode==="learn")learn=null;if(currentMode==="assemble")assemble=null;if(currentMode==="create")create=null;if(currentMode==="quiz")quiz=null;nav.querySelectorAll(".mode-btn").forEach(x=>x.classList.toggle("active",x.dataset.mode===currentMode));document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];beep(740,60,"sine",0.04);mountMode();});
 }
+
+/* ================= TEST RESOLVER (mục 3) ================= */
+function runResolverTests(){
+  const T=[];const eq=(a,b,name)=>T.push({name,pass:a===b,got:a,exp:b});
+  eq(resolveComponent("氵","left",{hint:"water"}).emoji,"💧","江/清 氵→水 💧");
+  eq(resolveComponent("忄","left",{hint:"heart"}).emoji,"❤️","情 忄→心 ❤️");
+  eq(resolveComponent("灬","bottom",{hint:"fire"}).emoji,"🔥","热/照 灬→火 🔥");
+  eq(resolveComponent("阝","left",{}).emoji,"🏔️","阿 阝(trái)→阜 🏔️");
+  eq(resolveComponent("阝","right",{}).emoji,"🏘️","都 阝(phải)→邑 🏘️");
+  eq(resolveComponent("月","left",{hint:"flesh"}).emoji,"🥩","腿/肝 月(flesh)→肉 🥩");
+  eq(resolveComponent("月","right",{hint:"the sun and moon"}).emoji,"🌙","明 月→🌙");
+  eq(resolveComponent("王","left",{hint:"jade"}).emoji,"💎","玩/球 王(trái)→玉 💎");
+  eq(resolveComponent("彳","left",{}).found,false,"很 彳 fallback (không emoji)");
+  const a清=analyzeChar(DICT_BY_CHAR["清"]);eq(a清.parts[0].res.emoji+"+"+a清.parts[1].glyph,"💧+青","清 = 💧 + 青");
+  const a木=analyzeChar(DICT_BY_CHAR["木"]);eq(a木.pictoEmoji,"🌳","木 tượng hình 🌳");
+  const pass=T.filter(t=>t.pass).length;
+  console.log(`[resolver tests] ${pass}/${T.length} pass`);T.filter(t=>!t.pass).forEach(t=>console.warn("FAIL:",t.name,"got",t.got,"exp",t.exp));
+  const flag=document.getElementById("testFlag");if(flag)flag.textContent=`resolver ${pass}/${T.length} ✓`;
+  return {pass,total:T.length};
+}
+
+/* ================= KHỞI ĐỘNG ================= */
+rebuildIndex();
 buildNav();
 document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];
 mountMode();
+runResolverTests();
 </script>
 </body>
 </html>

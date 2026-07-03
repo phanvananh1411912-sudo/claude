@@ -1,6 +1,6 @@
 // resolver.mjs — logic phân giải thành phần chữ Hán (thuần, không DOM).
 // Dùng chung cho app (index.html nhúng bản sao) và test độc lập (resolver.test.mjs).
-import { RAD_RADICALS, RAD_VARIANTS, RAD_ABSTRACT, PINYIN_FB } from "./data.mjs";
+import { RAD_RADICALS, RAD_VARIANTS, PINYIN_FB, RAD_ICON, RAD_ICON3D } from "./data.mjs";
 
 export function baseOf(g){ return RAD_VARIANTS[g] || g; }
 export function emojiForHan(g){ const r = RAD_RADICALS[baseOf(g)]; return r ? r[0] : null; }
@@ -75,4 +75,14 @@ export function analyzeCharacter(entry, dictByChar){
   return { ...base, type:"chỉ sự", kind:"ideographic", hint:ety.hint };
 }
 
-export { RAD_ABSTRACT };
+
+// pickIconLayer(base, mode3d) -> tầng hiển thị cho thành phần NGHĨA (thuần, không DOM).
+// Chuỗi ưu tiên: icon3d (PNG, khi bật 3D và có tên ảnh) → svg → seal → emoji → text.
+export function pickIconLayer(base, mode3d){
+  if (mode3d && RAD_ICON3D[base]) return "icon3d";
+  const ic = RAD_ICON[base];
+  if (ic === "seal") return "seal";
+  if (ic) return "svg";
+  if (RAD_RADICALS[baseOf(base)]) return "emoji";
+  return "text";
+}

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hán Tự Emoji · Tra chữ Hán theo lục thư bằng emoji</title>
+<style>
+:root{
+  --sand:#f3ecdd;--sand-deep:#e4d7bd;--clay:#b46a43;--ink:#2f2a22;--ink-soft:#8a8073;
+  --card:#fffdf7;--border:#e9dfca;--primary:#cf5a2c;--primary-foreground:#fff;
+  --semantic:#2f9e6f;--semantic-soft:#e2f3ea;
+  --nghia:#2f7fd6;--nghia-soft:#e4eefb;--am:#d6455d;--am-soft:#fbe6ea;
+  --danger:#d6455d;--berry:#c94f7c;--sun:#f2b705;
+  --grad-hero:linear-gradient(120deg,#f7913d 0%,#e0567a 52%,#9a6cf0 100%);
+  --shadow-pop:0 8px 20px -6px rgba(207,90,44,.45);--shadow-lift:0 22px 48px -16px rgba(60,40,20,.32);--bg:#f7f1e5;
+}
+@media (prefers-color-scheme: dark){:root{
+  --sand:#2b2620;--sand-deep:#3d3529;--clay:#d68a5c;--ink:#efe8db;--ink-soft:#a89e8c;
+  --card:#241f19;--border:#3a332a;--primary:#e06a3c;--semantic:#4bbe8a;--semantic-soft:#1e3a2e;
+  --nghia:#5b9dd8;--nghia-soft:#1d2c3d;--am:#e0687c;--am-soft:#3a1e26;--danger:#e0687c;--berry:#dd6f9a;--sun:#f2c33f;--bg:#191510;
+  --shadow-lift:0 22px 48px -16px rgba(0,0,0,.55);
+}}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{background:radial-gradient(1100px 520px at 12% -8%,color-mix(in srgb,var(--berry) 10%,transparent),transparent),radial-gradient(1000px 480px at 100% 0%,color-mix(in srgb,var(--nghia) 10%,transparent),transparent),var(--bg);color:var(--ink);min-height:100vh;font-family:"DM Sans","Segoe UI",Roboto,-apple-system,system-ui,sans-serif;line-height:1.5}
+.font-cjk{font-family:"Noto Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei","Songti SC",serif}
+h1,h2,h3{font-family:"Space Grotesk","DM Sans",system-ui,sans-serif}
+.shell{position:relative;overflow:hidden;min-height:100vh}
+.container{position:relative;max-width:1100px;margin:0 auto;padding:40px 24px 60px}
+@media(max-width:640px){.container{padding:24px 16px 48px}}
+.float-layer{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.float-glyph{position:absolute;font-weight:700;user-select:none;animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-26px)}}
+header.app{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:30px}
+.brand{display:flex;align-items:center;gap:16px}
+.logo{position:relative;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:34px;background:var(--grad-hero);background-size:200% 200%;box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite}
+.logo .spark{position:absolute;top:-4px;right:-4px;width:16px;height:16px;border-radius:50%;background:var(--sun);animation:glow 2s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sun) 70%,transparent)}50%{box-shadow:0 0 0 8px transparent}}
+.brand h1{margin:0;font-size:32px;letter-spacing:-.5px;font-weight:700}
+.grad-text{background:var(--grad-hero);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gradient 6s ease infinite}
+.brand p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}.brand p b{color:var(--clay);font-weight:600}
+.status-tag{display:flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:var(--card);border:1px solid var(--border)}
+.status-tag .dot{width:8px;height:8px;border-radius:50%;background:var(--semantic);animation:pulse 1.8s ease-in-out infinite}
+.status-tag span.txt{font-size:12px;font-weight:600;color:var(--ink-soft)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(max-width:560px){.status-tag{display:none}.brand h1{font-size:26px}}
+nav.modes{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.mode-btn{position:relative;border:2px solid var(--border);background:var(--card);color:var(--ink-soft);padding:12px 18px;border-radius:16px;font-size:14px;font-weight:700;cursor:pointer;transition:.16s;overflow:hidden}
+.mode-btn:hover{color:var(--ink);transform:translateY(-2px);border-color:color-mix(in srgb,var(--clay) 40%,transparent)}
+.mode-btn.active{color:#fff;border-color:transparent;box-shadow:var(--shadow-pop);transform:scale(1.05)}
+.mode-btn .bar{position:absolute;inset:0;background-size:200% 200%;animation:gradient 6s ease infinite;opacity:0}
+.mode-btn.active .bar{opacity:1}
+.mode-btn .lbl{position:relative;display:flex;align-items:center;gap:8px}
+.mode-btn .hint{font-size:11px;font-weight:500;opacity:.7}
+@media(max-width:680px){.mode-btn .hint{display:none}}
+main.panel{position:relative;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(6px);border:2px solid color-mix(in srgb,var(--border) 70%,transparent);border-radius:32px;box-shadow:var(--shadow-lift);padding:40px;overflow:hidden;animation:popIn .4s cubic-bezier(.2,.8,.2,1)}
+@media(max-width:640px){main.panel{padding:22px}}
+.panel-bar{position:absolute;left:0;right:0;top:0;height:6px;background-size:200% 200%;animation:gradient 6s ease infinite}
+@keyframes popIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+footer.app{margin-top:34px;text-align:center;font-size:12px;color:var(--ink-soft)}
+footer.app code{background:var(--card);border:1px solid var(--border);padding:2px 8px;border-radius:7px;color:var(--clay);font-weight:600;margin:0 2px}
+.split{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:start}
+@media(max-width:900px){.split{grid-template-columns:1fr;gap:26px}}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--grad-hero);background-size:200% 200%;color:#fff;font-weight:700;padding:12px 24px;border:none;border-radius:16px;cursor:pointer;box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite;transition:transform .15s,box-shadow .2s}
+.btn-primary:hover{transform:translateY(-2px) scale(1.02);box-shadow:var(--shadow-lift)}
+.btn-ghost{display:inline-flex;align-items:center;background:var(--card);color:var(--ink);border:2px solid var(--border);font-weight:700;padding:10px 22px;border-radius:16px;cursor:pointer;transition:.15s}
+.btn-ghost:hover{background:var(--sand);border-color:var(--clay);transform:translateY(-1px)}
+.pill{padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;border:1px solid var(--border);background:var(--sand);color:var(--ink);cursor:pointer;transition:.14s}
+.pill:hover{border-color:var(--sand-deep)}
+.pill.active{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}
+.pill .cjk{font-family:"Noto Sans SC",serif;margin-right:4px;font-size:16px}
+.step{display:flex;align-items:center;gap:8px;margin:24px 0 12px}.step:first-child{margin-top:0}
+.step .num{width:24px;height:24px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center}
+.step h3{margin:0;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--clay)}
+.type-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--card);border:1px solid var(--border);font-size:13px;font-weight:700;color:var(--clay)}
+/* search + loader */
+.searchbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.searchbar input{flex:1;min-width:180px;padding:11px 14px;border:1px solid var(--border);border-radius:12px;background:var(--card);color:var(--ink);font-size:15px;outline:none}
+.searchbar input:focus{border-color:var(--nghia)}
+.pillwrap{display:flex;flex-wrap:wrap;gap:8px;max-height:118px;overflow:auto;margin-bottom:14px;padding:2px}
+.loader{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);margin-bottom:16px}
+.loader .file{cursor:pointer;padding:7px 14px;border-radius:10px;border:1px dashed var(--border);background:var(--sand);font-weight:600;color:var(--ink)}
+.loader .file:hover{border-color:var(--clay)}
+.loader input[type=file]{display:none}
+/* formula */
+.formula{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:18px 14px;border-radius:18px;background:var(--sand);border:1px solid var(--border);margin:14px 0}
+.fchip{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:70px;padding:10px 12px;border-radius:14px;background:var(--card);position:relative;overflow:hidden}
+.fchip.nghia{border:2px solid var(--nghia)}.fchip.am{border:2px solid var(--am)}
+.fchip.picto{border:2px dashed var(--border);min-width:96px}.fchip.plain{border:2px dashed var(--ink-soft)}
+.fchip .fe{font-size:34px;line-height:1}.fchip.picto .fe{font-size:56px}
+.fchip .fc{font-family:"Noto Sans SC",serif;font-size:32px;font-weight:600;color:var(--am);line-height:1}
+.fchip.nghia .fc,.fchip.plain .fc{color:var(--ink)}
+.fchip .fpy{font-size:12px;color:var(--am);font-weight:700}
+.fchip .fvi{font-size:10px;color:var(--ink-soft);max-width:80px;text-align:center}
+.fchip small{font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.fchip.nghia small{color:var(--nghia)}.fchip.am small{color:var(--am)}.fchip.plain small,.fchip.picto small{color:var(--ink-soft)}
+.fchip .ffade{position:absolute;right:-6px;bottom:-8px;font-size:30px;opacity:.16;pointer-events:none}
+.feq{font-size:24px;color:var(--ink-soft);font-weight:800}
+.fbig{font-family:"Noto Sans SC",serif;font-size:56px;font-weight:700;line-height:1}
+.fbig-wrap{display:flex;flex-direction:column;align-items:center;gap:2px}.fbig-wrap .fpy{font-size:13px;color:var(--ink-soft);font-weight:600}
+/* tianzige */
+.tianzige{position:relative;margin:0 auto;border-radius:20px;border:1px solid var(--border);background:var(--card);box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
+.tianzige.lg{aspect-ratio:1;width:100%;max-width:380px}
+.tz-hline{position:absolute;left:16px;right:16px;top:50%;height:1px;background:repeating-linear-gradient(to right,var(--sand-deep) 0 6px,transparent 6px 14px)}
+.tz-vline{position:absolute;top:16px;bottom:16px;left:50%;width:1px;background:repeating-linear-gradient(to bottom,var(--sand-deep) 0 6px,transparent 6px 14px)}
+.tz-cell{position:absolute;display:flex;align-items:center;justify-content:center;padding:12px;transition:all .3s}
+.tz-cell.left{left:0;top:0;bottom:0;width:50%}.tz-cell.right{right:0;top:0;bottom:0;width:50%}
+.tz-cell.top{left:0;right:0;top:0;height:50%}.tz-cell.bottom{left:0;right:0;bottom:0;height:50%}
+.tz-cell.whole,.tz-cell.part{inset:0}
+.tz-glyph{font-family:"Noto Sans SC",serif;font-weight:600;line-height:1}
+.tianzige.lg .tz-glyph{font-size:clamp(3rem,13vw,5.4rem)}
+.tz-cell.dim{opacity:.2}
+.picto-panel{aspect-ratio:1;width:100%;max-width:380px;margin:0 auto;border-radius:20px;border:1px solid var(--border);background:var(--card);display:grid;place-items:center;box-shadow:inset 0 2px 12px rgba(60,45,30,.08);position:relative}
+.picto-panel .pe{font-size:8.5rem;line-height:1}
+.picto-panel .pchar{font-size:7rem}
+.picto-panel .pg{position:absolute;right:16px;bottom:12px;font-family:"Noto Sans SC",serif;font-size:2.2rem;color:color-mix(in srgb,var(--sand-deep) 70%,transparent);font-weight:600}
+.chip-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.radical-chip{width:96px;padding:12px;border-radius:14px;border:2px solid var(--border);background:var(--sand);cursor:pointer;transition:.15s;text-align:center;display:flex;flex-direction:column;align-items:center}
+.radical-chip:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
+.radical-chip.is-selected{border-color:var(--primary);background:color-mix(in srgb,var(--primary) 12%,var(--card));transform:translateY(-3px)}
+.radical-chip.is-wrong{border-color:var(--danger);background:var(--am-soft);animation:shake .4s}
+.radical-chip.is-correct{border-color:var(--semantic);background:var(--semantic-soft)}
+.radical-chip .emoji{font-size:26px;line-height:1}
+.radical-chip .glyph{font-family:"Noto Sans SC",serif;font-size:22px;font-weight:600;margin-top:8px}
+.radical-chip .cap{font-size:11px;color:var(--ink-soft);margin-top:4px;min-height:26px}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+.part-card{padding:14px;border-radius:14px;background:var(--card);border:1px solid var(--border);border-left:4px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.05);transition:.2s}
+.part-card:hover{box-shadow:0 6px 16px rgba(60,45,30,.1)}
+.part-card.nghia{border-left-color:var(--nghia)}.part-card.am{border-left-color:var(--am)}.part-card.plain{border-left-color:var(--ink-soft)}
+.part-card .row{display:flex;align-items:center;gap:14px}
+.role-visual{width:62px;height:62px;border-radius:14px;display:grid;place-items:center;flex-shrink:0;position:relative;overflow:hidden}
+.role-visual.nghia{background:var(--nghia-soft);border:2px solid var(--nghia)}
+.role-visual.am{background:var(--am-soft);border:2px solid var(--am)}
+.role-visual.plain{background:var(--sand);border:2px dashed var(--ink-soft)}
+.role-visual .rv-emoji{font-size:32px;line-height:1}
+.role-visual .rv-char{font-family:"Noto Sans SC",serif;font-size:34px;font-weight:600;color:var(--am);line-height:1}
+.role-visual.plain .rv-char{color:var(--ink-soft)}
+.role-visual .rv-fade{position:absolute;right:-4px;bottom:-6px;font-size:26px;opacity:.18}
+.part-card .meta{flex:1;min-width:0}.part-card .meta .head{font-size:15px}.part-card .meta .head b{font-weight:700}
+.part-card .meta .sub{font-size:12px;color:var(--ink-soft);margin-top:2px}
+.tags{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:999px}
+.tag.nghia{background:var(--nghia-soft);color:var(--nghia)}.tag.am{background:var(--am-soft);color:var(--am)}
+.tag.neutral{background:var(--sand);color:var(--ink-soft);border:1px solid var(--border)}
+.memory{margin-top:18px;padding:16px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic)}
+.memory .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:6px}
+.memory p{margin:0;font-size:14px;line-height:1.6}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink-soft);font-weight:500;margin:6px 0 14px;flex-wrap:wrap}
+.legend i{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:6px;vertical-align:middle}
+.vnote{margin-top:10px;font-size:12px;color:var(--ink-soft);background:var(--sand);border:1px dashed var(--border);border-radius:10px;padding:8px 12px}
+.swblock{margin-top:10px;font-size:13px;line-height:1.5}
+.swblock .den{color:var(--ink)}.swblock .den b{color:var(--nghia)}
+.swblock .phai{color:var(--ink-soft);margin-top:2px}
+.swblock .kc{color:var(--clay);font-size:11px}
+.shuowen{margin-top:8px;border-top:1px dashed var(--border);padding-top:6px}
+.shuowen summary{cursor:pointer;font-size:11px;font-weight:700;color:var(--clay);letter-spacing:.04em;list-style:none}
+.shuowen summary::-webkit-details-marker{display:none}
+.shuowen summary::before{content:"▸ ";font-size:10px}
+.shuowen[open] summary::before{content:"▾ "}
+.shuowen .body{margin-top:8px;background:var(--sand);border-radius:10px;padding:10px 12px}
+.shuowen .sw-han{font-family:"Noto Sans SC",serif;font-size:15px;color:var(--ink);line-height:1.6}
+.shuowen .sw-lbl{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase;margin-bottom:4px}
+.shuowen .sw-dich{font-size:12px;color:var(--ink-soft);margin-top:6px}
+.shuowen .sw-vd{font-size:12px;color:var(--ink-soft);margin-top:8px;font-family:"Noto Sans SC",serif}
+.cilin-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:800;letter-spacing:.04em;padding:3px 9px;border-radius:999px;color:#fff;vertical-align:middle;margin-left:6px}
+.cilin-badge .sep{opacity:.7;font-weight:400}
+.cilin-mini{display:inline-block;width:16px;height:16px;border-radius:5px;color:#fff;font-size:10px;font-weight:800;text-align:center;line-height:16px}
+.radgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px}
+.radcell{padding:10px 8px;border-radius:12px;border:2px solid var(--border);background:var(--sand);cursor:pointer;text-align:center;transition:.14s;position:relative}
+.radcell:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
+.radcell.active{border-color:var(--primary);background:color-mix(in srgb,var(--primary) 10%,var(--card))}
+.radcell .re{font-size:24px;line-height:1}
+.radcell .rg{font-family:"Noto Sans SC",serif;font-size:20px;font-weight:600;margin-top:4px}
+.radcell .rv{font-size:10px;color:var(--ink-soft);margin-top:2px;min-height:24px}
+.radcell .cdot{position:absolute;top:6px;right:6px}
+.cfilter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.cfilter .pill{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;font-size:12px}
+.cfilter .dot{width:10px;height:10px;border-radius:3px;display:inline-block}
+.hsk-toggle{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--ink-soft);cursor:pointer;user-select:none}
+.hsk-toggle input{accent-color:var(--primary)}
+.svgicon{display:inline-grid;place-items:center;line-height:0;color:var(--nghia)}
+.svgicon svg{width:1em;height:1em}
+.seal-ph{display:inline-grid;place-items:center;border:2px solid var(--nghia);border-radius:50%;color:var(--nghia);background:var(--nghia-soft);font-family:"Noto Sans SC",serif;font-weight:600;line-height:1}
+.sem3d{display:inline-grid;place-items:center}
+.icon3d-frame{display:inline-grid;place-items:center;border-radius:50%;background:var(--nghia-soft);border:2px solid var(--nghia);overflow:hidden}
+.icon3d-frame img{width:76%;height:76%;object-fit:contain;display:block}
+.icon-toggle{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:600;color:var(--ink-soft);background:var(--card);border:1px solid var(--border);border-radius:999px;padding:5px 10px}
+.icon-toggle button{border:1px solid var(--border);background:var(--sand);color:var(--ink-soft);border-radius:999px;padding:2px 10px;font-size:11px;font-weight:700;cursor:pointer}
+.icon-toggle button.active{background:var(--nghia);border-color:var(--nghia);color:#fff}
+.puzzle-board{aspect-ratio:1;width:100%;max-width:380px;margin:0 auto;position:relative;border-radius:20px;border:1px solid var(--border);background:var(--card);box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
+.puzzle-slot{position:absolute;border:2px dashed var(--border);border-radius:12px;display:grid;place-items:center;transition:.18s;background:color-mix(in srgb,var(--sand) 40%,transparent)}
+.puzzle-slot.is-over{border-color:var(--semantic);background:var(--semantic-soft);transform:scale(1.03)}
+.puzzle-slot.is-locked{border-style:solid;border-color:var(--border);background:var(--card)}
+.puzzle-slot.is-shake{animation:shake .45s;border-color:var(--danger)}
+.puzzle-slot .slot-hint{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:color-mix(in srgb,var(--ink-soft) 75%,transparent);text-align:center;padding:0 8px}
+.puzzle-slot .tz-glyph{font-size:clamp(3rem,12vw,4.8rem)}
+.tray{display:flex;flex-wrap:wrap;gap:12px}
+.puzzle-piece{width:82px;padding:12px;border-radius:16px;border:2px solid var(--border);background:var(--card);box-shadow:0 2px 8px rgba(60,45,30,.06);text-align:center;cursor:grab;transition:.15s}
+.puzzle-piece:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
+.puzzle-piece.is-selected{border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 30%,transparent)}
+.puzzle-piece.is-used{opacity:.3;pointer-events:none;cursor:default}
+.puzzle-piece .em{font-size:20px;line-height:1}
+.puzzle-piece .g{font-family:"Noto Sans SC",serif;font-size:28px;font-weight:600;margin-top:4px}
+.puzzle-piece .c{font-size:10px;color:var(--ink-soft);margin-top:4px}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:640px){.result-grid{grid-template-columns:repeat(2,1fr)}}
+.result-card{padding:16px;border-radius:14px;background:var(--card);border:1px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.05)}
+.result-card .rc-glyph{font-family:"Noto Sans SC",serif;font-size:46px;text-align:center;font-weight:600}
+.result-card .rc-py{text-align:center;font-size:14px;font-weight:700;color:var(--primary);margin-top:2px}
+.result-card .rc-mean{text-align:center;font-size:12px;color:var(--ink-soft)}
+.result-card .rc-parts{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);text-align:center;font-size:12px;color:var(--ink-soft)}
+.result-card .rc-parts .g{font-family:"Noto Sans SC",serif;font-size:16px}
+.result-card .rc-parts .g.nghia{color:var(--nghia)}.result-card .rc-parts .g.am{color:var(--am)}
+.center{text-align:center}.muted{color:var(--ink-soft)}
+.util-row{margin-top:22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.quiz-glyph{margin:24px auto 0;width:190px;height:190px;border-radius:20px;background:var(--card);border:1px solid var(--border);display:grid;place-items:center;font-family:"Noto Sans SC",serif;font-size:88px;font-weight:600}
+.done-box{margin-top:20px;padding:20px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic);animation:popIn .35s}
+.done-box .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:6px}
+.char-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.char-head .info{font-size:14px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="float-layer" aria-hidden="true">
+    <div class="float-glyph font-cjk" style="top:96px;left:-16px;font-size:9rem;color:color-mix(in srgb,var(--berry) 9%,transparent)">字</div>
+    <div class="float-glyph" style="top:46%;right:-8px;font-size:8rem;opacity:.08;animation-delay:1.5s">💧</div>
+    <div class="float-glyph" style="bottom:40px;left:22%;font-size:6rem;opacity:.08;animation-delay:3s">🔥</div>
+  </div>
+  <div class="container">
+    <header class="app">
+      <div class="brand">
+        <div class="logo">🈶<span class="spark"></span></div>
+        <div><h1>Hán Tự <span class="grad-text">Emoji</span></h1>
+          <p>Chữ → lục thư → phân rã → <b>công thức emoji</b> · dữ liệu makemeahanzi</p></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="icon-toggle" id="iconToggle" title="Kiểu hiển thị thành phần NGHĨA">Icon:
+          <button data-m="3d">3D</button><button data-m="svg" class="active">Nét</button></div>
+        <div class="status-tag"><span class="dot"></span><span class="txt" id="dictCount">— chữ</span></div>
+      </div>
+    </header>
+    <nav class="modes" id="modeNav"></nav>
+    <main class="panel"><div class="panel-bar" id="panelBar"></div><div id="panel"></div></main>
+    <footer class="app">
+      <b>NGHĨA</b> = emoji (xanh dương) · <b>ÂM</b> = chữ Hán + pinyin (đỏ) · Tượng hình = emoji lớn · thành phần nghĩa kèm <b>說文解字</b>.
+      &nbsp;Resolver: <code>variants</code>·<code>ambiguous</code> (阝月王)·<code>fallback</code> — <span id="testFlag">tests…</span> — chạy ngoại tuyến.
+    </footer>
+  </div>
+</div>
+<script>
+/* ================= FEEDBACK ================= */
+let _ac=null;
+function beep(f=880,d=90,t="sine",g=0.06){try{_ac=_ac||new (window.AudioContext||window.webkitAudioContext)();const c=_ac,o=c.createOscillator(),ga=c.createGain();o.type=t;o.frequency.value=f;ga.gain.setValueAtTime(g,c.currentTime);ga.gain.exponentialRampToValueAtTime(0.0001,c.currentTime+d/1000);o.connect(ga).connect(c.destination);o.start();o.stop(c.currentTime+d/1000);}catch(e){}}
+function buzz(p=25){try{navigator.vibrate&&navigator.vibrate(p);}catch(e){}}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function toneless(s){return (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();}
+
+/* ================= DỮ LIỆU (sinh từ data.mjs + embed/ — SỬA Ở FILE NGUỒN, chạy `node build.mjs`) ================= */
+/*__DATA__*/
+let DICT=SAMPLE_DICT.slice();
+
+/* ================= RESOLVER (sinh từ resolver.mjs — SỬA Ở FILE NGUỒN, chạy `node build.mjs`) ================= */
+/*__RESOLVER__*/
+function analyzeChar(entry){return analyzeCharacter(entry,DICT_BY_CHAR);}
+function lookupPinyin(g){const e=DICT_BY_CHAR[g];if(e)return e.pinyin[0];return PINYIN_FB[g]||null;}
+/* ================= INDEX ================= */
+let DICT_BY_CHAR={},CHARS=[],CHAR_BY_GLYPH={},COMPOUNDS=[];
+function rebuildIndex(){
+  DICT_BY_CHAR={};DICT.forEach(e=>DICT_BY_CHAR[e.character]=e);
+  CHARS=DICT.map(analyzeChar);CHAR_BY_GLYPH={};CHARS.forEach(c=>CHAR_BY_GLYPH[c.glyph]=c);
+  COMPOUNDS=CHARS.filter(c=>c.kind==="pictophonetic");
+  const el=document.getElementById("dictCount");if(el)el.textContent=DICT.length+" chữ";
+}
+function partKey(p){return p.role==="semantic"?p.res.base:baseOf(p.glyph);}
+function compInfo(base){const r=RAD_RADICALS[base];return {base,emoji:r?r[0]:null,pinyin:r?r[1]:(PINYIN_FB[base]||""),vi:r?r[2]:""};}
+function searchByComponents(bases){return COMPOUNDS.filter(c=>bases.every(b=>c.parts.some(p=>partKey(p)===b)));}
+
+/* ================= HELPER HIỂN THỊ ================= */
+const TYPE_BADGE={"hình thanh":["🧩","Hình thanh"],"tượng hình":["🖼","Tượng hình"],"chỉ sự":["💡","Chỉ sự"],"hội ý":["💡","Hội ý"]};
+function typeBadge(t){const b=TYPE_BADGE[t]||["❓","Chưa phân loại"];return `<span class="type-badge">${b[0]} ${b[1]}</span>`;}
+function formulaChip(p){
+  if(p.role==="semantic"){
+    const r=p.res;
+    if(r.emoji||RAD_ICON[r.base]) return `<span class="fchip nghia"><span class="fe">${semIconHTML(r.base,34)}</span><span class="fvi">${esc(r.vi||"")}</span><small>NGHĨA</small></span>`;
+    return `<span class="fchip plain"><span class="fc font-cjk">${esc(p.glyph)}</span><small>NGHĨA</small></span>`;
+  }
+  return `<span class="fchip am"><span class="fc font-cjk">${esc(p.glyph)}</span>${p.pinyin?`<span class="fpy">${p.pinyin}</span>`:""}<small>ÂM</small>${p.fade?`<span class="ffade">${p.fade}</span>`:""}</span>`;
+}
+function renderFormula(ch){
+  const eq=`<span class="feq">=</span><span class="fbig-wrap"><span class="fbig font-cjk">${ch.glyph}</span><span class="fpy">${ch.pinyin}</span></span>`;
+  if(ch.pictoEmoji) return `<div class="formula"><span class="fchip picto"><span class="fe">${ch.pictoEmoji}</span><small>${ch.type}</small></span>${eq}</div>`;
+  if(ch.parts&&ch.parts.length){return `<div class="formula">${ch.parts.map(formulaChip).join('<span class="feq">+</span>')}${eq}</div>`;}
+  return `<div class="formula"><span class="fchip plain"><span class="fc font-cjk">${ch.glyph}</span><small>${ch.type}</small></span>${eq}</div>`;
+}
+function Tianzige(parts,dimComp){
+  const cells=parts.map(p=>{const color=p.role==="phonetic"?"var(--am)":"var(--nghia)";const dim=(dimComp&&p.glyph!==dimComp)?"dim":"";return `<div class="tz-cell ${p.pos} ${dim}"><span class="tz-glyph" style="color:${color}">${esc(p.glyph)}</span></div>`;}).join("");
+  return `<div class="tianzige lg"><div class="tz-hline"></div><div class="tz-vline"></div>${cells}</div>`;
+}
+/* Hiển thị thành phần NGHĨA theo chuỗi ưu tiên: icon3d (PNG) → icon SVG → emoji → chữ.
+   Tầng chọn bởi pickIconLayer (resolver.mjs — thuần, test được).
+   "seal" = placeholder chữ Hán trong khung tròn xanh.
+   TODO: thay placeholder seal bằng SVG chữ TIỂU TRIỆN tải từ GlyphWiki (glyphwiki.org). */
+let ICON_MODE="svg";      // "3d" | "svg" — probe icons3d/shui.png quyết định mặc định
+let ICON3D_OK=false;
+function semIconSvgLayer(base,px){
+  const ic=RAD_ICON[base];
+  if(ic==="seal") return `<span class="seal-ph" style="width:${px+8}px;height:${px+8}px;font-size:${Math.round(px*0.58)}px">${esc(base)}</span>`;
+  if(ic&&ICONS[ic]) return `<span class="svgicon" style="font-size:${px}px">${ICONS[ic]}</span>`;
+  const emo=emojiForHan(base);
+  if(emo) return `<span style="font-size:${px}px;line-height:1">${emo}</span>`;
+  return `<span class="seal-ph" style="width:${px+8}px;height:${px+8}px;font-size:${Math.round(px*0.58)}px;border-color:var(--ink-soft);color:var(--ink-soft);background:var(--sand)">${esc(base)}</span>`;
+}
+function semIconHTML(base,px){
+  if(pickIconLayer(base,ICON_MODE==="3d")==="icon3d"){
+    const d=Math.max(56,px+22);
+    // ảnh 3D không nhuộm màu được -> khung tròn nền xanh nhạt + viền xanh; lỗi tải -> rơi về tầng SVG
+    return `<span class="sem3d"><span class="icon3d-frame" style="width:${d}px;height:${d}px"><img src="icons3d/${RAD_ICON3D[base]}.png" alt="${esc(base)}" onerror="var s=this.closest('.sem3d');this.remove();s.firstElementChild.style.display='none';s.lastElementChild.style.display=''"></span><span class="fb" style="display:none">${semIconSvgLayer(base,px)}</span></span>`;
+  }
+  return semIconSvgLayer(base,px);
+}
+/* Badge Cilin 同义词词林: [G · Tâm lý] hoặc [F · Động tác | B · Sự vật] */
+function cilinBadge(base){
+  const s=SHUOWEN[base];if(!s||!s[6])return "";
+  const main=s[6],phu=s[7],mien=s[8];
+  const seg=(c)=>`${c} · ${CILIN_NAMES[c]||c}`;
+  const label=phu?`${seg(main)}<span class="sep"> | </span>${seg(phu)}`:seg(main);
+  return `<span class="cilin-badge" style="background:${CILIN_COLORS[main]||"#999"}" title="${esc(mien||"")}">${label}</span>`;
+}
+/* Khối Thuyết Văn Giải Tự (nghia_den + nghia_phai_sinh + badge Cilin + mở rộng nguyên văn) */
+function shuowenBlock(base){
+  const s=SHUOWEN[base];
+  if(!s) return `<div class="sub">Thành phần tạo NGHĨA, hiển thị bằng emoji.</div>`;
+  const [den,phai,nguyen,dich,vd,kc]=s;
+  const star=kc?` <span class="kc" title="nguyên văn đang chờ đối chiếu với swjz.xml">(*)</span>`:"";
+  const detail=nguyen?`<details class="shuowen"><summary>說文解字 · Xem Thuyết văn${star}</summary>
+    <div class="body"><div class="sw-lbl">Nguyên văn 說文解字</div><div class="sw-han">${esc(nguyen)}</div>
+    <div class="sw-dich">${esc(dich)}</div>${vd?`<div class="sw-vd">Ví dụ: ${esc(vd)}</div>`:""}${kc?`<div class="kc" style="margin-top:8px">(*) Nguyên văn soạn từ tri thức, đang chờ đối chiếu swjz.xml/ctext.org.</div>`:""}</div></details>`:"";
+  return `<div class="swblock"><div class="den"><b>Nghĩa đen:</b> ${esc(den)}${cilinBadge(base)}</div><div class="phai"><b>Vai trò khi ghép:</b> ${esc(phai)}</div>${detail}</div>`;
+}
+function PartCard(p,idx){
+  if(p.role==="semantic"){
+    const r=p.res;
+    if(r.emoji){
+      const note=r.isVariant?`<div class="vnote">${esc(p.glyph)} là dạng biến thể (${p.pos==="left"?"đứng bên trái":p.pos}) của <b class="font-cjk">${esc(r.base)}</b> ${r.emoji}</div>`:"";
+      return `<div class="part-card nghia" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual nghia">${semIconHTML(r.base,32)}</div>
+        <div class="meta"><div class="head">Bộ <b class="font-cjk">${esc(r.base)}</b> · <b>${r.pinyin||""}</b> — ${esc(r.vi||"")}</div>${shuowenBlock(r.base)}</div></div>
+        <div class="tags"><span class="tag nghia">tạo NGHĨA</span><span class="tag neutral">${esc(p.pos)}</span></div>${note}</div>`;
+    }
+    return `<div class="part-card plain" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual plain"><span class="rv-char font-cjk">${esc(p.glyph)}</span></div>
+      <div class="meta"><div class="head">Thành phần <b class="font-cjk">${esc(p.glyph)}</b>${p.res&&p.res.pinyin?` · <b>${p.res.pinyin}</b>`:""}</div><div class="sub">Chưa có emoji — hiển thị nguyên chữ trong khung xám.</div></div></div>
+      <div class="tags"><span class="tag neutral">tạo NGHĨA</span><span class="tag neutral">${esc(p.pos)}</span></div></div>`;
+  }
+  return `<div class="part-card am" data-g="${esc(p.glyph)}"><div class="row"><div class="role-visual am"><span class="rv-char font-cjk">${esc(p.glyph)}</span>${p.fade?`<span class="rv-fade">${p.fade}</span>`:""}</div>
+    <div class="meta"><div class="head">Chữ <b class="font-cjk">${esc(p.glyph)}</b>${p.pinyin?` · <b>${p.pinyin}</b>`:""} — gợi ÂM đọc</div><div class="sub">Thành phần tạo ÂM: giữ nguyên chữ Hán + pinyin${p.fade?`, có emoji riêng ${p.fade} (mờ)`:""}.</div></div></div>
+    <div class="tags"><span class="tag am">tạo ÂM</span><span class="tag neutral">${esc(p.pos)}</span></div></div>`;
+}
+
+/* ================= CHẾ ĐỘ ================= */
+const MODES=[{id:"analyze",label:"Tra chữ",hint:"Công thức emoji"},{id:"radicals",label:"Bộ thủ",hint:"84 bộ · Cilin"},{id:"learn",label:"Học chữ",hint:"Đoán từ nghĩa"},{id:"assemble",label:"Ghép chữ",hint:"Dựng nửa trái"},{id:"create",label:"Sáng tạo",hint:"Tìm chữ từ mảnh"},{id:"quiz",label:"Đố bộ thủ",hint:"Trắc nghiệm"}];
+const MODE_GRAD={analyze:"linear-gradient(135deg,#2f8fd6,#d6455d)",radicals:"linear-gradient(135deg,#7ba86f,#6f9fc4)",learn:"linear-gradient(135deg,#f59331,#d94f9e)",assemble:"linear-gradient(135deg,#f4c542,#f59331)",create:"linear-gradient(135deg,#d94f9e,#7b5cd6)",quiz:"linear-gradient(135deg,#4aa3d8,#d94f9e)"};
+
+/* ---------- TRA CHỮ ---------- */
+let analyze=null;
+function renderAnalyze(){
+  if(!analyze) analyze={glyph:"清",dim:null,query:""};
+  if(!CHAR_BY_GLYPH[analyze.glyph]) analyze.glyph=CHARS[0].glyph;
+  const ch=CHAR_BY_GLYPH[analyze.glyph];
+  const q=toneless(analyze.query);
+  const list=CHARS.filter(c=>!q||c.glyph===analyze.query||toneless(c.pinyin).includes(q)||toneless(c.def).includes(q));
+  const pills=list.map(c=>`<button class="pill ${c.glyph===analyze.glyph?"active":""}" data-g="${c.glyph}"><span class="cjk font-cjk">${c.glyph}</span>${c.pinyin}</button>`).join("")||`<span class="muted" style="font-size:13px">Không có chữ khớp “${esc(analyze.query)}”.</span>`;
+
+  let left,right;
+  if(ch.pictoEmoji){
+    left=`<div class="picto-panel"><span class="pe">${ch.pictoEmoji}</span><span class="pg font-cjk">${ch.glyph}</span></div>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}<div class="memory"><div class="k">Gợi ý hình tượng</div><p>${esc(ch.hint||ch.def)}</p></div><p class="muted" style="font-size:13px;margin-top:12px">Nghĩa: ${esc(ch.def)}</p>`;
+  }else if(ch.parts&&ch.parts.length){
+    left=`${Tianzige(ch.parts,ch.dim)}<p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${esc(ch.def)}</p>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>
+      <div class="legend"><span><i style="background:var(--nghia)"></i>NGHĨA · emoji (xanh dương)</span><span><i style="background:var(--am)"></i>ÂM · chữ + pinyin (đỏ)</span></div>
+      <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
+      ${ch.hint?`<div class="memory"><div class="k">Gợi ý</div><p>${esc(ch.hint)}</p></div>`:""}`;
+  }else{
+    left=`<div class="picto-panel"><span class="pchar font-cjk">${ch.glyph}</span></div>`;
+    right=`<div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}<div class="memory"><div class="k">Gợi ý</div><p>${esc(ch.hint||ch.def)}</p></div>`;
+  }
+
+  return {html:`<div>
+    <div class="searchbar"><input type="text" id="searchInput" placeholder="Nhập chữ Hán hoặc pinyin (vd: 清, qing, river)…" value="${esc(analyze.query)}" autocomplete="off"></div>
+    <div class="loader"><label class="file">📄 Nạp dictionary.txt đầy đủ<input type="file" id="dictFile" accept=".txt"></label><span>Đang dùng: <b style="color:var(--ink)">${DICT.length}</b> chữ (demo). Tải bản đầy đủ ~10MB từ makemeahanzi để tra mọi chữ.</span></div>
+    <div class="pillwrap">${pills}</div>
+    ${ch.parts&&ch.parts.length?renderFormula(ch):""}
+    <div class="split"><div>${left}</div><div>${right}</div></div>
+  </div>`,wire(){
+    const si=document.getElementById("searchInput");
+    si.oninput=()=>{analyze.query=si.value;const q=toneless(si.value);const exact=CHARS.find(c=>c.glyph===si.value);if(exact)analyze.glyph=exact.glyph;else{const m=CHARS.find(c=>toneless(c.pinyin)===q);if(m)analyze.glyph=m.glyph;}const pos=si.selectionStart;mountMode();const ns=document.getElementById("searchInput");ns.focus();try{ns.setSelectionRange(pos,pos);}catch(e){}};
+    si.onkeydown=e=>{if(e.key==="Enter"){const f=list[0];if(f){analyze.glyph=f.glyph;analyze.query="";beep(760,60,"sine",0.04);mountMode();}}};
+    document.querySelectorAll(".pill[data-g]").forEach(b=>b.onclick=()=>{analyze.glyph=b.dataset.g;beep(700,60,"sine",0.04);mountMode();});
+    document.querySelectorAll(".part-card[data-g]").forEach(el=>{el.onmouseenter=()=>{document.querySelectorAll(".tz-cell").forEach(c=>{const g=c.querySelector(".tz-glyph").textContent;c.classList.toggle("dim",g!==el.dataset.g);});};el.onmouseleave=()=>{document.querySelectorAll(".tz-cell").forEach(c=>c.classList.remove("dim"));};});
+    const df=document.getElementById("dictFile");if(df)df.onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const lines=rd.result.split("\n").map(l=>l.trim()).filter(Boolean);const parsed=lines.map(l=>JSON.parse(l));DICT=parsed;rebuildIndex();analyze.query="";beep(1046,90,"triangle");mountMode();}catch(err){alert("Không đọc được file: "+err.message);}};rd.readAsText(f);};
+  }};
+}
+
+/* ---------- BỘ THỦ (duyệt 84 bộ · lọc Cilin · lọc HSK1) ---------- */
+let radicals=null;
+function charsOfRadical(base){
+  return CHARS.filter(c=>
+    (c.parts&&c.parts.some(p=>(p.role==="semantic"?p.res.base:baseOf(p.glyph))===base)) ||
+    baseOf(c.radical)===base || baseOf(c.glyph)===base ||
+    (c.radical==="阝"&&(base==="阜"||base==="邑")) );
+}
+function renderRadicals(){
+  if(!radicals) radicals={cat:"all",sel:null,hskOnly:true};
+  const R=radicals;
+  const cats=Object.keys(CILIN_NAMES);
+  const filterPills=`<div class="cfilter">
+    <button class="pill ${R.cat==="all"?"active":""}" data-c="all">Tất cả (84)</button>
+    ${cats.map(c=>{const n=Object.keys(RAD_RADICALS).filter(b=>SHUOWEN[b]&&(SHUOWEN[b][6]===c||SHUOWEN[b][7]===c)).length;return n?`<button class="pill ${R.cat===c?"active":""}" data-c="${c}"><span class="dot" style="background:${CILIN_COLORS[c]}"></span>${c} · ${CILIN_NAMES[c]} (${n})</button>`:"";}).join("")}
+  </div>`;
+  const bases=Object.keys(RAD_RADICALS).filter(b=>R.cat==="all"||(SHUOWEN[b]&&(SHUOWEN[b][6]===R.cat||SHUOWEN[b][7]===R.cat)));
+  const grid=`<div class="radgrid">${bases.map(b=>{const r=RAD_RADICALS[b];const cl=SHUOWEN[b]?SHUOWEN[b][6]:"";
+    return `<div class="radcell ${R.sel===b?"active":""}" data-b="${esc(b)}" title="${esc(SHUOWEN[b]?SHUOWEN[b][8]||"":"")}">
+      ${cl?`<span class="cdot cilin-mini" style="background:${CILIN_COLORS[cl]}">${cl}</span>`:""}
+      <div class="re">${r[0]}</div><div class="rg">${esc(b)}</div><div class="rv">${esc(r[2])}</div></div>`;}).join("")}</div>`;
+  let detail="";
+  if(R.sel&&RAD_RADICALS[R.sel]){
+    const r=RAD_RADICALS[R.sel];
+    let list=charsOfRadical(R.sel);
+    const total=list.length;
+    if(R.hskOnly) list=list.filter(c=>HSK1.has(c.glyph));
+    detail=`<div style="margin-top:22px">
+      <div class="char-head"><span style="font-size:34px">${r[0]}</span><span class="big font-cjk" style="font-size:28px;font-weight:700">${esc(R.sel)}</span><span class="info">${r[1]} — ${esc(r[2])}</span></div>
+      ${shuowenBlock(R.sel)}
+      <div class="util-row" style="margin-top:14px">
+        <span class="muted" style="font-size:13px">Chữ chứa bộ này trong từ điển: <b style="color:var(--ink)">${list.length}</b>${R.hskOnly?` / ${total} (đang lọc HSK1)`:` / ${total}`}</span>
+        <label class="hsk-toggle"><input type="checkbox" id="hskToggle" ${R.hskOnly?"checked":""}> Chỉ HSK1</label>
+      </div>
+      ${list.length?`<div class="result-grid" style="margin-top:12px">${list.map(ch=>`<div class="result-card" style="cursor:pointer" data-open="${ch.glyph}"><div class="rc-glyph font-cjk">${ch.glyph}</div><div class="rc-py">${ch.pinyin}</div><div class="rc-mean">${esc(ch.def)}</div></div>`).join("")}</div>`
+        :`<p class="muted" style="font-size:14px;margin-top:12px">Không có chữ nào${R.hskOnly?" thuộc HSK1":""} chứa bộ này trong dữ liệu hiện tại${R.hskOnly?" — thử tắt lọc HSK1":""}. Nạp dictionary.txt đầy đủ để có nhiều chữ hơn.</p>`}
+    </div>`;
+  }
+  return {html:`<div>
+    <p class="muted" style="font-size:14px;margin:0 0 14px">84 bộ thủ nhóm theo đại loại <b>同义词词林 Cilin</b>. Bấm một bộ để xem Thuyết văn và lọc các chữ chứa bộ đó.</p>
+    ${filterPills}${grid}${detail}
+  </div>`,wire(){
+    document.querySelectorAll(".cfilter .pill").forEach(b=>b.onclick=()=>{R.cat=b.dataset.c;beep(700,50,"sine",0.04);mountMode();});
+    document.querySelectorAll(".radcell").forEach(el=>el.onclick=()=>{R.sel=(R.sel===el.dataset.b?null:el.dataset.b);beep(760,60,"sine",0.04);mountMode();if(R.sel){const d=document.querySelector(".char-head");if(d)d.scrollIntoView({behavior:"smooth",block:"center"});}});
+    const ht=document.getElementById("hskToggle");if(ht)ht.onchange=()=>{R.hskOnly=ht.checked;mountMode();};
+    document.querySelectorAll("[data-open]").forEach(el=>el.onclick=()=>{currentMode="analyze";analyze={glyph:el.dataset.open,dim:null,query:""};document.querySelectorAll(".mode-btn").forEach(x=>x.classList.toggle("active",x.dataset.mode==="analyze"));document.getElementById("panelBar").style.background=MODE_GRAD.analyze;beep(880,70,"triangle");mountMode();});
+  }};
+}
+
+/* ---------- HỌC CHỮ ---------- */
+let learn=null;
+function learnInit(idx){
+  const ch=COMPOUNDS[idx%COMPOUNDS.length];
+  const correct=[...new Set(ch.parts.map(partKey))];
+  const pool=Object.keys(RAD_RADICALS).filter(b=>!correct.includes(b));
+  learn={idx,chips:shuffle([...correct,...shuffle(pool).slice(0,3)]),selected:new Set(),status:"idle",bad:new Set()};
+}
+function renderLearn(){
+  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh trong từ điển.</p>`,wire(){}};
+  if(!learn) learnInit(0);
+  const ch=COMPOUNDS[learn.idx%COMPOUNDS.length];
+  const correct=new Set(ch.parts.map(partKey));
+  if(learn.status==="done"){
+    return {html:`<div class="split"><div>${Tianzige(ch.parts)}<p class="center muted" style="margin-top:14px;font-size:14px"><span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${esc(ch.def)}</p></div>
+      <div><div class="char-head"><span class="info">Loại chữ:</span>${typeBadge(ch.type)}</div>${renderFormula(ch)}
+        <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
+        <div class="memory"><div class="k">Ghi nhớ</div><p>${esc(ch.hint||ch.def)}</p></div>
+        <button class="btn-primary" id="learnNext" style="margin-top:18px">Chữ tiếp theo →</button></div></div>`,wire(){document.getElementById("learnNext").onclick=()=>{learnInit(learn.idx+1);mountMode();beep(1046,90,"triangle");};}};
+  }
+  return {html:`<div>
+    <div class="center" style="margin-bottom:24px"><div style="font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:var(--clay)">Nghĩa của chữ</div>
+      <div style="font-size:30px;font-weight:700;margin-top:8px">${esc(ch.def)}</div>
+      <div class="muted" style="font-size:14px;margin-top:4px">âm đọc: ${ch.pinyin} · gồm ${correct.size} thành phần</div></div>
+    <p class="center" style="font-size:15px;margin-bottom:18px;font-weight:500">Chọn <b>tất cả</b> thành phần tạo nên chữ này:</p>
+    <div class="chip-grid" style="max-width:560px;margin:0 auto">${learn.chips.map(b=>{const ci=compInfo(b),on=learn.selected.has(b),bad=learn.bad.has(b);const st=bad?"is-wrong":on?"is-selected":"";return `<button class="radical-chip ${st}" data-b="${esc(b)}"><div class="emoji">${ci.emoji||"🔸"}</div><div class="glyph font-cjk">${esc(ci.base)}</div><div class="cap">${esc(ci.vi||"")}</div></button>`;}).join("")}</div>
+    <div class="center" style="margin-top:24px"><button class="btn-primary" id="learnCheck">Kiểm tra</button>${learn.status==="wrong"?`<p style="color:var(--danger);margin-top:16px;font-size:14px;font-weight:500">Chưa đúng — bỏ mảnh viền đỏ và chọn lại nhé.</p>`:""}</div>
+  </div>`,wire(){
+    document.querySelectorAll(".radical-chip").forEach(b=>b.onclick=()=>{const id=b.dataset.b;learn.selected.has(id)?learn.selected.delete(id):learn.selected.add(id);if(learn.bad.has(id))learn.bad.delete(id);if(learn.status!=="idle")learn.status="idle";beep(660,50,"sine",0.04);mountMode();});
+    document.getElementById("learnCheck").onclick=()=>{if(!learn.selected.size)return;const extra=[...learn.selected].filter(id=>!correct.has(id));const missing=[...correct].filter(id=>!learn.selected.has(id));if(!extra.length&&!missing.length){learn.status="done";beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);}else{learn.status="wrong";learn.bad=new Set(extra);beep(220,140,"square",0.05);buzz([15,30,15]);}mountMode();};
+  }};
+}
+
+/* ---------- GHÉP CHỮ ---------- */
+let assemble=null;
+function asmTargets(){const t=["清","情","妈"].filter(g=>CHAR_BY_GLYPH[g]&&CHAR_BY_GLYPH[g].kind==="pictophonetic");return t.length?t:COMPOUNDS.slice(0,3).map(c=>c.glyph);}
+function assembleInit(t){const T=asmTargets();const target=t||T[0];const ch=CHAR_BY_GLYPH[target];const correct=ch.parts.map(p=>p.glyph);const pool=[...new Set(COMPOUNDS.flatMap(c=>c.parts.map(p=>p.glyph)).filter(g=>!correct.includes(g)))];assemble={target,tray:shuffle([...correct,...shuffle(pool).slice(0,3)]),placed:{},picked:null,over:null,shake:null,done:false,attempts:0};}
+function posStyle(pos){const i="8%";if(pos==="left")return `left:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="right")return `right:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;if(pos==="top")return `left:${i};right:${i};top:${i};height:calc(50% - ${i})`;if(pos==="bottom")return `left:${i};right:${i};bottom:${i};height:calc(50% - ${i})`;return `inset:${i}`;}
+function pieceInfo(g){const c=COMPOUNDS.flatMap(x=>x.parts).find(p=>p.glyph===g);if(c&&c.role==="semantic"&&c.res.emoji)return {emoji:c.res.emoji,label:c.res.base};if(c&&c.role==="phonetic")return {emoji:emojiForHan(g),label:c.pinyin||""};return {emoji:emojiForHan(g),label:""};}
+function renderAssemble(){
+  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh.</p>`,wire(){}};
+  if(!assemble) assembleInit();
+  const A=assemble,ch=CHAR_BY_GLYPH[A.target],T=asmTargets();
+  const slots=ch.parts.map((p,i)=>{const placed=!!A.placed[i];const glyph=placed?A.placed[i]:"";const color=p.role==="phonetic"?"var(--am)":"var(--nghia)";const cls=`puzzle-slot ${A.over===i?"is-over":""} ${A.shake===i?"is-shake":""} ${placed?"is-locked":""}`;const inner=placed?`<span class="tz-glyph font-cjk" style="color:${color}">${esc(glyph)}</span>`:`<span class="slot-hint">${esc(p.pos)}</span>`;return `<div class="${cls}" style="${posStyle(p.pos)}" data-slot="${i}">${inner}</div>`;}).join("");
+  return {html:`<div class="split"><div><div style="transition:transform .5s;${A.done?"transform:scale(1.04)":""}"><div class="puzzle-board"><div class="tz-hline"></div><div class="tz-vline"></div>${slots}${A.done?`<div class="type-badge" style="position:absolute;right:-8px;bottom:-8px;background:var(--semantic);color:#fff;border:none">✓ xong</div>`:""}</div></div>
+    <p class="center muted" style="margin-top:14px;font-size:14px">Kéo / chạm mảnh vào ô đúng để tạo <b class="font-cjk" style="font-size:18px;color:var(--ink)">${A.target}</b> (${ch.pinyin} — ${esc(ch.def)})</p></div>
+    <div><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">${T.map(g=>{const c=CHAR_BY_GLYPH[g];return `<button class="pill ${g===A.target?"active":""}" data-t="${g}">Mục tiêu: <span class="cjk font-cjk">${g}</span> ${c.pinyin}</button>`;}).join("")}</div>
+      <div class="step"><span class="num">1</span><h3>Kho mảnh ghép</h3></div>
+      <p class="muted" style="font-size:14px;margin-bottom:12px">Kéo mảnh vào khung, hoặc chạm 1 mảnh rồi chạm ô đích. Ghép sai không bị phạt.</p>
+      <div class="tray">${A.tray.map(g=>{const info=pieceInfo(g),used=Object.values(A.placed).includes(g),sel=A.picked===g;return `<div class="puzzle-piece ${used?"is-used":""} ${sel?"is-selected":""}" data-piece="${esc(g)}" ${used?"":'draggable="true"'} title="${esc(info.label)}"><div class="em">${info.emoji||"🔸"}</div><div class="g" style="color:${info.emoji?"var(--nghia)":"var(--am)"}">${esc(g)}</div><div class="c">${esc(info.label)}</div></div>`;}).join("")}</div>
+      <div class="util-row"><button class="btn-ghost" id="asmReset">Làm lại</button><span class="muted" style="font-size:12px">Đã ghép: <b style="color:var(--ink)">${Object.keys(A.placed).length}/${ch.parts.length}</b></span></div>
+      ${A.done?`<div class="done-box"><div class="k">Hoàn thành!</div><p style="font-size:15px;margin:0">✓ Bạn đã ghép ra <span class="font-cjk" style="font-size:24px;font-weight:600">${A.target}</span> — ${ch.pinyin} · ${esc(ch.def)}.</p><div style="margin-top:12px;display:flex;gap:12px"><button class="btn-primary" id="asmNext">Chữ tiếp theo →</button><button class="btn-ghost" id="asmAgain">Ghép lại</button></div></div>`:""}
+    </div></div>`,wire(){
+    function tryPlace(slot,g){if(A.placed[slot])return;if(g===ch.parts[slot].glyph){A.placed[slot]=g;A.picked=null;beep(880,90,"triangle");buzz(30);if(Object.keys(A.placed).length===ch.parts.length)setTimeout(()=>{A.done=true;beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);mountMode();},220);mountMode();}else{A.attempts++;A.shake=slot;A.picked=null;beep(220,140,"square",0.05);buzz([15,30,15]);mountMode();setTimeout(()=>{A.shake=null;mountMode();},450);}}
+    document.querySelectorAll(".puzzle-piece").forEach(el=>{const g=el.dataset.piece;el.ondragstart=e=>{e.dataTransfer.setData("text/plain",g);e.dataTransfer.effectAllowed="move";A.picked=g;};el.onclick=()=>{if(el.classList.contains("is-used"))return;A.picked=(A.picked===g?null:g);mountMode();};});
+    document.querySelectorAll(".puzzle-slot").forEach(el=>{const slot=+el.dataset.slot;el.ondragover=e=>{if(!A.placed[slot]){e.preventDefault();el.classList.add("is-over");A.over=slot;}};el.ondragleave=()=>{if(A.over===slot){A.over=null;el.classList.remove("is-over");}};el.ondrop=e=>{e.preventDefault();A.over=null;const id=e.dataTransfer.getData("text/plain");if(id)tryPlace(slot,id);};el.onclick=()=>{if(A.picked&&!A.placed[slot])tryPlace(slot,A.picked);};});
+    document.getElementById("asmReset").onclick=()=>{assembleInit(A.target);mountMode();};
+    document.querySelectorAll(".pill[data-t]").forEach(b=>b.onclick=()=>{assembleInit(b.dataset.t);mountMode();});
+    const nx=document.getElementById("asmNext");if(nx)nx.onclick=()=>{const i=T.indexOf(A.target);assembleInit(T[(i+1)%T.length]);mountMode();};
+    const ag=document.getElementById("asmAgain");if(ag)ag.onclick=()=>{assembleInit(A.target);mountMode();};
+  }};
+}
+
+/* ---------- SÁNG TẠO ---------- */
+const PALETTE=["忄","氵","扌","灬","女","青","可","马","日","月","王"];
+let create=null;
+function renderCreate(){
+  if(!create) create={picked:[],results:null};
+  const C=create;
+  return {html:`<div>
+    <p class="muted" style="font-size:14px;margin:0 0 16px">Chọn ≥ 2 mảnh (biến thể tự quy về gốc: 忄→心, 氵→水…) → tìm chữ chứa đủ các mảnh đó.</p>
+    <div class="chip-grid" style="justify-content:flex-start;gap:24px 14px">${PALETTE.map(g=>{const active=C.picked.includes(g),b=resolveComponent(g,"left",{}).base,emo=emojiForHan(g);return `<div style="position:relative"><button class="radical-chip ${active?"is-selected":""}" data-g="${esc(g)}" style="width:70px;padding:8px"><div class="emoji" style="font-size:20px">${emo||"🔸"}</div><div class="glyph font-cjk" style="font-size:22px;margin-top:4px">${esc(g)}</div></button><small style="position:absolute;left:0;right:0;bottom:-19px;text-align:center;font-size:10px;font-weight:600;color:var(--ink-soft)">→ ${esc(b)}</small></div>`;}).join("")}</div>
+    <div class="muted" style="margin-top:42px;min-height:2.5rem;font-size:14px">${C.picked.length?`Đã chọn: ${C.picked.map(g=>`<span style="margin-right:12px"><b class="font-cjk" style="color:var(--ink)">${esc(g)}</b> <span style="color:var(--clay)">→</span> ${esc(resolveComponent(g,"left",{}).base)}</span>`).join("")}`:"Chưa chọn mảnh nào."}</div>
+    <div style="display:flex;gap:12px;margin-top:12px"><button class="btn-primary" id="crRun">Tìm chữ</button><button class="btn-ghost" id="crClear">Xoá chọn</button></div>
+    ${C.results!==null?`<div style="margin-top:24px">${C.results.length===0?`<p class="muted" style="font-size:14px">${C.picked.length<2?"Hãy chọn ít nhất 2 mảnh.":"Không có chữ nào (trong dữ liệu hiện tại) chứa đủ các mảnh này."}</p>`:`<div class="result-grid">${C.results.map(ch=>`<div class="result-card"><div class="rc-glyph font-cjk">${ch.glyph}</div><div class="rc-py">${ch.pinyin}</div><div class="rc-mean">${esc(ch.def)}</div><div class="rc-parts">${ch.parts.map((p,i)=>`${i>0?'<span style="color:var(--clay)"> + </span>':""}<span class="g ${p.role==="semantic"?"nghia":"am"} font-cjk">${esc(p.glyph)}</span>`).join("")}</div></div>`).join("")}</div>`}</div>`:""}
+  </div>`,wire(){
+    document.querySelectorAll(".radical-chip[data-g]").forEach(b=>b.onclick=()=>{const g=b.dataset.g,i=C.picked.indexOf(g);C.picked=i>=0?C.picked.filter((_,k)=>k!==i):[...C.picked,g];C.results=null;beep(660,50,"sine",0.04);mountMode();});
+    document.getElementById("crRun").onclick=()=>{if(C.picked.length<2)C.results=[];else{C.results=searchByComponents([...new Set(C.picked.map(g=>resolveComponent(g,"left",{}).base))]);beep(880,90,"triangle");}mountMode();};
+    document.getElementById("crClear").onclick=()=>{C.picked=[];C.results=null;mountMode();};
+  }};
+}
+
+/* ---------- ĐỐ BỘ THỦ (5 dạng câu hỏi) ---------- */
+let quiz=null;
+const QUIZ_KINDS=[
+  {id:"all",label:"🎲 Trộn tất cả"},
+  {id:"sem",label:"Bộ của chữ"},
+  {id:"type",label:"Loại chữ"},
+  {id:"type_rev",label:"Tìm chữ theo loại"},
+  {id:"mean",label:"Nghĩa bộ thủ"},
+  {id:"mean_rev",label:"Nghĩa → Bộ"},
+];
+const ALL_TYPES=["tượng hình","chỉ sự","hội ý","hình thanh"];
+function radPick(n,excl){return shuffle(Object.keys(RAD_RADICALS).filter(b=>!excl||!excl.has(b))).slice(0,n);}
+function radChipBody(b){const c=compInfo(b);return `<div class="emoji" style="font-size:30px">${c.emoji||"🔸"}</div><div class="cap" style="min-height:24px;margin-top:6px">${esc(c.vi||b)}</div>`;}
+
+/* Dạng 1: chữ hình thanh → bộ thủ tạo NGHĨA */
+function qSem(){
+  const ch=COMPOUNDS[Math.floor(Math.random()*COMPOUNDS.length)];
+  const sem=ch.parts.find(p=>p.role==="semantic");const ans=partKey(sem);
+  const used=new Set(ch.parts.map(partKey));
+  const opts=shuffle([ans,...radPick(3,used)]);
+  const ci=compInfo(ans);
+  return {kind:"sem",glyph:ch.glyph,
+    prompt:`Chữ <b class="font-cjk" style="font-size:18px">${ch.glyph}</b> (${ch.pinyin} — ${esc(ch.def)}) được tạo NGHĨA từ bộ thủ nào?`,
+    options:opts.map(b=>({key:b,body:radChipBody(b)})),ans,
+    explain:`Bộ <span class="font-cjk" style="color:var(--ink)">${ci.base}</span> ${ci.emoji||""}${sem.res&&sem.res.isVariant?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(sem.glyph)}</span> khi ghép)`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${ch.glyph}</span>.`};
+}
+/* Dạng 2: chữ → loại chữ (lục thư) */
+function qType(){
+  const pool=CHARS.filter(c=>c.type);
+  const ch=pool[Math.floor(Math.random()*pool.length)];
+  const opts=shuffle(ALL_TYPES.slice());
+  return {kind:"type",glyph:ch.glyph,
+    prompt:`Chữ <b class="font-cjk" style="font-size:18px">${ch.glyph}</b> (${ch.pinyin} — ${esc(ch.def)}) thuộc loại chữ nào?`,
+    options:opts.map(t=>{const b=TYPE_BADGE[t]||["❓",t];return {key:t,body:`<div class="emoji" style="font-size:26px">${b[0]}</div><div class="cap" style="min-height:24px;margin-top:6px">${b[1]}</div>`};}),
+    ans:ch.type,
+    explain:`<span class="font-cjk" style="color:var(--ink)">${ch.glyph}</span> là chữ <b>${ch.type}</b>${ch.kind==="pictophonetic"?` — ghép thành phần NGHĨA + thành phần ÂM`:ch.type==="tượng hình"?` — vẽ lại hình dáng sự vật`:` — biểu ý bằng ký hiệu / ghép ý`}.`};
+}
+/* Dạng 3 (đố ngược): loại chữ → tìm chữ */
+function qTypeRev(){
+  const byType={};CHARS.filter(c=>c.type).forEach(c=>{(byType[c.type]=byType[c.type]||[]).push(c);});
+  const types=Object.keys(byType).filter(t=>byType[t].length>0);
+  if(types.length<2)return null;
+  const target=types[Math.floor(Math.random()*types.length)];
+  const correct=byType[target][Math.floor(Math.random()*byType[target].length)];
+  const others=shuffle(CHARS.filter(c=>c.type&&c.type!==target)).slice(0,3);
+  if(others.length<3)return null;
+  const b=TYPE_BADGE[target]||["❓",target];
+  const opts=shuffle([correct,...others]);
+  return {kind:"type_rev",glyph:null,
+    prompt:`Chữ nào dưới đây là chữ <b>${b[0]} ${b[1]}</b>?`,
+    options:opts.map(c=>({key:c.glyph,body:`<div class="font-cjk" style="font-size:34px;font-weight:600">${c.glyph}</div><div class="cap" style="min-height:24px;margin-top:4px">${c.pinyin}</div>`})),
+    ans:correct.glyph,
+    explain:`<span class="font-cjk" style="color:var(--ink)">${correct.glyph}</span> (${correct.pinyin} — ${esc(correct.def)}) là chữ <b>${target}</b>. ${opts.filter(c=>c.glyph!==correct.glyph).map(c=>`<span class="font-cjk">${c.glyph}</span>: ${c.type}`).join(" · ")}.`};
+}
+/* Dạng 4: bộ thủ → ý nghĩa */
+function qMean(){
+  const ans=radPick(1)[0];
+  const others=radPick(3,new Set([ans]));
+  const c=compInfo(ans);const s=SHUOWEN[ans];
+  const opts=shuffle([ans,...others]);
+  return {kind:"mean",glyph:null,
+    glyphHtml:`<div class="quiz-glyph" style="gap:8px;flex-direction:column;display:flex;align-items:center;justify-content:center"><span class="font-cjk" style="font-size:64px;font-weight:600;line-height:1">${esc(ans)}</span><span style="font-size:14px;color:var(--ink-soft)">${c.pinyin||""}</span></div>`,
+    prompt:`Bộ <b class="font-cjk" style="font-size:18px">${esc(ans)}</b> có ý nghĩa là gì?`,
+    options:opts.map(b=>{const ci=compInfo(b);return {key:b,body:`<div class="cap" style="min-height:40px;display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink)">${esc(ci.vi||b)}</div>`};}),
+    ans,
+    explain:`Bộ <span class="font-cjk" style="color:var(--ink)">${esc(ans)}</span> ${c.emoji||""} nghĩa là <b>${esc(c.vi||"")}</b>.${s?` Nghĩa đen: ${esc(s[0])}. Vai trò khi ghép: ${esc(s[1])}.`:""}`};
+}
+/* Dạng 5 (đố ngược): ý nghĩa → bộ thủ */
+function qMeanRev(){
+  const ans=radPick(1)[0];
+  const others=radPick(3,new Set([ans]));
+  const c=compInfo(ans);const s=SHUOWEN[ans];
+  const opts=shuffle([ans,...others]);
+  return {kind:"mean_rev",glyph:null,
+    prompt:`Ý nghĩa <b>“${esc(c.vi||ans)}”</b>${s&&s[8]?` <span class="muted">(${esc(s[8])})</span>`:""} tương ứng với bộ thủ nào?`,
+    options:opts.map(b=>({key:b,body:`<div class="font-cjk" style="font-size:32px;font-weight:600">${esc(b)}</div><div class="cap" style="min-height:20px;margin-top:4px">${compInfo(b).pinyin||""}</div>`})),
+    ans,
+    explain:`“${esc(c.vi||"")}” = bộ <span class="font-cjk" style="color:var(--ink)">${esc(ans)}</span> ${c.emoji||""} (${c.pinyin||""}).${s?` ${esc(s[0])}.`:""}`};
+}
+const QUIZ_GEN={sem:qSem,type:qType,type_rev:qTypeRev,mean:qMean,mean_rev:qMeanRev};
+function quizAvailable(id){
+  if(id==="sem")return COMPOUNDS.length>0;
+  if(id==="type")return CHARS.some(c=>c.type);
+  if(id==="type_rev"){const t=new Set(CHARS.filter(c=>c.type).map(c=>c.type));return t.size>=2&&CHARS.length>=4;}
+  return true;
+}
+function quizNew(cat){
+  let pool=(cat&&cat!=="all")?[cat]:QUIZ_KINDS.slice(1).map(k=>k.id);
+  pool=pool.filter(quizAvailable);
+  for(const id of shuffle(pool)){const q=QUIZ_GEN[id]();if(q)return q;}
+  return qMean(); // luôn khả dụng
+}
+function renderQuiz(){
+  if(!quiz) quiz={cat:"all",q:quizNew("all"),score:{correct:0,total:0},answered:null};
+  const Q=quiz,q=Q.q;
+  const pills=`<div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 4px">${QUIZ_KINDS.map(k=>`<button class="pill ${Q.cat===k.id?"active":""}" data-qc="${k.id}" ${k.id!=="all"&&!quizAvailable(k.id)?"disabled style=\"opacity:.4;pointer-events:none\"":""} style="font-size:12px;padding:6px 12px">${k.label}</button>`).join("")}</div>`;
+  const glyphBox=q.glyph?`<div class="quiz-glyph">${q.glyph}</div>`:(q.glyphHtml||"");
+  return {html:`<div class="center">
+    <div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
+    ${pills}
+    ${glyphBox}
+    <p style="margin-top:18px;font-size:15px">${q.prompt}</p>
+    <div class="chip-grid" style="max-width:560px;margin:18px auto 0">${q.options.map(o=>{
+      const ok=o.key===q.ans,sel=Q.answered===o.key,show=Q.answered!==null;
+      const st=show&&ok?"is-correct":show&&sel?"is-wrong":"";
+      return `<button class="radical-chip ${st}" data-k="${esc(o.key)}" ${Q.answered?"disabled":""} style="width:118px">${o.body}</button>`;}).join("")}</div>
+    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:500px;margin-left:auto;margin-right:auto;color:${Q.answered===q.ans?"var(--nghia)":"var(--danger)"}">${Q.answered===q.ans?"✓ Đúng!":"✗ Chưa đúng."} ${q.explain}</p><button class="btn-primary" id="quizNext" style="margin-top:20px">Câu tiếp theo</button>`:""}
+  </div>`,wire(){
+    document.querySelectorAll(".pill[data-qc]").forEach(b=>b.onclick=()=>{Q.cat=b.dataset.qc;Q.q=quizNew(Q.cat);Q.answered=null;beep(700,50,"sine",0.04);mountMode();});
+    document.querySelectorAll(".radical-chip[data-k]").forEach(b=>b.onclick=()=>{
+      if(Q.answered)return;const k=b.dataset.k,ok=k===q.ans;
+      Q.answered=k;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};
+      if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}
+      mountMode();});
+    const nx=document.getElementById("quizNext");if(nx)nx.onclick=()=>{Q.q=quizNew(Q.cat);Q.answered=null;mountMode();};
+  }};
+}
+
+/* ================= SHELL ================= */
+let currentMode="analyze";
+const RENDERERS={analyze:renderAnalyze,radicals:renderRadicals,learn:renderLearn,assemble:renderAssemble,create:renderCreate,quiz:renderQuiz};
+function mountMode(){const {html,wire}=RENDERERS[currentMode]();const panel=document.getElementById("panel");panel.innerHTML=html;if(wire)wire();}
+function buildNav(){
+  const nav=document.getElementById("modeNav");
+  nav.innerHTML=MODES.map(m=>`<button class="mode-btn ${m.id===currentMode?"active":""}" data-mode="${m.id}"><span class="bar" style="background:${MODE_GRAD[m.id]}"></span><span class="lbl">${m.label}<span class="hint">· ${m.hint}</span></span></button>`).join("");
+  nav.querySelectorAll(".mode-btn").forEach(b=>b.onclick=()=>{currentMode=b.dataset.mode;if(currentMode==="radicals")radicals=null;if(currentMode==="learn")learn=null;if(currentMode==="assemble")assemble=null;if(currentMode==="create")create=null;if(currentMode==="quiz")quiz=null;nav.querySelectorAll(".mode-btn").forEach(x=>x.classList.toggle("active",x.dataset.mode===currentMode));document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];beep(740,60,"sine",0.04);mountMode();});
+}
+
+/* ================= TEST RESOLVER (mục 3) ================= */
+function setIconMode(m){ICON_MODE=m;document.querySelectorAll("#iconToggle button").forEach(b=>b.classList.toggle("active",b.dataset.m===m));mountMode();}
+document.querySelectorAll("#iconToggle button").forEach(b=>b.onclick=()=>{setIconMode(b.dataset.m);beep(700,50,"sine",0.04);});
+/* probe: nếu icons3d/shui.png tải được -> mặc định 3D (dùng <img>, hoạt động cả với file://) */
+(function(){const im=new Image();im.onload=()=>{ICON3D_OK=true;setIconMode("3d");};im.onerror=()=>{ICON3D_OK=false;};im.src="icons3d/shui.png";})();
+
+function runResolverTests(){
+  const T=[];const eq=(a,b,name)=>T.push({name,pass:a===b,got:a,exp:b});
+  eq(resolveComponent("氵","left",{hint:"water"}).emoji,"💧","江/清 氵→水 💧");
+  eq(resolveComponent("忄","left",{hint:"heart"}).emoji,"❤️","情 忄→心 ❤️");
+  eq(resolveComponent("灬","bottom",{hint:"fire"}).emoji,"🔥","热/照 灬→火 🔥");
+  eq(resolveComponent("阝","left",{}).emoji,"🏔️","阿 阝(trái)→阜 🏔️");
+  eq(resolveComponent("阝","right",{}).emoji,"🏘️","都 阝(phải)→邑 🏘️");
+  eq(resolveComponent("月","left",{hint:"flesh"}).emoji,"🥩","腿/肝 月(flesh)→肉 🥩");
+  eq(resolveComponent("月","right",{hint:"the sun and moon"}).emoji,"🌙","明 月→🌙");
+  eq(resolveComponent("王","left",{hint:"jade"}).emoji,"💎","玩/球 王(trái)→玉 💎");
+  eq(resolveComponent("彳","left",{}).found,false,"很 彳 fallback (không emoji)");
+  const a清=analyzeChar(DICT_BY_CHAR["清"]);eq(a清.parts[0].res.emoji+"+"+a清.parts[1].glyph,"💧+青","清 = 💧 + 青");
+  const a木=analyzeChar(DICT_BY_CHAR["木"]);eq(a木.pictoEmoji,"🌳","木 tượng hình 🌳");
+  const pass=T.filter(t=>t.pass).length;
+  console.log(`[resolver tests] ${pass}/${T.length} pass`);T.filter(t=>!t.pass).forEach(t=>console.warn("FAIL:",t.name,"got",t.got,"exp",t.exp));
+  const flag=document.getElementById("testFlag");if(flag)flag.textContent=`resolver ${pass}/${T.length} ✓`;
+  return {pass,total:T.length};
+}
+
+/* ================= KHỞI ĐỘNG ================= */
+rebuildIndex();
+buildNav();
+document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];
+mountMode();
+runResolverTests();
+</script>
+</body>
+</html>

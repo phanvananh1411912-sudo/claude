@@ -4,7 +4,8 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 
 ## Nguyên tắc hiển thị
 
-- **Thành phần NGHĨA** (semantic) → hiện bằng **icon SVG inline** (lucide/tabler/phosphor/game-icons, nhuộm xanh dương qua `currentColor`; ưu tiên icon → emoji → chữ; icon `seal` tạm hiển thị chữ Hán trong khung tròn xanh, chờ thay bằng SVG tiểu triện GlyphWiki), kèm nghĩa đen + vai trò khi ghép (Thuyết Văn) và nút mở rộng nguyên văn 說文解字.
+- **Thành phần NGHĨA** (semantic) → chuỗi ưu tiên **icon 3D (PNG) → icon SVG inline → emoji → chữ**. Icon SVG (lucide/tabler/phosphor/game-icons) nhuộm xanh dương qua `currentColor`; icon 3D hiển thị trong **khung tròn nền xanh nhạt + viền xanh** (ảnh không nhuộm màu được); `seal` tạm là chữ Hán trong khung tròn xanh (chờ SVG tiểu triện GlyphWiki). Kèm nghĩa đen + vai trò khi ghép (Thuyết Văn) và nút mở rộng 說文解字.
+- **Toggle "Icon: 3D / Nét"** trên header: mặc định 3D nếu thư mục `icons3d/` có ảnh (probe `icons3d/shui.png`), ngược lại dùng icon SVG. Ảnh thiếu tự rơi về tầng SVG.
 - **Thành phần ÂM** (phonetic) → giữ **chữ Hán + pinyin**, viền/nền **đỏ**; nếu thành phần âm có emoji riêng (vd 青→🌿) thì hiện mờ phía sau.
 - **Chữ tượng hình / chỉ sự** → **một emoji lớn** + badge loại chữ (🖼 Tượng hình / 💡 Chỉ sự·Hội ý / 🧩 Hình thanh).
 - **Công thức**: `[emoji NGHĨA 🔵] + [chữ ÂM 🔴 + pinyin] = chữ`.
@@ -28,7 +29,30 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
   - Nhập nhằng theo vị trí/ngữ cảnh: `阝` trái=阜🏔️ / phải=邑🏘️ · `月` nhóm cơ thể=肉🥩 / thường=🌙 · `王` trái=玉💎.
   - Fallback: thành phần không có emoji (`彳`, `冖`…) → hiển thị nguyên chữ trong khung xám, không bỏ trống.
 - **Cilin (同义词词林)**: mỗi bộ thủ mang đại loại chính/phụ (`dai_loai`, `dai_loai_phu`, `mien_nghia`) hiển thị thành badge màu pastel, ví dụ 水 → `[B · Sự vật | F · Động tác]`. Script tuỳ chọn `enrich_cilin.py` nhận `cilin.txt` (bản mở rộng HIT) để điền mã trung/tiểu loại đầy đủ vào `ma_chi_tiet` — app chạy bình thường khi chưa có.
-- Module test độc lập: **`resolver.mjs`** (logic thuần) + **`resolver.test.mjs`** — chạy `node resolver.test.mjs` (20/20 pass). App cũng tự chạy 11 test resolver khi tải (xem góc footer).
+- Module test độc lập: **`resolver.mjs`** (logic thuần) + **`resolver_test.mjs`** — chạy `node resolver_test.mjs` (**32/32 pass**). App cũng tự chạy 11 test resolver khi tải (xem góc footer).
+
+## Quy trình build (nguồn sự thật duy nhất)
+
+`index.html` là **file sinh ra** — đừng sửa trực tiếp. Nguồn chuẩn:
+
+| File | Nội dung |
+|---|---|
+| `template.html` | UI (CSS + markup + code giao diện), chứa placeholder `/*__DATA__*/`, `/*__RESOLVER__*/` |
+| `data.mjs` | RAD_RADICALS/VARIANTS/AMBIG, RAD_ICON, RAD_ICON3D, PINYIN_FB, SAMPLE_DICT, CILIN, HSK1 |
+| `resolver.mjs` | toàn bộ logic phân giải (resolveComponent, analyzeCharacter, topOperands, pickIconLayer) |
+| `embed/shuowen.mjs`, `embed/icons.mjs` | khối Thuyết Văn 84 bộ và 69 SVG icon |
+| `radical_emoji_map.json` | file map gốc (đã đồng bộ 刀→game-icons:bowie-knife, 齒→game-icons:tooth kèm icon_note) |
+
+Sửa xong chạy:
+
+```bash
+node build.mjs          # tái sinh index.html
+node resolver_test.mjs  # 32/32 pass
+```
+
+## Icon 3D (`icons3d/`)
+
+Thả PNG (nền trong suốt, ≥128×128) vào thư mục `icons3d/` theo tên **pinyin bỏ dấu** (bảng đầy đủ: `RAD_ICON3D` trong `data.mjs`; trùng âm thì hậu tố số: 目→`mu2.png`, 石→`shi3.png`…). Ba file có sẵn (`shui/huo/mu.png`) là placeholder sinh tự động — thay bằng bộ clay 3D thật (tự sinh theo `gen_prompts_84.md`) hoặc Fluent Emoji 3D. Xem `icons3d/README.md`.
 
 ## Nạp từ điển đầy đủ
 
@@ -41,3 +65,5 @@ curl -L -o dictionary.txt https://raw.githubusercontent.com/skishore/makemeahanz
 ## Ghi chú
 
 Phần nguyên văn Thuyết Văn ở vài bộ (đánh dấu `*`) được soạn từ tri thức, **cần đối chiếu** với `swjz.xml` (cjkvi-dict) hoặc ctext.org trước khi phát hành chính thức.
+
+Muốn nhúng resolver/data vào app React/TypeScript khác (Semantic KB Viewer…): xem **`INTEGRATION.md`**.

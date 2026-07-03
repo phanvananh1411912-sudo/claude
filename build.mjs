@@ -19,9 +19,11 @@ const DATA = [read("data.mjs"), read("embed/shuowen.mjs"), read("embed/icons.mjs
   .map(strip)
   .join("\n");
 const RESOLVER = strip(read("resolver.mjs"));
+const KB = strip(read("kb.mjs"));
+const SCREENS = strip(read("screens.mjs"));
 
 let html = read("template.html");
-for (const [ph, code] of [["/*__DATA__*/", DATA], ["/*__RESOLVER__*/", RESOLVER]]) {
+for (const [ph, code] of [["/*__DATA__*/", DATA], ["/*__KB__*/", KB], ["/*__RESOLVER__*/", RESOLVER], ["/*__SCREENS__*/", SCREENS]]) {
   if (!html.includes(ph)) { console.error(`Thiếu placeholder ${ph} trong template.html`); process.exit(1); }
   html = html.replace(ph, () => code); // dùng hàm để "$" trong code không bị hiểu là pattern
 }

@@ -10,7 +10,25 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 - **Chữ tượng hình / chỉ sự** → **một emoji lớn** + badge loại chữ (🖼 Tượng hình / 💡 Chỉ sự·Hội ý / 🧩 Hình thanh).
 - **Công thức**: `[emoji NGHĨA 🔵] + [chữ ÂM 🔴 + pinyin] = chữ`.
 
-## 6 chế độ
+## Kiến trúc 4 + 2 màn hình (hash router)
+
+```
+#/                    Ngữ Nghĩa Chính  — hero 吃 + cây ngữ nghĩa 3 tầng + mẹo nhớ (dữ liệu kb.mjs)
+#/analysis/<chữ>      Phân Tích Chữ    — 3 card thông số + Sơ đồ cấu tạo (BIỂU Ý clay / BIỂU ÂM violet)
+                                         + Thuyết văn collapsible + Cây ngữ nghĩa + Họ âm học động
+#/graph?mode=&focus=  Đồ Thị Quan Hệ   — SVG tự vẽ: semantic (cùng bộ) / phonetic (cùng âm) / structure (IDS)
+#/compound/<id>       Tra Cứu Từ Ghép  — hero 2 glyph + Semantic Bridge 01→02→03 + collocations + lưu ý
+#/radicals            Bộ Thủ           — bảo toàn nguyên vẹn màn cũ (84 bộ · Cilin · 4 tầng nghĩa · HSK1)
+#/practice            Luyện Tập        — bảo toàn nguyên vẹn 4 game cũ (chỉ đổi tông màu clay/violet)
+```
+
+Điều hướng bằng hash — nút back/forward của trình duyệt hoạt động, link chia sẻ được. Sidebar trái dùng chung (tìm chữ/pinyin, nạp dictionary.txt, 84 bộ lối tắt, lọc Cilin, HSK1); cột phải là DetailPanel theo ngữ cảnh.
+
+## Hệ thiết kế
+
+Token trong `:root` (port từ Semantic KB Viewer): nền `#FBF8F1`, thẻ trắng bo `--radius:14px`, **teal** `#0E7C6B` (chủ đạo), **clay** `#C97A3B` (= BIỂU Ý), **violet** `#7C6BD8` (= BIỂU ÂM). Font: Plus Jakarta Sans (heading) · Inter (body) · Noto Serif SC (glyph lớn) qua Google Fonts, offline tự fallback hệ thống.
+
+## 6 chế độ (2 màn kế thừa)
 
 | Chế độ | Mô tả |
 |--------|-------|
@@ -40,6 +58,8 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 | `template.html` | UI (CSS + markup + code giao diện), chứa placeholder `/*__DATA__*/`, `/*__RESOLVER__*/` |
 | `data.mjs` | RAD_RADICALS/VARIANTS/AMBIG, RAD_ICON, RAD_ICON3D, PINYIN_FB, SAMPLE_DICT, CILIN, HSK1 |
 | `resolver.mjs` | toàn bộ logic phân giải (resolveComponent, analyzeCharacter, topOperands, pickIconLayer) |
+| `kb.mjs` | dữ liệu **biên soạn tay** (CURATED 吃/吃醋, KB_ENTRIES, KB_PINYIN) |
+| `screens.mjs` | router + AppShell + 6 màn hình (game giữ nguyên từ bản cũ) |
 | `embed/shuowen.mjs`, `embed/icons.mjs` | khối Thuyết Văn 84 bộ và 69 SVG icon |
 | `radical_emoji_map.json` | file map gốc (đã đồng bộ 刀→game-icons:bowie-knife, 齒→game-icons:tooth kèm icon_note) |
 

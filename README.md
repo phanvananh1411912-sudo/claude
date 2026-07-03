@@ -9,11 +9,12 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 - **Chữ tượng hình / chỉ sự** → **một emoji lớn** + badge loại chữ (🖼 Tượng hình / 💡 Chỉ sự·Hội ý / 🧩 Hình thanh).
 - **Công thức**: `[emoji NGHĨA 🔵] + [chữ ÂM 🔴 + pinyin] = chữ`.
 
-## 5 chế độ
+## 6 chế độ
 
 | Chế độ | Mô tả |
 |--------|-------|
-| **Tra chữ** | Ô tìm kiếm (chữ Hán hoặc pinyin) → thẻ kết quả: công thức emoji, khung 田字格, thẻ thành phần NGHĨA/ÂM kèm Thuyết Văn, badge lục thư. |
+| **Tra chữ** | Ô tìm kiếm (chữ Hán hoặc pinyin) → thẻ kết quả: công thức emoji, khung 田字格, thẻ thành phần NGHĨA/ÂM kèm Thuyết Văn + badge Cilin, badge lục thư. |
+| **Bộ thủ** | Lưới 84 bộ, nhóm/lọc theo 9 đại loại **同义词词林 Cilin** (A Người … I Trạng thái, mỗi loại một màu pastel). Bấm một bộ → Thuyết Văn + danh sách chữ chứa bộ đó, có toggle **Chỉ HSK1**. |
 | **Học chữ** | Cho nghĩa → chọn đúng tất cả thành phần → xem công thức + giải thích. |
 | **Ghép chữ** | Kéo-thả mảnh vào ô đúng để dựng chữ. Âm thanh & rung phản hồi. |
 | **Sáng tạo** | Chọn ≥ 2 mảnh (biến thể tự quy về gốc) → tìm chữ chứa đủ. |
@@ -26,6 +27,7 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
   - Biến thể → gốc: `氵→水`, `忄→心`, `灬→火`, `讠→言`…
   - Nhập nhằng theo vị trí/ngữ cảnh: `阝` trái=阜🏔️ / phải=邑🏘️ · `月` nhóm cơ thể=肉🥩 / thường=🌙 · `王` trái=玉💎.
   - Fallback: thành phần không có emoji (`彳`, `冖`…) → hiển thị nguyên chữ trong khung xám, không bỏ trống.
+- **Cilin (同义词词林)**: mỗi bộ thủ mang đại loại chính/phụ (`dai_loai`, `dai_loai_phu`, `mien_nghia`) hiển thị thành badge màu pastel, ví dụ 水 → `[B · Sự vật | F · Động tác]`. Script tuỳ chọn `enrich_cilin.py` nhận `cilin.txt` (bản mở rộng HIT) để điền mã trung/tiểu loại đầy đủ vào `ma_chi_tiet` — app chạy bình thường khi chưa có.
 - Module test độc lập: **`resolver.mjs`** (logic thuần) + **`resolver.test.mjs`** — chạy `node resolver.test.mjs` (20/20 pass). App cũng tự chạy 11 test resolver khi tải (xem góc footer).
 
 ## Nạp từ điển đầy đủ

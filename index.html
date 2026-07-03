@@ -590,21 +590,121 @@ function renderCreate(){
   }};
 }
 
-/* ---------- ĐỐ BỘ THỦ ---------- */
+/* ---------- ĐỐ BỘ THỦ (5 dạng câu hỏi) ---------- */
 let quiz=null;
-function quizNew(){const ch=COMPOUNDS[Math.floor(Math.random()*COMPOUNDS.length)];const sem=ch.parts.find(p=>p.role==="semantic");const ans=partKey(sem);const used=new Set(ch.parts.map(partKey));const distr=shuffle(Object.keys(RAD_RADICALS).filter(b=>!used.has(b))).slice(0,3);return {ch,sem,ans,options:shuffle([ans,...distr])};}
+const QUIZ_KINDS=[
+  {id:"all",label:"🎲 Trộn tất cả"},
+  {id:"sem",label:"Bộ của chữ"},
+  {id:"type",label:"Loại chữ"},
+  {id:"type_rev",label:"Tìm chữ theo loại"},
+  {id:"mean",label:"Nghĩa bộ thủ"},
+  {id:"mean_rev",label:"Nghĩa → Bộ"},
+];
+const ALL_TYPES=["tượng hình","chỉ sự","hội ý","hình thanh"];
+function radPick(n,excl){return shuffle(Object.keys(RAD_RADICALS).filter(b=>!excl||!excl.has(b))).slice(0,n);}
+function radChipBody(b){const c=compInfo(b);return `<div class="emoji" style="font-size:30px">${c.emoji||"🔸"}</div><div class="cap" style="min-height:24px;margin-top:6px">${esc(c.vi||b)}</div>`;}
+
+/* Dạng 1: chữ hình thanh → bộ thủ tạo NGHĨA */
+function qSem(){
+  const ch=COMPOUNDS[Math.floor(Math.random()*COMPOUNDS.length)];
+  const sem=ch.parts.find(p=>p.role==="semantic");const ans=partKey(sem);
+  const used=new Set(ch.parts.map(partKey));
+  const opts=shuffle([ans,...radPick(3,used)]);
+  const ci=compInfo(ans);
+  return {kind:"sem",glyph:ch.glyph,
+    prompt:`Chữ <b class="font-cjk" style="font-size:18px">${ch.glyph}</b> (${ch.pinyin} — ${esc(ch.def)}) được tạo NGHĨA từ bộ thủ nào?`,
+    options:opts.map(b=>({key:b,body:radChipBody(b)})),ans,
+    explain:`Bộ <span class="font-cjk" style="color:var(--ink)">${ci.base}</span> ${ci.emoji||""}${sem.res&&sem.res.isVariant?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(sem.glyph)}</span> khi ghép)`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${ch.glyph}</span>.`};
+}
+/* Dạng 2: chữ → loại chữ (lục thư) */
+function qType(){
+  const pool=CHARS.filter(c=>c.type);
+  const ch=pool[Math.floor(Math.random()*pool.length)];
+  const opts=shuffle(ALL_TYPES.slice());
+  return {kind:"type",glyph:ch.glyph,
+    prompt:`Chữ <b class="font-cjk" style="font-size:18px">${ch.glyph}</b> (${ch.pinyin} — ${esc(ch.def)}) thuộc loại chữ nào?`,
+    options:opts.map(t=>{const b=TYPE_BADGE[t]||["❓",t];return {key:t,body:`<div class="emoji" style="font-size:26px">${b[0]}</div><div class="cap" style="min-height:24px;margin-top:6px">${b[1]}</div>`};}),
+    ans:ch.type,
+    explain:`<span class="font-cjk" style="color:var(--ink)">${ch.glyph}</span> là chữ <b>${ch.type}</b>${ch.kind==="pictophonetic"?` — ghép thành phần NGHĨA + thành phần ÂM`:ch.type==="tượng hình"?` — vẽ lại hình dáng sự vật`:` — biểu ý bằng ký hiệu / ghép ý`}.`};
+}
+/* Dạng 3 (đố ngược): loại chữ → tìm chữ */
+function qTypeRev(){
+  const byType={};CHARS.filter(c=>c.type).forEach(c=>{(byType[c.type]=byType[c.type]||[]).push(c);});
+  const types=Object.keys(byType).filter(t=>byType[t].length>0);
+  if(types.length<2)return null;
+  const target=types[Math.floor(Math.random()*types.length)];
+  const correct=byType[target][Math.floor(Math.random()*byType[target].length)];
+  const others=shuffle(CHARS.filter(c=>c.type&&c.type!==target)).slice(0,3);
+  if(others.length<3)return null;
+  const b=TYPE_BADGE[target]||["❓",target];
+  const opts=shuffle([correct,...others]);
+  return {kind:"type_rev",glyph:null,
+    prompt:`Chữ nào dưới đây là chữ <b>${b[0]} ${b[1]}</b>?`,
+    options:opts.map(c=>({key:c.glyph,body:`<div class="font-cjk" style="font-size:34px;font-weight:600">${c.glyph}</div><div class="cap" style="min-height:24px;margin-top:4px">${c.pinyin}</div>`})),
+    ans:correct.glyph,
+    explain:`<span class="font-cjk" style="color:var(--ink)">${correct.glyph}</span> (${correct.pinyin} — ${esc(correct.def)}) là chữ <b>${target}</b>. ${opts.filter(c=>c.glyph!==correct.glyph).map(c=>`<span class="font-cjk">${c.glyph}</span>: ${c.type}`).join(" · ")}.`};
+}
+/* Dạng 4: bộ thủ → ý nghĩa */
+function qMean(){
+  const ans=radPick(1)[0];
+  const others=radPick(3,new Set([ans]));
+  const c=compInfo(ans);const s=SHUOWEN[ans];
+  const opts=shuffle([ans,...others]);
+  return {kind:"mean",glyph:null,
+    glyphHtml:`<div class="quiz-glyph" style="gap:8px;flex-direction:column;display:flex;align-items:center;justify-content:center"><span class="font-cjk" style="font-size:64px;font-weight:600;line-height:1">${esc(ans)}</span><span style="font-size:14px;color:var(--ink-soft)">${c.pinyin||""}</span></div>`,
+    prompt:`Bộ <b class="font-cjk" style="font-size:18px">${esc(ans)}</b> có ý nghĩa là gì?`,
+    options:opts.map(b=>{const ci=compInfo(b);return {key:b,body:`<div class="cap" style="min-height:40px;display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--ink)">${esc(ci.vi||b)}</div>`};}),
+    ans,
+    explain:`Bộ <span class="font-cjk" style="color:var(--ink)">${esc(ans)}</span> ${c.emoji||""} nghĩa là <b>${esc(c.vi||"")}</b>.${s?` Nghĩa đen: ${esc(s[0])}. Vai trò khi ghép: ${esc(s[1])}.`:""}`};
+}
+/* Dạng 5 (đố ngược): ý nghĩa → bộ thủ */
+function qMeanRev(){
+  const ans=radPick(1)[0];
+  const others=radPick(3,new Set([ans]));
+  const c=compInfo(ans);const s=SHUOWEN[ans];
+  const opts=shuffle([ans,...others]);
+  return {kind:"mean_rev",glyph:null,
+    prompt:`Ý nghĩa <b>“${esc(c.vi||ans)}”</b>${s&&s[8]?` <span class="muted">(${esc(s[8])})</span>`:""} tương ứng với bộ thủ nào?`,
+    options:opts.map(b=>({key:b,body:`<div class="font-cjk" style="font-size:32px;font-weight:600">${esc(b)}</div><div class="cap" style="min-height:20px;margin-top:4px">${compInfo(b).pinyin||""}</div>`})),
+    ans,
+    explain:`“${esc(c.vi||"")}” = bộ <span class="font-cjk" style="color:var(--ink)">${esc(ans)}</span> ${c.emoji||""} (${c.pinyin||""}).${s?` ${esc(s[0])}.`:""}`};
+}
+const QUIZ_GEN={sem:qSem,type:qType,type_rev:qTypeRev,mean:qMean,mean_rev:qMeanRev};
+function quizAvailable(id){
+  if(id==="sem")return COMPOUNDS.length>0;
+  if(id==="type")return CHARS.some(c=>c.type);
+  if(id==="type_rev"){const t=new Set(CHARS.filter(c=>c.type).map(c=>c.type));return t.size>=2&&CHARS.length>=4;}
+  return true;
+}
+function quizNew(cat){
+  let pool=(cat&&cat!=="all")?[cat]:QUIZ_KINDS.slice(1).map(k=>k.id);
+  pool=pool.filter(quizAvailable);
+  for(const id of shuffle(pool)){const q=QUIZ_GEN[id]();if(q)return q;}
+  return qMean(); // luôn khả dụng
+}
 function renderQuiz(){
-  if(!COMPOUNDS.length) return {html:`<p class="muted">Cần chữ hình thanh.</p>`,wire(){}};
-  if(!quiz) quiz={q:quizNew(),score:{correct:0,total:0},answered:null};
-  const Q=quiz,q=Q.q,ci=compInfo(q.ans);
-  return {html:`<div class="center"><div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
-    <div class="quiz-glyph">${q.ch.glyph}</div>
-    <p style="margin-top:20px;font-size:15px">Chữ <b class="font-cjk" style="font-size:18px">${q.ch.glyph}</b> (${q.ch.pinyin} — ${esc(q.ch.def)}) được tạo NGHĨA từ bộ thủ (emoji) nào?</p>
-    <div class="chip-grid" style="max-width:520px;margin:20px auto 0">${q.options.map(b=>{const c=compInfo(b),ok=b===q.ans,sel=Q.answered===b,show=Q.answered!==null;const st=show&&ok?"is-correct":show&&sel?"is-wrong":"";return `<button class="radical-chip ${st}" data-b="${esc(b)}" ${Q.answered?"disabled":""}><div class="emoji" style="font-size:30px">${c.emoji||"🔸"}</div><div class="cap" style="min-height:24px;margin-top:6px">${esc(c.vi||c.base)}</div></button>`;}).join("")}</div>
-    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:460px;margin-left:auto;margin-right:auto;color:${Q.answered===q.ans?"var(--nghia)":"var(--danger)"}">${Q.answered===q.ans?"✓ Đúng!":"✗ Chưa đúng."} Bộ <span class="font-cjk" style="color:var(--ink)">${ci.base}</span> ${ci.emoji||""}${q.sem.res&&q.sem.res.isVariant?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(q.sem.glyph)}</span> khi ghép)`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${q.ch.glyph}</span>.</p><button class="btn-primary" id="quizNext" style="margin-top:20px">Câu tiếp theo</button>`:""}
+  if(!quiz) quiz={cat:"all",q:quizNew("all"),score:{correct:0,total:0},answered:null};
+  const Q=quiz,q=Q.q;
+  const pills=`<div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0 4px">${QUIZ_KINDS.map(k=>`<button class="pill ${Q.cat===k.id?"active":""}" data-qc="${k.id}" ${k.id!=="all"&&!quizAvailable(k.id)?"disabled style=\"opacity:.4;pointer-events:none\"":""} style="font-size:12px;padding:6px 12px">${k.label}</button>`).join("")}</div>`;
+  const glyphBox=q.glyph?`<div class="quiz-glyph">${q.glyph}</div>`:(q.glyphHtml||"");
+  return {html:`<div class="center">
+    <div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
+    ${pills}
+    ${glyphBox}
+    <p style="margin-top:18px;font-size:15px">${q.prompt}</p>
+    <div class="chip-grid" style="max-width:560px;margin:18px auto 0">${q.options.map(o=>{
+      const ok=o.key===q.ans,sel=Q.answered===o.key,show=Q.answered!==null;
+      const st=show&&ok?"is-correct":show&&sel?"is-wrong":"";
+      return `<button class="radical-chip ${st}" data-k="${esc(o.key)}" ${Q.answered?"disabled":""} style="width:118px">${o.body}</button>`;}).join("")}</div>
+    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:500px;margin-left:auto;margin-right:auto;color:${Q.answered===q.ans?"var(--nghia)":"var(--danger)"}">${Q.answered===q.ans?"✓ Đúng!":"✗ Chưa đúng."} ${q.explain}</p><button class="btn-primary" id="quizNext" style="margin-top:20px">Câu tiếp theo</button>`:""}
   </div>`,wire(){
-    document.querySelectorAll(".radical-chip[data-b]").forEach(b=>b.onclick=()=>{if(Q.answered)return;const id=b.dataset.b,ok=id===q.ans;Q.answered=id;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}mountMode();});
-    const nx=document.getElementById("quizNext");if(nx)nx.onclick=()=>{quiz.q=quizNew();quiz.answered=null;mountMode();};
+    document.querySelectorAll(".pill[data-qc]").forEach(b=>b.onclick=()=>{Q.cat=b.dataset.qc;Q.q=quizNew(Q.cat);Q.answered=null;beep(700,50,"sine",0.04);mountMode();});
+    document.querySelectorAll(".radical-chip[data-k]").forEach(b=>b.onclick=()=>{
+      if(Q.answered)return;const k=b.dataset.k,ok=k===q.ans;
+      Q.answered=k;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};
+      if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}
+      mountMode();});
+    const nx=document.getElementById("quizNext");if(nx)nx.onclick=()=>{Q.q=quizNew(Q.cat);Q.answered=null;mountMode();};
   }};
 }
 

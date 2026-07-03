@@ -18,7 +18,7 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 | **Học chữ** | Cho nghĩa → chọn đúng tất cả thành phần → xem công thức + giải thích. |
 | **Ghép chữ** | Kéo-thả mảnh vào ô đúng để dựng chữ. Âm thanh & rung phản hồi. |
 | **Sáng tạo** | Chọn ≥ 2 mảnh (biến thể tự quy về gốc) → tìm chữ chứa đủ. |
-| **Đố bộ thủ** | Trắc nghiệm: chữ này được tạo nghĩa từ bộ thủ nào? |
+| **Đố bộ thủ** | Trắc nghiệm **5 dạng** (chọn thể loại hoặc trộn): ① chữ → bộ thủ tạo nghĩa · ② chữ → loại lục thư · ③ loại lục thư → tìm chữ (đố ngược) · ④ bộ thủ → ý nghĩa · ⑤ ý nghĩa → bộ thủ (đố ngược). Có tính điểm + giải thích sau mỗi câu. |
 
 ## Dữ liệu & resolver
 

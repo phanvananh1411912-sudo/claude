@@ -4,7 +4,7 @@ Web app học chữ Hán theo pipeline **chữ → loại chữ (lục thư) →
 
 ## Nguyên tắc hiển thị
 
-- **Thành phần NGHĨA** (semantic) → hiện bằng **emoji**, viền/nền **xanh dương**, kèm nghĩa đen + vai trò khi ghép (Thuyết Văn) và nút mở rộng nguyên văn 說文解字.
+- **Thành phần NGHĨA** (semantic) → hiện bằng **icon SVG inline** (lucide/tabler/phosphor/game-icons, nhuộm xanh dương qua `currentColor`; ưu tiên icon → emoji → chữ; icon `seal` tạm hiển thị chữ Hán trong khung tròn xanh, chờ thay bằng SVG tiểu triện GlyphWiki), kèm nghĩa đen + vai trò khi ghép (Thuyết Văn) và nút mở rộng nguyên văn 說文解字.
 - **Thành phần ÂM** (phonetic) → giữ **chữ Hán + pinyin**, viền/nền **đỏ**; nếu thành phần âm có emoji riêng (vd 青→🌿) thì hiện mờ phía sau.
 - **Chữ tượng hình / chỉ sự** → **một emoji lớn** + badge loại chữ (🖼 Tượng hình / 💡 Chỉ sự·Hội ý / 🧩 Hình thanh).
 - **Công thức**: `[emoji NGHĨA 🔵] + [chữ ÂM 🔴 + pinyin] = chữ`.

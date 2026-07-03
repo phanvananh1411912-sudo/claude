@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghép Bộ Thủ Chữ Hán · 汉字部首组合器</title>
+<style>
+  :root{
+    --bg:#f5f3ee; --panel:#ffffff; --ink:#2b2b2b; --muted:#8a8175;
+    --line:#e3ddd2; --accent:#b23a2e; --accent2:#c9812a; --good:#3a7d44;
+    --shadow:0 2px 10px rgba(60,45,30,.08);
+    --radius:12px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#1b1917; --panel:#262320; --ink:#ece7df; --muted:#a49c8d;
+      --line:#3a352f; --accent:#e0685a; --accent2:#e0a651; --good:#7bc088;
+      --shadow:0 2px 12px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Segoe UI",Roboto,-apple-system,"Noto Sans",system-ui,sans-serif;
+    line-height:1.5; -webkit-text-size-adjust:100%;
+  }
+  .cjk{font-family:"Noto Serif SC","Noto Sans SC","Songti SC","STSong","SimSun",serif;}
+  header{
+    padding:18px 20px; border-bottom:1px solid var(--line);
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    color:#fff;
+  }
+  header h1{margin:0;font-size:22px;font-weight:700;letter-spacing:.5px}
+  header .sub{opacity:.9;font-size:13px;margin-top:2px}
+  .wrap{max-width:1180px;margin:0 auto;padding:18px 16px 60px}
+  .grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(320px,1.15fr);gap:18px}
+  @media (max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+  .card .hd{padding:12px 14px;border-bottom:1px solid var(--line);font-weight:600;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .card .hd small{color:var(--muted);font-weight:400}
+  .card .bd{padding:14px}
+  .badge{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--line);color:var(--muted)}
+
+  /* palette */
+  .searchrow{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+  input[type=text]{
+    flex:1;min-width:120px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;
+    background:var(--bg);color:var(--ink);font-size:14px;outline:none;
+  }
+  input[type=text]:focus{border-color:var(--accent)}
+  .btn{
+    border:1px solid var(--line);background:var(--panel);color:var(--ink);
+    padding:9px 14px;border-radius:9px;cursor:pointer;font-size:14px;transition:.12s;
+  }
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .btn.primary:hover{filter:brightness(1.06);color:#fff}
+  .strokegroup{margin:6px 0}
+  .strokegroup .lbl{font-size:12px;color:var(--muted);margin:8px 2px 4px;position:sticky}
+  .radgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:6px}
+  .rad{
+    aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    border:1px solid var(--line);border-radius:9px;cursor:pointer;background:var(--bg);
+    transition:.1s;user-select:none;
+  }
+  .rad:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
+  .rad .g{font-size:24px;line-height:1}
+  .rad .hv{font-size:9px;color:var(--muted);margin-top:2px}
+  .palette-scroll{max-height:520px;overflow-y:auto;padding-right:4px}
+
+  /* workspace */
+  .tray{
+    min-height:74px;border:2px dashed var(--line);border-radius:10px;padding:10px;
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--bg);
+  }
+  .tray.empty::before{content:"Bấm bộ thủ bên trái hoặc gõ để thêm thành phần… / 从左侧选择或输入部件";color:var(--muted);font-size:13px}
+  .chip{
+    position:relative;display:flex;flex-direction:column;align-items:center;
+    border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:6px 10px 4px;box-shadow:var(--shadow);
+  }
+  .chip .g{font-size:30px;line-height:1}
+  .chip .hv{font-size:10px;color:var(--muted)}
+  .chip .x{position:absolute;top:-8px;right:-8px;width:20px;height:20px;border-radius:50%;
+    background:var(--accent);color:#fff;border:none;cursor:pointer;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center}
+  .chip .mv{display:flex;gap:4px;margin-top:3px}
+  .chip .mv button{border:none;background:var(--line);color:var(--ink);border-radius:5px;cursor:pointer;font-size:11px;width:18px;height:16px;padding:0}
+  .chip .mv button:hover{background:var(--accent);color:#fff}
+
+  .oprow{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+  .op{
+    min-width:40px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:var(--bg);
+    cursor:pointer;text-align:center;font-size:18px;transition:.1s;position:relative;
+  }
+  .op:hover{border-color:var(--accent2)}
+  .op.sel{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .op .t{display:block;font-size:9px;margin-top:1px}
+
+  .results{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+  @media (max-width:520px){.results{grid-template-columns:1fr}}
+  .result-card{border:1px solid var(--line);border-radius:10px;padding:12px;background:var(--bg);text-align:center}
+  .result-card h3{margin:0 0 8px;font-size:13px;color:var(--muted);font-weight:600}
+  .bigchar{font-size:88px;line-height:1.05;cursor:pointer}
+  .bigchar:hover{color:var(--accent)}
+  .charinfo{font-size:13px;color:var(--muted);margin-top:4px}
+  .charinfo b{color:var(--ink)}
+  .multi{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+  .mini{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel);min-width:88px}
+  .mini .g{font-size:46px;line-height:1;cursor:pointer}
+  .mini .g:hover{color:var(--accent)}
+  .mini .m{font-size:11px;color:var(--muted);margin-top:2px}
+
+  /* composition box */
+  .compbox{
+    width:170px;height:170px;margin:0 auto;position:relative;border:1px dashed var(--line);
+    border-radius:8px;overflow:hidden;background:var(--panel);
+  }
+  .compcell{display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .ids{margin-top:8px;font-size:14px;color:var(--ink);word-break:break-all}
+  .ids .code{font-family:monospace;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:2px 6px}
+
+  .notfound{color:var(--muted);font-size:14px;padding:20px 6px}
+  .hint{font-size:12px;color:var(--muted);margin-top:6px}
+  .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--good);color:#fff;padding:9px 16px;border-radius:20px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
+  .toast.show{opacity:1}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:28px}
+  a{color:var(--accent)}
+  .clearbtn{margin-left:auto}
+</style>
+</head>
+<body>
+<header>
+  <h1>汉字部首组合器 · Ghép Bộ Thủ Chữ Hán</h1>
+  <div class="sub">Chọn/gõ các bộ thủ → tra ra chữ Hán có thật, hoặc ghép hình minh hoạ · 选择部首组合成汉字</div>
+</header>
+
+<div class="wrap">
+<div class="grid">
+
+  <!-- LEFT: palette -->
+  <section class="card">
+    <div class="hd">
+      🀄 Bảng bộ thủ <small>214 bộ Khang Hy · 康熙部首</small>
+    </div>
+    <div class="bd">
+      <div class="searchrow">
+        <input type="text" id="search" placeholder="Tìm: 木, mù, mộc, cây…" autocomplete="off">
+        <button class="btn" id="clearSearch">Xoá</button>
+      </div>
+      <div class="palette-scroll" id="palette"></div>
+    </div>
+  </section>
+
+  <!-- RIGHT: workspace -->
+  <section class="card">
+    <div class="hd">
+      🧩 Khu ghép chữ <small>组字工作区</small>
+      <button class="btn clearbtn" id="clearTray">Xoá hết</button>
+    </div>
+    <div class="bd">
+      <div class="tray empty" id="tray"></div>
+
+      <div class="searchrow" style="margin-top:10px">
+        <input type="text" id="customInput" placeholder="Gõ thành phần bất kỳ rồi Enter (vd: 青, 每, 可)" autocomplete="off">
+        <button class="btn" id="addCustom">Thêm</button>
+      </div>
+
+      <div style="font-size:12px;color:var(--muted);margin-top:12px">Cấu trúc ghép · 结构 (IDS):</div>
+      <div class="oprow" id="oprow"></div>
+
+      <div class="results">
+        <div class="result-card">
+          <h3>🔎 Chữ có thật · 真实汉字</h3>
+          <div id="lookupResult"><div class="notfound">Chưa đủ thành phần</div></div>
+        </div>
+        <div class="result-card">
+          <h3>🖌️ Ghép hình minh hoạ · 组合示意</h3>
+          <div class="compbox" id="compbox"></div>
+          <div class="ids" id="idsOut"></div>
+        </div>
+      </div>
+      <div class="hint">Mẹo: bấm vào chữ lớn để sao chép. Ghép hình chỉ là minh hoạ bố cục, không phải chữ chính thức trong Unicode.</div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  Dữ liệu: 214 bộ thủ Khang Hy + CSDL chữ ghép thông dụng. Chạy hoàn toàn ngoại tuyến, không cần internet.<br>
+  部首组字工具 · Made with ❤ for người học tiếng Trung.
+</footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   DỮ LIỆU / DATA
+   ============================================================ */
+
+/* 214 bộ thủ Khang Hy: [char, variants, pinyin, hanviet, nghĩa VN]
+   Số nét được tính theo thứ tự chuẩn (xem strokeOf).            */
+const RADICALS = [
+["一","","yī","nhất","một"],["丨","","gǔn","cổn","nét sổ"],["丶","","zhǔ","chủ","nét chấm"],
+["丿","","piě","phiệt","nét phẩy"],["乙","乚","yǐ","ất","can Ất"],["亅","","jué","quyết","nét móc"],
+["二","","èr","nhị","hai"],["亠","","tóu","đầu","phần đầu/nắp"],["人","亻","rén","nhân","người"],
+["儿","","ér","nhân","chân người"],["入","","rù","nhập","vào"],["八","丷","bā","bát","tám"],
+["冂","","jiōng","quynh","vùng biên"],["冖","","mì","mịch","trùm khăn"],["冫","","bīng","băng","nước đá"],
+["几","","jī","kỷ","bàn nhỏ"],["凵","","kǎn","khảm","há miệng"],["刀","刂","dāo","đao","dao"],
+["力","","lì","lực","sức lực"],["勹","","bāo","bao","bao bọc"],["匕","","bǐ","chủy","cái thìa"],
+["匚","","fāng","phương","cái hộp"],["匸","","xì","hệ","che giấu"],["十","","shí","thập","mười"],
+["卜","","bǔ","bốc","bói toán"],["卩","㔾","jié","tiết","dấu ấn"],["厂","","hàn","hán","sườn núi"],
+["厶","","sī","khư","riêng tư"],["又","","yòu","hựu","lại/tay phải"],
+["口","","kǒu","khẩu","miệng"],["囗","","wéi","vi","vây quanh"],["土","","tǔ","thổ","đất"],
+["士","","shì","sĩ","kẻ sĩ"],["夂","","zhǐ","truy","đến sau"],["夊","","suī","tuy","đi chậm"],
+["夕","","xī","tịch","buổi tối"],["大","","dà","đại","to lớn"],["女","","nǚ","nữ","con gái"],
+["子","","zǐ","tử","con"],["宀","","mián","miên","mái nhà"],["寸","","cùn","thốn","tấc"],
+["小","","xiǎo","tiểu","nhỏ"],["尢","尣","wāng","uông","yếu/què"],["尸","","shī","thi","xác/thây"],
+["屮","","chè","triệt","mầm cây"],["山","","shān","sơn","núi"],["巛","川","chuān","xuyên","sông"],
+["工","","gōng","công","công việc"],["己","","jǐ","kỷ","bản thân"],["巾","","jīn","cân","khăn"],
+["干","","gān","can","cái khiên"],["幺","","yāo","yêu","nhỏ bé"],["广","","guǎng","nghiễm","mái hiên"],
+["廴","","yǐn","dẫn","bước dài"],["廾","","gǒng","củng","chắp tay"],["弋","","yì","dặc","cây cọc"],
+["弓","","gōng","cung","cây cung"],["彐","彑","jì","kệ","mõm lợn"],["彡","","shān","sam","lông/vẽ"],
+["彳","","chì","xích","bước chân"],
+["心","忄","xīn","tâm","tim/lòng"],["戈","","gē","qua","giáo mác"],["戶","户","hù","hộ","cửa"],
+["手","扌","shǒu","thủ","tay"],["支","","zhī","chi","cành/chống"],["攴","攵","pū","phộc","đánh khẽ"],
+["文","","wén","văn","chữ/văn"],["斗","","dǒu","đẩu","cái đấu"],["斤","","jīn","cân","cái rìu"],
+["方","","fāng","phương","vuông"],["无","旡","wú","vô","không"],["日","","rì","nhật","mặt trời"],
+["曰","","yuē","viết","nói rằng"],["月","","yuè","nguyệt","mặt trăng"],["木","","mù","mộc","cây/gỗ"],
+["欠","","qiàn","khiếm","thiếu/ngáp"],["止","","zhǐ","chỉ","dừng"],["歹","歺","dǎi","đãi","xương tàn"],
+["殳","","shū","thù","binh khí"],["毋","","wú","vô","chớ/đừng"],["比","","bǐ","tỷ","so sánh"],
+["毛","","máo","mao","lông"],["氏","","shì","thị","họ"],["气","","qì","khí","hơi"],
+["水","氵氺","shuǐ","thủy","nước"],["火","灬","huǒ","hỏa","lửa"],["爪","爫","zhǎo","trảo","móng vuốt"],
+["父","","fù","phụ","cha"],["爻","","yáo","hào","hào quẻ"],["爿","丬","qiáng","tường","cái giường"],
+["片","","piàn","phiến","mảnh/tấm"],["牙","","yá","nha","răng"],["牛","牜","niú","ngưu","trâu bò"],
+["犬","犭","quǎn","khuyển","chó"],
+["玄","","xuán","huyền","huyền diệu"],["玉","王","yù","ngọc","ngọc"],["瓜","","guā","qua","quả dưa"],
+["瓦","","wǎ","ngõa","ngói"],["甘","","gān","cam","ngọt"],["生","","shēng","sinh","sống"],
+["用","","yòng","dụng","dùng"],["田","","tián","điền","ruộng"],["疋","","pǐ","thất","tấm vải"],
+["疒","","nè","nạch","bệnh tật"],["癶","","bō","bát","hai chân dạng"],["白","","bái","bạch","trắng"],
+["皮","","pí","bì","da"],["皿","","mǐn","mãnh","bát đĩa"],["目","","mù","mục","mắt"],
+["矛","","máo","mâu","cây mâu"],["矢","","shǐ","thỉ","mũi tên"],["石","","shí","thạch","đá"],
+["示","礻","shì","thị","thần/chỉ"],["禸","","róu","nhựu","dấu chân"],["禾","","hé","hòa","lúa"],
+["穴","","xué","huyệt","hang"],["立","","lì","lập","đứng"],
+["竹","","zhú","trúc","tre trúc"],["米","","mǐ","mễ","gạo"],["糸","糹纟","mì","mịch","tơ sợi"],
+["缶","","fǒu","phữu","vò sành"],["网","罒罓","wǎng","võng","lưới"],["羊","","yáng","dương","dê"],
+["羽","","yǔ","vũ","lông vũ"],["老","耂","lǎo","lão","già"],["而","","ér","nhi","mà/râu"],
+["耒","","lěi","lỗi","cái cày"],["耳","","ěr","nhĩ","tai"],["聿","","yù","duật","cây bút"],
+["肉","⺼","ròu","nhục","thịt"],["臣","","chén","thần","bề tôi"],["自","","zì","tự","mũi/tự"],
+["至","","zhì","chí","đến"],["臼","","jiù","cữu","cái cối"],["舌","","shé","thiệt","lưỡi"],
+["舛","","chuǎn","suyễn","ngang trái"],["舟","","zhōu","chu","thuyền"],["艮","","gèn","cấn","dừng/quẻ Cấn"],
+["色","","sè","sắc","màu sắc"],["艸","艹","cǎo","thảo","cỏ"],["虍","","hū","hô","vằn hổ"],
+["虫","","chóng","trùng","sâu bọ"],["血","","xuè","huyết","máu"],["行","","xíng","hành","đi/hàng"],
+["衣","衤","yī","y","áo"],["襾","西覀","yà","á","che đậy"],
+["見","见","jiàn","kiến","thấy"],["角","","jiǎo","giác","sừng/góc"],["言","訁讠","yán","ngôn","lời nói"],
+["谷","","gǔ","cốc","thung lũng"],["豆","","dòu","đậu","hạt đậu"],["豕","","shǐ","thỉ","con lợn"],
+["豸","","zhì","trãi","thú không chân"],["貝","贝","bèi","bối","vỏ sò/tiền"],["赤","","chì","xích","đỏ"],
+["走","","zǒu","tẩu","chạy"],["足","⻊","zú","túc","chân"],["身","","shēn","thân","thân mình"],
+["車","车","chē","xa","xe"],["辛","","xīn","tân","cay/can Tân"],["辰","","chén","thần","chi Thìn"],
+["辵","辶","chuò","sước","bước đi"],["邑","阝","yì","ấp","làng/ấp"],["酉","","yǒu","dậu","rượu/chi Dậu"],
+["釆","","biàn","biện","phân biệt"],["里","","lǐ","lý","dặm/làng"],
+["金","釒钅","jīn","kim","vàng/kim loại"],["長","长","cháng","trường","dài"],["門","门","mén","môn","cửa"],
+["阜","阝","fù","phụ","gò đất"],["隶","","lì","lệ","nô lệ"],["隹","","zhuī","chuy","chim đuôi ngắn"],
+["雨","","yǔ","vũ","mưa"],["青","靑","qīng","thanh","xanh"],["非","","fēi","phi","không/sai"],
+["面","靣","miàn","diện","mặt"],["革","","gé","cách","da thuộc"],["韋","韦","wéi","vi","da mềm"],
+["韭","","jiǔ","cửu","rau hẹ"],["音","","yīn","âm","âm thanh"],["頁","页","yè","hiệt","trang/đầu"],
+["風","风","fēng","phong","gió"],["飛","飞","fēi","phi","bay"],["食","飠饣","shí","thực","ăn"],
+["首","","shǒu","thủ","đầu"],["香","","xiāng","hương","thơm"],
+["馬","马","mǎ","mã","ngựa"],["骨","","gǔ","cốt","xương"],["高","","gāo","cao","cao"],
+["髟","","biāo","tiêu","tóc dài"],["鬥","","dòu","đấu","đánh nhau"],["鬯","","chàng","sưởng","rượu nếp"],
+["鬲","","lì","cách","cái đỉnh"],["鬼","","guǐ","quỷ","ma quỷ"],
+["魚","鱼","yú","ngư","cá"],["鳥","鸟","niǎo","điểu","chim"],["鹵","卤","lǔ","lỗ","đất mặn"],
+["鹿","","lù","lộc","hươu"],["麥","麦","mài","mạch","lúa mạch"],["麻","","má","ma","cây gai"],
+["黃","黄","huáng","hoàng","vàng"],["黍","","shǔ","thử","lúa nếp"],["黑","黒","hēi","hắc","đen"],
+["黹","","zhǐ","chỉ","may vá"],
+["黽","","mǐn","mãnh","con ếch"],["鼎","","dǐng","đỉnh","cái đỉnh"],["鼓","","gǔ","cổ","cái trống"],
+["鼠","","shǔ","thử","con chuột"],
+["鼻","","bí","tị","mũi"],["齊","齐","qí","tề","đều/ngay"],
+["齒","齿","chǐ","xỉ","răng"],
+["龍","龙","lóng","long","rồng"],["龜","龟","guī","quy","con rùa"],
+["龠","","yuè","dược","ống sáo"]
+];
+
+/* Số nét mỗi bộ theo thứ tự Khang Hy (biên 1..214) */
+function strokeOf(i){ // i = 0-based index
+  const n=i+1;
+  if(n<=6)return 1; if(n<=29)return 2; if(n<=60)return 3; if(n<=94)return 4;
+  if(n<=115)return 5; if(n<=146)return 6; if(n<=166)return 7; if(n<=175)return 8;
+  if(n<=186)return 9; if(n<=194)return 10; if(n<=200)return 11; if(n<=204)return 12;
+  if(n<=208)return 13; if(n<=210)return 14; if(n<=211)return 15; if(n<=213)return 16; return 17;
+}
+
+/* CSDL chữ ghép: [chữ, "các thành phần", pinyin, HánViệt, nghĩa, toán tử] */
+const COMBOS = [
+["好","女子","hǎo","hảo","tốt / thích","⿰"],
+["林","木木","lín","lâm","rừng","⿰"],
+["森","木木木","sēn","sâm","rừng rậm","⿱"],
+["炎","火火","yán","viêm","nóng / viêm","⿱"],
+["明","日月","míng","minh","sáng","⿰"],
+["休","人木","xiū","hưu","nghỉ ngơi","⿰"],
+["男","田力","nán","nam","đàn ông","⿱"],
+["信","人言","xìn","tín","tin tưởng","⿰"],
+["品","口口口","pǐn","phẩm","phẩm chất","⿱"],
+["尖","小大","jiān","tiêm","nhọn","⿱"],
+["岩","山石","yán","nham","đá núi","⿱"],
+["从","人人","cóng","tòng","đi theo","⿰"],
+["众","人人人","zhòng","chúng","đông người","⿱"],
+["李","木子","lǐ","lý","cây mận","⿱"],
+["星","日生","xīng","tinh","ngôi sao","⿱"],
+["音","立日","yīn","âm","âm thanh","⿱"],
+["相","木目","xiāng","tương","xem / lẫn nhau","⿰"],
+["想","相心","xiǎng","tưởng","suy nghĩ","⿱"],
+["思","田心","sī","tư","suy nghĩ","⿱"],
+["泉","白水","quán","tuyền","suối","⿱"],
+["双","又又","shuāng","song","đôi / cặp","⿰"],
+["字","宀子","zì","tự","chữ","⿱"],
+["安","宀女","ān","an","bình an","⿱"],
+["家","宀豕","jiā","gia","nhà","⿱"],
+["宝","宀玉","bǎo","bảo","báu vật","⿱"],
+["兄","口儿","xiōng","huynh","anh trai","⿱"],
+["界","田介","jiè","giới","ranh giới","⿱"],
+["和","禾口","hé","hòa","hoà / và","⿰"],
+["季","禾子","jì","quý","mùa","⿱"],
+["秋","禾火","qiū","thu","mùa thu","⿰"],
+["姓","女生","xìng","tính","họ","⿰"],
+["她","女也","tā","tha","cô ấy","⿰"],
+["妈","女马","mā","ma","mẹ","⿰"],
+["妹","女未","mèi","muội","em gái","⿰"],
+["姐","女且","jiě","tỷ","chị gái","⿰"],
+["奶","女乃","nǎi","nãi","sữa / bà","⿰"],
+["你","人尔","nǐ","nễ","bạn","⿰"],
+["他","人也","tā","tha","anh ấy","⿰"],
+["住","人主","zhù","trú","ở / sống","⿰"],
+["作","人乍","zuò","tác","làm","⿰"],
+["河","水可","hé","hà","sông","⿰"],
+["江","水工","jiāng","giang","sông","⿰"],
+["海","水每","hǎi","hải","biển","⿰"],
+["清","水青","qīng","thanh","trong","⿰"],
+["洋","水羊","yáng","dương","đại dương","⿰"],
+["沐","水木","mù","mộc","tắm gội","⿰"],
+["灯","火丁","dēng","đăng","đèn","⿰"],
+["炒","火少","chǎo","sao","xào","⿰"],
+["打","手丁","dǎ","đả","đánh","⿰"],
+["把","手巴","bǎ","bả","cầm / nắm","⿰"],
+["找","手戈","zhǎo","trảo","tìm","⿰"],
+["眼","目艮","yǎn","nhãn","mắt","⿰"],
+["睛","目青","jīng","tinh","con ngươi","⿰"],
+["睡","目垂","shuì","thụy","ngủ","⿰"],
+["看","手目","kàn","khán","xem / nhìn","⿱"],
+["呆","口木","dāi","ngai","ngốc nghếch","⿱"],
+["古","十口","gǔ","cổ","xưa cũ","⿱"],
+["含","今口","hán","hàm","ngậm","⿱"],
+["吃","口乞","chī","ngật","ăn","⿰"],
+["吗","口马","ma","ma","(trợ từ hỏi)","⿰"],
+["问","门口","wèn","vấn","hỏi","⿵"],
+["间","门日","jiān","gian","gian / khoảng","⿵"],
+["闪","门人","shǎn","thiểm","chớp / loé","⿵"],
+["时","日寺","shí","thời","thời gian","⿰"],
+["晴","日青","qíng","tình","trời nắng","⿰"],
+["晚","日免","wǎn","vãn","muộn / tối","⿰"],
+["请","言青","qǐng","thỉnh","mời","⿰"],
+["话","言舌","huà","thoại","lời nói","⿰"],
+["说","言兑","shuō","thuyết","nói","⿰"],
+["谢","言射","xiè","tạ","cảm ơn","⿰"],
+["红","糸工","hóng","hồng","đỏ","⿰"],
+["绿","糸录","lǜ","lục","xanh lá","⿰"],
+["花","艸化","huā","hoa","hoa","⿱"],
+["草","艸早","cǎo","thảo","cỏ","⿱"],
+["雷","雨田","léi","lôi","sấm","⿱"],
+["需","雨而","xū","nhu","cần","⿱"],
+["雾","雨务","wù","vụ","sương mù","⿱"],
+["笔","竹毛","bǐ","bút","cây bút","⿱"],
+["笑","竹夭","xiào","tiếu","cười","⿱"],
+["破","石皮","pò","phá","vỡ","⿰"],
+["硬","石更","yìng","ngạnh","cứng","⿰"],
+["理","玉里","lǐ","lý","lý lẽ","⿰"],
+["球","玉求","qiú","cầu","quả bóng","⿰"],
+["现","玉见","xiàn","hiện","xuất hiện","⿰"],
+["性","心生","xìng","tính","tính cách","⿰"],
+["忙","心亡","máng","mang","bận rộn","⿰"],
+["怕","心白","pà","phạ","sợ","⿰"],
+["情","心青","qíng","tình","tình cảm","⿰"],
+["银","金艮","yín","ngân","bạc","⿰"],
+["钟","金中","zhōng","chung","chuông / đồng hồ","⿰"],
+["针","金十","zhēn","châm","cây kim","⿰"],
+["饭","食反","fàn","phạn","cơm","⿰"],
+["饿","食我","è","ngạ","đói","⿰"],
+["路","足各","lù","lộ","con đường","⿰"],
+["跑","足包","pǎo","bào","chạy","⿰"],
+["跳","足兆","tiào","khiêu","nhảy","⿰"],
+["材","木才","cái","tài","vật liệu","⿰"],
+["机","木几","jī","cơ","máy móc","⿰"],
+["杜","木土","dù","đỗ","cây đỗ / họ Đỗ","⿰"],
+["对","又寸","duì","đối","đúng / đối","⿰"],
+["观","又见","guān","quan","xem / quan sát","⿰"],
+["鸡","又鸟","jī","kê","con gà","⿰"],
+["难","又隹","nán","nan","khó","⿰"],
+["会","人云","huì","hội","gặp / họp","⿱"],
+["仁","人二","rén","nhân","nhân từ","⿰"],
+["章","立早","zhāng","chương","chương / bài","⿱"],
+["唱","口昌","chàng","xướng","hát","⿰"],
+["淼","水水水","miǎo","miểu","nước mênh mông","⿱"],
+["焱","火火火","yàn","diễm","lửa cháy","⿱"],
+["姦","女女女","jiān","gian","gian tà","⿱"],
+["磊","石石石","lěi","lỗi","đá chồng chất","⿱"],
+["鑫","金金金","xīn","hâm","thịnh vượng","⿱"],
+["晶","日日日","jīng","tinh","lấp lánh","⿱"],
+["尘","小土","chén","trần","bụi","⿱"],
+["灭","一火","miè","diệt","dập tắt / diệt","⿱"],
+["歪","不正","wāi","oai","nghiêng lệch","⿱"],
+["甜","舌甘","tián","điềm","ngọt","⿰"],
+["鲜","魚羊","xiān","tiên","tươi","⿰"]
+];
+
+const OPERATORS = [
+["⿰","trái–phải","左右"],["⿱","trên–dưới","上下"],["⿲","trái·giữa·phải","左中右"],
+["⿳","trên·giữa·dưới","上中下"],["⿴","bao quanh kín","全包围"],["⿵","bao trên","上三包"],
+["⿶","bao dưới","下三包"],["⿷","bao trái","左三包"],["⿸","bao trái-trên","左上包"],
+["⿹","bao phải-trên","右上包"],["⿺","bao trái-dưới","左下包"],["⿻","chồng / lồng","相叠"]
+];
+
+/* ============================================================
+   BẢN ĐỒ BIẾN THỂ  (亻→人, 氵→水 …) để so khớp linh hoạt
+   ============================================================ */
+const VARIANT_MAP = {};
+RADICALS.forEach(r=>{
+  const base=r[0]; VARIANT_MAP[base]=base;
+  if(r[1]) Array.from(r[1]).forEach(v=>VARIANT_MAP[v]=base);
+});
+function norm(ch){ return VARIANT_MAP[ch] || ch; }
+
+/* Index chữ để show info nhanh */
+const RAD_INFO = {};
+RADICALS.forEach(r=>{ RAD_INFO[r[0]]=r; if(r[1]) Array.from(r[1]).forEach(v=>RAD_INFO[v]=r); });
+
+/* Index combo theo tập thành phần (đa tập, không kể thứ tự) */
+function partsKey(arr){ return arr.map(norm).sort().join(''); }
+const COMBO_INDEX = {};
+COMBOS.forEach(c=>{
+  const parts=Array.from(c[1]);
+  const key=partsKey(parts);
+  (COMBO_INDEX[key]=COMBO_INDEX[key]||[]).push({
+    char:c[0], parts, pinyin:c[2], hanviet:c[3], meaning:c[4], op:c[5]
+  });
+});
+
+/* ============================================================
+   TRẠNG THÁI / STATE
+   ============================================================ */
+let tray = [];        // mảng thành phần đã chọn (ký tự)
+let currentOp = "⿰";
+
+/* ============================================================
+   DỰNG BẢNG BỘ THỦ / PALETTE
+   ============================================================ */
+const paletteEl = document.getElementById('palette');
+function renderPalette(filter=""){
+  const f=filter.trim().toLowerCase();
+  const groups={};
+  RADICALS.forEach((r,i)=>{
+    const s=strokeOf(i);
+    const hay=(r[0]+" "+r[1]+" "+r[2]+" "+r[3]+" "+r[4]).toLowerCase();
+    if(f && !hay.includes(f)) return;
+    (groups[s]=groups[s]||[]).push(r);
+  });
+  const keys=Object.keys(groups).map(Number).sort((a,b)=>a-b);
+  if(keys.length===0){ paletteEl.innerHTML='<div class="notfound">Không tìm thấy bộ thủ nào. / 没有找到</div>'; return; }
+  let html="";
+  keys.forEach(k=>{
+    html+=`<div class="strokegroup"><div class="lbl">${k} nét · ${k}画</div><div class="radgrid">`;
+    groups[k].forEach(r=>{
+      html+=`<div class="rad cjk" title="${r[2]} · ${r[3]} · ${r[4]}${r[1]?' · biến thể '+r[1]:''}" data-ch="${r[0]}">
+        <div class="g">${r[0]}</div><div class="hv">${r[3]}</div></div>`;
+    });
+    html+=`</div></div>`;
+  });
+  paletteEl.innerHTML=html;
+  paletteEl.querySelectorAll('.rad').forEach(el=>{
+    el.addEventListener('click',()=>addToTray(el.dataset.ch));
+  });
+}
+
+/* ============================================================
+   TRAY / KHU THÀNH PHẦN
+   ============================================================ */
+const trayEl=document.getElementById('tray');
+function addToTray(ch){
+  if(!ch) return;
+  Array.from(ch).forEach(c=>{ if(c.trim()) tray.push(c); });
+  renderTray(); update();
+}
+function removeFromTray(i){ tray.splice(i,1); renderTray(); update(); }
+function moveTray(i,d){
+  const j=i+d; if(j<0||j>=tray.length) return;
+  [tray[i],tray[j]]=[tray[j],tray[i]]; renderTray(); update();
+}
+function renderTray(){
+  if(tray.length===0){ trayEl.className="tray empty"; trayEl.innerHTML=""; return; }
+  trayEl.className="tray";
+  trayEl.innerHTML=tray.map((c,i)=>{
+    const info=RAD_INFO[c];
+    const hv=info?info[3]:"";
+    return `<div class="chip">
+      <button class="x" data-i="${i}" title="Xoá">×</button>
+      <div class="g cjk">${c}</div>
+      <div class="hv">${hv||'&nbsp;'}</div>
+      <div class="mv"><button data-mv="${i}" data-d="-1" title="Sang trái">◀</button>
+      <button data-mv="${i}" data-d="1" title="Sang phải">▶</button></div>
+    </div>`;
+  }).join('');
+  trayEl.querySelectorAll('.x').forEach(b=>b.addEventListener('click',()=>removeFromTray(+b.dataset.i)));
+  trayEl.querySelectorAll('.mv button').forEach(b=>b.addEventListener('click',()=>moveTray(+b.dataset.mv,+b.dataset.d)));
+}
+
+/* ============================================================
+   TRA CHỮ CÓ THẬT / LOOKUP
+   ============================================================ */
+function renderLookup(){
+  const box=document.getElementById('lookupResult');
+  if(tray.length<2){ box.innerHTML='<div class="notfound">Cần ít nhất 2 thành phần</div>'; return; }
+  const matches=COMBO_INDEX[partsKey(tray)];
+  if(!matches || matches.length===0){
+    box.innerHTML='<div class="notfound">Chưa có chữ nào khớp trong CSDL.<br><small>没有匹配的汉字</small></div>';
+    return;
+  }
+  if(matches.length===1){
+    const m=matches[0];
+    box.innerHTML=`
+      <div class="bigchar cjk" data-copy="${m.char}" title="Bấm để sao chép">${m.char}</div>
+      <div class="charinfo"><b class="cjk">${m.char}</b> · <b>${m.pinyin}</b> · Hán-Việt: <b>${m.hanviet}</b></div>
+      <div class="charinfo">Nghĩa: ${m.meaning}</div>`;
+  } else {
+    box.innerHTML='<div class="charinfo" style="margin-bottom:6px">Có nhiều chữ cùng thành phần:</div><div class="multi">'+
+      matches.map(m=>`<div class="mini">
+        <div class="g cjk" data-copy="${m.char}" title="Bấm để sao chép">${m.char}</div>
+        <div class="m">${m.pinyin} · ${m.hanviet}<br>${m.meaning}</div></div>`).join('')+'</div>';
+  }
+  box.querySelectorAll('[data-copy]').forEach(el=>el.addEventListener('click',()=>copy(el.dataset.copy)));
+}
+
+/* ============================================================
+   GHÉP HÌNH MINH HOẠ + IDS
+   ============================================================ */
+function buildIDS(parts,op){
+  if(parts.length===0) return "";
+  if(parts.length===1) return parts[0];
+  const ternary = (op==="⿲"||op==="⿳");
+  if(parts.length===2) return op+parts[0]+parts[1];
+  if(parts.length===3 && ternary) return op+parts[0]+parts[1]+parts[2];
+  // toán tử nhị phân với ≥3 phần → lồng phải
+  let s=parts[parts.length-1];
+  for(let i=parts.length-2;i>=0;i--) s=op+parts[i]+s;
+  return s;
+}
+
+function renderComposition(){
+  const box=document.getElementById('compbox');
+  const idsOut=document.getElementById('idsOut');
+  box.innerHTML=""; idsOut.innerHTML="";
+  if(tray.length===0){ box.innerHTML=""; return; }
+  if(tray.length===1){
+    box.innerHTML=`<div class="compcell cjk" style="width:100%;height:100%;font-size:120px">${tray[0]}</div>`;
+    idsOut.innerHTML=`<span class="ids-lbl">IDS: </span><span class="code cjk">${tray[0]}</span>`;
+    return;
+  }
+  const op=currentOp;
+  const n=tray.length;
+  const horiz=["⿰","⿲"], vert=["⿱","⿳"];
+  const abs=(css)=>`position:absolute;${css}`;
+  let inner="";
+
+  if(op==="⿰"||op==="⿲"){
+    const scale = n===2?0.62:0.42;
+    inner=tray.map(c=>`<div class="compcell" style="width:${100/n}%;height:100%">
+      <span class="cjk" style="font-size:150px;transform:scaleX(${scale});display:inline-block">${c}</span></div>`).join("");
+    box.style.display="flex"; box.innerHTML=inner;
+  }
+  else if(op==="⿱"||op==="⿳"){
+    const scale = n===2?0.6:0.42;
+    box.style.display="block";
+    inner=tray.map(c=>`<div class="compcell" style="width:100%;height:${100/n}%">
+      <span class="cjk" style="font-size:150px;transform:scaleY(${scale});display:inline-block">${c}</span></div>`).join("");
+    box.innerHTML=inner;
+  }
+  else {
+    // các toán tử bao quanh: phần 1 = khung lớn, phần còn lại = nhỏ đặt bên trong
+    box.style.display="block";
+    const outer=tray[0];
+    const rest=tray.slice(1).join("");
+    let pos="top:50%;left:50%;transform:translate(-50%,-50%)"; // ⿴ ⿻ giữa
+    if(op==="⿵") pos="bottom:8%;left:50%;transform:translateX(-50%)";
+    else if(op==="⿶") pos="top:8%;left:50%;transform:translateX(-50%)";
+    else if(op==="⿷") pos="top:50%;right:10%;transform:translateY(-50%)";
+    else if(op==="⿸") pos="bottom:10%;right:12%";
+    else if(op==="⿹") pos="bottom:10%;left:12%";
+    else if(op==="⿺") pos="top:10%;right:12%";
+    const outerStyle = op==="⿻"
+      ? abs("top:50%;left:50%;transform:translate(-50%,-50%);font-size:150px")
+      : abs("top:50%;left:50%;transform:translate(-50%,-50%);font-size:165px");
+    const innerStyle = op==="⿻"
+      ? abs(pos+";font-size:150px;opacity:.55")
+      : abs(pos+";font-size:62px");
+    box.innerHTML=`<span class="cjk" style="${outerStyle}">${outer}</span>
+      <span class="cjk" style="${innerStyle}">${rest}</span>`;
+  }
+
+  const ids=buildIDS(tray,op);
+  idsOut.innerHTML=`<span class="ids-lbl">Mô tả IDS: </span><span class="code cjk">${ids}</span>`;
+}
+
+/* ============================================================
+   OPERATOR ROW
+   ============================================================ */
+const oprow=document.getElementById('oprow');
+oprow.innerHTML=OPERATORS.map(o=>`<div class="op${o[0]===currentOp?' sel':''}" data-op="${o[0]}" title="${o[1]} · ${o[2]}">
+  <span class="cjk">${o[0]}</span><span class="t">${o[2]}</span></div>`).join("");
+oprow.querySelectorAll('.op').forEach(el=>{
+  el.addEventListener('click',()=>{
+    currentOp=el.dataset.op;
+    oprow.querySelectorAll('.op').forEach(x=>x.classList.toggle('sel',x.dataset.op===currentOp));
+    renderComposition();
+  });
+});
+
+/* ============================================================
+   CẬP NHẬT TỔNG
+   ============================================================ */
+function update(){
+  // nếu tổ hợp khớp 1 combo, tự chọn toán tử của nó cho phần minh hoạ
+  if(tray.length>=2){
+    const m=COMBO_INDEX[partsKey(tray)];
+    if(m && m.length===1){
+      currentOp=m[0].op;
+      oprow.querySelectorAll('.op').forEach(x=>x.classList.toggle('sel',x.dataset.op===currentOp));
+    }
+  }
+  renderLookup();
+  renderComposition();
+}
+
+/* ============================================================
+   TIỆN ÍCH: sao chép + toast
+   ============================================================ */
+function copy(text){
+  const done=()=>toast("Đã sao chép: "+text+" · 已复制");
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done).catch(()=>fallbackCopy(text,done));
+  } else fallbackCopy(text,done);
+}
+function fallbackCopy(text,cb){
+  const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta);
+  ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); cb&&cb();
+}
+let toastTimer;
+function toast(msg){
+  const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
+}
+
+/* ============================================================
+   SỰ KIỆN / EVENTS
+   ============================================================ */
+document.getElementById('search').addEventListener('input',e=>renderPalette(e.target.value));
+document.getElementById('clearSearch').addEventListener('click',()=>{
+  document.getElementById('search').value=""; renderPalette();
+});
+document.getElementById('clearTray').addEventListener('click',()=>{ tray=[]; renderTray(); update(); });
+const customInput=document.getElementById('customInput');
+document.getElementById('addCustom').addEventListener('click',()=>{ addToTray(customInput.value); customInput.value=""; });
+customInput.addEventListener('keydown',e=>{ if(e.key==="Enter"){ addToTray(customInput.value); customInput.value=""; }});
+
+/* ============================================================
+   KHỞI ĐỘNG / INIT
+   ============================================================ */
+renderPalette();
+renderTray();
+update();
+</script>
+</body>
+</html>

@@ -1,0 +1,619 @@
+{
+  "_meta": {
+    "name": "radical_emoji_map",
+    "version": "1.1",
+    "description": "Bảng ánh xạ bộ thủ/thành phần chữ Hán -> emoji + quy đổi biến thể về dạng gốc. Dùng kèm dữ liệu makemeahanzi (dictionary.txt) hoặc cjkvi-ids.",
+    "usage": "Khi phân rã một chữ: (1) lấy thành phần, (2) tra 'variants' để quy về dạng gốc nếu có, (3) tra 'radicals' để lấy emoji + nghĩa. Nếu không có trong bảng -> fallback: hiển thị chính chữ thành phần.",
+    "note_ambiguous": "Một số thành phần phụ thuộc vị trí/ngữ cảnh, xem mục 'ambiguous'.",
+    "icon_field": "Trường 'icon' theo định dạng '<bộ_icon>:<tên_icon>'. Ưu tiên hiển thị: icon > emoji > chữ. 'seal' nghĩa là dùng SVG chữ TIỂU TRIỆN của chính bộ đó (tải từ glyphwiki.org hoặc shuowen.org), nhuộm màu bằng currentColor. Nguồn icon: lucide (lucide.dev / lucide-react), tabler + phosphor + game-icons (tra và tải qua Iconify: icones.js.org, API tải SVG: https://api.iconify.design/<bộ>/<tên>.svg). Tên icon là ĐỀ XUẤT — cần mở icones.js.org duyệt mắt từng cái trước khi chốt."
+  },
+  "radicals": {
+    "人": {
+      "emoji": "🧍",
+      "pinyin": "rén",
+      "vi": "người",
+      "icon": "lucide:person-standing"
+    },
+    "女": {
+      "emoji": "👩",
+      "pinyin": "nǚ",
+      "vi": "phụ nữ",
+      "icon": "tabler:woman"
+    },
+    "子": {
+      "emoji": "👶",
+      "pinyin": "zǐ",
+      "vi": "đứa trẻ / con",
+      "icon": "lucide:baby"
+    },
+    "口": {
+      "emoji": "👄",
+      "pinyin": "kǒu",
+      "vi": "miệng",
+      "icon": "seal"
+    },
+    "心": {
+      "emoji": "❤️",
+      "pinyin": "xīn",
+      "vi": "tim / tâm trí",
+      "icon": "lucide:heart"
+    },
+    "手": {
+      "emoji": "✋",
+      "pinyin": "shǒu",
+      "vi": "tay",
+      "icon": "lucide:hand"
+    },
+    "水": {
+      "emoji": "💧",
+      "pinyin": "shuǐ",
+      "vi": "nước",
+      "icon": "lucide:droplet"
+    },
+    "火": {
+      "emoji": "🔥",
+      "pinyin": "huǒ",
+      "vi": "lửa",
+      "icon": "lucide:flame"
+    },
+    "木": {
+      "emoji": "🌳",
+      "pinyin": "mù",
+      "vi": "cây / gỗ",
+      "icon": "lucide:tree-deciduous"
+    },
+    "日": {
+      "emoji": "☀️",
+      "pinyin": "rì",
+      "vi": "mặt trời / ngày",
+      "icon": "lucide:sun"
+    },
+    "月": {
+      "emoji": "🌙",
+      "pinyin": "yuè",
+      "vi": "mặt trăng / tháng",
+      "icon": "lucide:moon"
+    },
+    "山": {
+      "emoji": "⛰️",
+      "pinyin": "shān",
+      "vi": "núi",
+      "icon": "lucide:mountain"
+    },
+    "土": {
+      "emoji": "🟫",
+      "pinyin": "tǔ",
+      "vi": "đất",
+      "icon": "seal"
+    },
+    "田": {
+      "emoji": "🌾",
+      "pinyin": "tián",
+      "vi": "ruộng",
+      "icon": "lucide:grid-2x2",
+      "icon_note": "grid-2x2 trùng khớp hình chữ 田 một cách tình cờ nhưng rất hiệu quả"
+    },
+    "目": {
+      "emoji": "👁️",
+      "pinyin": "mù",
+      "vi": "mắt",
+      "icon": "lucide:eye"
+    },
+    "耳": {
+      "emoji": "👂",
+      "pinyin": "ěr",
+      "vi": "tai",
+      "icon": "lucide:ear"
+    },
+    "足": {
+      "emoji": "🦶",
+      "pinyin": "zú",
+      "vi": "chân",
+      "icon": "lucide:footprints"
+    },
+    "言": {
+      "emoji": "💬",
+      "pinyin": "yán",
+      "vi": "lời nói",
+      "icon": "lucide:message-circle"
+    },
+    "金": {
+      "emoji": "🪙",
+      "pinyin": "jīn",
+      "vi": "kim loại / vàng",
+      "icon": "lucide:coins"
+    },
+    "糸": {
+      "emoji": "🧵",
+      "pinyin": "mì/sī",
+      "vi": "sợi tơ",
+      "icon": "seal"
+    },
+    "竹": {
+      "emoji": "🎋",
+      "pinyin": "zhú",
+      "vi": "tre trúc",
+      "icon": "seal"
+    },
+    "米": {
+      "emoji": "🍚",
+      "pinyin": "mǐ",
+      "vi": "gạo",
+      "icon": "tabler:grain",
+      "icon_note": "tabler:grain = các hạt rời, đúng nghĩa hạt gạo"
+    },
+    "食": {
+      "emoji": "🍽️",
+      "pinyin": "shí",
+      "vi": "ăn / thức ăn",
+      "icon": "lucide:utensils"
+    },
+    "衣": {
+      "emoji": "👕",
+      "pinyin": "yī",
+      "vi": "áo quần",
+      "icon": "lucide:shirt"
+    },
+    "示": {
+      "emoji": "⛩️",
+      "pinyin": "shì",
+      "vi": "thần linh / tế lễ",
+      "icon": "seal"
+    },
+    "犬": {
+      "emoji": "🐕",
+      "pinyin": "quǎn",
+      "vi": "chó",
+      "icon": "lucide:dog"
+    },
+    "牛": {
+      "emoji": "🐂",
+      "pinyin": "niú",
+      "vi": "trâu bò",
+      "icon": "phosphor:cow"
+    },
+    "馬": {
+      "emoji": "🐴",
+      "pinyin": "mǎ",
+      "vi": "ngựa",
+      "icon": "phosphor:horse"
+    },
+    "羊": {
+      "emoji": "🐑",
+      "pinyin": "yáng",
+      "vi": "dê cừu",
+      "icon": "seal"
+    },
+    "鳥": {
+      "emoji": "🐦",
+      "pinyin": "niǎo",
+      "vi": "chim",
+      "icon": "lucide:bird"
+    },
+    "魚": {
+      "emoji": "🐟",
+      "pinyin": "yú",
+      "vi": "cá",
+      "icon": "lucide:fish"
+    },
+    "虫": {
+      "emoji": "🐛",
+      "pinyin": "chóng",
+      "vi": "sâu bọ / côn trùng",
+      "icon": "lucide:bug"
+    },
+    "貝": {
+      "emoji": "🐚",
+      "pinyin": "bèi",
+      "vi": "vỏ sò (tiền bạc)",
+      "icon": "lucide:shell",
+      "icon_note": "icon shell = ốc xoắn, chỉ gần đúng; cân nhắc seal (貝 triện rất giống vỏ sò)"
+    },
+    "車": {
+      "emoji": "🚗",
+      "pinyin": "chē",
+      "vi": "xe",
+      "icon": "lucide:car"
+    },
+    "門": {
+      "emoji": "🚪",
+      "pinyin": "mén",
+      "vi": "cửa",
+      "icon": "lucide:door-open"
+    },
+    "雨": {
+      "emoji": "🌧️",
+      "pinyin": "yǔ",
+      "vi": "mưa",
+      "icon": "lucide:cloud-rain"
+    },
+    "風": {
+      "emoji": "🌬️",
+      "pinyin": "fēng",
+      "vi": "gió",
+      "icon": "lucide:wind"
+    },
+    "石": {
+      "emoji": "🪨",
+      "pinyin": "shí",
+      "vi": "đá",
+      "icon": "seal"
+    },
+    "玉": {
+      "emoji": "💎",
+      "pinyin": "yù",
+      "vi": "ngọc",
+      "icon": "lucide:gem"
+    },
+    "刀": {
+      "emoji": "🔪",
+      "pinyin": "dāo",
+      "vi": "dao",
+      "icon": "game-icons:bowie-knife",
+      "icon_note": "thay tabler:knife (không tồn tại trong bộ tabler) bằng game-icons:bowie-knife"
+    },
+    "力": {
+      "emoji": "💪",
+      "pinyin": "lì",
+      "vi": "sức mạnh",
+      "icon": "lucide:dumbbell",
+      "icon_note": "dumbbell chỉ gợi 'sức mạnh'; 力 gốc là cái cày/cánh tay — cân nhắc seal"
+    },
+    "弓": {
+      "emoji": "🏹",
+      "pinyin": "gōng",
+      "vi": "cây cung",
+      "icon": "tabler:bow"
+    },
+    "矢": {
+      "emoji": "🎯",
+      "pinyin": "shǐ",
+      "vi": "mũi tên",
+      "icon": "game-icons:broadhead-arrow"
+    },
+    "走": {
+      "emoji": "🏃",
+      "pinyin": "zǒu",
+      "vi": "chạy / đi",
+      "icon": "phosphor:person-simple-run"
+    },
+    "辵": {
+      "emoji": "🚶",
+      "pinyin": "chuò",
+      "vi": "bước đi / di chuyển",
+      "icon": "lucide:route"
+    },
+    "阜": {
+      "emoji": "🏔️",
+      "pinyin": "fù",
+      "vi": "gò đất (bên TRÁI)",
+      "icon": "seal"
+    },
+    "邑": {
+      "emoji": "🏘️",
+      "pinyin": "yì",
+      "vi": "thành ấp (bên PHẢI)",
+      "icon": "lucide:building-2"
+    },
+    "肉": {
+      "emoji": "🥩",
+      "pinyin": "ròu",
+      "vi": "thịt / cơ thể",
+      "icon": "lucide:beef"
+    },
+    "骨": {
+      "emoji": "🦴",
+      "pinyin": "gǔ",
+      "vi": "xương",
+      "icon": "lucide:bone"
+    },
+    "頁": {
+      "emoji": "👤",
+      "pinyin": "yè",
+      "vi": "đầu người",
+      "icon": "lucide:user-round",
+      "icon_note": "user-round chỉ gần đúng 'đầu người'"
+    },
+    "疒": {
+      "emoji": "🤒",
+      "pinyin": "nè",
+      "vi": "bệnh tật",
+      "icon": "lucide:thermometer"
+    },
+    "宀": {
+      "emoji": "🏠",
+      "pinyin": "mián",
+      "vi": "mái nhà",
+      "icon": "lucide:home",
+      "icon_note": "home = cả ngôi nhà; nếu muốn đúng 'chỉ phần mái' thì dùng seal"
+    },
+    "广": {
+      "emoji": "🏚️",
+      "pinyin": "yǎn",
+      "vi": "mái hiên / nhà rộng",
+      "icon": "lucide:warehouse"
+    },
+    "穴": {
+      "emoji": "🕳️",
+      "pinyin": "xué",
+      "vi": "hang / lỗ",
+      "icon": "game-icons:cave-entrance"
+    },
+    "网": {
+      "emoji": "🕸️",
+      "pinyin": "wǎng",
+      "vi": "cái lưới",
+      "icon": "game-icons:fishing-net"
+    },
+    "爪": {
+      "emoji": "🐾",
+      "pinyin": "zhǎo",
+      "vi": "móng vuốt / bàn tay chụp xuống",
+      "icon": "seal"
+    },
+    "攴": {
+      "emoji": "✊",
+      "pinyin": "pū",
+      "vi": "tay cầm gậy gõ (hành động)",
+      "icon": "seal"
+    },
+    "老": {
+      "emoji": "👴",
+      "pinyin": "lǎo",
+      "vi": "già",
+      "icon": "tabler:old"
+    },
+    "龍": {
+      "emoji": "🐉",
+      "pinyin": "lóng",
+      "vi": "rồng",
+      "icon": "game-icons:dragon-head"
+    },
+    "齒": {
+      "emoji": "🦷",
+      "pinyin": "chǐ",
+      "vi": "răng",
+      "icon": "game-icons:tooth",
+      "icon_note": "thay lucide:tooth (không tồn tại trong bộ lucide) bằng game-icons:tooth"
+    },
+    "長": {
+      "emoji": "📏",
+      "pinyin": "cháng",
+      "vi": "dài / tóc dài",
+      "icon": "lucide:ruler"
+    },
+    "舟": {
+      "emoji": "⛵",
+      "pinyin": "zhōu",
+      "vi": "thuyền",
+      "icon": "lucide:sailboat"
+    },
+    "飛": {
+      "emoji": "✈️",
+      "pinyin": "fēi",
+      "vi": "bay",
+      "icon": "lucide:plane"
+    },
+    "鹿": {
+      "emoji": "🦌",
+      "pinyin": "lù",
+      "vi": "hươu nai",
+      "icon": "game-icons:deer"
+    },
+    "虎": {
+      "emoji": "🐯",
+      "pinyin": "hǔ",
+      "vi": "hổ",
+      "icon": "game-icons:tiger-head"
+    },
+    "豕": {
+      "emoji": "🐷",
+      "pinyin": "shǐ",
+      "vi": "lợn",
+      "icon": "game-icons:pig"
+    },
+    "鼠": {
+      "emoji": "🐭",
+      "pinyin": "shǔ",
+      "vi": "chuột",
+      "icon": "game-icons:rat"
+    },
+    "龜": {
+      "emoji": "🐢",
+      "pinyin": "guī",
+      "vi": "rùa",
+      "icon": "game-icons:turtle"
+    },
+    "冫": {
+      "emoji": "❄️",
+      "pinyin": "bīng",
+      "vi": "băng / lạnh",
+      "icon": "lucide:snowflake"
+    },
+    "夕": {
+      "emoji": "🌇",
+      "pinyin": "xī",
+      "vi": "buổi chiều tối",
+      "icon": "lucide:sunset"
+    },
+    "立": {
+      "emoji": "🕴️",
+      "pinyin": "lì",
+      "vi": "đứng",
+      "icon": "seal"
+    },
+    "大": {
+      "emoji": "🙆",
+      "pinyin": "dà",
+      "vi": "to lớn (người dang tay)",
+      "icon": "seal"
+    },
+    "小": {
+      "emoji": "🤏",
+      "pinyin": "xiǎo",
+      "vi": "nhỏ",
+      "icon": "lucide:shrink"
+    },
+    "白": {
+      "emoji": "⚪",
+      "pinyin": "bái",
+      "vi": "trắng",
+      "icon": "lucide:circle",
+      "icon_note": "dùng circle stroke trắng/viền; 白 là ý niệm màu"
+    },
+    "青": {
+      "emoji": "🌿",
+      "pinyin": "qīng",
+      "vi": "xanh (màu cây cỏ)",
+      "icon": "lucide:leaf"
+    },
+    "黑": {
+      "emoji": "⚫",
+      "pinyin": "hēi",
+      "vi": "đen",
+      "icon": "seal",
+      "icon_note": "seal hoặc circle tô đen (fill)"
+    },
+    "赤": {
+      "emoji": "🔴",
+      "pinyin": "chì",
+      "vi": "đỏ",
+      "icon": "seal",
+      "icon_note": "seal hoặc circle tô đỏ (fill)"
+    },
+    "禾": {
+      "emoji": "🌾",
+      "pinyin": "hé",
+      "vi": "cây lúa",
+      "icon": "lucide:wheat"
+    },
+    "艸": {
+      "emoji": "🌱",
+      "pinyin": "cǎo",
+      "vi": "cỏ",
+      "icon": "lucide:sprout"
+    },
+    "又": {
+      "emoji": "🫱",
+      "pinyin": "yòu",
+      "vi": "bàn tay phải",
+      "icon": "lucide:grab"
+    },
+    "止": {
+      "emoji": "🛑",
+      "pinyin": "zhǐ",
+      "vi": "bàn chân / dừng",
+      "icon": "seal"
+    },
+    "戈": {
+      "emoji": "🗡️",
+      "pinyin": "gē",
+      "vi": "cây giáo",
+      "icon": "game-icons:halberd"
+    },
+    "皿": {
+      "emoji": "🥣",
+      "pinyin": "mǐn",
+      "vi": "bát đĩa",
+      "icon": "lucide:soup",
+      "icon_note": "soup = bát có khói, gần đúng 'bát đĩa'"
+    },
+    "酉": {
+      "emoji": "🍶",
+      "pinyin": "yǒu",
+      "vi": "bình rượu",
+      "icon": "lucide:wine"
+    }
+  },
+  "variants": {
+    "氵": "水",
+    "氺": "水",
+    "忄": "心",
+    "㣺": "心",
+    "扌": "手",
+    "龵": "手",
+    "灬": "火",
+    "亻": "人",
+    "𠆢": "人",
+    "刂": "刀",
+    "⺈": "刀",
+    "犭": "犬",
+    "艹": "艸",
+    "⺿": "艸",
+    "衤": "衣",
+    "礻": "示",
+    "飠": "食",
+    "饣": "食",
+    "讠": "言",
+    "訁": "言",
+    "钅": "金",
+    "釒": "金",
+    "纟": "糸",
+    "糹": "糸",
+    "⻊": "足",
+    "罒": "网",
+    "⺲": "网",
+    "⺩": "玉",
+    "牜": "牛",
+    "⺧": "牛",
+    "⺶": "羊",
+    "⺷": "羊",
+    "攵": "攴",
+    "耂": "老",
+    "⺮": "竹",
+    "辶": "辵",
+    "⻌": "辵",
+    "⻍": "辵",
+    "爫": "爪",
+    "⺤": "爪",
+    "见": "見",
+    "贝": "貝",
+    "页": "頁",
+    "门": "門",
+    "马": "馬",
+    "鸟": "鳥",
+    "鱼": "魚",
+    "车": "車",
+    "长": "長",
+    "风": "風",
+    "龙": "龍",
+    "齿": "齒",
+    "⻖": "阜",
+    "⻏": "邑"
+  },
+  "ambiguous": {
+    "阝": {
+      "note": "Ký tự U+961D dùng cho cả hai. Phân biệt theo VỊ TRÍ trong chuỗi decomposition (IDS):",
+      "left": "阜",
+      "right": "邑",
+      "rule": "Trong IDS ⿰A B: nếu 阝 là A (bên trái) -> 阜 (gò đất 🏔️); nếu là B (bên phải) -> 邑 (thành ấp 🏘️)."
+    },
+    "月": {
+      "note": "月 bên trái của chữ chỉ bộ phận cơ thể thực chất là 肉 (thịt).",
+      "default": "月",
+      "as_flesh": "肉",
+      "rule": "Nếu makemeahanzi/etymology.hint có 'flesh' hoặc chữ thuộc nhóm cơ thể (肝 gan, 腿 chân, 脸 mặt, 胖 béo...) -> map sang 肉 🥩; còn lại giữ 月 🌙. Cách đơn giản: ưu tiên trường 'semantic' trong makemeahanzi vì nó đã ghi đúng 肉 cho các chữ này."
+    },
+    "王": {
+      "note": "王 đứng bên trái chữ thường là biến thể của 玉 (ngọc): 玩, 珍, 球...",
+      "default": "王",
+      "as_jade": "玉",
+      "rule": "Nếu 王 ở vị trí trái trong IDS ⿰ -> map 玉 💎."
+    }
+  },
+  "fallback": {
+    "rule": "Thành phần không có trong 'radicals' và 'variants' -> hiển thị chính chữ thành phần trong khung tròn, kèm pinyin nếu tra được từ makemeahanzi. Không được bỏ trống.",
+    "abstract_components_no_emoji": [
+      "彳",
+      "冖",
+      "廴",
+      "尢",
+      "夂",
+      "癶",
+      "毋",
+      "无",
+      "匸",
+      "匚"
+    ]
+  }
+}

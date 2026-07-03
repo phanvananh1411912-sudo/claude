@@ -3,678 +3,769 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ghép Bộ Thủ Chữ Hán · 汉字部首组合器</title>
+<title>Hán Tự Engine · Phân tích · Ghép · Sáng tạo</title>
 <style>
+:root{
+  --sand:#f3ecdd; --sand-deep:#e4d7bd; --clay:#b46a43; --ink:#2f2a22; --ink-soft:#8a8073;
+  --card:#fffdf7; --border:#e9dfca; --primary:#cf5a2c; --primary-foreground:#fff;
+  --semantic:#2f9e6f; --semantic-soft:#e2f3ea; --phonetic:#3b7fc4; --phonetic-soft:#e6eef9;
+  --danger:#d6455d; --berry:#c94f7c; --sun:#f2b705;
+  --grad-hero:linear-gradient(120deg,#f7913d 0%,#e0567a 52%,#9a6cf0 100%);
+  --shadow-pop:0 8px 20px -6px rgba(207,90,44,.45);
+  --shadow-lift:0 22px 48px -16px rgba(60,40,20,.32);
+  --bg:#f7f1e5;
+}
+@media (prefers-color-scheme: dark){
   :root{
-    --bg:#f5f3ee; --panel:#ffffff; --ink:#2b2b2b; --muted:#8a8175;
-    --line:#e3ddd2; --accent:#b23a2e; --accent2:#c9812a; --good:#3a7d44;
-    --shadow:0 2px 10px rgba(60,45,30,.08);
-    --radius:12px;
+    --sand:#2b2620; --sand-deep:#3d3529; --clay:#d68a5c; --ink:#efe8db; --ink-soft:#a89e8c;
+    --card:#241f19; --border:#3a332a; --primary:#e06a3c; --primary-foreground:#fff;
+    --semantic:#4bbe8a; --semantic-soft:#1e3a2e; --phonetic:#5b9dd8; --phonetic-soft:#1d2c3d;
+    --danger:#e0687c; --berry:#dd6f9a; --sun:#f2c33f; --bg:#191510;
+    --shadow-lift:0 22px 48px -16px rgba(0,0,0,.55);
   }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --bg:#1b1917; --panel:#262320; --ink:#ece7df; --muted:#a49c8d;
-      --line:#3a352f; --accent:#e0685a; --accent2:#e0a651; --good:#7bc088;
-      --shadow:0 2px 12px rgba(0,0,0,.35);
-    }
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:var(--bg); color:var(--ink);
-    font-family:"Segoe UI",Roboto,-apple-system,"Noto Sans",system-ui,sans-serif;
-    line-height:1.5; -webkit-text-size-adjust:100%;
-  }
-  .cjk{font-family:"Noto Serif SC","Noto Sans SC","Songti SC","STSong","SimSun",serif;}
-  header{
-    padding:18px 20px; border-bottom:1px solid var(--line);
-    background:linear-gradient(135deg,var(--accent),var(--accent2));
-    color:#fff;
-  }
-  header h1{margin:0;font-size:22px;font-weight:700;letter-spacing:.5px}
-  header .sub{opacity:.9;font-size:13px;margin-top:2px}
-  .wrap{max-width:1180px;margin:0 auto;padding:18px 16px 60px}
-  .grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(320px,1.15fr);gap:18px}
-  @media (max-width:860px){.grid{grid-template-columns:1fr}}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-  .card .hd{padding:12px 14px;border-bottom:1px solid var(--line);font-weight:600;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  .card .hd small{color:var(--muted);font-weight:400}
-  .card .bd{padding:14px}
-  .badge{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--line);color:var(--muted)}
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:
+    radial-gradient(1100px 520px at 12% -8%, color-mix(in srgb,var(--berry) 10%, transparent), transparent),
+    radial-gradient(1000px 480px at 100% 0%, color-mix(in srgb,var(--phonetic) 10%, transparent), transparent),
+    var(--bg);
+  color:var(--ink); min-height:100vh;
+  font-family:"DM Sans","Segoe UI",Roboto,-apple-system,system-ui,sans-serif; line-height:1.5;
+}
+.font-cjk{font-family:"Noto Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei","Songti SC",serif}
+.font-display{font-family:"Space Grotesk","DM Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Space Grotesk","DM Sans",system-ui,sans-serif}
+a{color:var(--clay)}
+em{font-style:italic}
 
-  /* palette */
-  .searchrow{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
-  input[type=text]{
-    flex:1;min-width:120px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;
-    background:var(--bg);color:var(--ink);font-size:14px;outline:none;
-  }
-  input[type=text]:focus{border-color:var(--accent)}
-  .btn{
-    border:1px solid var(--line);background:var(--panel);color:var(--ink);
-    padding:9px 14px;border-radius:9px;cursor:pointer;font-size:14px;transition:.12s;
-  }
-  .btn:hover{border-color:var(--accent);color:var(--accent)}
-  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-  .btn.primary:hover{filter:brightness(1.06);color:#fff}
-  .strokegroup{margin:6px 0}
-  .strokegroup .lbl{font-size:12px;color:var(--muted);margin:8px 2px 4px;position:sticky}
-  .radgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:6px}
-  .rad{
-    aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    border:1px solid var(--line);border-radius:9px;cursor:pointer;background:var(--bg);
-    transition:.1s;user-select:none;
-  }
-  .rad:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
-  .rad .g{font-size:24px;line-height:1}
-  .rad .hv{font-size:9px;color:var(--muted);margin-top:2px}
-  .palette-scroll{max-height:520px;overflow-y:auto;padding-right:4px}
+/* layout */
+.shell{position:relative;overflow:hidden;min-height:100vh}
+.container{position:relative;max-width:1100px;margin:0 auto;padding:40px 24px 60px}
+@media(max-width:640px){.container{padding:24px 16px 48px}}
 
-  /* workspace */
-  .tray{
-    min-height:74px;border:2px dashed var(--line);border-radius:10px;padding:10px;
-    display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--bg);
-  }
-  .tray.empty::before{content:"Bấm bộ thủ bên trái hoặc gõ để thêm thành phần… / 从左侧选择或输入部件";color:var(--muted);font-size:13px}
-  .chip{
-    position:relative;display:flex;flex-direction:column;align-items:center;
-    border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:6px 10px 4px;box-shadow:var(--shadow);
-  }
-  .chip .g{font-size:30px;line-height:1}
-  .chip .hv{font-size:10px;color:var(--muted)}
-  .chip .x{position:absolute;top:-8px;right:-8px;width:20px;height:20px;border-radius:50%;
-    background:var(--accent);color:#fff;border:none;cursor:pointer;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center}
-  .chip .mv{display:flex;gap:4px;margin-top:3px}
-  .chip .mv button{border:none;background:var(--line);color:var(--ink);border-radius:5px;cursor:pointer;font-size:11px;width:18px;height:16px;padding:0}
-  .chip .mv button:hover{background:var(--accent);color:#fff}
+/* floating decorative glyphs */
+.float-layer{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.float-glyph{position:absolute;font-weight:700;user-select:none;animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-26px)}}
 
-  .oprow{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
-  .op{
-    min-width:40px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:var(--bg);
-    cursor:pointer;text-align:center;font-size:18px;transition:.1s;position:relative;
-  }
-  .op:hover{border-color:var(--accent2)}
-  .op.sel{background:var(--accent2);color:#fff;border-color:var(--accent2)}
-  .op .t{display:block;font-size:9px;margin-top:1px}
+/* header */
+header.app{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:36px}
+.brand{display:flex;align-items:center;gap:16px}
+.logo{position:relative;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;
+  font-size:30px;font-weight:700;color:#fff;background:var(--grad-hero);background-size:200% 200%;
+  box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite}
+.logo .spark{position:absolute;top:-4px;right:-4px;width:16px;height:16px;border-radius:50%;background:var(--sun);animation:glow 2s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--sun) 70%,transparent)}50%{box-shadow:0 0 0 8px transparent}}
+.brand h1{margin:0;font-size:34px;letter-spacing:-.5px;font-weight:700}
+.grad-text{background:var(--grad-hero);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gradient 6s ease infinite}
+.brand p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}
+.brand p b{color:var(--clay);font-weight:600}
+.status-tag{display:flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:var(--card);border:1px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.06)}
+.status-tag .dot{width:8px;height:8px;border-radius:50%;background:var(--semantic);animation:pulse 1.8s ease-in-out infinite}
+.status-tag span.txt{font-size:12px;font-weight:600;color:var(--ink-soft)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(max-width:560px){.status-tag{display:none}.brand h1{font-size:27px}}
 
-  .results{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
-  @media (max-width:520px){.results{grid-template-columns:1fr}}
-  .result-card{border:1px solid var(--line);border-radius:10px;padding:12px;background:var(--bg);text-align:center}
-  .result-card h3{margin:0 0 8px;font-size:13px;color:var(--muted);font-weight:600}
-  .bigchar{font-size:88px;line-height:1.05;cursor:pointer}
-  .bigchar:hover{color:var(--accent)}
-  .charinfo{font-size:13px;color:var(--muted);margin-top:4px}
-  .charinfo b{color:var(--ink)}
-  .multi{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
-  .mini{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel);min-width:88px}
-  .mini .g{font-size:46px;line-height:1;cursor:pointer}
-  .mini .g:hover{color:var(--accent)}
-  .mini .m{font-size:11px;color:var(--muted);margin-top:2px}
+/* mode nav */
+nav.modes{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.mode-btn{position:relative;border:2px solid var(--border);background:var(--card);color:var(--ink-soft);
+  padding:12px 18px;border-radius:16px;font-size:14px;font-weight:700;cursor:pointer;transition:.16s;overflow:hidden}
+.mode-btn:hover{color:var(--ink);transform:translateY(-2px);border-color:color-mix(in srgb,var(--clay) 40%,transparent)}
+.mode-btn.active{color:#fff;border-color:transparent;box-shadow:var(--shadow-pop);transform:scale(1.05)}
+.mode-btn .bar{position:absolute;inset:0;background-size:200% 200%;animation:gradient 6s ease infinite;opacity:0}
+.mode-btn.active .bar{opacity:1}
+.mode-btn .lbl{position:relative;display:flex;align-items:center;gap:8px}
+.mode-btn .hint{font-size:11px;font-weight:500;opacity:.7}
+@media(max-width:680px){.mode-btn .hint{display:none}}
 
-  /* composition box */
-  .compbox{
-    width:170px;height:170px;margin:0 auto;position:relative;border:1px dashed var(--line);
-    border-radius:8px;overflow:hidden;background:var(--panel);
-  }
-  .compcell{display:flex;align-items:center;justify-content:center;overflow:hidden}
-  .ids{margin-top:8px;font-size:14px;color:var(--ink);word-break:break-all}
-  .ids .code{font-family:monospace;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:2px 6px}
+/* panel */
+main.panel{position:relative;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(6px);
+  border:2px solid color-mix(in srgb,var(--border) 70%,transparent);border-radius:32px;
+  box-shadow:var(--shadow-lift);padding:44px;overflow:hidden;animation:popIn .4s cubic-bezier(.2,.8,.2,1)}
+@media(max-width:640px){main.panel{padding:22px}}
+.panel-bar{position:absolute;left:0;right:0;top:0;height:6px;background-size:200% 200%;animation:gradient 6s ease infinite}
+@keyframes popIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 
-  .notfound{color:var(--muted);font-size:14px;padding:20px 6px}
-  .hint{font-size:12px;color:var(--muted);margin-top:6px}
-  .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--good);color:#fff;padding:9px 16px;border-radius:20px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
-  .toast.show{opacity:1}
-  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:28px}
-  a{color:var(--accent)}
-  .clearbtn{margin-left:auto}
+footer.app{margin-top:36px;text-align:center;font-size:12px;color:var(--ink-soft)}
+footer.app code{background:var(--card);border:1px solid var(--border);padding:2px 8px;border-radius:7px;color:var(--clay);font-weight:600;margin:0 2px}
+
+/* two-column grid used by learn/analyze/assemble */
+.split{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:start}
+@media(max-width:900px){.split{grid-template-columns:1fr;gap:26px}}
+
+/* buttons */
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--grad-hero);background-size:200% 200%;
+  color:#fff;font-weight:700;padding:12px 24px;border:none;border-radius:16px;cursor:pointer;
+  box-shadow:var(--shadow-pop);animation:gradient 6s ease infinite;transition:transform .15s,box-shadow .2s}
+.btn-primary:hover{transform:translateY(-2px) scale(1.02);box-shadow:var(--shadow-lift)}
+.btn-primary:active{transform:translateY(0)}
+.btn-ghost{display:inline-flex;align-items:center;background:var(--card);color:var(--ink);border:2px solid var(--border);
+  font-weight:700;padding:10px 22px;border-radius:16px;cursor:pointer;transition:.15s}
+.btn-ghost:hover{background:var(--sand);border-color:var(--clay);transform:translateY(-1px)}
+
+/* pill */
+.pill{padding:8px 16px;border-radius:999px;font-size:14px;font-weight:500;border:1px solid var(--border);
+  background:var(--sand);color:var(--ink);cursor:pointer;transition:.14s}
+.pill:hover{border-color:var(--sand-deep);background:color-mix(in srgb,var(--sand-deep) 25%,transparent)}
+.pill.active{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary);box-shadow:0 3px 8px rgba(0,0,0,.12)}
+.pill .cjk{font-family:"Noto Sans SC",serif;margin-right:4px;font-size:16px}
+
+/* step label */
+.step{display:flex;align-items:center;gap:8px;margin:26px 0 12px}
+.step:first-child{margin-top:0}
+.step .num{width:24px;height:24px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center}
+.step h3{margin:0;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--clay)}
+
+/* tianzige 田字格 */
+.tianzige{position:relative;margin:0 auto;border-radius:20px;border:1px solid var(--border);background:var(--card);
+  box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
+.tianzige.lg{aspect-ratio:1;width:100%;max-width:400px}
+.tianzige.md{width:190px;height:190px}
+.tz-hline{position:absolute;left:16px;right:16px;top:50%;height:1px;
+  background:repeating-linear-gradient(to right,var(--sand-deep) 0 6px,transparent 6px 14px)}
+.tz-vline{position:absolute;top:16px;bottom:16px;left:50%;width:1px;
+  background:repeating-linear-gradient(to bottom,var(--sand-deep) 0 6px,transparent 6px 14px)}
+.tz-cell{position:absolute;display:flex;align-items:center;justify-content:center;padding:12px;transition:all .3s}
+.tz-cell.left{left:0;top:0;bottom:0;width:50%}
+.tz-cell.right{right:0;top:0;bottom:0;width:50%}
+.tz-cell.top{left:0;right:0;top:0;height:50%}
+.tz-cell.bottom{left:0;right:0;bottom:0;height:50%}
+.tz-glyph{font-family:"Noto Sans SC",serif;font-weight:600;line-height:1}
+.tianzige.lg .tz-glyph{font-size:clamp(3.4rem,15vw,6.2rem)}
+.tianzige.md .tz-glyph{font-size:3.4rem}
+.tz-cell.dim{opacity:.22}
+.tz-full .tz-glyph{font-size:8.5rem;color:color-mix(in srgb,var(--sand-deep) 60%,transparent)}
+.tz-badge{position:absolute;right:-12px;bottom:-12px;width:56px;height:56px;border-radius:50%;
+  background:var(--semantic);color:#fff;display:grid;place-items:center;font-size:26px;font-weight:700;
+  box-shadow:var(--shadow-lift);animation:popIn .3s}
+
+/* radical chip */
+.chip-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.radical-chip{width:96px;padding:12px;border-radius:14px;border:2px solid var(--border);background:var(--sand);
+  cursor:pointer;transition:.15s;text-align:center;display:flex;flex-direction:column;align-items:center}
+.radical-chip:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
+.radical-chip.is-selected{border-color:var(--primary);background:color-mix(in srgb,var(--primary) 12%,var(--card));transform:translateY(-3px);box-shadow:var(--shadow-pop)}
+.radical-chip.is-wrong{border-color:var(--danger);background:color-mix(in srgb,var(--danger) 12%,var(--card));animation:shake .4s}
+.radical-chip.is-correct{border-color:var(--semantic);background:var(--semantic-soft)}
+.radical-chip .emoji{font-size:26px;line-height:1}
+.radical-chip .glyph{font-family:"Noto Sans SC",serif;font-size:22px;font-weight:600;margin-top:8px}
+.radical-chip .cap{font-size:11px;color:var(--ink-soft);margin-top:4px;min-height:26px}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+
+/* part card */
+.part-card{padding:16px;border-radius:14px;background:var(--card);border:1px solid var(--border);border-left:4px solid var(--border);
+  box-shadow:0 2px 8px rgba(60,45,30,.05);transition:.2s}
+.part-card:hover{box-shadow:0 6px 16px rgba(60,45,30,.1)}
+.part-card.sem{border-left-color:var(--semantic)}
+.part-card.pho{border-left-color:var(--phonetic)}
+.part-card .row{display:flex;align-items:baseline;gap:12px}
+.part-card .big{font-family:"Noto Sans SC",serif;font-size:38px;font-weight:600}
+.part-card .big.sem{color:var(--semantic)}.part-card .big.pho{color:var(--phonetic)}
+.part-card .desc{font-size:14px;color:var(--ink-soft)}
+.part-card .desc b{color:var(--ink)}
+.part-card .desc .em{font-size:18px;margin-right:4px}
+.tags{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:999px}
+.tag.sem{background:var(--semantic-soft);color:var(--semantic)}
+.tag.pho{background:var(--phonetic-soft);color:var(--phonetic)}
+.tag.neutral{background:var(--sand);color:var(--ink-soft);border:1px solid var(--border)}
+.memory{margin-top:22px;padding:20px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic)}
+.memory .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:8px}
+.memory p{margin:0;font-size:15px;line-height:1.6}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink-soft);font-weight:500;margin:8px 0 16px;flex-wrap:wrap}
+.legend i{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:6px;vertical-align:middle}
+
+/* puzzle */
+.puzzle-board{aspect-ratio:1;width:100%;max-width:400px;margin:0 auto;position:relative;border-radius:20px;border:1px solid var(--border);background:var(--card);box-shadow:inset 0 2px 12px rgba(60,45,30,.08)}
+.puzzle-slot{position:absolute;border:2px dashed var(--border);border-radius:12px;display:grid;place-items:center;transition:.18s;background:color-mix(in srgb,var(--sand) 40%,transparent)}
+.puzzle-slot.is-over{border-color:var(--semantic);background:var(--semantic-soft);transform:scale(1.03)}
+.puzzle-slot.is-locked{border-style:solid;border-color:var(--border);background:var(--card)}
+.puzzle-slot.is-shake{animation:shake .45s;border-color:var(--danger)}
+.puzzle-slot .slot-hint{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:color-mix(in srgb,var(--ink-soft) 75%,transparent);text-align:center;padding:0 8px}
+.puzzle-slot .tz-glyph{font-size:clamp(3rem,13vw,5.4rem)}
+.tray{display:flex;flex-wrap:wrap;gap:12px}
+.puzzle-piece{width:80px;padding:12px;border-radius:16px;border:2px solid var(--border);background:var(--card);
+  box-shadow:0 2px 8px rgba(60,45,30,.06);text-align:center;cursor:grab;transition:.15s}
+.puzzle-piece:hover{transform:translateY(-2px);box-shadow:var(--shadow-pop)}
+.puzzle-piece.is-selected{border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 30%,transparent)}
+.puzzle-piece.is-used{opacity:.3;pointer-events:none;cursor:default}
+.puzzle-piece .em{font-size:20px;line-height:1}
+.puzzle-piece .g{font-family:"Noto Sans SC",serif;font-size:30px;font-weight:600;margin-top:4px}
+.puzzle-piece .c{font-size:10px;color:var(--ink-soft);margin-top:4px;font-family:"Noto Sans SC",serif}
+
+/* create results */
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:640px){.result-grid{grid-template-columns:repeat(2,1fr)}}
+.result-card{padding:16px;border-radius:14px;background:var(--card);border:1px solid var(--border);box-shadow:0 2px 8px rgba(60,45,30,.05)}
+.result-card .rc-glyph{font-family:"Noto Sans SC",serif;font-size:46px;text-align:center;font-weight:600}
+.result-card .rc-py{text-align:center;font-size:14px;font-weight:700;color:var(--primary);margin-top:2px}
+.result-card .rc-mean{text-align:center;font-size:12px;color:var(--ink-soft)}
+.result-card .rc-parts{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);text-align:center;font-size:12px;color:var(--ink-soft)}
+.result-card .rc-parts .g{font-family:"Noto Sans SC",serif;font-size:16px}
+.result-card .rc-parts .g.sem{color:var(--semantic)}.result-card .rc-parts .g.pho{color:var(--phonetic)}
+
+.center{text-align:center}
+.muted{color:var(--ink-soft)}
+.pop-in{animation:popIn .35s}
+.util-row{margin-top:24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.quiz-glyph{margin:24px auto 0;width:190px;height:190px;border-radius:20px;background:var(--card);border:1px solid var(--border);
+  display:grid;place-items:center;font-family:"Noto Sans SC",serif;font-size:88px;font-weight:600;box-shadow:0 2px 8px rgba(60,45,30,.06)}
+.done-box{margin-top:20px;padding:20px;border-radius:14px;background:var(--semantic-soft);border-left:4px solid var(--semantic);animation:popIn .35s}
+.done-box .k{font-size:11px;text-transform:uppercase;letter-spacing:.18em;font-weight:700;color:var(--semantic);margin-bottom:6px}
 </style>
 </head>
 <body>
-<header>
-  <h1>汉字部首组合器 · Ghép Bộ Thủ Chữ Hán</h1>
-  <div class="sub">Chọn/gõ các bộ thủ → tra ra chữ Hán có thật, hoặc ghép hình minh hoạ · 选择部首组合成汉字</div>
-</header>
+<div class="shell">
+  <div class="float-layer" aria-hidden="true">
+    <div class="float-glyph font-cjk" style="top:96px;left:-16px;font-size:9rem;color:color-mix(in srgb,var(--berry) 9%,transparent)">字</div>
+    <div class="float-glyph font-cjk" style="top:48%;right:-32px;font-size:11rem;color:color-mix(in srgb,var(--phonetic) 9%,transparent);animation-delay:1.5s">心</div>
+    <div class="float-glyph font-cjk" style="bottom:40px;left:24%;font-size:7rem;color:color-mix(in srgb,var(--semantic) 9%,transparent);animation-delay:3s">水</div>
+  </div>
 
-<div class="wrap">
-<div class="grid">
-
-  <!-- LEFT: palette -->
-  <section class="card">
-    <div class="hd">
-      🀄 Bảng bộ thủ <small>214 bộ Khang Hy · 康熙部首</small>
-    </div>
-    <div class="bd">
-      <div class="searchrow">
-        <input type="text" id="search" placeholder="Tìm: 木, mù, mộc, cây…" autocomplete="off">
-        <button class="btn" id="clearSearch">Xoá</button>
-      </div>
-      <div class="palette-scroll" id="palette"></div>
-    </div>
-  </section>
-
-  <!-- RIGHT: workspace -->
-  <section class="card">
-    <div class="hd">
-      🧩 Khu ghép chữ <small>组字工作区</small>
-      <button class="btn clearbtn" id="clearTray">Xoá hết</button>
-    </div>
-    <div class="bd">
-      <div class="tray empty" id="tray"></div>
-
-      <div class="searchrow" style="margin-top:10px">
-        <input type="text" id="customInput" placeholder="Gõ thành phần bất kỳ rồi Enter (vd: 青, 每, 可)" autocomplete="off">
-        <button class="btn" id="addCustom">Thêm</button>
-      </div>
-
-      <div style="font-size:12px;color:var(--muted);margin-top:12px">Cấu trúc ghép · 结构 (IDS):</div>
-      <div class="oprow" id="oprow"></div>
-
-      <div class="results">
-        <div class="result-card">
-          <h3>🔎 Chữ có thật · 真实汉字</h3>
-          <div id="lookupResult"><div class="notfound">Chưa đủ thành phần</div></div>
-        </div>
-        <div class="result-card">
-          <h3>🖌️ Ghép hình minh hoạ · 组合示意</h3>
-          <div class="compbox" id="compbox"></div>
-          <div class="ids" id="idsOut"></div>
+  <div class="container">
+    <header class="app">
+      <div class="brand">
+        <div class="logo font-cjk">字<span class="spark"></span></div>
+        <div>
+          <h1>Hán Tự <span class="grad-text">Engine</span></h1>
+          <p>Phân tích · Ghép · Sáng tạo — mô hình <b>component · variant · structure</b></p>
         </div>
       </div>
-      <div class="hint">Mẹo: bấm vào chữ lớn để sao chép. Ghép hình chỉ là minh hoạ bố cục, không phải chữ chính thức trong Unicode.</div>
-    </div>
-  </section>
+      <div class="status-tag">
+        <span class="dot"></span><span class="txt">5 chế độ · học tương tác</span>
+      </div>
+    </header>
 
+    <nav class="modes" id="modeNav"></nav>
+
+    <main class="panel">
+      <div class="panel-bar" id="panelBar"></div>
+      <div id="panel"></div>
+    </main>
+
+    <footer class="app">
+      Schema:
+      <code>character</code>·<code>component</code>·<code>variant</code>·<code>structure</code>
+      &nbsp;—&nbsp; port từ thiết kế “Hán Tự Engine”, chạy ngoại tuyến.
+    </footer>
+  </div>
 </div>
-
-<footer>
-  Dữ liệu: 214 bộ thủ Khang Hy + CSDL chữ ghép thông dụng. Chạy hoàn toàn ngoại tuyến, không cần internet.<br>
-  部首组字工具 · Made with ❤ for người học tiếng Trung.
-</footer>
-</div>
-
-<div class="toast" id="toast"></div>
 
 <script>
 /* ============================================================
-   DỮ LIỆU / DATA
+   FEEDBACK: âm thanh + rung
    ============================================================ */
+let _ac=null;
+function beep(freq=880,dur=90,type="sine",gain=0.06){
+  try{
+    _ac=_ac||new (window.AudioContext||window.webkitAudioContext)();
+    const ctx=_ac,o=ctx.createOscillator(),g=ctx.createGain();
+    o.type=type;o.frequency.value=freq;
+    g.gain.setValueAtTime(gain,ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+dur/1000);
+    o.connect(g).connect(ctx.destination);o.start();o.stop(ctx.currentTime+dur/1000);
+  }catch(e){}
+}
+function buzz(p=25){try{navigator.vibrate&&navigator.vibrate(p);}catch(e){}}
 
-/* 214 bộ thủ Khang Hy: [char, variants, pinyin, hanviet, nghĩa VN]
-   Số nét được tính theo thứ tự chuẩn (xem strokeOf).            */
-const RADICALS = [
-["一","","yī","nhất","một"],["丨","","gǔn","cổn","nét sổ"],["丶","","zhǔ","chủ","nét chấm"],
-["丿","","piě","phiệt","nét phẩy"],["乙","乚","yǐ","ất","can Ất"],["亅","","jué","quyết","nét móc"],
-["二","","èr","nhị","hai"],["亠","","tóu","đầu","phần đầu/nắp"],["人","亻","rén","nhân","người"],
-["儿","","ér","nhân","chân người"],["入","","rù","nhập","vào"],["八","丷","bā","bát","tám"],
-["冂","","jiōng","quynh","vùng biên"],["冖","","mì","mịch","trùm khăn"],["冫","","bīng","băng","nước đá"],
-["几","","jī","kỷ","bàn nhỏ"],["凵","","kǎn","khảm","há miệng"],["刀","刂","dāo","đao","dao"],
-["力","","lì","lực","sức lực"],["勹","","bāo","bao","bao bọc"],["匕","","bǐ","chủy","cái thìa"],
-["匚","","fāng","phương","cái hộp"],["匸","","xì","hệ","che giấu"],["十","","shí","thập","mười"],
-["卜","","bǔ","bốc","bói toán"],["卩","㔾","jié","tiết","dấu ấn"],["厂","","hàn","hán","sườn núi"],
-["厶","","sī","khư","riêng tư"],["又","","yòu","hựu","lại/tay phải"],
-["口","","kǒu","khẩu","miệng"],["囗","","wéi","vi","vây quanh"],["土","","tǔ","thổ","đất"],
-["士","","shì","sĩ","kẻ sĩ"],["夂","","zhǐ","truy","đến sau"],["夊","","suī","tuy","đi chậm"],
-["夕","","xī","tịch","buổi tối"],["大","","dà","đại","to lớn"],["女","","nǚ","nữ","con gái"],
-["子","","zǐ","tử","con"],["宀","","mián","miên","mái nhà"],["寸","","cùn","thốn","tấc"],
-["小","","xiǎo","tiểu","nhỏ"],["尢","尣","wāng","uông","yếu/què"],["尸","","shī","thi","xác/thây"],
-["屮","","chè","triệt","mầm cây"],["山","","shān","sơn","núi"],["巛","川","chuān","xuyên","sông"],
-["工","","gōng","công","công việc"],["己","","jǐ","kỷ","bản thân"],["巾","","jīn","cân","khăn"],
-["干","","gān","can","cái khiên"],["幺","","yāo","yêu","nhỏ bé"],["广","","guǎng","nghiễm","mái hiên"],
-["廴","","yǐn","dẫn","bước dài"],["廾","","gǒng","củng","chắp tay"],["弋","","yì","dặc","cây cọc"],
-["弓","","gōng","cung","cây cung"],["彐","彑","jì","kệ","mõm lợn"],["彡","","shān","sam","lông/vẽ"],
-["彳","","chì","xích","bước chân"],
-["心","忄","xīn","tâm","tim/lòng"],["戈","","gē","qua","giáo mác"],["戶","户","hù","hộ","cửa"],
-["手","扌","shǒu","thủ","tay"],["支","","zhī","chi","cành/chống"],["攴","攵","pū","phộc","đánh khẽ"],
-["文","","wén","văn","chữ/văn"],["斗","","dǒu","đẩu","cái đấu"],["斤","","jīn","cân","cái rìu"],
-["方","","fāng","phương","vuông"],["无","旡","wú","vô","không"],["日","","rì","nhật","mặt trời"],
-["曰","","yuē","viết","nói rằng"],["月","","yuè","nguyệt","mặt trăng"],["木","","mù","mộc","cây/gỗ"],
-["欠","","qiàn","khiếm","thiếu/ngáp"],["止","","zhǐ","chỉ","dừng"],["歹","歺","dǎi","đãi","xương tàn"],
-["殳","","shū","thù","binh khí"],["毋","","wú","vô","chớ/đừng"],["比","","bǐ","tỷ","so sánh"],
-["毛","","máo","mao","lông"],["氏","","shì","thị","họ"],["气","","qì","khí","hơi"],
-["水","氵氺","shuǐ","thủy","nước"],["火","灬","huǒ","hỏa","lửa"],["爪","爫","zhǎo","trảo","móng vuốt"],
-["父","","fù","phụ","cha"],["爻","","yáo","hào","hào quẻ"],["爿","丬","qiáng","tường","cái giường"],
-["片","","piàn","phiến","mảnh/tấm"],["牙","","yá","nha","răng"],["牛","牜","niú","ngưu","trâu bò"],
-["犬","犭","quǎn","khuyển","chó"],
-["玄","","xuán","huyền","huyền diệu"],["玉","王","yù","ngọc","ngọc"],["瓜","","guā","qua","quả dưa"],
-["瓦","","wǎ","ngõa","ngói"],["甘","","gān","cam","ngọt"],["生","","shēng","sinh","sống"],
-["用","","yòng","dụng","dùng"],["田","","tián","điền","ruộng"],["疋","","pǐ","thất","tấm vải"],
-["疒","","nè","nạch","bệnh tật"],["癶","","bō","bát","hai chân dạng"],["白","","bái","bạch","trắng"],
-["皮","","pí","bì","da"],["皿","","mǐn","mãnh","bát đĩa"],["目","","mù","mục","mắt"],
-["矛","","máo","mâu","cây mâu"],["矢","","shǐ","thỉ","mũi tên"],["石","","shí","thạch","đá"],
-["示","礻","shì","thị","thần/chỉ"],["禸","","róu","nhựu","dấu chân"],["禾","","hé","hòa","lúa"],
-["穴","","xué","huyệt","hang"],["立","","lì","lập","đứng"],
-["竹","","zhú","trúc","tre trúc"],["米","","mǐ","mễ","gạo"],["糸","糹纟","mì","mịch","tơ sợi"],
-["缶","","fǒu","phữu","vò sành"],["网","罒罓","wǎng","võng","lưới"],["羊","","yáng","dương","dê"],
-["羽","","yǔ","vũ","lông vũ"],["老","耂","lǎo","lão","già"],["而","","ér","nhi","mà/râu"],
-["耒","","lěi","lỗi","cái cày"],["耳","","ěr","nhĩ","tai"],["聿","","yù","duật","cây bút"],
-["肉","⺼","ròu","nhục","thịt"],["臣","","chén","thần","bề tôi"],["自","","zì","tự","mũi/tự"],
-["至","","zhì","chí","đến"],["臼","","jiù","cữu","cái cối"],["舌","","shé","thiệt","lưỡi"],
-["舛","","chuǎn","suyễn","ngang trái"],["舟","","zhōu","chu","thuyền"],["艮","","gèn","cấn","dừng/quẻ Cấn"],
-["色","","sè","sắc","màu sắc"],["艸","艹","cǎo","thảo","cỏ"],["虍","","hū","hô","vằn hổ"],
-["虫","","chóng","trùng","sâu bọ"],["血","","xuè","huyết","máu"],["行","","xíng","hành","đi/hàng"],
-["衣","衤","yī","y","áo"],["襾","西覀","yà","á","che đậy"],
-["見","见","jiàn","kiến","thấy"],["角","","jiǎo","giác","sừng/góc"],["言","訁讠","yán","ngôn","lời nói"],
-["谷","","gǔ","cốc","thung lũng"],["豆","","dòu","đậu","hạt đậu"],["豕","","shǐ","thỉ","con lợn"],
-["豸","","zhì","trãi","thú không chân"],["貝","贝","bèi","bối","vỏ sò/tiền"],["赤","","chì","xích","đỏ"],
-["走","","zǒu","tẩu","chạy"],["足","⻊","zú","túc","chân"],["身","","shēn","thân","thân mình"],
-["車","车","chē","xa","xe"],["辛","","xīn","tân","cay/can Tân"],["辰","","chén","thần","chi Thìn"],
-["辵","辶","chuò","sước","bước đi"],["邑","阝","yì","ấp","làng/ấp"],["酉","","yǒu","dậu","rượu/chi Dậu"],
-["釆","","biàn","biện","phân biệt"],["里","","lǐ","lý","dặm/làng"],
-["金","釒钅","jīn","kim","vàng/kim loại"],["長","长","cháng","trường","dài"],["門","门","mén","môn","cửa"],
-["阜","阝","fù","phụ","gò đất"],["隶","","lì","lệ","nô lệ"],["隹","","zhuī","chuy","chim đuôi ngắn"],
-["雨","","yǔ","vũ","mưa"],["青","靑","qīng","thanh","xanh"],["非","","fēi","phi","không/sai"],
-["面","靣","miàn","diện","mặt"],["革","","gé","cách","da thuộc"],["韋","韦","wéi","vi","da mềm"],
-["韭","","jiǔ","cửu","rau hẹ"],["音","","yīn","âm","âm thanh"],["頁","页","yè","hiệt","trang/đầu"],
-["風","风","fēng","phong","gió"],["飛","飞","fēi","phi","bay"],["食","飠饣","shí","thực","ăn"],
-["首","","shǒu","thủ","đầu"],["香","","xiāng","hương","thơm"],
-["馬","马","mǎ","mã","ngựa"],["骨","","gǔ","cốt","xương"],["高","","gāo","cao","cao"],
-["髟","","biāo","tiêu","tóc dài"],["鬥","","dòu","đấu","đánh nhau"],["鬯","","chàng","sưởng","rượu nếp"],
-["鬲","","lì","cách","cái đỉnh"],["鬼","","guǐ","quỷ","ma quỷ"],
-["魚","鱼","yú","ngư","cá"],["鳥","鸟","niǎo","điểu","chim"],["鹵","卤","lǔ","lỗ","đất mặn"],
-["鹿","","lù","lộc","hươu"],["麥","麦","mài","mạch","lúa mạch"],["麻","","má","ma","cây gai"],
-["黃","黄","huáng","hoàng","vàng"],["黍","","shǔ","thử","lúa nếp"],["黑","黒","hēi","hắc","đen"],
-["黹","","zhǐ","chỉ","may vá"],
-["黽","","mǐn","mãnh","con ếch"],["鼎","","dǐng","đỉnh","cái đỉnh"],["鼓","","gǔ","cổ","cái trống"],
-["鼠","","shǔ","thử","con chuột"],
-["鼻","","bí","tị","mũi"],["齊","齐","qí","tề","đều/ngay"],
-["齒","齿","chǐ","xỉ","răng"],
-["龍","龙","lóng","long","rồng"],["龜","龟","guī","quy","con rùa"],
-["龠","","yuè","dược","ống sáo"]
+/* ============================================================
+   DỮ LIỆU: component · variant · character  (dựng lại theo schema gốc)
+   ============================================================ */
+const COMPONENT={
+  heart:{canonical:"心",emoji:"❤️",meaning:"trái tim, cảm xúc (bộ Tâm)"},
+  water:{canonical:"水",emoji:"💧",meaning:"nước (bộ Thủy)"},
+  hand:{canonical:"手",emoji:"✋",meaning:"bàn tay (bộ Thủ)"},
+  sun:{canonical:"日",emoji:"☀️",meaning:"mặt trời, ngày (bộ Nhật)"},
+  moon:{canonical:"月",emoji:"🌙",meaning:"mặt trăng, tháng (bộ Nguyệt)"},
+  tree:{canonical:"木",emoji:"🌳",meaning:"cây, gỗ (bộ Mộc)"},
+  woman:{canonical:"女",emoji:"👩",meaning:"nữ, con gái (bộ Nữ)"},
+  qing:{canonical:"青",emoji:"🟢",meaning:"xanh — thường gợi ÂM (thanh)"},
+  ke:{canonical:"可",emoji:"🗯️",meaning:"có thể — gợi ÂM (khả)"},
+  gong:{canonical:"工",emoji:"🛠️",meaning:"công việc — gợi ÂM (công)"},
+  bai:{canonical:"白",emoji:"⚪",meaning:"trắng — gợi ÂM (bạch)"},
+  guai:{canonical:"夬",emoji:"➰",meaning:"quải — gợi ÂM"},
+  ma:{canonical:"马",emoji:"🐴",meaning:"ngựa — gợi ÂM (mã)"},
+  yang:{canonical:"羊",emoji:"🐑",meaning:"dê — gợi ÂM (dương)"},
+  wang:{canonical:"亡",emoji:"🚷",meaning:"mất — gợi ÂM (vong)"},
+  ding:{canonical:"丁",emoji:"📌",meaning:"đinh — gợi ÂM (đinh)"},
+};
+const COMP_COLOR={
+  heart:"#d6455d",water:"#2f8fce",hand:"#c9812a",sun:"#e0a020",moon:"#7a6cc4",
+  tree:"#3a9d5d",woman:"#cf5ea8",qing:"#2aa889",ke:"#b06a3a",gong:"#6b8e9e",
+  bai:"#9a8f7a",guai:"#a06cc4",ma:"#b5642f",yang:"#7c9a3e",wang:"#8a8073",ding:"#8a8073",
+};
+const VARIANT=[
+  {id:"heart_l",glyph:"忄",comp:"heart",pos:"left",canonical:false},
+  {id:"heart_b",glyph:"心",comp:"heart",pos:"bottom",canonical:true},
+  {id:"water_l",glyph:"氵",comp:"water",pos:"left",canonical:false},
+  {id:"hand_l",glyph:"扌",comp:"hand",pos:"left",canonical:false},
+  {id:"sun_l",glyph:"日",comp:"sun",pos:"left",canonical:true},
+  {id:"moon_r",glyph:"月",comp:"moon",pos:"right",canonical:true},
+  {id:"tree_l",glyph:"木",comp:"tree",pos:"left",canonical:true},
+  {id:"tree_r",glyph:"木",comp:"tree",pos:"right",canonical:true},
+  {id:"woman_l",glyph:"女",comp:"woman",pos:"left",canonical:true},
+  {id:"qing_r",glyph:"青",comp:"qing",pos:"right",canonical:true},
+  {id:"ke_r",glyph:"可",comp:"ke",pos:"right",canonical:true},
+  {id:"gong_r",glyph:"工",comp:"gong",pos:"right",canonical:true},
+  {id:"bai_r",glyph:"白",comp:"bai",pos:"right",canonical:true},
+  {id:"guai_r",glyph:"夬",comp:"guai",pos:"right",canonical:true},
+  {id:"ma_r",glyph:"马",comp:"ma",pos:"right",canonical:true},
+  {id:"yang_r",glyph:"羊",comp:"yang",pos:"right",canonical:true},
+  {id:"wang_t",glyph:"亡",comp:"wang",pos:"top",canonical:true},
+  {id:"ding_r",glyph:"丁",comp:"ding",pos:"right",canonical:true},
+];
+const variantById={}; VARIANT.forEach(v=>variantById[v.id]=v);
+
+const CHARACTER=[
+  {glyph:"情",pinyin:"qíng",meaning:"tình cảm",type:"hình thanh",
+   parts:[{comp:"heart",variant:"heart_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],
+   memory:"Trái <b>tim</b> 忄 rung động trước sắc <b>xanh</b> 青 → <b>情</b> tình cảm."},
+  {glyph:"清",pinyin:"qīng",meaning:"trong, sạch",type:"hình thanh",
+   parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Nước</b> 氵 ánh <b>xanh</b> 青 trong veo → <b>清</b> trong sạch."},
+  {glyph:"快",pinyin:"kuài",meaning:"nhanh; vui",type:"hình thanh",
+   parts:[{comp:"heart",variant:"heart_l",role:"semantic",pos:"left"},{comp:"guai",variant:"guai_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Tim</b> 忄 rộn ràng 夬 → <b>快</b> nhanh, vui."},
+  {glyph:"晴",pinyin:"qíng",meaning:"trời nắng",type:"hình thanh",
+   parts:[{comp:"sun",variant:"sun_l",role:"semantic",pos:"left"},{comp:"qing",variant:"qing_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Mặt trời</b> 日 giữa trời <b>xanh</b> 青 → <b>晴</b> nắng đẹp."},
+  {glyph:"河",pinyin:"hé",meaning:"sông",type:"hình thanh",
+   parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"ke",variant:"ke_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Nước</b> 氵 chảy 可 → <b>河</b> dòng sông."},
+  {glyph:"江",pinyin:"jiāng",meaning:"sông lớn",type:"hình thanh",
+   parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"gong",variant:"gong_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Nước</b> 氵 mênh mông 工 → <b>江</b> sông lớn."},
+  {glyph:"洋",pinyin:"yáng",meaning:"đại dương",type:"hình thanh",
+   parts:[{comp:"water",variant:"water_l",role:"semantic",pos:"left"},{comp:"yang",variant:"yang_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Nước</b> 氵 bao la 羊 → <b>洋</b> đại dương."},
+  {glyph:"拍",pinyin:"pāi",meaning:"vỗ, đập",type:"hình thanh",
+   parts:[{comp:"hand",variant:"hand_l",role:"semantic",pos:"left"},{comp:"bai",variant:"bai_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Tay</b> 扌 vỗ 白 → <b>拍</b> vỗ tay."},
+  {glyph:"打",pinyin:"dǎ",meaning:"đánh",type:"hình thanh",
+   parts:[{comp:"hand",variant:"hand_l",role:"semantic",pos:"left"},{comp:"ding",variant:"ding_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Tay</b> 扌 vung 丁 → <b>打</b> đánh."},
+  {glyph:"妈",pinyin:"mā",meaning:"mẹ",type:"hình thanh",
+   parts:[{comp:"woman",variant:"woman_l",role:"semantic",pos:"left"},{comp:"ma",variant:"ma_r",role:"phonetic",pos:"right"}],
+   memory:"<b>Người nữ</b> 女 thân thương 马 → <b>妈</b> mẹ."},
+  {glyph:"忘",pinyin:"wàng",meaning:"quên",type:"hội ý + thanh",
+   parts:[{comp:"wang",variant:"wang_t",role:"phonetic",pos:"top"},{comp:"heart",variant:"heart_b",role:"semantic",pos:"bottom"}],
+   memory:"<b>Mất</b> 亡 khỏi <b>trái tim</b> 心 → <b>忘</b> quên."},
+  {glyph:"明",pinyin:"míng",meaning:"sáng",type:"hội ý",
+   parts:[{comp:"sun",variant:"sun_l",role:"semantic",pos:"left"},{comp:"moon",variant:"moon_r",role:"semantic",pos:"right"}],
+   memory:"<b>Mặt trời</b> 日 và <b>mặt trăng</b> 月 → <b>明</b> sáng."},
+  {glyph:"林",pinyin:"lín",meaning:"rừng",type:"hội ý",
+   parts:[{comp:"tree",variant:"tree_l",role:"semantic",pos:"left"},{comp:"tree",variant:"tree_r",role:"semantic",pos:"right"}],
+   memory:"Hai <b>cây</b> 木 木 → <b>林</b> rừng."},
 ];
 
-/* Số nét mỗi bộ theo thứ tự Khang Hy (biên 1..214) */
-function strokeOf(i){ // i = 0-based index
-  const n=i+1;
-  if(n<=6)return 1; if(n<=29)return 2; if(n<=60)return 3; if(n<=94)return 4;
-  if(n<=115)return 5; if(n<=146)return 6; if(n<=166)return 7; if(n<=175)return 8;
-  if(n<=186)return 9; if(n<=194)return 10; if(n<=200)return 11; if(n<=204)return 12;
-  if(n<=208)return 13; if(n<=210)return 14; if(n<=211)return 15; if(n<=213)return 16; return 17;
+const POS_LABEL={left:"bên trái",right:"bên phải",top:"phía trên",bottom:"phía dưới"};
+const ROLE_LABEL={semantic:"tạo NGHĨA",phonetic:"tạo ÂM"};
+
+/* bản đồ glyph → component id (gồm cả biến thể + biến thể mở rộng) */
+const NORMALIZE={"心":"heart","忄":"heart","⺗":"heart","水":"water","氵":"water","氺":"water",
+  "手":"hand","扌":"hand","日":"sun","月":"moon","木":"tree","女":"woman","青":"qing","可":"ke",
+  "工":"gong","白":"bai","夬":"guai","马":"ma","羊":"yang","亡":"wang","丁":"ding"};
+function normalize(g){return NORMALIZE[g]||null;}
+function findChar(g){return CHARACTER.find(c=>c.glyph===g)||null;}
+function searchByComponents(ids){
+  return CHARACTER.filter(c=>ids.every(id=>c.parts.some(p=>p.comp===id)));
+}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+/* ============================================================
+   THÀNH PHẦN DÙNG CHUNG (trả về HTML)
+   ============================================================ */
+function Tianzige(parts,size,dimComp){
+  size=size||"lg";
+  const cls="tianzige "+size;
+  let cells="";
+  if(parts.length){
+    cells=parts.map(p=>{
+      const color=p.comp?COMP_COLOR[p.comp]:(p.role==="semantic"?"var(--semantic)":"var(--phonetic)");
+      const dim=(dimComp&&p.comp&&p.comp!==dimComp)?"dim":"";
+      return `<div class="tz-cell ${p.pos} ${dim}"><span class="tz-glyph" style="color:${color}">${esc(p.glyph)}</span></div>`;
+    }).join("");
+  }else{
+    cells=`<div class="tz-cell tz-full" style="inset:0;width:100%;height:100%"><span class="tz-glyph">字</span></div>`;
+  }
+  return `<div class="${cls}"><div class="tz-hline"></div><div class="tz-vline"></div>${cells}</div>`;
+}
+function PartCard(part,idx){
+  const v=variantById[part.variant],c=COMPONENT[part.comp];
+  const isSem=part.role==="semantic";
+  const rc=isSem?"sem":"pho";
+  return `<div class="part-card ${rc}" data-part="${idx}">
+    <div class="row">
+      <div class="big ${rc} font-cjk">${esc(v.glyph)}</div>
+      <div class="desc">
+        <span class="em">${c.emoji}</span>Biến thể <b class="font-cjk">${esc(v.glyph)}</b> ← gốc <b class="font-cjk">${esc(c.canonical)}</b>
+        <div style="font-size:12px">${esc(c.meaning)}</div>
+      </div>
+    </div>
+    <div class="tags">
+      <span class="tag ${rc}">${ROLE_LABEL[part.role]}</span>
+      <span class="tag neutral">${POS_LABEL[part.pos]}</span>
+      ${!v.canonical?`<span class="tag neutral">biến thể</span>`:""}
+    </div>
+  </div>`;
 }
 
-/* CSDL chữ ghép: [chữ, "các thành phần", pinyin, HánViệt, nghĩa, toán tử] */
-const COMBOS = [
-["好","女子","hǎo","hảo","tốt / thích","⿰"],
-["林","木木","lín","lâm","rừng","⿰"],
-["森","木木木","sēn","sâm","rừng rậm","⿱"],
-["炎","火火","yán","viêm","nóng / viêm","⿱"],
-["明","日月","míng","minh","sáng","⿰"],
-["休","人木","xiū","hưu","nghỉ ngơi","⿰"],
-["男","田力","nán","nam","đàn ông","⿱"],
-["信","人言","xìn","tín","tin tưởng","⿰"],
-["品","口口口","pǐn","phẩm","phẩm chất","⿱"],
-["尖","小大","jiān","tiêm","nhọn","⿱"],
-["岩","山石","yán","nham","đá núi","⿱"],
-["从","人人","cóng","tòng","đi theo","⿰"],
-["众","人人人","zhòng","chúng","đông người","⿱"],
-["李","木子","lǐ","lý","cây mận","⿱"],
-["星","日生","xīng","tinh","ngôi sao","⿱"],
-["音","立日","yīn","âm","âm thanh","⿱"],
-["相","木目","xiāng","tương","xem / lẫn nhau","⿰"],
-["想","相心","xiǎng","tưởng","suy nghĩ","⿱"],
-["思","田心","sī","tư","suy nghĩ","⿱"],
-["泉","白水","quán","tuyền","suối","⿱"],
-["双","又又","shuāng","song","đôi / cặp","⿰"],
-["字","宀子","zì","tự","chữ","⿱"],
-["安","宀女","ān","an","bình an","⿱"],
-["家","宀豕","jiā","gia","nhà","⿱"],
-["宝","宀玉","bǎo","bảo","báu vật","⿱"],
-["兄","口儿","xiōng","huynh","anh trai","⿱"],
-["界","田介","jiè","giới","ranh giới","⿱"],
-["和","禾口","hé","hòa","hoà / và","⿰"],
-["季","禾子","jì","quý","mùa","⿱"],
-["秋","禾火","qiū","thu","mùa thu","⿰"],
-["姓","女生","xìng","tính","họ","⿰"],
-["她","女也","tā","tha","cô ấy","⿰"],
-["妈","女马","mā","ma","mẹ","⿰"],
-["妹","女未","mèi","muội","em gái","⿰"],
-["姐","女且","jiě","tỷ","chị gái","⿰"],
-["奶","女乃","nǎi","nãi","sữa / bà","⿰"],
-["你","人尔","nǐ","nễ","bạn","⿰"],
-["他","人也","tā","tha","anh ấy","⿰"],
-["住","人主","zhù","trú","ở / sống","⿰"],
-["作","人乍","zuò","tác","làm","⿰"],
-["河","水可","hé","hà","sông","⿰"],
-["江","水工","jiāng","giang","sông","⿰"],
-["海","水每","hǎi","hải","biển","⿰"],
-["清","水青","qīng","thanh","trong","⿰"],
-["洋","水羊","yáng","dương","đại dương","⿰"],
-["沐","水木","mù","mộc","tắm gội","⿰"],
-["灯","火丁","dēng","đăng","đèn","⿰"],
-["炒","火少","chǎo","sao","xào","⿰"],
-["打","手丁","dǎ","đả","đánh","⿰"],
-["把","手巴","bǎ","bả","cầm / nắm","⿰"],
-["找","手戈","zhǎo","trảo","tìm","⿰"],
-["眼","目艮","yǎn","nhãn","mắt","⿰"],
-["睛","目青","jīng","tinh","con ngươi","⿰"],
-["睡","目垂","shuì","thụy","ngủ","⿰"],
-["看","手目","kàn","khán","xem / nhìn","⿱"],
-["呆","口木","dāi","ngai","ngốc nghếch","⿱"],
-["古","十口","gǔ","cổ","xưa cũ","⿱"],
-["含","今口","hán","hàm","ngậm","⿱"],
-["吃","口乞","chī","ngật","ăn","⿰"],
-["吗","口马","ma","ma","(trợ từ hỏi)","⿰"],
-["问","门口","wèn","vấn","hỏi","⿵"],
-["间","门日","jiān","gian","gian / khoảng","⿵"],
-["闪","门人","shǎn","thiểm","chớp / loé","⿵"],
-["时","日寺","shí","thời","thời gian","⿰"],
-["晴","日青","qíng","tình","trời nắng","⿰"],
-["晚","日免","wǎn","vãn","muộn / tối","⿰"],
-["请","言青","qǐng","thỉnh","mời","⿰"],
-["话","言舌","huà","thoại","lời nói","⿰"],
-["说","言兑","shuō","thuyết","nói","⿰"],
-["谢","言射","xiè","tạ","cảm ơn","⿰"],
-["红","糸工","hóng","hồng","đỏ","⿰"],
-["绿","糸录","lǜ","lục","xanh lá","⿰"],
-["花","艸化","huā","hoa","hoa","⿱"],
-["草","艸早","cǎo","thảo","cỏ","⿱"],
-["雷","雨田","léi","lôi","sấm","⿱"],
-["需","雨而","xū","nhu","cần","⿱"],
-["雾","雨务","wù","vụ","sương mù","⿱"],
-["笔","竹毛","bǐ","bút","cây bút","⿱"],
-["笑","竹夭","xiào","tiếu","cười","⿱"],
-["破","石皮","pò","phá","vỡ","⿰"],
-["硬","石更","yìng","ngạnh","cứng","⿰"],
-["理","玉里","lǐ","lý","lý lẽ","⿰"],
-["球","玉求","qiú","cầu","quả bóng","⿰"],
-["现","玉见","xiàn","hiện","xuất hiện","⿰"],
-["性","心生","xìng","tính","tính cách","⿰"],
-["忙","心亡","máng","mang","bận rộn","⿰"],
-["怕","心白","pà","phạ","sợ","⿰"],
-["情","心青","qíng","tình","tình cảm","⿰"],
-["银","金艮","yín","ngân","bạc","⿰"],
-["钟","金中","zhōng","chung","chuông / đồng hồ","⿰"],
-["针","金十","zhēn","châm","cây kim","⿰"],
-["饭","食反","fàn","phạn","cơm","⿰"],
-["饿","食我","è","ngạ","đói","⿰"],
-["路","足各","lù","lộ","con đường","⿰"],
-["跑","足包","pǎo","bào","chạy","⿰"],
-["跳","足兆","tiào","khiêu","nhảy","⿰"],
-["材","木才","cái","tài","vật liệu","⿰"],
-["机","木几","jī","cơ","máy móc","⿰"],
-["杜","木土","dù","đỗ","cây đỗ / họ Đỗ","⿰"],
-["对","又寸","duì","đối","đúng / đối","⿰"],
-["观","又见","guān","quan","xem / quan sát","⿰"],
-["鸡","又鸟","jī","kê","con gà","⿰"],
-["难","又隹","nán","nan","khó","⿰"],
-["会","人云","huì","hội","gặp / họp","⿱"],
-["仁","人二","rén","nhân","nhân từ","⿰"],
-["章","立早","zhāng","chương","chương / bài","⿱"],
-["唱","口昌","chàng","xướng","hát","⿰"],
-["淼","水水水","miǎo","miểu","nước mênh mông","⿱"],
-["焱","火火火","yàn","diễm","lửa cháy","⿱"],
-["姦","女女女","jiān","gian","gian tà","⿱"],
-["磊","石石石","lěi","lỗi","đá chồng chất","⿱"],
-["鑫","金金金","xīn","hâm","thịnh vượng","⿱"],
-["晶","日日日","jīng","tinh","lấp lánh","⿱"],
-["尘","小土","chén","trần","bụi","⿱"],
-["灭","一火","miè","diệt","dập tắt / diệt","⿱"],
-["歪","不正","wāi","oai","nghiêng lệch","⿱"],
-["甜","舌甘","tián","điềm","ngọt","⿰"],
-["鲜","魚羊","xiān","tiên","tươi","⿰"]
+/* ============================================================
+   CHẾ ĐỘ
+   ============================================================ */
+const MODES=[
+  {id:"learn",label:"Học chữ",hint:"Đoán từ nghĩa"},
+  {id:"analyze",label:"Phân tích",hint:"Bóc tách cấu tạo"},
+  {id:"assemble",label:"Ghép chữ",hint:"Dựng nửa trái"},
+  {id:"create",label:"Sáng tạo",hint:"Tìm chữ từ mảnh"},
+  {id:"quiz",label:"Đố bộ thủ",hint:"Trắc nghiệm"},
 ];
+const MODE_GRAD={
+  learn:"linear-gradient(135deg,#f59331,#d94f9e)",
+  analyze:"linear-gradient(135deg,#2fae7a,#4aa3d8)",
+  assemble:"linear-gradient(135deg,#f4c542,#f59331)",
+  create:"linear-gradient(135deg,#d94f9e,#7b5cd6)",
+  quiz:"linear-gradient(135deg,#4aa3d8,#d94f9e)",
+};
 
-const OPERATORS = [
-["⿰","trái–phải","左右"],["⿱","trên–dưới","上下"],["⿲","trái·giữa·phải","左中右"],
-["⿳","trên·giữa·dưới","上中下"],["⿴","bao quanh kín","全包围"],["⿵","bao trên","上三包"],
-["⿶","bao dưới","下三包"],["⿷","bao trái","左三包"],["⿸","bao trái-trên","左上包"],
-["⿹","bao phải-trên","右上包"],["⿺","bao trái-dưới","左下包"],["⿻","chồng / lồng","相叠"]
-];
+/* ---------------- LEARN ---------------- */
+let learn=null;
+function learnInit(idx){
+  const ch=CHARACTER[idx%CHARACTER.length];
+  const correct=new Set(ch.parts.map(p=>p.comp));
+  const distract=shuffle(Object.keys(COMPONENT).filter(id=>!correct.has(id))).slice(0,3);
+  learn={idx,chips:shuffle([...correct,...distract]),selected:new Set(),status:"idle",bad:new Set()};
+}
+function renderLearn(){
+  if(!learn) learnInit(0);
+  const ch=CHARACTER[learn.idx%CHARACTER.length];
+  const correct=new Set(ch.parts.map(p=>p.comp));
 
-/* ============================================================
-   BẢN ĐỒ BIẾN THỂ  (亻→人, 氵→水 …) để so khớp linh hoạt
-   ============================================================ */
-const VARIANT_MAP = {};
-RADICALS.forEach(r=>{
-  const base=r[0]; VARIANT_MAP[base]=base;
-  if(r[1]) Array.from(r[1]).forEach(v=>VARIANT_MAP[v]=base);
-});
-function norm(ch){ return VARIANT_MAP[ch] || ch; }
+  if(learn.status==="done"){
+    const parts=ch.parts.map(p=>({...p,glyph:variantById[p.variant].glyph}));
+    return {html:`<div class="split">
+      <div>${Tianzige(parts,"lg")}
+        <p class="center muted" style="margin-top:16px;font-size:14px">
+          <span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${ch.meaning}</p>
+      </div>
+      <div>
+        <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
+        <div class="memory"><div class="k">Câu ghi nhớ</div><p>${ch.memory}</p></div>
+        <button class="btn-primary" id="learnNext" style="margin-top:22px">Chữ tiếp theo →</button>
+      </div>
+    </div>`,wire(){
+      document.getElementById("learnNext").onclick=()=>{learnInit(learn.idx+1);mountMode();beep(1046,90,"triangle");};
+    }};
+  }
 
-/* Index chữ để show info nhanh */
-const RAD_INFO = {};
-RADICALS.forEach(r=>{ RAD_INFO[r[0]]=r; if(r[1]) Array.from(r[1]).forEach(v=>RAD_INFO[v]=r); });
-
-/* Index combo theo tập thành phần (đa tập, không kể thứ tự) */
-function partsKey(arr){ return arr.map(norm).sort().join(''); }
-const COMBO_INDEX = {};
-COMBOS.forEach(c=>{
-  const parts=Array.from(c[1]);
-  const key=partsKey(parts);
-  (COMBO_INDEX[key]=COMBO_INDEX[key]||[]).push({
-    char:c[0], parts, pinyin:c[2], hanviet:c[3], meaning:c[4], op:c[5]
-  });
-});
-
-/* ============================================================
-   TRẠNG THÁI / STATE
-   ============================================================ */
-let tray = [];        // mảng thành phần đã chọn (ký tự)
-let currentOp = "⿰";
-
-/* ============================================================
-   DỰNG BẢNG BỘ THỦ / PALETTE
-   ============================================================ */
-const paletteEl = document.getElementById('palette');
-function renderPalette(filter=""){
-  const f=filter.trim().toLowerCase();
-  const groups={};
-  RADICALS.forEach((r,i)=>{
-    const s=strokeOf(i);
-    const hay=(r[0]+" "+r[1]+" "+r[2]+" "+r[3]+" "+r[4]).toLowerCase();
-    if(f && !hay.includes(f)) return;
-    (groups[s]=groups[s]||[]).push(r);
-  });
-  const keys=Object.keys(groups).map(Number).sort((a,b)=>a-b);
-  if(keys.length===0){ paletteEl.innerHTML='<div class="notfound">Không tìm thấy bộ thủ nào. / 没有找到</div>'; return; }
-  let html="";
-  keys.forEach(k=>{
-    html+=`<div class="strokegroup"><div class="lbl">${k} nét · ${k}画</div><div class="radgrid">`;
-    groups[k].forEach(r=>{
-      html+=`<div class="rad cjk" title="${r[2]} · ${r[3]} · ${r[4]}${r[1]?' · biến thể '+r[1]:''}" data-ch="${r[0]}">
-        <div class="g">${r[0]}</div><div class="hv">${r[3]}</div></div>`;
+  return {html:`<div>
+    <div class="center" style="margin-bottom:28px">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:700;color:var(--clay)">Nghĩa của chữ</div>
+      <div class="font-display" style="font-size:34px;font-weight:700;margin-top:8px">${ch.meaning}</div>
+      <div class="muted" style="font-size:14px;margin-top:4px">âm đọc: ${ch.pinyin} · gồm ${correct.size} thành phần</div>
+    </div>
+    <p class="center" style="font-size:15px;margin-bottom:18px;font-weight:500">Chọn <b>tất cả</b> thành phần tạo nên chữ này:</p>
+    <div class="chip-grid" style="max-width:560px;margin:0 auto">
+      ${learn.chips.map(id=>{
+        const c=COMPONENT[id],on=learn.selected.has(id),isBad=learn.bad.has(id);
+        const st=isBad?"is-wrong":on?"is-selected":"";
+        return `<button class="radical-chip ${st}" data-id="${id}">
+          <div class="emoji">${c.emoji}</div>
+          <div class="glyph font-cjk" style="color:${isBad?"var(--danger)":COMP_COLOR[id]}">${esc(c.canonical)}</div>
+          <div class="cap">${esc(c.meaning.split("(")[0].trim())}</div></button>`;
+      }).join("")}
+    </div>
+    <div class="center" style="margin-top:28px">
+      <button class="btn-primary" id="learnCheck">Kiểm tra</button>
+      ${learn.status==="wrong"?`<p style="color:var(--danger);margin-top:16px;font-size:14px;font-weight:500">Chưa đúng — bỏ mảnh viền đỏ và chọn lại nhé.</p>`:""}
+    </div>
+  </div>`,wire(){
+    document.querySelectorAll(".radical-chip").forEach(b=>b.onclick=()=>{
+      const id=b.dataset.id;
+      learn.selected.has(id)?learn.selected.delete(id):learn.selected.add(id);
+      if(learn.bad.has(id))learn.bad.delete(id);
+      if(learn.status!=="idle")learn.status="idle";
+      beep(660,50,"sine",0.04);mountMode();
     });
-    html+=`</div></div>`;
-  });
-  paletteEl.innerHTML=html;
-  paletteEl.querySelectorAll('.rad').forEach(el=>{
-    el.addEventListener('click',()=>addToTray(el.dataset.ch));
-  });
+    document.getElementById("learnCheck").onclick=()=>{
+      if(!learn.selected.size)return;
+      const extra=[...learn.selected].filter(id=>!correct.has(id));
+      const missing=[...correct].filter(id=>!learn.selected.has(id));
+      if(!extra.length&&!missing.length){learn.status="done";beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);}
+      else{learn.status="wrong";learn.bad=new Set(extra);beep(220,140,"square",0.05);buzz([15,30,15]);}
+      mountMode();
+    };
+  }};
 }
 
-/* ============================================================
-   TRAY / KHU THÀNH PHẦN
-   ============================================================ */
-const trayEl=document.getElementById('tray');
-function addToTray(ch){
-  if(!ch) return;
-  Array.from(ch).forEach(c=>{ if(c.trim()) tray.push(c); });
-  renderTray(); update();
-}
-function removeFromTray(i){ tray.splice(i,1); renderTray(); update(); }
-function moveTray(i,d){
-  const j=i+d; if(j<0||j>=tray.length) return;
-  [tray[i],tray[j]]=[tray[j],tray[i]]; renderTray(); update();
-}
-function renderTray(){
-  if(tray.length===0){ trayEl.className="tray empty"; trayEl.innerHTML=""; return; }
-  trayEl.className="tray";
-  trayEl.innerHTML=tray.map((c,i)=>{
-    const info=RAD_INFO[c];
-    const hv=info?info[3]:"";
-    return `<div class="chip">
-      <button class="x" data-i="${i}" title="Xoá">×</button>
-      <div class="g cjk">${c}</div>
-      <div class="hv">${hv||'&nbsp;'}</div>
-      <div class="mv"><button data-mv="${i}" data-d="-1" title="Sang trái">◀</button>
-      <button data-mv="${i}" data-d="1" title="Sang phải">▶</button></div>
-    </div>`;
-  }).join('');
-  trayEl.querySelectorAll('.x').forEach(b=>b.addEventListener('click',()=>removeFromTray(+b.dataset.i)));
-  trayEl.querySelectorAll('.mv button').forEach(b=>b.addEventListener('click',()=>moveTray(+b.dataset.mv,+b.dataset.d)));
-}
-
-/* ============================================================
-   TRA CHỮ CÓ THẬT / LOOKUP
-   ============================================================ */
-function renderLookup(){
-  const box=document.getElementById('lookupResult');
-  if(tray.length<2){ box.innerHTML='<div class="notfound">Cần ít nhất 2 thành phần</div>'; return; }
-  const matches=COMBO_INDEX[partsKey(tray)];
-  if(!matches || matches.length===0){
-    box.innerHTML='<div class="notfound">Chưa có chữ nào khớp trong CSDL.<br><small>没有匹配的汉字</small></div>';
-    return;
-  }
-  if(matches.length===1){
-    const m=matches[0];
-    box.innerHTML=`
-      <div class="bigchar cjk" data-copy="${m.char}" title="Bấm để sao chép">${m.char}</div>
-      <div class="charinfo"><b class="cjk">${m.char}</b> · <b>${m.pinyin}</b> · Hán-Việt: <b>${m.hanviet}</b></div>
-      <div class="charinfo">Nghĩa: ${m.meaning}</div>`;
-  } else {
-    box.innerHTML='<div class="charinfo" style="margin-bottom:6px">Có nhiều chữ cùng thành phần:</div><div class="multi">'+
-      matches.map(m=>`<div class="mini">
-        <div class="g cjk" data-copy="${m.char}" title="Bấm để sao chép">${m.char}</div>
-        <div class="m">${m.pinyin} · ${m.hanviet}<br>${m.meaning}</div></div>`).join('')+'</div>';
-  }
-  box.querySelectorAll('[data-copy]').forEach(el=>el.addEventListener('click',()=>copy(el.dataset.copy)));
-}
-
-/* ============================================================
-   GHÉP HÌNH MINH HOẠ + IDS
-   ============================================================ */
-function buildIDS(parts,op){
-  if(parts.length===0) return "";
-  if(parts.length===1) return parts[0];
-  const ternary = (op==="⿲"||op==="⿳");
-  if(parts.length===2) return op+parts[0]+parts[1];
-  if(parts.length===3 && ternary) return op+parts[0]+parts[1]+parts[2];
-  // toán tử nhị phân với ≥3 phần → lồng phải
-  let s=parts[parts.length-1];
-  for(let i=parts.length-2;i>=0;i--) s=op+parts[i]+s;
-  return s;
-}
-
-function renderComposition(){
-  const box=document.getElementById('compbox');
-  const idsOut=document.getElementById('idsOut');
-  box.innerHTML=""; idsOut.innerHTML="";
-  if(tray.length===0){ box.innerHTML=""; return; }
-  if(tray.length===1){
-    box.innerHTML=`<div class="compcell cjk" style="width:100%;height:100%;font-size:120px">${tray[0]}</div>`;
-    idsOut.innerHTML=`<span class="ids-lbl">IDS: </span><span class="code cjk">${tray[0]}</span>`;
-    return;
-  }
-  const op=currentOp;
-  const n=tray.length;
-  const horiz=["⿰","⿲"], vert=["⿱","⿳"];
-  const abs=(css)=>`position:absolute;${css}`;
-  let inner="";
-
-  if(op==="⿰"||op==="⿲"){
-    const scale = n===2?0.62:0.42;
-    inner=tray.map(c=>`<div class="compcell" style="width:${100/n}%;height:100%">
-      <span class="cjk" style="font-size:150px;transform:scaleX(${scale});display:inline-block">${c}</span></div>`).join("");
-    box.style.display="flex"; box.innerHTML=inner;
-  }
-  else if(op==="⿱"||op==="⿳"){
-    const scale = n===2?0.6:0.42;
-    box.style.display="block";
-    inner=tray.map(c=>`<div class="compcell" style="width:100%;height:${100/n}%">
-      <span class="cjk" style="font-size:150px;transform:scaleY(${scale});display:inline-block">${c}</span></div>`).join("");
-    box.innerHTML=inner;
-  }
-  else {
-    // các toán tử bao quanh: phần 1 = khung lớn, phần còn lại = nhỏ đặt bên trong
-    box.style.display="block";
-    const outer=tray[0];
-    const rest=tray.slice(1).join("");
-    let pos="top:50%;left:50%;transform:translate(-50%,-50%)"; // ⿴ ⿻ giữa
-    if(op==="⿵") pos="bottom:8%;left:50%;transform:translateX(-50%)";
-    else if(op==="⿶") pos="top:8%;left:50%;transform:translateX(-50%)";
-    else if(op==="⿷") pos="top:50%;right:10%;transform:translateY(-50%)";
-    else if(op==="⿸") pos="bottom:10%;right:12%";
-    else if(op==="⿹") pos="bottom:10%;left:12%";
-    else if(op==="⿺") pos="top:10%;right:12%";
-    const outerStyle = op==="⿻"
-      ? abs("top:50%;left:50%;transform:translate(-50%,-50%);font-size:150px")
-      : abs("top:50%;left:50%;transform:translate(-50%,-50%);font-size:165px");
-    const innerStyle = op==="⿻"
-      ? abs(pos+";font-size:150px;opacity:.55")
-      : abs(pos+";font-size:62px");
-    box.innerHTML=`<span class="cjk" style="${outerStyle}">${outer}</span>
-      <span class="cjk" style="${innerStyle}">${rest}</span>`;
-  }
-
-  const ids=buildIDS(tray,op);
-  idsOut.innerHTML=`<span class="ids-lbl">Mô tả IDS: </span><span class="code cjk">${ids}</span>`;
-}
-
-/* ============================================================
-   OPERATOR ROW
-   ============================================================ */
-const oprow=document.getElementById('oprow');
-oprow.innerHTML=OPERATORS.map(o=>`<div class="op${o[0]===currentOp?' sel':''}" data-op="${o[0]}" title="${o[1]} · ${o[2]}">
-  <span class="cjk">${o[0]}</span><span class="t">${o[2]}</span></div>`).join("");
-oprow.querySelectorAll('.op').forEach(el=>{
-  el.addEventListener('click',()=>{
-    currentOp=el.dataset.op;
-    oprow.querySelectorAll('.op').forEach(x=>x.classList.toggle('sel',x.dataset.op===currentOp));
-    renderComposition();
-  });
-});
-
-/* ============================================================
-   CẬP NHẬT TỔNG
-   ============================================================ */
-function update(){
-  // nếu tổ hợp khớp 1 combo, tự chọn toán tử của nó cho phần minh hoạ
-  if(tray.length>=2){
-    const m=COMBO_INDEX[partsKey(tray)];
-    if(m && m.length===1){
-      currentOp=m[0].op;
-      oprow.querySelectorAll('.op').forEach(x=>x.classList.toggle('sel',x.dataset.op===currentOp));
+/* ---------------- ANALYZE ---------------- */
+let analyze=null;
+function renderAnalyze(){
+  if(!analyze) analyze={glyph:CHARACTER[0].glyph,dim:null};
+  const ch=findChar(analyze.glyph);
+  const parts=ch.parts.map(p=>({...p,glyph:variantById[p.variant].glyph}));
+  return {html:`<div class="split">
+    <div>${Tianzige(parts,"lg",analyze.dim)}
+      <p class="center muted" style="margin-top:16px;font-size:14px">
+        <span class="font-cjk" style="font-size:20px;color:var(--ink);font-weight:600">${ch.glyph}</span> · ${ch.pinyin} · ${ch.meaning} · <em>${ch.type}</em></p>
+    </div>
+    <div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">
+        ${CHARACTER.map(c=>`<button class="pill ${c.glyph===analyze.glyph?"active":""}" data-g="${c.glyph}"><span class="cjk font-cjk">${c.glyph}</span>${c.pinyin}</button>`).join("")}
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--semantic)"></i>tạo NGHĨA</span>
+        <span><i style="background:var(--phonetic)"></i>tạo ÂM</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">${ch.parts.map((p,i)=>PartCard(p,i)).join("")}</div>
+    </div>
+  </div>`,wire(){
+    document.querySelectorAll(".pill[data-g]").forEach(b=>b.onclick=()=>{analyze.glyph=b.dataset.g;analyze.dim=null;beep(700,60,"sine",0.04);mountMode();});
+    document.querySelectorAll(".part-card").forEach((el,i)=>{
+      el.onmouseenter=()=>{analyze.dim=ch.parts[i].comp;paintDim();};
+      el.onmouseleave=()=>{analyze.dim=null;paintDim();};
+    });
+    function paintDim(){
+      document.querySelectorAll(".tz-cell").forEach((cell,i)=>{
+        const p=parts[i];if(!p)return;
+        cell.classList.toggle("dim",!!(analyze.dim&&p.comp!==analyze.dim));
+      });
     }
-  }
-  renderLookup();
-  renderComposition();
+  }};
+}
+
+/* ---------------- ASSEMBLE ---------------- */
+const TARGETS=["情","清","快"];
+let assemble=null;
+function assembleInit(t){
+  const target=t||"情";const ch=findChar(target);
+  const correct=ch.parts.map(p=>p.variant);
+  const pool=VARIANT.map(v=>v.id).filter(id=>!correct.includes(id));
+  const tray=shuffle([...correct,...shuffle(pool).slice(0,3)]);
+  assemble={target,tray,placed:{},picked:null,over:null,shake:null,done:false,attempts:0};
+}
+function posStyle(pos){
+  const i="8%";
+  if(pos==="left")return `left:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;
+  if(pos==="right")return `right:${i};top:${i};bottom:${i};width:calc(50% - ${i})`;
+  if(pos==="top")return `left:${i};right:${i};top:${i};height:calc(50% - ${i})`;
+  return `left:${i};right:${i};bottom:${i};height:calc(50% - ${i})`;
+}
+function renderAssemble(){
+  if(!assemble) assembleInit("情");
+  const A=assemble,ch=findChar(A.target);
+  const slots=ch.parts.map((p,i)=>{
+    const isPlaced=!!A.placed[i];
+    const glyph=isPlaced?variantById[A.placed[i]].glyph:"";
+    const color=COMP_COLOR[p.comp];
+    const cls=`puzzle-slot ${A.over===i?"is-over":""} ${A.shake===i?"is-shake":""} ${isPlaced?"is-locked":""}`;
+    const inner=isPlaced?`<span class="tz-glyph font-cjk" style="color:${color}">${esc(glyph)}</span>`
+      :`<span class="slot-hint">${POS_LABEL[p.pos]}</span>`;
+    return `<div class="${cls}" style="${posStyle(p.pos)}" data-slot="${i}">${inner}</div>`;
+  }).join("");
+  return {html:`<div class="split">
+    <div>
+      <div style="transition:transform .5s;${A.done?"transform:scale(1.04)":""}">
+        <div class="puzzle-board">
+          <div class="tz-hline"></div><div class="tz-vline"></div>
+          ${slots}
+          ${A.done?`<div class="tz-badge">✓</div>`:""}
+        </div>
+      </div>
+      <p class="center muted" style="margin-top:16px;font-size:14px">Kéo / chạm mảnh vào ô đúng để tạo
+        <b class="font-cjk" style="font-size:18px;color:var(--ink)">${A.target}</b> (${ch.pinyin} — ${ch.meaning})</p>
+    </div>
+    <div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">
+        ${TARGETS.map(g=>{const c=findChar(g);return `<button class="pill ${g===A.target?"active":""}" data-t="${g}">Mục tiêu: <span class="cjk font-cjk">${g}</span> ${c.pinyin}</button>`;}).join("")}
+      </div>
+      <div class="step"><span class="num">1</span><h3>Kho mảnh ghép</h3></div>
+      <p class="muted" style="font-size:14px;margin-bottom:12px">Kéo mảnh vào khung bên trái, hoặc chạm 1 mảnh rồi chạm ô đích. Ghép sai không bị phạt — cứ thử lại.</p>
+      <div class="tray">
+        ${A.tray.map(vId=>{
+          const v=variantById[vId],c=COMPONENT[v.comp];
+          const used=Object.values(A.placed).includes(vId),sel=A.picked===vId;
+          return `<div class="puzzle-piece ${used?"is-used":""} ${sel?"is-selected":""}" data-piece="${vId}" ${used?"":'draggable="true"'} title="${esc(c.meaning)} — ${POS_LABEL[v.pos]}">
+            <div class="em">${c.emoji}</div>
+            <div class="g" style="color:${COMP_COLOR[v.comp]}">${esc(v.glyph)}</div>
+            <div class="c">${esc(c.canonical)}</div></div>`;
+        }).join("")}
+      </div>
+      <div class="util-row">
+        <button class="btn-ghost" id="asmReset">Làm lại</button>
+        <span class="muted" style="font-size:12px">Đã ghép: <b style="color:var(--ink)">${Object.keys(A.placed).length}/${ch.parts.length}</b>${A.attempts>0?` · Thử: <b style="color:var(--ink)">${A.attempts+Object.keys(A.placed).length}</b>`:""}</span>
+      </div>
+      ${A.done?`<div class="done-box"><div class="k">Hoàn thành!</div>
+        <p style="font-size:15px;margin:0">✓ Bạn đã ghép ra <span class="font-cjk" style="font-size:24px;font-weight:600">${A.target}</span> — ${ch.pinyin} · ${ch.meaning}.</p>
+        <div style="margin-top:12px;display:flex;gap:12px"><button class="btn-primary" id="asmNextChar">Chữ tiếp theo →</button><button class="btn-ghost" id="asmAgain">Ghép lại</button></div></div>`:""}
+    </div>
+  </div>`,wire(){
+    const board=document.querySelector("#panel");
+    function tryPlace(slot,vId){
+      if(A.placed[slot])return;
+      const expected=ch.parts[slot].variant;
+      if(vId===expected){
+        A.placed[slot]=vId;A.picked=null;beep(880,90,"triangle");buzz(30);
+        if(Object.keys(A.placed).length===ch.parts.length){
+          setTimeout(()=>{A.done=true;beep(1175,110,"triangle");setTimeout(()=>beep(1568,160,"triangle"),110);buzz([40,60,90]);mountMode();},220);
+        }
+        mountMode();
+      }else{
+        A.attempts++;A.shake=slot;A.picked=null;beep(220,140,"square",0.05);buzz([15,30,15]);
+        mountMode();setTimeout(()=>{A.shake=null;mountMode();},450);
+      }
+    }
+    document.querySelectorAll(".puzzle-piece").forEach(el=>{
+      const vId=el.dataset.piece;
+      el.ondragstart=e=>{e.dataTransfer.setData("text/plain",vId);e.dataTransfer.effectAllowed="move";A.picked=vId;};
+      el.onclick=()=>{if(el.classList.contains("is-used"))return;A.picked=(A.picked===vId?null:vId);mountMode();};
+    });
+    document.querySelectorAll(".puzzle-slot").forEach(el=>{
+      const slot=+el.dataset.slot;
+      el.ondragover=e=>{if(!A.placed[slot]){e.preventDefault();if(A.over!==slot){A.over=slot;el.classList.add("is-over");}}};
+      el.ondragleave=()=>{if(A.over===slot){A.over=null;el.classList.remove("is-over");}};
+      el.ondrop=e=>{e.preventDefault();A.over=null;const id=e.dataTransfer.getData("text/plain");if(id)tryPlace(slot,id);};
+      el.onclick=()=>{if(A.picked&&!A.placed[slot])tryPlace(slot,A.picked);};
+    });
+    const reset=document.getElementById("asmReset");if(reset)reset.onclick=()=>{assembleInit(A.target);mountMode();};
+    document.querySelectorAll(".pill[data-t]").forEach(b=>b.onclick=()=>{assembleInit(b.dataset.t);mountMode();});
+    const nx=document.getElementById("asmNextChar");if(nx)nx.onclick=()=>{const i=TARGETS.indexOf(A.target);assembleInit(TARGETS[(i+1)%TARGETS.length]);mountMode();};
+    const ag=document.getElementById("asmAgain");if(ag)ag.onclick=()=>{assembleInit(A.target);mountMode();};
+  }};
+}
+
+/* ---------------- CREATE ---------------- */
+const PALETTE=["心","忄","⺗","水","氵","手","扌","青","可","白","夬"];
+let create=null;
+function renderCreate(){
+  if(!create) create={picked:[],results:null};
+  const C=create;
+  const canonicals=[...new Set(C.picked.map(g=>COMPONENT[normalize(g)].canonical))];
+  return {html:`<div>
+    <div class="chip-grid" style="justify-content:flex-start;gap:22px 14px">
+      ${PALETTE.map(g=>{
+        const active=C.picked.includes(g),id=normalize(g);
+        return `<div style="position:relative">
+          <button class="radical-chip ${active?"is-selected":""}" data-g="${g}" style="width:64px;height:64px;padding:0;display:grid;place-items:center">
+            <span class="font-cjk" style="font-size:24px;font-weight:500;color:${COMP_COLOR[id]}">${esc(g)}</span></button>
+          <small style="position:absolute;left:0;right:0;bottom:-19px;text-align:center;font-size:10px;font-weight:600;color:var(--ink-soft)">→ ${esc(COMPONENT[id].canonical)}</small>
+        </div>`;
+      }).join("")}
+    </div>
+    <div class="muted" style="margin-top:40px;min-height:3rem;font-size:14px">
+      ${C.picked.length?`Đã chọn: ${C.picked.map(g=>`<span style="margin-right:12px"><b class="font-cjk" style="color:var(--ink)">${esc(g)}</b> <span style="color:var(--clay)">→</span> ${esc(COMPONENT[normalize(g)].canonical)}</span>`).join("")}
+        <div style="font-size:12px;margin-top:4px">Quy về thành phần gốc: ${canonicals.map(c=>`<b class="font-cjk" style="margin-right:4px">${esc(c)}</b>`).join("")}</div>`
+        :"Chưa chọn mảnh nào."}
+    </div>
+    <div style="display:flex;gap:12px;margin-top:16px">
+      <button class="btn-primary" id="crRun">Tìm chữ</button>
+      <button class="btn-ghost" id="crClear">Xoá chọn</button>
+    </div>
+    ${C.results!==null?`<div style="margin-top:24px">${
+      C.results.length===0
+        ?`<p class="muted" style="font-size:14px">${C.picked.length<2?"Hãy chọn ít nhất 2 mảnh để tìm chữ.":"Không có chữ nào chứa đủ các mảnh này."}</p>`
+        :`<div class="result-grid">${C.results.map(ch=>`<div class="result-card">
+            <div class="rc-glyph font-cjk">${ch.glyph}</div>
+            <div class="rc-py">${ch.pinyin}</div><div class="rc-mean">${ch.meaning}</div>
+            <div class="rc-parts">${ch.parts.map((p,i)=>`${i>0?'<span style="color:var(--clay)"> + </span>':""}<span class="g ${p.role==="semantic"?"sem":"pho"} font-cjk">${esc(variantById[p.variant].glyph)}</span>`).join("")}</div>
+          </div>`).join("")}</div>`
+    }</div>`:""}
+  </div>`,wire(){
+    document.querySelectorAll(".radical-chip[data-g]").forEach(b=>b.onclick=()=>{
+      const g=b.dataset.g,i=C.picked.indexOf(g);
+      C.picked=i>=0?C.picked.filter((_,k)=>k!==i):[...C.picked,g];C.results=null;beep(660,50,"sine",0.04);mountMode();
+    });
+    document.getElementById("crRun").onclick=()=>{
+      if(C.picked.length<2){C.results=[];}
+      else{C.results=searchByComponents(C.picked.map(g=>normalize(g)));beep(880,90,"triangle");}
+      mountMode();
+    };
+    document.getElementById("crClear").onclick=()=>{C.picked=[];C.results=null;mountMode();};
+  }};
+}
+
+/* ---------------- QUIZ ---------------- */
+let quiz=null;
+function quizNew(){
+  const ch=CHARACTER[Math.floor(Math.random()*CHARACTER.length)];
+  const sem=ch.parts.find(p=>p.role==="semantic");
+  const used=new Set(ch.parts.map(p=>p.comp));
+  const distr=shuffle(Object.keys(COMPONENT).filter(id=>!used.has(id))).slice(0,3);
+  return {ch,sem,options:shuffle([sem.comp,...distr])};
+}
+function renderQuiz(){
+  if(!quiz) quiz={q:quizNew(),score:{correct:0,total:0},answered:null};
+  const Q=quiz,q=Q.q,v=variantById[q.sem.variant],comp=COMPONENT[q.sem.comp];
+  return {html:`<div class="center">
+    <div class="muted" style="font-size:14px;font-weight:600">Điểm: <b style="color:var(--primary);font-size:16px">${Q.score.correct}</b> / ${Q.score.total}</div>
+    <div class="quiz-glyph">${q.ch.glyph}</div>
+    <p style="margin-top:20px;font-size:15px">Chữ <b class="font-cjk" style="font-size:18px">${q.ch.glyph}</b> (${q.ch.pinyin} — ${q.ch.meaning}) được tạo từ bộ thủ nào?</p>
+    <div class="chip-grid" style="max-width:520px;margin:20px auto 0">
+      ${q.options.map(id=>{
+        const c=COMPONENT[id],isCorrect=id===q.sem.comp,isSel=Q.answered===id,show=Q.answered!==null;
+        const st=show&&isCorrect?"is-correct":show&&isSel?"is-wrong":"";
+        const col=show&&isSel&&!isCorrect?"var(--danger)":COMP_COLOR[id];
+        return `<button class="radical-chip ${st}" data-id="${id}" ${Q.answered?"disabled":""}>
+          <div class="glyph font-cjk" style="font-size:30px;color:${col}">${esc(c.canonical)}</div>
+          <div class="cap" style="min-height:28px">${esc(c.meaning.split("(")[0].trim())}</div></button>`;
+      }).join("")}
+    </div>
+    ${Q.answered?`<p style="margin-top:20px;font-size:14px;font-weight:500;max-width:460px;margin-left:auto;margin-right:auto;color:${Q.answered===q.sem.comp?"var(--semantic)":"var(--danger)"}">
+        ${Q.answered===q.sem.comp?"✓ Đúng!":"✗ Chưa đúng."} Bộ <span class="font-cjk" style="color:var(--ink)">${comp.canonical}</span>${!v.canonical?` (viết là <span class="font-cjk" style="color:var(--ink)">${esc(v.glyph)}</span> khi ở ${POS_LABEL[q.sem.pos]})`:""} tạo nghĩa cho <span class="font-cjk" style="color:var(--ink)">${q.ch.glyph}</span>.</p>
+      <button class="btn-primary" id="quizNext" style="margin-top:22px">Câu tiếp theo</button>`:""}
+  </div>`,wire(){
+    document.querySelectorAll(".radical-chip[data-id]").forEach(b=>b.onclick=()=>{
+      if(Q.answered)return;
+      const id=b.dataset.id,ok=id===q.sem.comp;
+      Q.answered=id;Q.score={correct:Q.score.correct+(ok?1:0),total:Q.score.total+1};
+      if(ok){beep(1175,110,"triangle");buzz(30);}else{beep(220,140,"square",0.05);buzz([15,30,15]);}
+      mountMode();
+    });
+    const nx=document.getElementById("quizNext");if(nx)nx.onclick=()=>{quiz.q=quizNew();quiz.answered=null;mountMode();};
+  }};
 }
 
 /* ============================================================
-   TIỆN ÍCH: sao chép + toast
+   SHELL / ĐIỀU HƯỚNG
    ============================================================ */
-function copy(text){
-  const done=()=>toast("Đã sao chép: "+text+" · 已复制");
-  if(navigator.clipboard && navigator.clipboard.writeText){
-    navigator.clipboard.writeText(text).then(done).catch(()=>fallbackCopy(text,done));
-  } else fallbackCopy(text,done);
+let currentMode="learn";
+const RENDERERS={learn:renderLearn,analyze:renderAnalyze,assemble:renderAssemble,create:renderCreate,quiz:renderQuiz};
+
+function mountMode(){
+  const {html,wire}=RENDERERS[currentMode]();
+  const panel=document.getElementById("panel");
+  panel.innerHTML=html;
+  panel.classList.remove("pop-in");void panel.offsetWidth;
+  if(wire)wire();
 }
-function fallbackCopy(text,cb){
-  const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta);
-  ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); cb&&cb();
-}
-let toastTimer;
-function toast(msg){
-  const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show');
-  clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1600);
+function buildNav(){
+  const nav=document.getElementById("modeNav");
+  nav.innerHTML=MODES.map(m=>`<button class="mode-btn ${m.id===currentMode?"active":""}" data-mode="${m.id}">
+    <span class="bar" style="background:${MODE_GRAD[m.id]}"></span>
+    <span class="lbl">${m.label}<span class="hint">· ${m.hint}</span></span></button>`).join("");
+  nav.querySelectorAll(".mode-btn").forEach(b=>b.onclick=()=>{
+    currentMode=b.dataset.mode;
+    // reset per-mode state để giống remount của React
+    if(currentMode==="learn")learn=null;
+    if(currentMode==="analyze")analyze=null;
+    if(currentMode==="assemble")assemble=null;
+    if(currentMode==="create")create=null;
+    if(currentMode==="quiz")quiz=null;
+    nav.querySelectorAll(".mode-btn").forEach(x=>x.classList.toggle("active",x.dataset.mode===currentMode));
+    document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];
+    beep(740,60,"sine",0.04);
+    mountMode();
+  });
 }
 
-/* ============================================================
-   SỰ KIỆN / EVENTS
-   ============================================================ */
-document.getElementById('search').addEventListener('input',e=>renderPalette(e.target.value));
-document.getElementById('clearSearch').addEventListener('click',()=>{
-  document.getElementById('search').value=""; renderPalette();
-});
-document.getElementById('clearTray').addEventListener('click',()=>{ tray=[]; renderTray(); update(); });
-const customInput=document.getElementById('customInput');
-document.getElementById('addCustom').addEventListener('click',()=>{ addToTray(customInput.value); customInput.value=""; });
-customInput.addEventListener('keydown',e=>{ if(e.key==="Enter"){ addToTray(customInput.value); customInput.value=""; }});
-
-/* ============================================================
-   KHỞI ĐỘNG / INIT
-   ============================================================ */
-renderPalette();
-renderTray();
-update();
+/* KHỞI ĐỘNG */
+buildNav();
+document.getElementById("panelBar").style.background=MODE_GRAD[currentMode];
+mountMode();
 </script>
 </body>
 </html>

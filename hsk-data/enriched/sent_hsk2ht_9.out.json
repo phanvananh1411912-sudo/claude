@@ -1,0 +1,542 @@
+[
+ {
+  "group": "hsk2ht",
+  "no": 33,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, nǐ píngshí xǐhuan kàn mànhuà ma?",
+    "vi": "Mình là 德盛. 云英, bình thường bạn có thích đọc truyện tranh không?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Xǐhuan, wǒ cóng xiǎo jiù xǐhuan kàn mànhuà, xiànzài yě hái chángcháng kàn.",
+    "vi": "Thích chứ, mình thích đọc truyện tranh từ nhỏ, bây giờ vẫn hay đọc.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Nà wǒmen jīntiān jiù liáoliao \"kàn mànhuà\" zhège huàtí ba.",
+    "vi": "Vậy hôm nay chúng ta nói về chủ đề \"đọc truyện tranh\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Hǎo a, Déshèng, nǐ juéde mànhuà zěnmeyàng?",
+    "vi": "Được đó, 德盛, bạn thấy truyện tranh thế nào?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Shuō shíhuà, wǒ yǐqián juéde mànhuà zhǐshì gěi xiǎoháizi kàn de, yǒudiǎnr jiǎndān.",
+    "vi": "Nói thật là trước đây mình cứ nghĩ truyện tranh chỉ dành cho trẻ con, hơi đơn giản.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Wǒ yǐqián yě zhème xiǎng, hòulái cái fāxiàn bú shì zhèyàng de.",
+    "vi": "Trước đây mình cũng nghĩ vậy, sau này mới phát hiện ra không phải thế.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Wèishénme zhème shuō?",
+    "vi": "Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Yīnwèi yǒude mànhuà gùshi hěn fùzá, jiǎng de dàolǐ yě hěn shēn, bù zhǐshì gěi xiǎoháizi kàn de.",
+    "vi": "Vì có những bộ truyện tranh cốt truyện rất phức tạp, đạo lý trong đó cũng rất sâu sắc, không chỉ dành cho trẻ con đâu.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Zhēn de ma? Wǒ yǐwéi mànhuà dōu shì hěn jiǎndān de gùshi.",
+    "vi": "Thật hả? Mình cứ tưởng truyện tranh toàn là những câu chuyện đơn giản thôi chứ.",
+    "grammar": ["以为…… (tưởng rằng…)"]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Bù yídìng, wǒ juéde, yì běn mànhuà, jiù xiàng yí gè xiǎoxiǎo de mén.",
+    "vi": "Chưa chắc đâu, mình thấy một cuốn truyện tranh giống như một cánh cửa nho nhỏ.",
+    "grammar": ["不一定 (chưa chắc)", "就像…… (giống như…)"]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Mén? Wèishénme zhème shuō?",
+    "vi": "Cánh cửa? Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, yì běn mànhuà kàn qǐlái bú dà, dànshì dǎkāi yǐhòu, néng zǒujìn yí gè hěn dà de shìjiè.",
+    "vi": "Bạn nghĩ xem, một cuốn truyện tranh nhìn thì không lớn, nhưng mở ra rồi lại có thể bước vào một thế giới rất rộng lớn.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, jiù shì shuō, mànhuà lǐ yě yǒu hěn fēngfù de gùshi hé gǎnqíng.",
+    "vi": "Ồ, mình hiểu rồi, tức là trong truyện tranh cũng có những câu chuyện và cảm xúc rất phong phú.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Méicuò, érqiě, kàn mànhuà de shíhou, túhuà néng bāng wǒmen gèng róngyì míngbai gùshi.",
+    "vi": "Đúng vậy, hơn nữa khi đọc truyện tranh, hình vẽ còn giúp chúng ta hiểu câu chuyện dễ hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Zhème shuō dehuà, kàn mànhuà qíshí yě shì yì zhǒng xuéxí de fāngshì.",
+    "vi": "Nói vậy thì đọc truyện tranh thật ra cũng là một cách học.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Duì, bǐrú wǒ kàn Zhōngwén mànhuà de shíhou, yě xuédào le hěn duō xīn de cíyǔ.",
+    "vi": "Đúng, ví dụ như khi đọc truyện tranh tiếng Trung, mình cũng học được rất nhiều từ mới.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Zhè dào shì tíxǐng le wǒ, wǒ yě kěyǐ shìzhe kàn yìxiē jiǎndān de Zhōngwén mànhuà.",
+    "vi": "Điều đó nhắc mình đấy, mình cũng có thể thử đọc mấy cuốn truyện tranh tiếng Trung đơn giản xem sao.",
+    "grammar": ["这倒是提醒了我 (điều đó nhắc tôi)"]
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, cóng jiǎndān de mànhuà kāishǐ, mànmàn jiù néng kàndǒng gèng duō.",
+    "vi": "Ý hay đó, bắt đầu từ truyện tranh đơn giản, dần dần sẽ đọc hiểu được nhiều hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ juédìng le, zhège xīngqī, wǒ yào zhǎo yì běn jiǎndān de Zhōngwén mànhuà kànkan.",
+    "vi": "Được, mình quyết định rồi, tuần này mình sẽ tìm một cuốn truyện tranh tiếng Trung đơn giản đọc thử.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáodào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 34,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, jīntiān wǒmen liáo shénme?",
+    "vi": "Mình là 德盛. 云英, hôm nay chúng ta nói về chuyện gì đây?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Jīntiān wǒmen liáoliao \"nǐ xiǎng chéngwéi shénme yàng de rén\" zhège huàtí ba.",
+    "vi": "Hôm nay chúng ta nói về chủ đề \"bạn muốn trở thành người như thế nào\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Zhège wèntí yǒudiǎnr dà, wǒ cónglái méiyǒu rènzhēn xiǎngguo.",
+    "vi": "Câu hỏi này hơi lớn đấy, mình chưa bao giờ nghĩ nghiêm túc về nó.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Nà wǒmen kěyǐ yìqǐ xiǎngxiang kàn. Yúnyīng, nǐ xiǎng chéngwéi shénme yàng de rén?",
+    "vi": "Vậy chúng ta có thể cùng nghĩ thử xem. 云英, bạn muốn trở thành người như thế nào?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Yīnggāi shì wǒ wèn nǐ cái duì, nǐ xiān shuōshuo kàn.",
+    "vi": "Đáng lẽ phải là mình hỏi bạn mới đúng chứ, bạn nói trước đi.",
+    "grammar": ["应该是……才对 (đáng lẽ phải là…mới đúng)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Hǎo, wǒ xiǎng chéngwéi yí gè shànliáng, yǒu nàixīn de rén, néng bāngzhù biéren de shíhou, jiù bāngzhù biéren.",
+    "vi": "Được, mình muốn trở thành một người lương thiện, kiên nhẫn, khi nào giúp được người khác thì giúp.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Zhège xiǎngfǎ hěn hǎo. Nà nǐ juéde, wǒmen wèishénme xūyào xiǎng qīngchu zhège wèntí?",
+    "vi": "Suy nghĩ này hay đấy. Vậy bạn thấy tại sao chúng ta cần nghĩ cho rõ câu hỏi này?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Wǒ juéde, xiǎng chéngwéi shénme yàng de rén, jiù xiàng xiān xiǎnghǎo yào gài yí zuò shénme yàng de fángzi.",
+    "vi": "Mình thấy, muốn trở thành người như thế nào cũng giống như phải nghĩ trước xem mình muốn xây một ngôi nhà như thế nào vậy.",
+    "grammar": ["就像…… (giống như…)"]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Gài fángzi? Wèishénme zhème shuō?",
+    "vi": "Xây nhà? Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, gài fángzi yǐqián, rúguǒ bù zhīdào yào gài shénme yàng de, zhuāntóu, mùtou jiù huì yòng de hěn luàn.",
+    "vi": "Bạn nghĩ xem, trước khi xây nhà, nếu không biết mình muốn xây kiểu gì thì gạch, gỗ sẽ dùng rất lộn xộn.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, rúguǒ bù zhīdào zìjǐ xiǎng chéngwéi shénme yàng de rén, zuò shìqing yě huì méiyǒu fāngxiàng.",
+    "vi": "Ồ, mình hiểu rồi, nếu không biết mình muốn trở thành người thế nào thì làm việc gì cũng không có phương hướng.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Méicuò, zhīdào zìjǐ xiǎng chéngwéi shénme yàng de rén, zuò juédìng de shíhou, jiù huì gèng qīngchu.",
+    "vi": "Đúng vậy, biết mình muốn trở thành người thế nào thì lúc đưa ra quyết định sẽ rõ ràng hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Zhème shuō dehuà, wǒ yě yīnggāi hǎohǎo xiǎngxiang zhège wèntí.",
+    "vi": "Nói vậy thì mình cũng nên suy nghĩ thật kỹ về câu hỏi này.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Duì, nǐ kěyǐ xiān xiǎngxiang, zìjǐ zuì xǐhuan shēnbiān nǎxiē rén de xìnggé.",
+    "vi": "Đúng, bạn có thể nghĩ trước xem mình thích nhất tính cách của những người nào xung quanh.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Shuōdào zhège, wǒ hěn xǐhuan wǒ bàba, tā zuò shìqing hěn rènzhēn, yě hěn shǒushí.",
+    "vi": "Nói đến chuyện này, mình rất quý bố mình, ông làm việc gì cũng nghiêm túc và rất đúng giờ.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Nà zhè kěnéng jiùshì nǐ xiǎng chéngwéi de yí bùfen yàngzi.",
+    "vi": "Vậy đó có thể chính là một phần con người mà bạn muốn trở thành đấy.",
+    "grammar": ["可能就是…… (có thể chính là…)"]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ hǎoxiàng yǒu yìdiǎnr míngbai le zìjǐ xiǎng chéngwéi shénme yàng de rén.",
+    "vi": "Nghe bạn nói vậy, hình như mình đã hiểu ra một chút mình muốn trở thành người như thế nào rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo, mànmàn xiǎng, búyòng yí cì jiù xiǎng de hěn qīngchu.",
+    "vi": "Ừ, cứ từ từ nghĩ, không cần một lần đã phải nghĩ thật rõ ràng đâu.",
+    "grammar": ["不用……就…… (không cần…đã…)"]
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ juédìng le, zhè jǐ tiān wǒ yào rènzhēn xiǎngxiang zhège wèntí.",
+    "vi": "Được, mình quyết định rồi, mấy ngày này mình sẽ nghiêm túc suy nghĩ về câu hỏi này.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáodào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 35,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, rúguǒ yùdào wàiguó péngyou, nǐ huì gēn tāmen jièshào shénme Zhōngguó wénhuà?",
+    "vi": "Mình là 德盛. 云英, nếu gặp bạn bè nước ngoài, bạn sẽ giới thiệu với họ văn hóa Trung Quốc gì?",
+    "grammar": ["如果……会…… (nếu…thì sẽ…)"]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Nà wǒmen jīntiān jiù liáoliao zhège huàtí ba. Déshèng, nǐ huì xiān xiǎngdào shénme?",
+    "vi": "Vậy hôm nay chúng ta nói về chủ đề này nhé. 德盛, bạn sẽ nghĩ đến điều gì đầu tiên?",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Wǒ huì xiān xiǎngdào Zhōngguó de měishí, bǐrú jiǎozi, huǒguō, zhèxiē dōu hěn yǒumíng.",
+    "vi": "Mình sẽ nghĩ đến ẩm thực Trung Quốc trước, ví dụ như sủi cảo, lẩu, mấy món này đều rất nổi tiếng.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Duì, měishí shì yí gè hěn hǎo de kāishǐ. Chúle měishí, nǐ hái huì jièshào shénme?",
+    "vi": "Đúng, ẩm thực là một khởi đầu rất tốt. Ngoài ẩm thực ra, bạn còn giới thiệu gì nữa?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Wǒ kěnéng hái huì jièshào Chūnjié, shuōshuo wǒmen zěnme guònián, hái yǒu wèishénme yào chī niányèfàn.",
+    "vi": "Chắc mình sẽ giới thiệu thêm Tết Nguyên đán, kể xem chúng mình ăn Tết thế nào, và tại sao phải ăn bữa cơm tất niên.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhèxiē dōu hěn hǎo. Wǒ juéde, gēn wàiguórén jièshào Zhōngguó wénhuà, bù xūyào yí cì shuō tài duō.",
+    "vi": "Những cái đó đều rất hay. Mình thấy, giới thiệu văn hóa Trung Quốc cho người nước ngoài thì không cần nói quá nhiều trong một lần.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Wèishénme zhème shuō?",
+    "vi": "Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Wǒ juéde, gēn wàiguórén jièshào wénhuà, jiù xiàng dǎkāi yí gè xiǎoxiǎo de mén.",
+    "vi": "Mình thấy, giới thiệu văn hóa cho người nước ngoài giống như mở một cánh cửa nho nhỏ vậy.",
+    "grammar": ["就像…… (giống như…)"]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Mén? Wèishénme zhème shuō?",
+    "vi": "Cánh cửa? Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, rúguǒ yíxiàzi bǎ suǒyǒu de dōngxi dōu bān chūlái, biéren kěnéng huì juéde tài duō, bù zhīdào gāi kàn nǎlǐ.",
+    "vi": "Bạn nghĩ xem, nếu ngay một lúc bê hết tất cả mọi thứ ra, người ta có thể sẽ thấy nhiều quá, không biết nên nhìn vào đâu.",
+    "grammar": ["一下子…… (ngay một lúc…)"]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, xiān dǎkāi yìdiǎnr mén, ràng tāmen kànkan mén hòumiàn de yìdiǎnr fēngjǐng jiù hǎo le.",
+    "vi": "Ồ, mình hiểu rồi, cứ hé cửa một chút trước, để họ ngắm một chút phong cảnh sau cánh cửa là được rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Méicuò, bǐrú xiān shuō yí gè yǒuyìsi de xiǎo gùshi, huòzhě yí gè jiǎndān de xíguàn, mànmàn ràng tāmen gǎn xìngqù.",
+    "vi": "Đúng vậy, ví dụ kể trước một câu chuyện nhỏ thú vị, hoặc một thói quen đơn giản, từ từ làm họ thấy hứng thú.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Zhème shuō dehuà, jièshào wénhuà, yě yào zhùyì fāngshì, bù néng zhǐshì shuō hěn duō zhīshi.",
+    "vi": "Nói vậy thì giới thiệu văn hóa cũng phải chú ý cách thức, không thể chỉ nói thật nhiều kiến thức.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Duì, wǒ juéde, yòng gùshi huòzhě zìjǐ de jīnglì lái jièshào, biéren huì gèng róngyì jìzhù.",
+    "vi": "Đúng, mình thấy dùng câu chuyện hoặc trải nghiệm của chính mình để giới thiệu thì người ta sẽ dễ nhớ hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ xià cì yùdào wàiguó péngyou, kěyǐ xiān gēn tāmen shuōshuo wǒ jiā guò Chūnjié de xiǎo gùshi.",
+    "vi": "Nghe bạn nói vậy, lần sau gặp bạn bè nước ngoài, mình có thể kể cho họ nghe câu chuyện nhỏ về việc nhà mình đón Tết trước.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, zhèyàng jì jiǎndān, yòu néng ràng tāmen gǎn xìngqù.",
+    "vi": "Ý hay đó, như vậy vừa đơn giản, vừa làm họ thấy hứng thú.",
+    "grammar": ["既……又…… (vừa…vừa…)"]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Hǎo, wǒ jì xiàlái le, yǐhòu kěyǐ shìshi zhè zhǒng fāngshì.",
+    "vi": "Được, mình ghi lại rồi, sau này có thể thử cách này.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáodào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 36,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, nǐ zhīdào xiànzài niánqīngrén liúxíng shénme ma?",
+    "vi": "Mình là 德盛. 云英, bạn có biết giới trẻ bây giờ đang thịnh hành cái gì không?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Zhīdào yìdiǎnr, bǐrú zuìjìn hěn duō rén xǐhuan yì zhǒng xīn de yùndòng fāngshì, hái yǒu yìxiē xīn de shǒujī yìngyòng.",
+    "vi": "Biết một chút, ví dụ gần đây nhiều người thích một kiểu vận động mới, còn có mấy ứng dụng điện thoại mới nữa.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Nà wǒmen jīntiān jiù liáoliao \"xiànzài liúxíng shénme\" zhège huàtí ba.",
+    "vi": "Vậy hôm nay chúng ta nói về chủ đề \"bây giờ đang thịnh hành cái gì\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Hǎo a, Déshèng, nǐ zìjǐ yǒu méiyǒu gēnzhe liúxíng zuò shénme?",
+    "vi": "Được đó, 德盛, bản thân bạn có chạy theo trend làm gì không?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Yǒu, wǒ zuìjìn yě xiàzài le yí gè dàjiā dōu zài yòng de yìngyòng, gēn péngyoumen yìqǐ wán.",
+    "vi": "Có chứ, gần đây mình cũng tải một ứng dụng mà ai cũng đang dùng, chơi cùng với đám bạn.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Nà nǐ juéde, zhèxiē liúxíng de dōngxi, huì yìzhí liúxíng xiàqù ma?",
+    "vi": "Vậy bạn thấy những thứ đang thịnh hành này sẽ hot mãi chứ?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Yīnggāi bú huì ba, hǎoxiàng liúxíng de dōngxi, guò yí duàn shíjiān jiù huì huànchéng bié de.",
+    "vi": "Chắc là không đâu, hình như những thứ thịnh hành, qua một thời gian là sẽ đổi sang thứ khác.",
+    "grammar": ["好像……就会…… (dường như…thì sẽ…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, wǒ juéde, liúxíng de dōngxi, jiù xiàng fēng yíyàng.",
+    "vi": "Đúng, mình thấy những thứ thịnh hành giống như gió vậy.",
+    "grammar": ["就像……一样 (giống như…)"]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Fēng? Wèishénme zhème shuō?",
+    "vi": "Gió? Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, fēng lái de shíhou hěn kuài, zǒu de shíhou yě hěn kuài, bú huì yìzhí tíng zài yí gè dìfang.",
+    "vi": "Bạn nghĩ xem, gió đến rất nhanh, đi cũng rất nhanh, không bao giờ dừng mãi ở một chỗ.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, liúxíng de dōngxi yě shì zhèyàng, lái de kuài, zǒu de yě kuài.",
+    "vi": "Ồ, mình hiểu rồi, những thứ thịnh hành cũng vậy, đến nhanh mà đi cũng nhanh.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Méicuò, suǒyǐ wǒ juéde, gēnzhe liúxíng wán yi wán méi wèntí, dànshì búyòng tài rènzhēn.",
+    "vi": "Đúng vậy, nên mình thấy chạy theo trend chơi một chút thì không sao, nhưng không cần quá nghiêm túc.",
+    "grammar": ["不用……但是…… (không cần…nhưng…)"]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Wèishénme zhème shuō?",
+    "vi": "Sao lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Yīnwèi rúguǒ zhǐshì gēnzhe liúxíng, děng liúxíng de dōngxi biàn le, wǒmen kěnéng yě huì juéde kōngkōng de.",
+    "vi": "Vì nếu chỉ chạy theo trend, đến khi thứ đang hot thay đổi, có khi chúng ta cũng sẽ thấy trống rỗng.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Zhème shuō dehuà, wǒmen yīnggāi zhǎo yìxiē zìjǐ zhēnzhèng xǐhuan de dōngxi.",
+    "vi": "Nói vậy thì chúng ta nên tìm những thứ mà mình thật sự thích.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Duì, bǐrú yí gè àihào, bùguǎn liúxíng bù liúxíng, zìjǐ zhēnxīn xǐhuan, cái néng yìzhí zuò xiàqù.",
+    "vi": "Đúng, ví dụ một sở thích chẳng hạn, bất kể có thịnh hành hay không, mình thật lòng thích thì mới có thể theo đuổi mãi được.",
+    "grammar": ["不管……都/也…… (bất kể…đều/cũng…)"]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ juéde, wǒ yīnggāi duō huā yìdiǎnr shíjiān, zhǎodào zìjǐ zhēnzhèng xǐhuan de shìqing.",
+    "vi": "Nghe bạn nói vậy, mình thấy mình nên dành thêm chút thời gian để tìm ra việc mình thật sự thích.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, liúxíng kěyǐ wán, dànshì bié wàng le zìjǐ zhēnzhèng xǐhuan shénme.",
+    "vi": "Ý hay đó, trend thì có thể chơi, nhưng đừng quên mình thật sự thích cái gì nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ jì xiàlái le, yǐhòu yào duō xiǎngxiang zìjǐ zhēnzhèng xǐhuan de shì shénme.",
+    "vi": "Được, mình ghi nhớ rồi, sau này phải nghĩ nhiều hơn xem cái mình thật sự thích là gì.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáodào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ }
+]

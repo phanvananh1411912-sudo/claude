@@ -1,0 +1,1297 @@
+{
+ "线条": {
+  "pinyin": "xiàntiáo",
+  "hanviet": "tuyến điều",
+  "pos": "n."
+ },
+ "练习": {
+  "pinyin": "liànxí",
+  "hanviet": "luyện tập",
+  "pos": "v."
+ },
+ "组": {
+  "pinyin": "zǔ",
+  "hanviet": "tổ",
+  "pos": "n."
+ },
+ "组织": {
+  "pinyin": "zǔzhī",
+  "hanviet": "tổ chức",
+  "pos": "v."
+ },
+ "细": {
+  "pinyin": "xì",
+  "hanviet": "tế",
+  "pos": "adj."
+ },
+ "细细": {
+  "pinyin": "xìxì",
+  "hanviet": "tế tế",
+  "pos": "adj."
+ },
+ "细节": {
+  "pinyin": "xìjié",
+  "hanviet": "tế tiết",
+  "pos": "n."
+ },
+ "终于": {
+  "pinyin": "zhōngyú",
+  "hanviet": "chung vu",
+  "pos": "adv."
+ },
+ "终点": {
+  "pinyin": "zhōngdiǎn",
+  "hanviet": "chung điểm",
+  "pos": "n."
+ },
+ "终点线": {
+  "pinyin": "zhōngdiǎnxiàn",
+  "hanviet": "chung điểm tuyến",
+  "pos": "n."
+ },
+ "经历": {
+  "pinyin": "jīnglì",
+  "hanviet": "kinh lịch",
+  "pos": "v."
+ },
+ "经验": {
+  "pinyin": "jīngyàn",
+  "hanviet": "kinh nghiệm",
+  "pos": "n."
+ },
+ "结束": {
+  "pinyin": "jiéshù",
+  "hanviet": "kết thúc",
+  "pos": "v."
+ },
+ "结果": {
+  "pinyin": "jiéguǒ",
+  "hanviet": "kết quả",
+  "pos": "n."
+ },
+ "绕": {
+  "pinyin": "rào",
+  "hanviet": "nhiễu",
+  "pos": "v."
+ },
+ "绘画比赛": {
+  "pinyin": "huìhuà bǐsài",
+  "hanviet": "hội họa tỉ tái",
+  "pos": "n."
+ },
+ "给": {
+  "pinyin": "gěi",
+  "hanviet": "cấp",
+  "pos": "v."
+ },
+ "绿色": {
+  "pinyin": "lǜsè",
+  "hanviet": "lục sắc",
+  "pos": "n."
+ },
+ "网": {
+  "pinyin": "wǎng",
+  "hanviet": "võng",
+  "pos": "n."
+ },
+ "网上": {
+  "pinyin": "wǎngshàng",
+  "hanviet": "võng thượng",
+  "pos": "n."
+ },
+ "美": {
+  "pinyin": "měi",
+  "hanviet": "mỹ",
+  "pos": "adj."
+ },
+ "美术": {
+  "pinyin": "měishù",
+  "hanviet": "mỹ thuật",
+  "pos": "n."
+ },
+ "美食": {
+  "pinyin": "měishí",
+  "hanviet": "mỹ thực",
+  "pos": "n."
+ },
+ "羡慕": {
+  "pinyin": "xiànmù",
+  "hanviet": "tiện mộ",
+  "pos": "v."
+ },
+ "老人": {
+  "pinyin": "lǎorén",
+  "hanviet": "lão nhân",
+  "pos": "n."
+ },
+ "老同学": {
+  "pinyin": "lǎo tóngxué",
+  "hanviet": "lão đồng học",
+  "pos": "n."
+ },
+ "老城区": {
+  "pinyin": "lǎochéngqū",
+  "hanviet": "lão thành khu",
+  "pos": "n."
+ },
+ "老板": {
+  "pinyin": "lǎobǎn",
+  "hanviet": "lão bản",
+  "pos": "n."
+ },
+ "考场": {
+  "pinyin": "kǎochǎng",
+  "hanviet": "khảo trường",
+  "pos": "n."
+ },
+ "考试": {
+  "pinyin": "kǎoshì",
+  "hanviet": "khảo thí",
+  "pos": "n."
+ },
+ "耐心": {
+  "pinyin": "nàixīn",
+  "hanviet": "nại tâm",
+  "pos": "adj."
+ },
+ "耳朵": {
+  "pinyin": "ěrduo",
+  "hanviet": "nhĩ đóa",
+  "pos": "n."
+ },
+ "聊天": {
+  "pinyin": "liáotiān",
+  "hanviet": "liêu thiên",
+  "pos": "v."
+ },
+ "聚会": {
+  "pinyin": "jùhuì",
+  "hanviet": "tụ hội",
+  "pos": "n."
+ },
+ "聪明": {
+  "pinyin": "cōngming",
+  "hanviet": "thông minh",
+  "pos": "adj."
+ },
+ "肩膀": {
+  "pinyin": "jiānbǎng",
+  "hanviet": "kiên bàng",
+  "pos": "n."
+ },
+ "胃": {
+  "pinyin": "wèi",
+  "hanviet": "vị",
+  "pos": "n."
+ },
+ "背后": {
+  "pinyin": "bèihòu",
+  "hanviet": "bối hậu",
+  "pos": "n."
+ },
+ "胶水": {
+  "pinyin": "jiāoshuǐ",
+  "hanviet": "giao thủy",
+  "pos": "n."
+ },
+ "脚": {
+  "pinyin": "jiǎo",
+  "hanviet": "cước",
+  "pos": "n."
+ },
+ "脚步": {
+  "pinyin": "jiǎobù",
+  "hanviet": "cước bộ",
+  "pos": "n."
+ },
+ "腿": {
+  "pinyin": "tuǐ",
+  "hanviet": "thối",
+  "pos": "n."
+ },
+ "膝盖": {
+  "pinyin": "xīgài",
+  "hanviet": "tất cái",
+  "pos": "n."
+ },
+ "自己": {
+  "pinyin": "zìjǐ",
+  "hanviet": "tự kỷ",
+  "pos": "pron."
+ },
+ "自然景色": {
+  "pinyin": "zìrán jǐngsè",
+  "hanviet": "tự nhiên cảnh sắc",
+  "pos": "n."
+ },
+ "自由": {
+  "pinyin": "zìyóu",
+  "hanviet": "tự do",
+  "pos": "adj."
+ },
+ "自行车": {
+  "pinyin": "zìxíngchē",
+  "hanviet": "tự hành xa",
+  "pos": "n."
+ },
+ "舍不得": {
+  "pinyin": "shěbude",
+  "hanviet": "xả bất đắc",
+  "pos": "v."
+ },
+ "舒服": {
+  "pinyin": "shūfu",
+  "hanviet": "thư phục",
+  "pos": "adj."
+ },
+ "舞会": {
+  "pinyin": "wǔhuì",
+  "hanviet": "vũ hội",
+  "pos": "n."
+ },
+ "舞台": {
+  "pinyin": "wǔtái",
+  "hanviet": "vũ đài",
+  "pos": "n."
+ },
+ "色": {
+  "pinyin": "sè",
+  "hanviet": "sắc",
+  "pos": "n."
+ },
+ "节奏": {
+  "pinyin": "jiézòu",
+  "hanviet": "tiết tấu",
+  "pos": "n."
+ },
+ "节省": {
+  "pinyin": "jiéshěng",
+  "hanviet": "tiết tỉnh",
+  "pos": "v."
+ },
+ "花": {
+  "pinyin": "huā",
+  "hanviet": "hoa",
+  "pos": "n."
+ },
+ "花园": {
+  "pinyin": "huāyuán",
+  "hanviet": "hoa viên",
+  "pos": "n."
+ },
+ "花灯节": {
+  "pinyin": "Huādēng Jié",
+  "hanviet": "hoa đăng tiết",
+  "pos": "n."
+ },
+ "苹果": {
+  "pinyin": "píngguǒ",
+  "hanviet": "bình quả",
+  "pos": "n."
+ },
+ "草地": {
+  "pinyin": "cǎodì",
+  "hanviet": "thảo địa",
+  "pos": "n."
+ },
+ "落下去": {
+  "pinyin": "luò xiàqù",
+  "hanviet": "lạc hạ khứ",
+  "pos": "v."
+ },
+ "蓝": {
+  "pinyin": "lán",
+  "hanviet": "lam",
+  "pos": "adj."
+ },
+ "蓝天": {
+  "pinyin": "lántiān",
+  "hanviet": "lam thiên",
+  "pos": "n."
+ },
+ "蓝色": {
+  "pinyin": "lánsè",
+  "hanviet": "lam sắc",
+  "pos": "n."
+ },
+ "薄": {
+  "pinyin": "báo",
+  "hanviet": "bạc",
+  "pos": "adj."
+ },
+ "藏": {
+  "pinyin": "cáng",
+  "hanviet": "tàng",
+  "pos": "v."
+ },
+ "虽然": {
+  "pinyin": "suīrán",
+  "hanviet": "tuy nhiên",
+  "pos": "conj."
+ },
+ "蛋壳": {
+  "pinyin": "dànké",
+  "hanviet": "đản xác",
+  "pos": "n."
+ },
+ "蛋糕": {
+  "pinyin": "dàngāo",
+  "hanviet": "đản cao",
+  "pos": "n."
+ },
+ "蜡烛": {
+  "pinyin": "làzhú",
+  "hanviet": "lạp chúc",
+  "pos": "n."
+ },
+ "行李箱": {
+  "pinyin": "xínglǐxiāng",
+  "hanviet": "hành lý tương",
+  "pos": "n."
+ },
+ "街": {
+  "pinyin": "jiē",
+  "hanviet": "nhai",
+  "pos": "n."
+ },
+ "衣服": {
+  "pinyin": "yīfu",
+  "hanviet": "y phục",
+  "pos": "n."
+ },
+ "表姐": {
+  "pinyin": "biǎojiě",
+  "hanviet": "biểu tỷ",
+  "pos": "n."
+ },
+ "表格": {
+  "pinyin": "biǎogé",
+  "hanviet": "biểu cách",
+  "pos": "n."
+ },
+ "表演": {
+  "pinyin": "biǎoyǎn",
+  "hanviet": "biểu diễn",
+  "pos": "v."
+ },
+ "表现": {
+  "pinyin": "biǎoxiàn",
+  "hanviet": "biểu hiện",
+  "pos": "v."
+ },
+ "表达": {
+  "pinyin": "biǎodá",
+  "hanviet": "biểu đạt",
+  "pos": "v."
+ },
+ "装": {
+  "pinyin": "zhuāng",
+  "hanviet": "trang",
+  "pos": "v."
+ },
+ "装备": {
+  "pinyin": "zhuāngbèi",
+  "hanviet": "trang bị",
+  "pos": "n."
+ },
+ "装饰": {
+  "pinyin": "zhuāngshì",
+  "hanviet": "trang sức",
+  "pos": "v."
+ },
+ "西红柿": {
+  "pinyin": "xīhóngshì",
+  "hanviet": "tây hồng thị",
+  "pos": "n."
+ },
+ "要": {
+  "pinyin": "yào",
+  "hanviet": "yếu",
+  "pos": "v."
+ },
+ "见面": {
+  "pinyin": "jiànmiàn",
+  "hanviet": "kiến diện",
+  "pos": "v."
+ },
+ "观察": {
+  "pinyin": "guānchá",
+  "hanviet": "quan sát",
+  "pos": "v."
+ },
+ "规则": {
+  "pinyin": "guīzé",
+  "hanviet": "quy tắc",
+  "pos": "n."
+ },
+ "视频": {
+  "pinyin": "shìpín",
+  "hanviet": "thị tần",
+  "pos": "n."
+ },
+ "觉得": {
+  "pinyin": "juéde",
+  "hanviet": "giác đắc",
+  "pos": "v."
+ },
+ "解决": {
+  "pinyin": "jiějué",
+  "hanviet": "giải quyết",
+  "pos": "v."
+ },
+ "解释": {
+  "pinyin": "jiěshì",
+  "hanviet": "giải thích",
+  "pos": "v."
+ },
+ "计划": {
+  "pinyin": "jìhuà",
+  "hanviet": "kế hoạch",
+  "pos": "v."
+ },
+ "计算": {
+  "pinyin": "jìsuàn",
+  "hanviet": "kế toán",
+  "pos": "v."
+ },
+ "认真": {
+  "pinyin": "rènzhēn",
+  "hanviet": "nhận chân",
+  "pos": "adj."
+ },
+ "讨论": {
+  "pinyin": "tǎolùn",
+  "hanviet": "thảo luận",
+  "pos": "v."
+ },
+ "让": {
+  "pinyin": "ràng",
+  "hanviet": "nhượng",
+  "pos": "v."
+ },
+ "让给": {
+  "pinyin": "rànggěi",
+  "hanviet": "nhượng cấp",
+  "pos": "v."
+ },
+ "训练": {
+  "pinyin": "xùnliàn",
+  "hanviet": "huấn luyện",
+  "pos": "v."
+ },
+ "记": {
+  "pinyin": "jì",
+  "hanviet": "ký",
+  "pos": "v."
+ },
+ "记住": {
+  "pinyin": "jìzhù",
+  "hanviet": "ký trụ",
+  "pos": "v."
+ },
+ "记录": {
+  "pinyin": "jìlù",
+  "hanviet": "ký lục",
+  "pos": "v."
+ },
+ "记得": {
+  "pinyin": "jìde",
+  "hanviet": "ký đắc",
+  "pos": "v."
+ },
+ "记忆": {
+  "pinyin": "jìyì",
+  "hanviet": "ký ức",
+  "pos": "n."
+ },
+ "记性": {
+  "pinyin": "jìxing",
+  "hanviet": "ký tính",
+  "pos": "n."
+ },
+ "许": {
+  "pinyin": "xǔ",
+  "hanviet": "hứa",
+  "pos": "v."
+ },
+ "评价": {
+  "pinyin": "píngjià",
+  "hanviet": "bình giá",
+  "pos": "v."
+ },
+ "评委": {
+  "pinyin": "píngwěi",
+  "hanviet": "bình ủy",
+  "pos": "n."
+ },
+ "诗": {
+  "pinyin": "shī",
+  "hanviet": "thi",
+  "pos": "n."
+ },
+ "诗句": {
+  "pinyin": "shījù",
+  "hanviet": "thi cú",
+  "pos": "n."
+ },
+ "话": {
+  "pinyin": "huà",
+  "hanviet": "thoại",
+  "pos": "n."
+ },
+ "语文": {
+  "pinyin": "yǔwén",
+  "hanviet": "ngữ văn",
+  "pos": "n."
+ },
+ "语法": {
+  "pinyin": "yǔfǎ",
+  "hanviet": "ngữ pháp",
+  "pos": "n."
+ },
+ "语言": {
+  "pinyin": "yǔyán",
+  "hanviet": "ngữ ngôn",
+  "pos": "n."
+ },
+ "误会": {
+  "pinyin": "wùhuì",
+  "hanviet": "ngộ hội",
+  "pos": "v."
+ },
+ "说好": {
+  "pinyin": "shuōhǎo",
+  "hanviet": "thuyết hảo",
+  "pos": "v."
+ },
+ "说实话": {
+  "pinyin": "shuō shíhuà",
+  "hanviet": "thuyết thực thoại",
+  "pos": "phr."
+ },
+ "说话": {
+  "pinyin": "shuōhuà",
+  "hanviet": "thuyết thoại",
+  "pos": "v."
+ },
+ "请": {
+  "pinyin": "qǐng",
+  "hanviet": "thỉnh",
+  "pos": "v."
+ },
+ "课": {
+  "pinyin": "kè",
+  "hanviet": "khóa",
+  "pos": "n."
+ },
+ "调整": {
+  "pinyin": "tiáozhěng",
+  "hanviet": "điều chỉnh",
+  "pos": "v."
+ },
+ "调皮": {
+  "pinyin": "tiáopí",
+  "hanviet": "điều bì",
+  "pos": "adj."
+ },
+ "负责": {
+  "pinyin": "fùzé",
+  "hanviet": "phụ trách",
+  "pos": "v."
+ },
+ "责任": {
+  "pinyin": "zérèn",
+  "hanviet": "trách nhiệm",
+  "pos": "n."
+ },
+ "贴": {
+  "pinyin": "tiē",
+  "hanviet": "thiếp",
+  "pos": "v."
+ },
+ "贴纸": {
+  "pinyin": "tiēzhǐ",
+  "hanviet": "thiếp chỉ",
+  "pos": "n."
+ },
+ "贵": {
+  "pinyin": "guì",
+  "hanviet": "quý",
+  "pos": "adj."
+ },
+ "资料": {
+  "pinyin": "zīliào",
+  "hanviet": "tư liệu",
+  "pos": "n."
+ },
+ "走": {
+  "pinyin": "zǒu",
+  "hanviet": "tẩu",
+  "pos": "v."
+ },
+ "起": {
+  "pinyin": "qǐ",
+  "hanviet": "khởi",
+  "pos": "v."
+ },
+ "起床": {
+  "pinyin": "qǐchuáng",
+  "hanviet": "khởi sàng",
+  "pos": "v."
+ },
+ "起飞": {
+  "pinyin": "qǐfēi",
+  "hanviet": "khởi phi",
+  "pos": "v."
+ },
+ "超市": {
+  "pinyin": "chāoshì",
+  "hanviet": "siêu thị",
+  "pos": "n."
+ },
+ "越来越": {
+  "pinyin": "yuèláiyuè",
+  "hanviet": "việt lai việt",
+  "pos": "adv."
+ },
+ "跑": {
+  "pinyin": "pǎo",
+  "hanviet": "bào",
+  "pos": "v."
+ },
+ "跑道": {
+  "pinyin": "pǎodào",
+  "hanviet": "bào đạo",
+  "pos": "n."
+ },
+ "跟": {
+  "pinyin": "gēn",
+  "hanviet": "cân",
+  "pos": "prep."
+ },
+ "路": {
+  "pinyin": "lù",
+  "hanviet": "lộ",
+  "pos": "n."
+ },
+ "踏实": {
+  "pinyin": "tāshi",
+  "hanviet": "đạp thực",
+  "pos": "adj."
+ },
+ "踢足球": {
+  "pinyin": "tī zúqiú",
+  "hanviet": "thích túc cầu",
+  "pos": "phr."
+ },
+ "踩": {
+  "pinyin": "cǎi",
+  "hanviet": "thái",
+  "pos": "v."
+ },
+ "身": {
+  "pinyin": "shēn",
+  "hanviet": "thân",
+  "pos": "n."
+ },
+ "身体": {
+  "pinyin": "shēntǐ",
+  "hanviet": "thân thể",
+  "pos": "n."
+ },
+ "身边": {
+  "pinyin": "shēnbiān",
+  "hanviet": "thân biên",
+  "pos": "n."
+ },
+ "躲开": {
+  "pinyin": "duǒkāi",
+  "hanviet": "đóa khai",
+  "pos": "v."
+ },
+ "车": {
+  "pinyin": "chē",
+  "hanviet": "xa",
+  "pos": "n."
+ },
+ "车站": {
+  "pinyin": "chēzhàn",
+  "hanviet": "xa trạm",
+  "pos": "n."
+ },
+ "转学": {
+  "pinyin": "zhuǎnxué",
+  "hanviet": "chuyển học",
+  "pos": "v."
+ },
+ "轮到": {
+  "pinyin": "lúndào",
+  "hanviet": "luân đáo",
+  "pos": "v."
+ },
+ "轮子": {
+  "pinyin": "lúnzi",
+  "hanviet": "luân tử",
+  "pos": "n."
+ },
+ "轻松": {
+  "pinyin": "qīngsōng",
+  "hanviet": "khinh tùng",
+  "pos": "adj."
+ },
+ "轻轻地": {
+  "pinyin": "qīngqīngde",
+  "hanviet": "khinh khinh địa",
+  "pos": "adv."
+ },
+ "辆": {
+  "pinyin": "liàng",
+  "hanviet": "lượng",
+  "pos": "m."
+ },
+ "输赢": {
+  "pinyin": "shūyíng",
+  "hanviet": "thâu doanh",
+  "pos": "n."
+ },
+ "辛苦": {
+  "pinyin": "xīnkǔ",
+  "hanviet": "tân khổ",
+  "pos": "adj."
+ },
+ "辩论赛": {
+  "pinyin": "biànlùnsài",
+  "hanviet": "biện luận tái",
+  "pos": "n."
+ },
+ "过": {
+  "pinyin": "guo",
+  "hanviet": "quá",
+  "pos": "part."
+ },
+ "过程": {
+  "pinyin": "guòchéng",
+  "hanviet": "quá trình",
+  "pos": "n."
+ },
+ "迎接": {
+  "pinyin": "yíngjiē",
+  "hanviet": "nghênh tiếp",
+  "pos": "v."
+ },
+ "运": {
+  "pinyin": "yùn",
+  "hanviet": "vận",
+  "pos": "v."
+ },
+ "近": {
+  "pinyin": "jìn",
+  "hanviet": "cận",
+  "pos": "adj."
+ },
+ "还": {
+  "pinyin": "hái",
+  "hanviet": "hoàn",
+  "pos": "adv."
+ },
+ "这样": {
+  "pinyin": "zhèyàng",
+  "hanviet": "giá dạng",
+  "pos": "pron."
+ },
+ "进": {
+  "pinyin": "jìn",
+  "hanviet": "tiến",
+  "pos": "v."
+ },
+ "进步": {
+  "pinyin": "jìnbù",
+  "hanviet": "tiến bộ",
+  "pos": "v."
+ },
+ "远": {
+  "pinyin": "yuǎn",
+  "hanviet": "viễn",
+  "pos": "adj."
+ },
+ "远处": {
+  "pinyin": "yuǎnchù",
+  "hanviet": "viễn xứ",
+  "pos": "n."
+ },
+ "迷路": {
+  "pinyin": "mílù",
+  "hanviet": "mê lộ",
+  "pos": "v."
+ },
+ "追": {
+  "pinyin": "zhuī",
+  "hanviet": "truy",
+  "pos": "v."
+ },
+ "退": {
+  "pinyin": "tuì",
+  "hanviet": "thoái",
+  "pos": "v."
+ },
+ "送": {
+  "pinyin": "sòng",
+  "hanviet": "tống",
+  "pos": "v."
+ },
+ "适应": {
+  "pinyin": "shìyìng",
+  "hanviet": "thích ứng",
+  "pos": "v."
+ },
+ "透": {
+  "pinyin": "tòu",
+  "hanviet": "thấu",
+  "pos": "v."
+ },
+ "透过": {
+  "pinyin": "tòuguò",
+  "hanviet": "thấu quá",
+  "pos": "prep."
+ },
+ "速度": {
+  "pinyin": "sùdù",
+  "hanviet": "tốc độ",
+  "pos": "n."
+ },
+ "逻辑": {
+  "pinyin": "luóji",
+  "hanviet": "la tập",
+  "pos": "n."
+ },
+ "遇": {
+  "pinyin": "yù",
+  "hanviet": "ngộ",
+  "pos": "v."
+ },
+ "遍": {
+  "pinyin": "biàn",
+  "hanviet": "biến",
+  "pos": "m."
+ },
+ "道理": {
+  "pinyin": "dàolǐ",
+  "hanviet": "đạo lý",
+  "pos": "n."
+ },
+ "遗憾": {
+  "pinyin": "yíhàn",
+  "hanviet": "di hám",
+  "pos": "adj."
+ },
+ "邀请": {
+  "pinyin": "yāoqǐng",
+  "hanviet": "yêu thỉnh",
+  "pos": "v."
+ },
+ "那么": {
+  "pinyin": "nàme",
+  "hanviet": "na ma",
+  "pos": "adv."
+ },
+ "邻居": {
+  "pinyin": "línjū",
+  "hanviet": "lân cư",
+  "pos": "n."
+ },
+ "部": {
+  "pinyin": "bù",
+  "hanviet": "bộ",
+  "pos": "m."
+ },
+ "部分": {
+  "pinyin": "bùfen",
+  "hanviet": "bộ phận",
+  "pos": "n."
+ },
+ "酒店": {
+  "pinyin": "jiǔdiàn",
+  "hanviet": "tửu điếm",
+  "pos": "n."
+ },
+ "酸": {
+  "pinyin": "suān",
+  "hanviet": "toan",
+  "pos": "adj."
+ },
+ "酸痛": {
+  "pinyin": "suāntòng",
+  "hanviet": "toan thống",
+  "pos": "adj."
+ },
+ "重要": {
+  "pinyin": "zhòngyào",
+  "hanviet": "trọng yếu",
+  "pos": "adj."
+ },
+ "金黄色": {
+  "pinyin": "jīnhuángsè",
+  "hanviet": "kim hoàng sắc",
+  "pos": "n."
+ },
+ "钟": {
+  "pinyin": "zhōng",
+  "hanviet": "chung",
+  "pos": "n."
+ },
+ "钟声": {
+  "pinyin": "zhōngshēng",
+  "hanviet": "chung thanh",
+  "pos": "n."
+ },
+ "钢琴": {
+  "pinyin": "gāngqín",
+  "hanviet": "cương cầm",
+  "pos": "n."
+ },
+ "钥匙": {
+  "pinyin": "yàoshi",
+  "hanviet": "thược thi",
+  "pos": "n."
+ },
+ "钥匙链": {
+  "pinyin": "yàoshiliàn",
+  "hanviet": "thược thi liên",
+  "pos": "n."
+ },
+ "错怪": {
+  "pinyin": "cuòguài",
+  "hanviet": "thác quái",
+  "pos": "v."
+ },
+ "镇定": {
+  "pinyin": "zhèndìng",
+  "hanviet": "trấn định",
+  "pos": "adj."
+ },
+ "镜子": {
+  "pinyin": "jìngzi",
+  "hanviet": "kính tử",
+  "pos": "n."
+ },
+ "长": {
+  "pinyin": "cháng",
+  "hanviet": "trường",
+  "pos": "adj."
+ },
+ "长城": {
+  "pinyin": "Chángchéng",
+  "hanviet": "trường thành",
+  "pos": "n."
+ },
+ "长跑": {
+  "pinyin": "chángpǎo",
+  "hanviet": "trường bào",
+  "pos": "n."
+ },
+ "门": {
+  "pinyin": "mén",
+  "hanviet": "môn",
+  "pos": "n."
+ },
+ "门口": {
+  "pinyin": "ménkǒu",
+  "hanviet": "môn khẩu",
+  "pos": "n."
+ },
+ "门锁着": {
+  "pinyin": "mén suǒzhe",
+  "hanviet": "môn tỏa trước",
+  "pos": "phr."
+ },
+ "问": {
+  "pinyin": "wèn",
+  "hanviet": "vấn",
+  "pos": "v."
+ },
+ "问题": {
+  "pinyin": "wèntí",
+  "hanviet": "vấn đề",
+  "pos": "n."
+ },
+ "闻": {
+  "pinyin": "wén",
+  "hanviet": "văn",
+  "pos": "v."
+ },
+ "阳光": {
+  "pinyin": "yángguāng",
+  "hanviet": "dương quang",
+  "pos": "n."
+ },
+ "阳台": {
+  "pinyin": "yángtái",
+  "hanviet": "dương đài",
+  "pos": "n."
+ },
+ "附近": {
+  "pinyin": "fùjìn",
+  "hanviet": "phụ cận",
+  "pos": "n."
+ },
+ "降落": {
+  "pinyin": "jiàngluò",
+  "hanviet": "giáng lạc",
+  "pos": "v."
+ },
+ "除夕": {
+  "pinyin": "chúxī",
+  "hanviet": "trừ tịch",
+  "pos": "n."
+ },
+ "陪": {
+  "pinyin": "péi",
+  "hanviet": "bồi",
+  "pos": "v."
+ },
+ "陪伴": {
+  "pinyin": "péibàn",
+  "hanviet": "bồi bạn",
+  "pos": "v."
+ },
+ "随便": {
+  "pinyin": "suíbiàn",
+  "hanviet": "tùy tiện",
+  "pos": "adj."
+ },
+ "随时": {
+  "pinyin": "suíshí",
+  "hanviet": "tùy thời",
+  "pos": "adv."
+ },
+ "隔壁": {
+  "pinyin": "gébì",
+  "hanviet": "cách bích",
+  "pos": "n."
+ },
+ "难": {
+  "pinyin": "nán",
+  "hanviet": "nan",
+  "pos": "adj."
+ },
+ "难倒": {
+  "pinyin": "nándǎo",
+  "hanviet": "nan đảo",
+  "pos": "v."
+ },
+ "难忘": {
+  "pinyin": "nánwàng",
+  "hanviet": "nan vong",
+  "pos": "adj."
+ },
+ "难过": {
+  "pinyin": "nánguò",
+  "hanviet": "nan quá",
+  "pos": "adj."
+ },
+ "集中注意力": {
+  "pinyin": "jízhōng zhùyìlì",
+  "hanviet": "tập trung chú ý lực",
+  "pos": "phr."
+ },
+ "雨伞": {
+  "pinyin": "yǔsǎn",
+  "hanviet": "vũ tán",
+  "pos": "n."
+ },
+ "雪": {
+  "pinyin": "xuě",
+  "hanviet": "tuyết",
+  "pos": "n."
+ },
+ "雪人": {
+  "pinyin": "xuěrén",
+  "hanviet": "tuyết nhân",
+  "pos": "n."
+ },
+ "静": {
+  "pinyin": "jìng",
+  "hanviet": "tĩnh",
+  "pos": "adj."
+ },
+ "非常": {
+  "pinyin": "fēicháng",
+  "hanviet": "phi thường",
+  "pos": "adv."
+ },
+ "靠": {
+  "pinyin": "kào",
+  "hanviet": "kháo",
+  "pos": "v."
+ },
+ "面前": {
+  "pinyin": "miànqián",
+  "hanviet": "diện tiền",
+  "pos": "n."
+ },
+ "面对": {
+  "pinyin": "miànduì",
+  "hanviet": "diện đối",
+  "pos": "v."
+ },
+ "面条": {
+  "pinyin": "miàntiáo",
+  "hanviet": "miến điều",
+  "pos": "n."
+ },
+ "面粉": {
+  "pinyin": "miànfěn",
+  "hanviet": "miến phấn",
+  "pos": "n."
+ },
+ "音乐": {
+  "pinyin": "yīnyuè",
+  "hanviet": "âm nhạc",
+  "pos": "n."
+ },
+ "音调": {
+  "pinyin": "yīndiào",
+  "hanviet": "âm điệu",
+  "pos": "n."
+ },
+ "页": {
+  "pinyin": "yè",
+  "hanviet": "hiệt",
+  "pos": "m."
+ },
+ "项": {
+  "pinyin": "xiàng",
+  "hanviet": "hạng",
+  "pos": "m."
+ },
+ "顺利": {
+  "pinyin": "shùnlì",
+  "hanviet": "thuận lợi",
+  "pos": "adj."
+ },
+ "顺序": {
+  "pinyin": "shùnxù",
+  "hanviet": "thuận tự",
+  "pos": "n."
+ },
+ "顺手": {
+  "pinyin": "shùnshǒu",
+  "hanviet": "thuận thủ",
+  "pos": "adj."
+ },
+ "顿": {
+  "pinyin": "dùn",
+  "hanviet": "đốn",
+  "pos": "m."
+ },
+ "颜色": {
+  "pinyin": "yánsè",
+  "hanviet": "nhan sắc",
+  "pos": "n."
+ },
+ "颤抖": {
+  "pinyin": "chàndǒu",
+  "hanviet": "chiến đẩu",
+  "pos": "v."
+ },
+ "风": {
+  "pinyin": "fēng",
+  "hanviet": "phong",
+  "pos": "n."
+ },
+ "风景": {
+  "pinyin": "fēngjǐng",
+  "hanviet": "phong cảnh",
+  "pos": "n."
+ },
+ "飘": {
+  "pinyin": "piāo",
+  "hanviet": "phiêu",
+  "pos": "v."
+ },
+ "食物": {
+  "pinyin": "shíwù",
+  "hanviet": "thực vật",
+  "pos": "n."
+ },
+ "饮料": {
+  "pinyin": "yǐnliào",
+  "hanviet": "ẩm liệu",
+  "pos": "n."
+ },
+ "饺子": {
+  "pinyin": "jiǎozi",
+  "hanviet": "giáo tử",
+  "pos": "n."
+ },
+ "馆": {
+  "pinyin": "guǎn",
+  "hanviet": "quán",
+  "pos": "n."
+ },
+ "香": {
+  "pinyin": "xiāng",
+  "hanviet": "hương",
+  "pos": "adj."
+ },
+ "香草": {
+  "pinyin": "xiāngcǎo",
+  "hanviet": "hương thảo",
+  "pos": "n."
+ },
+ "马上": {
+  "pinyin": "mǎshàng",
+  "hanviet": "mã thượng",
+  "pos": "adv."
+ },
+ "马马虎虎": {
+  "pinyin": "mǎmǎhūhū",
+  "hanviet": "mã mã hổ hổ",
+  "pos": "adj."
+ },
+ "骄傲": {
+  "pinyin": "jiāo’ào",
+  "hanviet": "kiêu ngạo",
+  "pos": "adj."
+ },
+ "骑": {
+  "pinyin": "qí",
+  "hanviet": "kỵ",
+  "pos": "v."
+ },
+ "鸡蛋": {
+  "pinyin": "jīdàn",
+  "hanviet": "kê đản",
+  "pos": "n."
+ },
+ "麻烦": {
+  "pinyin": "máfan",
+  "hanviet": "ma phiền",
+  "pos": "adj."
+ },
+ "黄色": {
+  "pinyin": "huángsè",
+  "hanviet": "hoàng sắc",
+  "pos": "n."
+ },
+ "黑": {
+  "pinyin": "hēi",
+  "hanviet": "hắc",
+  "pos": "adj."
+ },
+ "黑板": {
+  "pinyin": "hēibǎn",
+  "hanviet": "hắc bản",
+  "pos": "n."
+ },
+ "鼓励": {
+  "pinyin": "gǔlì",
+  "hanviet": "cổ lệ",
+  "pos": "v."
+ },
+ "鼓掌": {
+  "pinyin": "gǔzhǎng",
+  "hanviet": "cổ chưởng",
+  "pos": "v."
+ }
+}

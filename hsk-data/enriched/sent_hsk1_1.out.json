@@ -1,0 +1,124 @@
+[
+ {
+  "group": "hsk1",
+  "no": 1,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ měitiān qī diǎn qǐchuáng.", "vi": "Mỗi ngày tôi thức dậy lúc bảy giờ.", "grammar": ["数字 + 点 (giờ)"]},
+   {"idx": 2, "pinyin": "Qǐchuáng yǐhòu, wǒ hē yì bēi niúnǎi, chī yí gè jīdàn.", "vi": "Sau khi thức dậy, tôi uống một cốc sữa bò, ăn một quả trứng gà.", "grammar": ["……以后 (sau khi…)"]},
+   {"idx": 3, "pinyin": "Bā diǎn, wǒ qù xuéxiào, gēn péngyoumen yìqǐ shàngkè.", "vi": "Tám giờ, tôi đến trường, cùng các bạn lên lớp.", "grammar": ["数字 + 点 (giờ)", "一起 (cùng nhau)"]},
+   {"idx": 4, "pinyin": "Zhōngwǔ, wǒ zài xuéxiào chīfàn, yě gēn péngyou liáotiān.", "vi": "Buổi trưa, tôi ăn cơm ở trường, cũng trò chuyện với bạn bè.", "grammar": []},
+   {"idx": 5, "pinyin": "Xiàwǔ sān diǎn, wǒmen shàngwán kè.", "vi": "Ba giờ chiều, chúng tôi học xong.", "grammar": ["数字 + 点 (giờ)"]},
+   {"idx": 6, "pinyin": "Wǒ huí jiā, kàn yíhuìr shū, yě kàn diànshì.", "vi": "Tôi về nhà, đọc sách một lúc, cũng xem tivi.", "grammar": []},
+   {"idx": 7, "pinyin": "Wǎnshang, wǒmen yìjiā rén yìqǐ chīfàn, hěn gāoxìng.", "vi": "Buổi tối, cả nhà tôi cùng nhau ăn cơm, rất vui.", "grammar": ["一起 (cùng nhau)"]},
+   {"idx": 8, "pinyin": "Jiǔ diǎn bàn, wǒ shuìjiào.", "vi": "Chín giờ rưỡi, tôi đi ngủ.", "grammar": ["数字 + 点 (giờ)"]}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 2,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ de fángjiān bú dà, dànshì hěn gānjìng.", "vi": "Phòng của tôi không lớn, nhưng rất sạch sẽ.", "grammar": ["但是 (nhưng)"]},
+   {"idx": 2, "pinyin": "Fángjiān li yǒu yì zhāng zhuōzi, yì bǎ yǐzi, hái yǒu yì zhāng chuáng.", "vi": "Trong phòng có một cái bàn, một cái ghế, còn có một cái giường.", "grammar": []},
+   {"idx": 3, "pinyin": "Zhuōzi shang yǒu jǐ běn shū hé yì tái diànnǎo.", "vi": "Trên bàn có mấy quyển sách và một chiếc máy tính.", "grammar": []},
+   {"idx": 4, "pinyin": "Qiáng shang yǒu yì zhāng zhàopiàn, shì wǒ hé bàba māma de zhàopiàn.", "vi": "Trên tường có một tấm ảnh, là ảnh của tôi với bố mẹ.", "grammar": []},
+   {"idx": 5, "pinyin": "Wǒ hěn xǐhuan wǒ de fángjiān, yīnwèi zài zhèlǐ wǒ kěyǐ kànshū, yě kěyǐ tīng yīnyuè.", "vi": "Tôi rất thích phòng của mình, vì ở đây tôi có thể đọc sách, cũng có thể nghe nhạc.", "grammar": ["因为……", "也 (cũng)"]},
+   {"idx": 6, "pinyin": "Měitiān wǎnshang, wǒ dōu zài zhège fángjiān shuìjiào.", "vi": "Mỗi buổi tối, tôi đều ngủ trong căn phòng này.", "grammar": []}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 3,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ jiā yǒu sì gè rén: bàba, māma, jiějie hé wǒ.", "vi": "Nhà tôi có bốn người: bố, mẹ, chị gái và tôi.", "grammar": []},
+   {"idx": 2, "pinyin": "Bàba shì yīshēng, zài yīyuàn gōngzuò, tā hěn máng, dànshì měitiān dōu huí jiā chī wǎnfàn.", "vi": "Bố là bác sĩ, làm việc ở bệnh viện, bố rất bận, nhưng ngày nào cũng về nhà ăn cơm tối.", "grammar": ["在 + nơi chốn + V"]},
+   {"idx": 3, "pinyin": "Māma shì lǎoshī, zài xuéxiào jiāo xuésheng.", "vi": "Mẹ là giáo viên, dạy học sinh ở trường.", "grammar": ["在 + nơi chốn + V"]},
+   {"idx": 4, "pinyin": "Jiějie bǐ wǒ dà sān suì, tā zài dàxué xuéxí.", "vi": "Chị gái lớn hơn tôi ba tuổi, chị học ở trường đại học.", "grammar": ["比 + Adj (so sánh hơn)", "在 + nơi chốn + V"]},
+   {"idx": 5, "pinyin": "Wǒmen jiā hěn xiǎo, dànshì wǒmen dōu hěn ài bǐcǐ.", "vi": "Nhà tôi rất nhỏ, nhưng chúng tôi đều rất yêu thương nhau.", "grammar": ["都 (đều)"]},
+   {"idx": 6, "pinyin": "Xīngqītiān, wǒmen xǐhuan yìqǐ qù gōngyuán zǒuzou.", "vi": "Chủ nhật, chúng tôi thích cùng nhau đi công viên dạo bộ.", "grammar": []}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 4,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ yǒu yí gè hěn hǎo de péngyou, tā jiào Xiǎomíng.", "vi": "Tôi có một người bạn rất tốt, cậu ấy tên là 小明.", "grammar": []},
+   {"idx": 2, "pinyin": "Xiǎomíng hé wǒ shì tóngxué, wǒmen zài tóng yí gè xuéxiào xuéxí.", "vi": "小明 và tôi là bạn học, chúng tôi học cùng một trường.", "grammar": []},
+   {"idx": 3, "pinyin": "Tā hěn cōngming, yě hěn xǐhuan bāngzhù biéren.", "vi": "Cậu ấy rất thông minh, cũng rất thích giúp đỡ người khác.", "grammar": []},
+   {"idx": 4, "pinyin": "Wǒmen xǐhuan yìqǐ zuò zuòyè, yìqǐ wánr yóuxì.", "vi": "Chúng tôi thích cùng nhau làm bài tập, cùng nhau chơi trò chơi.", "grammar": []},
+   {"idx": 5, "pinyin": "Yǒu yí cì, wǒ shēngbìng le, Xiǎomíng lái wǒ jiā kàn wǒ, hái gěi wǒ dài le shuǐguǒ.", "vi": "Có một lần, tôi bị ốm, 小明 đến nhà thăm tôi, còn mang hoa quả cho tôi nữa.", "grammar": ["有一次 (có một lần)", "还 (còn, hơn nữa)"]},
+   {"idx": 6, "pinyin": "Wǒ juéde, néng yǒu zhèyàng de péngyou, wǒ hěn xìngyùn.", "vi": "Tôi cảm thấy, có được người bạn như vậy, tôi rất may mắn.", "grammar": ["觉得 (cảm thấy, cho rằng)"]}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 5,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ jiā yǒu yì zhī māo, tā shì báisè de, hěn piàoliang.", "vi": "Nhà tôi có một con mèo, nó màu trắng, rất đẹp.", "grammar": []},
+   {"idx": 2, "pinyin": "Māo de míngzi jiào Xiǎoxuě, yīnwèi tā gēn xuě yíyàng bái.", "vi": "Con mèo tên là 小雪, vì nó trắng giống như tuyết.", "grammar": ["跟……一样 (giống như…)"]},
+   {"idx": 3, "pinyin": "Xiǎoxuě hěn xǐhuan shuìjiào, yìtiān yào shuì hěn cháng shíjiān.", "vi": "小雪 rất thích ngủ, một ngày phải ngủ rất lâu.", "grammar": ["要 (sẽ, cần)"]},
+   {"idx": 4, "pinyin": "Tā yě xǐhuan wánr, tèbié shì wánr yí gè xiǎo qiú.", "vi": "Nó cũng thích chơi, đặc biệt là chơi một quả bóng nhỏ.", "grammar": []},
+   {"idx": 5, "pinyin": "Měitiān, wǒ xiàkè huí jiā, Xiǎoxuě dōu zài ménkǒu děng wǒ.", "vi": "Mỗi ngày, khi tôi tan học về nhà, 小雪 đều đợi tôi ở cửa.", "grammar": []},
+   {"idx": 6, "pinyin": "Kàndào tā, wǒ yìtiān de lèi dōu méiyǒu le.", "vi": "Nhìn thấy nó, bao mệt mỏi cả ngày của tôi đều tan biến hết.", "grammar": ["都……了 (đều đã…)"]}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 6,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ de xuéxiào bú tài dà, dànshì hěn piàoliang.", "vi": "Trường của tôi không lớn lắm, nhưng rất đẹp.", "grammar": ["不太 (không quá…)"]},
+   {"idx": 2, "pinyin": "Xuéxiào li yǒu hěn duō shù, chūntiān de shíhou, huā kāi le, fēicháng hǎokàn.", "vi": "Trong trường có rất nhiều cây, khi mùa xuân đến, hoa nở, vô cùng đẹp mắt.", "grammar": ["……的时候 (khi…)"]},
+   {"idx": 3, "pinyin": "Wǒmen de jiàoshì zài èr lóu, jiàoshì bú dà, dànshì hěn gānjìng.", "vi": "Lớp học của chúng tôi ở tầng hai, lớp học không lớn, nhưng rất sạch sẽ.", "grammar": []},
+   {"idx": 4, "pinyin": "Xuéxiào li hái yǒu yí gè túshūguǎn, wǒ chángcháng qù nàr kànshū.", "vi": "Trong trường còn có một thư viện, tôi thường xuyên đến đó đọc sách.", "grammar": ["常常 (thường xuyên)"]},
+   {"idx": 5, "pinyin": "Zhōngwǔ, wǒmen zài xuéxiào chīfàn, fàncài bú guì, yě hěn hǎochī.", "vi": "Buổi trưa, chúng tôi ăn cơm ở trường, cơm canh không đắt, cũng rất ngon.", "grammar": []},
+   {"idx": 6, "pinyin": "Wǒ hěn xǐhuan wǒ de xuéxiào.", "vi": "Tôi rất thích trường của mình.", "grammar": []}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 7,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ de Zhōngwén lǎoshī xìng Wáng, wǒmen dōu jiào tā Wáng lǎoshī.", "vi": "Cô giáo tiếng Trung của tôi họ Vương, chúng tôi đều gọi cô là cô Vương.", "grammar": []},
+   {"idx": 2, "pinyin": "Wáng lǎoshī shuōhuà hěn màn, suǒyǐ wǒmen dōu néng tīngdǒng.", "vi": "Cô Vương nói rất chậm, cho nên chúng tôi đều có thể nghe hiểu.", "grammar": ["所以 (cho nên)"]},
+   {"idx": 3, "pinyin": "Tā měi cì shàngkè dōu hěn yǒuyìsi, wǒmen dōu hěn xǐhuan tā de kè.", "vi": "Mỗi lần cô lên lớp đều rất thú vị, chúng tôi đều rất thích giờ học của cô.", "grammar": []},
+   {"idx": 4, "pinyin": "Rúguǒ wǒmen yǒu wèntí, Wáng lǎoshī huì yìzhí bāng wǒmen, zhídào wǒmen míngbai.", "vi": "Nếu chúng tôi có câu hỏi, cô Vương sẽ luôn giúp chúng tôi cho đến khi chúng tôi hiểu mới thôi.", "grammar": ["如果……(会)…… (nếu…thì…)"]},
+   {"idx": 5, "pinyin": "Tā yě chángcháng shuō: \"Xuéxí Zhōngwén bù nán, zhǐyào nǐ měitiān dōu liànxí.\"", "vi": "Cô cũng thường nói: \"Học tiếng Trung không khó, chỉ cần bạn luyện tập mỗi ngày.\"", "grammar": ["只要…… (chỉ cần…)"]},
+   {"idx": 6, "pinyin": "Wǒ juéde, néng yǒu zhèyàng de lǎoshī, wǒ hěn gāoxìng.", "vi": "Tôi cảm thấy, có được cô giáo như vậy, tôi rất vui.", "grammar": []}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 8,
+  "sentences": [
+   {"idx": 1, "pinyin": "Xīngqītiān, wǒ bú yòng qù xuéxiào, kěyǐ shuì de wǎn yìdiǎnr.", "vi": "Chủ nhật, tôi không phải đến trường, có thể ngủ dậy muộn hơn một chút.", "grammar": ["V + 得 + Adj (bổ ngữ mức độ)"]},
+   {"idx": 2, "pinyin": "Zǎoshang, wǒ gēn bàba māma yìqǐ chī zǎofàn, wǒmen liáo le hěn duō shìqing.", "vi": "Buổi sáng, tôi cùng bố mẹ ăn sáng, chúng tôi trò chuyện rất nhiều chuyện.", "grammar": []},
+   {"idx": 3, "pinyin": "Shàngwǔ, wǒ xǐhuan qù gōngyuán zǒuzou, kànkan nàr de huā hé shù.", "vi": "Buổi sáng, tôi thích ra công viên đi dạo, ngắm hoa và cây ở đó.", "grammar": []},
+   {"idx": 4, "pinyin": "Xiàwǔ, wǒ chángcháng zài jiā kànshū, huòzhě tīng yīnyuè, hěn shūfu.", "vi": "Buổi chiều, tôi thường ở nhà đọc sách, hoặc nghe nhạc, rất thoải mái.", "grammar": ["或者 (hoặc)"]},
+   {"idx": 5, "pinyin": "Wǎnshang, quánjiā rén yìqǐ kàn diànshì, yìqǐ chī shuǐguǒ.", "vi": "Buổi tối, cả nhà cùng nhau xem tivi, cùng nhau ăn hoa quả.", "grammar": []},
+   {"idx": 6, "pinyin": "Xīngqītiān suīrán hěn duǎn, dànshì wǒ hěn xǐhuan zhè yì tiān.", "vi": "Chủ nhật tuy rất ngắn ngủi, nhưng tôi rất thích ngày này.", "grammar": ["虽然……但是…… (tuy…nhưng…)"]}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 9,
+  "sentences": [
+   {"idx": 1, "pinyin": "Xià gè xīngqīsān shì wǒ de shēngrì, wǒ jīnnián èrshí suì le.", "vi": "Thứ tư tuần sau là sinh nhật của tôi, năm nay tôi hai mươi tuổi rồi.", "grammar": []},
+   {"idx": 2, "pinyin": "Māma shuō, tā yào gěi wǒ zuò yí gè dà dàngāo.", "vi": "Mẹ nói, mẹ sẽ làm cho tôi một chiếc bánh kem to.", "grammar": ["给 + người + V (làm gì cho ai)"]},
+   {"idx": 3, "pinyin": "Bàba wèn wǒ xiǎng yào shénme lǐwù, wǒ shuō wǒ xiǎng yào yì běn shū.", "vi": "Bố hỏi tôi muốn quà gì, tôi nói tôi muốn có một quyển sách.", "grammar": ["想要 (muốn có)"]},
+   {"idx": 4, "pinyin": "Wǒ hái xiǎng qǐng jǐ gè hǎo péngyou lái wǒ jiā, yìqǐ chīfàn, yìqǐ chànggē.", "vi": "Tôi còn muốn mời mấy người bạn thân đến nhà tôi, cùng ăn cơm, cùng hát.", "grammar": []},
+   {"idx": 5, "pinyin": "Suīrán shēngrì yì nián zhǐyǒu yí cì, dànshì yǒu jiārén hé péngyou zài shēnbiān, měi yí cì dōu hěn tèbié.", "vi": "Tuy sinh nhật mỗi năm chỉ có một lần, nhưng có gia đình và bạn bè ở bên cạnh, mỗi lần đều rất đặc biệt.", "grammar": ["一年只有一次 (mỗi năm chỉ một lần)"]},
+   {"idx": 6, "pinyin": "Wǒ hěn qīdài xià xīngqīsān de dàolái.", "vi": "Tôi rất mong chờ thứ tư tuần sau đến.", "grammar": []}
+  ]
+ },
+ {
+  "group": "hsk1",
+  "no": 10,
+  "sentences": [
+   {"idx": 1, "pinyin": "Wǒ měitiān dōu chī yí gè píngguǒ, yīnwèi píngguǒ duì shēntǐ hěn hǎo.", "vi": "Mỗi ngày tôi đều ăn một quả táo, vì táo rất tốt cho sức khỏe.", "grammar": ["对……很好 (tốt cho…)"]},
+   {"idx": 2, "pinyin": "Māma cháng shuō: \"Yì tiān yí gè píngguǒ, yīshēng bú yòng lái zhǎo wǒ.\"", "vi": "Mẹ thường nói: \"Mỗi ngày một quả táo, bác sĩ không cần đến tìm tôi.\"", "grammar": []},
+   {"idx": 3, "pinyin": "Hóng píngguǒ hěn tián, lǜ píngguǒ yǒu yìdiǎnr suān, wǒ gèng xǐhuan hóng de.", "vi": "Táo đỏ rất ngọt, táo xanh hơi chua một chút, tôi thích táo đỏ hơn.", "grammar": ["更 (càng, hơn)"]},
+   {"idx": 4, "pinyin": "Zǎoshang chī yí gè píngguǒ, wǒ huì juéde hěn yǒu jīngshen.", "vi": "Buổi sáng ăn một quả táo, tôi sẽ cảm thấy rất tỉnh táo, khỏe khoắn.", "grammar": []},
+   {"idx": 5, "pinyin": "Shāngdiàn li de píngguǒ bú guì, yì jīn cái jǐ kuài qián.", "vi": "Táo trong cửa hàng không đắt, một cân chỉ có mấy đồng thôi.", "grammar": ["才 (chỉ, mới)"]},
+   {"idx": 6, "pinyin": "Nǐ ne? Nǐ xǐhuan chī píngguǒ ma?", "vi": "Còn bạn thì sao? Bạn có thích ăn táo không?", "grammar": []}
+  ]
+ }
+]

@@ -1,0 +1,560 @@
+[
+ {
+  "group": "hsk2ht",
+  "no": 37,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, nǐ qùguo Chéngdū ma?",
+    "vi": "Mình là 德盛. 云英, cậu đã đến Thành Đô bao giờ chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Qùguo, wǒ qùguo liǎng cì, yí cì shì chūntiān, yí cì shì qiūtiān.",
+    "vi": "Rồi, mình đến đó hai lần rồi, một lần vào mùa xuân, một lần vào mùa thu.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Nà wǒmen jīntiān jiù liáoliao \"Chéngdū shénme jìjié zuì měi\" zhège huàtí ba.",
+    "vi": "Vậy hôm nay chúng ta nói về chủ đề \"Thành Đô mùa nào đẹp nhất\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Hǎo a, Déshèng, nǐ juéde, yí gè chéngshì, huì bú huì yīnwèi jìjié bù yíyàng, gǎnjué yě bù yíyàng?",
+    "vi": "Được thôi. 德盛, cậu có thấy là một thành phố, mùa khác nhau thì cảm giác cũng khác nhau không?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Yīnggāi huì ba, búguò wǒ méiyǒu zǐxì xiǎngguo zhège wèntí.",
+    "vi": "Chắc là có, nhưng mà mình chưa nghĩ kỹ về chuyện này bao giờ.",
+    "grammar": ["应该……不过…… (chắc là…tuy nhiên…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Wǒ dì yī cì qù Chéngdū shì chūntiān, nà shíhou dàochù dōu shì huā, tèbié piàoliang.",
+    "vi": "Lần đầu mình đến Thành Đô là mùa xuân, lúc đó hoa nở khắp nơi, đẹp lắm.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Nà qiūtiān qù, gǎnjué zěnmeyàng?",
+    "vi": "Thế đi vào mùa thu thì cảm giác thế nào?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Qiūtiān de Chéngdū, tiānqì hěn shūfu, bù lěng bú rè, shùyè yě kāishǐ biàn sè, hěn yǒu wèidào.",
+    "vi": "Thành Đô mùa thu thời tiết rất dễ chịu, không lạnh không nóng, lá cây cũng bắt đầu đổi màu, rất có phong vị.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, hǎoxiàng měi gè jìjié dōu hěn měi.",
+    "vi": "Nghe cậu nói vậy, hình như mùa nào cũng đẹp cả.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Duì, wǒ juéde, yí gè chéngshì bùtóng de jìjié, jiù xiàng chuān bùtóng de yīfu.",
+    "vi": "Đúng vậy, mình thấy một thành phố vào những mùa khác nhau giống như mặc những bộ quần áo khác nhau vậy.",
+    "grammar": ["就像……一样 (giống như…)"]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Yīfu? Wèi shénme zhème shuō?",
+    "vi": "Quần áo á? Sao cậu lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, tóng yí gè rén, chuān bù yíyàng de yīfu, huì gěi rén bù yíyàng de gǎnjué, dànshì dōu hěn hǎokàn.",
+    "vi": "Cậu nghĩ xem, cùng một người, mặc quần áo khác nhau sẽ cho người ta cảm giác khác nhau, nhưng bộ nào cũng đẹp.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, chūntiān de Chéngdū hé qiūtiān de Chéngdū, jiù xiàng chuānzhe bù yíyàng \"yīfu\" de tóng yí gè rén.",
+    "vi": "Ồ, mình hiểu rồi, Thành Đô mùa xuân và Thành Đô mùa thu giống như cùng một người mặc hai bộ \"quần áo\" khác nhau.",
+    "grammar": ["就像……一样 (giống như…)"]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Méi cuò, suǒyǐ wǒ juéde, hěn nán shuō nǎge jìjié \"zuì\" měi, yīnwèi měi gè jìjié, dōu yǒu zìjǐ de měi.",
+    "vi": "Đúng vậy, cho nên mình thấy khó mà nói mùa nào là đẹp \"nhất\", vì mùa nào cũng có nét đẹp riêng của nó.",
+    "grammar": ["很难说…… (khó mà nói…)"]
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Zhème shuō dehuà, rúguǒ wǒ yào qù Chéngdū, shì bú shì shénme shíhou qù dōu kěyǐ?",
+    "vi": "Nói vậy thì nếu mình muốn đi Thành Đô, đi lúc nào cũng được phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Wǒ juéde kěyǐ, zhǐyào nǐ xǐhuan nà zhǒng jìjié de gǎnjué, shénme shíhou qù dōu huì yǒu shōuhuò.",
+    "vi": "Mình thấy được, chỉ cần cậu thích cảm giác của mùa đó thì đi lúc nào cũng sẽ có thu hoạch.",
+    "grammar": ["只要……就…… (chỉ cần…thì…)"]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ yě xiǎng zhǎo shíjiān qù Chéngdū kànkan.",
+    "vi": "Nghe cậu nói vậy, mình cũng muốn tìm thời gian đi Thành Đô xem sao.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo a, nǐ kěyǐ xiān xiǎngxiang, zìjǐ gèng xǐhuan huā kāi de chūntiān, háishi liángliáng de qiūtiān.",
+    "vi": "Được đó, cậu có thể nghĩ trước xem mình thích mùa xuân hoa nở hơn hay là mùa thu mát mẻ hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ juédìng le, děng wǒ xiǎng hǎo le, jiù jìhuà yí cì Chéngdū de lǚxíng.",
+    "vi": "Được, mình quyết định rồi, đợi mình nghĩ xong sẽ lên kế hoạch cho một chuyến đi Thành Đô.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay chúng ta nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại mọi người lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 38,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, rúguǒ kěyǐ qù rènhé dìfang lǚyóu, nǐ zuì xiǎng qù nǎlǐ?",
+    "vi": "Mình là 德盛. 云英, nếu có thể đi du lịch bất cứ nơi nào, cậu muốn đi đâu nhất?",
+    "grammar": ["如果……最想…… (nếu…thì muốn nhất…)"]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Wǒ xiǎng le hěn jiǔ, wǒ zuì xiǎng qù de dìfang shì Bīngdǎo.",
+    "vi": "Mình nghĩ lâu lắm rồi, nơi mình muốn đến nhất là Iceland.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Bīngdǎo? Nà wǒmen jīntiān jiù liáoliao \"zuì xiǎng qù nǎlǐ lǚyóu\" zhège huàtí ba.",
+    "vi": "Iceland á? Vậy hôm nay chúng ta nói về chủ đề \"thích đi du lịch ở đâu nhất\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Hǎo a, Déshèng, nǐ zuì xiǎng qù nǎlǐ?",
+    "vi": "Được thôi. 德盛, cậu muốn đi đâu nhất?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Wǒ zuì xiǎng qù Rìběn, wǒ yìzhí hěn xiǎng kànkan nàlǐ de yīnghuā hé chéngshì.",
+    "vi": "Mình muốn đi Nhật Bản nhất, mình vẫn luôn muốn ngắm hoa anh đào và các thành phố ở đó.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhèxiē dōu shì hěn hǎo de dìfang. Kěshì Déshèng, nǐ wèi shénme yìzhí méiyǒu qù ne?",
+    "vi": "Những nơi đó đều rất tuyệt. Nhưng mà 德盛, sao cậu vẫn chưa đi vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Kěnéng shì yīnwèi gōngzuò máng, yě kěnéng shì qián hái méiyǒu zhǔnbèi hǎo.",
+    "vi": "Có thể là vì công việc bận, cũng có thể là tiền vẫn chưa chuẩn bị đủ.",
+    "grammar": ["可能是……也可能是…… (có thể là…cũng có thể là…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Wǒ yě shì zhèyàng, suīrán yìzhí xiǎng qù Bīngdǎo, dànshì dào xiànzài hái méiyǒu qù.",
+    "vi": "Mình cũng vậy, tuy vẫn luôn muốn đi Iceland nhưng đến giờ vẫn chưa đi được.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Nà nǐ huì bú huì juéde yǒudiǎnr yíhàn?",
+    "vi": "Thế cậu có thấy hơi tiếc không?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Bú huì, wǒ juéde, xīnlǐ yìzhí xiǎng qù de dìfang, jiù xiàng yì kē zhòng zài xīnlǐ de zhǒngzi.",
+    "vi": "Không đâu, mình thấy nơi mà trong lòng vẫn luôn muốn đến giống như một hạt giống được gieo trong tim vậy.",
+    "grammar": ["就像…… (giống như…)"]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Zhǒngzi? Wèi shénme zhème shuō?",
+    "vi": "Hạt giống á? Sao cậu lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, zhǒngzi zhòng xiàqù yǐhòu, suīrán hái méiyǒu zhǎng dà, dànshì tā yìzhí zài nàlǐ, mànmàn de děngzhe.",
+    "vi": "Cậu nghĩ xem, hạt giống sau khi gieo xuống, tuy chưa lớn lên nhưng nó vẫn luôn ở đó, từ từ chờ đợi.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, jiù shì shuō, jiùsuàn xiànzài hái méi qù, nàge xiǎng qù de xīnqíng, yě yìzhí zài.",
+    "vi": "Ồ, mình hiểu rồi, tức là dù bây giờ chưa đi thì cái tâm trạng muốn đi đó vẫn luôn còn.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Méi cuò, zhǐyào nà kē \"zhǒngzi\" hái zài, zǒng yǒu yì tiān, huì yǒu jīhuì ràng tā zhǎng dà.",
+    "vi": "Đúng vậy, chỉ cần \"hạt giống\" đó còn đó thì rồi sẽ có một ngày có cơ hội để nó lớn lên.",
+    "grammar": ["总有一天…… (rồi sẽ có ngày…)"]
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Zhème shuō dehuà, wǒ yě búyòng yīnwèi xiànzài hái méi qù Rìběn ér juéde yíhàn.",
+    "vi": "Nói vậy thì mình cũng không cần phải thấy tiếc vì bây giờ vẫn chưa đi Nhật.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Duì, zhòngyào de shì, nǐ kěyǐ yìzhí wèi zhège mùbiāo zuò zhǔnbèi, bǐrú cún qián, xué yìdiǎnr Rìyǔ.",
+    "vi": "Đúng vậy, quan trọng là cậu có thể luôn chuẩn bị cho mục tiêu này, ví dụ như để dành tiền, học một chút tiếng Nhật.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ juéde, wǒ yīnggāi kāishǐ wèi zhège lǚxíng zuò yìdiǎnr zhǔnbèi le.",
+    "vi": "Nghe cậu nói vậy, mình thấy mình nên bắt đầu chuẩn bị một chút cho chuyến đi này rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, děng zhǔnbèi hǎo le, nǐ de \"zhǒngzi\" jiù huì zhǎngchéng yí cì zhēnzhèng de lǚxíng.",
+    "vi": "Ý hay đó, đợi chuẩn bị xong, \"hạt giống\" của cậu sẽ lớn thành một chuyến đi thật sự.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ juédìng le, cóng jīntiān kāishǐ, wǒ yào cún yìdiǎnr qián, wèi qù Rìběn zuò zhǔnbèi.",
+    "vi": "Được, mình quyết định rồi, từ hôm nay mình sẽ để dành một ít tiền để chuẩn bị cho chuyến đi Nhật.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay chúng ta nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại mọi người lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 39,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, Zhōngguó yǒu hěn duō jiérì, nǐ zhīdào měi gè jiérì yìbān chī shénme ma?",
+    "vi": "Mình là 德盛. 云英, Trung Quốc có rất nhiều ngày lễ, cậu có biết mỗi dịp lễ người ta thường ăn gì không?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Zhīdào yìxiē, nà wǒmen jīntiān jiù liáoliao \"Zhōngguó rén guò jié chī shénme\" zhège huàtí ba.",
+    "vi": "Mình biết một ít, vậy hôm nay chúng ta nói về chủ đề \"người Trung Quốc ăn gì vào ngày lễ\" nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Hǎo a, xiān shuōshuo Chūnjié, Chūnjié de shíhou, dàjiā yìbān chī shénme?",
+    "vi": "Được thôi, nói về Tết trước nhé, dịp Tết mọi người thường ăn gì?",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Chūnjié zuì zhòngyào de shì niányèfàn, hěn duō dìfang hái huì chī jiǎozi, yě yǒu de dìfang huì chī niángāo.",
+    "vi": "Quan trọng nhất dịp Tết là bữa cơm tất niên, nhiều nơi còn ăn sủi cảo, cũng có nơi ăn bánh tổ.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Nà Zhōngqiū Jié ne?",
+    "vi": "Thế còn Tết Trung thu?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhōngqiū Jié, dàjiā huì chī yuèbǐng, yìbiān chī yuèbǐng, yìbiān kàn yuèliang.",
+    "vi": "Trung thu thì mọi người ăn bánh trung thu, vừa ăn bánh vừa ngắm trăng.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Wǒ jìde, Duānwǔ Jié hǎoxiàng yě yǒu tèbié de shíwù?",
+    "vi": "Mình nhớ là Tết Đoan ngọ hình như cũng có món ăn đặc biệt?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, Duānwǔ Jié chī zòngzi, shì yòng yèzi bāozhe mǐ zuò de.",
+    "vi": "Đúng vậy, Tết Đoan ngọ ăn bánh ú, làm từ gạo gói bằng lá.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Nà Yuánxiāo Jié ne? Wǒ jìde gēn \"yuánxiāo\" zhège cí yǒu guānxi.",
+    "vi": "Thế còn Tết Nguyên tiêu? Mình nhớ là nó có liên quan đến từ \"nguyên tiêu\".",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Méi cuò, Yuánxiāo Jié huì chī tāngyuán, yě jiù shì \"yuánxiāo\", shì yuányuán de, tiántián de.",
+    "vi": "Đúng vậy, Tết Nguyên tiêu người ta ăn chè trôi nước, cũng chính là \"nguyên tiêu\", tròn tròn, ngọt ngọt.",
+    "grammar": ["也就是…… (cũng chính là…)"]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Zhème tīng xiàlái, měi gè jiérì de shíwù dōu bù yíyàng.",
+    "vi": "Nghe vậy thì món ăn của mỗi ngày lễ đều khác nhau nhỉ.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Duì, wǒ juéde, měi gè jiérì de shíwù, jiù xiàng yì zhāng xiǎoxiǎo de míngpiàn.",
+    "vi": "Đúng vậy, mình thấy món ăn của mỗi ngày lễ giống như một tấm danh thiếp nhỏ vậy.",
+    "grammar": ["就像……一样 (giống như…)"]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Míngpiàn? Wèi shénme zhème shuō?",
+    "vi": "Danh thiếp á? Sao cậu lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, kàn dào míngpiàn, jiù néng zhīdào zhège rén shì shuí; kàn dào zhè zhǒng shíwù, jiù néng xiǎngqǐ shì shénme jiérì.",
+    "vi": "Cậu nghĩ xem, nhìn danh thiếp là biết người này là ai; nhìn thấy món ăn đó là nhớ ra đó là ngày lễ gì.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, bǐrú kàn dào yuèbǐng, jiù huì xiǎngdào Zhōngqiū Jié.",
+    "vi": "Ồ, mình hiểu rồi, ví dụ như nhìn thấy bánh trung thu là nghĩ ngay đến Tết Trung thu.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Méi cuò, kàn dào zòngzi, jiù huì xiǎngdào Duānwǔ Jié.",
+    "vi": "Đúng vậy, nhìn thấy bánh ú là nghĩ đến Tết Đoan ngọ.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Zhème shuō dehuà, zhèxiē shíwù bù zhǐshì hǎochī, yě bāng wǒmen jìzhù le jiérì de yìsi.",
+    "vi": "Nói vậy thì những món ăn này không chỉ ngon mà còn giúp chúng ta nhớ được ý nghĩa của ngày lễ.",
+    "grammar": ["不只是……也…… (không chỉ là…mà còn…)"]
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Duì, érqiě, hěn duō shíwù bèihòu, hái yǒu zìjǐ de xiǎo gùshi.",
+    "vi": "Đúng vậy, hơn nữa phía sau nhiều món ăn còn có câu chuyện nhỏ của riêng nó nữa.",
+    "grammar": ["背后还有…… (phía sau còn có…)"]
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ yě xiǎng duō liǎojiě yíxià zhèxiē shíwù bèihòu de gùshi.",
+    "vi": "Nghe cậu nói vậy, mình cũng muốn tìm hiểu thêm về những câu chuyện phía sau các món ăn này.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, xià cì wǒmen kěyǐ zài liáoliao mǒu yí gè jiérì de gùshi.",
+    "vi": "Ý hay đó, lần sau chúng ta có thể nói tiếp về câu chuyện của một ngày lễ nào đó.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Hǎo, wǒ hěn qīdài. Jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được, mình rất mong chờ. Hôm nay nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 23,
+    "pinyin": "Yúnyīng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại mọi người lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2ht",
+  "no": 40,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng.",
+    "vi": "Chào mọi người, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yúnyīng, wǒ zuìjìn tīng dào yí gè gēmíng, juéde tèbié yǒu yìsi.",
+    "vi": "Mình là 德盛. 云英, gần đây mình nghe được một cái tên bài hát, thấy đặc biệt thú vị.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Shénme gēmíng?",
+    "vi": "Tên bài hát gì thế?",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Jiào \"Zuóyè de fēng, jīnyè de yuè\", wǒ hái méi tīng wán zhěng shǒu gē, dànshì guāng kàn míngzi, jiù juéde hěn měi.",
+    "vi": "Tên là \"Gió đêm qua, trăng đêm nay\", mình còn chưa nghe hết cả bài, nhưng chỉ mới nhìn cái tên thôi đã thấy rất đẹp rồi.",
+    "grammar": ["光看…… (chỉ mới nhìn…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Nà wǒmen jīntiān jiù liáoliao zhège gēmíng de yìsi ba.",
+    "vi": "Vậy hôm nay chúng ta nói về ý nghĩa của cái tên bài hát này nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Hǎo a, nǐ juéde, zhège míngzi wèi shénme hǎotīng?",
+    "vi": "Được thôi, cậu thấy tại sao cái tên này lại hay?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Wǒ juéde, \"fēng\" hé \"yuè\", dōu shì Zhōngwén gē lǐ chángyòng de dōngxi.",
+    "vi": "Mình thấy \"gió\" và \"trăng\" đều là những thứ hay được dùng trong các bài hát tiếng Trung.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Wèi shénme gēmíng xǐhuan yòng \"fēng\" hé \"yuè\" ne?",
+    "vi": "Tại sao tên bài hát lại thích dùng \"gió\" và \"trăng\" vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Yīnwèi fēng hé yuè, kàn bú jiàn mō bù zháo, dànshì yòu néng ràng rén gǎnjué dào shíjiān zài biànhuà.",
+    "vi": "Vì gió và trăng nhìn không thấy, sờ không được, nhưng lại khiến người ta cảm nhận được thời gian đang thay đổi.",
+    "grammar": ["看不见摸不着 (không thấy không sờ được)"]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Zhème shuō dehuà, \"zuóyè de fēng\" hé \"jīnyè de yuè\", shì bú shì zài shuō, zuótiān hé jīntiān bù yíyàng?",
+    "vi": "Nói vậy thì \"gió đêm qua\" và \"trăng đêm nay\" có phải là đang nói hôm qua và hôm nay không giống nhau không?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Duì, wǒ juéde jiù shì zhège yìsi. Zuótiān wǎnshang chuī de fēng, gēn jīntiān wǎnshang de yuèliang, yǐjīng shì bùtóng shíjiān de dōngxi le.",
+    "vi": "Đúng vậy, mình thấy chính là ý đó. Cơn gió thổi tối hôm qua với vầng trăng tối hôm nay đã là những thứ của hai thời điểm khác nhau rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, zhège míngzi qíshí shì zài shuō, shíjiān yìzhí zài wǎng qián zǒu.",
+    "vi": "Ồ, mình hiểu rồi, cái tên này thật ra đang nói thời gian vẫn luôn trôi về phía trước.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Méi cuò, wǒ juéde, \"Zuóyè de fēng, jīnyè de yuè\" zhèyàng de gēmíng, jiù xiàng yì zhāng zhǐ yǒu jǐ bǐ de huà.",
+    "vi": "Đúng vậy, mình thấy những cái tên bài hát như \"Gió đêm qua, trăng đêm nay\" giống như một bức tranh chỉ có vài nét vẽ.",
+    "grammar": ["就像…… (giống như…)"]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Jǐ bǐ de huà? Wèi shénme zhème shuō?",
+    "vi": "Bức tranh vài nét vẽ á? Sao cậu lại nói vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Nǐ xiǎng, huà de hěn jiǎndān, dànshì kàn dào de rén, xīnlǐ huì xiǎngdào hěn duō dōngxi, bǐrú shíjiān, huíyì.",
+    "vi": "Cậu nghĩ xem, vẽ thì rất đơn giản, nhưng người xem trong lòng sẽ nghĩ đến rất nhiều thứ, ví dụ như thời gian, kỷ niệm.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Zhème shuō dehuà, duǎnduǎn jǐ gè zì, yě néng ràng rén xiǎng hěn duō.",
+    "vi": "Nói vậy thì chỉ ngắn ngủi mấy chữ cũng có thể khiến người ta nghĩ được rất nhiều.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Duì, zhè yě shì Zhōngwén lǐ, hěn duō gēmíng, shījù dōu xǐhuan yòng jiǎndān de zìrán jǐngsè, lái shuō hěn shēn de gǎnjué.",
+    "vi": "Đúng vậy, trong tiếng Trung cũng vậy, rất nhiều tên bài hát, câu thơ đều thích dùng cảnh sắc thiên nhiên đơn giản để diễn tả những cảm xúc rất sâu.",
+    "grammar": ["喜欢用……来说…… (thường dùng…để diễn tả…)"]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ yǐhòu kàn dào zhè zhǒng gēmíng, yě huì duō xiǎngxiang tā bèihòu de yìsi.",
+    "vi": "Nghe cậu nói vậy, sau này nhìn thấy những cái tên bài hát kiểu này, mình cũng sẽ nghĩ nhiều hơn về ý nghĩa phía sau của nó.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Hǎo zhǔyi, Zhōngwén lǐ yǒu hěn duō zhèyàng de biǎodá, mànmàn xué, huì juéde hěn yǒu yìsi.",
+    "vi": "Ý hay đó, trong tiếng Trung có rất nhiều cách diễn đạt như vậy, học từ từ sẽ thấy rất thú vị.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Hǎo, wǒ juédìng le, yǐhòu duō zhùyì zhè zhǒng jiǎndān yòu yǒu yìsi de shuōfǎ.",
+    "vi": "Được, mình quyết định rồi, sau này sẽ chú ý nhiều hơn đến những cách nói đơn giản mà thú vị kiểu này.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay chúng ta nói đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại mọi người lần sau!",
+    "grammar": []
+   }
+  ]
+ }
+]

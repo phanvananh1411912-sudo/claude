@@ -1,0 +1,482 @@
+[
+ {
+  "group": "hsk2doc",
+  "no": 9,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhège xuéqī, xuéxiào xīn kāi le yì mén diànnǎo kè, wǒ měi gè xīngqīsān dōu yào shàng zhè mén kè.",
+    "vi": "Học kỳ này, trường mở thêm một môn học vi tính mới, thứ Tư hằng tuần tôi đều phải học môn này.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Dì yī jié kè, lǎoshī jiāo wǒmen zěnme dǎzì, yì kāishǐ wǒ dǎ de hěn màn, hái chángcháng dǎ cuò.",
+    "vi": "Tiết học đầu tiên, thầy giáo dạy chúng tôi cách gõ chữ, lúc mới bắt đầu tôi gõ rất chậm, còn thường xuyên gõ sai.",
+    "grammar": [
+     "打得很慢 / 打得比以前快多了 (V + 得 + mức độ)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Hòulái, lǎoshī ràng wǒmen měi tiān liànxí shí fēnzhōng dǎzì, jiānchí le yí gè yuè yǐhòu, wǒ dǎ de bǐ yǐqián kuài duō le.",
+    "vi": "Sau đó, thầy bảo chúng tôi mỗi ngày luyện gõ chữ mười phút, kiên trì được một tháng, tôi gõ nhanh hơn trước nhiều.",
+    "grammar": [
+     "打得很慢 / 打得比以前快多了 (V + 得 + mức độ)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Chúle dǎzì, wǒmen hái xuéxí le zěnme zuò jiǎndān de biǎogé hé túpiàn.",
+    "vi": "Ngoài gõ chữ, chúng tôi còn học cách làm bảng biểu và hình ảnh đơn giản.",
+    "grammar": [
+     "除了……还…… (ngoài…còn…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Shàng gè xīngqī, lǎoshī ràng wǒmen měi gè rén zuò yì zhāng guānyú zìjǐ jiāxiāng de jièshào, wǒ zuò de hěn rènzhēn.",
+    "vi": "Tuần trước, thầy bảo mỗi người chúng tôi làm một bản giới thiệu về quê hương của mình, tôi làm rất nghiêm túc.",
+    "grammar": [
+     "关于…… (về, liên quan đến…)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Suīrán diànnǎo kè bú suàn róngyì, dànshì wǒ juéde xuéhuì zhèxiē dōngxi, yǐhòu yídìng huì yǒuyòng.",
+    "vi": "Tuy môn vi tính không hẳn là dễ, nhưng tôi thấy học được những thứ này thì sau này chắc chắn sẽ có ích.",
+    "grammar": [
+     "一定会有用 (chắc chắn sẽ có ích)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 10,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè xīngqī, wǒ hé hǎo péngyou Xiǎo Gāng yīnwèi yí jiàn xiǎo shì chǎnshēng le wùhuì, liǎng gè rén dōu bù gāoxìng.",
+    "vi": "Tuần trước, tôi và người bạn thân 小刚 vì một chuyện nhỏ mà nảy sinh hiểu lầm, hai đứa đều không vui.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Shìqing shì zhèyàng de: Xiǎo Gāng gēn wǒ jiè le yì běn shū, shuō hǎo sān tiān yǐhòu huán wǒ, kěshì guò le yí gè xīngqī tā hái méiyǒu huán.",
+    "vi": "Chuyện là thế này: 小刚 mượn tôi một cuốn sách, hẹn sẵn ba ngày sau sẽ trả, nhưng đã một tuần trôi qua mà cậu ấy vẫn chưa trả.",
+    "grammar": [
+     "说好 + V (đã hẹn sẵn làm gì)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Wǒ yǐwéi tā wàng le zhè jiàn shì, yě bú tài zàiyì wǒmen de yǒuyì, xīnli juéde hěn bù shūfu.",
+    "vi": "Tôi tưởng cậu ấy quên chuyện này, cũng không mấy coi trọng tình bạn của chúng tôi, trong lòng thấy rất khó chịu.",
+    "grammar": [
+     "以为 (tưởng rằng, lầm tưởng)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Hòulái, Xiǎo Gāng zhǔdòng lái zhǎo wǒ, shuō tā zhè jǐ tiān shēngbìng le, yìzhí méiyǒu lìqi chūmén, suǒyǐ wàng le huán shū.",
+    "vi": "Sau đó, 小刚 chủ động đến tìm tôi, nói rằng mấy hôm nay cậu ấy bị ốm, không có sức ra khỏi nhà, nên quên mất việc trả sách.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Tīng le tā de jiěshì, wǒ cái zhīdào zìjǐ cuòguài le tā, xīnli de bù shūfu mǎshàng jiù méiyǒu le.",
+    "vi": "Nghe cậu ấy giải thích, tôi mới biết mình đã trách nhầm cậu ấy, cảm giác khó chịu trong lòng lập tức tan biến.",
+    "grammar": [
+     "才 (mới, lúc đó mới)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhè jiàn shì ràng wǒ míngbai, yùdào wèntí de shíhou, yīnggāi xiān wèn qīngchu yuányīn, ér bú shì zìjǐ luàn cāi.",
+    "vi": "Chuyện này giúp tôi hiểu rằng khi gặp vấn đề, nên hỏi rõ nguyên nhân trước, chứ không phải tự mình đoán mò.",
+    "grammar": [
+     "而不是…… (mà không phải là…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 11,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Wǒmen de jiàoshì zài sān lóu, bú dà, dànshì zhěnglǐ de hěn gānjìng.",
+    "vi": "Lớp học của chúng tôi ở tầng ba, không lớn, nhưng được dọn dẹp rất sạch sẽ.",
+    "grammar": [
+     "V + 得 + Adj (mức độ)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Yí jìn mén, jiù néng kàndào hēibǎn guà zài qiánmiàn de qiáng shàng, pángbiān tiē zhe jǐ zhāng tóngxuémen huà de huàr.",
+    "vi": "Vừa bước vào cửa là có thể thấy chiếc bảng đen treo trên bức tường phía trước, bên cạnh dán mấy bức tranh do các bạn trong lớp vẽ.",
+    "grammar": [
+     "一……就…… (vừa…là…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Jiàoshì lǐ yígòng yǒu sānshí zhāng zhuōzi, pái de zhěngzhěngqíqí, xiàng sān tiáo zhízhí de xiàn.",
+    "vi": "Trong lớp có tất cả ba mươi chiếc bàn, xếp ngay ngắn thẳng hàng, trông như ba đường kẻ thẳng tắp.",
+    "grammar": [
+     "像……一样 / 像…… (giống như…)",
+     "V + 得 + Adj (mức độ)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Chuānghu hěn dà, yángguāng měi tiān dōu néng zhào jìnlái, zuò zài kào chuāng de wèizhì, tèbié wēnnuǎn shūfu.",
+    "vi": "Cửa sổ rất to, ngày nào ánh nắng cũng chiếu vào được, ngồi ở chỗ cạnh cửa sổ thấy vô cùng ấm áp dễ chịu.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jiàoshì de hòumiàn yǒu yí gè shūjià, fàng zhe dàjiā píngshí kàn de kèwàishū.",
+    "vi": "Phía sau lớp học có một giá sách, đặt những cuốn sách đọc thêm mà mọi người thường xem.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Qiáng shàng hái guà zhe yí gè yuányuán de zhōng, tóngxuémen shàngkè de shíhou, chángcháng huì bù xiǎoxīn kàn tā yì yǎn.",
+    "vi": "Trên tường còn treo một chiếc đồng hồ tròn tròn, các bạn trong giờ học thường vô tình liếc nhìn nó một cái.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Suīrán zhège jiàoshì bú shì zuì dà zuì xīn de, dànshì měi cì zǒu jìn zhèlǐ, wǒ dōu juéde hěn ānxīn.",
+    "vi": "Tuy lớp học này không phải là to nhất, mới nhất, nhưng mỗi lần bước vào đây, tôi đều cảm thấy rất yên tâm.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Duì wǒ lái shuō, zhèlǐ bù zhǐshì shàngkè de dìfang, gèng xiàng wǒmen dàjiā de dì èr gè jiā.",
+    "vi": "Đối với tôi, nơi đây không chỉ là chỗ để học, mà giống như ngôi nhà thứ hai của tất cả chúng tôi.",
+    "grammar": [
+     "不只是……更像…… (không chỉ là…mà giống như…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 12,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Wǒ de nǎinai jīnnián qīshí suì le, gèzi bù gāo, tóufa yǐjīng quán bái le, dànshì shēntǐ yìzhí hěn jiànkāng.",
+    "vi": "Bà nội tôi năm nay bảy mươi tuổi rồi, dáng người không cao, tóc đã bạc trắng hết, nhưng sức khỏe vẫn luôn rất tốt.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Nǎinai de yǎnjing bú dà, kěshì měi cì xiào qǐlái, yǎnjiǎo de zhòuwén lǐ dōu dài zhe wēnróu.",
+    "vi": "Mắt bà không to, nhưng mỗi lần bà cười, những nếp nhăn nơi khóe mắt đều ánh lên vẻ dịu dàng.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tā shuōhuà de shēngyīn bú kuài yě bú màn, tīng qǐlái zǒngshì ràng rén juéde tèbié ānxīn.",
+    "vi": "Giọng nói của bà không nhanh cũng không chậm, nghe lúc nào cũng khiến người ta cảm thấy đặc biệt yên lòng.",
+    "grammar": [
+     "不……也不…… (không…cũng không…)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Nǎinai zuì xǐhuan zuò de shìqing shì zhòng huā, jiā lǐ de yángtái shàng, zhòng mǎn le gè zhǒng yánsè de huā.",
+    "vi": "Việc bà thích làm nhất là trồng hoa, trên ban công nhà trồng đầy các loài hoa đủ màu sắc.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Měi tiān zǎoshang, tā dōu huì qù yángtái kànkan nàxiē huā, gěi tāmen jiāo shuǐ, gēn tāmen \"shuōshuo huà\".",
+    "vi": "Mỗi sáng, bà đều ra ban công ngắm những chậu hoa ấy, tưới nước cho chúng, \"trò chuyện\" cùng chúng.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Nǎinai de shǒu yīnwèi chángnián zuò jiāwù, kàn qǐlái yǒudiǎnr cūcāo, dànshì nà shuāng shǒu zuò de fàncài, yǒngyuǎn shì wǒ chī guo zuì hǎochī de.",
+    "vi": "Đôi tay của bà vì quanh năm làm việc nhà nên trông hơi thô ráp, nhưng những món ăn do đôi tay ấy nấu mãi mãi là ngon nhất mà tôi từng được ăn.",
+    "grammar": [
+     "因为……看起来…… (vì…nên trông có vẻ…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Suīrán nǎinai niánjì dà le, jìxing yě bú xiàng yǐqián nàme hǎo, dànshì tā duì jiārén de ài, cónglái méiyǒu biàn guo.",
+    "vi": "Tuy bà đã lớn tuổi, trí nhớ cũng không còn tốt như trước, nhưng tình yêu bà dành cho người thân chưa bao giờ thay đổi.",
+    "grammar": [
+     "从来没有……过 (chưa từng…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Zài wǒ xīnli, nǎinai jiù xiàng yì kē dà shù, yìzhí ānjìng de zài nàlǐ, gěi wǒmen zhē fēng dǎng yǔ.",
+    "vi": "Trong lòng tôi, bà giống như một cây đại thụ, luôn lặng lẽ đứng đó, che mưa chắn gió cho chúng tôi.",
+    "grammar": [
+     "就像……一样 (giống như…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 13,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Qiūtiān dào le, jiā fùjìn de gōngyuán, yánsè biàn de tèbié fēngfù, gēn xiàtiān wánquán bù yíyàng.",
+    "vi": "Mùa thu đến rồi, công viên gần nhà màu sắc trở nên phong phú hẳn, hoàn toàn khác với mùa hè.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Gōngyuán lǐ de shùyè, yǒude háishì lǜsè de, yǒude yǐjīng biànchéng le huángsè huòzhě hóngsè, kàn qǐlái xiàng yì fú huà.",
+    "vi": "Lá cây trong công viên, có chiếc vẫn còn xanh, có chiếc đã chuyển sang màu vàng hoặc màu đỏ, nhìn như một bức tranh.",
+    "grammar": [
+     "有的……有的…… (cái này…cái khác…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Fēng yì chuī guòlái, shùyè jiù yí piàn yí piàn de luò xiàlái, qīngqīng de piāo zài dì shàng, fāchū xìxiǎo de shēngyīn.",
+    "vi": "Gió vừa thổi qua, lá cây liền từng chiếc từng chiếc rơi xuống, nhẹ nhàng bay là là xuống mặt đất, phát ra những âm thanh khe khẽ.",
+    "grammar": [
+     "一……就…… (vừa…là…)",
+     "一片一片地 (từng chiếc từng chiếc)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Gōngyuán zhōngjiān yǒu yí gè bú dà de hú, húshuǐ hěn píngjìng, dàoyìng zhe tiānkōng hé zhōuwéi de shù, tèbié hǎokàn.",
+    "vi": "Giữa công viên có một cái hồ không lớn, mặt nước rất phẳng lặng, in bóng bầu trời và những hàng cây xung quanh, đẹp vô cùng.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Hú biān zuò zhe jǐ wèi lǎorén, tāmen yìbiān shài tàiyáng, yìbiān mànmàn de liáotiān, kàn qǐlái hěn yōuxián.",
+    "vi": "Bên hồ có mấy cụ già ngồi, họ vừa sưởi nắng vừa thong thả trò chuyện, trông rất thảnh thơi.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Xiǎoháizimen zài cǎodì shàng pǎo lái pǎo qù, shǒu lǐ ná zhe gāng jiǎn dào de yèzi, xiào de fēicháng kāixīn.",
+    "vi": "Bọn trẻ con chạy đi chạy lại trên bãi cỏ, tay cầm những chiếc lá vừa nhặt được, cười vô cùng vui vẻ.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Kōngqì lǐ dài zhe yìdiǎnr liáng, dànshì yángguāng zhào zài shēn shàng, yòu juéde hěn wēnnuǎn, ràng rén bù xiǎng líkāi.",
+    "vi": "Trong không khí có chút se lạnh, nhưng khi ánh nắng chiếu lên người lại thấy rất ấm áp, khiến người ta chẳng muốn rời đi.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Měi cì zǒu jìn zhège qiūtiān de gōngyuán, wǒ dōu juéde, shíjiān hǎoxiàng biàn màn le yìdiǎnr.",
+    "vi": "Mỗi lần bước vào công viên mùa thu này, tôi đều cảm thấy thời gian dường như trôi chậm lại một chút.",
+    "grammar": [
+     "好像……了 (dường như đã…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 14,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Wǒ de shūzhuō fàng zài chuāng biān, shì bàba zài wǒ shàng xiǎoxué de shíhou mǎi gěi wǒ de, dào xiànzài yǐjīng yòng le hěn duō nián.",
+    "vi": "Bàn học của tôi đặt cạnh cửa sổ, là bố mua cho tôi hồi tôi học tiểu học, đến nay đã dùng được rất nhiều năm.",
+    "grammar": [
+     "是……的时候……买给…… (kết hợp thời điểm với hành động)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Shūzhuō shì mùtou zuò de, yánsè shì qiǎnqiǎn de zōngsè, zhuōmiàn shàng yǒu jǐ gè xiǎoxiǎo de huáhén, nà shì wǒ xiǎoshíhou bù xiǎoxīn liúxià de.",
+    "vi": "Bàn học làm bằng gỗ, màu nâu nhàn nhạt, trên mặt bàn có vài vết xước nhỏ, đó là do hồi bé tôi vô ý để lại.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Zhuōzi de zuǒbiān fàng zhe yí gè táidēng, wǎnshang xiě zuòyè de shíhou, tā huì fāchū wēnnuǎn de huángsè de guāng.",
+    "vi": "Bên trái bàn đặt một chiếc đèn bàn, buổi tối khi làm bài tập, nó tỏa ra thứ ánh sáng vàng ấm áp.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Yòubiān yǒu yí gè bǐtǒng, lǐmiàn chā zhe gè zhǒng yánsè de bǐ, hái yǒu yì bǎ yòng le hěn jiǔ de chǐzi.",
+    "vi": "Bên phải có một ống cắm bút, bên trong cắm những cây bút đủ màu, còn có một chiếc thước kẻ đã dùng rất lâu.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Shūzhuō shàngfāng yǒu liǎng céng shūjià, fàng zhe wǒ zuì xǐhuan de shū, hái yǒu yìxiē péngyou sòng wǒ de xiǎo lǐwù.",
+    "vi": "Phía trên bàn học có hai tầng giá sách, đặt những cuốn sách tôi thích nhất và cả mấy món quà nhỏ bạn bè tặng tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhuōzi zhōngjiān de chōuti lǐ, fàng zhe wǒ zhèxiē nián xiě de rìjì, měi yì běn dōu jìlù zhe bùtóng de xīnqíng hé gùshi.",
+    "vi": "Trong ngăn kéo ở giữa bàn để những cuốn nhật ký tôi viết suốt những năm qua, mỗi cuốn đều ghi lại những tâm trạng và câu chuyện khác nhau.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Suīrán zhè zhāng shūzhuō yòu jiù yòu pǔtōng, gēn shāngdiàn lǐ nàxiē hǎokàn de xīn shūzhuō wánquán bù néng bǐ, dànshì wǒ cónglái méiyǒu xiǎng guo yào huàndiào tā.",
+    "vi": "Tuy chiếc bàn học này vừa cũ vừa bình thường, hoàn toàn không thể so với những chiếc bàn học mới đẹp đẽ trong cửa hàng, nhưng tôi chưa từng nghĩ đến việc thay nó.",
+    "grammar": [
+     "跟……完全不能比 (hoàn toàn không thể so sánh với…)",
+     "从来没有想过要…… (chưa từng nghĩ đến việc…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yīnwèi zài zhè zhāng zhuōzi qián, wǒ dùguò le wúshù gè xuéxí, sīkǎo, hái yǒu zuòmèng de yèwǎn.",
+    "vi": "Bởi vì bên chiếc bàn này, tôi đã trải qua vô số đêm học tập, suy nghĩ và cả mơ mộng.",
+    "grammar": [
+     "度过 + khoảng thời gian (trải qua một khoảng thời gian)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 15,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Xiǎo Lín shì wǒ cóng xiǎoxué dào xiànzài zuì hǎo de péngyou, wǒmen yǐjīng rènshi bā nián le.",
+    "vi": "小林 là người bạn thân nhất của tôi từ hồi tiểu học đến giờ, chúng tôi đã quen nhau tám năm rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Tā de gèzi bǐ wǒ gāo yìdiǎnr, liú zhe yì tóu chángcháng de hēifà, xiào qǐlái de shíhou, yǎnjing huì biànchéng wānwān de yuèliang.",
+    "vi": "Cô ấy cao hơn tôi một chút, để mái tóc đen dài, khi cười, đôi mắt cong lại như vầng trăng khuyết.",
+    "grammar": [
+     "留着…… (để, giữ kiểu…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Xiǎo Lín shuōhuà bù duō, dànshì měi yí jù dōu shuō de hěn yǒu dàolǐ, tóngxuémen yùdào wèntí, dōu xǐhuan zhǎo tā shāngliang.",
+    "vi": "小林 nói không nhiều, nhưng câu nào cũng rất có lý, các bạn trong lớp gặp chuyện gì đều thích tìm cô ấy bàn bạc.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Tā zuò shìqing tèbié rènzhēn, wúlùn duō xiǎo de shìqing, dōu huì nǔlì zuòdào zuì hǎo, cónglái bù mǎmǎhūhū.",
+    "vi": "Cô ấy làm việc gì cũng đặc biệt nghiêm túc, bất kể việc nhỏ đến đâu cũng đều cố gắng làm tốt nhất, không bao giờ qua loa đại khái.",
+    "grammar": [
+     "无论……都…… (bất kể…đều…)",
+     "从来不…… (chưa từng, không bao giờ)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jìde yǒu yí cì, wǒ yīnwèi kǎoshì méi kǎo hǎo, xīnqíng hěn bù hǎo, yí gè rén zuò zài jiàoshì lǐ bù shuōhuà.",
+    "vi": "Nhớ có một lần, tôi vì thi không tốt, tâm trạng rất tệ, một mình ngồi trong lớp chẳng nói câu nào.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Xiǎo Lín méiyǒu wèn wǒ fāshēng le shénme, zhǐshì ānjìng de zuò zài wǒ pángbiān, péi le wǒ zhěngzhěng yí gè xiàwǔ.",
+    "vi": "小林 không hỏi tôi đã xảy ra chuyện gì, chỉ lặng lẽ ngồi bên cạnh tôi, ở bên tôi suốt cả một buổi chiều.",
+    "grammar": [
+     "只是…… (chỉ là…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tā cónglái bù xǐhuan shuō hěn duō ānwèi de huà, dànshì tā de péibàn, zǒngshì néng ràng wǒ gǎnjué hǎo yìdiǎnr.",
+    "vi": "Cô ấy không bao giờ thích nói nhiều lời an ủi, nhưng sự đồng hành của cô ấy luôn khiến tôi cảm thấy dễ chịu hơn một chút.",
+    "grammar": [
+     "从来不…… (chưa từng, không bao giờ)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Rènshi Xiǎo Lín zhème duō nián, wǒ yìzhí juéde, néng yǒu zhèyàng yí gè péngyou, shì wǒ zuì dà de xìngyùn.",
+    "vi": "Quen 小林 nhiều năm như vậy, tôi luôn cảm thấy có được một người bạn như thế là điều may mắn lớn nhất của tôi.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk2doc",
+  "no": 16,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè yuè, wǒmen bān jìnxíng le yí cì gēn píngshí bù yíyàng de kǎoshì.",
+    "vi": "Tháng trước, lớp chúng tôi có một kỳ thi khác hẳn ngày thường.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, zhè cì kǎoshì kěyǐ liǎng gè rén yìqǐ wánchéng, búyòng yí gè rén dāndú zuò.",
+    "vi": "Cô giáo nói, kỳ thi lần này có thể hai người cùng nhau hoàn thành, không cần một mình làm riêng.",
+    "grammar": [
+     "不用 + V (không cần)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tīngdào zhège xiāoxi, tóngxuémen dōu hěn gāoxìng, yě yǒudiǎnr hàoqí, bù zhīdào tímù huì shì shénme yàng de.",
+    "vi": "Nghe tin này, các bạn trong lớp đều rất vui, cũng hơi tò mò, không biết đề bài sẽ như thế nào.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒ hé hǎo péngyou Xiǎo Měi zuò zài yìqǐ, nádào tímù yǐhòu, fāxiàn tímù bǐ xiǎng de yào nán yìxiē.",
+    "vi": "Tôi và bạn thân 小美 ngồi cùng nhau, sau khi nhận đề mới phát hiện đề khó hơn mình nghĩ một chút.",
+    "grammar": [
+     "发现 (phát hiện ra rằng)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒmen yìqǐ tǎolùn měi yí dào tí, wǒ fùzé jìsuàn, Xiǎo Měi fùzé jiǎnchá yǒu méiyǒu cuòwù.",
+    "vi": "Chúng tôi cùng nhau thảo luận từng câu, tôi phụ trách tính toán, 小美 phụ trách kiểm tra xem có sai sót không.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhōngjiān yǒu yí dào tí, wǒmen liǎng gè rén de dá'àn bù yíyàng, tǎolùn le hěn jiǔ yě méiyǒu jiéguǒ.",
+    "vi": "Ở giữa có một câu mà đáp án của hai chúng tôi không giống nhau, bàn mãi cũng không đi đến kết quả.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Hòulái, wǒmen juédìng bǎ liǎng zhǒng xiǎngfǎ dōu xiě xiàlái, shuōmíng gèzì de lǐyóu, ràng lǎoshī lái pànduàn.",
+    "vi": "Sau đó, chúng tôi quyết định viết cả hai cách nghĩ ra, trình bày lý do của từng người, để cô giáo phán đoán.",
+    "grammar": [
+     "各自 (mỗi bên, riêng từng người)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Kǎoshì jiéshù yǐhòu, lǎoshī shuō zhè dào tí qíshí méiyǒu biāozhǔn dá'àn, zhòngyào de shì wǒmen tǎolùn de guòchéng.",
+    "vi": "Sau khi thi xong, cô giáo nói câu này thực ra không có đáp án chuẩn, điều quan trọng là quá trình thảo luận của chúng tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì jīnglì ràng wǒ míngbai, liǎng gè rén yìqǐ xiǎng wèntí, wǎngwǎng bǐ yí gè rén xiǎng de gèng quánmiàn.",
+    "vi": "Trải nghiệm lần này giúp tôi hiểu rằng, hai người cùng suy nghĩ một vấn đề thường toàn diện hơn là một người tự nghĩ.",
+    "grammar": [
+     "往往 (thường thường)"
+    ]
+   }
+  ]
+ }
+]

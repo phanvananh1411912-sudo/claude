@@ -1,0 +1,374 @@
+[
+ {
+  "group": "hsk3ht3",
+  "no": 14,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng liáo yí gè bǐjiào tèbié de huàtí, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn trò chuyện về một chủ đề khá đặc biệt, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Shénme huàtí? Tīng qǐlái yǒudiǎnr shénmì.",
+    "vi": "Mình là 德盛. Chủ đề gì thế? Nghe có vẻ hơi bí ẩn.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Wǒmen liáoliao, xuéshēng shídài nà zhǒng, shuō bú tài qīngchu, dànshì yìzhí jìde de gǎnqíng ba.",
+    "vi": "Mình cùng nói về thứ tình cảm thời học sinh ấy, cái loại nói không rõ ràng lắm, nhưng lại luôn nhớ mãi nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Ó, zhège huàtí, wǒ dǎoshì yǒu yí jiàn shì, yìzhí xiǎng zhǎo jīhuì shuōshuo.",
+    "vi": "Ồ, chủ đề này thì mình đúng là có một chuyện, luôn muốn tìm cơ hội kể ra.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Shuōshuo kàn.",
+    "vi": "Kể thử xem nào.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Gāozhōng de shíhou, wǒ yǒu yí gè xíguàn, měitiān wǎnshang dōu huì xiě jǐ jù rìjì, jì yíxià dàngtiān fāshēng de shìqing.",
+    "vi": "Hồi cấp ba, mình có một thói quen, mỗi tối đều viết vài dòng nhật ký, ghi lại chuyện xảy ra trong ngày.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhège xíguàn tǐng hǎo de, jiānchí xiàlái bù róngyì.",
+    "vi": "Thói quen này rất tốt đấy, duy trì được không dễ đâu.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Hòulái bān lǐ zhuǎnlái yí gè tóngxué, wǒmen jiànjiàn shúxī qǐlái, mànmàn de, wǒ fāxiàn zìjǐ měitiān de rìjì lǐ, zǒng huì bùzìjué de tí dào tā.",
+    "vi": "Sau đó trong lớp chuyển đến một bạn học, tụi mình dần dần thân nhau, rồi từ từ, mình phát hiện trong nhật ký mỗi ngày của mình, luôn vô thức nhắc đến cậu ấy.",
+    "grammar": [
+     "总会不自觉地…… (luôn vô thức…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, tā yǐjīng biànchéng nǐ rìjì lǐ, chángcháng chūxiàn de rénwù le.",
+    "vi": "Nói vậy thì, cô ấy đã trở thành nhân vật thường xuyên xuất hiện trong nhật ký của cậu rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Duì, yìkāishǐ wǒ méi juéde yǒu shénme, hòulái yǒu yí cì, wǒ fānkàn yǐqián xiě de rìjì, cái fāxiàn, jīhū měi yí yè dōu yǒu tā de míngzì.",
+    "vi": "Đúng, ban đầu mình không thấy có gì, về sau có một lần, mình giở lại những trang nhật ký cũ, mới phát hiện, gần như trang nào cũng có tên cô ấy.",
+    "grammar": [
+     "才发现…… (mới phát hiện ra…)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nà shíhou nǐ shì shénme gǎnjué?",
+    "vi": "Lúc đó cậu cảm thấy thế nào?",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Wǒ tūrán yìshí dào, yuánlái zhè duàn shíjiān, zìjǐ měitiān xiǎng jìlù de shìqing, dōu gēn tā yǒu guānxi.",
+    "vi": "Mình đột nhiên nhận ra, hóa ra khoảng thời gian đó, những chuyện mình muốn ghi lại mỗi ngày, đều liên quan đến cô ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Zhè quèshí shì yì zhǒng hěn zìrán, dànshì yě hěn míngxiǎn de xìnhào.",
+    "vi": "Đây quả thực là một tín hiệu rất tự nhiên, nhưng cũng rất rõ ràng.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Duì, cóng nà tiān yǐhòu, wǒ xīnlǐ qiāoqiāo yǒu le yí gè xiǎoxiǎo de yuànwàng, xīwàng yǐhòu xiě de měi yí yè rìjì, dōu néng jìxù yǒu tā de míngzì.",
+    "vi": "Đúng, từ ngày đó trở đi, trong lòng mình lặng lẽ nảy ra một ước nguyện nhỏ bé, mong rằng mỗi trang nhật ký viết sau này, đều có thể tiếp tục có tên cô ấy.",
+    "grammar": [
+     "从那天以后……悄悄…… (từ ngày đó…lặng lẽ…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Zhège yuànwàng shuō chūlái, suīrán hěn jiǎndān, dànshì tīng qǐlái tǐng ràng rén gǎndòng de.",
+    "vi": "Ước nguyện này nói ra, tuy rất đơn giản, nhưng nghe lại khá cảm động.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Qíshí wǒ cónglái méiyǒu zhíjiē gàosu guò tā zhè jiàn shì, zhǐshì zìjǐ xīnlǐ, yìzhí zhèyàng xiǎng.",
+    "vi": "Thật ra mình chưa bao giờ trực tiếp nói với cô ấy chuyện này, chỉ là trong lòng mình, luôn nghĩ như vậy.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Yǒu shíhou, zhè zhǒng méi shuō chūkǒu de xīnyì, fǎn'ér huì bèi jìde gèng jiǔ.",
+    "vi": "Đôi khi, thứ tình ý chưa nói thành lời ấy, trái lại sẽ được nhớ lâu hơn.",
+    "grammar": [
+     "反而会……更久 (trái lại sẽ…lâu hơn)"
+    ]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Kěnéng shì zhèyàng, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Có lẽ là vậy, được rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht3",
+  "no": 15,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jiēzhe shàng cì de huàtí, jīntiān xiǎng qǐng Déshèng zài fēnxiǎng yí gè xuéshēng shídài de xiǎo gùshi, wǒ shì Yúnyīng.",
+    "vi": "Tiếp nối chủ đề lần trước, hôm nay muốn mời 德盛 chia sẻ thêm một câu chuyện nhỏ thời học sinh, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Hǎo, nà wǒ shuōshuo gāo sān nà yì nián ba.",
+    "vi": "Mình là 德盛. Được, vậy mình kể về cái năm lớp 12 đó nhé.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Gāo sān, nà yīnggāi yālì tǐng dà de yì nián.",
+    "vi": "Lớp 12, chắc hẳn là một năm áp lực khá lớn.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Duì, nà shíhou, wǒ měitiān de shēnghuó jīběnshàng jiùshì shàngkè, xiě zuòyè, kǎoshì, gǎnjué zhěnggè shìjiè dōu shì huīsè de, tèbié dāndiào.",
+    "vi": "Đúng, hồi đó, cuộc sống mỗi ngày của mình cơ bản chỉ là lên lớp, làm bài tập, thi cử, cảm thấy cả thế giới đều một màu xám xịt, đơn điệu vô cùng.",
+    "grammar": [
+     "基本上就是……感觉……特别…… (cơ bản là…cảm thấy…đặc biệt…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Zhè zhǒng gǎnjué wǒ wánquán néng lǐjiě, gāo sān quèshí róngyì ràng rén juéde, shēnghuó lǐ chúle chéngjì, hǎoxiàng méiyǒu bié de le.",
+    "vi": "Cảm giác này mình hoàn toàn hiểu được, lớp 12 quả thực dễ khiến người ta cảm thấy, trong cuộc sống ngoài điểm số ra, dường như chẳng còn gì khác.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Búguò, hòulái fāshēng le yí jiàn xiǎo shì, ràng wǒ juéde, nà duàn rìzi hǎoxiàng yě méiyǒu nàme wúliáo.",
+    "vi": "Nhưng sau đó xảy ra một chuyện nhỏ, khiến mình cảm thấy, quãng thời gian đó hình như cũng không đến mức nhàm chán như vậy.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Shénme shì?",
+    "vi": "Chuyện gì thế?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Wǒ tóngzhuō, tā fāxiàn wǒ měitiān zǎoshang dōu méi shíjiān chī zǎofàn, jiù kāishǐ tōutōu bǎ yì hé niúnǎi fàng jìn wǒ de shūzhuō lǐ.",
+    "vi": "Bạn cùng bàn của mình, cô ấy phát hiện mỗi sáng mình đều không có thời gian ăn sáng, liền bắt đầu lén bỏ một hộp sữa vào ngăn bàn của mình.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Tā zìjǐ shuō le ma, háishì nǐ zìjǐ fāxiàn de?",
+    "vi": "Cô ấy tự nói ra à, hay là cậu tự phát hiện?",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Tā cónglái méi tí guò, dōu shì wǒ dǎkāi shūzhuō de shíhou, zìjǐ fāxiàn de, érqiě tā měi cì fàng de shíhou dōu tèbié xiǎoxīn, pà bèi wǒ kànjiàn.",
+    "vi": "Cô ấy chưa bao giờ nhắc tới, đều là lúc mình mở ngăn bàn ra tự phát hiện, hơn nữa mỗi lần cô ấy bỏ vào đều rất cẩn thận, sợ bị mình nhìn thấy.",
+    "grammar": [
+     "从来没提过，都是……自己发现的 (chưa từng nhắc tới, đều là…tự phát hiện ra)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Zhè zhǒng guānxīn, suīrán hěn xiǎo, dànshì gǎnjué tèbié yòngxīn.",
+    "vi": "Sự quan tâm này, tuy rất nhỏ, nhưng cảm giác rất chân thành, để tâm.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Duì, hái yǒu yí cì, wǒ yīnwèi yào liú xiàlái dǎsǎo jiàoshì, chūlái de shíhou yǐjīng wǎn le, jiéguǒ fāxiàn tā zài xiào ménkǒu de shù xià děng wǒ.",
+    "vi": "Đúng, còn một lần nữa, vì mình phải ở lại quét dọn lớp học, lúc ra thì đã muộn rồi, kết quả phát hiện cô ấy đang đợi mình dưới gốc cây trước cổng trường.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Tā wèishénme yào děng nǐ?",
+    "vi": "Sao cô ấy lại đợi cậu?",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Tā shuō, pà wǒ yí gè rén zǒu nà duàn méiyǒu dēng de lù, yǒudiǎnr bù ānquán, jiù xiǎng péi wǒ yìqǐ zǒu.",
+    "vi": "Cô ấy nói, sợ mình đi một mình qua đoạn đường không có đèn đó, hơi không an toàn, nên muốn đi cùng mình.",
+    "grammar": [
+     "怕……就想…… (sợ…nên muốn…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Tīng dào zhèlǐ, wǒ juéde, nà duàn yòu máng yòu lèi de rìzi, hǎoxiàng yīnwèi zhèxiē xiǎo shì, yě biàn de wēnnuǎn qǐlái le.",
+    "vi": "Nghe đến đây, mình cảm thấy, quãng thời gian vừa bận vừa mệt đó, hình như nhờ những chuyện nhỏ này, cũng trở nên ấm áp hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Quèshí shì zhèyàng, nà shíhou wǒ chángcháng juéde, zìjǐ shì nà duàn shíjiān lǐ, zuì xìngyùn de rén zhīyī.",
+    "vi": "Đúng là vậy, hồi đó mình thường cảm thấy, mình là một trong những người may mắn nhất của quãng thời gian ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Zhèxiē xìxiǎo de guānxīn, wǎngwǎng bǐ hěn duō dà de lǐwù, gèng ràng rén jìde zhù.",
+    "vi": "Những sự quan tâm nhỏ bé này, thường khiến người ta nhớ được lâu hơn nhiều món quà lớn.",
+    "grammar": [
+     "往往比……更…… (thường…hơn…)"
+    ]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Méicuò, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Đúng vậy, được rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht3",
+  "no": 16,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng gēn Déshèng liáoliao, nà duàn xuéshēng shídài de gǎnqíng, hòulái zěnmeyàng le, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn cùng 德盛 trò chuyện, về thứ tình cảm thời học sinh đó, về sau ra sao rồi, mình là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Hǎo, nà wǒ jiēzhe shàng cì de gùshi shuō.",
+    "vi": "Mình là 德盛. Được, vậy mình kể tiếp câu chuyện lần trước.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Shàng cì shuō dào, nǐmen gāo sān nà nián, tā yìzhí mòmò de guānxīn nǐ.",
+    "vi": "Lần trước kể đến, năm lớp 12 của các cậu, cô ấy luôn lặng lẽ quan tâm cậu.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Duì, nà duàn shíjiān, wǒ yīnwèi yālì tài dà, chéngjì yǒu yí cì diào de bǐjiào duō, xīnlǐ tèbié nánguò, juéde zìjǐ ràng dàjiā dōu shīwàng le.",
+    "vi": "Đúng, quãng thời gian đó, vì áp lực quá lớn, điểm số có một lần tụt khá nhiều, trong lòng buồn vô cùng, cảm thấy mình khiến mọi người đều thất vọng.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Tā dāngshí shì zěnme fǎnyìng de?",
+    "vi": "Lúc đó cô ấy phản ứng thế nào?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Tā méiyǒu xiàng biérén nàyàng, zhǐshì ānwèi wǒ shuō \"xià cì huì gèng hǎo\", érshì hěn rènzhēn de wèn wǒ, zuìjìn shì bú shì tài lèi le, shì bú shì gāi duō xiūxi yíxià.",
+    "vi": "Cô ấy không như người khác, chỉ an ủi mình rằng \"lần sau sẽ tốt hơn\", mà là rất nghiêm túc hỏi mình, dạo này có phải quá mệt không, có phải nên nghỉ ngơi nhiều hơn không.",
+    "grammar": [
+     "没有像……那样……而是…… (không như…mà là…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, tā guānxīn de bú shì nǐ de chéngjì, érshì nǐ zhège rén.",
+    "vi": "Nói vậy thì, thứ cô ấy quan tâm không phải điểm số của cậu, mà là con người cậu.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Duì, tā hái shuō le yí jù huà, wǒ dào xiànzài dōu jìde, tā shuō, tā bù xūyào wǒ yìzhí kǎo dì yī míng, zhǐ xīwàng wǒ néng kāikāixīnxīn de, jiànjiànkāngkāng de, gēn tā yìqǐ, hǎohǎo dùguò měi yì tiān.",
+    "vi": "Đúng, cô ấy còn nói một câu, đến giờ mình vẫn nhớ, cô ấy nói, cô ấy không cần mình lúc nào cũng thi hạng nhất, chỉ mong mình được vui vẻ, khỏe mạnh, cùng cô ấy sống thật tốt mỗi ngày.",
+    "grammar": [
+     "不需要……只希望…… (không cần…chỉ mong…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhè jù huà tīng qǐlái hěn jiǎndān, dànshì fènliàng què tǐng zhòng de.",
+    "vi": "Câu nói này nghe rất đơn giản, nhưng sức nặng của nó lại khá lớn.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Shì a, wǒ dāngshí tīng wán, tūrán juéde, hǎoxiàng zìjǐ bù xūyào yí gè rén káng zhe suǒyǒu yālì le.",
+    "vi": "Đúng vậy, lúc đó nghe xong, mình đột nhiên cảm thấy, hình như mình không cần một mình gánh vác hết mọi áp lực nữa.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nà zhè jù huà, duì nǐ hòulái de xuéxí hé shēnghuó, yǒu méiyǒu yǐngxiǎng?",
+    "vi": "Vậy câu nói này, đối với việc học và cuộc sống về sau của cậu, có ảnh hưởng không?",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Yǐngxiǎng tǐng dà de, cóng nà yǐhòu, wǒ mànmàn xuéhuì le, bú yào bǎ suǒyǒu de jiàzhí, dōu fàng zài chéngjì shàngmiàn, yě yào zhàogù hǎo zìjǐ de shēntǐ hé xīnqíng.",
+    "vi": "Ảnh hưởng khá lớn, từ đó về sau, mình dần học được, đừng đặt hết mọi giá trị vào điểm số, cũng phải chăm sóc tốt cơ thể và tâm trạng của bản thân.",
+    "grammar": [
+     "不要把……都放在……上面 (không nên đặt hết…vào…)"
+    ]
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Zhè quèshí shì hěn zhòngyào de yí kè, yóuqí shì zài yālì hěn dà de niánjì.",
+    "vi": "Đây quả thực là một bài học rất quan trọng, nhất là ở cái tuổi áp lực rất lớn.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Duì, suīrán hòulái wǒmen gèzì qù le bùtóng de chéngshì dú dàxué, dànshì měi cì xiǎng qǐ nà duàn rìzi, wǒ dōu huì juéde, nà shì yí duàn hěn zhēnguì de shíguāng.",
+    "vi": "Đúng, tuy sau này tụi mình mỗi người đến một thành phố khác nhau học đại học, nhưng mỗi lần nhớ về quãng thời gian đó, mình đều cảm thấy, đó là một khoảng thời gian rất quý giá.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Tīng nǐ zhème shuō, nà duàn gǎnqíng, suīrán jiǎndān, dànshì duì nǐ de yǐngxiǎng, qíshí yìzhí dōu zài.",
+    "vi": "Nghe cậu nói vậy, thứ tình cảm đó, tuy đơn giản, nhưng ảnh hưởng đối với cậu, thực ra vẫn luôn còn đó.",
+    "grammar": [
+     "虽然……但是……其实一直都在 (tuy…nhưng…thực ra vẫn luôn còn đó)"
+    ]
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Quèshí shì zhèyàng, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Đúng là vậy, được rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ }
+]

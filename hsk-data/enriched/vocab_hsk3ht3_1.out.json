@@ -1,0 +1,247 @@
+{
+ "不安全": {
+  "pinyin": "bù'ānquán",
+  "hanviet": "bất an toàn",
+  "pos": "adj."
+ },
+ "不确定性": {
+  "pinyin": "búquèdìngxìng",
+  "hanviet": "bất xác định tính",
+  "pos": "phr."
+ },
+ "亲近": {
+  "pinyin": "qīnjìn",
+  "hanviet": "thân cận",
+  "pos": "adj."
+ },
+ "价值": {
+  "pinyin": "jiàzhí",
+  "hanviet": "giá trị",
+  "pos": "n."
+ },
+ "优点": {
+  "pinyin": "yōudiǎn",
+  "hanviet": "ưu điểm",
+  "pos": "n."
+ },
+ "保障": {
+  "pinyin": "bǎozhàng",
+  "hanviet": "bảo chướng",
+  "pos": "n."
+ },
+ "修好": {
+  "pinyin": "xiūhǎo",
+  "hanviet": "tu hảo",
+  "pos": "v."
+ },
+ "健健康康": {
+  "pinyin": "jiànjiànkāngkāng",
+  "hanviet": "kiện kiện khang khang",
+  "pos": "adj."
+ },
+ "分析": {
+  "pinyin": "fēnxī",
+  "hanviet": "phân tích",
+  "pos": "v."
+ },
+ "分量": {
+  "pinyin": "fènliàng",
+  "hanviet": "phân lượng",
+  "pos": "n."
+ },
+ "同桌": {
+  "pinyin": "tóngzhuō",
+  "hanviet": "đồng trác",
+  "pos": "n."
+ },
+ "后路": {
+  "pinyin": "hòulù",
+  "hanviet": "hậu lộ",
+  "pos": "n."
+ },
+ "备用方案": {
+  "pinyin": "bèiyòngfāng'àn",
+  "hanviet": "bị dụng phương án",
+  "pos": "phr."
+ },
+ "学生时代": {
+  "pinyin": "xuéshēngshídài",
+  "hanviet": "học sinh thời đại",
+  "pos": "phr."
+ },
+ "完美": {
+  "pinyin": "wánměi",
+  "hanviet": "hoàn mỹ",
+  "pos": "adj."
+ },
+ "封": {
+  "pinyin": "fēng",
+  "hanviet": "phong",
+  "pos": "v."
+ },
+ "应对": {
+  "pinyin": "yìngduì",
+  "hanviet": "ứng đối",
+  "pos": "v."
+ },
+ "延误": {
+  "pinyin": "yánwù",
+  "hanviet": "diên ngộ",
+  "pos": "v."
+ },
+ "悄悄": {
+  "pinyin": "qiāoqiāo",
+  "hanviet": "tiễu tiễu",
+  "pos": "adv."
+ },
+ "成千上万": {
+  "pinyin": "chéngqiānshàngwàn",
+  "hanviet": "thành thiên thượng vạn",
+  "pos": "phr."
+ },
+ "扛": {
+  "pinyin": "káng",
+  "hanviet": "giang",
+  "pos": "v."
+ },
+ "数据": {
+  "pinyin": "shùjù",
+  "hanviet": "số cứ",
+  "pos": "n."
+ },
+ "方案": {
+  "pinyin": "fāng'àn",
+  "hanviet": "phương án",
+  "pos": "n."
+ },
+ "权衡": {
+  "pinyin": "quánhéng",
+  "hanviet": "quyền hành",
+  "pos": "v."
+ },
+ "校门口": {
+  "pinyin": "xiàoménkǒu",
+  "hanviet": "hiệu môn khẩu",
+  "pos": "n."
+ },
+ "毛病": {
+  "pinyin": "máobìng",
+  "hanviet": "mao bệnh",
+  "pos": "n."
+ },
+ "漏洞": {
+  "pinyin": "lòudòng",
+  "hanviet": "lậu động",
+  "pos": "n."
+ },
+ "物流": {
+  "pinyin": "wùliú",
+  "hanviet": "vật lưu",
+  "pos": "n."
+ },
+ "理性": {
+  "pinyin": "lǐxìng",
+  "hanviet": "lý tính",
+  "pos": "n."
+ },
+ "神秘": {
+  "pinyin": "shénmì",
+  "hanviet": "thần bí",
+  "pos": "adj."
+ },
+ "突发情况": {
+  "pinyin": "tūfāqíngkuàng",
+  "hanviet": "đột phát tình huống",
+  "pos": "phr."
+ },
+ "算法": {
+  "pinyin": "suànfǎ",
+  "hanviet": "toán pháp",
+  "pos": "n."
+ },
+ "细小": {
+  "pinyin": "xìxiǎo",
+  "hanviet": "tế tiểu",
+  "pos": "adj."
+ },
+ "缺点": {
+  "pinyin": "quēdiǎn",
+  "hanviet": "khuyết điểm",
+  "pos": "n."
+ },
+ "翻看": {
+  "pinyin": "fānkàn",
+  "hanviet": "phiên khán",
+  "pos": "v."
+ },
+ "规划": {
+  "pinyin": "guīhuà",
+  "hanviet": "quy hoạch",
+  "pos": "v."
+ },
+ "订单": {
+  "pinyin": "dìngdān",
+  "hanviet": "đính đơn",
+  "pos": "n."
+ },
+ "说到一半": {
+  "pinyin": "shuōdàoyíbàn",
+  "hanviet": "thuyết đáo nhất bán",
+  "pos": "phr."
+ },
+ "货物": {
+  "pinyin": "huòwù",
+  "hanviet": "hóa vật",
+  "pos": "n."
+ },
+ "贴切": {
+  "pinyin": "tiēqiè",
+  "hanviet": "thiếp thiết",
+  "pos": "adj."
+ },
+ "路线": {
+  "pinyin": "lùxiàn",
+  "hanviet": "lộ tuyến",
+  "pos": "n."
+ },
+ "转来": {
+  "pinyin": "zhuǎnlái",
+  "hanviet": "chuyển lai",
+  "pos": "v."
+ },
+ "运输": {
+  "pinyin": "yùnshū",
+  "hanviet": "vận thâu",
+  "pos": "v."
+ },
+ "追求": {
+  "pinyin": "zhuīqiú",
+  "hanviet": "truy cầu",
+  "pos": "v."
+ },
+ "重点": {
+  "pinyin": "zhòngdiǎn",
+  "hanviet": "trọng điểm",
+  "pos": "n."
+ },
+ "项目": {
+  "pinyin": "xiàngmù",
+  "hanviet": "hạng mục",
+  "pos": "n."
+ },
+ "顺畅": {
+  "pinyin": "shùnchàng",
+  "hanviet": "thuận sướng",
+  "pos": "adj."
+ },
+ "风险": {
+  "pinyin": "fēngxiǎn",
+  "hanviet": "phong hiểm",
+  "pos": "n."
+ },
+ "默默地": {
+  "pinyin": "mòmòde",
+  "hanviet": "mặc mặc địa",
+  "pos": "adv."
+ }
+}

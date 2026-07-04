@@ -1,0 +1,1303 @@
+{
+ "hsk3ht3": [
+  {
+   "kind": "dialogue",
+   "no": 14,
+   "titleHan": "日记本里的名字",
+   "titleVi": "Cái tên trong cuốn nhật ký",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊一个比较特别的话题，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo yí gè bǐ jiào tè bié de huà tí, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。什么话题？听起来有点儿神秘。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. shén me huà tí? tīng qǐ lái yǒu diǎn ér shén mì."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们聊聊，学生时代那种，说不太清楚，但是一直记得的感情吧。",
+     "draft_pinyin": "Yún yīng: wǒ men liáo liáo, xué shēng shí dài nà zhǒng, shuō bù tài qīng chǔ, dàn shì yì zhí jì de de gǎn qíng ba."
+    },
+    {
+     "speaker": "德盛",
+     "han": "哦，这个话题，我倒是有一件事，一直想找机会说说。",
+     "draft_pinyin": "Dé shèng: ó, zhè ge huà tí, wǒ dǎo shì yǒu yī jiàn shì, yì zhí xiǎng zhǎo jī huì shuō shuō."
+    },
+    {
+     "speaker": "云英",
+     "han": "说说看。",
+     "draft_pinyin": "Yún yīng: shuō shuō kàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "高中的时候，我有一个习惯，每天晚上都会写几句日记，记一下当天发生的事情。",
+     "draft_pinyin": "Dé shèng: gāo zhōng de shí hòu, wǒ yǒu yí gè xí guàn, měi tiān wǎn shàng dū huì xiě jǐ jù rì jì, jì yī xià dàng tiān fā shēng de shì qíng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个习惯挺好的，坚持下来不容易。",
+     "draft_pinyin": "Yún yīng: zhè ge xí guàn tǐng hǎo de, jiān chí xià lái bù róng yì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "后来班里转来一个同学，我们渐渐熟悉起来，慢慢地，我发现自己每天的日记里，总会不自觉地提到她。",
+     "draft_pinyin": "Dé shèng: hòu lái bān lǐ zhuǎn lái yí gè tóng xué, wǒ men jiàn jiàn shú xī qǐ lái, màn màn dì, wǒ fā xiàn zì jǐ měi tiān de rì jì lǐ, zǒng huì bù zì jué dì tí dào tā."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，她已经变成你日记里，常常出现的人物了。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, tā yǐ jīng biàn chéng nǐ rì jì lǐ, cháng cháng chū xiàn de rén wù le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，一开始我没觉得有什么，后来有一次，我翻看以前写的日记，才发现，几乎每一页都有她的名字。",
+     "draft_pinyin": "Dé shèng: duì, yī kāi shǐ wǒ méi jué de yǒu shén me, hòu lái yǒu yī cì, wǒ fān kàn yǐ qián xiě de rì jì, cái fā xiàn, jī hū měi yī yè dōu yǒu tā de míng zì."
+    },
+    {
+     "speaker": "云英",
+     "han": "那时候你是什么感觉？",
+     "draft_pinyin": "Yún yīng: nà shí hòu nǐ shì shén me gǎn jué?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我突然意识到，原来这段时间，自己每天想记录的事情，都跟她有关系。",
+     "draft_pinyin": "Dé shèng: wǒ tū rán yì shí dào, yuán lái zhè duàn shí jiān, zì jǐ měi tiān xiǎng jì lù de shì qíng, dōu gēn tā yǒu guān xì."
+    },
+    {
+     "speaker": "云英",
+     "han": "这确实是一种很自然，但是也很明显的信号。",
+     "draft_pinyin": "Yún yīng: zhè què shí shì yī zhǒng hěn zì rán, dàn shì yě hěn míng xiǎn de xìn hào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，从那天以后，我心里悄悄有了一个小小的愿望，希望以后写的每一页日记，都能继续有她的名字。",
+     "draft_pinyin": "Dé shèng: duì, cóng nà tiān yǐ hòu, wǒ xīn lǐ qiāo qiāo yǒu le yí gè xiǎo xiǎo de yuàn wàng, xī wàng yǐ hòu xiě de měi yī yè rì jì, dōu néng jì xù yǒu tā de míng zì."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个愿望说出来，虽然很简单，但是听起来挺让人感动的。",
+     "draft_pinyin": "Yún yīng: zhè ge yuàn wàng shuō chū lái, suī rán hěn jiǎn dān, dàn shì tīng qǐ lái tǐng ràng rén gǎn dòng de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "其实我从来没有直接告诉过她这件事，只是自己心里，一直这样想。",
+     "draft_pinyin": "Dé shèng: qí shí wǒ cóng lái méi yǒu zhí jiē gào sù guò tā zhè jiàn shì, zhǐ shì zì jǐ xīn lǐ, yì zhí zhè yàng xiǎng."
+    },
+    {
+     "speaker": "云英",
+     "han": "有时候，这种没说出口的心意，反而会被记得更久。",
+     "draft_pinyin": "Yún yīng: yǒu shí hòu, zhè zhǒng méi shuō chū kǒu de xīn yì, fǎn ér huì bèi jì de gèng jiǔ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "可能是这样，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Dé shèng: kě néng shì zhè yàng, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Yún yīng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "神秘",
+     "pinyin": "",
+     "meaning": "thần bí, bí ẩn"
+    },
+    {
+     "word": "学生时代",
+     "pinyin": "",
+     "meaning": "thời học sinh"
+    },
+    {
+     "word": "习惯",
+     "pinyin": "",
+     "meaning": "thói quen"
+    },
+    {
+     "word": "转来",
+     "pinyin": "",
+     "meaning": "chuyển đến"
+    },
+    {
+     "word": "渐渐",
+     "pinyin": "",
+     "meaning": "dần dần"
+    },
+    {
+     "word": "不自觉地",
+     "pinyin": "",
+     "meaning": "một cách vô thức"
+    },
+    {
+     "word": "翻看",
+     "pinyin": "",
+     "meaning": "lật xem lại"
+    },
+    {
+     "word": "意识到",
+     "pinyin": "",
+     "meaning": "nhận ra"
+    },
+    {
+     "word": "信号",
+     "pinyin": "",
+     "meaning": "tín hiệu"
+    },
+    {
+     "word": "悄悄",
+     "pinyin": "",
+     "meaning": "lặng lẽ"
+    },
+    {
+     "word": "愿望",
+     "pinyin": "",
+     "meaning": "nguyện vọng"
+    },
+    {
+     "word": "心意",
+     "pinyin": "",
+     "meaning": "tấm lòng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "总会不自觉地…… (luôn vô thức…)",
+     "example": "日记里总会不自觉地提到她",
+     "meaning": "diễn tả hành vi lặp lại ngoài ý thức chủ động"
+    },
+    {
+     "name": "才发现…… (mới phát hiện ra…)",
+     "example": "翻看以前写的日记，才发现几乎每一页都有她的名字",
+     "meaning": "nhấn mạnh việc chỉ nhận ra sau một hành động cụ thể"
+    },
+    {
+     "name": "从那天以后……悄悄…… (từ ngày đó…lặng lẽ…)",
+     "example": "从那天以后，我心里悄悄有了一个小小的愿望",
+     "meaning": "dẫn mốc thời gian bắt đầu một cảm xúc kín đáo"
+    },
+    {
+     "name": "反而会……更久 (trái lại sẽ…lâu hơn)",
+     "example": "没说出口的心意，反而会被记得更久",
+     "meaning": "nêu kết quả bất ngờ, ngược với dự đoán thông thường"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 15,
+   "titleHan": "课本外的颜色",
+   "titleVi": "Màu sắc ngoài trang sách",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "接着上次的话题，今天想请德盛再分享一个学生时代的小故事，我是云英。",
+     "draft_pinyin": "Yún yīng: jiē zhe shàng cì de huà tí, jīn tiān xiǎng qǐng dé shèng zài fēn xiǎng yí gè xué shēng shí dài de xiǎo gù shì, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。好，那我说说高三那一年吧。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. hǎo, nà wǒ shuō shuō gāo sān nà yī nián ba."
+    },
+    {
+     "speaker": "云英",
+     "han": "高三，那应该压力挺大的一年。",
+     "draft_pinyin": "Yún yīng: gāo sān, nà yīng gāi yā lì tǐng dà de yī nián."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，那时候，我每天的生活基本上就是上课、写作业、考试，感觉整个世界都是灰色的，特别单调。",
+     "draft_pinyin": "Dé shèng: duì, nà shí hòu, wǒ měi tiān de shēng huó jī běn shàng jiù shì shàng kè, xiě zuò yè, kǎo shì, gǎn jué zhěng gè shì jiè dōu shì huī sè de, tè bié dān diào."
+    },
+    {
+     "speaker": "云英",
+     "han": "这种感觉我完全能理解，高三确实容易让人觉得，生活里除了成绩，好像没有别的了。",
+     "draft_pinyin": "Yún yīng: zhè zhǒng gǎn jué wǒ wán quán néng lǐ jiě, gāo sān què shí róng yì ràng rén jué de, shēng huó lǐ chú le chéng jì, hǎo xiàng méi yǒu bié de le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "不过，后来发生了一件小事，让我觉得，那段日子好像也没有那么无聊。",
+     "draft_pinyin": "Dé shèng: bù guò, hòu lái fā shēng le yī jiàn xiǎo shì, ràng wǒ jué de, nà duàn rì zi hǎo xiàng yě méi yǒu nà me wú liáo."
+    },
+    {
+     "speaker": "云英",
+     "han": "什么事？",
+     "draft_pinyin": "Yún yīng: shén me shì?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我同桌，她发现我每天早上都没时间吃早饭，就开始偷偷把一盒牛奶放进我的书桌里。",
+     "draft_pinyin": "Dé shèng: wǒ tóng zhuō, tā fā xiàn wǒ měi tiān zǎo shàng dōu méi shí jiān chī zǎo fàn, jiù kāi shǐ tōu tōu bǎ yī hé niú nǎi fàng jìn wǒ de shū zhuō lǐ."
+    },
+    {
+     "speaker": "云英",
+     "han": "她自己说了吗，还是你自己发现的？",
+     "draft_pinyin": "Yún yīng: tā zì jǐ shuō le ma, hái shì nǐ zì jǐ fā xiàn de?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "她从来没提过，都是我打开书桌的时候，自己发现的，而且她每次放的时候都特别小心，怕被我看见。",
+     "draft_pinyin": "Dé shèng: tā cóng lái méi tí guò, dōu shì wǒ dǎ kāi shū zhuō de shí hòu, zì jǐ fā xiàn de, ér qiě tā měi cì fàng de shí hòu dōu tè bié xiǎo xīn, pà bèi wǒ kàn jiàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这种关心，虽然很小，但是感觉特别用心。",
+     "draft_pinyin": "Yún yīng: zhè zhǒng guān xīn, suī rán hěn xiǎo, dàn shì gǎn jué tè bié yòng xīn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，还有一次，我因为要留下来打扫教室，出来的时候已经晚了，结果发现她在校门口的树下等我。",
+     "draft_pinyin": "Dé shèng: duì, hái yǒu yī cì, wǒ yīn wèi yào liú xià lái dǎ sǎo jiào shì, chū lái de shí hòu yǐ jīng wǎn le, jié guǒ fā xiàn tā zài xiào mén kǒu de shù xià děng wǒ."
+    },
+    {
+     "speaker": "云英",
+     "han": "她为什么要等你？",
+     "draft_pinyin": "Yún yīng: tā wèi shén me yào děng nǐ?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "她说，怕我一个人走那段没有灯的路，有点儿不安全，就想陪我一起走。",
+     "draft_pinyin": "Dé shèng: tā shuō, pà wǒ yí gè rén zǒu nà duàn méi yǒu dēng de lù, yǒu diǎn ér bù ān quán, jiù xiǎng péi wǒ yì qǐ zǒu."
+    },
+    {
+     "speaker": "云英",
+     "han": "听到这里，我觉得，那段又忙又累的日子，好像因为这些小事，也变得温暖起来了。",
+     "draft_pinyin": "Yún yīng: tīng dào zhè lǐ, wǒ jué de, nà duàn yòu máng yòu lèi de rì zi, hǎo xiàng yīn wèi zhè xiē xiǎo shì, yě biàn dé wēn nuǎn qǐ lái le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，那时候我常常觉得，自己是那段时间里，最幸运的人之一。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, nà shí hòu wǒ cháng cháng jué de, zì jǐ shì nà duàn shí jiān lǐ, zuì xìng yùn de rén zhī yī."
+    },
+    {
+     "speaker": "云英",
+     "han": "这些细小的关心，往往比很多大的礼物，更让人记得住。",
+     "draft_pinyin": "Yún yīng: zhè xiē xì xiǎo de guān xīn, wǎng wǎng bǐ hěn duō dà de lǐ wù, gèng ràng rén jì de zhù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "没错，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Dé shèng: méi cuò, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Yún yīng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "压力",
+     "pinyin": "",
+     "meaning": "áp lực"
+    },
+    {
+     "word": "灰色",
+     "pinyin": "",
+     "meaning": "màu xám"
+    },
+    {
+     "word": "单调",
+     "pinyin": "",
+     "meaning": "đơn điệu"
+    },
+    {
+     "word": "同桌",
+     "pinyin": "",
+     "meaning": "bạn cùng bàn"
+    },
+    {
+     "word": "偷偷",
+     "pinyin": "",
+     "meaning": "lặng lẽ, âm thầm"
+    },
+    {
+     "word": "用心",
+     "pinyin": "",
+     "meaning": "chú tâm, tận tâm"
+    },
+    {
+     "word": "校门口",
+     "pinyin": "",
+     "meaning": "cổng trường"
+    },
+    {
+     "word": "不安全",
+     "pinyin": "",
+     "meaning": "không an toàn"
+    },
+    {
+     "word": "陪",
+     "pinyin": "",
+     "meaning": "đi cùng, ở bên"
+    },
+    {
+     "word": "细小",
+     "pinyin": "",
+     "meaning": "nhỏ bé"
+    },
+    {
+     "word": "幸运",
+     "pinyin": "",
+     "meaning": "may mắn"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "基本上就是……感觉……特别…… (cơ bản là…cảm thấy…đặc biệt…)",
+     "example": "生活基本上就是上课、写作业、考试，感觉特别单调",
+     "meaning": "tóm tắt cuộc sống đơn giản, nhấn mạnh cảm giác chung"
+    },
+    {
+     "name": "从来没提过，都是……自己发现的 (chưa từng nhắc tới, đều là…tự phát hiện ra)",
+     "example": "她从来没提过，都是我自己发现的",
+     "meaning": "nhấn mạnh tính âm thầm, kín đáo của hành động"
+    },
+    {
+     "name": "怕……就想…… (sợ…nên muốn…)",
+     "example": "怕我一个人走不安全，就想陪我一起走",
+     "meaning": "nêu lý do dẫn đến hành động quan tâm"
+    },
+    {
+     "name": "往往比……更…… (thường…hơn…)",
+     "example": "细小的关心，往往比很多大的礼物，更让人记得住",
+     "meaning": "so sánh để nhấn mạnh giá trị của điều nhỏ bé"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 16,
+   "titleHan": "同一片天空下",
+   "titleVi": "Dưới cùng một bầu trời",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想跟德盛聊聊，那段学生时代的感情，后来怎么样了，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng gēn dé shèng liáo liáo, nà duàn xué shēng shí dài de gǎn qíng, hòu lái zěn me yàng le, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。好，那我接着上次的故事说。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. hǎo, nà wǒ jiē zhe shàng cì de gù shì shuō."
+    },
+    {
+     "speaker": "云英",
+     "han": "上次说到，你们高三那年，她一直默默地关心你。",
+     "draft_pinyin": "Yún yīng: shàng cì shuō dào, nǐ men gāo sān nà nián, tā yì zhí mò mò dì guān xīn nǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，那段时间，我因为压力太大，成绩有一次掉得比较多，心里特别难过，觉得自己让大家都失望了。",
+     "draft_pinyin": "Dé shèng: duì, nà duàn shí jiān, wǒ yīn wèi yā lì tài dà, chéng jì yǒu yī cì diào dé bǐ jiào duō, xīn lǐ tè bié nán guò, jué de zì jǐ ràng dà jiā dōu shī wàng le."
+    },
+    {
+     "speaker": "云英",
+     "han": "她当时是怎么反应的？",
+     "draft_pinyin": "Yún yīng: tā dāng shí shì zěn me fǎn yìng de?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "她没有像别人那样，只是安慰我说\"下次会更好\"，而是很认真地问我，最近是不是太累了，是不是该多休息一下。",
+     "draft_pinyin": "Dé shèng: tā méi yǒu xiàng bié rén nà yàng, zhǐ shì ān wèi wǒ shuō\"xià cì huì gèng hǎo\", ér shì hěn rèn zhēn dì wèn wǒ, zuì jìn shì bú shì tài lèi le, shì bú shì gāi duō xiū xī yī xià."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，她关心的不是你的成绩，而是你这个人。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, tā guān xīn de bú shì nǐ de chéng jì, ér shì nǐ zhè ge rén."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，她还说了一句话，我到现在都记得，她说，她不需要我一直考第一名，只希望我能开开心心的，健健康康的，跟她一起，好好度过每一天。",
+     "draft_pinyin": "Dé shèng: duì, tā hái shuō le yī jù huà, wǒ dào xiàn zài dōu jì de, tā shuō, tā bù xū yào wǒ yì zhí kǎo dì yì míng, zhǐ xī wàng wǒ néng kāi kāi xīn xīn de, jiàn jiàn kāng kāng de, gēn tā yì qǐ, hǎo hǎo dù guò měi yī tiān."
+    },
+    {
+     "speaker": "云英",
+     "han": "这句话听起来很简单，但是分量却挺重的。",
+     "draft_pinyin": "Yún yīng: zhè jù huà tīng qǐ lái hěn jiǎn dān, dàn shì fèn liàng què tǐng zhòng de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "是啊，我当时听完，突然觉得，好像自己不需要一个人扛着所有压力了。",
+     "draft_pinyin": "Dé shèng: shì a, wǒ dāng shí tīng wán, tū rán jué de, hǎo xiàng zì jǐ bù xū yào yí gè rén káng zhe suǒ yǒu yā lì le."
+    },
+    {
+     "speaker": "云英",
+     "han": "那这句话，对你后来的学习和生活，有没有影响？",
+     "draft_pinyin": "Yún yīng: nà zhè jù huà, duì nǐ hòu lái de xué xí hé shēng huó, yǒu méi yǒu yǐng xiǎng?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "影响挺大的，从那以后，我慢慢学会了，不要把所有的价值，都放在成绩上面，也要照顾好自己的身体和心情。",
+     "draft_pinyin": "Dé shèng: yǐng xiǎng tǐng dà de, cóng nà yǐ hòu, wǒ màn màn xué huì le, bú yào bǎ suǒ yǒu de jià zhí, dōu fàng zài chéng jì shàng miàn, yě yào zhào gù hǎo zì jǐ de shēn tǐ hé xīn qíng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这确实是很重要的一课，尤其是在压力很大的年纪。",
+     "draft_pinyin": "Yún yīng: zhè què shí shì hěn zhòng yào de yī kè, yóu qí shì zài yā lì hěn dà de nián jì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，虽然后来我们各自去了不同的城市读大学，但是每次想起那段日子，我都会觉得，那是一段很珍贵的时光。",
+     "draft_pinyin": "Dé shèng: duì, suī rán hòu lái wǒ men gè zì qù le bù tóng de chéng shì dú dà xué, dàn shì měi cì xiǎng qǐ nà duàn rì zi, wǒ dū huì jué de, nà shì yī duàn hěn zhēn guì de shí guāng."
+    },
+    {
+     "speaker": "云英",
+     "han": "听你这么说，那段感情，虽然简单，但是对你的影响，其实一直都在。",
+     "draft_pinyin": "Yún yīng: tīng nǐ zhè me shuō, nà duàn gǎn qíng, suī rán jiǎn dān, dàn shì duì nǐ de yǐng xiǎng, qí shí yì zhí dōu zài."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Yún yīng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "默默地",
+     "pinyin": "",
+     "meaning": "lặng lẽ"
+    },
+    {
+     "word": "掉",
+     "pinyin": "",
+     "meaning": "tụt (điểm số)"
+    },
+    {
+     "word": "失望",
+     "pinyin": "",
+     "meaning": "thất vọng"
+    },
+    {
+     "word": "安慰",
+     "pinyin": "",
+     "meaning": "an ủi"
+    },
+    {
+     "word": "健健康康",
+     "pinyin": "",
+     "meaning": "khỏe mạnh (láy nhấn mạnh)"
+    },
+    {
+     "word": "度过",
+     "pinyin": "",
+     "meaning": "trải qua"
+    },
+    {
+     "word": "分量",
+     "pinyin": "",
+     "meaning": "trọng lượng, tầm quan trọng"
+    },
+    {
+     "word": "扛",
+     "pinyin": "",
+     "meaning": "gánh, chịu (áp lực)"
+    },
+    {
+     "word": "价值",
+     "pinyin": "",
+     "meaning": "giá trị"
+    },
+    {
+     "word": "珍贵",
+     "pinyin": "",
+     "meaning": "quý báu"
+    },
+    {
+     "word": "时光",
+     "pinyin": "",
+     "meaning": "thời gian, thời khắc"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "没有像……那样……而是…… (không như…mà là…)",
+     "example": "她没有像别人那样安慰，而是认真问我是不是太累了",
+     "meaning": "phân biệt cách phản ứng thông thường và cách đặc biệt hơn"
+    },
+    {
+     "name": "不需要……只希望…… (không cần…chỉ mong…)",
+     "example": "不需要我一直考第一名，只希望我能开开心心的",
+     "meaning": "phủ định một yêu cầu cao, khẳng định mong muốn thực chất"
+    },
+    {
+     "name": "不要把……都放在……上面 (không nên đặt hết…vào…)",
+     "example": "不要把所有的价值都放在成绩上面",
+     "meaning": "khuyên tránh tập trung một chiều"
+    },
+    {
+     "name": "虽然……但是……其实一直都在 (tuy…nhưng…thực ra vẫn luôn còn đó)",
+     "example": "虽然感情简单，但是对他的影响其实一直都在",
+     "meaning": "nhượng bộ, khẳng định sự bền vững của ảnh hưởng"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 17,
+   "titleHan": "代码里没有的答案",
+   "titleVi": "Đáp án không có trong dòng code",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想请德盛聊聊，作为一名程序员，工作和感情之间，有没有什么有意思的联系，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng qǐng dé shèng liáo liáo, zuò wéi yī míng chéng xù yuán, gōng zuò hé gǎn qíng zhī jiān, yǒu méi yǒu shén me yǒu yì si de lián xì, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。这个问题问得挺特别，让我想想怎么说。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. zhè ge wèn tí wèn dé tǐng tè bié, ràng wǒ xiǎng xiǎng zěn me shuō."
+    },
+    {
+     "speaker": "云英",
+     "han": "慢慢说，不着急。",
+     "draft_pinyin": "Yún yīng: màn màn shuō, bù zháo jí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我平时的工作，主要是写程序，处理各种数据，然后靠算法，找出一个最合适的答案。",
+     "draft_pinyin": "Dé shèng: wǒ píng shí de gōng zuò, zhǔ yào shì xiě chéng xù, chǔ lǐ gè zhǒng shù jù, rán hòu kào suàn fǎ, zhǎo chū yí gè zuì hé shì de dá àn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这种工作，应该需要很强的逻辑能力吧。",
+     "draft_pinyin": "Yún yīng: zhè zhǒng gōng zuò, yīng gāi xū yào hěn qiáng de luó jí néng lì ba."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，几年下来，我已经习惯了，遇到任何问题，都先冷静地分析条件，再一步一步找答案。",
+     "draft_pinyin": "Dé shèng: duì, jǐ nián xià lái, wǒ yǐ jīng xí guàn le, yù dào rèn hé wèn tí, dōu xiān lěng jìng dì fēn xī tiáo jiàn, zài yí bù yí bù zhǎo dá àn."
+    },
+    {
+     "speaker": "云英",
+     "han": "那这种思维方式，用在生活里，会不会有点儿\"太理性\"？",
+     "draft_pinyin": "Yún yīng: nà zhè zhǒng sī wéi fāng shì, yòng zài shēng huó lǐ, huì bú huì yǒu diǎn ér\"tài lǐ xìng\"?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "说实话，以前我确实是这样，觉得什么事情都应该先想清楚，再做决定。",
+     "draft_pinyin": "Dé shèng: shuō shí huà, yǐ qián wǒ què shí shì zhè yàng, jué de shén me shì qíng dōu yīng gāi xiān xiǎng qīng chǔ, zài zuò jué dìng."
+    },
+    {
+     "speaker": "云英",
+     "han": "那后来呢？",
+     "draft_pinyin": "Yún yīng: nà hòu lái ne?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "后来，我认识了现在的女朋友，发生了一件挺有意思的事，让我发现，有些事情，好像不需要那么复杂的计算。",
+     "draft_pinyin": "Dé shèng: hòu lái, wǒ rèn shí le xiàn zài de nǚ péng yǒu, fā shēng le yī jiàn tǐng yǒu yì si de shì, ràng wǒ fā xiàn, yǒu xiē shì qíng, hǎo xiàng bù xū yào nà me fù zá de jì suàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "什么事？",
+     "draft_pinyin": "Yún yīng: shén me shì?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "那时候，公司让我们几个人负责一个新项目，我们几个同事经常一起加班讨论方案，她就是其中一个同事。",
+     "draft_pinyin": "Dé shèng: nà shí hòu, gōng sī ràng wǒ men jǐ gè rén fù zé yí gè xīn xiàng mù, wǒ men jǐ gè tóng shì jīng cháng yì qǐ jiā bān tǎo lùn fāng àn, tā jiù shì qí zhōng yí gè tóng shì."
+    },
+    {
+     "speaker": "云英",
+     "han": "所以你们是同事关系，慢慢发展出来的？",
+     "draft_pinyin": "Yún yīng: suǒ yǐ nǐ men shì tóng shì guān xì, màn màn fā zhǎn chū lái de?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，有一次，大家都在讨论应该选哪个方案，我一直在心里权衡各种可能性，反而她很快就说出了自己的想法，还说得挺有道理。",
+     "draft_pinyin": "Dé shèng: duì, yǒu yī cì, dà jiā dōu zài tǎo lùn yīng gāi xuǎn nǎ ge fāng àn, wǒ yì zhí zài xīn lǐ quán héng gè zhǒng kě néng xìng, fǎn ér tā hěn kuài jiù shuō chū le zì jǐ de xiǎng fǎ, hái shuō de tǐng yǒu dào lǐ."
+    },
+    {
+     "speaker": "云英",
+     "han": "那次以后，你对她的看法有什么变化吗？",
+     "draft_pinyin": "Yún yīng: nà cì yǐ hòu, nǐ duì tā de kàn fǎ yǒu shén me biàn huà ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "说不清楚具体是什么感觉，但是从那次以后，我发现，自己开完会，总会不自觉地想，等一下要不要找她一起吃午饭。",
+     "draft_pinyin": "Dé shèng: shuō bù qīng chǔ jù tǐ shì shén me gǎn jué, dàn shì cóng nà cì yǐ hòu, wǒ fā xiàn, zì jǐ kāi wán huì, zǒng huì bù zì jué dì xiǎng, děng yí xià yào bù yào zhǎo tā yì qǐ chī wǔ fàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "听起来，这个\"想法\"好像不需要你去分析，它自己就出现了。",
+     "draft_pinyin": "Yún yīng: tīng qǐ lái, zhè ge\"xiǎng fǎ\"hǎo xiàng bù xū yào nǐ qù fēn xī, tā zì jǐ jiù chū xiàn le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，这可能就是我今天想说的重点，有些选择，真的不需要算法，遇见了，自然就知道答案。",
+     "draft_pinyin": "Dé shèng: duì, zhè kě néng jiù shì wǒ jīn tiān xiǎng shuō de zhòng diǎn, yǒu xiē xuǎn zé, zhēn de bù xū yào suàn fǎ, yù jiàn le, zì rán jiù zhī dào dá àn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个总结很有意思，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: zhè ge zǒng jié hěn yǒu yì si, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "联系",
+     "pinyin": "",
+     "meaning": "liên hệ, mối liên quan"
+    },
+    {
+     "word": "数据",
+     "pinyin": "",
+     "meaning": "dữ liệu"
+    },
+    {
+     "word": "算法",
+     "pinyin": "",
+     "meaning": "thuật toán"
+    },
+    {
+     "word": "逻辑",
+     "pinyin": "",
+     "meaning": "logic"
+    },
+    {
+     "word": "冷静",
+     "pinyin": "",
+     "meaning": "bình tĩnh"
+    },
+    {
+     "word": "分析",
+     "pinyin": "",
+     "meaning": "phân tích"
+    },
+    {
+     "word": "理性",
+     "pinyin": "",
+     "meaning": "lý tính, lý trí"
+    },
+    {
+     "word": "项目",
+     "pinyin": "",
+     "meaning": "dự án"
+    },
+    {
+     "word": "方案",
+     "pinyin": "",
+     "meaning": "phương án"
+    },
+    {
+     "word": "权衡",
+     "pinyin": "",
+     "meaning": "cân nhắc"
+    },
+    {
+     "word": "可能性",
+     "pinyin": "",
+     "meaning": "khả năng"
+    },
+    {
+     "word": "具体",
+     "pinyin": "",
+     "meaning": "cụ thể"
+    },
+    {
+     "word": "重点",
+     "pinyin": "",
+     "meaning": "điểm quan trọng"
+    },
+    {
+     "word": "自然",
+     "pinyin": "",
+     "meaning": "tự nhiên"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "靠……找出…… (dựa vào…tìm ra…)",
+     "example": "靠算法，找出一个最合适的答案",
+     "meaning": "nêu công cụ/phương pháp để đạt kết quả"
+    },
+    {
+     "name": "好像不需要那么复杂的…… (dường như không cần…phức tạp như vậy)",
+     "example": "有些事情，好像不需要那么复杂的计算",
+     "meaning": "phản bác một cách làm thông thường, gợi mở điều đơn giản hơn"
+    },
+    {
+     "name": "总会不自觉地想…… (luôn vô thức nghĩ đến…)",
+     "example": "开完会，总会不自觉地想要不要找她吃午饭",
+     "meaning": "diễn tả suy nghĩ lặp lại ngoài ý thức chủ động"
+    },
+    {
+     "name": "遇见了，自然就知道…… (gặp rồi thì tự nhiên biết…)",
+     "example": "有些选择不需要算法，遇见了自然就知道答案",
+     "meaning": "khẳng định trực giác thay cho lý luận phức tạp"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 18,
+   "titleHan": "改不掉的例外",
+   "titleVi": "Ngoại lệ không muốn sửa",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想继续聊聊德盛工作和感情的话题，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng jì xù liáo liáo dé shèng gōng zuò hé gǎn qíng de huà tí, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。上次聊到，工作让我习惯理性分析，今天想说另一件小事。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. shàng cì liáo dào, gōng zuò ràng wǒ xí guàn lǐ xìng fēn xī, jīn tiān xiǎng shuō lìng yī jiàn xiǎo shì."
+    },
+    {
+     "speaker": "云英",
+     "han": "说说看。",
+     "draft_pinyin": "Yún yīng: shuō shuō kàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我平时工作里，很重要的一部分是找程序里的错误，也就是我们常说的\"漏洞\"，然后想办法把它修好。",
+     "draft_pinyin": "Dé shèng: wǒ píng shí gōng zuò lǐ, hěn zhòng yào de yī bù fèn shì zhǎo chéng xù lǐ de cuò wù, yě jiù shì wǒ men cháng shuō de\"lòu dòng\", rán hòu xiǎng bàn fǎ bǎ tā xiū hǎo."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个工作听起来挺细致的，需要很有耐心。",
+     "draft_pinyin": "Yún yīng: zhè ge gōng zuò tīng qǐ lái tǐng xì zhì de, xū yào hěn yǒu nài xīn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我们的目标，就是让整个程序运行得越来越顺畅，不出任何问题。",
+     "draft_pinyin": "Dé shèng: duì, wǒ men de mù biāo, jiù shì ràng zhěng gè chéng xù yùn xíng dé yuè lái yuè shùn chàng, bù chū rèn hé wèn tí."
+    },
+    {
+     "speaker": "云英",
+     "han": "那这跟你的感情故事，有什么关系？",
+     "draft_pinyin": "Yún yīng: nà zhè gēn nǐ de gǎn qíng gù shì, yǒu shén me guān xì?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "其实，我发现，我女朋友身上，有一些小小的\"毛病\"，如果按照我平时的工作习惯，应该会想办法帮她改一改。",
+     "draft_pinyin": "Dé shèng: qí shí, wǒ fā xiàn, wǒ nǚ péng yǒu shēn shàng, yǒu yī xiē xiǎo xiǎo de\"máo bìng\", rú guǒ àn zhào wǒ píng shí de gōng zuò xí guàn, yīng gāi huì xiǎng bàn fǎ bāng tā gǎi yī gǎi."
+    },
+    {
+     "speaker": "云英",
+     "han": "比如什么样的\"毛病\"？",
+     "draft_pinyin": "Yún yīng: bǐ rú shén me yàng de\"máo bìng\"?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "比如，她经常记不住东西放在哪里，出门前总要找上十分钟的钥匙，还常常说话说到一半，就跑去想别的事情。",
+     "draft_pinyin": "Dé shèng: bǐ rú, tā jīng cháng jì bú zhù dōng xī fàng zài nǎ lǐ, chū mén qián zǒng yào zhǎo shàng shí fēn zhōng de yào shi, hái cháng cháng shuō huà shuō dào yí bàn, jiù pǎo qù xiǎng bié de shì qíng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这些小习惯，听起来确实有点儿\"不完美\"。",
+     "draft_pinyin": "Yún yīng: zhè xiē xiǎo xí guàn, tīng qǐ lái què shí yǒu diǎn ér\"bù wán měi\"."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，但是奇怪的是，这些小毛病，我一点儿都不想帮她\"修好\"，反而觉得，这样才是真实的她，特别可爱。",
+     "draft_pinyin": "Dé shèng: duì, dàn shì qí guài de shì, zhè xiē xiǎo máo bìng, wǒ yì diǎn ér dōu bù xiǎng bāng tā\"xiū hǎo\", fǎn ér jué de, zhè yàng cái shì zhēn shí de tā, tè bié kě ài."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，这些小缺点，在你眼里，反而变成了优点？",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, zhè xiē xiǎo quē diǎn, zài nǐ yǎn lǐ, fǎn ér biàn chéng le yōu diǎn?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "可以这么理解，我平时在工作上，追求的是\"没有问题\"，但是在她身上，我反而希望，这些小毛病能一直保留下去。",
+     "draft_pinyin": "Dé shèng: kě yǐ zhè me lǐ jiě, wǒ píng shí zài gōng zuò shàng, zhuī qiú de shì\"méi yǒu wèn tí\", dàn shì zài tā shēn shàng, wǒ fǎn ér xī wàng, zhè xiē xiǎo máo bìng néng yì zhí bǎo liú xià qù."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个想法挺特别的，一般人可能会希望对方越完美越好。",
+     "draft_pinyin": "Yún yīng: zhè ge xiǎng fǎ tǐng tè bié de, yì bān rén kě néng huì xī wàng duì fāng yuè wán měi yuè hǎo."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，但是我觉得，正是因为有这些不完美的地方，她才显得更真实，更让人觉得亲近。",
+     "draft_pinyin": "Dé shèng: duì, dàn shì wǒ jué de, zhèng shì yīn wèi yǒu zhè xiē bù wán měi de dì fāng, tā cái xiǎn de gèng zhēn shí, gèng ràng rén jué de qīn jìn."
+    },
+    {
+     "speaker": "云英",
+     "han": "听你这么说，这可能就是感情跟工作最大的不同——工作追求完美，感情却接受不完美。",
+     "draft_pinyin": "Yún yīng: tīng nǐ zhè me shuō, zhè kě néng jiù shì gǎn qíng gēn gōng zuò zuì dà de bù tóng--gōng zuò zhuī qiú wán měi, gǎn qíng què jiē shòu bù wán měi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说得特别好，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Dé shèng: shuō de tè bié hǎo, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Yún yīng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "漏洞",
+     "pinyin": "",
+     "meaning": "lỗ hổng, lỗi (chương trình)"
+    },
+    {
+     "word": "修好",
+     "pinyin": "",
+     "meaning": "sửa xong"
+    },
+    {
+     "word": "细致",
+     "pinyin": "",
+     "meaning": "tỉ mỉ, kỹ càng"
+    },
+    {
+     "word": "耐心",
+     "pinyin": "",
+     "meaning": "kiên nhẫn"
+    },
+    {
+     "word": "目标",
+     "pinyin": "",
+     "meaning": "mục tiêu"
+    },
+    {
+     "word": "顺畅",
+     "pinyin": "",
+     "meaning": "trôi chảy, thông suốt"
+    },
+    {
+     "word": "毛病",
+     "pinyin": "",
+     "meaning": "tật, khuyết điểm nhỏ"
+    },
+    {
+     "word": "钥匙",
+     "pinyin": "",
+     "meaning": "chìa khóa"
+    },
+    {
+     "word": "说到一半",
+     "pinyin": "",
+     "meaning": "nói được nửa câu"
+    },
+    {
+     "word": "保留",
+     "pinyin": "",
+     "meaning": "giữ lại"
+    },
+    {
+     "word": "缺点",
+     "pinyin": "",
+     "meaning": "khuyết điểm"
+    },
+    {
+     "word": "优点",
+     "pinyin": "",
+     "meaning": "ưu điểm"
+    },
+    {
+     "word": "追求",
+     "pinyin": "",
+     "meaning": "theo đuổi"
+    },
+    {
+     "word": "完美",
+     "pinyin": "",
+     "meaning": "hoàn hảo"
+    },
+    {
+     "word": "真实",
+     "pinyin": "",
+     "meaning": "chân thật"
+    },
+    {
+     "word": "亲近",
+     "pinyin": "",
+     "meaning": "gần gũi, thân thiết"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "如果按照……应该会…… (nếu theo…thì sẽ…)",
+     "example": "按照我平时的工作习惯，应该会想办法帮她改一改",
+     "meaning": "nêu suy luận theo thói quen thông thường"
+    },
+    {
+     "name": "一点儿都不想…… (hoàn toàn không muốn…)",
+     "example": "这些小毛病，我一点儿都不想帮她修好",
+     "meaning": "nhấn mạnh mức độ phủ định tuyệt đối"
+    },
+    {
+     "name": "反而……才是…… (trái lại…mới là…)",
+     "example": "反而觉得，这样才是真实的她",
+     "meaning": "nêu nhận định ngược với cách nghĩ thông thường"
+    },
+    {
+     "name": "正是因为……才…… (chính vì…mới…)",
+     "example": "正是因为有这些不完美的地方，她才显得更真实",
+     "meaning": "nhấn mạnh nguyên nhân cốt lõi dẫn đến đặc điểm đáng quý"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 19,
+   "titleHan": "最重要的一单",
+   "titleVi": "Đơn hàng quan trọng nhất",
+   "sentences": [
+    {
+     "speaker": "佳怡",
+     "han": "今天想请大伟聊聊他工作的另一面，我知道你在一家物流公司上班，是吗？",
+     "draft_pinyin": "Jiā yí: jīn tiān xiǎng qǐng dà wěi liáo liáo tā gōng zuò de lìng yí miàn, wǒ zhī dào nǐ zài yī jiā wù liú gōng sī shàng bān, shì ma?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "对，我是大伟，负责安排货物的运输路线，每天要处理的订单特别多。",
+     "draft_pinyin": "Dà wěi: duì, wǒ shì dà wěi, fù zé ān pái huò wù de yùn shū lù xiàn, měi tiān yào chǔ lǐ de dìng dān tè bié duō."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这份工作，应该需要很好的规划能力吧。",
+     "draft_pinyin": "Jiā yí: zhè fèn gōng zuò, yīng gāi xū yào hěn hǎo de guī huà néng lì ba."
+    },
+    {
+     "speaker": "大伟",
+     "han": "确实，我们每天要把不同的货物，按照最合理的路线，安排送到全国各地，一点儿都不能出错。",
+     "draft_pinyin": "Dà wěi: què shí, wǒ men měi tiān yào bǎ bù tóng de huò wù, àn zhào zuì hé lǐ de lù xiàn, ān pái sòng dào quán guó gè dì, yì diǎn ér dōu bù néng chū cuò."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "那这么忙的工作，跟感情有什么联系？",
+     "draft_pinyin": "Jiā yí: nà zhè me máng de gōng zuò, gēn gǎn qíng yǒu shén me lián xì?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "说起来挺有意思，有一次公司系统出了问题，好几个订单的送货时间都被延误了，我忙到深夜才处理完。",
+     "draft_pinyin": "Dà wěi: shuō qǐ lái tǐng yǒu yì si, yǒu yī cì gōng sī xì tǒng chū le wèn tí, hǎo jǐ gè dìng dān de sòng huò shí jiān dōu bèi yán wù le, wǒ máng dào shēn yè cái chǔ lǐ wán."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "那你女朋友是怎么反应的？",
+     "draft_pinyin": "Jiā yí: nà nǐ nǚ péng yǒu shì zěn me fǎn yìng de?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "她给我发了消息，说不用担心她，让我先把工作处理好，还说会一直等我下班。",
+     "draft_pinyin": "Dà wěi: tā gěi wǒ fā le xiāo xī, shuō bù yòng dān xīn tā, ràng wǒ xiān bǎ gōng zuò chǔ lǐ hǎo, hái shuō huì yì zhí děng wǒ xià bān."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这种支持，对你来说应该很重要。",
+     "draft_pinyin": "Jiā yí: zhè zhǒng zhī chí, duì nǐ lái shuō yīng gāi hěn zhòng yào."
+    },
+    {
+     "speaker": "大伟",
+     "han": "对，那天晚上，我一边处理订单，一边突然想到，虽然每天处理的货物有成千上万件，目的地也各不相同，但是我心里其实一直清楚，自己最想早点儿到达的地方是哪里。",
+     "draft_pinyin": "Dà wěi: duì, nà tiān wǎn shàng, wǒ yī biān chǔ lǐ dìng dān, yī biān tū rán xiǎng dào, suī rán měi tiān chǔ lǐ de huò wù yǒu chéng qiān shàng wàn jiàn, mù dì dì yě gè bù xiāng tóng, dàn shì wǒ xīn lǐ qí shí yì zhí qīng chǔ, zì jǐ zuì xiǎng zǎo diǎn ér dào dá de dì fāng shì nǎ lǐ."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "是她那里吧？",
+     "draft_pinyin": "Jiā yí: shì tā nà lǐ ba?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "对，那种感觉挺奇怪的，工作上，我要给每一个订单安排最快的路线，但是在感情里，我发现，不管路上有多少事情要处理，最后我总会想办法，先把时间留给她。",
+     "draft_pinyin": "Dà wěi: duì, nà zhǒng gǎn jué tǐng qí guài de, gōng zuò shàng, wǒ yào gěi měi yí gè dìng dān ān pái zuì kuài de lù xiàn, dàn shì zài gǎn qíng lǐ, wǒ fā xiàn, bù guǎn lù shàng yǒu duō shǎo shì qíng yào chǔ lǐ, zuì hòu wǒ zǒng huì xiǎng bàn fǎ, xiān bǎ shí jiān liú gěi tā."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这么说的话，她就像是你心里，永远排在第一位的那个\"目的地\"。",
+     "draft_pinyin": "Jiā yí: zhè me shuō de huà, tā jiù xiàng shì nǐ xīn lǐ, yǒng yuǎn pái zài dì yī wèi de nà ge\"mù dì dì\"."
+    },
+    {
+     "speaker": "大伟",
+     "han": "可以这么说，虽然这不是系统里安排的顺序，但是在我心里，这个顺序从来没有变过。",
+     "draft_pinyin": "Dà wěi: kě yǐ zhè me shuō, suī rán zhè bú shì xì tǒng lǐ ān pái de shùn xù, dàn shì zài wǒ xīn lǐ, zhè ge shùn xù cóng lái méi yǒu biàn guò."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这个比喻挺贴切的，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Jiā yí: zhè ge bǐ yù tǐng tiē qiè de, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "大伟",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dà wěi: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "物流",
+     "pinyin": "",
+     "meaning": "logistics, hậu cần vận chuyển"
+    },
+    {
+     "word": "货物",
+     "pinyin": "",
+     "meaning": "hàng hóa"
+    },
+    {
+     "word": "运输",
+     "pinyin": "",
+     "meaning": "vận chuyển"
+    },
+    {
+     "word": "路线",
+     "pinyin": "",
+     "meaning": "tuyến đường"
+    },
+    {
+     "word": "订单",
+     "pinyin": "",
+     "meaning": "đơn hàng"
+    },
+    {
+     "word": "规划",
+     "pinyin": "",
+     "meaning": "quy hoạch, lập kế hoạch"
+    },
+    {
+     "word": "延误",
+     "pinyin": "",
+     "meaning": "trì hoãn, chậm trễ"
+    },
+    {
+     "word": "支持",
+     "pinyin": "",
+     "meaning": "ủng hộ, hỗ trợ"
+    },
+    {
+     "word": "成千上万",
+     "pinyin": "",
+     "meaning": "hàng nghìn hàng vạn"
+    },
+    {
+     "word": "目的地",
+     "pinyin": "",
+     "meaning": "điểm đến"
+    },
+    {
+     "word": "顺序",
+     "pinyin": "",
+     "meaning": "thứ tự"
+    },
+    {
+     "word": "贴切",
+     "pinyin": "",
+     "meaning": "thích hợp, sát nghĩa"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "按照……安排…… (theo…mà sắp xếp…)",
+     "example": "把货物按照最合理的路线安排送到各地",
+     "meaning": "nêu căn cứ để thực hiện việc sắp xếp"
+    },
+    {
+     "name": "一边……一边突然想到…… (vừa…vừa bất chợt nghĩ đến…)",
+     "example": "一边处理订单，一边突然想到自己最想到达的地方",
+     "meaning": "hai hành động song song, một hành động dẫn đến suy nghĩ bất ngờ"
+    },
+    {
+     "name": "不管……总会……先…… (bất kể…luôn sẽ…trước…)",
+     "example": "不管路上有多少事，最后总会想办法先把时间留给她",
+     "meaning": "nhấn mạnh tính ưu tiên bất biến"
+    },
+    {
+     "name": "虽然这不是……但是……从来没有变过 (tuy đây không phải…nhưng…chưa từng thay đổi)",
+     "example": "虽然不是系统安排的顺序，但是这个顺序从来没有变过",
+     "meaning": "khẳng định sự bền vững của một trật tự riêng trong lòng"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 20,
+   "titleHan": "没有备用方案",
+   "titleVi": "Không có phương án dự phòng",
+   "sentences": [
+    {
+     "speaker": "佳怡",
+     "han": "今天想接着上次的话题，再问大伟一个关于工作的问题，我是佳怡。",
+     "draft_pinyin": "Jiā yí: jīn tiān xiǎng jiē zhe shàng cì de huà tí, zài wèn dà wěi yí gè guān yú gōng zuò de wèn tí, wǒ shì jiā yí."
+    },
+    {
+     "speaker": "大伟",
+     "han": "我是大伟。好，你问吧。",
+     "draft_pinyin": "Dà wěi: wǒ shì dà wěi. hǎo, nǐ wèn ba."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "在物流这个行业，遇到突发情况，比如天气不好、道路封了，你们一般怎么处理？",
+     "draft_pinyin": "Jiā yí: zài wù liú zhè ge háng yè, yù dào tū fā qíng kuàng, bǐ rú tiān qì bù hǎo, dào lù fēng le, nǐ men yì bān zěn me chǔ lǐ?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "这种情况很常见，所以我们做计划的时候，一定会提前准备一个备用方案，万一原来的路线走不通，可以马上换一条路。",
+     "draft_pinyin": "Dà wěi: zhè zhǒng qíng kuàng hěn cháng jiàn, suǒ yǐ wǒ men zuò jì huà de shí hòu, yí dìng huì tí qián zhǔn bèi yí gè bèi yòng fāng àn, wàn yī yuán lái de lù xiàn zǒu bù tōng, kě yǐ mǎ shàng huàn yī tiáo lù."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这样听起来，你们做任何决定，都需要留一个\"后路\"。",
+     "draft_pinyin": "Jiā yí: zhè yàng tīng qǐ lái, nǐ men zuò rèn hé jué dìng, dōu xū yào liú yí gè\"hòu lù\"."
+    },
+    {
+     "speaker": "大伟",
+     "han": "对，这是这个行业的基本原则，永远不能只依赖一个方案，不然风险太大。",
+     "draft_pinyin": "Dà wěi: duì, zhè shì zhè ge háng yè de jī běn yuán zé, yǒng yuǎn bù néng zhǐ yī lài yí gè fāng àn, bù rán fēng xiǎn tài dà."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "那这种\"留后路\"的习惯，你在感情里，会不会也这样？",
+     "draft_pinyin": "Jiā yí: nà zhè zhǒng\"liú hòu lù\"de xí guàn, nǐ zài gǎn qíng lǐ, huì bú huì yě zhè yàng?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "这个问题挺有意思，我想了想，好像还真的不是这样。",
+     "draft_pinyin": "Dà wěi: zhè ge wèn tí tǐng yǒu yì si, wǒ xiǎng le xiǎng, hǎo xiàng hái zhēn de bú shì zhè yàng."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "怎么说？",
+     "draft_pinyin": "Jiā yí: zěn me shuō?"
+    },
+    {
+     "speaker": "大伟",
+     "han": "工作上，我可以同时准备好几条备用路线，随时根据情况调整。但是在感情这件事上，从我确定喜欢她的那一刻开始，我心里就没有想过，要为自己留一个\"备用选项\"。",
+     "draft_pinyin": "Dà wěi: gōng zuò shàng, wǒ kě yǐ tóng shí zhǔn bèi hǎo jǐ tiáo bèi yòng lù xiàn, suí shí gēn jù qíng kuàng tiáo zhěng. dàn shì zài gǎn qíng zhè jiàn shì shàng, cóng wǒ què dìng xǐ huān tā de nà yī kè kāi shǐ, wǒ xīn lǐ jiù méi yǒu xiǎng guò, yào wèi zì jǐ liú yí gè\"bèi yòng xuǎn xiàng\"."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这么说的话，你对她的这份感情，反而是你生活里，唯一没有\"计划B\"的部分。",
+     "draft_pinyin": "Jiā yí: zhè me shuō de huà, nǐ duì tā de zhè fèn gǎn qíng, fǎn ér shì nǐ shēng huó lǐ, wéi yī méi yǒu\"jì huà B\"de bù fèn."
+    },
+    {
+     "speaker": "大伟",
+     "han": "对，说来也奇怪，明明我的工作，每天都在教我怎么应对各种风险和不确定性，但是遇到这件事，我反而一点儿都不想留后路。",
+     "draft_pinyin": "Dà wěi: duì, shuō lái yě qí guài, míng míng wǒ de gōng zuò, měi tiān dōu zài jiào wǒ zěn me yìng duì gè zhǒng fēng xiǎn hé bù què dìng xìng, dàn shì yù dào zhè jiàn shì, wǒ fǎn ér yì diǎn ér dōu bù xiǎng liú hòu lù."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "也许正是因为这份感情足够重要，你才不需要，也不想给自己留退路。",
+     "draft_pinyin": "Jiā yí: yě xǔ zhèng shì yīn wèi zhè fèn gǎn qíng zú gòu zhòng yào, nǐ cái bù xū yào, yě bù xiǎng gěi zì jǐ liú tuì lù."
+    },
+    {
+     "speaker": "大伟",
+     "han": "我觉得你说得挺对，工作上，多一个方案是保障，但是感情上，我要的不是保障，是确定。",
+     "draft_pinyin": "Dà wěi: wǒ jué de nǐ shuō de tǐng duì, gōng zuò shàng, duō yí gè fāng àn shì bǎo zhàng, dàn shì gǎn qíng shàng, wǒ yào de bú shì bǎo zhàng, shì què dìng."
+    },
+    {
+     "speaker": "佳怡",
+     "han": "这句话说得很好，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Jiā yí: zhè jù huà shuō dé hěn hǎo, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "大伟",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dà wěi: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "突发情况",
+     "pinyin": "",
+     "meaning": "tình huống phát sinh bất ngờ"
+    },
+    {
+     "word": "封",
+     "pinyin": "",
+     "meaning": "chặn, đóng (đường)"
+    },
+    {
+     "word": "备用方案",
+     "pinyin": "",
+     "meaning": "phương án dự phòng"
+    },
+    {
+     "word": "万一",
+     "pinyin": "",
+     "meaning": "nếu chẳng may"
+    },
+    {
+     "word": "后路",
+     "pinyin": "",
+     "meaning": "đường lui, lối thoát dự phòng"
+    },
+    {
+     "word": "依赖",
+     "pinyin": "",
+     "meaning": "phụ thuộc"
+    },
+    {
+     "word": "风险",
+     "pinyin": "",
+     "meaning": "rủi ro"
+    },
+    {
+     "word": "调整",
+     "pinyin": "",
+     "meaning": "điều chỉnh"
+    },
+    {
+     "word": "唯一",
+     "pinyin": "",
+     "meaning": "duy nhất"
+    },
+    {
+     "word": "应对",
+     "pinyin": "",
+     "meaning": "ứng phó"
+    },
+    {
+     "word": "不确定性",
+     "pinyin": "",
+     "meaning": "tính không chắc chắn"
+    },
+    {
+     "word": "保障",
+     "pinyin": "",
+     "meaning": "bảo đảm"
+    },
+    {
+     "word": "确定",
+     "pinyin": "",
+     "meaning": "chắc chắn, xác định"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "万一……可以马上…… (nếu chẳng may…có thể ngay lập tức…)",
+     "example": "万一原来的路线走不通，可以马上换一条路",
+     "meaning": "nêu tình huống dự phòng và cách xử lý"
+    },
+    {
+     "name": "永远不能只依赖…… (không bao giờ được chỉ dựa vào…)",
+     "example": "永远不能只依赖一个方案，不然风险太大",
+     "meaning": "nhấn mạnh nguyên tắc tránh rủi ro"
+    },
+    {
+     "name": "从……那一刻开始，就没有想过…… (từ khoảnh khắc…thì chưa từng nghĩ đến…)",
+     "example": "从确定喜欢她那一刻开始，就没想过留备用选项",
+     "meaning": "xác định mốc thời gian bắt đầu một trạng thái không đổi"
+    },
+    {
+     "name": "要的不是……是…… (điều cần không phải là…mà là…)",
+     "example": "工作上要的是保障，感情上要的不是保障，是确定",
+     "meaning": "phân biệt rõ hai điều dễ nhầm lẫn"
+    }
+   ]
+  }
+ ]
+}

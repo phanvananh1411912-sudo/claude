@@ -1,0 +1,254 @@
+[
+ {
+  "group": "hsk3ht4",
+  "no": 21,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng qǐng Zhìyuǎn liáoliáo, zuòwéi yì míng chuàngyèzhě, gōngzuò shàng de yālì, huì bú huì yǐngxiǎng dào gǎnqíng, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn mời 志远 trò chuyện, với tư cách một người khởi nghiệp, áp lực trong công việc liệu có ảnh hưởng đến chuyện tình cảm không. Tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhìyuǎn: Wǒ shì Zhìyuǎn. Zhège huàtí tǐng yǒu yìsi, wǒ quèshí yǒu yìxiē tǐhuì.",
+    "vi": "Tôi là 志远. Chủ đề này khá thú vị, tôi thật sự có một chút trải nghiệm.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Shuōshuō kàn.",
+    "vi": "Anh kể thử xem.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Zhìyuǎn: Zuò shēngyi zhè jǐ nián, wǒ yǐjīng xíguàn le, rènhé juédìng zhīqián, dōu yào xiān jìsuàn chéngběn hé lìrùn, kànkan zhè jiàn shì dàodǐ zhí bù zhídé zuò.",
+    "vi": "Làm ăn mấy năm nay, tôi đã quen rồi, trước bất kỳ quyết định nào, đều phải tính toán chi phí và lợi nhuận trước, xem việc này rốt cuộc có đáng làm hay không.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Zhè zhǒng lǐxìng de sīkǎo fāngshì, yīnggāi bāng nǐ bìkāi le bù shǎo fēngxiǎn ba.",
+    "vi": "Cách tư duy lý trí này chắc đã giúp anh tránh được không ít rủi ro nhỉ.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhìyuǎn: Quèshí shì zhèyàng, shāngchǎng jìngzhēng tèbié jīliè, shāowēi bù xiǎoxīn, kěnéng jiù huì kuīsǔn hěn duō qián, suǒyǐ wǒ yìzhí hěn jǐnshèn.",
+    "vi": "Đúng là như vậy, thương trường cạnh tranh rất khốc liệt, chỉ hơi lơ là một chút, có thể sẽ thua lỗ rất nhiều tiền, nên tôi luôn rất thận trọng.",
+    "grammar": [
+     "稍微不小心，可能就会…… (chỉ hơi lơ là, có thể sẽ…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Nà zhè zhǒng jǐnshèn, huì bú huì yě dài dào nǐ de gǎnqíng lǐ?",
+    "vi": "Vậy sự thận trọng này liệu có mang cả vào chuyện tình cảm của anh không?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Zhìyuǎn: Shuō shíhuà, yìkāishǐ wǒ yě yǐwéi, gǎnqíng yě yīnggāi xiàng zuò shēngyi yíyàng, xūyào kǎolǜ qīngchu, zhí bù zhídé tóurù.",
+    "vi": "Nói thật, lúc đầu tôi cũng tưởng tình cảm cũng nên giống như làm ăn, cần cân nhắc cho rõ ràng, có đáng để đầu tư hay không.",
+    "grammar": [
+     "一开始……以为……后来…… (lúc đầu…tưởng…sau đó…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Nà hòulái ne?",
+    "vi": "Vậy về sau thì sao?",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Zhìyuǎn: Hòulái, wǒ yùdào le xiànzài de nǚpéngyou, yǒu yícì gōngsī yùdào kùnnán, chàdiǎnr zījīn zhōuzhuǎn bù guòlái, yālì tèbié dà.",
+    "vi": "Về sau, tôi gặp bạn gái hiện tại. Có một lần công ty gặp khó khăn, suýt nữa thì dòng vốn không xoay xở kịp, áp lực cực kỳ lớn.",
+    "grammar": [
+     "一开始……以为……后来…… (lúc đầu…tưởng…sau đó…)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Nà duàn shíjiān tǐng xīnkǔ de ba.",
+    "vi": "Khoảng thời gian đó chắc vất vả lắm nhỉ.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Zhìyuǎn: Duì, hěn duō hézuò huǒbàn nà shíhou dōu zài dānxīn zìjǐ de lìyì, fēnfēn kāishǐ kǎolǜ tuìchū, dànshì tā yìzhí zài pángbiān péi zhe wǒ, shénme dōu méiyǒu duō wèn, zhǐshì ānjìng de zhīchí wǒ.",
+    "vi": "Đúng, rất nhiều đối tác hợp tác lúc đó đều lo lắng cho lợi ích của mình, lần lượt bắt đầu tính chuyện rút lui, nhưng cô ấy cứ luôn ở bên cạnh tôi, chẳng hỏi han gì nhiều, chỉ lặng lẽ ủng hộ tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Zhè zhǒng zhīchí, gēn shāngchǎng shàng nà zhǒng \"kàn lìyì juédìng qùliú\" de guānxì wánquán bù yíyàng.",
+    "vi": "Sự ủng hộ này hoàn toàn khác với kiểu quan hệ \"nhìn lợi ích để quyết định ở hay đi\" trên thương trường.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Zhìyuǎn: Duì, wǒ dāngshí jiù yìshí dào, rúguǒ ànzhào zuò shēngyi de luójí, wǒ yīnggāi jǐnshèn de pínggū zhè duàn gǎnqíng, zhí bù zhídé tóurù zhème duō jīnglì.",
+    "vi": "Đúng, lúc đó tôi liền nhận ra, nếu theo logic làm ăn, tôi nên thận trọng đánh giá mối quan hệ tình cảm này, có đáng để đầu tư nhiều tâm sức đến vậy không.",
+    "grammar": [
+     "如果按照……的逻辑，应该…… (nếu theo logic của…thì nên…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Dànshì nǐ méiyǒu zhèyàng zuò?",
+    "vi": "Nhưng anh đã không làm như vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Zhìyuǎn: Méiyǒu, wǒ fāxiàn, yùdào tā zhè jiàn shì, wǒ gēnběn méi xiǎng guò yào jìsuàn déshī, zhǐshì hěn zìrán de, yuànyì bǎ zuì hǎo de dōu gěi tā.",
+    "vi": "Không, tôi phát hiện, chuyện gặp được cô ấy, tôi hoàn toàn không nghĩ đến việc tính toán được mất, chỉ là rất tự nhiên, sẵn lòng dành những gì tốt nhất cho cô ấy.",
+    "grammar": [
+     "根本没想过要…… (hoàn toàn không nghĩ đến việc…)"
+    ]
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, zhè kěnéng shì nǐ shēnghuó lǐ, wéiyī yícì wánquán bù jìsuàn chéngběn de \"tóuzī\".",
+    "vi": "Nói vậy thì, đây có lẽ là lần duy nhất trong đời anh hoàn toàn không tính toán chi phí cho một \"khoản đầu tư\".",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Zhìyuǎn: Shuō de hěn duì, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Nói rất đúng. Rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Wǒmen xiàcì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht4",
+  "no": 22,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng jìxù liáoliáo Zhìyuǎn de gùshi, shàng cì shuō dào, tā zài gǎnqíng lǐ, shì nà zhǒng yuànyì \"bù jìsuàn\" de rén, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn tiếp tục trò chuyện về câu chuyện của 志远. Lần trước có nói đến, trong tình cảm, anh ấy là kiểu người sẵn lòng \"không tính toán\". Tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhìyuǎn: Wǒ shì Zhìyuǎn. Jīntiān xiǎng zài shuō yí jiàn xiǎoshì, yě tǐng yǒu yìsi de.",
+    "vi": "Tôi là 志远. Hôm nay muốn kể thêm một chuyện nhỏ, cũng khá thú vị.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Shuōshuō kàn.",
+    "vi": "Anh kể thử xem.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Zhìyuǎn: Zuò shēngyi de shíhou, wǒmen dōu zhīdào, yí gè hángyè lǐ, rúguǒ zhǐ yǒu yì jiā gōngsī shuō le suàn, méiyǒu bié de jìngzhēngzhě, nà duì zhěng gè shìchǎng shì bù jiànkāng de.",
+    "vi": "Khi làm ăn, chúng ta đều biết, trong một ngành, nếu chỉ có một công ty nói gì cũng được, không có đối thủ cạnh tranh nào khác, thì với cả thị trường là không lành mạnh.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Duì, zhè zhǒng qíngkuàng yìbān jiào \"lǒngduàn\", tōngcháng huì bèi rènwéi bù tài hǎo.",
+    "vi": "Đúng, tình huống này thường gọi là \"độc quyền\", thường bị coi là không mấy tốt.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhìyuǎn: Méicuò, dànshì yǒu yícì, wǒ gēn nǚpéngyou kāiwánxiào liáo dào zhège huàtí, tūrán fāxiàn, gǎnqíng zhè jiàn shì, hǎoxiàng shì wéiyī de lìwài.",
+    "vi": "Chính xác, nhưng có một lần, tôi đùa với bạn gái nói đến chủ đề này, bỗng phát hiện, chuyện tình cảm hình như là ngoại lệ duy nhất.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zěnme shuō?",
+    "vi": "Nói vậy là sao?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Zhìyuǎn: Zài shēngyi shàng, wǒ yìzhí tíxǐng zìjǐ hé tuánduì, bù néng ràng mǒu yí gè kèhù huòzhě mǒu yì zhǒng chǎnpǐn, zhànjù tài dà de bǐlì, bùrán fēngxiǎn huì hěn jízhōng.",
+    "vi": "Trong kinh doanh, tôi luôn nhắc nhở bản thân và cả nhóm, không thể để một khách hàng nào đó hay một loại sản phẩm nào đó chiếm tỷ lệ quá lớn, không thì rủi ro sẽ rất tập trung.",
+    "grammar": [
+     "不能让……占据太大的比例 (không thể để…chiếm tỷ lệ quá lớn)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhè shì hěn zhèngcháng de shāngyè yuánzé, yào fēnsàn fēngxiǎn.",
+    "vi": "Đây là nguyên tắc kinh doanh rất bình thường, phải phân tán rủi ro.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Zhìyuǎn: Duì, dànshì zài gǎnqíng zhè jiàn shì shàng, wǒ fāxiàn, wǒ wánquán bù xiǎng \"fēnsàn\", fǎn'ér tèbié xīwàng, zìjǐ néng shì tā xīn lǐ, wéiyī de, méiyǒu jìngzhēng duìshǒu de cúnzài.",
+    "vi": "Đúng, nhưng trong chuyện tình cảm, tôi phát hiện, tôi hoàn toàn không muốn \"phân tán\", trái lại đặc biệt mong, mình có thể là sự tồn tại duy nhất, không có đối thủ cạnh tranh, trong lòng cô ấy.",
+    "grammar": [
+     "反而特别希望…… (trái lại đặc biệt mong…)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, nǐ zài gǎnqíng lǐ, fǎn'ér zhuīqiú yì zhǒng \"lǒngduàn\" de dìwèi?",
+    "vi": "Nói vậy thì, trong tình cảm, anh trái lại theo đuổi một địa vị \"độc quyền\"?",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Zhìyuǎn: Kěyǐ zhème shuō, suīrán zhè gēn wǒ píngshí de shāngyè yuánzé wánquán xiāngfǎn, dànshì wǒ yìdiǎnr dōu bù juéde máodùn.",
+    "vi": "Có thể nói vậy, tuy điều này hoàn toàn trái ngược với nguyên tắc kinh doanh thường ngày của tôi, nhưng tôi chẳng hề cảm thấy mâu thuẫn chút nào.",
+    "grammar": [
+     "虽然……但是……一点儿都不觉得矛盾 (tuy…nhưng…không cảm thấy mâu thuẫn chút nào)"
+    ]
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Wèishénme bù máodùn ne?",
+    "vi": "Vì sao lại không mâu thuẫn?",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Zhìyuǎn: Yīnwèi zuò shēngyi de \"lǒngduàn\", shānghài de shì biéren de lìyì; dànshì gǎnqíng lǐ de zhè zhǒng \"dúyīwú'èr\", qíshí shì xīwàng tā xīn lǐ zuì zhòngyào de wèizhi, yìzhí shǔyú wǒ, zhè bú huì shānghài rènhé rén.",
+    "vi": "Bởi vì \"độc quyền\" trong làm ăn gây tổn hại đến lợi ích của người khác; còn kiểu \"độc nhất vô nhị\" trong tình cảm này, thật ra là mong muốn vị trí quan trọng nhất trong lòng cô ấy mãi thuộc về tôi, điều này chẳng làm hại đến bất kỳ ai.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Zhège jiěshì hěn yǒu shuōfúlì, kànlái nǐ bǎ shāngyè lǐ de dàolǐ, yòng chū le xīn de yìyì.",
+    "vi": "Cách giải thích này rất có sức thuyết phục, xem ra anh đã dùng đạo lý trong kinh doanh theo một ý nghĩa mới.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Zhìyuǎn: Quèshí shì zhèyàng, zuò shēngyi jiàohuì wǒ hěn duō dōngxi, dànshì yùdào gǎnqíng, wǒ fāxiàn, yǒuxiē guīzé, kěyǐ wèi yí gè rén chóngxīn dìngyì.",
+    "vi": "Đúng là như vậy, làm ăn dạy tôi rất nhiều điều, nhưng khi gặp tình cảm, tôi phát hiện, có một số quy tắc, có thể được định nghĩa lại vì một người.",
+    "grammar": [
+     "有些规则，可以为……重新定义 (một số quy tắc có thể được định nghĩa lại vì…)"
+    ]
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Zhè jù huà shuō de tèbié hǎo, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Câu này nói hay lắm. Rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Zhìyuǎn: Wǒmen xiàcì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ }
+]

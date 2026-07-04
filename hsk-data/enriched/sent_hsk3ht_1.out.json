@@ -1,0 +1,322 @@
+[
+ {
+  "group": "hsk3ht",
+  "no": 1,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Dàjiā hǎo, wǒ shì Yúnyīng. Jīntiān wǒmen yào liáo yí gè gēn 'hē' yǒu guānxì de huàtí——chá.",
+    "vi": "Chào mọi người, tôi là 云英. Hôm nay chúng ta sẽ trò chuyện về một chủ đề liên quan đến 'uống' - đó là trà.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Shuō dào chá, wǒ dì-yī gè xiǎng dào de dìfāng jiù shì Ānhuī.",
+    "vi": "Tôi là 德盛. Nói đến trà, nơi đầu tiên tôi nghĩ đến chính là An Huy.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Duì, Ānhuī quèshí shì Zhōngguó zuì yǒumíng de chǎn chá dìqū zhī yī. Nàbiān de shān bǐjiào duō, tiānqì yě shīrùn, tèbié shìhé zhòng cháshù.",
+    "vi": "Đúng vậy, An Huy quả thực là một trong những vùng trồng trà nổi tiếng nhất Trung Quốc. Vùng đó nhiều núi, thời tiết cũng ẩm ướt, đặc biệt thích hợp trồng cây trà.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Éi, wǒ jìde Ānhuī yǒu yì zhǒng chá jiào 'Huángshān Máofēng', shì bú shì jiù shì cóng Huángshān nà yí dài lái de?",
+    "vi": "À, tôi nhớ An Huy có một loại trà gọi là 'Hoàng Sơn Mao Phong', có phải chính là từ vùng Hoàng Sơn đó không?",
+    "grammar": [
+     "诶，我记得…… (à, tôi nhớ là…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Méicuò, Huángshān Máofēng jiù shì chǎn zì Huángshān dìqū, nàlǐ de cháyè yòu nèn yòu xiāng, hē qǐlái wèidào tèbié qīngshuǎng.",
+    "vi": "Chính xác, Hoàng Sơn Mao Phong được sản xuất tại vùng Hoàng Sơn, lá trà ở đó vừa non vừa thơm, uống vào có vị đặc biệt thanh mát.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Chúle Huángshān Máofēng, Ānhuī hái yǒu bié de yǒumíng de chá ma?",
+    "vi": "Ngoài Hoàng Sơn Mao Phong ra, An Huy còn có loại trà nổi tiếng nào khác không?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Yǒu a, bǐrú 'Qímén hóngchá', zhè shì yì zhǒng hóngchá, gēn lǜchá bù yíyàng, yánsè bǐjiào shēn, wèidào yě gèng nóng yìxiē.",
+    "vi": "Có chứ, ví dụ như 'Kỳ Môn hồng trà', đây là một loại hồng trà, khác với trà xanh, màu sắc đậm hơn, vị cũng đậm đà hơn một chút.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Shuō shíhuà, wǒ yǐqián bú tài dǒng chá, juéde wèidào dōu chàbuduō, hòulái cái zhīdào, bùtóng de chá chābié tǐng dà de.",
+    "vi": "Nói thật, trước đây tôi không rành trà lắm, thấy vị đều na ná nhau, sau này mới biết, các loại trà khác nhau khác biệt khá lớn.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, cǎi chá de jìjié, zuò chá de fāngfǎ dōu huì yǐngxiǎng wèidào. Xiàng chūntiān zǎo yìdiǎnr cǎi de chá, yìbān bèi rènwéi pǐnzhì gèng hǎo.",
+    "vi": "Đúng, mùa hái trà, cách làm trà đều ảnh hưởng đến hương vị. Như trà hái sớm hơn một chút vào mùa xuân, thường được cho là chất lượng tốt hơn.",
+    "grammar": [
+     "不同的……都会影响…… (khác nhau về…đều ảnh hưởng đến…)"
+    ]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Nánguài hěn duō rén shuō, hē yì bēi hǎo chá, yě shì zài gǎnshòu dāngdì de zìrán huánjìng hé wénhuà.",
+    "vi": "Chẳng trách nhiều người nói, uống một tách trà ngon, cũng là đang cảm nhận môi trường tự nhiên và văn hóa của địa phương.",
+    "grammar": [
+     "难怪…… (chẳng trách…)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Shì zhèyàng de, yí piàn xiǎoxiǎo de cháyè bèihòu, qíshí cáng zhe yí gè dìfāng de qìhòu, tǔdì, hái yǒu rénmen de shēnghuó fāngshì.",
+    "vi": "Đúng là như vậy, đằng sau một lá trà nhỏ bé, thực ra ẩn chứa khí hậu, đất đai của một vùng, và cả cách sống của con người nơi đó.",
+    "grammar": [
+     "其实藏着…… (thực ra ẩn chứa…)"
+    ]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ xià cì qù Ānhuī, yídìng yào qù dāngdì hē yì bēi zhēnzhèng de Huángshān Máofēng.",
+    "vi": "Nghe bạn nói vậy, lần tới đi An Huy, tôi nhất định phải đến tận nơi uống một tách Hoàng Sơn Mao Phong đích thực.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay chúng ta trò chuyện đến đây, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht",
+  "no": 2,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān wǒmen liáoliao Zhōngguó de Dōngběi dìqū, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay chúng ta trò chuyện về vùng Đông Bắc Trung Quốc, tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Yì shuō dào Dōngběi, wǒ nǎozi lǐ mǎshàng chūxiàn de huàmiàn jiù shì——lěng! Tèbié lěng!",
+    "vi": "Tôi là 德盛. Vừa nói đến Đông Bắc, hình ảnh lập tức hiện lên trong đầu tôi chính là - lạnh! Lạnh khủng khiếp!",
+    "grammar": [
+     "一说到……我脑子里马上……(vừa nói đến…là trong đầu tôi liền…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Hāhā, zhège yìnxiàng méiyǒu cuò, Dōngběi dōngtiān quèshí tèbié lěng, yǒu de dìfāng néng dào língxià sānshí dù zuǒyòu.",
+    "vi": "Haha, ấn tượng này không sai, mùa đông Đông Bắc quả thực đặc biệt lạnh, có nơi có thể xuống tới âm ba mươi độ.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Nàme lěng, rénmen dōngtiān dōu zài jiā lǐ dāi zhe ma?",
+    "vi": "Lạnh vậy, mùa đông mọi người đều ở nhà cả sao?",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Yě bú shì, Dōngběi rén fǎn'ér tèbié xǐhuān dōngtiān chūqù wán, bǐrú qù kàn xuě, huáxuě, hái yǒu qù kàn bīng zuò de diāosù.",
+    "vi": "Cũng không phải, người Đông Bắc trái lại đặc biệt thích mùa đông ra ngoài chơi, ví dụ đi ngắm tuyết, trượt tuyết, còn đi xem các tác phẩm điêu khắc làm bằng băng.",
+    "grammar": [
+     "反而…… (trái lại)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Bīng zuò de diāosù? Tīng qǐlái hěn lìhài, shì bú shì jiù xiàng yòng bīngkuài dā chū yí zuò fángzi nàyàng?",
+    "vi": "Tác phẩm điêu khắc bằng băng? Nghe rất lợi hại, có phải giống như dùng khối băng xây nên một ngôi nhà không?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Chàbuduō, yǒu de chéngshì měi nián dōngtiān dōu huì bàn yí gè bīngxuě jié, yòng bīngkuài zuò chū gèzhǒng-gèyàng de jiànzhù hé tú'àn, fēicháng piàoliang.",
+    "vi": "Cũng gần như vậy, có thành phố mỗi năm vào mùa đông đều tổ chức một lễ hội băng tuyết, dùng khối băng tạo ra đủ loại kiến trúc và hoa văn, vô cùng đẹp.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Shuō dào Dōngběi, wǒ hái xiǎng qǐ yí gè shìr, Dōngběi rén shuōhuà shì bú shì tèbié yǒuyìsi?",
+    "vi": "Nói đến Đông Bắc, tôi còn nhớ ra một chuyện, người Đông Bắc nói chuyện có phải đặc biệt thú vị không?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, Dōngběi huà shì yì zhǒng hěn yǒu tèdiǎn de fāngyán, shēngyīn bǐjiào dà, yǔqì yě hěn zhíjiē, tīng qǐlái tèbié rèqíng, yǒuyìsi.",
+    "vi": "Đúng, tiếng Đông Bắc là một phương ngữ rất có đặc điểm, âm thanh khá to, ngữ khí cũng rất thẳng thắn, nghe rất nhiệt tình, thú vị.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Wǒ kàn guò yìxiē shìpín, Dōngběi rén shuōhuà, gǎnjué měi yí jù dōu néng ràng rén xiào chūlái.",
+    "vi": "Tôi từng xem một số video, người Đông Bắc nói chuyện, cảm giác mỗi câu đều khiến người ta bật cười.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Zhè gēn Dōngběi rén de xìnggé yě yǒu guānxì, tāmen dàduō xìnggé kāilǎng, zhíjiē, shuōhuà xǐhuān kāi wánxiào, qìfēn tèbié rènao.",
+    "vi": "Điều này cũng liên quan đến tính cách của người Đông Bắc, họ phần lớn tính cách cởi mở, thẳng thắn, nói chuyện thích đùa, không khí rất náo nhiệt.",
+    "grammar": [
+     "这跟……也有关系 (điều này cũng liên quan đến…)"
+    ]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Zhème shuō dehuà, Dōngběi bù zhǐ shì tiānqì tèbié, rén de xìnggé yě hěn yǒu tèsè.",
+    "vi": "Nói vậy thì, Đông Bắc không chỉ thời tiết đặc biệt, mà tính cách con người cũng rất có đặc sắc.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Duì, yí gè dìfāng de qìhòu, wǎngwǎng yě huì yǐngxiǎng zhù zài nàlǐ de rén de xìnggé hé shēnghuó fāngshì.",
+    "vi": "Đúng, khí hậu của một vùng, thường cũng sẽ ảnh hưởng đến tính cách và cách sống của người dân sống ở đó.",
+    "grammar": [
+     "往往也会影响…… (thường cũng sẽ ảnh hưởng đến…)"
+    ]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, wǒ yě hěn xiǎng zhǎo jīhuì qù Dōngběi, gǎnshòu yíxià nà zhǒng rènao de fēnwéi.",
+    "vi": "Nghe bạn nói vậy, tôi cũng rất muốn tìm cơ hội đi Đông Bắc, cảm nhận thử không khí náo nhiệt ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Được rồi, hôm nay chúng ta trò chuyện đến đây, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht",
+  "no": 3,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng gēn dàjiā liáoliao Xīzàng, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn cùng mọi người trò chuyện về Tây Tạng, tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Xīzàng, yì tīng zhège míngzì, wǒ mǎshàng jiù xiǎng dào xuěshān, tèbié gāo de xuěshān.",
+    "vi": "Tôi là 德盛. Tây Tạng, vừa nghe cái tên này, tôi liền nghĩ ngay đến núi tuyết, những ngọn núi tuyết đặc biệt cao.",
+    "grammar": [
+     "一听……我马上就…… (vừa nghe…tôi liền…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Duì, Xīzàng zài Zhōngguó de xībiān, nàlǐ yǒu hěn duō hǎibá tèbié gāo de shān, shāndǐng chángnián dōu shì báisè de xuě.",
+    "vi": "Đúng, Tây Tạng nằm ở phía tây Trung Quốc, ở đó có rất nhiều núi có độ cao đặc biệt lớn, đỉnh núi quanh năm đều là tuyết trắng.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Wǒ jìde, hǎoxiàng shìjiè shàng zuì gāo de shānfēng yě zài nà fùjìn ba?",
+    "vi": "Tôi nhớ, hình như đỉnh núi cao nhất thế giới cũng ở gần đó phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Méicuò, jiù shì Zhūmùlǎngmǎ Fēng, suīrán tā bù wánquán zài Xīzàng jìngnèi, dànshì lí Xīzàng fēicháng jìn.",
+    "vi": "Chính xác, đó là đỉnh Everest, tuy nó không hoàn toàn nằm trong lãnh thổ Tây Tạng, nhưng cách Tây Tạng rất gần.",
+    "grammar": [
+     "虽然……但是…… (tuy…nhưng…)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Nà Xīzàng nàbiān de tiānqì, shì bú shì yì nián dào tóu dōu tèbié lěng?",
+    "vi": "Vậy thời tiết vùng Tây Tạng, có phải quanh năm suốt tháng đều đặc biệt lạnh không?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Zhège shuōfǎ bù wánquán duì, suīrán hǎibá gāo, qìwēn dī, dànshì nàbiān yángguāng tèbié chōngzú, báitiān yǒu shíhòu yě bù suàn tèbié lěng.",
+    "vi": "Cách nói này không hoàn toàn đúng, tuy độ cao lớn, nhiệt độ thấp, nhưng ánh nắng ở đó đặc biệt dồi dào, ban ngày đôi khi cũng không hẳn là quá lạnh.",
+    "grammar": [
+     "虽然……但是…… (tuy…nhưng…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Éi, wǒ hái tīngshuō, hǎibá tài gāo de dìfāng, rén qù le huì bù shūfu, shì zhèyàng ma?",
+    "vi": "À, tôi còn nghe nói, những nơi độ cao quá lớn, người ta đến sẽ khó chịu, có đúng vậy không?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, zhè zhǒng qíngkuàng jiào 'gāoyuán fǎnyìng', yīnwèi kōngqì zhōng de yǎngqì bǐjiào shǎo, yǒuxiē rén qù le yǐhòu, huì juéde tóuténg, hūxī kùnnán.",
+    "vi": "Đúng, trường hợp này gọi là 'phản ứng độ cao', vì lượng oxy trong không khí khá ít, một số người sau khi đến sẽ thấy đau đầu, khó thở.",
+    "grammar": [
+     "这种情况叫…… (trường hợp này gọi là…)"
+    ]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Nà dāngdì rén yě huì yǒu zhè zhǒng fǎnyìng ma?",
+    "vi": "Vậy người bản địa cũng sẽ có phản ứng này sao?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Yìbān bú huì, dāngdì rén cóngxiǎo jiù shēnghuó zài nà zhǒng huánjìng lǐ, shēntǐ yǐjīng shìyìng le, fǎn'ér shì cóng píngyuán lái de yóukè gèng róngyì yǒu fǎnyìng.",
+    "vi": "Thường thì không, người bản địa từ nhỏ đã sống trong môi trường đó, cơ thể đã thích nghi rồi, trái lại du khách đến từ vùng đồng bằng dễ có phản ứng hơn.",
+    "grammar": [
+     "反而是……更容易…… (trái lại…dễ hơn…)"
+    ]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, qù Xīzàng lǚyóu zhīqián, shì bú shì yào zuò yìxiē zhǔnbèi?",
+    "vi": "Nghe bạn nói vậy, trước khi đi du lịch Tây Tạng, có phải cần chuẩn bị một số thứ không?",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Duì, zuìhǎo tíqián liǎojiě yíxià gāoyuán fǎnyìng de zhīshi, mànman shìyìng, búyào yí dào jiù zuò tài jīliè de yùndòng.",
+    "vi": "Đúng, tốt nhất nên tìm hiểu trước một chút kiến thức về phản ứng độ cao, thích nghi từ từ, đừng vừa đến đã tập những môn vận động quá mạnh.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Liǎojiě, kànlái qù Xīzàng zhè zhǒng dìfāng lǚyóu, gēn qù bié de dìfāng hái tǐng bù yíyàng de.",
+    "vi": "Hiểu rồi, xem ra đi du lịch những nơi như Tây Tạng, khá khác so với đi những nơi khác.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Quèshí shì zhèyàng, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Đúng là như vậy, được rồi, hôm nay trò chuyện đến đây, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ }
+]

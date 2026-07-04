@@ -1,0 +1,267 @@
+{
+ "一带": {
+  "pinyin": "yīdài",
+  "hanviet": "nhất đái",
+  "pos": "n."
+ },
+ "丰富多样": {
+  "pinyin": "fēngfù duōyàng",
+  "hanviet": "phong phú đa dạng",
+  "pos": "phr."
+ },
+ "主食": {
+  "pinyin": "zhǔshí",
+  "hanviet": "chủ thực",
+  "pos": "n."
+ },
+ "产茶": {
+  "pinyin": "chǎnchá",
+  "hanviet": "sản trà",
+  "pos": "v."
+ },
+ "亲自": {
+  "pinyin": "qīnzì",
+  "hanviet": "thân tự",
+  "pos": "adv."
+ },
+ "充足": {
+  "pinyin": "chōngzú",
+  "hanviet": "sung túc",
+  "pos": "adj."
+ },
+ "冰块": {
+  "pinyin": "bīngkuài",
+  "hanviet": "băng khối",
+  "pos": "n."
+ },
+ "冰雪节": {
+  "pinyin": "bīngxuějié",
+  "hanviet": "băng tuyết tiết",
+  "pos": "n."
+ },
+ "友好": {
+  "pinyin": "yǒuhǎo",
+  "hanviet": "hữu hảo",
+  "pos": "adj."
+ },
+ "反而": {
+  "pinyin": "fǎn'ér",
+  "hanviet": "phản nhi",
+  "pos": "adv."
+ },
+ "和平": {
+  "pinyin": "hépíng",
+  "hanviet": "hòa bình",
+  "pos": "n."
+ },
+ "品质": {
+  "pinyin": "pǐnzhì",
+  "hanviet": "phẩm chất",
+  "pos": "n."
+ },
+ "四季分明": {
+  "pinyin": "sìjì fēnmíng",
+  "hanviet": "tứ quý phân minh",
+  "pos": "phr."
+ },
+ "图案": {
+  "pinyin": "tú'àn",
+  "hanviet": "đồ án",
+  "pos": "n."
+ },
+ "土地": {
+  "pinyin": "tǔdì",
+  "hanviet": "thổ địa",
+  "pos": "n."
+ },
+ "地区": {
+  "pinyin": "dìqū",
+  "hanviet": "địa khu",
+  "pos": "n."
+ },
+ "地理": {
+  "pinyin": "dìlǐ",
+  "hanviet": "địa lý",
+  "pos": "n."
+ },
+ "基本上": {
+  "pinyin": "jīběnshàng",
+  "hanviet": "cơ bản thượng",
+  "pos": "adv."
+ },
+ "境内": {
+  "pinyin": "jìngnèi",
+  "hanviet": "cảnh nội",
+  "pos": "n."
+ },
+ "外地人": {
+  "pinyin": "wàidìrén",
+  "hanviet": "ngoại địa nhân",
+  "pos": "n."
+ },
+ "小麦": {
+  "pinyin": "xiǎomài",
+  "hanviet": "tiểu mạch",
+  "pos": "n."
+ },
+ "差别": {
+  "pinyin": "chābié",
+  "hanviet": "sai biệt",
+  "pos": "n."
+ },
+ "差异": {
+  "pinyin": "chāyì",
+  "hanviet": "sai dị",
+  "pos": "n."
+ },
+ "干燥": {
+  "pinyin": "gānzào",
+  "hanviet": "can táo",
+  "pos": "adj."
+ },
+ "平原": {
+  "pinyin": "píngyuán",
+  "hanviet": "bình nguyên",
+  "pos": "n."
+ },
+ "广播": {
+  "pinyin": "guǎngbō",
+  "hanviet": "quảng bá",
+  "pos": "n."
+ },
+ "开玩笑": {
+  "pinyin": "kāi wánxiào",
+  "hanviet": "khai ngoạn tiếu",
+  "pos": "v."
+ },
+ "承载": {
+  "pinyin": "chéngzài",
+  "hanviet": "thừa tải",
+  "pos": "v."
+ },
+ "提前": {
+  "pinyin": "tíqián",
+  "hanviet": "đề tiền",
+  "pos": "v."
+ },
+ "数量": {
+  "pinyin": "shùliàng",
+  "hanviet": "số lượng",
+  "pos": "n."
+ },
+ "方言": {
+  "pinyin": "fāngyán",
+  "hanviet": "phương ngôn",
+  "pos": "n."
+ },
+ "气候": {
+  "pinyin": "qìhòu",
+  "hanviet": "khí hậu",
+  "pos": "n."
+ },
+ "气温": {
+  "pinyin": "qìwēn",
+  "hanviet": "khí ôn",
+  "pos": "n."
+ },
+ "氛围": {
+  "pinyin": "fēnwéi",
+  "hanviet": "phân vi",
+  "pos": "n."
+ },
+ "氧气": {
+  "pinyin": "yǎngqì",
+  "hanviet": "dưỡng khí",
+  "pos": "n."
+ },
+ "水稻": {
+  "pinyin": "shuǐdào",
+  "hanviet": "thủy đạo",
+  "pos": "n."
+ },
+ "海拔": {
+  "pinyin": "hǎibá",
+  "hanviet": "hải bạt",
+  "pos": "n."
+ },
+ "清爽": {
+  "pinyin": "qīngshuǎng",
+  "hanviet": "thanh sảng",
+  "pos": "adj."
+ },
+ "湿润": {
+  "pinyin": "shīrùn",
+  "hanviet": "thấp nhuận",
+  "pos": "adj."
+ },
+ "激烈": {
+  "pinyin": "jīliè",
+  "hanviet": "kích liệt",
+  "pos": "adj."
+ },
+ "相对来说": {
+  "pinyin": "xiāngduì láishuō",
+  "hanviet": "tương đối lai thuyết",
+  "pos": "phr."
+ },
+ "科学家": {
+  "pinyin": "kēxuéjiā",
+  "hanviet": "khoa học gia",
+  "pos": "n."
+ },
+ "竹子": {
+  "pinyin": "zhúzi",
+  "hanviet": "trúc tử",
+  "pos": "n."
+ },
+ "红茶": {
+  "pinyin": "hóngchá",
+  "hanviet": "hồng trà",
+  "pos": "n."
+ },
+ "营养": {
+  "pinyin": "yíngyǎng",
+  "hanviet": "doanh dưỡng",
+  "pos": "n."
+ },
+ "规范": {
+  "pinyin": "guīfàn",
+  "hanviet": "quy phạm",
+  "pos": "n."
+ },
+ "语气": {
+  "pinyin": "yǔqì",
+  "hanviet": "ngữ khí",
+  "pos": "n."
+ },
+ "通用": {
+  "pinyin": "tōngyòng",
+  "hanviet": "thông dụng",
+  "pos": "adj."
+ },
+ "采茶": {
+  "pinyin": "cǎichá",
+  "hanviet": "thái trà",
+  "pos": "v."
+ },
+ "雕塑": {
+  "pinyin": "diāosù",
+  "hanviet": "điêu tố",
+  "pos": "n."
+ },
+ "雪山": {
+  "pinyin": "xuěshān",
+  "hanviet": "tuyết sơn",
+  "pos": "n."
+ },
+ "面食": {
+  "pinyin": "miànshí",
+  "hanviet": "diện thực",
+  "pos": "n."
+ },
+ "高原反应": {
+  "pinyin": "gāoyuán fǎnyìng",
+  "hanviet": "cao nguyên phản ứng",
+  "pos": "phr."
+ }
+}

@@ -1,0 +1,1170 @@
+{
+ "hsk3ht": [
+  {
+   "kind": "dialogue",
+   "no": 1,
+   "titleHan": "安徽的茶",
+   "titleVi": "Trà An Huy",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "大家好，我是云英。今天我们要聊一个跟\"喝\"有关系的话题——茶。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: dà jiā hǎo, wǒ shì yún yīng. jīn tiān wǒ men yào liáo yí gè gēn\"hē\"yǒu guān xì de huà tí--chá."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。说到茶，我第一个想到的地方就是安徽。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. shuō dào chá, wǒ dì yí gè xiǎng dào de dì fāng jiù shì ān huī."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，安徽确实是中国最有名的产茶地区之一。那边的山比较多，天气也湿润，特别适合种茶树。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, ān huī què shí shì zhōng guó zuì yǒu míng de chǎn chá dì qū zhī yī. nà biān de shān bǐ jiào duō, tiān qì yě shī rùn, tè bié shì hé zhǒng chá shù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "诶，我记得安徽有一种茶叫\"黄山毛峰\"，是不是就是从黄山那一带来的？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: éi, wǒ jì de ān huī yǒu yī zhǒng chá jiào\"huáng shān máo fēng\", shì bú shì jiù shì cóng huáng shān nà yī dài lái de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，黄山毛峰就是产自黄山地区，那里的茶叶又嫩又香，喝起来味道特别清爽。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: méi cuò, huáng shān máo fēng jiù shì chǎn zì huáng shān dì qū, nà lǐ de chá yè yòu nèn yòu xiāng, hē qǐ lái wèi dào tè bié qīng shuǎng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "除了黄山毛峰，安徽还有别的有名的茶吗？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: chú le huáng shān máo fēng, ān huī hái yǒu bié de yǒu míng de chá ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "有啊，比如\"祁门红茶\"，这是一种红茶，跟绿茶不一样，颜色比较深，味道也更浓一些。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: yǒu a, bǐ rú\"qí mén hóng chá\", zhè shì yī zhǒng hóng chá, gēn lǜ chá bù yí yàng, yán sè bǐ jiào shēn, wèi dào yě gèng nóng yī xiē."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说实话，我以前不太懂茶，觉得味道都差不多，后来才知道，不同的茶差别挺大的。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: shuō shí huà, wǒ yǐ qián bù tài dǒng chá, jué de wèi dào dōu chà bu duō, hòu lái cái zhī dào, bù tóng de chá chā bié tǐng dà de."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，采茶的季节、做茶的方法都会影响味道。像春天早一点儿采的茶，一般被认为品质更好。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, cǎi chá de jì jié, zuò chá de fāng fǎ dū huì yǐng xiǎng wèi dào. xiàng chūn tiān zǎo yì diǎn ér cǎi de chá, yì bān bèi rèn wéi pǐn zhì gèng hǎo."
+    },
+    {
+     "speaker": "德盛",
+     "han": "难怪很多人说，喝一杯好茶，也是在感受当地的自然环境和文化。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: nán guài hěn duō rén shuō, hē yī bēi hǎo chá, yě shì zài gǎn shòu dāng dì de zì rán huán jìng hé wén huà."
+    },
+    {
+     "speaker": "云英",
+     "han": "是这样的，一片小小的茶叶背后，其实藏着一个地方的气候、土地，还有人们的生活方式。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: shì zhè yàng de, yī piàn xiǎo xiǎo de chá yè bèi hòu, qí shí cáng zhe yí gè dì fāng de qì hòu, tǔ dì, hái yǒu rén men de shēng huó fāng shì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我下次去安徽，一定要去当地喝一杯真正的黄山毛峰。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ xià cì qù ān huī, yí dìng yào qù dāng dì hē yī bēi zhēn zhèng de huáng shān máo fēng."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "产茶",
+     "pinyin": "",
+     "meaning": "trồng trà, sản xuất trà"
+    },
+    {
+     "word": "地区",
+     "pinyin": "",
+     "meaning": "khu vực, vùng"
+    },
+    {
+     "word": "湿润",
+     "pinyin": "",
+     "meaning": "ẩm ướt"
+    },
+    {
+     "word": "一带",
+     "pinyin": "",
+     "meaning": "vùng, dải"
+    },
+    {
+     "word": "嫩",
+     "pinyin": "",
+     "meaning": "non, mềm"
+    },
+    {
+     "word": "清爽",
+     "pinyin": "",
+     "meaning": "thanh mát"
+    },
+    {
+     "word": "红茶",
+     "pinyin": "",
+     "meaning": "trà đen"
+    },
+    {
+     "word": "浓",
+     "pinyin": "",
+     "meaning": "đậm"
+    },
+    {
+     "word": "差别",
+     "pinyin": "",
+     "meaning": "khác biệt"
+    },
+    {
+     "word": "采茶",
+     "pinyin": "",
+     "meaning": "hái trà"
+    },
+    {
+     "word": "季节",
+     "pinyin": "",
+     "meaning": "mùa"
+    },
+    {
+     "word": "品质",
+     "pinyin": "",
+     "meaning": "phẩm chất, chất lượng"
+    },
+    {
+     "word": "气候",
+     "pinyin": "",
+     "meaning": "khí hậu"
+    },
+    {
+     "word": "土地",
+     "pinyin": "",
+     "meaning": "đất đai"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "诶，我记得…… (à, tôi nhớ là…)",
+     "example": "诶，我记得安徽有一种茶叫\"黄山毛峰\"",
+     "meaning": "khẩu ngữ dẫn vào việc nhớ lại thông tin, tạo cảm giác tự nhiên"
+    },
+    {
+     "name": "难怪…… (chẳng trách…)",
+     "example": "难怪很多人说，喝茶也是在感受当地文化",
+     "meaning": "dẫn ra lý do giải thích cho một hiện tượng đã biết"
+    },
+    {
+     "name": "不同的……都会影响…… (khác nhau về…đều ảnh hưởng đến…)",
+     "example": "采茶的季节、做茶的方法都会影响味道",
+     "meaning": "liệt kê các yếu tố ảnh hưởng đến kết quả"
+    },
+    {
+     "name": "其实藏着…… (thực ra ẩn chứa…)",
+     "example": "一片小小的茶叶背后，其实藏着一个地方的气候和文化",
+     "meaning": "dẫn ra một ý nghĩa sâu hơn ẩn giấu bên trong"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 2,
+   "titleHan": "东北",
+   "titleVi": "Vùng Đông Bắc",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天我们聊聊中国的东北地区，我是云英。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: jīn tiān wǒ men liáo liáo zhōng guó de dōng běi dì qū, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。一说到东北，我脑子里马上出现的画面就是——冷！特别冷！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. yī shuō dào dōng běi, wǒ nǎo zi lǐ mǎ shàng chū xiàn de huà miàn jiù shì--lěng! tè bié lěng!"
+    },
+    {
+     "speaker": "云英",
+     "han": "哈哈，这个印象没有错，东北冬天确实特别冷，有的地方能到零下三十度左右。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hā hā, zhè ge yìn xiàng méi yǒu cuò, dōng běi dōng tiān què shí tè bié lěng, yǒu de dì fāng néng dào líng xià sān shí dù zuǒ yòu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那么冷，人们冬天都在家里待着吗？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: nà me lěng, rén men dōng tiān dōu zài jiā lǐ dài zhe ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "也不是，东北人反而特别喜欢冬天出去玩，比如去看雪、滑雪，还有去看冰做的雕塑。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: yě bú shì, dōng běi rén fǎn ér tè bié xǐ huān dōng tiān chū qù wán, bǐ rú qù kàn xuě, huá xuě, hái yǒu qù kàn bīng zuò de diāo sù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "冰做的雕塑？听起来很厉害，是不是就像用冰块搭出一座房子那样？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: bīng zuò de diāo sù? tīng qǐ lái hěn lì hài, shì bú shì jiù xiàng yòng bīng kuài dā chū yī zuò fáng zi nà yàng?"
+    },
+    {
+     "speaker": "云英",
+     "han": "差不多，有的城市每年冬天都会办一个冰雪节，用冰块做出各种各样的建筑和图案，非常漂亮。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: chà bu duō, yǒu de chéng shì měi nián dōng tiān dū huì bàn yí gè bīng xuě jié, yòng bīng kuài zuò chū gè zhǒng gè yàng de jiàn zhù hé tú àn, fēi cháng piào liàng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说到东北，我还想起一个事儿，东北人说话是不是特别有意思？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: shuō dào dōng běi, wǒ hái xiǎng qǐ yí gè shì ér, dōng běi rén shuō huà shì bú shì tè bié yǒu yì si?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，东北话是一种很有特点的方言，声音比较大，语气也很直接，听起来特别热情、有意思。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, dōng běi huà shì yī zhǒng hěn yǒu tè diǎn de fāng yán, shēng yīn bǐ jiào dà, yǔ qì yě hěn zhí jiē, tīng qǐ lái tè bié rè qíng, yǒu yì si."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我看过一些视频，东北人说话，感觉每一句都能让人笑出来。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ kàn guò yī xiē shì pín, dōng běi rén shuō huà, gǎn jué měi yī jù dōu néng ràng rén xiào chū lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "这跟东北人的性格也有关系，他们大多性格开朗、直接，说话喜欢开玩笑，气氛特别热闹。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: zhè gēn dōng běi rén de xìng gé yě yǒu guān xì, tā men dà duō xìng gé kāi lǎng, zhí jiē, shuō huà xǐ huān kāi wán xiào, qì fēn tè bié rè nào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，东北不只是天气特别，人的性格也很有特色。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, dōng běi bù zhǐ shì tiān qì tè bié, rén de xìng gé yě hěn yǒu tè sè."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，一个地方的气候，往往也会影响住在那里的人的性格和生活方式。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, yí gè dì fāng de qì hòu, wǎng wǎng yě huì yǐng xiǎng zhù zài nà lǐ de rén de xìng gé hé shēng huó fāng shì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我也很想找机会去东北，感受一下那种热闹的氛围。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ yě hěn xiǎng zhǎo jī huì qù dōng běi, gǎn shòu yī xià nà zhǒng rè nào de fēn wéi."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "印象",
+     "pinyin": "",
+     "meaning": "ấn tượng"
+    },
+    {
+     "word": "反而",
+     "pinyin": "",
+     "meaning": "trái lại"
+    },
+    {
+     "word": "雕塑",
+     "pinyin": "",
+     "meaning": "điêu khắc, tác phẩm điêu khắc"
+    },
+    {
+     "word": "冰块",
+     "pinyin": "",
+     "meaning": "khối băng"
+    },
+    {
+     "word": "冰雪节",
+     "pinyin": "",
+     "meaning": "lễ hội băng tuyết"
+    },
+    {
+     "word": "建筑",
+     "pinyin": "",
+     "meaning": "công trình kiến trúc"
+    },
+    {
+     "word": "图案",
+     "pinyin": "",
+     "meaning": "hoa văn, hình vẽ"
+    },
+    {
+     "word": "方言",
+     "pinyin": "",
+     "meaning": "phương ngữ"
+    },
+    {
+     "word": "语气",
+     "pinyin": "",
+     "meaning": "ngữ điệu, giọng nói"
+    },
+    {
+     "word": "直接",
+     "pinyin": "",
+     "meaning": "trực tiếp, thẳng thắn"
+    },
+    {
+     "word": "开朗",
+     "pinyin": "",
+     "meaning": "cởi mở, vui vẻ"
+    },
+    {
+     "word": "开玩笑",
+     "pinyin": "",
+     "meaning": "đùa giỡn"
+    },
+    {
+     "word": "热闹",
+     "pinyin": "",
+     "meaning": "náo nhiệt"
+    },
+    {
+     "word": "氛围",
+     "pinyin": "",
+     "meaning": "không khí (bầu không khí)"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一说到……我脑子里马上……(vừa nói đến…là trong đầu tôi liền…)",
+     "example": "一说到东北，我脑子里马上出现冷的画面",
+     "meaning": "khẩu ngữ diễn tả phản ứng liên tưởng tức thì"
+    },
+    {
+     "name": "反而…… (trái lại)",
+     "example": "东北人反而特别喜欢冬天出去玩",
+     "meaning": "nêu kết quả ngược với dự đoán thông thường"
+    },
+    {
+     "name": "这跟……也有关系 (điều này cũng liên quan đến…)",
+     "example": "这跟东北人的性格也有关系",
+     "meaning": "nêu mối liên hệ giữa hai yếu tố"
+    },
+    {
+     "name": "往往也会影响…… (thường cũng sẽ ảnh hưởng đến…)",
+     "example": "一个地方的气候，往往也会影响性格和生活方式",
+     "meaning": "nêu quy luật chung mang tính khái quát"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 3,
+   "titleHan": "西藏的雪",
+   "titleVi": "Tuyết Tây Tạng",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想跟大家聊聊西藏，我是云英。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng gēn dà jiā liáo liáo xī zàng, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。西藏，一听这个名字，我马上就想到雪山，特别高的雪山。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. xī zàng, yī tīng zhè ge míng zì, wǒ mǎ shàng jiù xiǎng dào xuě shān, tè bié gāo de xuě shān."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，西藏在中国的西边，那里有很多海拔特别高的山，山顶常年都是白色的雪。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, xī zàng zài zhōng guó de xī biān, nà lǐ yǒu hěn duō hǎi bá tè bié gāo de shān, shān dǐng cháng nián dōu shì bái sè de xuě."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我记得，好像世界上最高的山峰也在那附近吧？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ jì de, hǎo xiàng shì jiè shàng zuì gāo de shān fēng yě zài nà fù jìn ba?"
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，就是珠穆朗玛峰，虽然它不完全在西藏境内，但是离西藏非常近。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: méi cuò, jiù shì zhū mù lǎng mǎ fēng, suī rán tā bù wán quán zài xī zàng jìng nèi, dàn shì lí xī zàng fēi cháng jìn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那西藏那边的天气，是不是一年到头都特别冷？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: nà xī zàng nà biān de tiān qì, shì bú shì yì nián dào tóu dōu tè bié lěng?"
+    },
+    {
+     "speaker": "云英",
+     "han": "这个说法不完全对，虽然海拔高，气温低，但是那边阳光特别充足，白天有时候也不算特别冷。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: zhè ge shuō fǎ bù wán quán duì, suī rán hǎi bá gāo, qì wēn dī, dàn shì nà biān yáng guāng tè bié chōng zú, bái tiān yǒu shí hòu yě bù suàn tè bié lěng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "诶，我还听说，海拔太高的地方，人去了会不舒服，是这样吗？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: éi, wǒ hái tīng shuō, hǎi bá tài gāo de dì fāng, rén qù le huì bù shū fú, shì zhè yàng ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，这种情况叫\"高原反应\"，因为空气中的氧气比较少，有些人去了以后，会觉得头疼、呼吸困难。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, zhè zhǒng qíng kuàng jiào\"gāo yuán fǎn yìng\", yīn wèi kōng qì zhōng de yǎng qì bǐ jiào shǎo, yǒu xiē rén qù le yǐ hòu, huì jué de tóu téng, hū xī kùn nán."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那当地人也会有这种反应吗？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: nà dāng dì rén yě huì yǒu zhè zhǒng fǎn yìng ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "一般不会，当地人从小就生活在那种环境里，身体已经适应了，反而是从平原来的游客更容易有反应。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: yì bān bú huì, dāng dì rén cóng xiǎo jiù shēng huó zài nà zhǒng huán jìng lǐ, shēn tǐ yǐ jīng shì yìng le, fǎn ér shì cóng píng yuán lái de yóu kè gèng róng yì yǒu fǎn yìng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，去西藏旅游之前，是不是要做一些准备？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, qù xī zàng lǚ yóu zhī qián, shì bú shì yào zuò yī xiē zhǔn bèi?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，最好提前了解一下高原反应的知识，慢慢适应，不要一到就做太激烈的运动。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, zuì hǎo tí qián liǎo jiě yī xià gāo yuán fǎn yìng de zhī shí, màn màn shì yìng, bú yào yī dào jiù zuò tài jī liè de yùn dòng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "了解，看来去西藏这种地方旅游，跟去别的地方还挺不一样的。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: liǎo jiě, kàn lái qù xī zàng zhè zhòng dì fāng lǚ yóu, gēn qù bié de dì fāng hái tǐng bù yí yàng de."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实是这样，好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: què shí shì zhè yàng, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "雪山",
+     "pinyin": "",
+     "meaning": "núi tuyết"
+    },
+    {
+     "word": "海拔",
+     "pinyin": "",
+     "meaning": "độ cao (so với mặt biển)"
+    },
+    {
+     "word": "山顶",
+     "pinyin": "",
+     "meaning": "đỉnh núi"
+    },
+    {
+     "word": "常年",
+     "pinyin": "",
+     "meaning": "quanh năm"
+    },
+    {
+     "word": "山峰",
+     "pinyin": "",
+     "meaning": "ngọn núi"
+    },
+    {
+     "word": "境内",
+     "pinyin": "",
+     "meaning": "trong phạm vi lãnh thổ"
+    },
+    {
+     "word": "气温",
+     "pinyin": "",
+     "meaning": "nhiệt độ không khí"
+    },
+    {
+     "word": "充足",
+     "pinyin": "",
+     "meaning": "đầy đủ, sung túc"
+    },
+    {
+     "word": "高原反应",
+     "pinyin": "",
+     "meaning": "phản ứng cao nguyên (say độ cao)"
+    },
+    {
+     "word": "氧气",
+     "pinyin": "",
+     "meaning": "ô-xy"
+    },
+    {
+     "word": "呼吸",
+     "pinyin": "",
+     "meaning": "hô hấp, hít thở"
+    },
+    {
+     "word": "平原",
+     "pinyin": "",
+     "meaning": "đồng bằng"
+    },
+    {
+     "word": "提前",
+     "pinyin": "",
+     "meaning": "trước, sớm hơn"
+    },
+    {
+     "word": "激烈",
+     "pinyin": "",
+     "meaning": "mạnh mẽ, dữ dội"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一听……我马上就…… (vừa nghe…tôi liền…)",
+     "example": "一听这个名字，我马上就想到雪山",
+     "meaning": "khẩu ngữ diễn tả phản ứng liên tưởng ngay lập tức"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然海拔高，气温低，但是阳光特别充足",
+     "meaning": "nhượng bộ, bổ sung thông tin trái ngược"
+    },
+    {
+     "name": "这种情况叫…… (trường hợp này gọi là…)",
+     "example": "这种情况叫\"高原反应\"",
+     "meaning": "giới thiệu thuật ngữ cho hiện tượng vừa nêu"
+    },
+    {
+     "name": "反而是……更容易…… (trái lại…dễ hơn…)",
+     "example": "反而是从平原来的游客更容易有反应",
+     "meaning": "nêu kết quả ngược với dự đoán thông thường"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 4,
+   "titleHan": "熊猫",
+   "titleVi": "Gấu trúc",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天聊一个大家肯定都喜欢的话题——熊猫，我是云英。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: jīn tiān liáo yí gè dà jiā kěn dìng dū xǐ huān de huà tí--xióng māo, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。熊猫谁不喜欢啊，那么胖，那么可爱。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. xióng māo shuí bù xǐ huān a, nà me pàng, nà me kě ài."
+    },
+    {
+     "speaker": "云英",
+     "han": "哈哈，熊猫主要生活在四川这一带，那里的山里长着很多竹子，正好是熊猫最爱吃的食物。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hā hā, xióng māo zhǔ yào shēng huó zài sì chuān zhè yī dài, nà lǐ de shān lǐ zhǎng zhe hěn duō zhú zi, zhèng hǎo shì xióng māo zuì ài chī de shí wù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "诶，熊猫一天要吃多少竹子啊？我记得好像吃得特别多。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: éi, xióng māo yī tiān yào chī duō shǎo zhú zi a? wǒ jì de hǎo xiàng chī dé tè bié duō."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，一只熊猫每天差不多要吃十几个小时，吃掉几十斤竹子，因为竹子的营养并不算特别高。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, yī zhī xióng māo měi tiān chà bu duō yào chī shí jǐ gè xiǎo shí, chī diào jǐ shí jīn zhú zi, yīn wèi zhú zi de yíng yǎng bìng bù suàn tè bié gāo."
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃十几个小时？那它们不用睡觉了吗？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: chī shí jǐ gè xiǎo shí? nà tā men bù yòng shuì jiào le ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "也会睡觉，不过熊猫每天的时间基本上都用在\"吃\"和\"睡\"这两件事情上，生活挺简单的。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: yě huì shuì jiào, bù guò xióng māo měi tiān de shí jiān jī běn shàng dōu yòng zài\"chī\"hé\"shuì\"zhè liǎng jiàn shì qíng shàng, shēng huó tǐng jiǎn dān de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说到这个，我一直好奇，熊猫为什么会是黑白两种颜色？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: shuō dào zhè ge, wǒ yì zhí hào qí, xióng māo wèi shén me huì shì hēi bái liǎng zhǒng yán sè?"
+    },
+    {
+     "speaker": "云英",
+     "han": "科学家说，这种颜色可能是为了帮助它们在雪地和树林之间隐藏自己，保护自己不容易被发现。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: kē xué jiā shuō, zhè zhǒng yán sè kě néng shì wèi le bāng zhù tā men zài xuě dì hé shù lín zhī jiān yǐn cáng zì jǐ, bǎo hù zì jǐ bù róng yì bèi fā xiàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "原来还有这个原因，我以前一直以为，熊猫这个样子只是\"长得好看\"而已。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: yuán lái hái yǒu zhè ge yuán yīn, wǒ yǐ qián yì zhí yǐ wéi, xióng māo zhè ge yàng zi zhǐ shì\"zhǎng dé hǎo kàn\"ér yǐ."
+    },
+    {
+     "speaker": "云英",
+     "han": "现在熊猫的数量已经比以前多了不少，这跟中国这些年一直努力保护熊猫和它们的生活环境有关系。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: xiàn zài xióng māo de shù liàng yǐ jīng bǐ yǐ qián duō le bù shǎo, zhè gēn zhōng guó zhè xiē nián yì zhí nǔ lì bǎo hù xióng māo hé tā men de shēng huó huán jìng yǒu guān xì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，能看到这么多可爱的熊猫，也是很多人努力的结果。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, néng kàn dào zhè me duō kě ài de xióng māo, yě shì hěn duō rén nǔ lì de jié guǒ."
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，熊猫现在也是中国的一个重要象征，代表着和平、友好。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: méi cuò, xióng māo xiàn zài yě shì zhōng guó de yí gè zhòng yào xiàng zhēng, dài biǎo zhe hé píng, yǒu hǎo."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我也更喜欢熊猫了，希望以后能亲自去四川看看它们。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ yě gèng xǐ huān xióng māo le, xī wàng yǐ hòu néng qīn zì qù sì chuān kàn kàn tā men."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "竹子",
+     "pinyin": "",
+     "meaning": "tre"
+    },
+    {
+     "word": "营养",
+     "pinyin": "",
+     "meaning": "dinh dưỡng"
+    },
+    {
+     "word": "基本上",
+     "pinyin": "",
+     "meaning": "cơ bản là"
+    },
+    {
+     "word": "好奇",
+     "pinyin": "",
+     "meaning": "tò mò"
+    },
+    {
+     "word": "科学家",
+     "pinyin": "",
+     "meaning": "nhà khoa học"
+    },
+    {
+     "word": "隐藏",
+     "pinyin": "",
+     "meaning": "ẩn giấu"
+    },
+    {
+     "word": "数量",
+     "pinyin": "",
+     "meaning": "số lượng"
+    },
+    {
+     "word": "保护",
+     "pinyin": "",
+     "meaning": "bảo vệ"
+    },
+    {
+     "word": "环境",
+     "pinyin": "",
+     "meaning": "môi trường"
+    },
+    {
+     "word": "象征",
+     "pinyin": "",
+     "meaning": "biểu tượng"
+    },
+    {
+     "word": "和平",
+     "pinyin": "",
+     "meaning": "hòa bình"
+    },
+    {
+     "word": "友好",
+     "pinyin": "",
+     "meaning": "hữu nghị, thân thiện"
+    },
+    {
+     "word": "亲自",
+     "pinyin": "",
+     "meaning": "tự mình, đích thân"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "诶，我记得好像…… (à, tôi nhớ hình như…)",
+     "example": "诶，熊猫一天要吃多少竹子啊，我记得好像吃得特别多",
+     "meaning": "khẩu ngữ dẫn vào việc nhớ lại thông tin không chắc chắn"
+    },
+    {
+     "name": "可能是为了…… (có thể là để…)",
+     "example": "这种颜色可能是为了帮助它们隐藏自己",
+     "meaning": "nêu suy đoán về mục đích"
+    },
+    {
+     "name": "我以前一直以为…… (trước đây tôi luôn tưởng…)",
+     "example": "我以前一直以为，熊猫这个样子只是长得好看而已",
+     "meaning": "dẫn ra một nhận định sai trước đây"
+    },
+    {
+     "name": "这跟……有关系 (điều này liên quan đến…)",
+     "example": "数量比以前多，这跟中国努力保护环境有关系",
+     "meaning": "nêu mối liên hệ nhân quả"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 5,
+   "titleHan": "南方和北方的差异",
+   "titleVi": "Khác biệt Nam-Bắc",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊一个大话题，就是中国南方和北方的差异，我是云英。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo yí gè dà huà tí, jiù shì zhōng guó nán fāng hé běi fāng de chā yì, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。这个话题挺大的，一下子不知道从哪里说起。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. zhè ge huà tí tǐng dà de, yī xià zi bù zhī dào cóng nǎ lǐ shuō qǐ."
+    },
+    {
+     "speaker": "云英",
+     "han": "那我们先从吃的说起吧，你知道南方人和北方人，主食一般不太一样吗？",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: nà wǒ men xiān cóng chī de shuō qǐ ba, nǐ zhī dào nán fāng rén hé běi fāng rén, zhǔ shí yì bān bù tài yī yàng ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我记得好像，北方人喜欢吃面食，比如面条、饺子，南方人比较喜欢吃米饭。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ jì de hǎo xiàng, běi fāng rén xǐ huān chī miàn shí, bǐ rú miàn tiáo, jiǎo zi, nán fāng rén bǐ jiào xǐ huān chī mǐ fàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，这跟气候和地理条件有关，北方比较干燥，适合种小麦，南方水多，适合种水稻。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, zhè gēn qì hòu hé dì lǐ tiáo jiàn yǒu guān, běi fāng bǐ jiào gān zào, shì hé zhǒng xiǎo mài, nán fāng shuǐ duō, shì hé zhǒng shuǐ dào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "除了吃的，我记得南方和北方的天气也差别很大。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: chú le chī de, wǒ jì de nán fāng hé běi fāng de tiān qì yě chā bié hěn dà."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实，北方四季分明，冬天特别冷，夏天也比较热；南方相对来说，冬天没那么冷，但是夏天比较湿。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: què shí, běi fāng sì jì fēn míng, dōng tiān tè bié lěng, xià tiān yě bǐ jiào rè; nán fāng xiāng duì lái shuō, dōng tiān méi nà me lěng, dàn shì xià tiān bǐ jiào shī."
+    },
+    {
+     "speaker": "德盛",
+     "han": "诶，我还听人说，南方和北方人说话的方式也不太一样？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: éi, wǒ hái tīng rén shuō, nán fāng hé běi fāng rén shuō huà de fāng shì yě bù tài yī yàng?"
+    },
+    {
+     "speaker": "云英",
+     "han": "这个也是真的，北方话，特别是普通话，很多人听起来都比较容易懂，南方有些地方的方言，外地人听起来就比较难。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: zhè ge yě shì zhēn de, běi fāng huà, tè bié shì pǔ tōng huà, hěn duō rén tīng qǐ lái dōu bǐ jiào róng yì dǒng, nán fāng yǒu xiē dì fāng de fāng yán, wài dì rén tīng qǐ lái jiù bǐ jiào nán."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说到这个，我一个南方朋友说，他们家里人说话，我基本上一句都听不懂。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: shuō dào zhè ge, wǒ yí gè nán fāng péng yǒu shuō, tā men jiā lǐ rén shuō huà, wǒ jī běn shàng yī jù dōu tīng bù dǒng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这很正常，中国地方这么大，不同地区几百年、几千年下来，自然就形成了各种不同的方言。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: zhè hěn zhèng cháng, zhōng guó dì fāng zhè me dà, bù tóng dì qū jǐ bǎi nián, jǐ qiān nián xià lái, zì rán jiù xíng chéng le gè zhǒng bù tóng de fāng yán."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，南北差异，不只是吃的、天气，还有语言、生活习惯，是一个很全面的差异。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, nán běi chā yì, bù zhǐ shì chī de, tiān qì, hái yǒu yǔ yán, shēng huó xí guàn, shì yí gè hěn quán miàn de chā yì."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，正是因为这些差异，中国不同地方才会有那么丰富多样的文化。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, zhèng shì yīn wèi zhè xiē chā yì, zhōng guó bù tóng dì fāng cái huì yǒu nà me fēng fù duō yàng de wén huà."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我更想去南方和北方都走一走，亲自感受一下这种差别。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ gèng xiǎng qù nán fāng hé běi fāng dōu zǒu yī zǒu, qīn zì gǎn shòu yī xià zhè zhǒng chà bié."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "差异",
+     "pinyin": "",
+     "meaning": "sự khác biệt"
+    },
+    {
+     "word": "主食",
+     "pinyin": "",
+     "meaning": "món chính (lương thực chính)"
+    },
+    {
+     "word": "面食",
+     "pinyin": "",
+     "meaning": "món làm từ bột mì"
+    },
+    {
+     "word": "地理",
+     "pinyin": "",
+     "meaning": "địa lý"
+    },
+    {
+     "word": "干燥",
+     "pinyin": "",
+     "meaning": "khô hanh"
+    },
+    {
+     "word": "小麦",
+     "pinyin": "",
+     "meaning": "lúa mạch, lúa mì"
+    },
+    {
+     "word": "水稻",
+     "pinyin": "",
+     "meaning": "lúa nước"
+    },
+    {
+     "word": "四季分明",
+     "pinyin": "",
+     "meaning": "4 mùa rõ rệt"
+    },
+    {
+     "word": "相对来说",
+     "pinyin": "",
+     "meaning": "tương đối mà nói"
+    },
+    {
+     "word": "外地人",
+     "pinyin": "",
+     "meaning": "người ngoại tỉnh"
+    },
+    {
+     "word": "地区",
+     "pinyin": "",
+     "meaning": "khu vực"
+    },
+    {
+     "word": "形成",
+     "pinyin": "",
+     "meaning": "hình thành"
+    },
+    {
+     "word": "全面",
+     "pinyin": "",
+     "meaning": "toàn diện"
+    },
+    {
+     "word": "丰富多样",
+     "pinyin": "",
+     "meaning": "phong phú đa dạng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一下子不知道从哪里说起 (nhất thời không biết bắt đầu từ đâu)",
+     "example": "这个话题挺大的，一下子不知道从哪里说起",
+     "meaning": "khẩu ngữ diễn tả sự lưỡng lự khi bắt đầu chủ đề rộng"
+    },
+    {
+     "name": "这跟……有关 (điều này liên quan đến…)",
+     "example": "这跟气候和地理条件有关",
+     "meaning": "nêu mối liên hệ nhân quả"
+    },
+    {
+     "name": "正是因为……才…… (chính vì…mới…)",
+     "example": "正是因为这些差异，中国才会有丰富多样的文化",
+     "meaning": "nhấn mạnh nguyên nhân cốt lõi"
+    },
+    {
+     "name": "不只是……还有…… (không chỉ là…mà còn có…)",
+     "example": "南北差异不只是吃的、天气，还有语言、生活习惯",
+     "meaning": "mở rộng phạm vi liệt kê"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 6,
+   "titleHan": "方言",
+   "titleVi": "Phương ngữ",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "接着上次说的南北差异，今天专门聊聊方言这个话题，我是云英。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: jiē zhe shàng cì shuō de nán běi chā yì, jīn tiān zhuān mén liáo liáo fāng yán zhè ge huà tí, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。说到方言，我真的觉得中国的方言太多了，有时候感觉像在听另一种语言。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. shuō dào fāng yán, wǒ zhēn de jué de zhōng guó de fāng yán tài duō le, yǒu shí hòu gǎn jué xiàng zài tīng lìng yī zhǒng yǔ yán."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实是这样，中国地方很大，几千年下来，不同地区慢慢形成了各种各样的方言。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: què shí shì zhè yàng, zhōng guó dì fāng hěn dà, jǐ qiān nián xià lái, bù tóng dì qū màn màn xíng chéng le gè zhǒng gè yàng de fāng yán."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那普通话跟这些方言是什么关系？普通话是不是也是从某一种方言变来的？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: nà pǔ tōng huà gēn zhè xiē fāng yán shì shén me guān xì? pǔ tōng huà shì bú shì yě shì cóng mǒu yī zhǒng fāng yán biàn lái de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "普通话主要是根据北京话为基础，再经过整理规范以后形成的，是全国通用的标准语言。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: pǔ tōng huà zhǔ yào shì gēn jù běi jīng huà wèi jī chǔ, zài jīng guò zhěng lǐ guī fàn yǐ hòu xíng chéng de, shì quán guó tōng yòng de biāo zhǔn yǔ yán."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这样啊，那学校里、电视上说的，基本都是普通话吧？",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: zhè yàng a, nà xué xiào lǐ, diàn shì shàng shuō de, jī běn dōu shì pǔ tōng huà ba?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，为了方便不同地方的人交流，学校教育、新闻广播基本都用普通话。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, wèi le fāng biàn bù tóng dì fāng de rén jiāo liú, xué xiào jiào yù, xīn wén guǎng bō jī běn dōu yòng pǔ tōng huà."
+    },
+    {
+     "speaker": "德盛",
+     "han": "不过我发现，很多地方的人，在家里还是习惯说自己的方言。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: bù guò wǒ fā xiàn, hěn duō dì fāng de rén, zài jiā lǐ hái shì xí guàn shuō zì jǐ de fāng yán."
+    },
+    {
+     "speaker": "云英",
+     "han": "这也很正常，方言不只是一种交流工具，也承载着当地人的感情和文化记忆。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: zhè yě hěn zhèng cháng, fāng yán bù zhǐ shì yī zhǒng jiāo liú gōng jù, yě chéng zài zhe dāng dì rén de gǎn qíng hé wén huà jì yì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说到感情，我发现，跟老家的人说方言，感觉特别亲切，比说普通话更有那种\"家\"的感觉。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: shuō dào gǎn qíng, wǒ fā xiàn, gēn lǎo jiā de rén shuō fāng yán, gǎn jué tè bié qīn qiè, bǐ shuō pǔ tōng huà gèng yǒu nà zhǒng\"jiā\"de gǎn jué."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，很多人说，方言就像一个人的\"根\"，不管走到哪里，听到熟悉的方言，都会想起家乡。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: duì, hěn duō rén shuō, fāng yán jiù xiàng yí gè rén de\"gēn\", bù guǎn zǒu dào nǎ lǐ, tīng dào shú xī de fāng yán, dū huì xiǎng qǐ jiā xiāng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，虽然普通话很重要，但是保护方言，也是保护一种独特的文化。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, suī rán pǔ tōng huà hěn zhòng yào, dàn shì bǎo hù fāng yán, yě shì bǎo hù yī zhǒng dú tè de wén huà."
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，现在也有一些人开始关注方言的保护，比如用方言唱歌、拍电影，让更多人了解方言的魅力。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: méi cuò, xiàn zài yě yǒu yī xiē rén kāi shǐ guān zhù fāng yán de bǎo hù, bǐ rú yòng fāng yán chàng gē, pāi diàn yǐng, ràng gèng duō rén liǎo jiě fāng yán de mèi lì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我也想多学一点儿家乡的方言，别把它忘了。",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ yě xiǎng duō xué yì diǎn ér jiā xiāng de fāng yán, bié bǎ tā wàng le."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，今天就聊到这里，谢谢大家收听。",
+     "pinyin": "",
+     "draft_pinyin": "Yún yīng: hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "pinyin": "",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "方言",
+     "pinyin": "",
+     "meaning": "phương ngữ"
+    },
+    {
+     "word": "基础",
+     "pinyin": "",
+     "meaning": "nền tảng, cơ sở"
+    },
+    {
+     "word": "整理",
+     "pinyin": "",
+     "meaning": "chỉnh lý"
+    },
+    {
+     "word": "规范",
+     "pinyin": "",
+     "meaning": "quy chuẩn"
+    },
+    {
+     "word": "通用",
+     "pinyin": "",
+     "meaning": "dùng chung, thông dụng"
+    },
+    {
+     "word": "广播",
+     "pinyin": "",
+     "meaning": "phát thanh, truyền thông"
+    },
+    {
+     "word": "承载",
+     "pinyin": "",
+     "meaning": "mang, gánh chịu (ý nghĩa)"
+    },
+    {
+     "word": "记忆",
+     "pinyin": "",
+     "meaning": "ký ức"
+    },
+    {
+     "word": "亲切",
+     "pinyin": "",
+     "meaning": "thân thiết"
+    },
+    {
+     "word": "根",
+     "pinyin": "",
+     "meaning": "gốc, rễ"
+    },
+    {
+     "word": "家乡",
+     "pinyin": "",
+     "meaning": "quê hương"
+    },
+    {
+     "word": "独特",
+     "pinyin": "",
+     "meaning": "độc đáo"
+    },
+    {
+     "word": "魅力",
+     "pinyin": "",
+     "meaning": "sức hút"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "有时候感觉像…… (đôi khi cảm giác như…)",
+     "example": "有时候感觉像在听另一种语言",
+     "meaning": "khẩu ngữ diễn tả cảm nhận chủ quan mang tính so sánh"
+    },
+    {
+     "name": "主要是根据……为基础 (chủ yếu dựa trên…làm nền tảng)",
+     "example": "普通话主要是根据北京话为基础形成的",
+     "meaning": "nêu nguồn gốc/cơ sở hình thành"
+    },
+    {
+     "name": "不只是……也承载着…… (không chỉ là…mà còn mang…)",
+     "example": "方言不只是交流工具，也承载着感情和文化记忆",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    },
+    {
+     "name": "就像……一样，不管……都…… (giống như…, bất kể…đều…)",
+     "example": "方言就像一个人的根，不管走到哪里，都会想起家乡",
+     "meaning": "tạo ẩn dụ kết hợp tính khái quát"
+    }
+   ]
+  }
+ ]
+}

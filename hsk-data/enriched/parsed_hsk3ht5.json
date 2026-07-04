@@ -1,0 +1,3275 @@
+{
+ "hsk3ht5": [
+  {
+   "kind": "dialogue",
+   "no": 23,
+   "titleHan": "北京的雪，四川的雾",
+   "titleVi": "Tuyết Bắc Kinh, sương Tứ Xuyên",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天聊聊旅游话题，我是云英。德盛，如果只能选一个地方，你现在最想去哪里？",
+     "draft_pinyin": "Yún yīng: jīn tiān liáo liáo lǚ yóu huà tí, wǒ shì yún yīng. dé shèng, rú guǒ zhǐ néng xuǎn yí gè dì fāng, nǐ xiàn zài zuì xiǎng qù nǎ lǐ?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。让我想想……我可能会选北京，冬天的北京，据说特别有味道。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. ràng wǒ xiǎng xiǎng...... wǒ kě néng huì xuǎn běi jīng, dōng tiān de běi jīng, jù shuō tè bié yǒu wèi dào."
+    },
+    {
+     "speaker": "云英",
+     "han": "为什么特别选冬天？夏天去看故宫也不错啊。",
+     "draft_pinyin": "Yún yīng: wèi shén me tè bié xuǎn dōng tiān? xià tiān qù kàn gù gōng yě bù cuò a."
+    },
+    {
+     "speaker": "德盛",
+     "han": "夏天人多，而且太热了。冬天下雪的时候，站在故宫的红墙旁边，那种感觉应该完全不一样。",
+     "draft_pinyin": "Dé shèng: xià tiān rén duō, ér qiě tài rè le. dōng tiān xià xuě de shí hòu, zhàn zài gù gōng de hóng qiáng páng biān, nà zhǒng gǎn jué yīng gāi wán quán bù yí yàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，你是想一个人去，还是想找人一起去？",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nǐ shì xiǎng yí gè rén qù, hái shì xiǎng zhǎo rén yì qǐ qù?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）这个问题问得挺直接的，我倒是想问问你，有没有兴趣一起去看看。",
+     "draft_pinyin": "Dé shèng: (xiào) zhè ge wèn tí wèn dé tǐng zhí jiē de, wǒ dǎo shì xiǎng wèn wèn nǐ, yǒu méi yǒu xìng qù yì qǐ qù kàn kàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（愣了一下，也笑了）看你这个邀请方式，好像提前想好了似的。",
+     "draft_pinyin": "Yún yīng: (lèng le yī xià, yě xiào le) kàn nǐ zhè ge yāo qǐng fāng shì, hǎo xiàng tí qián xiǎng hǎo le shì de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也没有提前想好，只是突然觉得，一个人站在雪地里拍照，好像有点儿孤单。",
+     "draft_pinyin": "Dé shèng: yě méi yǒu tí qián xiǎng hǎo, zhǐ shì tū rán jué de, yí gè rén zhàn zài xuě dì lǐ pāi zhào, hǎo xiàng yǒu diǎn ér gū dān."
+    },
+    {
+     "speaker": "云英",
+     "han": "那如果不是北京，你还会想去哪里？",
+     "draft_pinyin": "Yún yīng: nà rú guǒ bú shì běi jīng, nǐ hái huì xiǎng qù nǎ lǐ?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "四川吧，我一直想去看看那边的山，听说那边常年有雾，走在路上，感觉像走进了一幅画。",
+     "draft_pinyin": "Dé shèng: sì chuān ba, wǒ yì zhí xiǎng qù kàn kàn nà biān de shān, tīng shuō nà biān cháng nián yǒu wù, zǒu zài lù shàng, gǎn jué xiàng zǒu jìn le yī fú huà."
+    },
+    {
+     "speaker": "云英",
+     "han": "四川的雾确实有名，不过山路应该也不太好走。",
+     "draft_pinyin": "Yún yīng: sì chuān de wù què shí yǒu míng, bù guò shān lù yīng gāi yě bù tài hǎo zǒu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，山路是有点儿难走，但是我觉得，只要旁边有人一起走，再难的路，好像也没那么可怕了。",
+     "draft_pinyin": "Dé shèng: duì, shān lù shì yǒu diǎn ér nán zǒu, dàn shì wǒ jué de, zhǐ yào páng biān yǒu rén yì qǐ zǒu, zài nán de lù, hǎo xiàng yě méi nà me kě pà le."
+    },
+    {
+     "speaker": "云英",
+     "han": "（轻轻笑了一下）你今天说话，怎么听起来处处都在\"暗示\"什么。",
+     "draft_pinyin": "Yún yīng: (qīng qīng xiào le yī xià) nǐ jīn tiān shuō huà, zěn me tīng qǐ lái chù chù dōu zài\"àn shì\"shén me."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也许是吧，那你觉得，如果真的一起去了北京，或者四川，会不会挺有意思？",
+     "draft_pinyin": "Dé shèng: yě xǔ shì ba, nà nǐ jué de, rú guǒ zhēn de yì qǐ qù le běi jīng, huò zhě sì chuān, huì bú huì tǐng yǒu yì si?"
+    },
+    {
+     "speaker": "云英",
+     "han": "这个……可以考虑一下，不过我们还是先聊聊别的地方吧。",
+     "draft_pinyin": "Yún yīng: zhè ge...... kě yǐ kǎo lǜ yī xià, bù guò wǒ men hái shì xiān liáo liáo bié de dì fāng ba."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "据说",
+     "pinyin": "",
+     "meaning": "nghe nói"
+    },
+    {
+     "word": "红墙",
+     "pinyin": "",
+     "meaning": "tường đỏ (cung điện)"
+    },
+    {
+     "word": "邀请",
+     "pinyin": "",
+     "meaning": "mời"
+    },
+    {
+     "word": "孤单",
+     "pinyin": "",
+     "meaning": "cô đơn, lẻ loi"
+    },
+    {
+     "word": "常年",
+     "pinyin": "",
+     "meaning": "quanh năm"
+    },
+    {
+     "word": "雾",
+     "pinyin": "",
+     "meaning": "sương mù"
+    },
+    {
+     "word": "山路",
+     "pinyin": "",
+     "meaning": "đường núi"
+    },
+    {
+     "word": "暗示",
+     "pinyin": "",
+     "meaning": "ngụ ý, gợi ý (bóng gió)"
+    },
+    {
+     "word": "考虑",
+     "pinyin": "",
+     "meaning": "xem xét, suy nghĩ"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "据说……应该……不一样 (nghe nói…thì có lẽ…khác)",
+     "example": "据说冬天的北京特别有味道",
+     "meaning": "dẫn thông tin nghe được, chưa chắc chắn hoàn toàn"
+    },
+    {
+     "name": "好像提前想好了似的 (dường như đã tính trước rồi)",
+     "example": "看你这个邀请方式，好像提前想好了似的",
+     "meaning": "diễn tả suy đoán mang tính trêu chọc nhẹ"
+    },
+    {
+     "name": "只要……再……也…… (chỉ cần…dù…cũng…)",
+     "example": "只要旁边有人一起走，再难的路也没那么可怕了",
+     "meaning": "nêu điều kiện đủ để vượt qua khó khăn"
+    },
+    {
+     "name": "怎么……处处都在…… (sao mà…luôn…)",
+     "example": "你今天说话，怎么处处都在暗示什么",
+     "meaning": "khẩu ngữ trêu chọc, chỉ ra một xu hướng lặp lại trong lời nói"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 24,
+   "titleHan": "西湖的茶，路边的糖葫芦",
+   "titleVi": "Trà Tây Hồ, kẹo hồ lô bên đường",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "上次说到北京和四川，今天我们接着聊，我是云英。",
+     "draft_pinyin": "Yún yīng: shàng cì shuō dào běi jīng hé sì chuān, jīn tiān wǒ men jiē zhe liáo, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。今天你也说说看，你最想去哪里？",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. jīn tiān nǐ yě shuō shuō kàn, nǐ zuì xiǎng qù nǎ lǐ?"
+    },
+    {
+     "speaker": "云英",
+     "han": "我一直想去杭州，看看西湖，好像很多人都说，那边的风景特别安静，特别适合慢慢走走。",
+     "draft_pinyin": "Yún yīng: wǒ yì zhí xiǎng qù háng zhōu, kàn kàn xī hú, hǎo xiàng hěn duō rén dōu shuō, nà biān de fēng jǐng tè bié ān jìng, tè bié shì hé màn màn zǒu zǒu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "西湖确实有名，我记得杭州还有一种很有名的茶，叫龙井吧？",
+     "draft_pinyin": "Dé shèng: xī hú què shí yǒu míng, wǒ jì de háng zhōu hái yǒu yī zhǒng hěn yǒu míng de chá, jiào lóng jǐng ba?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，龙井茶，我特别想找一个安静的下午，坐在湖边，慢慢喝一杯。",
+     "draft_pinyin": "Yún yīng: duì, lóng jǐng chá, wǒ tè bié xiǎng zhǎo yí gè ān jìng de xià wǔ, zuò zài hú biān, màn màn hē yī bēi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，你理想中的旅行，是那种比较安静、慢节奏的？",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, nǐ lǐ xiǎng zhōng de lǚ xíng, shì nà zhǒng bǐ jiào ān jìng, màn jié zòu de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，跟你之前说的雪地、山路完全不一样，我更喜欢那种，什么都不用做，就坐着看风景的感觉。",
+     "draft_pinyin": "Yún yīng: duì, gēn nǐ zhī qián shuō de xuě dì, shān lù wán quán bù yí yàng, wǒ gèng xǐ huān nà zhǒng, shén me dōu bù yòng zuò, jiù zuò zhe kàn fēng jǐng de gǎn jué."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那如果我们真的一起去了杭州，坐在湖边喝茶，会不会觉得太安静，有点儿无聊？",
+     "draft_pinyin": "Dé shèng: nà rú guǒ wǒ men zhēn de yì qǐ qù le háng zhōu, zuò zài hú biān hē chá, huì bú huì jué de tài ān jìng, yǒu diǎn ér wú liáo?"
+    },
+    {
+     "speaker": "云英",
+     "han": "那倒不一定，安静的时候，反而更容易聊到心里话，不像平时那么匆忙。",
+     "draft_pinyin": "Yún yīng: nà dào bù yí dìng, ān jìng de shí hòu, fǎn ér gèng róng yì liáo dào xīn lǐ huà, bù xiàng píng shí nà me cōng máng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，我倒是有点儿期待了。",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, wǒ dǎo shì yǒu diǎn ér qī dài le."
+    },
+    {
+     "speaker": "云英",
+     "han": "对了，说到吃的，我小时候特别喜欢一种小吃，叫糖葫芦，外面一层糖，里面是山楂，酸酸甜甜的。",
+     "draft_pinyin": "Yún yīng: duì le, shuō dào chī de, wǒ xiǎo shí hòu tè bié xǐ huān yī zhǒng xiǎo chī, jiào táng hú lú, wài miàn yī céng táng, lǐ miàn shì shān zhā, suān suān tián tián de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这个我也吃过，好像很多地方过节的时候，路边都会有人卖。",
+     "draft_pinyin": "Dé shèng: zhè ge wǒ yě chī guò, hǎo xiàng hěn duō dì fāng guò jié de shí hòu, lù biān dū huì yǒu rén mài."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，我一直觉得，那种酸酸甜甜的味道，特别像有些感觉，一开始有点儿说不清楚，但是尝过以后，就会一直想起来。",
+     "draft_pinyin": "Yún yīng: duì, wǒ yì zhí jué de, nà zhǒng suān suān tián tián de wèi dào, tè bié xiàng yǒu xiē gǎn jué, yī kāi shǐ yǒu diǎn ér shuō bù qīng chǔ, dàn shì cháng guò yǐ hòu, jiù huì yì zhí xiǎng qǐ lái."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）你这句话，听起来也有点儿意味深长啊。",
+     "draft_pinyin": "Dé shèng: (xiào) nǐ zhè jù huà, tīng qǐ lái yě yǒu diǎn ér yì wèi shēn cháng a."
+    },
+    {
+     "speaker": "云英",
+     "han": "（也笑了）随便说说而已，不过，如果有机会，倒是可以试试，一边喝西湖的茶，一边吃糖葫芦。",
+     "draft_pinyin": "Yún yīng: (yě xiào le) suí biàn shuō shuō ér yǐ, bù guò, rú guǒ yǒu jī huì, dǎo shì kě yǐ shì shì, yī biān hē xī hú de chá, yī biān chī táng hú lú."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好，那这个计划，我记下来了。",
+     "draft_pinyin": "Dé shèng: hǎo, nà zhè ge jì huà, wǒ jì xià lái le."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "慢节奏",
+     "pinyin": "",
+     "meaning": "nhịp sống chậm"
+    },
+    {
+     "word": "匆忙",
+     "pinyin": "",
+     "meaning": "vội vã"
+    },
+    {
+     "word": "山楂",
+     "pinyin": "",
+     "meaning": "quả táo gai"
+    },
+    {
+     "word": "酸甜",
+     "pinyin": "",
+     "meaning": "chua ngọt"
+    },
+    {
+     "word": "意味深长",
+     "pinyin": "",
+     "meaning": "ý nghĩa sâu xa"
+    },
+    {
+     "word": "随便说说",
+     "pinyin": "",
+     "meaning": "nói bâng quơ, nói vậy thôi"
+    },
+    {
+     "word": "计划",
+     "pinyin": "",
+     "meaning": "kế hoạch"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "好像很多人都说…… (dường như nhiều người đều nói…)",
+     "example": "好像很多人都说，那边风景特别安静",
+     "meaning": "dẫn thông tin phổ biến được nghe từ nhiều nguồn"
+    },
+    {
+     "name": "跟……完全不一样 (khác hoàn toàn so với…)",
+     "example": "跟你之前说的雪地、山路完全不一样",
+     "meaning": "nêu sự khác biệt rõ ràng so với điều đã đề cập"
+    },
+    {
+     "name": "那倒不一定 (điều đó thì chưa chắc)",
+     "example": "那倒不一定，安静的时候反而更容易聊心里话",
+     "meaning": "phản bác nhẹ nhàng một giả định"
+    },
+    {
+     "name": "一开始有点儿说不清楚，但是……以后，就会…… (lúc đầu khó nói rõ, nhưng sau khi…thì sẽ…)",
+     "example": "一开始说不清楚，但是尝过以后，就会一直想起来",
+     "meaning": "diễn tả cảm giác mơ hồ ban đầu rồi trở nên rõ ràng, khó quên sau trải nghiệm"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 25,
+   "titleHan": "上海的灯，北京的鸭",
+   "titleVi": "Đèn Thượng Hải, vịt Bắc Kinh",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "这几次我们聊了不少地方，我是云英。德盛，上海你去过吗？",
+     "draft_pinyin": "Yún yīng: zhè jǐ cì wǒ men liáo le bù shǎo dì fāng, wǒ shì yún yīng. dé shèng, shàng hǎi nǐ qù guò ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。去过一次，出差的时候顺便逛了逛，印象最深的是晚上外滩那一片，灯特别多，特别亮。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. qù guò yī cì, chū chāi de shí hòu shùn biàn guàng le guàng, yìn xiàng zuì shēn de shì wǎn shàng wài tān nà yī piàn, dēng tè bié duō, tè bié liàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "外滩的夜景确实有名，据说那边的灯，晚上会一直亮到很晚。",
+     "draft_pinyin": "Yún yīng: wài tān de yè jǐng què shí yǒu míng, jù shuō nà biān de dēng, wǎn shàng huì yì zhí liàng dào hěn wǎn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，那天晚上，我一个人站在江边，看着对面那些高楼的灯光，人来人往，特别热闹，但是说实话，我心里反而觉得有点儿孤单。",
+     "draft_pinyin": "Dé shèng: duì, nà tiān wǎn shàng, wǒ yí gè rén zhàn zài jiāng biān, kàn zhe duì miàn nà xiē gāo lóu de dēng guāng, rén lái rén wǎng, tè bié rè nào, dàn shì shuō shí huà, wǒ xīn lǐ fǎn ér jué de yǒu diǎn ér gū dān."
+    },
+    {
+     "speaker": "云英",
+     "han": "为什么会觉得孤单？周围应该很热闹才对。",
+     "draft_pinyin": "Yún yīng: wèi shén me huì jué de gū dān? zhōu wéi yīng gāi hěn rè nào cái duì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "可能就是因为太热闹了吧，身边的人都在忙着拍照、聊天，我一个人站在那儿，反而觉得，如果有个熟悉的人在旁边，那些灯光看起来会更好看。",
+     "draft_pinyin": "Dé shèng: kě néng jiù shì yīn wèi tài rè nào le ba, shēn biān de rén dōu zài máng zhe pāi zhào, liáo tiān, wǒ yí gè rén zhàn zài nà ér, fǎn ér jué de, rú guǒ yǒu gè shú xī de rén zài páng biān, nà xiē dēng guāng kàn qǐ lái huì gèng hǎo kàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，风景好不好看，好像还得看旁边站着谁。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, fēng jǐng hǎo bù hǎo kàn, hǎo xiàng hái dé kàn páng biān zhàn zhe shuí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "差不多是这个意思。对了，说到北京，我还想起一件事，北京有一种很有名的烤鸭，你吃过吗？",
+     "draft_pinyin": "Dé shèng: chà bu duō shì zhè ge yì si. duì le, shuō dào běi jīng, wǒ hái xiǎng qǐ yī jiàn shì, běi jīng yǒu yī zhǒng hěn yǒu míng de kǎo yā, nǐ chī guò ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "吃过，那种鸭皮特别脆，据说做一只烤鸭，需要挂很长时间，还要控制火候，特别费工夫。",
+     "draft_pinyin": "Yún yīng: chī guò, nà zhǒng yā pí tè bié cuì, jù shuō zuò yī zhī kǎo yā, xū yào guà hěn zhǎng shí jiān, hái yào kòng zhì huǒ hòu, tè bié fèi gōng fu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我听说，好的烤鸭师傅，往往要练很多年，才能把握好那个时间和温度。",
+     "draft_pinyin": "Dé shèng: duì, wǒ tīng shuō, hǎo de kǎo yā shī fù, wǎng wǎng yào liàn hěn duō nián, cái néng bǎ wò hǎo nà ge shí jiān hé wēn dù."
+    },
+    {
+     "speaker": "云英",
+     "han": "这倒是提醒我，有些好的东西，确实急不来，需要慢慢等。",
+     "draft_pinyin": "Yún yīng: zhè dǎo shì tí xǐng wǒ, yǒu xiē hǎo de dōng xī, què shí jí bù lái, xū yào màn màn děng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（顿了一下）你这句话，是在说烤鸭，还是在说别的？",
+     "draft_pinyin": "Dé shèng: (dùn le yī xià) nǐ zhè jù huà, shì zài shuō kǎo yā, hái shì zài shuō bié de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑）你自己想吧，反正，好东西，值得等。",
+     "draft_pinyin": "Yún yīng: (xiào) nǐ zì jǐ xiǎng ba, fǎn zhèng, hǎo dōng xī, zhí de děng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好，那我就慢慢等着，看看以后会不会有机会，一起去尝尝那只烤鸭。",
+     "draft_pinyin": "Dé shèng: hǎo, nà wǒ jiù màn màn děng zhe, kàn kàn yǐ hòu huì bú huì yǒu jī huì, yì qǐ qù cháng cháng nà zhǐ kǎo yā."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "出差",
+     "pinyin": "",
+     "meaning": "đi công tác"
+    },
+    {
+     "word": "顺便",
+     "pinyin": "",
+     "meaning": "tiện thể"
+    },
+    {
+     "word": "外滩",
+     "pinyin": "",
+     "meaning": "bến Thượng Hải (Ngoại than)"
+    },
+    {
+     "word": "夜景",
+     "pinyin": "",
+     "meaning": "cảnh đêm"
+    },
+    {
+     "word": "高楼",
+     "pinyin": "",
+     "meaning": "nhà cao tầng"
+    },
+    {
+     "word": "人来人往",
+     "pinyin": "",
+     "meaning": "người qua lại nhộn nhịp"
+    },
+    {
+     "word": "熟悉",
+     "pinyin": "",
+     "meaning": "quen thuộc"
+    },
+    {
+     "word": "鸭皮",
+     "pinyin": "",
+     "meaning": "da vịt"
+    },
+    {
+     "word": "脆",
+     "pinyin": "",
+     "meaning": "giòn"
+    },
+    {
+     "word": "挂",
+     "pinyin": "",
+     "meaning": "treo"
+    },
+    {
+     "word": "火候",
+     "pinyin": "",
+     "meaning": "độ lửa (nấu ăn)"
+    },
+    {
+     "word": "费工夫",
+     "pinyin": "",
+     "meaning": "tốn công sức"
+    },
+    {
+     "word": "把握",
+     "pinyin": "",
+     "meaning": "nắm bắt, làm chủ"
+    },
+    {
+     "word": "温度",
+     "pinyin": "",
+     "meaning": "nhiệt độ"
+    },
+    {
+     "word": "顿了一下",
+     "pinyin": "",
+     "meaning": "ngừng lại một chút"
+    },
+    {
+     "word": "反正",
+     "pinyin": "",
+     "meaning": "dù sao thì"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "反而觉得…… (trái lại lại cảm thấy…)",
+     "example": "周围很热闹，我心里反而觉得有点儿孤单",
+     "meaning": "nêu cảm xúc ngược với hoàn cảnh xung quanh"
+    },
+    {
+     "name": "好不好看，还得看…… (đẹp hay không, còn phải xem…)",
+     "example": "风景好不好看，还得看旁边站着谁",
+     "meaning": "nhấn mạnh yếu tố quyết định thực sự"
+    },
+    {
+     "name": "需要……才能…… (cần…mới có thể…)",
+     "example": "好的师傅需要练很多年，才能把握好时间和温度",
+     "meaning": "nêu điều kiện cần để đạt được kỹ năng"
+    },
+    {
+     "name": "是在说……还是在说别的？(là đang nói về…hay đang nói về điều khác?)",
+     "example": "你这句话，是在说烤鸭，还是在说别的？",
+     "meaning": "câu hỏi trêu chọc, gợi ý ẩn ý phía sau lời nói"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 26,
+   "titleHan": "四川的辣，上海的软",
+   "titleVi": "Vị cay Tứ Xuyên, sự mềm mại Thượng Hải",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊吃的话题，我是云英。德盛，你能接受辣的食物吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo chī de huà tí, wǒ shì yún yīng. dé shèng, nǐ néng jiē shòu là de shí wù ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。还行，不算特别能吃辣，但是四川火锅那种辣，我倒是很喜欢。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. hái xíng, bù suàn tè bié néng chī là, dàn shì sì chuān huǒ guō nà zhǒng là, wǒ dǎo shì hěn xǐ huān."
+    },
+    {
+     "speaker": "云英",
+     "han": "四川火锅确实以辣出名，我记得第一次吃的时候，辣得眼泪都出来了，但是还想继续吃。",
+     "draft_pinyin": "Yún yīng: sì chuān huǒ guō què shí yǐ là chū míng, wǒ jì de dì yī cì chī de shí hòu, là dé yǎn lèi dōu chū lái le, dàn shì hái xiǎng jì xù chī."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，就是这种感觉，一边觉得辣，一边又停不下来，好像整个人都被那种热闹的味道吸引住了。",
+     "draft_pinyin": "Dé shèng: duì, jiù shì zhè zhǒng gǎn jué, yī biān jué de là, yī biān yòu tíng bù xià lái, hǎo xiàng zhěng gè rén dōu bèi nà zhǒng rè nào de wèi dào xī yǐn zhù le."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，火锅这种食物，倒是有点儿\"矛盾\"，又让人受不了，又让人离不开。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, huǒ guō zhè zhǒng shí wù, dǎo shì yǒu diǎn ér\"máo dùn\", yòu ràng rén shòu bù liǎo, yòu ràng rén lí bù kāi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）说到\"又让人受不了，又让人离不开\"，我倒是想到了别的事情，不知道你有没有类似的感觉。",
+     "draft_pinyin": "Dé shèng: (xiào) shuō dào\"yòu ràng rén shòu bù liǎo, yòu ràng rén lí bù kāi\", wǒ dǎo shì xiǎng dào le bié de shì qíng, bù zhī dào nǐ yǒu méi yǒu lèi sì de gǎn jué."
+    },
+    {
+     "speaker": "云英",
+     "han": "（假装没听懂）什么事情？",
+     "draft_pinyin": "Yún yīng: (jiǎ zhuāng méi tīng dǒng) shén me shì qíng?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "算了，不重要。那说到上海，除了外滩，我还吃过一种特别有名的小吃，叫小笼包。",
+     "draft_pinyin": "Dé shèng: suàn le, bú zhòng yào. nà shuō dào shàng hǎi, chú le wài tān, wǒ hái chī guò yī zhǒng tè bié yǒu míng de xiǎo chī, jiào xiǎo lóng bāo."
+    },
+    {
+     "speaker": "云英",
+     "han": "小笼包我也吃过，那种包子皮特别薄，里面还有汤，吃的时候要特别小心，不然会被烫到。",
+     "draft_pinyin": "Yún yīng: xiǎo lóng bāo wǒ yě chī guò, nà zhǒng bāo zi pí tè bié báo, lǐ miàn hái yǒu tāng, chī de shí hòu yào tè bié xiǎo xīn, bù rán huì bèi tàng dào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，好像得先咬一个小口，让里面的汤慢慢流出来，不能太着急，一口咬下去。",
+     "draft_pinyin": "Dé shèng: duì, hǎo xiàng dé xiān yǎo yí gè xiǎo kǒu, ràng lǐ miàn de tāng màn màn liú chū lái, bù néng tài zháo jí, yī kǒu yǎo xià qù."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，吃小笼包，也是需要一点儿耐心和技巧的。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, chī xiǎo lóng bāo, yě shì xū yào yì diǎn ér nài xīn hé jì qiǎo de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "没错，火锅需要勇气，小笼包需要耐心，倒是两种完全不一样的\"吃法\"。",
+     "draft_pinyin": "Dé shèng: méi cuò, huǒ guō xū yào yǒng qì, xiǎo lóng bāo xū yào nài xīn, dǎo shì liǎng zhǒng wán quán bù yí yàng de\"chī fǎ\"."
+    },
+    {
+     "speaker": "云英",
+     "han": "听你这么一说，感觉每一种食物，背后都藏着一点儿小小的道理。",
+     "draft_pinyin": "Yún yīng: tīng nǐ zhè me yī shuō, gǎn jué měi yī zhǒng shí wù, bèi hòu dōu cáng zhe yì diǎn ér xiǎo xiǎo de dào lǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也许是吧，那你比较喜欢哪一种\"吃法\"？直接、热闹的，还是慢慢来、小心一点儿的？",
+     "draft_pinyin": "Dé shèng: yě xǔ shì ba, nà nǐ bǐ jiào xǐ huān nǎ yī zhǒng\"chī fǎ\"? zhí jiē, rè nào de, hái shì màn màn lái, xiǎo xīn yì diǎn ér de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "这个问题，得看具体情况，不过，两种我都不排斥。",
+     "draft_pinyin": "Yún yīng: zhè ge wèn tí, dé kàn jù tǐ qíng kuàng, bù guò, liǎng zhǒng wǒ dōu bù pái chì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好，那以后有机会，我们可以都试试看。",
+     "draft_pinyin": "Dé shèng: hǎo, nà yǐ hòu yǒu jī huì, wǒ men kě yǐ dōu shì shì kàn."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "接受",
+     "pinyin": "",
+     "meaning": "tiếp nhận, chấp nhận"
+    },
+    {
+     "word": "眼泪",
+     "pinyin": "",
+     "meaning": "nước mắt"
+    },
+    {
+     "word": "吸引",
+     "pinyin": "",
+     "meaning": "thu hút"
+    },
+    {
+     "word": "矛盾",
+     "pinyin": "",
+     "meaning": "mâu thuẫn"
+    },
+    {
+     "word": "离不开",
+     "pinyin": "",
+     "meaning": "không thể tách rời"
+    },
+    {
+     "word": "假装",
+     "pinyin": "",
+     "meaning": "giả vờ"
+    },
+    {
+     "word": "皮",
+     "pinyin": "",
+     "meaning": "vỏ (bánh)"
+    },
+    {
+     "word": "薄",
+     "pinyin": "",
+     "meaning": "mỏng"
+    },
+    {
+     "word": "汤",
+     "pinyin": "",
+     "meaning": "nước súp"
+    },
+    {
+     "word": "烫",
+     "pinyin": "",
+     "meaning": "bỏng, nóng"
+    },
+    {
+     "word": "咬",
+     "pinyin": "",
+     "meaning": "cắn"
+    },
+    {
+     "word": "耐心",
+     "pinyin": "",
+     "meaning": "kiên nhẫn"
+    },
+    {
+     "word": "技巧",
+     "pinyin": "",
+     "meaning": "kỹ xảo"
+    },
+    {
+     "word": "勇气",
+     "pinyin": "",
+     "meaning": "can đảm"
+    },
+    {
+     "word": "排斥",
+     "pinyin": "",
+     "meaning": "bài xích, từ chối"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一边……一边又…… (vừa…vừa lại…)",
+     "example": "一边觉得辣，一边又停不下来",
+     "meaning": "liệt kê hai cảm giác mâu thuẫn cùng tồn tại"
+    },
+    {
+     "name": "又……又…… (vừa…vừa…)",
+     "example": "又让人受不了，又让人离不开",
+     "meaning": "nhấn mạnh tính chất hai mặt đối lập"
+    },
+    {
+     "name": "得先……才能…… (phải…trước rồi mới có thể…)",
+     "example": "得先咬一个小口，才能让汤慢慢流出来",
+     "meaning": "nêu trình tự cần thiết để tránh rủi ro"
+    },
+    {
+     "name": "背后都藏着…… (phía sau đều ẩn chứa…)",
+     "example": "每一种食物，背后都藏着一点儿小小的道理",
+     "meaning": "dẫn ra ý nghĩa sâu hơn ẩn giấu bên trong sự vật"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 27,
+   "titleHan": "重庆的坡，西安的墙",
+   "titleVi": "Con dốc Trùng Khánh, tường thành Tây An",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天再聊两个地方，我是云英。德盛，重庆你去过吗？听说那边路特别复杂。",
+     "draft_pinyin": "Yún yīng: jīn tiān zài liáo liǎng gè dì fāng, wǒ shì yún yīng. dé shèng, chóng qìng nǐ qù guò ma? tīng shuō nà biān lù tè bié fù zá."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。去过一次，说实话，那次去重庆，我差点儿迷路了。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. qù guò yī cì, shuō shí huà, nà cì qù chóng qìng, wǒ chà diǎn ér mí lù le."
+    },
+    {
+     "speaker": "云英",
+     "han": "怎么会迷路？",
+     "draft_pinyin": "Yún yīng: zěn me huì mí lù?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "那边的路真的挺特别，有时候一条路走着走着，突然就变成了上坡，或者下面还有一层马路，感觉整个城市是立体的。",
+     "draft_pinyin": "Dé shèng: nà biān de lù zhēn de tǐng tè bié, yǒu shí hòu yī tiáo lù zǒu zhe zǒu zhe, tū rán jiù biàn chéng le shàng pō, huò zhě xià miàn hái yǒu yī céng mǎ lù, gǎn jué zhěng gè chéng shì shì lì tǐ de."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么复杂，你一个人是怎么找到方向的？",
+     "draft_pinyin": "Yún yīng: zhè me fù zá, nǐ yí gè rén shì zěn me zhǎo dào fāng xiàng de?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "说来也巧，那次多亏了一个当地的朋友，一直在旁边带路，不然我可能到现在还在山城里绕圈子。",
+     "draft_pinyin": "Dé shèng: shuō lái yě qiǎo, nà cì duō kuī le yí gè dāng dì de péng yǒu, yì zhí zài páng biān dài lù, bù rán wǒ kě néng dào xiàn zài hái zài shān chéng lǐ rào quān zi."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑）看来重庆这种地方，确实需要一个熟悉路的人陪着。",
+     "draft_pinyin": "Yún yīng: (xiào) kàn lái chóng qìng zhè zhòng dì fāng, què shí xū yào yí gè shú xī lù de rén péi zhe."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我当时就想，不管这个城市的路有多复杂，只要旁边有一个可靠的人，好像也没那么可怕了。",
+     "draft_pinyin": "Dé shèng: duì, wǒ dāng shí jiù xiǎng, bù guǎn zhè ge chéng shì de lù yǒu duō fù zá, zhǐ yào páng biān yǒu yí gè kě kào de rén, hǎo xiàng yě méi nà me kě pà le."
+    },
+    {
+     "speaker": "云英",
+     "han": "这句话听起来，好像不只是在说重庆的路。",
+     "draft_pinyin": "Yún yīng: zhè jù huà tīng qǐ lái, hǎo xiàng bù zhǐ shì zài shuō chóng qìng de lù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑了一下，没有解释）说到别的地方，你有没有去过西安？",
+     "draft_pinyin": "Dé shèng: (xiào le yī xià, méi yǒu jiě shì) shuō dào bié de dì fāng, nǐ yǒu méi yǒu qù guò xī ān?"
+    },
+    {
+     "speaker": "云英",
+     "han": "去过，我特别喜欢西安古城墙，站在墙上往下看，感觉好像穿越回了很久以前。",
+     "draft_pinyin": "Yún yīng: qù guò, wǒ tè bié xǐ huān xī ān gǔ chéng qiáng, zhàn zài qiáng shàng wǎng xià kàn, gǎn jué hǎo xiàng chuān yuè huí le hěn jiǔ yǐ qián."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那种历史悠久的地方，确实容易让人有特别的感觉。",
+     "draft_pinyin": "Dé shèng: nà zhǒng lì shǐ yōu jiǔ de dì fāng, què shí róng yì ràng rén yǒu tè bié de gǎn jué."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，我记得导游说，那座城墙已经有几百年的历史了，很多东西都变了，但是墙一直立在那里。",
+     "draft_pinyin": "Yún yīng: duì, wǒ jì de dǎo yóu shuì, nà zuò chéng qiáng yǐ jīng yǒu jǐ bǎi nián de lì shǐ le, hěn duō dōng xī dōu biàn le, dàn shì qiáng yì zhí lì zài nà lǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，有些东西，就算时间过去很久，也不会轻易改变。",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, yǒu xiē dōng xī, jiù suàn shí jiān guò qù hěn jiǔ, yě bú huì qīng yì gǎi biàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "也许是这样吧，好，今天先聊到这里。",
+     "draft_pinyin": "Yún yīng: yě xǔ shì zhè yàng ba, hǎo, jīn tiān xiān liáo dào zhè lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "差点儿",
+     "pinyin": "",
+     "meaning": "suýt chút nữa"
+    },
+    {
+     "word": "迷路",
+     "pinyin": "",
+     "meaning": "lạc đường"
+    },
+    {
+     "word": "上坡",
+     "pinyin": "",
+     "meaning": "dốc lên"
+    },
+    {
+     "word": "立体",
+     "pinyin": "",
+     "meaning": "không gian ba chiều"
+    },
+    {
+     "word": "多亏",
+     "pinyin": "",
+     "meaning": "may nhờ có"
+    },
+    {
+     "word": "带路",
+     "pinyin": "",
+     "meaning": "dẫn đường"
+    },
+    {
+     "word": "绕圈子",
+     "pinyin": "",
+     "meaning": "đi lòng vòng"
+    },
+    {
+     "word": "可靠",
+     "pinyin": "",
+     "meaning": "đáng tin cậy"
+    },
+    {
+     "word": "古城墙",
+     "pinyin": "",
+     "meaning": "tường thành cổ"
+    },
+    {
+     "word": "穿越",
+     "pinyin": "",
+     "meaning": "xuyên qua, trở về (thời gian)"
+    },
+    {
+     "word": "悠久",
+     "pinyin": "",
+     "meaning": "lâu đời"
+    },
+    {
+     "word": "导游",
+     "pinyin": "",
+     "meaning": "hướng dẫn viên"
+    },
+    {
+     "word": "轻易",
+     "pinyin": "",
+     "meaning": "dễ dàng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "说来也巧…… (nói ra cũng trùng hợp…)",
+     "example": "说来也巧，那次多亏了一个当地朋友带路",
+     "meaning": "khẩu ngữ dẫn vào một sự trùng hợp bất ngờ"
+    },
+    {
+     "name": "不管……只要……也…… (bất kể…chỉ cần…cũng…)",
+     "example": "不管路多复杂，只要旁边有可靠的人，也没那么可怕",
+     "meaning": "nêu điều kiện đủ để vượt qua khó khăn"
+    },
+    {
+     "name": "好像不只是在说…… (dường như không chỉ đang nói về…)",
+     "example": "这句话听起来，好像不只是在说重庆的路",
+     "meaning": "gợi ý ẩn ý phía sau lời nói"
+    },
+    {
+     "name": "就算……也不会轻易…… (dù…cũng không dễ dàng…)",
+     "example": "就算时间过去很久，也不会轻易改变",
+     "meaning": "khẳng định sự bền vững trước tác động thời gian"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 28,
+   "titleHan": "云南的风，香港的灯",
+   "titleVi": "Gió Vân Nam, đèn Hồng Kông",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天接着聊，我是云英。德盛，云南你有没有去过？",
+     "draft_pinyin": "Yún yīng: jīn tiān jiē zhe liáo, wǒ shì yún yīng. dé shèng, yún nán nǐ yǒu méi yǒu qù guò?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。去过，那边的天气特别舒服，风也很温和，跟别的地方完全不一样。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. qù guò, nà biān de tiān qì tè bié shū fú, fēng yě hěn wēn hé, gēn bié de dì fāng wán quán bù yí yàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我听说云南很多地方，风景特别安静，很适合放松。",
+     "draft_pinyin": "Yún yīng: wǒ tīng shuō yún nán hěn duō dì fāng, fēng jǐng tè bié ān jìng, hěn shì hé fàng sōng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我记得有一次，我一个人坐在洱海边，什么都不做，就看着风吹过水面，心里特别平静。",
+     "draft_pinyin": "Dé shèng: duì, wǒ jì de yǒu yī cì, wǒ yí gè rén zuò zài ěr hǎi biān, shén me dōu bù zuò, jiù kàn zháo fēng chuī guò shuǐ miàn, xīn lǐ tè bié píng jìng."
+    },
+    {
+     "speaker": "云英",
+     "han": "一个人坐在那么美的地方，会不会觉得，如果有人陪着看，会更好？",
+     "draft_pinyin": "Yún yīng: yí gè rén zuò zài nà me měi de dì fāng, huì bú huì jué de, rú guǒ yǒu rén péi zhe kàn, huì gèng hǎo?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）你说得挺准，我当时确实想过，这样的风景，如果能有一个人一起看，应该会更有意思。",
+     "draft_pinyin": "Dé shèng: (xiào) nǐ shuō de tǐng zhǔn, wǒ dāng shí què shí xiǎng guò, zhè yàng de fēng jǐng, rú guǒ néng yǒu yí gè rén yì qǐ kàn, yīng gāi huì gèng yǒu yì si."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，你去过的很多地方，最后都会想到\"如果有人陪着\"这件事。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nǐ qù guò de hěn duō dì fāng, zuì hòu dū huì xiǎng dào\"rú guǒ yǒu rén péi zhe\"zhè jiàn shì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好像是这样，不知道为什么，最近想到这种事情的次数，比以前多了不少。",
+     "draft_pinyin": "Dé shèng: hǎo xiàng shì zhè yàng, bù zhī dào wèi shén me, zuì jìn xiǎng dào zhè zhǒng shì qíng de cì shù, bǐ yǐ qián duō le bù shǎo."
+    },
+    {
+     "speaker": "云英",
+     "han": "（不接这个话，转移话题）那香港呢，你去过吗？",
+     "draft_pinyin": "Yún yīng: (bù jiē zhè ge huà, zhuǎn yí huà tí) nà xiāng gǎng ne, nǐ qù guò ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "去过，香港晚上特别热闹，到处都是彩色的灯，街道上人也很多，但是说实话，那种热闹，反而让我觉得，自己一个人走在街上，有点儿孤单。",
+     "draft_pinyin": "Dé shèng: qù guò, xiāng gǎng wǎn shàng tè bié rè nào, dào chù dōu shì cǎi sè de dēng, jiē dào shàng rén yě hěn duō, dàn shì shuō shí huà, nà zhǒng rè nào, fǎn ér ràng wǒ jué de, zì jǐ yí gè rén zǒu zài jiē shàng, yǒu diǎn ér gū dān."
+    },
+    {
+     "speaker": "云英",
+     "han": "这跟你说的重庆、上海，好像是同一种感觉。",
+     "draft_pinyin": "Yún yīng: zhè gēn nǐ shuō de chóng qìng, shàng hǎi, hǎo xiàng shì tóng yī zhǒng gǎn jué."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我发现，越热闹的地方，好像越容易让人觉得，需要一个人陪着走。",
+     "draft_pinyin": "Dé shèng: duì, wǒ fā xiàn, yuè rè nào de dì fāng, hǎo xiàng yuè róng yì ràng rén jué de, xū yào yí gè rén péi zhe zǒu."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，你去了这么多地方，得到的结论，倒是挺一致的。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nǐ qù le zhè me duō dì fāng, dé dào de jié lùn, dǎo shì tǐng yí zhì de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，好，今天就先聊到这里。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, hǎo, jīn tiān jiù xiān liáo dào zhè lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "温和",
+     "pinyin": "",
+     "meaning": "ôn hòa"
+    },
+    {
+     "word": "放松",
+     "pinyin": "",
+     "meaning": "thư giãn"
+    },
+    {
+     "word": "水面",
+     "pinyin": "",
+     "meaning": "mặt nước"
+    },
+    {
+     "word": "平静",
+     "pinyin": "",
+     "meaning": "bình yên, tĩnh lặng"
+    },
+    {
+     "word": "转移话题",
+     "pinyin": "",
+     "meaning": "chuyển đề tài"
+    },
+    {
+     "word": "彩色",
+     "pinyin": "",
+     "meaning": "nhiều màu sắc"
+    },
+    {
+     "word": "街道",
+     "pinyin": "",
+     "meaning": "đường phố"
+    },
+    {
+     "word": "一致",
+     "pinyin": "",
+     "meaning": "nhất quán"
+    },
+    {
+     "word": "结论",
+     "pinyin": "",
+     "meaning": "kết luận"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "你说得挺准 (bạn nói đúng đấy)",
+     "example": "你说得挺准，我当时确实想过这样的事",
+     "meaning": "khẩu ngữ xác nhận nhận xét của người khác là chính xác"
+    },
+    {
+     "name": "不知道为什么…… (không biết vì sao…)",
+     "example": "不知道为什么，最近想到这种事情的次数比以前多了",
+     "meaning": "diễn tả cảm nhận mơ hồ, không rõ nguyên nhân"
+    },
+    {
+     "name": "越……越容易…… (càng…càng dễ…)",
+     "example": "越热闹的地方，越容易让人觉得需要有人陪",
+     "meaning": "nêu quy luật tỉ lệ thuận"
+    },
+    {
+     "name": "得到的结论，倒是挺一致的 (kết luận rút ra lại khá thống nhất)",
+     "example": "去了这么多地方，得到的结论倒是挺一致的",
+     "meaning": "tổng kết một xu hướng chung xuyên suốt nhiều trường hợp"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 29,
+   "titleHan": "西藏的阳光，湘西的水",
+   "titleVi": "Nắng Tây Tạng, nước Tương Tây",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天再聊两个地方，我是云英。德盛，西藏你去过吗？听说那边海拔特别高。",
+     "draft_pinyin": "Yún yīng: jīn tiān zài liáo liǎng gè dì fāng, wǒ shì yún yīng. dé shèng, xī zàng nǐ qù guò ma? tīng shuō nà biān hǎi bá tè bié gāo."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。去过一次，刚到的时候，因为海拔太高，我确实觉得有点儿喘不过气，不过老实说，现在这几天，我好像也常常觉得喘不过气，跟海拔没什么关系。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. qù guò yī cì, gāng dào de shí hòu, yīn wèi hǎi bá tài gāo, wǒ què shí jué de yǒu diǎn ér chuǎn bù guò qì, bù guò lǎo shí shuō, xiàn zài zhè jǐ tiān, wǒ hǎo xiàng yě cháng cháng jué de chuǎn bù guò qì, gēn hǎi bá méi shén me guān xì."
+    },
+    {
+     "speaker": "云英",
+     "han": "（愣了一下）这话什么意思，跟海拔没关系，那是因为什么？",
+     "draft_pinyin": "Yún yīng: (lèng le yī xià) zhè huà shén me yì si, gēn hǎi bá méi guān xì, nà shì yīn wèi shén me?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑了一下，没直接回答）继续说西藏吧，那边虽然呼吸有点儿困难，但是阳光特别干净，晒在身上，心里反而觉得特别舒服。",
+     "draft_pinyin": "Dé shèng: (xiào le yī xià, méi zhí jiē huí dá) jì xù shuō xī zàng ba, nà biān suī rán hū xī yǒu diǎn ér kùn nán, dàn shì yáng guāng tè bié gān jìng, shài zài shēn shàng, xīn lǐ fǎn ér jué de tè bié shū fú."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，那种感觉，好像有点儿\"又难受又美好\"。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nà zhǒng gǎn jué, hǎo xiàng yǒu diǎn ér\"yòu nán shòu yòu měi hǎo\"."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，就像是，为了看到那种阳光，稍微喘一下气，也变得值得了。有些\"喘不过气\"的感觉，其实还挺让人上瘾的。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, jiù xiàng shì, wèi le kàn dào nà zhǒng yáng guāng, shāo wēi chuǎn yī xià qì, yě biàn dé zhí de le. yǒu xiē\"chuǎn bù guò qì\"de gǎn jué, qí shí hái tǐng ràng rén shàng yǐn de."
+    },
+    {
+     "speaker": "云英",
+     "han": "这句话，听起来又有点儿\"另一层意思\"了。",
+     "draft_pinyin": "Yún yīng: zhè jù huà, tīng qǐ lái yòu yǒu diǎn ér\"lìng yī céng yì si\"le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）你发现得挺快。好，那我们说说别的地方，你有没有去过湘西？",
+     "draft_pinyin": "Dé shèng: (xiào) nǐ fā xiàn dé tǐng kuài. hǎo, nà wǒ men shuō shuō bié de dì fāng, nǐ yǒu méi yǒu qù guò xiāng xī?"
+    },
+    {
+     "speaker": "云英",
+     "han": "去过，我特别喜欢凤凰古镇，那边有一条河，两边都是老房子，晚上灯亮起来的时候，特别有味道。",
+     "draft_pinyin": "Yún yīng: qù guò, wǒ tè bié xǐ huān fèng huáng gǔ zhèn, nà biān yǒu yī tiáo hé, liǎng biān dōu shì lǎo fáng zi, wǎn shàng dēng liàng qǐ lái de shí hòu, tè bié yǒu wèi dào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那种古镇，确实容易让人放慢脚步。",
+     "draft_pinyin": "Dé shèng: nà zhǒng gǔ zhèn, què shí róng yì ràng rén fàng màn jiǎo bù."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，我记得那条河一直在流，河边的木头房子看起来很旧，但是水声一直很温柔，让人觉得特别安心。",
+     "draft_pinyin": "Yún yīng: duì, wǒ jì de nà tiáo hé yì zhí zài liú, hé biān de mù tou fáng zi kàn qǐ lái hěn jiù, dàn shì shuǐ shēng yì zhí hěn wēn róu, ràng rén jué de tè bié ān xīn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，房子会变旧，但是那种温柔的感觉，好像一直没变。",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, fáng zi huì biàn jiù, dàn shì nà zhǒng wēn róu de gǎn jué, hǎo xiàng yì zhí méi biàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "可以这么理解，好，今天先聊到这里。",
+     "draft_pinyin": "Yún yīng: kě yǐ zhè me lǐ jiě, hǎo, jīn tiān xiān liáo dào zhè lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "海拔",
+     "pinyin": "",
+     "meaning": "độ cao (so với mặt biển)"
+    },
+    {
+     "word": "喘不过气",
+     "pinyin": "",
+     "meaning": "thở không ra hơi, khó thở"
+    },
+    {
+     "word": "高原反应",
+     "pinyin": "",
+     "meaning": "phản ứng cao nguyên (say độ cao)"
+    },
+    {
+     "word": "呼吸",
+     "pinyin": "",
+     "meaning": "hô hấp"
+    },
+    {
+     "word": "困难",
+     "pinyin": "",
+     "meaning": "khó khăn"
+    },
+    {
+     "word": "干净",
+     "pinyin": "",
+     "meaning": "trong sạch"
+    },
+    {
+     "word": "值得",
+     "pinyin": "",
+     "meaning": "đáng giá"
+    },
+    {
+     "word": "古镇",
+     "pinyin": "",
+     "meaning": "phố cổ"
+    },
+    {
+     "word": "放慢脚步",
+     "pinyin": "",
+     "meaning": "chậm bước lại"
+    },
+    {
+     "word": "木头",
+     "pinyin": "",
+     "meaning": "gỗ"
+    },
+    {
+     "word": "水声",
+     "pinyin": "",
+     "meaning": "tiếng nước"
+    },
+    {
+     "word": "温柔",
+     "pinyin": "",
+     "meaning": "dịu dàng"
+    },
+    {
+     "word": "安心",
+     "pinyin": "",
+     "meaning": "an tâm"
+    },
+    {
+     "word": "上瘾",
+     "pinyin": "",
+     "meaning": "nghiện"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "……跟……没什么关系 (…không liên quan gì đến…)",
+     "example": "我好像也常常喘不过气，跟海拔没什么关系",
+     "meaning": "phủ định nguyên nhân hiển nhiên, gợi mở nguyên nhân khác chưa nói rõ"
+    },
+    {
+     "name": "虽然……但是……反而…… (tuy…nhưng…lại…)",
+     "example": "虽然呼吸困难，但是阳光让人心里反而觉得舒服",
+     "meaning": "dẫn ra sự đối lập gây bất ngờ"
+    },
+    {
+     "name": "为了……稍微……也变得值得了 (để…thì hơi…cũng trở nên đáng giá)",
+     "example": "为了看到那种阳光，稍微喘一下气，也变得值得了",
+     "meaning": "nhấn mạnh giá trị của mục đích lớn hơn khó khăn nhỏ"
+    },
+    {
+     "name": "……会……但是……好像一直没变 (…sẽ…nhưng…dường như vẫn không đổi)",
+     "example": "房子会变旧，但是那种温柔的感觉，好像一直没变",
+     "meaning": "đối lập giữa sự thay đổi bề ngoài và sự bền vững bên trong"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 30,
+   "titleHan": "广东的茶，新疆的风",
+   "titleVi": "Trà Quảng Đông, gió Tân Cương",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天最后聊两个地方，我是云英。德盛，广东那边喝早茶的习惯，你体验过吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān zuì hòu liáo liǎng gè dì fāng, wǒ shì yún yīng. dé shèng, guǎng dōng nà biān hē zǎo chá de xí guàn, nǐ tǐ yàn guò ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。体验过，那次在广州，一坐就是两三个小时，一边喝茶，一边吃点心，聊聊天，特别放松。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. tǐ yàn guò, nà cì zài guǎng zhōu, yī zuò jiù shì liǎng sān gè xiǎo shí, yī biān hē chá, yī biān chī diǎn xīn, liáo liáo tiān, tè bié fàng sōng."
+    },
+    {
+     "speaker": "云英",
+     "han": "广东人确实很讲究这种慢慢喝茶的生活方式。",
+     "draft_pinyin": "Yún yīng: guǎng dōng rén què shí hěn jiǎng jiū zhè zhǒng màn màn hē chá de shēng huó fāng shì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我当时就在想，平时工作那么忙，如果能常常有这样安静地坐着，跟一个人慢慢聊天的时间，应该特别难得。",
+     "draft_pinyin": "Dé shèng: duì, wǒ dāng shí jiù zài xiǎng, píng shí gōng zuò nà me máng, rú guǒ néng cháng cháng yǒu zhè yàng ān jìng dì zuò zhe, gēn yí gè rén màn màn liáo tiān de shí jiān, yīng gāi tè bié nán dé."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，你倒是挺向往那种\"慢生活\"的。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nǐ dǎo shì tǐng xiàng wǎng nà zhǒng\"màn shēng huó\"de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "是啊，比起匆匆忙忙地赶路，我更喜欢那种，能一起坐下来，把时间过得慢一点儿的感觉。",
+     "draft_pinyin": "Dé shèng: shì a, bǐ qǐ cōng cōng máng máng dì gǎn lù, wǒ gèng xǐ huān nà zhǒng, néng yì qǐ zuò xià lái, bǎ shí jiān guò dé màn yì diǎn ér de gǎn jué."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑了一下，没接话）那说到风景开阔的地方，你去过新疆吗？",
+     "draft_pinyin": "Yún yīng: (xiào le yī xià, méi jiē huà) nà shuō dào fēng jǐng kāi kuò de dì fāng, nǐ qù guò xīn jiāng ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "去过，那边的草原特别大，一眼看不到边，风也特别大，感觉整个人都被那种自由的感觉包围住了。",
+     "draft_pinyin": "Dé shèng: qù guò, nà biān de cǎo yuán tè bié dà, yī yǎn kàn bú dào biān, fēng yě tè bié dà, gǎn jué zhěng gè rén dōu bèi nà zhǒng zì yóu de gǎn jué bāo wéi zhù le."
+    },
+    {
+     "speaker": "云英",
+     "han": "那么自由的地方，会不会让人也想变得更自由？",
+     "draft_pinyin": "Yún yīng: nà me zì yóu de dì fāng, huì bú huì ràng rén yě xiǎng biàn dé gèng zì yóu?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "说实话，站在那片草原上，我确实感觉到一种自由，但是奇怪的是，我心里想的，不是想去更远的地方，而是想着，如果这时候身边有个人，应该会更完整。",
+     "draft_pinyin": "Dé shèng: shuō shí huà, zhàn zài nà piàn cǎo yuán shàng, wǒ què shí gǎn jué dào yī zhǒng zì yóu, dàn shì qí guài de shì, wǒ xīn lǐ xiǎng de, bú shì xiǎng qù gèng yuǎn de dì fāng, ér shì xiǎng zhe, rú guǒ zhè shí hòu shēn biān yǒu gè rén, yīng gāi huì gèng wán zhěng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，风景越自由开阔，你反而越想找一个\"固定\"的人。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, fēng jǐng yuè zì yóu kāi kuò, nǐ fǎn ér yuè xiǎng zhǎo yí gè\"gù dìng\"de rén."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好像是这样，可能对我来说，真正的自由，不是一个人到处跑，而是找到一个愿意一直陪着走的人。而且，我发现，这个\"人\"，好像已经有了具体的样子。",
+     "draft_pinyin": "Dé shèng: hǎo xiàng shì zhè yàng, kě néng duì wǒ lái shuō, zhēn zhèng de zì yóu, bú shì yí gè rén dào chù pǎo, ér shì zhǎo dào yí gè yuàn yì yì zhí péi zhe zǒu de rén. ér qiě, wǒ fā xiàn, zhè ge\"rén\", hǎo xiàng yǐ jīng yǒu le jù tǐ de yàng zi."
+    },
+    {
+     "speaker": "云英",
+     "han": "（愣了一下，声音有点儿轻）你说的\"具体的样子\"，是……",
+     "draft_pinyin": "Yún yīng: (lèng le yī xià, shēng yīn yǒu diǎn ér qīng) nǐ shuō de\"jù tǐ de yàng zi\", shì......"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（看着她，很认真）就是现在坐在我对面，跟我聊了这么多次天，去过这么多地方的这个人。云英，我说的，就是你。",
+     "draft_pinyin": "Dé shèng: (kàn zhe tā, hěn rèn zhēn) jiù shì xiàn zài zuò zài wǒ duì miàn, gēn wǒ liáo le zhè me duō cì tiān, qù guò zhè me duō dì fāng de zhè ge rén. yún yīng, wǒ shuō de, jiù shì nǐ."
+    },
+    {
+     "speaker": "云英",
+     "han": "（沉默了几秒，脸有点儿红）……你这样直接说出来，我都不知道该怎么接了。",
+     "draft_pinyin": "Yún yīng: (chén mò le jǐ miǎo, liǎn yǒu diǎn ér hóng) ...... nǐ zhè yàng zhí jiē shuō chū lái, wǒ dōu bù zhī dào gāi zěn me jiē le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "不用急着接，我只是想让你知道，这个答案，我已经想了很久，也确定了很久。",
+     "draft_pinyin": "Dé shèng: bù yòng jí zhe jiē, wǒ zhǐ shì xiǎng ràng nǐ zhī dào, zhè ge dá àn, wǒ yǐ jīng xiǎng le hěn jiǔ, yě què dìng le hěn jiǔ."
+    },
+    {
+     "speaker": "云英",
+     "han": "（轻轻笑了，声音软下来）好，那……我记下了。今天就先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: (qīng qīng xiào le, shēng yīn ruǎn xià lái) hǎo, nà...... wǒ jì xià le. jīn tiān jiù xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "早茶",
+     "pinyin": "",
+     "meaning": "trà sáng (văn hóa Quảng Đông)"
+    },
+    {
+     "word": "点心",
+     "pinyin": "",
+     "meaning": "điểm tâm, đồ ăn nhẹ"
+    },
+    {
+     "word": "讲究",
+     "pinyin": "",
+     "meaning": "chú trọng, cầu kỳ"
+    },
+    {
+     "word": "难得",
+     "pinyin": "",
+     "meaning": "hiếm có"
+    },
+    {
+     "word": "向往",
+     "pinyin": "",
+     "meaning": "khát khao, mong mỏi"
+    },
+    {
+     "word": "匆匆忙忙",
+     "pinyin": "",
+     "meaning": "vội vội vàng vàng"
+    },
+    {
+     "word": "开阔",
+     "pinyin": "",
+     "meaning": "rộng mở"
+    },
+    {
+     "word": "草原",
+     "pinyin": "",
+     "meaning": "thảo nguyên"
+    },
+    {
+     "word": "一眼看不到边",
+     "pinyin": "",
+     "meaning": "nhìn không thấy bờ"
+    },
+    {
+     "word": "包围",
+     "pinyin": "",
+     "meaning": "bao trùm"
+    },
+    {
+     "word": "完整",
+     "pinyin": "",
+     "meaning": "trọn vẹn, hoàn chỉnh"
+    },
+    {
+     "word": "固定",
+     "pinyin": "",
+     "meaning": "cố định"
+    },
+    {
+     "word": "深刻",
+     "pinyin": "",
+     "meaning": "sâu sắc"
+    },
+    {
+     "word": "具体",
+     "pinyin": "",
+     "meaning": "cụ thể"
+    },
+    {
+     "word": "沉默",
+     "pinyin": "",
+     "meaning": "im lặng"
+    },
+    {
+     "word": "软",
+     "pinyin": "",
+     "meaning": "mềm, dịu (giọng nói)"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一坐就是……小时 (ngồi một mạch…giờ)",
+     "example": "一坐就是两三个小时",
+     "meaning": "nhấn mạnh khoảng thời gian kéo dài liên tục"
+    },
+    {
+     "name": "比起……我更喜欢…… (so với…tôi thích hơn…)",
+     "example": "比起匆匆忙忙地赶路，我更喜欢慢一点儿的感觉",
+     "meaning": "so sánh sở thích, chọn điều được ưu tiên hơn"
+    },
+    {
+     "name": "越……反而越…… (càng…lại càng…)",
+     "example": "风景越自由开阔，你反而越想找一个固定的人",
+     "meaning": "nêu quy luật ngược với dự đoán thông thường"
+    },
+    {
+     "name": "不是……而是…… (không phải…mà là…)",
+     "example": "真正的自由，不是一个人到处跑，而是找到愿意一直陪着走的人",
+     "meaning": "phủ định định nghĩa thông thường, đưa ra định nghĩa mới sâu sắc hơn"
+    },
+    {
+     "name": "……好像已经有了具体的样子 (…dường như đã có hình dáng cụ thể)",
+     "example": "这个\"人\"，好像已经有了具体的样子",
+     "meaning": "gợi mở rằng điều trừu tượng đã có đối tượng rõ ràng, dẫn vào lời tỏ tình trực tiếp"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 31,
+   "titleHan": "螺蛺粉的味道，佛跳墙的耐心",
+   "titleVi": "Vị bún ốc, sự kiên nhẫn của Phật Nhảy Tường",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊几种比较特别的美食，我是云英。德盛，你吃过柳州螺蛺粉吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo jǐ zhǒng bǐ jiào tè bié de měi shí, wǒ shì yún yīng. dé shèng, nǐ chī guò liǔ zhōu luó jiá fěn ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。吃过，第一次吃的时候，说实话，那个味道有点儿冲，我差点儿没接受。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. chī guò, dì yī cì chī de shí hòu, shuō shí huà, nà ge wèi dào yǒu diǎn ér chōng, wǒ chà diǎn ér méi jiē shòu."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实，那种味道比较特别，很多人第一次都会有点儿犹豫。",
+     "draft_pinyin": "Yún yīng: què shí, nà zhǒng wèi dào bǐ jiào tè bié, hěn duō rén dì yī cì dū huì yǒu diǎn ér yóu yù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，但是奇怪的是，吃完第一碗以后，我反而开始想念那个味道，后来又去吃了好几次。",
+     "draft_pinyin": "Dé shèng: duì, dàn shì qí guài de shì, chī wán dì yī wǎn yǐ hòu, wǒ fǎn ér kāi shǐ xiǎng niàn nà ge wèi dào, hòu lái yòu qù chī le hǎo jǐ cì."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，这种食物，好像是那种\"一开始有点儿陌生，后来会让人上瘾\"的类型。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, zhè zhǒng shí wù, hǎo xiàng shì nà zhǒng\"yī kāi shǐ yǒu diǎn ér mò shēng, hòu lái huì ràng rén shàng yǐn\"de lèi xíng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，一开始觉得说不清楚是什么感觉，后来慢慢地，就变成了一种离不开的习惯。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, yī kāi shǐ jué de shuō bù qīng chǔ shì shén me gǎn jué, hòu lái màn màn dì, jiù biàn chéng le yī zhǒng lí bù kāi de xí guàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑）你形容食物的方式，倒是挺特别的。",
+     "draft_pinyin": "Yún yīng: (xiào) nǐ xíng róng shí wù de fāng shì, dǎo shì tǐng tè bié de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（也笑了）也许食物跟别的感觉，有时候还挺像的。说到耐心，你知道佛跳墙吗？",
+     "draft_pinyin": "Dé shèng: (yě xiào le) yě xǔ shí wù gēn bié de gǎn jué, yǒu shí hòu hái tǐng xiàng de. shuō dào nài xīn, nǐ zhī dào fú tiào qiáng ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "知道，那道菜好像需要特别多种珍贵的食材，还要炖很长时间。",
+     "draft_pinyin": "Yún yīng: zhī dào, nà dào cài hǎo xiàng xū yào tè bié duō zhǒng zhēn guì de shí cái, hái yào dùn hěn zhǎng shí jiān."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我看过一次做这道菜的过程，师傅说，材料越好，越需要用小火慢慢炖，才能把味道炖出来。",
+     "draft_pinyin": "Dé shèng: duì, wǒ kàn guò yī cì zuò zhè dào cài de guò chéng, shī fù shuō, cái liào yuè hǎo, yuè xū yào yòng xiǎo huǒ màn màn dùn, cái néng bǎ wèi dào dùn chū lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，好东西，反而更需要耐心，不能着急。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, hǎo dōng xī, fǎn ér gèng xū yào nài xīn, bù néng zháo jí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "没错，我觉得，这道理，用在很多事情上，应该都是一样的。",
+     "draft_pinyin": "Dé shèng: méi cuò, wǒ jué de, zhè dào lǐ, yòng zài hěn duō shì qíng shàng, yīng gāi dōu shì yī yàng de."
+    },
+    {
+     "speaker": "云英",
+     "han": "这句话，听起来意味深长啊。",
+     "draft_pinyin": "Yún yīng: zhè jù huà, tīng qǐ lái yì wèi shēn cháng a."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑而不语）好，今天就先聊到这里。",
+     "draft_pinyin": "Dé shèng: (xiào ér bù yǔ) hǎo, jīn tiān jiù xiān liáo dào zhè lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "螺蛺粉",
+     "pinyin": "",
+     "meaning": "bún ốc (đặc sản Liễu Châu)"
+    },
+    {
+     "word": "冲",
+     "pinyin": "",
+     "meaning": "nồng, gắt (mùi vị)"
+    },
+    {
+     "word": "犹豫",
+     "pinyin": "",
+     "meaning": "do dự"
+    },
+    {
+     "word": "想念",
+     "pinyin": "",
+     "meaning": "nhớ"
+    },
+    {
+     "word": "上瘾",
+     "pinyin": "",
+     "meaning": "nghiện"
+    },
+    {
+     "word": "陌生",
+     "pinyin": "",
+     "meaning": "lạ, xa lạ"
+    },
+    {
+     "word": "离不开",
+     "pinyin": "",
+     "meaning": "không thể tách rời"
+    },
+    {
+     "word": "珍贵",
+     "pinyin": "",
+     "meaning": "quý báu"
+    },
+    {
+     "word": "食材",
+     "pinyin": "",
+     "meaning": "nguyên liệu"
+    },
+    {
+     "word": "炖",
+     "pinyin": "",
+     "meaning": "ninh, hầm"
+    },
+    {
+     "word": "小火",
+     "pinyin": "",
+     "meaning": "lửa nhỏ"
+    },
+    {
+     "word": "意味深长",
+     "pinyin": "",
+     "meaning": "ý nghĩa sâu xa"
+    },
+    {
+     "word": "笑而不语",
+     "pinyin": "",
+     "meaning": "cười mà không nói"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "差点儿没接受 (suýt chút nữa không chấp nhận được)",
+     "example": "那个味道有点儿冲，我差点儿没接受",
+     "meaning": "diễn tả mức độ khó chấp nhận ban đầu"
+    },
+    {
+     "name": "一开始……后来慢慢地，就变成了…… (lúc đầu…sau đó dần dần trở thành…)",
+     "example": "一开始说不清楚，后来慢慢地就变成了离不开的习惯",
+     "meaning": "diễn tả quá trình thay đổi cảm nhận theo thời gian"
+    },
+    {
+     "name": "越……越需要…… (càng…càng cần…)",
+     "example": "材料越好，越需要用小火慢慢炖",
+     "meaning": "nêu quy luật tỉ lệ thuận"
+    },
+    {
+     "name": "这道理，用在……上，应该都是一样的 (đạo lý này, dùng ở…thì cũng như vậy)",
+     "example": "这道理，用在很多事情上，应该都是一样的",
+     "meaning": "mở rộng ý nghĩa của một nguyên lý sang phạm vi khác"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 32,
+   "titleHan": "葱油面的家常，叫化鸡的包裹",
+   "titleVi": "Sự thân thuộc của mì dầu hành, lớp bọc của gà đất sét",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天接着聊吃的话题，我是云英。德盛，你有没有吃过葱油面？",
+     "draft_pinyin": "Yún yīng: jīn tiān jiē zhe liáo chī de huà tí, wǒ shì yún yīng. dé shèng, nǐ yǒu méi yǒu chī guò cōng yóu miàn?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。吃过，说起来，这道面挺简单的，主要材料就是面条和葱油，没有什么特别复杂的东西。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. chī guò, shuō qǐ lái, zhè dào miàn tǐng jiǎn dān de, zhǔ yào cái liào jiù shì miàn tiáo hé cōng yóu, méi yǒu shén me tè bié fù zá de dōng xī."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实，跟很多复杂的菜比起来，葱油面算是比较家常的一种。",
+     "draft_pinyin": "Yún yīng: què shí, gēn hěn duō fù zá de cài bǐ qǐ lái, cōng yóu miàn suàn shì bǐ jiào jiā cháng de yī zhǒng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，但是有一次，我吃了很多天大鱼大肉以后，反而特别想吃一碗简单的葱油面，那种味道，让我觉得特别舒服。",
+     "draft_pinyin": "Dé shèng: duì, dàn shì yǒu yī cì, wǒ chī le hěn duō tiān dà yú dà ròu yǐ hòu, fǎn ér tè bié xiǎng chī yī wǎn jiǎn dān de cōng yóu miàn, nà zhǒng wèi dào, ràng wǒ jué de tè bié shū fú."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，有时候，越简单的东西，反而越让人觉得踏实。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yǒu shí hòu, yuè jiǎn dān de dōng xī, fǎn ér yuè ràng rén jué de tà shí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，比起天天吃各种大餐，我觉得，能安安静静地吃一碗简单的面，也挺幸福的。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, bǐ qǐ tiān tiān chī gè zhǒng dà cān, wǒ jué de, néng ān ān jìng jìng dì chī yī wǎn jiǎn dān de miàn, yě tǐng xìng fú de."
+    },
+    {
+     "speaker": "云英",
+     "han": "（微微一笑）听起来，你追求的幸福，好像也挺简单的。",
+     "draft_pinyin": "Yún yīng: (wēi wēi yī xiào) tīng qǐ lái, nǐ zhuī qiú de xìng fú, hǎo xiàng yě tǐng jiǎn dān de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也许是吧。说到这个，你知道叫化鸡吗？",
+     "draft_pinyin": "Dé shèng: yě xǔ shì ba. shuō dào zhè ge, nǐ zhī dào jiào huā jī ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "知道，那种鸡要用泥土包起来，放在火里烤，外面看起来挺粗糙的。",
+     "draft_pinyin": "Yún yīng: zhī dào, nà zhǒng jī yào yòng ní tǔ bāo qǐ lái, fàng zài huǒ lǐ kǎo, wài miàn kàn qǐ lái tǐng cū cāo de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，但是打开那层泥以后，里面的鸡肉特别嫩，味道也保存得特别好。",
+     "draft_pinyin": "Dé shèng: duì, dàn shì dǎ kāi nà céng ní yǐ hòu, lǐ miàn de jī ròu tè bié nèn, wèi dào yě bǎo cún dé tè bié hǎo."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，外表看起来普通，甚至有点儿粗糙，但是里面藏着最好的部分。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, wài biǎo kàn qǐ lái pǔ tōng, shèn zhì yǒu diǎn ér cū cāo, dàn shì lǐ miàn cáng zhe zuì hǎo de bù fèn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "没错，我觉得，这跟很多事情也挺像的，不能只看外表，好东西，常常被保护在不太起眼的地方。",
+     "draft_pinyin": "Dé shèng: méi cuò, wǒ jué de, zhè gēn hěn duō shì qíng yě tǐng xiàng de, bù néng zhǐ kàn wài biǎo, hǎo dōng xī, cháng cháng bèi bǎo hù zài bù tài qǐ yǎn de dì fāng."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到\"保护\"，我倒想起了粽子，用很多层叶子包着，里面才是甜甜的糯米。",
+     "draft_pinyin": "Yún yīng: shuō dào\"bǎo hù\", wǒ dào xiǎng qǐ le zòng zi, yòng hěn duō céng yè zi bāo zhe, lǐ miàn cái shì tián tián de nuò mǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，好像很多好东西，都需要一层一层地被包裹好，才能安全地留到最后。",
+     "draft_pinyin": "Dé shèng: duì, hǎo xiàng hěn duō hǎo dōng xī, dōu xū yào yī céng yī céng dì bèi bāo guǒ hǎo, cái néng ān quán dì liú dào zuì hòu."
+    },
+    {
+     "speaker": "云英",
+     "han": "这几种食物聊下来，倒是让我发现，好吃的东西背后，好像都藏着类似的道理。",
+     "draft_pinyin": "Yún yīng: zhè jǐ zhǒng shí wù liáo xià lái, dǎo shì ràng wǒ fā xiàn, hǎo chī de dōng xī bèi hòu, hǎo xiàng dōu cáng zhe lèi sì de dào lǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实是这样，好，今天就先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Dé shèng: què shí shì zhè yàng, hǎo, jīn tiān jiù xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "云英",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Yún yīng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "葱油面",
+     "pinyin": "",
+     "meaning": "mì dầu hành"
+    },
+    {
+     "word": "家常",
+     "pinyin": "",
+     "meaning": "thường ngày, dân dã"
+    },
+    {
+     "word": "大鱼大肉",
+     "pinyin": "",
+     "meaning": "thịt cá thịnh soạn"
+    },
+    {
+     "word": "踏实",
+     "pinyin": "",
+     "meaning": "vững tâm, yên tâm"
+    },
+    {
+     "word": "幸福",
+     "pinyin": "",
+     "meaning": "hạnh phúc"
+    },
+    {
+     "word": "泥土",
+     "pinyin": "",
+     "meaning": "đất bùn"
+    },
+    {
+     "word": "粗糙",
+     "pinyin": "",
+     "meaning": "thô ráp"
+    },
+    {
+     "word": "嫩",
+     "pinyin": "",
+     "meaning": "mềm"
+    },
+    {
+     "word": "保存",
+     "pinyin": "",
+     "meaning": "bảo tồn, giữ lại"
+    },
+    {
+     "word": "外表",
+     "pinyin": "",
+     "meaning": "vẻ ngoài"
+    },
+    {
+     "word": "起眼",
+     "pinyin": "",
+     "meaning": "nổi bật, bắt mắt"
+    },
+    {
+     "word": "粽子",
+     "pinyin": "",
+     "meaning": "bánh ú"
+    },
+    {
+     "word": "糯米",
+     "pinyin": "",
+     "meaning": "gạo nếp"
+    },
+    {
+     "word": "包裹",
+     "pinyin": "",
+     "meaning": "gói, bọc"
+    },
+    {
+     "word": "安全",
+     "pinyin": "",
+     "meaning": "an toàn"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "反而特别想…… (trái lại lại đặc biệt muốn…)",
+     "example": "吃了很多大鱼大肉，反而特别想吃一碗简单的面",
+     "meaning": "nêu mong muốn ngược với hoàn cảnh vừa trải qua"
+    },
+    {
+     "name": "越……反而越让人觉得…… (càng…lại càng khiến người ta cảm thấy…)",
+     "example": "越简单的东西，反而越让人觉得踏实",
+     "meaning": "nêu quy luật ngược với suy nghĩ thông thường"
+    },
+    {
+     "name": "不能只看…… (không thể chỉ nhìn…)",
+     "example": "不能只看外表，好东西常藏在不起眼的地方",
+     "meaning": "khuyên nhìn nhận sâu hơn bề ngoài"
+    },
+    {
+     "name": "需要……才能…… (cần…mới có thể…)",
+     "example": "需要一层一层地被包裹好，才能安全地留到最后",
+     "meaning": "nêu điều kiện cần để đạt được kết quả"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 33,
+   "titleHan": "点心的多样，东坡肉的火候",
+   "titleVi": "Sự đa dạng của điểm tâm, độ lửa thịt kho Đông Pha",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊广东点心，我是云英。德盛，你去吃过一次那种一笼一笼上的点心吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo guǎng dōng diǎn xīn, wǒ shì yún yīng. dé shèng, nǐ qù chī guò yī cì nà zhǒng yī lóng yī lóng shàng de diǎn xīn ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。吃过，那种点心确实特别多样，虾饺、烧卖、叉烧包，每一种味道都不太一样。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. chī guò, nà zhǒng diǎn xīn què shí tè bié duō yàng, xiā jiǎo, shāo mài, chā shāo bāo, měi yī zhǒng wèi dào dōu bù tài yī yàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "确实，一桌点心摆出来，好像每一样都想尝一口。",
+     "draft_pinyin": "Yún yīng: què shí, yī zhuō diǎn xīn bǎi chū lái, hǎo xiàng měi yī yàng dōu xiǎng cháng yī kǒu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我记得那次，服务员推着车过来，我一直挑不好，最后是旁边的朋友帮我决定的。",
+     "draft_pinyin": "Dé shèng: duì, wǒ jì de nà cì, fú wù yuán tuī zhe chē guò lái, wǒ yì zhí tiāo bù hǎo, zuì hòu shì páng biān de péng yǒu bāng wǒ jué dìng de."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，那么多选择的时候，有个人在旁边帮忙拿主意，倒是挺方便的。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, nà me duō xuǎn zé de shí hòu, yǒu gè rén zài páng biān bāng máng ná zhǔ yì, dǎo shì tǐng fāng biàn de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，一个人面对那么多选择，反而会有点儿犹豫，两个人一起商量，好像更容易做决定。",
+     "draft_pinyin": "Dé shèng: què shí, yí gè rén miàn duì nà me duō xuǎn zé, fǎn ér huì yǒu diǎn ér yóu yù, liǎng gè rén yì qǐ shāng liáng, hǎo xiàng gèng róng yì zuò jué dìng."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑了一下）听起来，你还挺依赖别人帮你拿主意的。",
+     "draft_pinyin": "Yún yīng: (xiào le yī xià) tīng qǐ lái, nǐ hái tǐng yī lài bié rén bāng nǐ ná zhǔ yì de."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（也笑）也许是吧，说到吃的，你知道东坡肉吗？",
+     "draft_pinyin": "Dé shèng: (yě xiào) yě xǔ shì ba, shuō dào chī de, nǐ zhī dào dōng pō ròu ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "知道，那道菜好像要炖很长时间，才能把肉炖得又软又入味。",
+     "draft_pinyin": "Yún yīng: zhī dào, nà dào cài hǎo xiàng yào dùn hěn zhǎng shí jiān, cái néng bǎ ròu dùn dé yòu ruǎn yòu rù wèi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我看过介绍，说这道菜最考验的就是火候，火太大容易糊，火太小又炖不透，得慢慢调整。",
+     "draft_pinyin": "Dé shèng: duì, wǒ kàn guò jiè shào, shuō zhè dào cài zuì kǎo yàn de jiù shì huǒ hòu, huǒ tài dà róng yì hú, huǒ tài xiǎo yòu dùn bù tòu, dé màn màn tiáo zhěng."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，做这道菜，得有足够的经验和耐心，才能刚好把握住那个度。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, zuò zhè dào cài, dé yǒu zú gòu de jīng yàn hé nài xīn, cái néng gāng hǎo bǎ wò zhù nà ge dù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，我觉得，成熟的味道，好像都需要经过这样一点一点调整的过程，急不来。",
+     "draft_pinyin": "Dé shèng: què shí, wǒ jué de, chéng shú de wèi dào, hǎo xiàng dōu xū yào jīng guò zhè yàng yì diǎn yì diǎn tiáo zhěng de guò chéng, jí bù lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "这句话，用在吃的上面，好像也可以用在别的地方。",
+     "draft_pinyin": "Yún yīng: zhè jù huà, yòng zài chī de shàng miàn, hǎo xiàng yě kě yǐ yòng zài bié de dì fāng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑而不语）好，今天先聊到这里。",
+     "draft_pinyin": "Dé shèng: (xiào ér bù yǔ) hǎo, jīn tiān xiān liáo dào zhè lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "点心",
+     "pinyin": "",
+     "meaning": "điểm tâm, đồ ăn nhẹ"
+    },
+    {
+     "word": "多样",
+     "pinyin": "",
+     "meaning": "đa dạng"
+    },
+    {
+     "word": "虾饺",
+     "pinyin": "",
+     "meaning": "há cảo tôm"
+    },
+    {
+     "word": "烧卖",
+     "pinyin": "",
+     "meaning": "sủi cảo hấp"
+    },
+    {
+     "word": "叉烧包",
+     "pinyin": "",
+     "meaning": "bánh bao xá xíu"
+    },
+    {
+     "word": "挑",
+     "pinyin": "",
+     "meaning": "chọn, lựa"
+    },
+    {
+     "word": "拿主意",
+     "pinyin": "",
+     "meaning": "ra quyết định"
+    },
+    {
+     "word": "依赖",
+     "pinyin": "",
+     "meaning": "phụ thuộc"
+    },
+    {
+     "word": "入味",
+     "pinyin": "",
+     "meaning": "thấm vị"
+    },
+    {
+     "word": "考验",
+     "pinyin": "",
+     "meaning": "thử thách"
+    },
+    {
+     "word": "糊",
+     "pinyin": "",
+     "meaning": "cháy (thức ăn)"
+    },
+    {
+     "word": "炖不透",
+     "pinyin": "",
+     "meaning": "ninh chưa chín kỹ"
+    },
+    {
+     "word": "调整",
+     "pinyin": "",
+     "meaning": "điều chỉnh"
+    },
+    {
+     "word": "成熟",
+     "pinyin": "",
+     "meaning": "chín, trưởng thành"
+    },
+    {
+     "word": "把握",
+     "pinyin": "",
+     "meaning": "nắm bắt"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一……好像每一样都…… (vừa…dường như cái nào cũng…)",
+     "example": "一桌点心摆出来，好像每一样都想尝一口",
+     "meaning": "nhấn mạnh cảm giác muốn thử tất cả"
+    },
+    {
+     "name": "一个人……反而……两个人一起……更容易…… (một mình…lại…hai người cùng…dễ hơn…)",
+     "example": "一个人面对选择会犹豫，两个人商量更容易决定",
+     "meaning": "so sánh hai cách xử lý tình huống"
+    },
+    {
+     "name": "火太……又……得慢慢调整 (lửa quá…lại…phải điều chỉnh dần)",
+     "example": "火太大容易糊，火太小又炖不透，得慢慢调整",
+     "meaning": "nêu hai cực cần tránh, dẫn đến giải pháp trung gian"
+    },
+    {
+     "name": "需要经过……的过程，急不来 (cần trải qua quá trình…, không thể vội)",
+     "example": "成熟的味道，需要经过慢慢调整的过程，急不来",
+     "meaning": "nhấn mạnh tính cần thiết của thời gian và sự kiên nhẫn"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 34,
+   "titleHan": "萝卜糕的酥软，臭豆腐的偏见，玫瑰饼的余香",
+   "titleVi": "Bánh củ cải giòn mềm, đậu phụ thối vượt định kiến, bánh hoa hồng lưu hương",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊几种比较特别的小吃，我是云英。德盛，你吃过潮州萝卜糕吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo jǐ zhǒng bǐ jiào tè bié de xiǎo chī, wǒ shì yún yīng. dé shèng, nǐ chī guò cháo zhōu luó bo gāo ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。吃过，那种糕外面煎得金黄，咬一口，外面有点儿脆，里面又特别软。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. chī guò, nà zhǒng gāo wài miàn jiān dé jīn huáng, yǎo yī kǒu, wài miàn yǒu diǎn ér cuì, lǐ miàn yòu tè bié ruǎn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这种口感的对比，确实挺有意思的，外面坚固，里面柔软。",
+     "draft_pinyin": "Yún yīng: zhè zhǒng kǒu gǎn de duì bǐ, què shí tǐng yǒu yì si de, wài miàn jiān gù, lǐ miàn róu ruǎn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我当时就想，这种搭配挺聪明的，既有嚼劲，又不会太硬，刚好合适。",
+     "draft_pinyin": "Dé shèng: duì, wǒ dāng shí jiù xiǎng, zhè zhǒng dā pèi tǐng cōng míng de, jì yǒu jué jìn, yòu bú huì tài yìng, gāng hǎo hé shì."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到\"外面坚固，里面柔软\"，那你吃过臭豆腐吗？",
+     "draft_pinyin": "Yún yīng: shuō dào\"wài miàn jiān gù, lǐ miàn róu ruǎn\", nà nǐ chī guò chòu dòu fǔ ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃过，说实话，第一次闻到那个味道，我确实犹豫了一下，差点儿没敢吃。",
+     "draft_pinyin": "Dé shèng: chī guò, shuō shí huà, dì yī cì wén dào nà ge wèi dào, wǒ què shí yóu yù le yī xià, chà diǎn ér méi gǎn chī."
+    },
+    {
+     "speaker": "云英",
+     "han": "很多人第一次都是这样，光靠气味判断，很容易错过里面真正的味道。",
+     "draft_pinyin": "Yún yīng: hěn duō rén dì yī cì dōu shì zhè yàng, guāng kào qì wèi pàn duàn, hěn róng yì cuò guò lǐ miàn zhēn zhèng de wèi dào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，后来鼓起勇气吃了一口，发现味道跟想象的完全不一样，特别香，而且吃了还想再吃。",
+     "draft_pinyin": "Dé shèng: duì, hòu lái gǔ qǐ yǒng qì chī le yī kǒu, fā xiàn wèi dào gēn xiǎng xiàng de wán quán bù yí yàng, tè bié xiāng, ér qiě chī le hái xiǎng zài chī."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，有时候，不能只凭第一印象，或者别人怎么说，就决定要不要靠近一个东西。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yǒu shí hòu, bù néng zhǐ píng dì yī yìn xiàng, huò zhě bié rén zěn me shuō, jiù jué dìng yào bù yào kào jìn yí gè dōng xī."
+    },
+    {
+     "speaker": "德盛",
+     "han": "说得挺对，得自己亲自试一试，才知道里面藏着什么。",
+     "draft_pinyin": "Dé shèng: shuō de tǐng duì, dé zì jǐ qīn zì shì yī shì, cái zhī dào lǐ miàn cáng zhe shén me."
+    },
+    {
+     "speaker": "云英",
+     "han": "（顿了一下，声音轻了一点儿）说到\"亲自试一试\"，我倒想起云南有一种玫瑰花做的点心，叫玫瑰饼。",
+     "draft_pinyin": "Yún yīng: (dùn le yī xià, shēng yīn qīng le yì diǎn ér) shuō dào\"qīn zì shì yī shì\", wǒ dào xiǎng qǐ yún nán yǒu yī zhǒng méi guī huā zuò de diǎn xīn, jiào méi guī bǐng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这个我听说过，好像带着一点儿花的香味。",
+     "draft_pinyin": "Dé shèng: zhè ge wǒ tīng shuō guò, hǎo xiàng dài zhe yì diǎn ér huā de xiāng wèi."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，那种香味特别淡，但是吃完以后，好像会一直留在嘴里，也留在心里，很久都散不掉。",
+     "draft_pinyin": "Yún yīng: duì, nà zhǒng xiāng wèi tè bié dàn, dàn shì chī wán yǐ hòu, hǎo xiàng huì yì zhí liú zài zuǐ lǐ, yě liú zài xīn lǐ, hěn jiǔ dōu sàn bù diào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（愣了一下，看向她）你说这句话的时候，怎么感觉不太像在说饼。",
+     "draft_pinyin": "Dé shèng: (lèng le yī xià, kàn xiàng tā) nǐ shuō zhè jù huà de shí hòu, zěn me gǎn jué bù tài xiàng zài shuō bǐng."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑了，没有直接回答）也许是，也许不是，你自己感觉吧。",
+     "draft_pinyin": "Yún yīng: (xiào le, méi yǒu zhí jiē huí dá) yě xǔ shì, yě xǔ bú shì, nǐ zì jǐ gǎn jué ba."
+    },
+    {
+     "speaker": "德盛",
+     "han": "好，那我会好好\"感觉\"一下，希望这种余香，能一直留着。",
+     "draft_pinyin": "Dé shèng: hǎo, nà wǒ huì hǎo hǎo\"gǎn jué\"yī xià, xī wàng zhè zhǒng yú xiāng, néng yì zhí liú zhe."
+    },
+    {
+     "speaker": "云英",
+     "han": "（轻轻笑了）好，今天的话题就先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: (qīng qīng xiào le) hǎo, jīn tiān de huà tí jiù xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "萝卜糕",
+     "pinyin": "",
+     "meaning": "bánh củ cải"
+    },
+    {
+     "word": "煎",
+     "pinyin": "",
+     "meaning": "chiên, áp chảo"
+    },
+    {
+     "word": "金黄",
+     "pinyin": "",
+     "meaning": "vàng óng"
+    },
+    {
+     "word": "口感",
+     "pinyin": "",
+     "meaning": "cảm giác khi ăn"
+    },
+    {
+     "word": "对比",
+     "pinyin": "",
+     "meaning": "đối lập, tương phản"
+    },
+    {
+     "word": "坚固",
+     "pinyin": "",
+     "meaning": "vững chắc"
+    },
+    {
+     "word": "柔软",
+     "pinyin": "",
+     "meaning": "mềm mại"
+    },
+    {
+     "word": "嚼劲",
+     "pinyin": "",
+     "meaning": "độ dai, sần sật"
+    },
+    {
+     "word": "臭豆腐",
+     "pinyin": "",
+     "meaning": "đậu phụ thối"
+    },
+    {
+     "word": "气味",
+     "pinyin": "",
+     "meaning": "mùi hương"
+    },
+    {
+     "word": "判断",
+     "pinyin": "",
+     "meaning": "phán đoán"
+    },
+    {
+     "word": "印象",
+     "pinyin": "",
+     "meaning": "ấn tượng"
+    },
+    {
+     "word": "靠近",
+     "pinyin": "",
+     "meaning": "tiếp cận, gần lại"
+    },
+    {
+     "word": "亲自",
+     "pinyin": "",
+     "meaning": "tự mình"
+    },
+    {
+     "word": "玫瑰饼",
+     "pinyin": "",
+     "meaning": "bánh hoa hồng"
+    },
+    {
+     "word": "淡",
+     "pinyin": "",
+     "meaning": "nhạt, thoang thoảng"
+    },
+    {
+     "word": "散",
+     "pinyin": "",
+     "meaning": "tan biến"
+    },
+    {
+     "word": "余香",
+     "pinyin": "",
+     "meaning": "dư hương, hương còn vương lại"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "既……又……刚好合适 (vừa…vừa…thì vừa hợp lý)",
+     "example": "既有嚼劲，又不会太硬，刚好合适",
+     "meaning": "mô tả sự cân bằng hài hòa"
+    },
+    {
+     "name": "不能只凭……就决定…… (không thể chỉ dựa vào…mà quyết định…)",
+     "example": "不能只凭第一印象，就决定要不要靠近",
+     "meaning": "khuyên tránh đánh giá vội vàng"
+    },
+    {
+     "name": "好像会一直留在……也留在……很久都散不掉 (dường như sẽ mãi lưu lại ở…, cũng ở…, lâu không tan)",
+     "example": "香味好像会一直留在嘴里，也留在心里，很久都散不掉",
+     "meaning": "ẩn dụ về dư âm cảm xúc kéo dài"
+    },
+    {
+     "name": "怎么感觉不太像在说…… (sao lại cảm thấy không giống đang nói về…)",
+     "example": "你说这句话，怎么感觉不太像在说饼",
+     "meaning": "gợi ý nghi ngờ có ẩn ý khác trong lời nói"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 35,
+   "titleHan": "珍珠奶茶的坚持，凤梨酥的坚强",
+   "titleVi": "Sự bền bỉ của trà sữa trân châu, sự kiên cường của bánh dứa",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊几种大家都爱喝的饮品，我是云英。德盛，你平时爱喝珍珠奶茶吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo jǐ zhǒng dà jiā dōu ài hē de yǐn pǐn, wǒ shì yún yīng. dé shèng, nǐ píng shí ài hē zhēn zhū nǎi chá ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。爱喝，尤其喜欢里面那种软软的珍珠，嚼起来特别有嚼劲。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. ài hē, yóu qí xǐ huān lǐ miàn nà zhǒng ruǎn ruǎn de zhēn zhū, jué qǐ lái tè bié yǒu jué jìn."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到珍珠奶茶，其实做那些珍珠也不容易，得慢慢煮，煮到刚刚好软糯，才不会太硬也不会太烂。",
+     "draft_pinyin": "Yún yīng: shuō dào zhēn zhū nǎi chá, qí shí zuò nà xiē zhēn zhū yě bù róng yì, dé màn màn zhǔ, zhǔ dào gāng gāng hǎo ruǎn nuò, cái bú huì tài yìng yě bú huì tài làn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我看过介绍，说火候和时间都要控制得特别精准，差一点味道就不一样了。",
+     "draft_pinyin": "Dé shèng: duì, wǒ kàn guò jiè shào, shuō huǒ hòu hé shí jiān dōu yào kòng zhì dé tè bié jīng zhǔn, chà yì diǎn wèi dào jiù bù yí yàng le."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，一杯好喝的奶茶，背后其实藏着不少耐心。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yī bēi hǎo hē de nǎi chá, bèi hòu qí shí cáng zhe bù shǎo nài xīn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，好东西大多都需要花时间慢慢准备，急不来。",
+     "draft_pinyin": "Dé shèng: què shí, hǎo dōng xī dà duō dōu xū yào huā shí jiān màn màn zhǔn bèi, jí bù lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到耐心，你吃过凤梨酥吗？",
+     "draft_pinyin": "Yún yīng: shuō dào nài xīn, nǐ chī guò fèng lí sū ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃过，那种外皮酥酥的，一咬就掉渣，里面的凤梨馅又酸酸甜甜的，特别解腻。",
+     "draft_pinyin": "Dé shèng: chī guò, nà zhǒng wài pí sū sū de, yī yǎo jiù diào zhā, lǐ miàn de fèng lí xiàn yòu suān suān tián tián de, tè bié jiě nì."
+    },
+    {
+     "speaker": "云英",
+     "han": "我觉得凤梨酥最厉害的地方，就是外皮虽然看起来很脆弱，其实包着馅一点都不会散。",
+     "draft_pinyin": "Yún yīng: wǒ jué de fèng lí sū zuì lì hài de dì fāng, jiù shì wài pí suī rán kàn qǐ lái hěn cuì ruò, qí shí bāo zhe xiàn yì diǎn dōu bú huì sàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，那层皮看着薄，其实挺坚强的，一直把最甜的部分好好护在里面。",
+     "draft_pinyin": "Dé shèng: duì, nà céng pí kàn zhe báo, qí shí tǐng jiān qiáng de, yì zhí bǎ zuì tián de bù fèn hǎo hǎo hù zài lǐ miàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（故意叹了口气）唉，其实我今天最想说的，跟凤梨酥没什么关系。",
+     "draft_pinyin": "Yún yīng: (gù yì tàn le kǒu qì) āi, qí shí wǒ jīn tiān zuì xiǎng shuō de, gēn fèng lí sū méi shén me guān xì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（假装惊讶）啊？那是跟珍珠奶茶有关系？",
+     "draft_pinyin": "Dé shèng: (jiǎ zhuāng jīng yà) a? nà shì gēn zhēn zhū nǎi chá yǒu guān xì?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑着摇头）也不是，是跟坐在我对面这个人有关系。",
+     "draft_pinyin": "Yún yīng: (xiào zhe yáo tóu) yě bú shì, shì gēn zuò zài wǒ duì miàn zhè ge rén yǒu guān xì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（指了指自己，故意装傻）你是说……主播王德盛？",
+     "draft_pinyin": "Dé shèng: (zhǐ le zhǐ zì jǐ, gù yì zhuāng shǎ) nǐ shì shuō...... zhǔ bō wáng dé shèng?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（忍不住笑出声）就是你，别装傻了，我说的就是你！",
+     "draft_pinyin": "Yún yīng: (rěn bú zhù xiào chū shēng) jiù shì nǐ, bié zhuāng shǎ le, wǒ shuō de jiù shì nǐ!"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（也笑了，故意拖长音）哦——原来是这样啊，那我是不是应该假装很惊讶一下？",
+     "draft_pinyin": "Dé shèng: (yě xiào le, gù yì tuō cháng yīn) ó--yuán lái shì zhè yàng a, nà wǒ shì bú shì yīng gāi jiǎ zhuāng hěn jīng yà yī xià?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（拿起东西假装要打他）你这个人，正经点！",
+     "draft_pinyin": "Yún yīng: (ná qǐ dōng xī jiǎ zhuāng yào dǎ tā) nǐ zhè ge rén, zhèng jīng diǎn!"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（举手投降，笑着）好好好，正经说：我也挺开心，因为我也一直在等你先说。",
+     "draft_pinyin": "Dé shèng: (jǔ shǒu tóu xiáng, xiào zhe) hǎo hǎo hǎo, zhèng jīng shuō: wǒ yě tǐng kāi xīn, yīn wèi wǒ yě yì zhí zài děng nǐ xiān shuō."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，那我们的事，今天就先曝光到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: hǎo, nà wǒ men de shì, jīn tiān jiù xiān bào guāng dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "珍珠奶茶",
+     "pinyin": "",
+     "meaning": "trà sữa trân châu"
+    },
+    {
+     "word": "珍珠",
+     "pinyin": "",
+     "meaning": "trân châu"
+    },
+    {
+     "word": "嚼劲",
+     "pinyin": "",
+     "meaning": "độ dai, sần sật"
+    },
+    {
+     "word": "软糯",
+     "pinyin": "",
+     "meaning": "mềm dẻo"
+    },
+    {
+     "word": "精准",
+     "pinyin": "",
+     "meaning": "chính xác"
+    },
+    {
+     "word": "耐心",
+     "pinyin": "",
+     "meaning": "kiên nhẫn"
+    },
+    {
+     "word": "凤梨酥",
+     "pinyin": "",
+     "meaning": "bánh dứa"
+    },
+    {
+     "word": "掉渣",
+     "pinyin": "",
+     "meaning": "rơi vụn (bánh giòn)"
+    },
+    {
+     "word": "馅",
+     "pinyin": "",
+     "meaning": "nhân (bánh)"
+    },
+    {
+     "word": "解腻",
+     "pinyin": "",
+     "meaning": "giải ngấy, chống ngán"
+    },
+    {
+     "word": "脆弱",
+     "pinyin": "",
+     "meaning": "mong manh, dễ vỡ"
+    },
+    {
+     "word": "坚强",
+     "pinyin": "",
+     "meaning": "kiên cường"
+    },
+    {
+     "word": "装傻",
+     "pinyin": "",
+     "meaning": "giả ngu, giả bộ không biết"
+    },
+    {
+     "word": "曝光",
+     "pinyin": "",
+     "meaning": "phơi bày, công khai (tin tức)"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "得……才不会……也不会…… (phải…mới không…cũng không…)",
+     "example": "",
+     "meaning": "得慢慢煮，才不会太硬也不会太烂"
+    },
+    {
+     "name": "差一点……就…… (chỉ cần sai một chút…là…)",
+     "example": "",
+     "meaning": "差一点味道就不一样了"
+    },
+    {
+     "name": "虽然……其实…… (mặc dù…nhưng thực ra…)",
+     "example": "",
+     "meaning": "外皮虽然看起来很脆弱，其实包着馅一点都不会散"
+    },
+    {
+     "name": "别装……了，我说的就是…… (đừng giả vờ…nữa, tôi nói chính là…)",
+     "example": "别装傻了，我说的就是你",
+     "meaning": "dùng khi bóc mẽ ai đó đang giả ngơ, mang tính trêu đùa nhẹ"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 36,
+   "titleHan": "鸡蛋仔的紧贴，丝袜奶茶的回甘",
+   "titleVi": "Sự gắn chặt của bánh trứng nướng, hậu vị ngọt của trà sữa vớ lụa",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊香港的两种经典小吃，我是云英。德盛，你吃过鸡蛋仔吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo xiāng gǎng de liǎng zhǒng jīng diǎn xiǎo chī, wǒ shì yún yīng. dé shèng, nǐ chī guò jī dàn zǎi ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。吃过，那种一颗一颗圆圆的，从模具里拿出来的时候还带着一点烫。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. chī guò, nà zhǒng yī kē yī kē yuán yuán de, cóng mú jù lǐ ná chū lái de shí hòu hái dài zhe yì diǎn tàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，鸡蛋仔最有意思的地方，就是每一颗都紧紧连在一起，掰的时候得小心一点，才不会把旁边那颗也带断。",
+     "draft_pinyin": "Yún yīng: duì, jī dàn zǎi zuì yǒu yì si de dì fāng, jiù shì měi yī kē dōu jǐn jǐn lián zài yì qǐ, bāi de shí hòu dé xiǎo xīn yì diǎn, cái bú huì bǎ páng biān nà kē yě dài duàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，我记得第一次吃的时候，想掰一颗下来，结果旁边两颗也跟着被拉了过来。",
+     "draft_pinyin": "Dé shèng: què shí, wǒ jì de dì yī cì chī de shí hòu, xiǎng bāi yī kē xià lái, jié guǒ páng biān liǎng kē yě gēn zhe bèi lā le guò lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，它们几个，好像早就习惯黏在一起了，谁也离不开谁。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, tā men jǐ gè, hǎo xiàng zǎo jiù xí guàn nián zài yì qǐ le, shuí yě lí bù kāi shuí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也是，一颗一颗虽然形状差不多，但连在一起，反而觉得更完整，更好看。",
+     "draft_pinyin": "Dé shèng: yě shì, yī kē yī kē suī rán xíng zhuàng chà bu duō, dàn lián zài yì qǐ, fǎn ér jué de gèng wán zhěng, gèng hǎo kàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到香港的味道，你有没有喝过那种丝袜奶茶？",
+     "draft_pinyin": "Yún yīng: shuō dào xiāng gǎng de wèi dào, nǐ yǒu méi yǒu hē guò nà zhǒng sī wà nǎi chá?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "喝过，我一开始还以为跟丝袜有什么关系，后来才知道是用滤网反复过滤出来的。",
+     "draft_pinyin": "Dé shèng: hē guò, wǒ yī kāi shǐ hái yǐ wéi gēn sī wà yǒu shén me guān xì, hòu lái cái zhī dào shì yòng lǜ wǎng fǎn fù guò lǜ chū lái de."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，得反复冲泡几次，把茶叶的味道彻底泡出来，再加上炼奶，那种茶才会又浓又滑。",
+     "draft_pinyin": "Yún yīng: duì, dé fǎn fù chōng pào jǐ cì, bǎ chá yè de wèi dào chè dǐ pào chū lái, zài jiā shàng liàn nǎi, nà zhǒng chá cái huì yòu nóng yòu huá."
+    },
+    {
+     "speaker": "德盛",
+     "han": "而且刚喝的时候有点儿涩，可是咽下去以后，喉咙里反而留着一点甜。",
+     "draft_pinyin": "Dé shèng: ér qiě gāng hē de shí hòu yǒu diǎn ér sè, kě shì yàn xià qù yǐ hòu, hóu lóng lǐ fǎn ér liú zhe yì diǎn tián."
+    },
+    {
+     "speaker": "云英",
+     "han": "（顿了一下，故意板着脸）德盛，我发现一个问题。",
+     "draft_pinyin": "Yún yīng: (dùn le yī xià, gù yì bǎn zhe liǎn) dé shèng, wǒ fā xiàn yí gè wèn tí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（紧张）什么问题？",
+     "draft_pinyin": "Dé shèng: (jǐn zhāng) shén me wèn tí?"
+    },
+    {
+     "speaker": "云英",
+     "han": "我发现，最近录节目的时候，我好像有点，容易因为你分心。",
+     "draft_pinyin": "Yún yīng: wǒ fā xiàn, zuì jìn lù jié mù de shí hòu, wǒ hǎo xiàng yǒu diǎn, róng yì yīn wèi nǐ fēn xīn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（松了口气，又故意皱眉）啊？这是我的错吗？",
+     "draft_pinyin": "Dé shèng: (sōng le kǒu qì, yòu gù yì zhòu méi) a? zhè shì wǒ de cuò ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（点头，忍笑）对，都是你的错，你干嘛长得这么讨人喜欢。",
+     "draft_pinyin": "Yún yīng: (diǎn tóu, rěn xiào) duì, dōu shì nǐ de cuò, nǐ gàn má zhǎng dé zhè me tǎo rén xǐ huān."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（愣住，然后笑出来）云英，你这是拐着弯夸我，还是拐着弯在表白？",
+     "draft_pinyin": "Dé shèng: (lèng zhù, rán hòu xiào chū lái) yún yīng, nǐ zhè shì guǎi zhe wān kuā wǒ, hái shì guǎi zhe wān zài biǎo bái?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（大方承认）表白，我承认，德盛，我喜欢你。",
+     "draft_pinyin": "Yún yīng: (dà fāng chéng rèn) biǎo bái, wǒ chéng rèn, dé shèng, wǒ xǐ huān nǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（也笑着，很坦然）那正好，我也喜欢你，早就想说了，就等你先开口。",
+     "draft_pinyin": "Dé shèng: (yě xiào zhe, hěn tǎn rán) nà zhèng hǎo, wǒ yě xǐ huān nǐ, zǎo jiù xiǎng shuō le, jiù děng nǐ xiān kāi kǒu."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，那我们两个的小秘密，今天就正式公开了，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: hǎo, nà wǒ men liǎng gè de xiǎo mì mì, jīn tiān jiù zhèng shì gōng kāi le, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "鸡蛋仔",
+     "pinyin": "",
+     "meaning": "bánh trứng nướng (kiểu Hồng Kông)"
+    },
+    {
+     "word": "模具",
+     "pinyin": "",
+     "meaning": "khuôn"
+    },
+    {
+     "word": "掰",
+     "pinyin": "",
+     "meaning": "bẻ, tách ra"
+    },
+    {
+     "word": "黏",
+     "pinyin": "",
+     "meaning": "dính"
+    },
+    {
+     "word": "完整",
+     "pinyin": "",
+     "meaning": "trọn vẹn, hoàn chỉnh"
+    },
+    {
+     "word": "丝袜奶茶",
+     "pinyin": "",
+     "meaning": "trà sữa vớ lụa"
+    },
+    {
+     "word": "滤网",
+     "pinyin": "",
+     "meaning": "lưới lọc"
+    },
+    {
+     "word": "冲泡",
+     "pinyin": "",
+     "meaning": "pha, hãm (trà)"
+    },
+    {
+     "word": "炼奶",
+     "pinyin": "",
+     "meaning": "sữa đặc"
+    },
+    {
+     "word": "涩",
+     "pinyin": "",
+     "meaning": "chát"
+    },
+    {
+     "word": "回甘",
+     "pinyin": "",
+     "meaning": "hậu vị ngọt, dư vị ngọt"
+    },
+    {
+     "word": "分心",
+     "pinyin": "",
+     "meaning": "mất tập trung, phân tâm"
+    },
+    {
+     "word": "表白",
+     "pinyin": "",
+     "meaning": "tỏ tình, bày tỏ tình cảm"
+    },
+    {
+     "word": "秘密",
+     "pinyin": "",
+     "meaning": "bí mật"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "得……才不会…… (phải…mới không…)",
+     "example": "",
+     "meaning": "掰的时候得小心一点，才不会把旁边那颗也带断"
+    },
+    {
+     "name": "虽然……但……反而…… (mặc dù…nhưng…lại…)",
+     "example": "",
+     "meaning": "形状差不多，但连在一起，反而觉得更完整"
+    },
+    {
+     "name": "得反复……才会…… (phải…nhiều lần…mới…)",
+     "example": "",
+     "meaning": "得反复冲泡几次，那种茶才会又浓又滑"
+    },
+    {
+     "name": "这是……还是……？/ 对，我承认…… (đây là…hay là…?/đúng, tôi công nhận…)",
+     "example": "你这是拐着弯夸我，还是拐着弯在表白？——表白，我承认",
+     "meaning": "cấu trúc hỏi dò ẩn ý rồi thẳng thắn công nhận, dùng khi tỏ tình rõ ràng"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 37,
+   "titleHan": "福建土楼的坚固，红菇汤的清甜",
+   "titleVi": "Sự kiên cố của thổ lâu Phúc Kiến, vị thanh ngọt của canh nấm hồng",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊福建的两种特别的东西，我是云英。德盛，你听说过福建的土楼吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo fú jiàn de liǎng zhǒng tè bié de dōng xī, wǒ shì yún yīng. dé shèng, nǐ tīng shuō guò fú jiàn de tǔ lóu ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。听说过，那种圆圆的老房子，用泥土一层一层夯起来，特别厚实。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. tīng shuō guò, nà zhǒng yuán yuán de lǎo fáng zi, yòng ní tǔ yī céng yī céng hāng qǐ lái, tè bié hòu shí."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，据说那种土楼可以住下一整个家族，风吹雨打这么多年，墙还是稳稳地立在那儿。",
+     "draft_pinyin": "Yún yīng: duì, jù shuō nà zhǒng tǔ lóu kě yǐ zhù xià yī zhěng gè jiā zú, fēng chuī yǔ dǎ zhè me duō nián, qiáng hái shì wěn wěn dì lì zài nà ér."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，我看照片的时候就觉得，那种厚墙好像在说，不管外面多大的风雨，里面的人都能安心。",
+     "draft_pinyin": "Dé shèng: què shí, wǒ kàn zhào piān de shí hòu jiù jué de, nà zhǒng hòu qiáng hǎo xiàng zài shuō, bù guǎn wài miàn duō dà de fēng yǔ, lǐ miàn de rén dōu néng ān xīn."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，土楼这种建筑，其实靠的不是外表好看，是骨子里那种扎实。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, tǔ lóu zhè zhǒng jiàn zhù, qí shí kào de bú shì wài biǎo hǎo kàn, shì gǔ zi lǐ nà zhǒng zhā shí."
+    },
+    {
+     "speaker": "德盛",
+     "han": "对，我觉得，真正让人放心的东西，往往都是看着朴素，其实特别牢靠的。",
+     "draft_pinyin": "Dé shèng: duì, wǒ jué de, zhēn zhèng ràng rén fàng xīn de dōng xī, wǎng wǎng dōu shì kàn zhe pǔ sù, qí shí tè bié láo kào de."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到扎实又暖心，你喝过福建的红菇汤吗？",
+     "draft_pinyin": "Yún yīng: shuō dào zhā shí yòu nuǎn xīn, nǐ hē guò fú jiàn de hóng gū tāng ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "喝过，那种汤颜色淡淡的，喝一口，鲜味特别足，喝完整个人都暖了起来。",
+     "draft_pinyin": "Dé shèng: hē guò, nà zhǒng tāng yán sè dàn dàn de, hē yī kǒu, xiān wèi tè bié zú, hē wán zhěng gè rén dōu nuǎn le qǐ lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，红菇本身没什么怪味，跟肉一起慢慢炖，反而炖出一种特别干净的甜味。",
+     "draft_pinyin": "Yún yīng: duì, hóng gū běn shēn méi shén me guài wèi, gēn ròu yì qǐ màn màn dùn, fǎn ér dùn chū yī zhǒng tè bié gān jìng de tián wèi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我记得那次喝完，觉得整个人心里都甜甜的，跟平时喝的浓汤完全不一样。",
+     "draft_pinyin": "Dé shèng: wǒ jì de nà cì hē wán, jué de zhěng gè rén xīn lǐ dōu tián tián de, gēn píng shí hē de nóng tāng wán quán bù yí yàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "（想了想，突然坐直）德盛，我要警告你一件事。",
+     "draft_pinyin": "Yún yīng: (xiǎng le xiǎng, tū rán zuò zhí) dé shèng, wǒ yào jǐng gào nǐ yī jiàn shì."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（紧张）警告我什么？",
+     "draft_pinyin": "Dé shèng: (jǐn zhāng) jǐng gào wǒ shén me?"
+    },
+    {
+     "speaker": "云英",
+     "han": "以后你要是敢在别的节目里，对别的搭档笑得这么甜，我可不答应。",
+     "draft_pinyin": "Yún yīng: yǐ hòu nǐ yào shì gǎn zài bié de jié mù lǐ, duì bié de dā dàng xiào dé zhè me tián, wǒ kě bù dā yìng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（愣住，然后笑）云英，你这话听起来，很像在吃醋啊。",
+     "draft_pinyin": "Dé shèng: (lèng zhù, rán hòu xiào) yún yīng, nǐ zhè huà tīng qǐ lái, hěn xiàng zài chī cù a."
+    },
+    {
+     "speaker": "云英",
+     "han": "（脸红，硬撑）我才没有吃醋，我只是……觉得那种甜，应该只留给我一个人看。",
+     "draft_pinyin": "Yún yīng: (liǎn hóng, yìng chēng) wǒ cái méi yǒu chī cù, wǒ zhǐ shì...... jué de nà zhǒng tián, yīng gāi zhǐ liú gěi wǒ yí gè rén kàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑得更开心）好好好，遵命，以后这份甜，只给你看。",
+     "draft_pinyin": "Dé shèng: (xiào dé gèng kāi xīn) hǎo hǎo hǎo, zūn mìng, yǐ hòu zhè fèn tián, zhǐ gěi nǐ kàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（假装凶）就这么说定了，今天就先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: (jiǎ zhuāng xiōng) jiù zhè me shuō dìng le, jīn tiān jiù xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "土楼",
+     "pinyin": "",
+     "meaning": "thổ lâu (nhà đất Phúc Kiến)"
+    },
+    {
+     "word": "夯",
+     "pinyin": "",
+     "meaning": "nện, đầm (đất)"
+    },
+    {
+     "word": "家族",
+     "pinyin": "",
+     "meaning": "gia tộc"
+    },
+    {
+     "word": "厚墙",
+     "pinyin": "",
+     "meaning": "tường dày"
+    },
+    {
+     "word": "扎实",
+     "pinyin": "",
+     "meaning": "chắc chắn, vững chãi"
+    },
+    {
+     "word": "朴素",
+     "pinyin": "",
+     "meaning": "mộc mạc, giản dị"
+    },
+    {
+     "word": "牢靠",
+     "pinyin": "",
+     "meaning": "đáng tin cậy, bền chắc"
+    },
+    {
+     "word": "红菇",
+     "pinyin": "",
+     "meaning": "nấm hồng"
+    },
+    {
+     "word": "鲜味",
+     "pinyin": "",
+     "meaning": "vị ngọt tự nhiên (umami)"
+    },
+    {
+     "word": "炖",
+     "pinyin": "",
+     "meaning": "ninh, hầm"
+    },
+    {
+     "word": "警告",
+     "pinyin": "",
+     "meaning": "cảnh cáo"
+    },
+    {
+     "word": "吃醋",
+     "pinyin": "",
+     "meaning": "ghen (tình cảm)"
+    },
+    {
+     "word": "遵命",
+     "pinyin": "",
+     "meaning": "tuân lệnh"
+    },
+    {
+     "word": "说定",
+     "pinyin": "",
+     "meaning": "nói chắc, thống nhất"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "不管……都…… (dù…thì đều…)",
+     "example": "",
+     "meaning": "不管外面多大的风雨，里面的人都能安心"
+    },
+    {
+     "name": "往往都是……其实…… (thường đều là…thực ra…)",
+     "example": "",
+     "meaning": "真正让人放心的东西，往往都是看着朴素，其实特别牢靠"
+    },
+    {
+     "name": "你这话听起来，很像在…… (nghe câu này của bạn, rất giống như đang…)",
+     "example": "你这话听起来，很像在吃醋啊",
+     "meaning": "dùng để chỉ ra ẩn ý/cảm xúc thật của đối phương, mang tính trêu chọc"
+    },
+    {
+     "name": "好好好，遵命，以后…… (được được được, tuân lệnh, sau này…)",
+     "example": "好好好，遵命，以后这份甜，只给你看",
+     "meaning": "cấu trúc chiều theo/\"đầu hàng\" một cách dí dỏm"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 38,
+   "titleHan": "婺源油菜花的明亮，烤包子的暖意",
+   "titleVi": "Vẻ sáng của hoa cải dầu Vụ Nguyên, hơi ấm của bánh bao nướng",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊江西的两种美好，我是云英。德盛，你见过婺源那种大片的油菜花吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo jiāng xī de liǎng zhǒng měi hǎo, wǒ shì yún yīng. dé shèng, nǐ jiàn guò wù yuán nà zhǒng dà piàn de yóu cài huā ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。见过照片，那种黄色一片一片铺开，看着特别亮眼，好像把整个山谷都染黄了。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. jiàn guò zhào piān, nà zhǒng huáng sè yī piàn yī piàn pù kāi, kàn zhe tè bié liàng yǎn, hǎo xiàng bǎ zhěng gè shān gǔ dōu rǎn huáng le."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，尤其是配上那些白墙黑瓦的老房子，颜色对比特别好看，让人一看心情就好了。",
+     "draft_pinyin": "Yún yīng: duì, yóu qí shì pèi shàng nà xiē bái qiáng hēi wǎ de lǎo fáng zi, yán sè duì bǐ tè bié hǎo kàn, ràng rén yī kàn xīn qíng jiù hǎo le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，我看照片的时候就想，如果那种黄色能一直留着，感觉每天心情都会跟着亮起来。",
+     "draft_pinyin": "Dé shèng: què shí, wǒ kàn zhào piān de shí hòu jiù xiǎng, rú guǒ nà zhǒng huáng sè néng yì zhí liú zhe, gǎn jué měi tiān xīn qíng dū huì gēn zhe liàng qǐ lái."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，有些颜色，好像天生就带着让人开心的力量。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yǒu xiē yán sè, hǎo xiàng tiān shēng jiù dài zhe ràng rén kāi xīn de lì liàng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也是，有些人也是这样，一出现，周围好像也跟着亮了不少。",
+     "draft_pinyin": "Dé shèng: yě shì, yǒu xiē rén yě shì zhè yàng, yī chū xiàn, zhōu wéi hǎo xiàng yě gēn zhe liàng le bù shǎo."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到暖，你吃过江西的烤包子吗？",
+     "draft_pinyin": "Yún yīng: shuō dào nuǎn, nǐ chī guò jiāng xī de kǎo bāo zi ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃过，那种包子放在炉子里烤得金黄，外皮特别脆，咬开里面的肉汁还冒着热气。",
+     "draft_pinyin": "Dé shèng: chī guò, nà zhǒng bāo zi fàng zài lú zi lǐ kǎo dé jīn huáng, wài pí tè bié cuì, yǎo kāi lǐ miàn de ròu zhī hái mào zhe rè qì."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，外皮看着挺硬的，其实里面又软又烫，一口下去，整个人都暖了起来。",
+     "draft_pinyin": "Yún yīng: duì, wài pí kàn zhe tǐng yìng de, qí shí lǐ miàn yòu ruǎn yòu tàng, yī kǒu xià qù, zhěng gè rén dōu nuǎn le qǐ lái."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我记得那次吃完，手都还是热的，心里也是。",
+     "draft_pinyin": "Dé shèng: wǒ jì de nà cì chī wán, shǒu dōu hái shì rè de, xīn lǐ yě shì."
+    },
+    {
+     "speaker": "云英",
+     "han": "（假装生气地哼了一声）德盛，你知道吗，我刚才夸你，你居然还追问，一点都不识趣。",
+     "draft_pinyin": "Yún yīng: (jiǎ zhuāng shēng qì dì hēng le yī shēng) dé shèng, nǐ zhī dào ma, wǒ gāng cái kuā nǐ, nǐ jū rán hái zhuī wèn, yì diǎn dōu bù shí qù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（赶紧讨好）啊？我不是故意的，我只是想确认一下，是不是真的在夸我。",
+     "draft_pinyin": "Dé shèng: (gǎn jǐn tǎo hǎo) a? wǒ bú shì gù yì de, wǒ zhǐ shì xiǎng què rèn yī xià, shì bú shì zhēn de zài kuā wǒ."
+    },
+    {
+     "speaker": "云英",
+     "han": "（假装不理他，转过头）现在不想理你了。",
+     "draft_pinyin": "Yún yīng: (jiǎ zhuāng bù lǐ tā, zhuǎn guò tóu) xiàn zài bù xiǎng lǐ nǐ le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（凑近一点，讨好地笑）云英～别生气啦，我知道错了，你是说我心里一直是暖的对不对？我也觉得，你在我心里，一直是最亮的那道颜色。",
+     "draft_pinyin": "Dé shèng: (còu jìn yì diǎn, tǎo hǎo dì xiào) yún yīng～ bié shēng qì la, wǒ zhī dào cuò le, nǐ shì shuō wǒ xīn lǐ yì zhí shì nuǎn de duì bú duì? wǒ yě jué de, nǐ zài wǒ xīn lǐ, yì zhí shì zuì liàng de nà dào yán sè."
+    },
+    {
+     "speaker": "云英",
+     "han": "（憋不住，还是笑了）算你会说话，勉强原谅你。",
+     "draft_pinyin": "Yún yīng: (biē bú zhù, hái shì xiào le) suàn nǐ huì shuō huà, miǎn qiǎng yuán liàng nǐ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "太好了！谢谢大人不记小人过。",
+     "draft_pinyin": "Dé shèng: tài hǎo le! xiè xiè dà rén bù jì xiǎo rén guò."
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑着推他一下）贫嘴，今天就先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: (xiào zhe tuī tā yī xià) pín zuǐ, jīn tiān jiù xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "油菜花",
+     "pinyin": "",
+     "meaning": "hoa cải dầu"
+    },
+    {
+     "word": "山谷",
+     "pinyin": "",
+     "meaning": "thung lũng"
+    },
+    {
+     "word": "白墙黑瓦",
+     "pinyin": "",
+     "meaning": "tường trắng mái ngói đen"
+    },
+    {
+     "word": "心情",
+     "pinyin": "",
+     "meaning": "tâm trạng"
+    },
+    {
+     "word": "力量",
+     "pinyin": "",
+     "meaning": "sức mạnh, năng lượng"
+    },
+    {
+     "word": "烤包子",
+     "pinyin": "",
+     "meaning": "bánh bao nướng"
+    },
+    {
+     "word": "炉子",
+     "pinyin": "",
+     "meaning": "lò, bếp lò"
+    },
+    {
+     "word": "金黄",
+     "pinyin": "",
+     "meaning": "vàng óng"
+    },
+    {
+     "word": "肉汁",
+     "pinyin": "",
+     "meaning": "nước thịt, nước nhân"
+    },
+    {
+     "word": "识趣",
+     "pinyin": "",
+     "meaning": "biết điều, biết ý"
+    },
+    {
+     "word": "讨好",
+     "pinyin": "",
+     "meaning": "lấy lòng, làm vui lòng"
+    },
+    {
+     "word": "原谅",
+     "pinyin": "",
+     "meaning": "tha thứ"
+    },
+    {
+     "word": "贫嘴",
+     "pinyin": "",
+     "meaning": "lắm lời, nhiều chuyện (dí dỏm)"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一……好像把……都…… (vừa…dường như đã…)",
+     "example": "",
+     "meaning": "那种黄色一片一片铺开，好像把整个山谷都染黄了"
+    },
+    {
+     "name": "看着……其实…… (nhìn thì…thực ra…)",
+     "example": "",
+     "meaning": "外皮看着挺硬的，其实里面又软又烫"
+    },
+    {
+     "name": "一点都不…… (chẳng…chút nào)",
+     "example": "你居然还追问，一点都不识趣",
+     "meaning": "dùng để trách yêu, mang tính hờn dỗi giả vờ"
+    },
+    {
+     "name": "算你……，勉强…… (coi như bạn…, tạm chấp nhận…)",
+     "example": "算你会说话，勉强原谅你",
+     "meaning": "cấu trúc \"tha thứ nửa vờ nửa thật\", mang tính dí dỏm"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 39,
+   "titleHan": "黄果树瀑布的汹涌，酸汤鱼的心跳",
+   "titleVi": "Sự cuồn cuộn của thác Hoàng Quả Thụ, nhịp tim từ canh cá chua",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊贵州的两种特别体验，我是云英。德盛，你见过黄果树瀑布吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo guì zhōu de liǎng zhǒng tè bié tǐ yàn, wǒ shì yún yīng. dé shèng, nǐ jiàn guò huáng guǒ shù pù bù ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。见过视频，那种水从很高的地方直直冲下来，声音特别大，看着就觉得有力量。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. jiàn guò shì pín, nà zhǒng shuǐ cóng hěn gāo de dì fāng zhí zhí chōng xià lái, shēng yīn tè bié dà, kàn zhe jiù jué de yǒu lì liàng."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，据说站在瀑布旁边，水花溅到身上，衣服很快就湿透了，可还是有很多人愿意站近一点看。",
+     "draft_pinyin": "Yún yīng: duì, jù shuō zhàn zài pù bù páng biān, shuǐ huā jiàn dào shēn shàng, yī fú hěn kuài jiù shī tòu le, kě hái shì yǒu hěn duō rén yuàn yì zhàn jìn yì diǎn kàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，那种冲下来的水，一直不停，好像什么都拦不住它。",
+     "draft_pinyin": "Dé shèng: què shí, nà zhǒng chōng xià lái de shuǐ, yì zhí bù tíng, hǎo xiàng shén me dōu lán bú zhù tā."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，有些东西，一旦下定决心往前冲，就很难被什么挡住。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yǒu xiē dōng xī, yí dàn xià dìng jué xīn wǎng qián chōng, jiù hěn nán bèi shén me dǎng zhù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也是，我觉得，真正打动人的力量，往往不是安静的，而是这种一直往前的坚持。",
+     "draft_pinyin": "Dé shèng: yě shì, wǒ jué de, zhēn zhèng dǎ dòng rén de lì liàng, wǎng wǎng bú shì ān jìng de, ér shì zhè zhǒng yì zhí wǎng qián de jiān chí."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到心跳加速，你喝过贵州那种酸汤鱼吗？",
+     "draft_pinyin": "Yún yīng: shuō dào xīn tiào jiā sù, nǐ hē guò guì zhōu nà zhǒng suān tāng yú ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "喝过，那种汤又酸又辣，第一口下去，整个人都精神了，心跳好像都跟着快了一点。",
+     "draft_pinyin": "Dé shèng: hē guò, nà zhǒng tāng yòu suān yòu là, dì yī kǒu xià qù, zhěng gè rén dōu jīng shén le, xīn tiào hǎo xiàng dōu gēn zhe kuài le yì diǎn."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，那种酸味挺特别的，不是普通的酸，喝完还会一直想着那个味儿，忍不住想再喝一口。",
+     "draft_pinyin": "Yún yīng: duì, nà zhǒng suān wèi tǐng tè bié de, bú shì pǔ tōng de suān, hē wán hái huì yì zhí xiǎng zhe nà ge wèi ér, rěn bú zhù xiǎng zài hē yī kǒu."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，一开始觉得有点儿呛，可是喝着喝着，反而离不开那种又酸又辣的感觉了。",
+     "draft_pinyin": "Dé shèng: què shí, yī kāi shǐ jué de yǒu diǎn ér qiāng, kě shì hē zhe hē zhe, fǎn ér lí bù kāi nà zhǒng yòu suān yòu là de gǎn jué le."
+    },
+    {
+     "speaker": "云英",
+     "han": "（叹了口气，故意委屈）说起来，我最近心跳不太正常，绝对是你的锅。",
+     "draft_pinyin": "Yún yīng: (tàn le kǒu qì, gù yì wěi qū) shuō qǐ lái, wǒ zuì jìn xīn tiào bù tài zhèng cháng, jué duì shì nǐ de guō."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（一脸无辜）我做什么了？我又没让你喝酸汤鱼。",
+     "draft_pinyin": "Dé shèng: (yī liǎn wú gū) wǒ zuò shén me le? wǒ yòu méi ràng nǐ hē suān tāng yú."
+    },
+    {
+     "speaker": "云英",
+     "han": "不是酸汤鱼的锅，是你，每次录节目笑起来，都让我心跳跟着乱一下。",
+     "draft_pinyin": "Yún yīng: bú shì suān tāng yú de guō, shì nǐ, měi cì lù jié mù xiào qǐ lái, dōu ràng wǒ xīn tiào gēn zhe luàn yī xià."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑出声）那这个锅，我背得心甘情愿。",
+     "draft_pinyin": "Dé shèng: (xiào chū shēng) nà zhè ge guō, wǒ bèi dé xīn gān qíng yuàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（假装严肃）那你打算怎么赔？",
+     "draft_pinyin": "Yún yīng: (jiǎ zhuāng yán sù) nà nǐ dǎ suàn zěn me péi?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（想了想，认真地）赔你以后，天天陪你录节目，好不好？",
+     "draft_pinyin": "Dé shèng: (xiǎng le xiǎng, rèn zhēn dì) péi nǐ yǐ hòu, tiān tiān péi nǐ lù jié mù, hǎo bù hǎo?"
+    },
+    {
+     "speaker": "云英",
+     "han": "（笑着点头）行，这个赔偿，我接受，今天先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: (xiào zhe diǎn tóu) xíng, zhè ge péi cháng, wǒ jiē shòu, jīn tiān xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "瀑布",
+     "pinyin": "",
+     "meaning": "thác nước"
+    },
+    {
+     "word": "水花",
+     "pinyin": "",
+     "meaning": "bọt nước, tia nước"
+    },
+    {
+     "word": "湿透",
+     "pinyin": "",
+     "meaning": "ướt sũng"
+    },
+    {
+     "word": "决心",
+     "pinyin": "",
+     "meaning": "quyết tâm"
+    },
+    {
+     "word": "坚持",
+     "pinyin": "",
+     "meaning": "kiên trì"
+    },
+    {
+     "word": "酸汤鱼",
+     "pinyin": "",
+     "meaning": "canh cá chua"
+    },
+    {
+     "word": "酸辣",
+     "pinyin": "",
+     "meaning": "chua cay"
+    },
+    {
+     "word": "精神",
+     "pinyin": "",
+     "meaning": "tỉnh táo, phấn chấn"
+    },
+    {
+     "word": "心跳",
+     "pinyin": "",
+     "meaning": "nhịp tim"
+    },
+    {
+     "word": "呛",
+     "pinyin": "",
+     "meaning": "hăng, gắt (mùi vị)"
+    },
+    {
+     "word": "锅",
+     "pinyin": "",
+     "meaning": "(nghĩa lóng) đổ lỗi, \"gánh nồi\""
+    },
+    {
+     "word": "无辜",
+     "pinyin": "",
+     "meaning": "vô tội, ngây thơ"
+    },
+    {
+     "word": "赔偿",
+     "pinyin": "",
+     "meaning": "đền bù"
+    },
+    {
+     "word": "心甘情愿",
+     "pinyin": "",
+     "meaning": "vui lòng, tự nguyện"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一旦……就很难…… (một khi…thì rất khó…)",
+     "example": "",
+     "meaning": "一旦下定决心往前冲，就很难被什么挡住"
+    },
+    {
+     "name": "一开始……可是……反而…… (ban đầu…nhưng…lại…)",
+     "example": "",
+     "meaning": "一开始觉得有点儿呛，可是喝着喝着，反而离不开"
+    },
+    {
+     "name": "绝对是你的锅 (chắc chắn là lỗi của bạn)",
+     "example": "我最近心跳不太正常，绝对是你的锅",
+     "meaning": "cách đổ lỗi hài hước, thân mật giữa hai người thân thiết"
+    },
+    {
+     "name": "……我背得心甘情愿 (…tôi gánh cũng vui lòng)",
+     "example": "那这个锅，我背得心甘情愿",
+     "meaning": "cách nhận lỗi vui vẻ, mang tính đùa vui, tình cảm"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 40,
+   "titleHan": "内蒙古咸奶茶的踏实，烤羊肉的热情",
+   "titleVi": "Sự chân thật của trà sữa mặn Nội Mông, nhiệt tình của thịt cừu nướng",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想聊聊内蒙古的两种特别味道，我是云英。德盛，你喝过那种内蒙古的咸奶茶吗？",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng liáo liáo nèi méng gǔ de liǎng zhǒng tè bié wèi dào, wǒ shì yún yīng. dé shèng, nǐ hē guò nà zhǒng nèi méng gǔ de xián nǎi chá ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。喝过，一开始还以为奶茶都是甜的，结果喝下去是咸的，愣了一下。",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. hē guò, yī kāi shǐ hái yǐ wéi nǎi chá dōu shì tián de, jié guǒ hē xià qù shì xián de, lèng le yī xià."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，那种奶茶里加的是盐和炒米，不是糖，喝惯了甜奶茶的人，第一次喝可能会不太习惯。",
+     "draft_pinyin": "Yún yīng: duì, nà zhǒng nǎi chá lǐ jiā de shì yán hé chǎo mǐ, bú shì táng, hē guàn le tián nǎi chá de rén, dì yī cì hē kě néng huì bù tài xí guàn."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，可是喝了几口以后，反而觉得那种咸香挺舒服的，不会觉得腻。",
+     "draft_pinyin": "Dé shèng: què shí, kě shì hē le jǐ kǒu yǐ hòu, fǎn ér jué de nà zhǒng xián xiāng tǐng shū fú de, bú huì jué de nì."
+    },
+    {
+     "speaker": "云英",
+     "han": "这么说的话，有些味道，不靠甜来讨好人，反而靠着那种朴实的咸香，让人一直想喝下去。",
+     "draft_pinyin": "Yún yīng: zhè me shuō de huà, yǒu xiē wèi dào, bù kào tián lái tǎo hǎo rén, fǎn ér kào zhe nà zhǒng pǔ shí de xián xiāng, ràng rén yì zhí xiǎng hē xià qù."
+    },
+    {
+     "speaker": "德盛",
+     "han": "也是，我觉得，有时候比起甜言蜜语，那种实实在在的东西，反而更让人放心。",
+     "draft_pinyin": "Dé shèng: yě shì, wǒ jué de, yǒu shí hòu bǐ qǐ tián yán mì yǔ, nà zhǒng shí shí zài zài de dōng xī, fǎn ér gèng ràng rén fàng xīn."
+    },
+    {
+     "speaker": "云英",
+     "han": "说到实在，你吃过内蒙古的烤羊肉吗？",
+     "draft_pinyin": "Yún yīng: shuō dào shí zài, nǐ chī guò nèi méng gǔ de kǎo yáng ròu ma?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃过，那种羊肉整只烤得外皮金黄，一撕下来还带着油汁，特别香。",
+     "draft_pinyin": "Dé shèng: chī guò, nà zhǒng yáng ròu zhěng zhǐ kǎo dé wài pí jīn huáng, yī sī xià lái hái dài zhe yóu zhī, tè bié xiāng."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，据说那是当地人用来招待最重要的客人的，肉烤得越用心，代表心意越重。",
+     "draft_pinyin": "Yún yīng: duì, jù shuō nà shì dāng dì rén yòng lái zhāo dài zuì zhòng yào de kè rén de, ròu kǎo dé yuè yòng xīn, dài biǎo xīn yì yuè zhòng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "确实，吃着那种肉，能感觉到对方是真心想让你吃好，不是随便应付一下。",
+     "draft_pinyin": "Dé shèng: què shí, chī zhe nà zhǒng ròu, néng gǎn jué dào duì fāng shì zhēn xīn xiǎng ràng nǐ chī hǎo, bú shì suí biàn yìng fù yī xià."
+    },
+    {
+     "speaker": "云英",
+     "han": "（眨了眨眼）德盛，我们打个赌怎么样？",
+     "draft_pinyin": "Yún yīng: (zhǎ le zhǎ yǎn) dé shèng, wǒ men dǎ gè dǔ zěn me yàng?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "（好奇）赌什么？",
+     "draft_pinyin": "Dé shèng: (hào qí) dǔ shén me?"
+    },
+    {
+     "speaker": "云英",
+     "han": "赌你敢不敢，现在直接告诉我，你到底喜不喜欢我。",
+     "draft_pinyin": "Yún yīng: dǔ nǐ gǎn bù gǎn, xiàn zài zhí jiē gào sù wǒ, nǐ dào dǐ xǐ bù xǐ huān wǒ."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑着，毫不犹豫）这个赌注也太简单了——我喜欢你，答案一直都在，只是没人问。",
+     "draft_pinyin": "Dé shèng: (xiào zhe, háo bù yóu yù) zhè ge dǔ zhù yě tài jiǎn dān le--wǒ xǐ huān nǐ, dá àn yì zhí dōu zài, zhǐ shì méi rén wèn."
+    },
+    {
+     "speaker": "云英",
+     "han": "（愣了一下，脸有点红）……你这样说，我都不知道我们俩谁才是被下赌注的那个了。",
+     "draft_pinyin": "Yún yīng: (lèng le yī xià, liǎn yǒu diǎn hóng) ...... nǐ zhè yàng shuō, wǒ dōu bù zhī dào wǒ men liǎ shuí cái shì bèi xià dǔ zhù de nà ge le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "（笑）那就当我们俩都赢了呗。",
+     "draft_pinyin": "Dé shèng: (xiào) nà jiù dāng wǒ men liǎ dōu yíng le bei."
+    },
+    {
+     "speaker": "云英",
+     "han": "好啦好啦，今天先聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: hǎo la hǎo la, jīn tiān xiān liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "咸奶茶",
+     "pinyin": "",
+     "meaning": "trà sữa mặn"
+    },
+    {
+     "word": "炒米",
+     "pinyin": "",
+     "meaning": "gạo rang"
+    },
+    {
+     "word": "咸香",
+     "pinyin": "",
+     "meaning": "mặn thơm"
+    },
+    {
+     "word": "腻",
+     "pinyin": "",
+     "meaning": "ngấy, ngán"
+    },
+    {
+     "word": "朴实",
+     "pinyin": "",
+     "meaning": "mộc mạc, chân chất"
+    },
+    {
+     "word": "甜言蜜语",
+     "pinyin": "",
+     "meaning": "lời đường mật"
+    },
+    {
+     "word": "实在",
+     "pinyin": "",
+     "meaning": "thật lòng, thực tế"
+    },
+    {
+     "word": "烤羊肉",
+     "pinyin": "",
+     "meaning": "thịt cừu nướng"
+    },
+    {
+     "word": "招待",
+     "pinyin": "",
+     "meaning": "tiếp đón, đãi khách"
+    },
+    {
+     "word": "用心",
+     "pinyin": "",
+     "meaning": "dốc lòng, chú tâm"
+    },
+    {
+     "word": "打赌",
+     "pinyin": "",
+     "meaning": "đánh cược, cá cược"
+    },
+    {
+     "word": "赌注",
+     "pinyin": "",
+     "meaning": "tiền cược, mức cược"
+    },
+    {
+     "word": "毫不犹豫",
+     "pinyin": "",
+     "meaning": "không chút do dự"
+    },
+    {
+     "word": "赢",
+     "pinyin": "",
+     "meaning": "thắng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一开始还以为……结果…… (ban đầu còn tưởng…kết quả…)",
+     "example": "",
+     "meaning": "一开始还以为奶茶都是甜的，结果喝下去是咸的"
+    },
+    {
+     "name": "不靠……反而靠着…… (không dựa vào…mà lại dựa vào…)",
+     "example": "",
+     "meaning": "不靠甜来讨好人，反而靠着那种朴实的咸香"
+    },
+    {
+     "name": "赌你敢不敢…… (cá là bạn có dám…không)",
+     "example": "赌你敢不敢，现在直接告诉我",
+     "meaning": "cấu trúc thách đố tinh nghịch, dùng để khiêu khích đối phương thổ lộ"
+    }
+   ]
+  }
+ ]
+}

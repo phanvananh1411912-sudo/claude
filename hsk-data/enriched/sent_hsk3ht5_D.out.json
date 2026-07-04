@@ -1,0 +1,338 @@
+[
+ {
+  "group": "hsk3ht5",
+  "no": 32,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān jiēzhe liáo chī de huàtí, wǒ shì Yúnyīng. Déshèng, nǐ yǒu méiyǒu chīguò cōngyóumiàn?",
+    "vi": "Hôm nay chúng ta tiếp tục trò chuyện về chủ đề ăn uống, tôi là 云英. 德盛, anh đã ăn mì dầu hành bao giờ chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Chīguò, shuō qǐlái, zhè dào miàn tǐng jiǎndān de, zhǔyào cáiliào jiùshì miàntiáo hé cōngyóu, méiyǒu shénme tèbié fùzá de dōngxi.",
+    "vi": "Tôi là 德盛. Ăn rồi, nói ra thì món mì này khá đơn giản, nguyên liệu chính chỉ là sợi mì và dầu hành, chẳng có gì phức tạp đặc biệt cả.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Quèshí, gēn hěn duō fùzá de cài bǐ qǐlái, cōngyóumiàn suànshì bǐjiào jiācháng de yì zhǒng.",
+    "vi": "Đúng vậy, so với nhiều món phức tạp, mì dầu hành có thể xem là một món khá dân dã.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Duì, dànshì yǒu yí cì, wǒ chīle hěn duō tiān dàyú-dàròu yǐhòu, fǎn'ér tèbié xiǎng chī yì wǎn jiǎndān de cōngyóumiàn, nà zhǒng wèidào, ràng wǒ juéde tèbié shūfu.",
+    "vi": "Đúng, nhưng có một lần, sau khi ăn cao lương mỹ vị suốt mấy ngày, tôi lại đặc biệt thèm một bát mì dầu hành đơn giản, cái hương vị ấy khiến tôi thấy vô cùng dễ chịu.",
+    "grammar": [
+     "反而特别想…… (trái lại lại đặc biệt muốn…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, yǒu shíhou, yuè jiǎndān de dōngxi, fǎn'ér yuè ràng rén juéde tāshi.",
+    "vi": "Nói vậy thì, đôi khi, thứ càng đơn giản lại càng khiến người ta thấy an lòng.",
+    "grammar": [
+     "越……反而越让人觉得…… (càng…lại càng khiến người ta cảm thấy…)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Quèshí shì zhèyàng, bǐqǐ tiāntiān chī gè zhǒng dàcān, wǒ juéde, néng ān'ānjìngjìng de chī yì wǎn jiǎndān de miàn, yě tǐng xìngfú de.",
+    "vi": "Đúng là như vậy, so với ngày nào cũng ăn đủ loại đại tiệc, tôi thấy được yên yên tĩnh tĩnh ăn một bát mì đơn giản cũng thật hạnh phúc.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: (wēiwēi yíxiào) Tīng qǐlái, nǐ zhuīqiú de xìngfú, hǎoxiàng yě tǐng jiǎndān de.",
+    "vi": "(khẽ mỉm cười) Nghe ra thì, hạnh phúc mà anh theo đuổi hình như cũng khá đơn giản đấy.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Yěxǔ shì ba. Shuō dào zhège, nǐ zhīdào jiàohuājī ma?",
+    "vi": "Có lẽ vậy. Nói đến chuyện này, em biết món gà bọc đất không?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhīdào, nà zhǒng jī yào yòng nítǔ bāo qǐlái, fàng zài huǒ lǐ kǎo, wàimiàn kàn qǐlái tǐng cūcāo de.",
+    "vi": "Biết chứ, loại gà đó phải dùng đất sét bọc lại, đặt vào lửa mà nướng, bên ngoài trông khá thô ráp.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Duì, dànshì dǎkāi nà céng ní yǐhòu, lǐmiàn de jīròu tèbié nèn, wèidào yě bǎocún de tèbié hǎo.",
+    "vi": "Đúng, nhưng sau khi bóc lớp đất ấy ra, thịt gà bên trong đặc biệt mềm, hương vị cũng được giữ lại rất tốt.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, wàibiǎo kàn qǐlái pǔtōng, shènzhì yǒudiǎnr cūcāo, dànshì lǐmiàn cángzhe zuì hǎo de bùfen.",
+    "vi": "Nói vậy thì, bề ngoài trông bình thường, thậm chí hơi thô ráp, nhưng bên trong lại giấu phần ngon nhất.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Méicuò, wǒ juéde, zhè gēn hěn duō shìqing yě tǐng xiàng de, bùnéng zhǐ kàn wàibiǎo, hǎo dōngxi, chángcháng bèi bǎohù zài bù tài qǐyǎn de dìfang.",
+    "vi": "Chính xác, tôi thấy điều này cũng khá giống với nhiều chuyện, không thể chỉ nhìn bề ngoài, thứ tốt thường được che chở ở nơi chẳng mấy nổi bật.",
+    "grammar": [
+     "不能只看…… (không thể chỉ nhìn…)"
+    ]
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Shuō dào \"bǎohù\", wǒ dào xiǎngqǐle zòngzi, yòng hěn duō céng yèzi bāozhe, lǐmiàn cái shì tiántián de nuòmǐ.",
+    "vi": "Nói đến \"che chở\", tôi lại nhớ đến bánh ú, dùng nhiều lớp lá gói lại, bên trong mới là nếp ngọt ngào.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Duì, hǎoxiàng hěn duō hǎo dōngxi, dōu xūyào yì céng yì céng de bèi bāoguǒ hǎo, cáinéng ānquán de liú dào zuìhòu.",
+    "vi": "Đúng, hình như nhiều thứ tốt đều cần được bọc kỹ từng lớp từng lớp, mới có thể an toàn giữ lại đến sau cùng.",
+    "grammar": [
+     "需要……才能…… (cần…mới có thể…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Zhè jǐ zhǒng shíwù liáo xiàlái, dàoshì ràng wǒ fāxiàn, hǎochī de dōngxi bèihòu, hǎoxiàng dōu cángzhe lèisì de dàolǐ.",
+    "vi": "Trò chuyện qua mấy món ăn này, lại khiến tôi nhận ra, đằng sau những thứ ngon miệng hình như đều ẩn chứa những đạo lý tương tự.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Quèshí shì zhèyàng, hǎo, jīntiān jiù xiān liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Đúng là như vậy, thôi, hôm nay xin trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Wǒmen xià cì zàijiàn!",
+    "vi": "Chúng ta hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht5",
+  "no": 33,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng liáoliao Guǎngdōng diǎnxin, wǒ shì Yúnyīng. Déshèng, nǐ qù chīguò yí cì nà zhǒng yì lóng yì lóng shàng de diǎnxin ma?",
+    "vi": "Hôm nay muốn trò chuyện về điểm tâm Quảng Đông, tôi là 云英. 德盛, anh từng đi ăn loại điểm tâm dọn ra từng xửng từng xửng đó chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Chīguò, nà zhǒng diǎnxin quèshí tèbié duōyàng, xiājiǎo, shāomài, chāshāobāo, měi yì zhǒng wèidào dōu bù tài yíyàng.",
+    "vi": "Tôi là 德盛. Ăn rồi, loại điểm tâm đó quả thực rất đa dạng, há cảo tôm, xíu mại, bánh bao xá xíu, mỗi loại hương vị đều không giống nhau lắm.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Quèshí, yì zhuō diǎnxin bǎi chūlái, hǎoxiàng měi yíyàng dōu xiǎng cháng yìkǒu.",
+    "vi": "Đúng vậy, một bàn điểm tâm bày ra, hình như món nào cũng muốn nếm thử một miếng.",
+    "grammar": [
+     "一……好像每一样都…… (vừa…dường như cái nào cũng…)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Duì, wǒ jìde nà cì, fúwùyuán tuīzhe chē guòlái, wǒ yìzhí tiāo bù hǎo, zuìhòu shì pángbiān de péngyou bāng wǒ juédìng de.",
+    "vi": "Đúng, tôi nhớ lần đó, nhân viên đẩy xe đến, tôi cứ chọn mãi không xong, cuối cùng là người bạn bên cạnh giúp tôi quyết định.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, nàme duō xuǎnzé de shíhou, yǒu gè rén zài pángbiān bāngmáng ná zhǔyi, dàoshì tǐng fāngbiàn de.",
+    "vi": "Nói vậy thì, khi có nhiều lựa chọn thế, có một người bên cạnh giúp mình quyết, kể ra cũng khá tiện.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Quèshí, yí gè rén miànduì nàme duō xuǎnzé, fǎn'ér huì yǒudiǎnr yóuyù, liǎng gè rén yìqǐ shāngliang, hǎoxiàng gèng róngyì zuò juédìng.",
+    "vi": "Đúng, một mình đối mặt với nhiều lựa chọn thế lại có chút do dự, hai người cùng nhau bàn bạc, hình như dễ đưa ra quyết định hơn.",
+    "grammar": [
+     "一个人……反而……两个人一起……更容易…… (một mình…lại…hai người cùng…dễ hơn…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: (xiàole yíxià) Tīng qǐlái, nǐ hái tǐng yīlài biéren bāng nǐ ná zhǔyi de.",
+    "vi": "(cười một cái) Nghe ra thì, anh còn khá phụ thuộc vào việc người khác giúp anh quyết định đấy.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: (yě xiào) Yěxǔ shì ba, shuō dào chī de, nǐ zhīdào Dōngpōròu ma?",
+    "vi": "(cũng cười) Có lẽ vậy, nói đến chuyện ăn, em biết món thịt kho Đông Pha không?",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhīdào, nà dào cài hǎoxiàng yào dùn hěn cháng shíjiān, cáinéng bǎ ròu dùn de yòu ruǎn yòu rùwèi.",
+    "vi": "Biết chứ, món đó hình như phải hầm rất lâu, mới có thể kho thịt vừa mềm vừa thấm vị.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Duì, wǒ kànguò jièshào, shuō zhè dào cài zuì kǎoyàn de jiùshì huǒhou, huǒ tài dà róngyì hú, huǒ tài xiǎo yòu dùn bù tòu, děi mànman tiáozhěng.",
+    "vi": "Đúng, tôi từng đọc giới thiệu, nói món này thử thách nhất chính là độ lửa, lửa quá lớn dễ khê, lửa quá nhỏ lại hầm không nhừ, phải điều chỉnh từ từ.",
+    "grammar": [
+     "火太……又……得慢慢调整 (lửa quá…lại…phải điều chỉnh dần)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, zuò zhè dào cài, děi yǒu zúgòu de jīngyàn hé nàixīn, cáinéng gānghǎo bǎwò zhù nàge dù.",
+    "vi": "Nói vậy thì, làm món này phải có đủ kinh nghiệm và kiên nhẫn, mới có thể nắm bắt vừa đúng cái độ ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Quèshí, wǒ juéde, chéngshú de wèidào, hǎoxiàng dōu xūyào jīngguò zhèyàng yìdiǎn yìdiǎn tiáozhěng de guòchéng, jí bù lái.",
+    "vi": "Đúng, tôi thấy cái hương vị chín muồi hình như đều cần trải qua quá trình điều chỉnh từng chút từng chút như thế, không thể vội được.",
+    "grammar": [
+     "需要经过……的过程，急不来 (cần trải qua quá trình…, không thể vội)"
+    ]
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Zhè jù huà, yòng zài chī de shàngmiàn, hǎoxiàng yě kěyǐ yòng zài bié de dìfang.",
+    "vi": "Câu này, dùng cho chuyện ăn uống, hình như cũng có thể dùng cho những nơi khác.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: (xiào ér bù yǔ) Hǎo, jīntiān xiān liáo dào zhèlǐ.",
+    "vi": "(cười mà không nói) Thôi được, hôm nay trò chuyện đến đây trước.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht5",
+  "no": 34,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng liáoliao jǐ zhǒng bǐjiào tèbié de xiǎochī, wǒ shì Yúnyīng. Déshèng, nǐ chīguò Cháozhōu luóbogāo ma?",
+    "vi": "Hôm nay muốn trò chuyện về mấy loại món ăn vặt khá đặc biệt, tôi là 云英. 德盛, anh ăn bánh củ cải Triều Châu bao giờ chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Chīguò, nà zhǒng gāo wàimiàn jiān de jīnhuáng, yǎo yìkǒu, wàimiàn yǒudiǎnr cuì, lǐmiàn yòu tèbié ruǎn.",
+    "vi": "Tôi là 德盛. Ăn rồi, loại bánh đó bên ngoài rán vàng ruộm, cắn một miếng, ngoài hơi giòn, trong lại đặc biệt mềm.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Zhè zhǒng kǒugǎn de duìbǐ, quèshí tǐng yǒuyìsi de, wàimiàn jiāngù, lǐmiàn róuruǎn.",
+    "vi": "Sự tương phản về cảm giác này quả thật khá thú vị, bên ngoài cứng cáp, bên trong mềm mại.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Duì, wǒ dāngshí jiù xiǎng, zhè zhǒng dāpèi tǐng cōngming de, jì yǒu jiáojìn, yòu bú huì tài yìng, gānghǎo héshì.",
+    "vi": "Đúng, lúc đó tôi liền nghĩ, cách kết hợp này khá thông minh, vừa có độ dai, lại không quá cứng, vừa vặn hợp lý.",
+    "grammar": [
+     "既……又……刚好合适 (vừa…vừa…thì vừa hợp lý)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Shuō dào \"wàimiàn jiāngù, lǐmiàn róuruǎn\", nà nǐ chīguò chòudòufu ma?",
+    "vi": "Nói đến \"ngoài cứng cáp, trong mềm mại\", vậy anh ăn đậu phụ thối bao giờ chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Chīguò, shuō shíhuà, dì-yī cì wén dào nàge wèidào, wǒ quèshí yóuyùle yíxià, chàdiǎnr méi gǎn chī.",
+    "vi": "Ăn rồi, nói thật, lần đầu ngửi thấy cái mùi đó, tôi quả thực do dự một lúc, suýt nữa không dám ăn.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Hěn duō rén dì-yī cì dōu shì zhèyàng, guāng kào qìwèi pànduàn, hěn róngyì cuòguò lǐmiàn zhēnzhèng de wèidào.",
+    "vi": "Nhiều người lần đầu đều như vậy, chỉ dựa vào mùi để phán đoán, rất dễ bỏ lỡ hương vị thật sự bên trong.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Duì, hòulái gǔqǐ yǒngqì chīle yìkǒu, fāxiàn wèidào gēn xiǎngxiàng de wánquán bù yíyàng, tèbié xiāng, érqiě chīle hái xiǎng zài chī.",
+    "vi": "Đúng, sau đó lấy hết dũng khí ăn một miếng, phát hiện hương vị hoàn toàn khác với tưởng tượng, đặc biệt thơm, hơn nữa ăn rồi lại muốn ăn nữa.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhème shuō dehuà, yǒu shíhou, bùnéng zhǐ píng dì-yī yìnxiàng, huòzhě biéren zěnme shuō, jiù juédìng yào bú yào kàojìn yí gè dōngxi.",
+    "vi": "Nói vậy thì, đôi khi, không thể chỉ dựa vào ấn tượng đầu tiên, hay lời người khác nói, mà quyết định có nên đến gần một thứ gì đó hay không.",
+    "grammar": [
+     "不能只凭……就决定…… (không thể chỉ dựa vào…mà quyết định…)"
+    ]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Shuō de tǐng duì, děi zìjǐ qīnzì shì yí shì, cái zhīdào lǐmiàn cángzhe shénme.",
+    "vi": "Nói khá đúng, phải tự mình đích thân thử một chút, mới biết bên trong ẩn giấu điều gì.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: (dùnle yíxià, shēngyīn qīngle yìdiǎnr) Shuō dào \"qīnzì shì yí shì\", wǒ dào xiǎngqǐ Yúnnán yǒu yì zhǒng méiguīhuā zuò de diǎnxin, jiào méiguībǐng.",
+    "vi": "(ngừng một chút, giọng khẽ lại đôi phần) Nói đến \"tự mình thử một chút\", tôi lại nhớ Vân Nam có một loại điểm tâm làm từ hoa hồng, gọi là bánh hoa hồng.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Zhège wǒ tīngshuōguò, hǎoxiàng dàizhe yìdiǎnr huā de xiāngwèi.",
+    "vi": "Cái này tôi từng nghe nói, hình như mang theo một chút hương thơm của hoa.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Duì, nà zhǒng xiāngwèi tèbié dàn, dànshì chī wán yǐhòu, hǎoxiàng huì yìzhí liú zài zuǐ lǐ, yě liú zài xīn lǐ, hěn jiǔ dōu sàn bù diào.",
+    "vi": "Đúng, hương thơm đó đặc biệt nhạt, nhưng ăn xong rồi, hình như sẽ mãi lưu lại nơi đầu lưỡi, cũng lưu lại trong lòng, rất lâu vẫn không tan đi.",
+    "grammar": [
+     "好像会一直留在……也留在……很久都散不掉 (dường như sẽ mãi lưu lại ở…, cũng ở…, lâu không tan)"
+    ]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: (lèngle yíxià, kàn xiàng tā) Nǐ shuō zhè jù huà de shíhou, zěnme gǎnjué bù tài xiàng zài shuō bǐng.",
+    "vi": "(sững lại một chút, nhìn về phía cô) Lúc em nói câu này, sao anh lại cảm thấy không giống đang nói về bánh vậy.",
+    "grammar": [
+     "怎么感觉不太像在说…… (sao lại cảm thấy không giống đang nói về…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: (xiàole, méiyǒu zhíjiē huídá) Yěxǔ shì, yěxǔ bú shì, nǐ zìjǐ gǎnjué ba.",
+    "vi": "(cười, không trả lời thẳng) Có lẽ phải, có lẽ không, anh tự cảm nhận đi.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Hǎo, nà wǒ huì hǎohǎo \"gǎnjué\" yíxià, xīwàng zhè zhǒng yúxiāng, néng yìzhí liúzhe.",
+    "vi": "Được, vậy anh sẽ \"cảm nhận\" thật kỹ một chút, mong cái dư hương này có thể mãi lưu lại.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: (qīngqīng xiàole) Hǎo, jīntiān de huàtí jiù xiān liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "(khẽ cười) Thôi được, chủ đề hôm nay xin trò chuyện đến đây trước, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Wǒmen xià cì zàijiàn!",
+    "vi": "Chúng ta hẹn gặp lại lần sau nhé!",
+    "grammar": []
+   }
+  ]
+ }
+]

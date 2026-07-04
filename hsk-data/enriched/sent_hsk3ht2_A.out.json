@@ -1,0 +1,285 @@
+[
+ {
+  "group": "hsk3ht2",
+  "no": 7,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān xiǎng gēn dàjiā liáo jǐ gè tèbié yǒuyìsi de zhōngwén shuōfǎ, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay muốn cùng mọi người trò chuyện về mấy cách nói tiếng Trung cực kỳ thú vị, tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Zhèxiē shuōfǎ shì shénmeyàng de?",
+    "vi": "Tôi là 德盛. Những cách nói này là kiểu như thế nào vậy?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Jiùshì nà zhǒng, zìmiàn yìsi gēn zhēnzhèng yìsi wánquán bù yíyàng de duǎnyǔ, Zhōngguó rén rìcháng shuōhuà jīngcháng yòng.",
+    "vi": "Chính là kiểu cụm từ mà nghĩa đen với nghĩa thật hoàn toàn không giống nhau, người Trung Quốc trong nói chuyện hằng ngày rất hay dùng.",
+    "grammar": [
+     "字面意思跟真正意思……不一样 (nghĩa đen khác nghĩa thật)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Éi, zhège wǒ zuì xǐhuān le, kuài shuōshuō kàn.",
+    "vi": "Ơ, cái này tôi thích nhất đấy, mau nói thử xem nào.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Hǎo, dì-yī gè shì \"hē xīběifēng\", nǐ cāicai zhè jù huà shì shénme yìsi?",
+    "vi": "Được, cái đầu tiên là 'uống gió Tây Bắc' (喝西北风), bạn đoán thử xem câu này nghĩa là gì?",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Zìmiàn kàn qǐlái, shì bú shì shuō, tiānqì lěng de shíhòu, zhǐ néng hēhē fēng qǔnuǎn?",
+    "vi": "Nhìn theo mặt chữ, có phải là nói khi trời lạnh, chỉ có thể uống chút gió để sưởi ấm không?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Hāhā, fāngxiàng shì duì de, dàn yìsi bù wánquán shì zhèyàng. \"Hē xīběifēng\", qíshí shì shuō yí gè rén méiyǒu qián, méiyǒu dōngxi chī, zhǐ néng \"hē fēng\" guò rìzi.",
+    "vi": "Ha ha, hướng thì đúng rồi, nhưng ý nghĩa không hoàn toàn như vậy. 'Uống gió Tây Bắc' thực ra là nói về một người không có tiền, không có gì để ăn, chỉ có thể 'uống gió' mà sống qua ngày.",
+    "grammar": [
+     "其实是说…… (thực ra là nói về…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Ó, wǒ dǒng le, jiùshì shuō qióng de méi fàn chī, zhǐ néng kào fēng \"tián bǎo dùzi\".",
+    "vi": "Ồ, tôi hiểu rồi, tức là nói nghèo đến mức không có cơm ăn, chỉ có thể dựa vào gió để 'lấp đầy cái bụng'.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Duì, bǐrú \"zhège yuè qián huā wán le, wǒmen zhǐ néng hē xīběifēng le\", jiùshì kāiwánxiào shuō méi qián chīfàn de yìsi.",
+    "vi": "Đúng, ví dụ 'tháng này tiêu hết tiền rồi, chúng ta chỉ có thể uống gió Tây Bắc thôi', chính là cách nói đùa rằng không có tiền ăn cơm.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Zhège shuōfǎ zhēn xíngxiàng. Nà dì-èr gè shì shénme?",
+    "vi": "Cách nói này thật sinh động. Vậy cái thứ hai là gì?",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Dì-èr gè shì \"chīcù\", nǐ tīng dào zhège cí, huì xiǎng dào shénme?",
+    "vi": "Cái thứ hai là 'ăn giấm' (吃醋), bạn nghe từ này, sẽ nghĩ đến điều gì?",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Chīcù? Zìmiàn shàng shì chī nà zhǒng suānsuān de tiáoliào ba, dànshì wǒ cāi zhēnzhèng yìsi yīnggāi gēn gǎnqíng yǒuguān.",
+    "vi": "Ăn giấm? Theo mặt chữ thì là ăn cái loại gia vị chua chua đó phải không, nhưng tôi đoán nghĩa thật chắc là liên quan đến tình cảm.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Méicuò! \"Chīcù\" shì yòng lái xíngróng yí gè rén yīnwèi gǎnqíng shàng de yuányīn, xīnlǐ juéde jídù, bǐrú nán-nǚ péngyǒu zhījiān.",
+    "vi": "Chính xác! 'Ăn giấm' được dùng để miêu tả một người vì lý do tình cảm mà trong lòng cảm thấy ghen tị, ví dụ như giữa bạn trai bạn gái.",
+    "grammar": [
+     "用来形容…… (dùng để miêu tả…)"
+    ]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Zhème shuō dehuà, rúguǒ wǒ shuō \"tā kàn dào nǚ péngyǒu gēn bié de nánshēng shuōhuà, xīnlǐ chīcù le\", jiùshì zhège yìsi?",
+    "vi": "Nói vậy thì, nếu tôi nói 'anh ấy thấy bạn gái nói chuyện với chàng trai khác, trong lòng ăn giấm rồi', chính là ý nghĩa này phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Duì, yòng de hěn zhǔnquè. Zuìhòu yí gè, wǒmen lái shuōshuo \"chǎo lěngfàn\".",
+    "vi": "Đúng, dùng rất chính xác. Cái cuối cùng, chúng ta nói về 'xào cơm nguội' (炒冷饭).",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Chǎo lěngfàn...... zìmiàn shàng jiùshì bǎ yǐjīng liáng le de mǐfàn chóngxīn chǎo yíxià?",
+    "vi": "Xào cơm nguội... theo mặt chữ thì chính là đem cơm đã nguội lạnh xào lại một lần nữa phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Duì, zìmiàn shì zhèyàng, dànshì yǐnshēn de yìsi shì, yìzhí chóngfù shuō tóngyàng de huà, huòzhě zuò tóngyàng de shìqíng, méiyǒu xīn de nèiróng.",
+    "vi": "Đúng, mặt chữ là như vậy, nhưng nghĩa mở rộng là cứ lặp đi lặp lại nói cùng một lời, hoặc làm cùng một việc, không có nội dung gì mới.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Ó, zhème shuō dehuà, rúguǒ yí gè lǎoshī shàngkè, zǒngshì jiǎng yíyàng de dōngxi, xuéshēng jiù kěyǐ shuō \"lǎoshī yòu zài chǎo lěngfàn le\"?",
+    "vi": "Ồ, nói vậy thì, nếu một giáo viên lên lớp, lúc nào cũng giảng cùng một thứ, học sinh có thể nói 'thầy lại đang xào cơm nguội rồi' phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Duì, yòng de fēicháng hǎo! Zhè jǐ gè shuōfǎ, dōu shì yòng shēnghuó lǐ hěn chángjiàn de huàmiàn, lái biǎodá bǐjiào chōuxiàng de gǎnjué.",
+    "vi": "Đúng, dùng rất hay! Mấy cách nói này đều dùng những hình ảnh rất thường gặp trong đời sống, để diễn đạt những cảm giác tương đối trừu tượng.",
+    "grammar": [
+     "用……的画面，来表达…… (dùng hình ảnh…để diễn đạt…)"
+    ]
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, zhōngwén lǐ zhè zhǒng biǎodá fāngshì, zhēn de tèbié yǒuyìsi, yě hěn shēnghuóhuà.",
+    "vi": "Nghe bạn nói vậy, cách diễn đạt kiểu này trong tiếng Trung thật sự đặc biệt thú vị, mà cũng rất đời thường.",
+    "grammar": []
+   },
+   {
+    "idx": 21,
+    "pinyin": "Yúnyīng: Méicuò, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Chính xác, được rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Déshèng: Wǒmen xiàcì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht2",
+  "no": 8,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yúnyīng: Jīntiān wǒmen jìxù liáo jǐ gè yǒuyìsi de zhōngwén shuōfǎ, wǒ shì Yúnyīng.",
+    "vi": "Hôm nay chúng ta tiếp tục trò chuyện về mấy cách nói tiếng Trung thú vị, tôi là 云英.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Déshèng: Wǒ shì Déshèng. Shàng cì nà jǐ gè wǒ dōu jìzhù le, jīntiān yòu yǒu xīn de le ma?",
+    "vi": "Tôi là 德盛. Mấy cái lần trước tôi đều nhớ hết rồi, hôm nay lại có cái mới nữa à?",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yúnyīng: Yǒu a, dì-yī gè shì \"fàng gēzi\", nǐ cāicai zhè shì shénme yìsi?",
+    "vi": "Có chứ, cái đầu tiên là 'thả bồ câu' (放鸽子), bạn đoán thử xem đây là nghĩa gì?",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Déshèng: Zìmiàn shàng, shì bú shì shuō, bǎ gēzi fàng chūqù, fàngfēi tā?",
+    "vi": "Theo mặt chữ, có phải là nói thả con bồ câu ra, cho nó bay đi không?",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yúnyīng: Zìmiàn shì zhèyàng, dànshì zhè jù huà zhēnzhèng de yìsi shì, gēn biérén yuē hǎo le jiànmiàn, jiéguǒ zìjǐ méiyǒu qù, ràng duìfāng bái děng.",
+    "vi": "Mặt chữ là như vậy, nhưng ý nghĩa thật của câu này là, đã hẹn gặp mặt với người khác, kết quả bản thân lại không đi, để đối phương chờ uổng công.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Déshèng: Ó! Zhème shuō dehuà, rúguǒ wǒ gēn péngyǒu yuē hǎo liù diǎn jiànmiàn, dànshì wǒ méi qù, yě méi gàosù tā, jiù kěyǐ shuō wǒ \"fàng le tā gēzi\"?",
+    "vi": "Ồ! Nói vậy thì, nếu tôi hẹn với bạn sáu giờ gặp mặt, nhưng tôi không đi, cũng không báo cho cậu ấy, thì có thể nói tôi 'thả bồ câu cậu ấy' phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yúnyīng: Duì, yòng de fēicháng zhǔnquè. Dì-èr gè shuōfǎ shì \"dǎ tuìtánggǔ\".",
+    "vi": "Đúng, dùng rất chính xác. Cách nói thứ hai là 'đánh trống lui quân' (打退堂鼓).",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Déshèng: Zhège zìmiàn tīng qǐlái, gēn dǎ gǔ yǒu guānxì, dànshì wǒ cāi bù chū zhēnzhèng yìsi.",
+    "vi": "Cái này theo mặt chữ nghe thì liên quan đến đánh trống, nhưng tôi đoán không ra nghĩa thật.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Yúnyīng: Zhège shuōfǎ, láizì gǔdài dǎzhàng de shíhòu, rúguǒ jūnduì xiǎng chètuì, jiù huì dǎ yì zhǒng tèbié de gǔshēng dàngzuò xìnhào.",
+    "vi": "Cách nói này bắt nguồn từ thời cổ đại khi đánh trận, nếu quân đội muốn rút lui, thì sẽ đánh một loại tiếng trống đặc biệt để làm tín hiệu.",
+    "grammar": [
+     "来自…… (bắt nguồn từ…)"
+    ]
+   },
+   {
+    "idx": 10,
+    "pinyin": "Déshèng: Ó, suǒyǐ \"dǎ tuìtánggǔ\", jiùshì biǎoshì, yí jiàn shìqíng běnlái dǎsuàn zuò, dànshì zhōngtú yòu bù xiǎng zuò le, juédìng fàngqì?",
+    "vi": "Ồ, vậy nên 'đánh trống lui quân' chính là biểu thị, một việc vốn dự định làm, nhưng giữa chừng lại không muốn làm nữa, quyết định từ bỏ phải không?",
+    "grammar": [
+     "本来打算……结果…… (vốn dự định…nhưng kết quả…)"
+    ]
+   },
+   {
+    "idx": 11,
+    "pinyin": "Yúnyīng: Méicuò, bǐrú \"tā yì kāishǐ shuō yào xué yóuyǒng, jiéguǒ yóu le liǎng cì jiù dǎ tuìtánggǔ le\", jiùshì shuō tā bànlù fàngqì le.",
+    "vi": "Chính xác, ví dụ 'anh ấy ban đầu nói muốn học bơi, kết quả bơi hai lần là đánh trống lui quân rồi', chính là nói anh ấy bỏ cuộc giữa đường.",
+    "grammar": [
+     "本来打算……结果…… (vốn dự định…nhưng kết quả…)"
+    ]
+   },
+   {
+    "idx": 12,
+    "pinyin": "Déshèng: Zhège shuōfǎ zhēn xíngxiàng, yì tīng jiù néng xiǎngxiàng chū nà zhǒng \"xiǎng chètuì\" de gǎnjué.",
+    "vi": "Cách nói này thật sinh động, vừa nghe là có thể tưởng tượng ra cái cảm giác 'muốn rút lui' đó.",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Yúnyīng: Duì, zuìhòu yí gè shì \"mǎhòupào\", nǐ yǒu méiyǒu tīng guò zhège shuōfǎ?",
+    "vi": "Đúng, cái cuối cùng là 'pháo sau ngựa' (马后炮), bạn có từng nghe qua cách nói này chưa?",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Déshèng: Tīng guò, dànshì bú tài quèdìng yìsi, shì bú shì gēn xiàqí yǒu guānxì?",
+    "vi": "Nghe qua rồi, nhưng không chắc lắm về nghĩa, có phải là liên quan đến đánh cờ không?",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Yúnyīng: Duì, \"mǎhòupào\" láizì Zhōngguó xiàngqí, zhǐ de shì zài \"mǎ\" hòumiàn cái zǒu de \"pào\", nàge shíhòu, hěn duō qíngkuàng yǐjīng juédìng le, zǒu zhè yí bù yǐjīng méi shénme yòng le.",
+    "vi": "Đúng, 'pháo sau ngựa' bắt nguồn từ cờ tướng Trung Quốc, chỉ về con 'pháo' đi sau con 'mã', lúc đó nhiều tình huống đã được định đoạt rồi, đi nước này cũng chẳng có tác dụng gì nữa.",
+    "grammar": [
+     "来自…… (bắt nguồn từ…)",
+     "指的是…… (chỉ về, nghĩa là…)"
+    ]
+   },
+   {
+    "idx": 16,
+    "pinyin": "Déshèng: Nà yǐnshēn de yìsi, yīnggāi shì shuō, shìqíng yǐjīng fāshēng yǐhòu, cái tíchū jiànyì huòzhě shuō gāi zěnme zuò, yǐjīng láibují le?",
+    "vi": "Vậy nghĩa mở rộng chắc là nói, sau khi sự việc đã xảy ra rồi mới đưa ra đề nghị hoặc nói nên làm thế nào, thì đã không kịp nữa phải không?",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Yúnyīng: Wánquán zhèngquè! Bǐrú bǐsài jiéshù yǐhòu, cái shuō \"yīnggāi zěnme dǎ jiù hǎo le\", biérén jiù huì shuō, nǐ zhè shì \"fàng mǎhòupào\".",
+    "vi": "Hoàn toàn đúng! Ví dụ sau khi trận đấu kết thúc mới nói 'lẽ ra nên đánh thế này thì tốt rồi', người khác sẽ nói, bạn thế này là 'bắn pháo sau ngựa' đấy.",
+    "grammar": [
+     "完全正确！(hoàn toàn đúng!)"
+    ]
+   },
+   {
+    "idx": 18,
+    "pinyin": "Déshèng: Tīng nǐ zhème shuō, zhèxiē shuōfǎ zhēn de tèbié shēngdòng, yě néng ràng wǒmen gèng liǎojiě Zhōngguó rén shuōhuà de fāngshì.",
+    "vi": "Nghe bạn nói vậy, những cách nói này thật sự đặc biệt sinh động, cũng giúp chúng ta hiểu hơn về cách nói chuyện của người Trung Quốc.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Yúnyīng: Méicuò, hǎo, jīntiān jiù liáo dào zhèlǐ, xièxie dàjiā shōutīng.",
+    "vi": "Chính xác, được rồi, hôm nay trò chuyện đến đây thôi, cảm ơn mọi người đã lắng nghe.",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Déshèng: Wǒmen xiàcì zàijiàn!",
+    "vi": "Hẹn gặp lại lần sau!",
+    "grammar": []
+   }
+  ]
+ }
+]

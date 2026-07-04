@@ -1,0 +1,1338 @@
+{
+ "hsk3ht2": [
+  {
+   "kind": "dialogue",
+   "no": 7,
+   "titleHan": "喝西北风、吃醋、炒冷饭",
+   "titleVi": "Uống gió Tây Bắc, Ăn giấm, Xào cơm nguội",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天想跟大家聊几个特别有意思的中文说法，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān xiǎng gēn dà jiā liáo jǐ gè tè bié yǒu yì si de zhōng wén shuō fǎ, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。这些说法是什么样的？",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. zhè xiē shuō fǎ shì shén me yàng de?"
+    },
+    {
+     "speaker": "云英",
+     "han": "就是那种，字面意思跟真正意思完全不一样的短语，中国人日常说话经常用。",
+     "draft_pinyin": "Yún yīng: jiù shì nà zhǒng, zì miàn yì si gēn zhēn zhèng yì si wán quán bù yí yàng de duǎn yǔ, zhōng guó rén rì cháng shuō huà jīng cháng yòng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "诶，这个我最喜欢了，快说说看。",
+     "draft_pinyin": "Dé shèng: éi, zhè ge wǒ zuì xǐ huān le, kuài shuō shuō kàn."
+    },
+    {
+     "speaker": "云英",
+     "han": "好，第一个是\"喝西北风\"，你猜猜这句话是什么意思？",
+     "draft_pinyin": "Yún yīng: hǎo, dì yí gè shì\"hē xī běi fēng\", nǐ cāi cāi zhè jù huà shì shén me yì si?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "字面看起来，是不是说，天气冷的时候，只能喝喝风取暖？",
+     "draft_pinyin": "Dé shèng: zì miàn kàn qǐ lái, shì bú shì shuō, tiān qì lěng de shí hòu, zhǐ néng hē hē fēng qǔ nuǎn?"
+    },
+    {
+     "speaker": "云英",
+     "han": "哈哈，方向是对的，但意思不完全是这样。\"喝西北风\"，其实是说一个人没有钱、没有东西吃，只能\"喝风\"过日子。",
+     "draft_pinyin": "Yún yīng: hā hā, fāng xiàng shì duì de, dàn yì si bù wán quán shì zhè yàng. \"hē xī běi fēng\", qí shí shì shuō yí gè rén méi yǒu qián, méi yǒu dōng xī chī, zhǐ néng\"hē fēng\"guò rì zi."
+    },
+    {
+     "speaker": "德盛",
+     "han": "哦，我懂了，就是说穷得没饭吃，只能靠风\"填饱肚子\"。",
+     "draft_pinyin": "Dé shèng: ó, wǒ dǒng le, jiù shì shuō qióng dé méi fàn chī, zhǐ néng kào fēng\"tián bǎo dǔ zi\"."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，比如\"这个月钱花完了，我们只能喝西北风了\"，就是开玩笑说没钱吃饭的意思。",
+     "draft_pinyin": "Yún yīng: duì, bǐ rú\"zhè ge yuè qián huā wán le, wǒ men zhǐ néng hē xī běi fēng le\", jiù shì kāi wán xiào shuō méi qián chī fàn de yì si."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这个说法真形象。那第二个是什么？",
+     "draft_pinyin": "Dé shèng: zhè ge shuō fǎ zhēn xíng xiàng. nà dì èr gè shì shén me?"
+    },
+    {
+     "speaker": "云英",
+     "han": "第二个是\"吃醋\"，你听到这个词，会想到什么？",
+     "draft_pinyin": "Yún yīng: dì èr gè shì\"chī cù\", nǐ tīng dào zhè ge cí, huì xiǎng dào shén me?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "吃醋？字面上是吃那种酸酸的调料吧，但是我猜真正意思应该跟感情有关。",
+     "draft_pinyin": "Dé shèng: chī cù? zì miàn shàng shì chī nà zhǒng suān suān de tiáo liào ba, dàn shì wǒ cāi zhēn zhèng yì si yīng gāi gēn gǎn qíng yǒu guān."
+    },
+    {
+     "speaker": "云英",
+     "han": "没错！\"吃醋\"是用来形容一个人因为感情上的原因，心里觉得嫉妒，比如男女朋友之间。",
+     "draft_pinyin": "Yún yīng: méi cuò! \"chī cù\"shì yòng lái xíng róng yí gè rén yīn wèi gǎn qíng shàng de yuán yīn, xīn lǐ jué de jí dù, bǐ rú nán nǚ péng yǒu zhī jiān."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这么说的话，如果我说\"他看到女朋友跟别的男生说话，心里吃醋了\"，就是这个意思？",
+     "draft_pinyin": "Dé shèng: zhè me shuō de huà, rú guǒ wǒ shuō\"tā kàn dào nǚ péng yǒu gēn bié de nán shēng shuō huà, xīn lǐ chī cù le\", jiù shì zhè ge yì si?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，用得很准确。最后一个，我们来说说\"炒冷饭\"。",
+     "draft_pinyin": "Yún yīng: duì, yòng dé hěn zhǔn què. zuì hòu yí gè, wǒ men lái shuō shuō\"chǎo lěng fàn\"."
+    },
+    {
+     "speaker": "德盛",
+     "han": "炒冷饭……字面上就是把已经凉了的米饭重新炒一下？",
+     "draft_pinyin": "Dé shèng: chǎo lěng fàn...... zì miàn shàng jiù shì bǎ yǐ jīng liáng le de mǐ fàn chóng xīn chǎo yī xià?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，字面是这样，但是引申的意思是，一直重复说同样的话，或者做同样的事情，没有新的内容。",
+     "draft_pinyin": "Yún yīng: duì, zì miàn shì zhè yàng, dàn shì yǐn shēn de yì si shì, yì zhí chóng fù shuō tóng yàng de huà, huò zhě zuò tóng yàng de shì qíng, méi yǒu xīn de nèi róng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "哦，这么说的话，如果一个老师上课，总是讲一样的东西，学生就可以说\"老师又在炒冷饭了\"？",
+     "draft_pinyin": "Dé shèng: ó, zhè me shuō de huà, rú guǒ yí gè lǎo shī shàng kè, zǒng shì jiǎng yī yàng de dōng xī, xué shēng jiù kě yǐ shuō\"lǎo shī yòu zài chǎo lěng fàn le\"?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，用得非常好！这几个说法，都是用生活里很常见的画面，来表达比较抽象的感觉。",
+     "draft_pinyin": "Yún yīng: duì, yòng dé fēi cháng hǎo! zhè jǐ gè shuō fǎ, dōu shì yòng shēng huó lǐ hěn cháng jiàn de huà miàn, lái biǎo dá bǐ jiào chōu xiàng de gǎn jué."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，中文里这种表达方式，真的特别有意思，也很生活化。",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, zhōng wén lǐ zhè zhǒng biǎo dá fāng shì, zhēn de tè bié yǒu yì si, yě hěn shēng huó huà."
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: méi cuò, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "字面意思",
+     "pinyin": "",
+     "meaning": "nghĩa đen (nghĩa mặt chữ)"
+    },
+    {
+     "word": "短语",
+     "pinyin": "",
+     "meaning": "ngữ đoạn, cụm từ"
+    },
+    {
+     "word": "取暖",
+     "pinyin": "",
+     "meaning": "làm ấm, sưởi ấm"
+    },
+    {
+     "word": "填饱肚子",
+     "pinyin": "",
+     "meaning": "lấp đầy bụng, ăn no"
+    },
+    {
+     "word": "形象",
+     "pinyin": "",
+     "meaning": "mang tính hình ảnh, sinh động"
+    },
+    {
+     "word": "调料",
+     "pinyin": "",
+     "meaning": "gia vị"
+    },
+    {
+     "word": "嫉妒",
+     "pinyin": "",
+     "meaning": "ganh ghét, ghen tị"
+    },
+    {
+     "word": "引申",
+     "pinyin": "",
+     "meaning": "mở rộng nghĩa, suy rộng ra"
+    },
+    {
+     "word": "重复",
+     "pinyin": "",
+     "meaning": "lặp lại"
+    },
+    {
+     "word": "抽象",
+     "pinyin": "",
+     "meaning": "trừu tượng"
+    },
+    {
+     "word": "生活化",
+     "pinyin": "",
+     "meaning": "gần gũi đời sống"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "字面意思跟真正意思……不一样 (nghĩa đen khác nghĩa thật)",
+     "example": "字面意思跟真正意思完全不一样的短语",
+     "meaning": "giới thiệu khái niệm về thành ngữ có nghĩa bóng"
+    },
+    {
+     "name": "其实是说…… (thực ra là nói về…)",
+     "example": "\"喝西北风\"其实是说一个人没有钱、没有东西吃",
+     "meaning": "dẫn ra ý nghĩa thật ẩn sau câu nói"
+    },
+    {
+     "name": "用来形容…… (dùng để miêu tả…)",
+     "example": "\"吃醋\"是用来形容一个人因为感情原因心里嫉妒",
+     "meaning": "giải thích công năng của cách diễn đạt"
+    },
+    {
+     "name": "用……的画面，来表达…… (dùng hình ảnh…để diễn đạt…)",
+     "example": "用生活里常见的画面，来表达比较抽象的感觉",
+     "meaning": "tổng kết đặc điểm chung của các câu lóng"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 8,
+   "titleHan": "放鸽子、打退堂鼓、马后炮",
+   "titleVi": "Thả bồ câu, Đánh trống rút quân, Pháo sau lưng ngựa",
+   "sentences": [
+    {
+     "speaker": "云英",
+     "han": "今天我们继续聊几个有意思的中文说法，我是云英。",
+     "draft_pinyin": "Yún yīng: jīn tiān wǒ men jì xù liáo jǐ gè yǒu yì si de zhōng wén shuō fǎ, wǒ shì yún yīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我是德盛。上次那几个我都记住了，今天又有新的了吗？",
+     "draft_pinyin": "Dé shèng: wǒ shì dé shèng. shàng cì nà jǐ gè wǒ dōu jì zhù le, jīn tiān yòu yǒu xīn de le ma?"
+    },
+    {
+     "speaker": "云英",
+     "han": "有啊，第一个是\"放鸽子\"，你猜猜这是什么意思？",
+     "draft_pinyin": "Yún yīng: yǒu a, dì yí gè shì\"fàng gē zi\", nǐ cāi cāi zhè shì shén me yì si?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "字面上，是不是说，把鸽子放出去、放飞它？",
+     "draft_pinyin": "Dé shèng: zì miàn shàng, shì bú shì shuō, bǎ gē zi fàng chū qù, fàng fēi tā?"
+    },
+    {
+     "speaker": "云英",
+     "han": "字面是这样，但是这句话真正的意思是，跟别人约好了见面，结果自己没有去，让对方白等。",
+     "draft_pinyin": "Yún yīng: zì miàn shì zhè yàng, dàn shì zhè jù huà zhēn zhèng de yì si shì, gēn bié rén yuē hǎo le jiàn miàn, jié guǒ zì jǐ méi yǒu qù, ràng duì fāng bái děng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "哦！这么说的话，如果我跟朋友约好六点见面，但是我没去，也没告诉他，就可以说我\"放了他鸽子\"？",
+     "draft_pinyin": "Dé shèng: ó! zhè me shuō de huà, rú guǒ wǒ gēn péng yǒu yuē hǎo liù diǎn jiàn miàn, dàn shì wǒ méi qù, yě méi gào sù tā, jiù kě yǐ shuō wǒ\"fàng le tā gē zi\"?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，用得非常准确。第二个说法是\"打退堂鼓\"。",
+     "draft_pinyin": "Yún yīng: duì, yòng dé fēi cháng zhǔn què. dì èr gè shuō fǎ shì\"dǎ tuì táng gǔ\"."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这个字面听起来，跟打鼓有关系，但是我猜不出真正意思。",
+     "draft_pinyin": "Dé shèng: zhè ge zì miàn tīng qǐ lái, gēn dǎ gǔ yǒu guān xì, dàn shì wǒ cāi bù chū zhēn zhèng yì si."
+    },
+    {
+     "speaker": "云英",
+     "han": "这个说法，来自古代打仗的时候，如果军队想撤退，就会打一种特别的鼓声当作信号。",
+     "draft_pinyin": "Yún yīng: zhè ge shuō fǎ, lái zì gǔ dài dǎ zhàng de shí hòu, rú guǒ jūn duì xiǎng chè tuì, jiù huì dǎ yī zhǒng tè bié de gǔ shēng dàng zuò xìn hào."
+    },
+    {
+     "speaker": "德盛",
+     "han": "哦，所以\"打退堂鼓\"，就是表示，一件事情本来打算做，但是中途又不想做了，决定放弃？",
+     "draft_pinyin": "Dé shèng: ó, suǒ yǐ\"dǎ tuì táng gǔ\", jiù shì biǎo shì, yī jiàn shì qíng běn lái dǎ suàn zuò, dàn shì zhōng tú yòu bù xiǎng zuò le, jué dìng fàng qì?"
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，比如\"他一开始说要学游泳，结果游了两次就打退堂鼓了\"，就是说他半路放弃了。",
+     "draft_pinyin": "Yún yīng: méi cuò, bǐ rú\"tā yī kāi shǐ shuō yào xué yóu yǒng, jié guǒ yóu le liǎng cì jiù dǎ tuì táng gǔ le\", jiù shì shuō tā bàn lù fàng qì le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "这个说法真形象，一听就能想象出那种\"想撤退\"的感觉。",
+     "draft_pinyin": "Dé shèng: zhè ge shuō fǎ zhēn xíng xiàng, yī tīng jiù néng xiǎng xiàng chū nà zhǒng\"xiǎng chè tuì\"de gǎn jué."
+    },
+    {
+     "speaker": "云英",
+     "han": "对，最后一个是\"马后炮\"，你有没有听过这个说法？",
+     "draft_pinyin": "Yún yīng: duì, zuì hòu yí gè shì\"mǎ hòu pào\", nǐ yǒu méi yǒu tīng guò zhè ge shuō fǎ?"
+    },
+    {
+     "speaker": "德盛",
+     "han": "听过，但是不太确定意思，是不是跟下棋有关系？",
+     "draft_pinyin": "Dé shèng: tīng guò, dàn shì bù tài què dìng yì si, shì bú shì gēn xià qí yǒu guān xì?"
+    },
+    {
+     "speaker": "云英",
+     "han": "对，\"马后炮\"来自中国象棋，指的是在\"马\"后面才走的\"炮\"，那个时候，很多情况已经决定了，走这一步已经没什么用了。",
+     "draft_pinyin": "Yún yīng: duì, \"mǎ hòu pào\"lái zì zhōng guó xiàng qí, zhǐ de shì zài\"mǎ\"hòu miàn cái zǒu de\"pào\", nà ge shí hòu, hěn duō qíng kuàng yǐ jīng jué dìng le, zǒu zhè yī bù yǐ jīng méi shén me yòng le."
+    },
+    {
+     "speaker": "德盛",
+     "han": "那引申的意思，应该是说，事情已经发生以后，才提出建议或者说该怎么做，已经来不及了？",
+     "draft_pinyin": "Dé shèng: nà yǐn shēn de yì si, yīng gāi shì shuō, shì qíng yǐ jīng fā shēng yǐ hòu, cái tí chū jiàn yì huò zhě shuō gāi zěn me zuò, yǐ jīng lái bu jí le?"
+    },
+    {
+     "speaker": "云英",
+     "han": "完全正确！比如比赛结束以后，才说\"应该怎么打就好了\"，别人就会说，你这是\"放马后炮\"。",
+     "draft_pinyin": "Yún yīng: wán quán zhèng què! bǐ rú bǐ sài jié shù yǐ hòu, cái shuō\"yīng gāi zěn me dǎ jiù hǎo le\", bié rén jiù huì shuō, nǐ zhè shì\"fàng mǎ hòu pào\"."
+    },
+    {
+     "speaker": "德盛",
+     "han": "听你这么说，这些说法真的特别生动，也能让我们更了解中国人说话的方式。",
+     "draft_pinyin": "Dé shèng: tīng nǐ zhè me shuō, zhè xiē shuō fǎ zhēn de tè bié shēng dòng, yě néng ràng wǒ men gèng liǎo jiě zhōng guó rén shuō huà de fāng shì."
+    },
+    {
+     "speaker": "云英",
+     "han": "没错，好，今天就聊到这里，谢谢大家收听。",
+     "draft_pinyin": "Yún yīng: méi cuò, hǎo, jīn tiān jiù liáo dào zhè lǐ, xiè xiè dà jiā shōu tīng."
+    },
+    {
+     "speaker": "德盛",
+     "han": "我们下次再见！",
+     "draft_pinyin": "Dé shèng: wǒ men xià cì zài jiàn!"
+    }
+   ],
+   "vocab": [
+    {
+     "word": "鸽子",
+     "pinyin": "",
+     "meaning": "chim bồ câu"
+    },
+    {
+     "word": "放飞",
+     "pinyin": "",
+     "meaning": "thả bay"
+    },
+    {
+     "word": "约好",
+     "pinyin": "",
+     "meaning": "hẹn trước"
+    },
+    {
+     "word": "白等",
+     "pinyin": "",
+     "meaning": "đợi vô ích"
+    },
+    {
+     "word": "打仗",
+     "pinyin": "",
+     "meaning": "đánh trận"
+    },
+    {
+     "word": "军队",
+     "pinyin": "",
+     "meaning": "quân đội"
+    },
+    {
+     "word": "撤退",
+     "pinyin": "",
+     "meaning": "rút lui"
+    },
+    {
+     "word": "信号",
+     "pinyin": "",
+     "meaning": "tín hiệu"
+    },
+    {
+     "word": "中途",
+     "pinyin": "",
+     "meaning": "giữa đường, nửa chừng"
+    },
+    {
+     "word": "放弃",
+     "pinyin": "",
+     "meaning": "từ bỏ"
+    },
+    {
+     "word": "半路",
+     "pinyin": "",
+     "meaning": "giữa đường"
+    },
+    {
+     "word": "下棋",
+     "pinyin": "",
+     "meaning": "chơi cờ"
+    },
+    {
+     "word": "象棋",
+     "pinyin": "",
+     "meaning": "cờ tướng"
+    },
+    {
+     "word": "提出建议",
+     "pinyin": "",
+     "meaning": "đưa ra đề xuất"
+    },
+    {
+     "word": "来不及",
+     "pinyin": "",
+     "meaning": "không kịp"
+    },
+    {
+     "word": "生动",
+     "pinyin": "",
+     "meaning": "sống động"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "本来打算……结果…… (vốn dự định…nhưng kết quả…)",
+     "example": "本来打算做，但是中途又不想做了",
+     "meaning": "nêu kế hoạch ban đầu rồi dẫn kết quả trái ngược"
+    },
+    {
+     "name": "来自…… (bắt nguồn từ…)",
+     "example": "\"打退堂鼓\"来自古代打仗的时候",
+     "meaning": "dẫn nguồn gốc lịch sử của thành ngữ"
+    },
+    {
+     "name": "指的是…… (chỉ về, nghĩa là…)",
+     "example": "\"马后炮\"指的是在\"马\"后面才走的\"炮\"",
+     "meaning": "giải thích ý nghĩa gốc của thuật ngữ"
+    },
+    {
+     "name": "完全正确！(hoàn toàn đúng!)",
+     "example": "完全正确！比如比赛结束以后才说该怎么打",
+     "meaning": "khẩu ngữ xác nhận mạnh mẽ, dẫn ví dụ minh họa"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 9,
+   "titleHan": "冰上遇见你",
+   "titleVi": "Gặp em trên sân băng",
+   "sentences": [
+    {
+     "speaker": "教练",
+     "han": "小宇，今天的训练感觉怎么样？动作比上周稳定多了。",
+     "draft_pinyin": "Jiào liàn: xiǎo yǔ, jīn tiān de xùn liàn gǎn jué zěn me yàng? dòng zuò bǐ shàng zhōu wěn dìng duō le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "谢谢教练，我这几天一直在练那个转身的动作，总算找到一点儿感觉了。",
+     "draft_pinyin": "Lín yǔ: xiè xiè jiào liàn, wǒ zhè jǐ tiān yì zhí zài liàn nà ge zhuǎn shēn de dòng zuò, zǒng suàn zhǎo dào yì diǎn ér gǎn jué le."
+    },
+    {
+     "speaker": "教练",
+     "han": "不错，对了，下个月的比赛，学校决定让新来的那位选手，跟你一起练习双人项目。",
+     "draft_pinyin": "Jiào liàn: bù cuò, duì le, xià gè yuè de bǐ sài, xué xiào jué dìng ràng xīn lái de nà wèi xuǎn shǒu, gēn nǐ yì qǐ liàn xí shuāng rén xiàng mù."
+    },
+    {
+     "speaker": "林宇",
+     "han": "新来的选手？我还不知道这件事。",
+     "draft_pinyin": "Lín yǔ: xīn lái de xuǎn shǒu? wǒ hái bù zhī dào zhè jiàn shì."
+    },
+    {
+     "speaker": "教练",
+     "han": "她刚从别的城市转过来，滑冰的基础很好，性格也挺开朗的，你们应该能合作得不错。",
+     "draft_pinyin": "Jiào liàn: tā gāng cóng bié de chéng shì zhuǎn guò lái, huá bīng de jī chǔ hěn hǎo, xìng gé yě tǐng kāi lǎng de, nǐ men yīng gāi néng hé zuò dé bù cuò."
+    },
+    {
+     "speaker": "林宇",
+     "han": "好，那我等着见她。",
+     "draft_pinyin": "Lín yǔ: hǎo, nà wǒ děng zhe jiàn tā."
+    },
+    {
+     "speaker": "",
+     "han": "（几天以后，训练场上）",
+     "draft_pinyin": "(jǐ tiān yǐ hòu, xùn liàn chǎng shàng)"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "你好，我是苏晴，以后要跟你一起练双人项目了，请多指教。",
+     "draft_pinyin": "Sū qíng: nǐ hǎo, wǒ shì sū qíng, yǐ hòu yào gēn nǐ yì qǐ liàn shuāng rén xiàng mù le, qǐng duō zhǐ jiào."
+    },
+    {
+     "speaker": "林宇",
+     "han": "你好，我是林宇。教练跟我说过你，欢迎你加入我们队。",
+     "draft_pinyin": "Lín yǔ: nǐ hǎo, wǒ shì lín yǔ. jiào liàn gēn wǒ shuō guò nǐ, huān yíng nǐ jiā rù wǒ men duì."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "谢谢，说实话，我有点儿紧张，双人项目跟我以前练的不太一样，需要跟搭档配合得特别好。",
+     "draft_pinyin": "Sū qíng: xiè xiè, shuō shí huà, wǒ yǒu diǎn ér jǐn zhāng, shuāng rén xiàng mù gēn wǒ yǐ qián liàn de bù tài yī yàng, xū yào gēn dā dàng pèi hé dé tè bié hǎo."
+    },
+    {
+     "speaker": "林宇",
+     "han": "不用紧张，我们可以慢慢来，先熟悉一下彼此的节奏。",
+     "draft_pinyin": "Lín yǔ: bù yòng jǐn zhāng, wǒ men kě yǐ màn màn lái, xiān shú xī yī xià bǐ cǐ de jié zòu."
+    },
+    {
+     "speaker": "",
+     "han": "（几个月以后）",
+     "draft_pinyin": "(jǐ gè yuè yǐ hòu)"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "我发现，自从跟你一起练习以后，我在冰上好像比以前更放松了。",
+     "draft_pinyin": "Sū qíng: wǒ fā xiàn, zì cóng gēn nǐ yì qǐ liàn xí yǐ hòu, wǒ zài bīng shàng hǎo xiàng bǐ yǐ qián gèng fàng sōng le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "也许是因为，训练的时候，我们已经越来越了解对方的动作和习惯了。",
+     "draft_pinyin": "Lín yǔ: yě xǔ shì yīn wèi, xùn liàn de shí hòu, wǒ men yǐ jīng yuè lái yuè liǎo jiě duì fāng de dòng zuò hé xí guàn le."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "说到这个，我以前一个人训练的时候，觉得每天的生活除了训练，就是比赛，好像有点儿单调。",
+     "draft_pinyin": "Sū qíng: shuō dào zhè ge, wǒ yǐ qián yí gè rén xùn liàn de shí hòu, jué de měi tiān de shēng huó chú le xùn liàn, jiù shì bǐ sài, hǎo xiàng yǒu diǎn ér dān diào."
+    },
+    {
+     "speaker": "林宇",
+     "han": "那现在呢？",
+     "draft_pinyin": "Lín yǔ: nà xiàn zài ne?"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "现在，我发现每天来训练场，除了练习，也会期待跟你聊聊天，感觉生活好像不一样了。",
+     "draft_pinyin": "Sū qíng: xiàn zài, wǒ fā xiàn měi tiān lái xùn liàn chǎng, chú le liàn xí, yě huì qī dài gēn nǐ liáo liáo tiān, gǎn jué shēng huó hǎo xiàng bù yí yàng le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "其实我也有同样的感觉，以前我把所有精力都放在训练和比赛上，很少想别的事情。",
+     "draft_pinyin": "Lín yǔ: qí shí wǒ yě yǒu tóng yàng de gǎn jué, yǐ qián wǒ bǎ suǒ yǒu jīng lì dōu fàng zài xùn liàn hé bǐ sài shàng, hěn shǎo xiǎng bié de shì qíng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "那现在你会想什么？",
+     "draft_pinyin": "Sū qíng: nà xiàn zài nǐ huì xiǎng shén me?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "现在，除了想怎么把动作练得更好，我也会想，明天训练的时候，能不能早一点儿见到你。",
+     "draft_pinyin": "Lín yǔ: xiàn zài, chú le xiǎng zěn me bǎ dòng zuò liàn dé gèng hǎo, wǒ yě huì xiǎng, míng tiān xùn liàn de shí hòu, néng bù néng zǎo yì diǎn ér jiàn dào nǐ."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（笑）你这样说，我都不知道该怎么回答了。",
+     "draft_pinyin": "Sū qíng: (xiào) nǐ zhè yàng shuō, wǒ dōu bù zhī dào gāi zěn me huí dá le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "不用马上回答，我们还有很多时间，可以慢慢了解彼此。",
+     "draft_pinyin": "Lín yǔ: bù yòng mǎ shàng huí dá, wǒ men hái yǒu hěn duō shí jiān, kě yǐ màn màn liǎo jiě bǐ cǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "训练",
+     "pinyin": "",
+     "meaning": "huấn luyện, tập luyện"
+    },
+    {
+     "word": "转身",
+     "pinyin": "",
+     "meaning": "quay người"
+    },
+    {
+     "word": "选手",
+     "pinyin": "",
+     "meaning": "tuyển thủ, vận động viên"
+    },
+    {
+     "word": "双人项目",
+     "pinyin": "",
+     "meaning": "nội dung đôi (thi đấu)"
+    },
+    {
+     "word": "基础",
+     "pinyin": "",
+     "meaning": "nền tảng, cơ sở"
+    },
+    {
+     "word": "请多指教",
+     "pinyin": "",
+     "meaning": "mong được chỉ dạy thêm"
+    },
+    {
+     "word": "搭档",
+     "pinyin": "",
+     "meaning": "bạn diễn, đối tác"
+    },
+    {
+     "word": "配合",
+     "pinyin": "",
+     "meaning": "phối hợp"
+    },
+    {
+     "word": "彼此",
+     "pinyin": "",
+     "meaning": "lẫn nhau, đôi bên"
+    },
+    {
+     "word": "节奏",
+     "pinyin": "",
+     "meaning": "nhịp điệu"
+    },
+    {
+     "word": "自从",
+     "pinyin": "",
+     "meaning": "từ khi"
+    },
+    {
+     "word": "单调",
+     "pinyin": "",
+     "meaning": "đơn điệu"
+    },
+    {
+     "word": "期待",
+     "pinyin": "",
+     "meaning": "mong chờ"
+    },
+    {
+     "word": "精力",
+     "pinyin": "",
+     "meaning": "tinh thần, sức lực"
+    },
+    {
+     "word": "回答",
+     "pinyin": "",
+     "meaning": "trả lời"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "总算…… (rốt cuộc cũng…)",
+     "example": "我总算找到一点儿感觉了",
+     "meaning": "nhấn mạnh kết quả đạt được sau một quá trình cố gắng"
+    },
+    {
+     "name": "自从……以后…… (từ khi…thì…)",
+     "example": "自从跟你一起练习以后，我好像比以前更放松了",
+     "meaning": "xác định mốc thời gian bắt đầu của sự thay đổi"
+    },
+    {
+     "name": "除了……就是…… (ngoài…thì là…)",
+     "example": "每天的生活除了训练，就是比赛",
+     "meaning": "giới hạn phạm vi hoạt động, nhấn mạnh tính lặp lại đơn điệu"
+    },
+    {
+     "name": "也会想，能不能……(cũng sẽ nghĩ, có thể…không)",
+     "example": "我也会想，能不能早一点儿见到你",
+     "meaning": "diễn tả một mong muốn nhẹ nhàng, kín đáo"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 10,
+   "titleHan": "比赛前一晚",
+   "titleVi": "Đêm trước cuộc thi",
+   "sentences": [
+    {
+     "speaker": "苏晴",
+     "han": "明天就是比赛了，说实话，我这几天一直睡不太好，心里特别紧张。",
+     "draft_pinyin": "Sū qíng: míng tiān jiù shì bǐ sài le, shuō shí huà, wǒ zhè jǐ tiān yì zhí shuì bù tài hǎo, xīn lǐ tè bié jǐn zhāng."
+    },
+    {
+     "speaker": "林宇",
+     "han": "我知道，这次比赛对我们两个人来说都很重要，紧张也是正常的。",
+     "draft_pinyin": "Lín yǔ: wǒ zhī dào, zhè cì bǐ sài duì wǒ men liǎng gè rén lái shuō dōu hěn zhòng yào, jǐn zhāng yě shì zhèng cháng de."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "我担心，如果我明天在冰上出了什么差错，会不会影响我们这一年的努力。",
+     "draft_pinyin": "Sū qíng: wǒ dān xīn, rú guǒ wǒ míng tiān zài bīng shàng chū le shén me chā cuò, huì bú huì yǐng xiǎng wǒ men zhè yī nián de nǔ lì."
+    },
+    {
+     "speaker": "林宇",
+     "han": "你不用把所有的压力都放在自己身上，比赛是我们两个人一起完成的，无论结果怎样，我们都会一起承担。",
+     "draft_pinyin": "Lín yǔ: nǐ bù yòng bǎ suǒ yǒu de yā lì dōu fàng zài zì jǐ shēn shàng, bǐ sài shì wǒ men liǎng gè rén yì qǐ wán chéng de, wú lùn jié guǒ zěn yàng, wǒ men dū huì yì qǐ chéng dān."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "谢谢你这么说，心里确实觉得好受一点儿了。",
+     "draft_pinyin": "Sū qíng: xiè xiè nǐ zhè me shuō, xīn lǐ què shí jué de hǎo shòu yì diǎn ér le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "其实，我想跟你说一件事，从我们开始一起训练到现在，你给我的感觉，跟以前完全不一样。",
+     "draft_pinyin": "Lín yǔ: qí shí, wǒ xiǎng gēn nǐ shuō yī jiàn shì, cóng wǒ men kāi shǐ yì qǐ xùn liàn dào xiàn zài, nǐ gěi wǒ de gǎn jué, gēn yǐ qián wán quán bù yí yàng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "什么意思？",
+     "draft_pinyin": "Sū qíng: shén me yì si?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "以前，我的生活里，好像只有训练和比赛，每天想的都是怎么把动作练得更完美。",
+     "draft_pinyin": "Lín yǔ: yǐ qián, wǒ de shēng huó lǐ, hǎo xiàng zhǐ yǒu xùn liàn hé bǐ sài, měi tiān xiǎng de dōu shì zěn me bǎ dòng zuò liàn dé gèng wán měi."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "那现在呢？",
+     "draft_pinyin": "Sū qíng: nà xiàn zài ne?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "现在，除了动作和成绩，我发现自己也开始在意别的事情，比如你今天心情好不好，训练累不累。",
+     "draft_pinyin": "Lín yǔ: xiàn zài, chú le dòng zuò hé chéng jì, wǒ fā xiàn zì jǐ yě kāi shǐ zài yì bié de shì qíng, bǐ rú nǐ jīn tiān xīn qíng hǎo bù hǎo, xùn liàn lèi bù lèi."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（低头笑了一下）我也是，以前我觉得，滑冰就是我一个人的事情，跟别人没有太大关系。",
+     "draft_pinyin": "Sū qíng: (dī tóu xiào le yī xià) wǒ yě shì, yǐ qián wǒ jué de, huá bīng jiù shì wǒ yí gè rén de shì qíng, gēn bié rén méi yǒu tài dà guān xì."
+    },
+    {
+     "speaker": "林宇",
+     "han": "那现在？",
+     "draft_pinyin": "Lín yǔ: nà xiàn zài?"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "现在，每次滑冰的时候，我都会想，希望你也能在旁边看着，这样我才会觉得更有力量。",
+     "draft_pinyin": "Sū qíng: xiàn zài, měi cì huá bīng de shí hòu, wǒ dū huì xiǎng, xī wàng nǐ yě néng zài páng biān kàn zhe, zhè yàng wǒ cái huì jué de gèng yǒu lì liàng."
+    },
+    {
+     "speaker": "林宇",
+     "han": "听你这么说，我心里也很温暖。不管明天比赛的结果怎么样，能有这一年一起努力的经历，我已经觉得很值得了。",
+     "draft_pinyin": "Lín yǔ: tīng nǐ zhè me shuō, wǒ xīn lǐ yě hěn wēn nuǎn. bù guǎn míng tiān bǐ sài de jié guǒ zěn me yàng, néng yǒu zhè yī nián yì qǐ nǔ lì de jīng lì, wǒ yǐ jīng jué de hěn zhí de le."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "我也是这么想的，好，那我们早点儿休息，明天好好比赛。",
+     "draft_pinyin": "Sū qíng: wǒ yě shì zhè me xiǎng de, hǎo, nà wǒ men zǎo diǎn ér xiū xī, míng tiān hǎo hǎo bǐ sài."
+    },
+    {
+     "speaker": "林宇",
+     "han": "好，晚安，苏晴。",
+     "draft_pinyin": "Lín yǔ: hǎo, wǎn ān, sū qíng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "晚安。",
+     "draft_pinyin": "Sū qíng: wǎn ān."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "差错",
+     "pinyin": "",
+     "meaning": "sai sót, lỗi"
+    },
+    {
+     "word": "压力",
+     "pinyin": "",
+     "meaning": "áp lực"
+    },
+    {
+     "word": "承担",
+     "pinyin": "",
+     "meaning": "chịu trách nhiệm, đảm nhận"
+    },
+    {
+     "word": "好受",
+     "pinyin": "",
+     "meaning": "dễ chịu hơn"
+    },
+    {
+     "word": "在意",
+     "pinyin": "",
+     "meaning": "để tâm, quan tâm"
+    },
+    {
+     "word": "低头",
+     "pinyin": "",
+     "meaning": "cúi đầu"
+    },
+    {
+     "word": "力量",
+     "pinyin": "",
+     "meaning": "sức mạnh"
+    },
+    {
+     "word": "温暖",
+     "pinyin": "",
+     "meaning": "ấm áp"
+    },
+    {
+     "word": "值得",
+     "pinyin": "",
+     "meaning": "đáng giá"
+    },
+    {
+     "word": "晚安",
+     "pinyin": "",
+     "meaning": "chúc ngủ ngon"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "如果……会不会…… (nếu…có…không?)",
+     "example": "如果我明天出了差错，会不会影响我们的努力",
+     "meaning": "câu hỏi giả định thể hiện lo lắng"
+    },
+    {
+     "name": "不用把……都放在自己身上 (không cần đặt hết…lên bản thân)",
+     "example": "你不用把所有压力都放在自己身上",
+     "meaning": "khuyên nhủ giảm bớt gánh nặng tâm lý"
+    },
+    {
+     "name": "从……到现在…… (từ…đến giờ…)",
+     "example": "从我们开始一起训练到现在，你给我的感觉完全不一样",
+     "meaning": "xác định khoảng thời gian dẫn đến sự thay đổi"
+    },
+    {
+     "name": "不管……我已经觉得…… (bất kể…tôi đã thấy…)",
+     "example": "不管明天结果怎样，我已经觉得很值得了",
+     "meaning": "nhấn mạnh giá trị không phụ thuộc vào kết quả"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 11,
+   "titleHan": "心跳比滑得快",
+   "titleVi": "Nhịp tim còn nhanh hơn tốc độ trượt",
+   "sentences": [
+    {
+     "speaker": "苏晴",
+     "han": "刚才我们那个双人旋转动作，速度是不是比平时快了一点儿？",
+     "draft_pinyin": "Sū qíng: gāng cái wǒ men nà ge shuāng rén xuán zhuǎn dòng zuò, sù dù shì bú shì bǐ píng shí kuài le yì diǎn ér?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "确实快了不少，教练说我们配合得越来越好，动作也越来越有默契。",
+     "draft_pinyin": "Lín yǔ: què shí kuài le bù shǎo, jiào liàn shuō wǒ men pèi hé dé yuè lái yuè hǎo, dòng zuò yě yuè lái yuè yǒu mò qì."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "说到速度，我发现，我们滑得越快，观众的掌声也越热烈，感觉特别有成就感。",
+     "draft_pinyin": "Sū qíng: shuō dào sù dù, wǒ fā xiàn, wǒ men huá dé yuè kuài, guān zhòng de zhǎng shēng yě yuè rè liè, gǎn jué tè bié yǒu chéng jiù gǎn."
+    },
+    {
+     "speaker": "林宇",
+     "han": "不过说实话，比起滑冰的速度，还有一件事让我的心跳得更快。",
+     "draft_pinyin": "Lín yǔ: bù guò shuō shí huà, bǐ qǐ huá bīng de sù dù, hái yǒu yī jiàn shì ràng wǒ de xīn tiào dé gèng kuài."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "是什么事？",
+     "draft_pinyin": "Sū qíng: shì shén me shì?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "就是刚才，我们转身的时候，你正好抬头看向我，那一瞬间，我心里跳得特别快，比我们滑冰的速度还快。",
+     "draft_pinyin": "Lín yǔ: jiù shì gāng cái, wǒ men zhuǎn shēn de shí hòu, nǐ zhèng hǎo tái tóu kàn xiàng wǒ, nà yī shùn jiān, wǒ xīn lǐ tiào dé tè bié kuài, bǐ wǒ men huá bīng de sù dù hái kuài."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（愣了一下）你这么一说，我都不知道该看哪里了。",
+     "draft_pinyin": "Sū qíng: (lèng le yī xià) nǐ zhè me yī shuō, wǒ dōu bù zhī dào gāi kàn nǎ lǐ le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "不用不好意思，我只是觉得，滑冰的速度，可以靠训练慢慢练出来，但是这种心跳的感觉，好像没办法控制。",
+     "draft_pinyin": "Lín yǔ: bù yòng bù hǎo yì sī, wǒ zhǐ shì jué de, huá bīng de sù dù, kě yǐ kào xùn liàn màn màn liàn chū lái, dàn shì zhè zhǒng xīn tiào de gǎn jué, hǎo xiàng méi bàn fǎ kòng zhì."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "这么说的话，你是在说……",
+     "draft_pinyin": "Sū qíng: zhè me shuō de huà, nǐ shì zài shuō......"
+    },
+    {
+     "speaker": "林宇",
+     "han": "我是想说，每次跟你对视的时候，我都会觉得，心里那种紧张又高兴的感觉，比任何一个高难度动作都更让我印象深刻。",
+     "draft_pinyin": "Lín yǔ: wǒ shì xiǎng shuō, měi cì gēn nǐ duì shì de shí hòu, wǒ dū huì jué de, xīn lǐ nà zhǒng jǐn zhāng yòu gāo xìng de gǎn jué, bǐ rèn hé yí gè gāo nán dù dòng zuò dōu gèng ràng wǒ yìn xiàng shēn kè."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（笑）原来滑冰这么久，你心里想的，比我以为的还要多。",
+     "draft_pinyin": "Sū qíng: (xiào) yuán lái huá bīng zhè me jiǔ, nǐ xīn lǐ xiǎng de, bǐ wǒ yǐ wéi de hái yào duō."
+    },
+    {
+     "speaker": "林宇",
+     "han": "以后训练的时候，也请你多担待，如果我动作偶尔慢了半拍，可能就是因为，正好看到你在旁边看着我。",
+     "draft_pinyin": "Lín yǔ: yǐ hòu xùn liàn de shí hòu, yě qǐng nǐ duō dān dài, rú guǒ wǒ dòng zuò ǒu ěr màn le bàn pāi, kě néng jiù shì yīn wèi, zhèng hǎo kàn dào nǐ zài páng biān kàn zhe wǒ."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "好，那我以后会注意，尽量不让你分心。",
+     "draft_pinyin": "Sū qíng: hǎo, nà wǒ yǐ hòu huì zhù yì, jǐn liàng bù ràng nǐ fēn xīn."
+    },
+    {
+     "speaker": "林宇",
+     "han": "不用注意，我倒是希望，你能一直在旁边看着我。",
+     "draft_pinyin": "Lín yǔ: bù yòng zhù yì, wǒ dǎo shì xī wàng, nǐ néng yì zhí zài páng biān kàn zhe wǒ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "旋转",
+     "pinyin": "",
+     "meaning": "xoay tròn"
+    },
+    {
+     "word": "默契",
+     "pinyin": "",
+     "meaning": "sự ăn ý"
+    },
+    {
+     "word": "掌声",
+     "pinyin": "",
+     "meaning": "tiếng vỗ tay"
+    },
+    {
+     "word": "热烈",
+     "pinyin": "",
+     "meaning": "nồng nhiệt"
+    },
+    {
+     "word": "成就感",
+     "pinyin": "",
+     "meaning": "cảm giác thành tựu"
+    },
+    {
+     "word": "瞬间",
+     "pinyin": "",
+     "meaning": "khoảnh khắc"
+    },
+    {
+     "word": "对视",
+     "pinyin": "",
+     "meaning": "nhìn nhau"
+    },
+    {
+     "word": "高难度",
+     "pinyin": "",
+     "meaning": "độ khó cao"
+    },
+    {
+     "word": "印象深刻",
+     "pinyin": "",
+     "meaning": "ấn tượng sâu sắc"
+    },
+    {
+     "word": "担待",
+     "pinyin": "",
+     "meaning": "thông cảm, bao dung"
+    },
+    {
+     "word": "分心",
+     "pinyin": "",
+     "meaning": "phân tâm"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "比起……还有一件事…… (so với…còn có một việc…)",
+     "example": "比起滑冰的速度，还有一件事让我的心跳得更快",
+     "meaning": "dẫn ra một điều đáng chú ý hơn so với điều đã nêu"
+    },
+    {
+     "name": "好像没办法控制 (dường như không thể kiểm soát)",
+     "example": "这种心跳的感觉，好像没办法控制",
+     "meaning": "diễn tả cảm xúc tự nhiên, không chủ động được"
+    },
+    {
+     "name": "偶尔……可能就是因为…… (đôi khi…có thể là vì…)",
+     "example": "动作偶尔慢了半拍，可能就是因为看到你",
+     "meaning": "nêu nguyên nhân nhẹ nhàng, kín đáo cho một hiện tượng nhỏ"
+    },
+    {
+     "name": "不用……我倒是希望…… (không cần…tôi lại mong…)",
+     "example": "不用注意，我倒是希望你能一直在旁边看着我",
+     "meaning": "phản bác đề xuất trước, đưa ra mong muốn thật"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 12,
+   "titleHan": "背后有我",
+   "titleVi": "Phía sau có anh",
+   "sentences": [
+    {
+     "speaker": "苏晴",
+     "han": "明天要挑战一个我从来没有做过的高难度跳跃动作，说实话，心里挺没底的。",
+     "draft_pinyin": "Sū qíng: míng tiān yào tiǎo zhàn yí gè wǒ cóng lái méi yǒu zuò guò de gāo nán dù tiào yuè dòng zuò, shuō shí huà, xīn lǐ tǐng méi dǐ de."
+    },
+    {
+     "speaker": "林宇",
+     "han": "这个动作确实有一定的难度，不过我相信，凭你这段时间的努力，应该可以做好。",
+     "draft_pinyin": "Lín yǔ: zhè ge dòng zuò què shí yǒu yí dìng de nán dù, bù guò wǒ xiāng xìn, píng nǐ zhè duàn shí jiān de nǔ lì, yīng gāi kě yǐ zuò hǎo."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "万一我在空中转体的时候，控制不好，摔倒了怎么办？",
+     "draft_pinyin": "Sū qíng: wàn yī wǒ zài kōng zhōng zhuǎn tǐ de shí hòu, kòng zhì bù hǎo, shuāi dǎo le zěn me bàn?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "如果真的摔了，那就再站起来，继续练，这也没什么大不了的。",
+     "draft_pinyin": "Lín yǔ: rú guǒ zhēn de shuāi le, nà jiù zài zhàn qǐ lái, jì xù liàn, zhè yě méi shén me dà bù liǎo de."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "你说得倒是轻松。",
+     "draft_pinyin": "Sū qíng: nǐ shuō de dǎo shì qīng sōng."
+    },
+    {
+     "speaker": "林宇",
+     "han": "其实，我想告诉你，不管前面这个动作有多难，你只管往前冲，专心完成自己的部分。",
+     "draft_pinyin": "Lín yǔ: qí shí, wǒ xiǎng gào sù nǐ, bù guǎn qián miàn zhè ge dòng zuò yǒu duō nán, nǐ zhǐ guǎn wǎng qián chōng, zhuān xīn wán chéng zì jǐ de bù fèn."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "那你呢？",
+     "draft_pinyin": "Sū qíng: nà nǐ ne?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "我一直会在你身后，如果你真的没接稳，或者身体不平衡，我会想办法接住你，保护你不会真的摔伤。",
+     "draft_pinyin": "Lín yǔ: wǒ yì zhí huì zài nǐ shēn hòu, rú guǒ nǐ zhēn de méi jiē wěn, huò zhě shēn tǐ bù píng héng, wǒ huì xiǎng bàn fǎ jiē zhù nǐ, bǎo hù nǐ bú huì zhēn de shuāi shāng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（心里一暖）听你这么说，我感觉自己好像多了一份底气。",
+     "draft_pinyin": "Sū qíng: (xīn lǐ yī nuǎn) tīng nǐ zhè me shuō, wǒ gǎn jué zì jǐ hǎo xiàng duō le yī fèn dǐ qì."
+    },
+    {
+     "speaker": "林宇",
+     "han": "对了，训练场今天温度特别低，你穿得够不够暖？",
+     "draft_pinyin": "Lín yǔ: duì le, xùn liàn chǎng jīn tiān wēn dù tè bié dī, nǐ chuān dé gòu bù gòu nuǎn?"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "还好，就是手有点儿冷。",
+     "draft_pinyin": "Sū qíng: hái hǎo, jiù shì shǒu yǒu diǎn ér lěng."
+    },
+    {
+     "speaker": "林宇",
+     "han": "（把自己的手套递过去）拿去戴上，我不冷。",
+     "draft_pinyin": "Lín yǔ: (bǎ zì jǐ de shǒu tào dì guò qù) ná qù dài shàng, wǒ bù lěng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "你这样，那你的手怎么办？",
+     "draft_pinyin": "Sū qíng: nǐ zhè yàng, nà nǐ de shǒu zěn me bàn?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "说来奇怪，只要站在你旁边，就算外面再冷，我心里也觉得暖暖的，好像根本感觉不到什么低温。",
+     "draft_pinyin": "Lín yǔ: shuō lái qí guài, zhǐ yào zhàn zài nǐ páng biān, jiù suàn wài miàn zài lěng, wǒ xīn lǐ yě jué de nuǎn nuǎn de, hǎo xiàng gēn běn gǎn jué bú dào shén me dī wēn."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "你这话说得，倒是比外面的天气更让人觉得温暖。",
+     "draft_pinyin": "Sū qíng: nǐ zhè huà shuō dé, dǎo shì bǐ wài miàn de tiān qì gèng ràng rén jué de wēn nuǎn."
+    },
+    {
+     "speaker": "林宇",
+     "han": "那就好，走吧，我们再练最后一遍，明天的动作，一定没问题的。",
+     "draft_pinyin": "Lín yǔ: nà jiù hǎo, zǒu ba, wǒ men zài liàn zuì hòu yī biàn, míng tiān de dòng zuò, yí dìng méi wèn tí de."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "挑战",
+     "pinyin": "",
+     "meaning": "thử thách"
+    },
+    {
+     "word": "跳跃",
+     "pinyin": "",
+     "meaning": "nhảy vọt"
+    },
+    {
+     "word": "没底",
+     "pinyin": "",
+     "meaning": "không có tự tin, không chắc chắn"
+    },
+    {
+     "word": "凭",
+     "pinyin": "",
+     "meaning": "dựa vào"
+    },
+    {
+     "word": "万一",
+     "pinyin": "",
+     "meaning": "nếu chẳng may"
+    },
+    {
+     "word": "转体",
+     "pinyin": "",
+     "meaning": "xoay người trên không"
+    },
+    {
+     "word": "没什么大不了的",
+     "pinyin": "",
+     "meaning": "không có gì to tát"
+    },
+    {
+     "word": "只管",
+     "pinyin": "",
+     "meaning": "cứ việc"
+    },
+    {
+     "word": "接住",
+     "pinyin": "",
+     "meaning": "đỡ được, bắt được"
+    },
+    {
+     "word": "摔伤",
+     "pinyin": "",
+     "meaning": "ngã bị thương"
+    },
+    {
+     "word": "底气",
+     "pinyin": "",
+     "meaning": "sự tự tin, chỗ dựa"
+    },
+    {
+     "word": "手套",
+     "pinyin": "",
+     "meaning": "găng tay"
+    },
+    {
+     "word": "递",
+     "pinyin": "",
+     "meaning": "đưa cho"
+    },
+    {
+     "word": "低温",
+     "pinyin": "",
+     "meaning": "nhiệt độ thấp"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "万一……怎么办 (nếu chẳng may…thì làm sao?)",
+     "example": "万一控制不好，摔倒了怎么办",
+     "meaning": "nêu tình huống xấu giả định để hỏi cách xử lý"
+    },
+    {
+     "name": "不管……你只管…… (bất kể…em chỉ cần…)",
+     "example": "不管这个动作多难，你只管往前冲",
+     "meaning": "nhấn mạnh khuyến khích hành động, bỏ qua lo lắng khác"
+    },
+    {
+     "name": "只要……就算……也…… (chỉ cần…dù…cũng…)",
+     "example": "只要站在你旁边，就算再冷，我心里也觉得暖暖的",
+     "meaning": "nêu điều kiện đủ để vượt qua yếu tố bất lợi"
+    },
+    {
+     "name": "说来奇怪…… (nói ra thì lạ…)",
+     "example": "说来奇怪，只要站在你旁边就不觉得冷",
+     "meaning": "khẩu ngữ dẫn vào một cảm nhận bất ngờ, khó giải thích logic"
+    }
+   ]
+  },
+  {
+   "kind": "dialogue",
+   "no": 13,
+   "titleHan": "雪地里的拥抱",
+   "titleVi": "Cái ôm giữa tuyết",
+   "sentences": [
+    {
+     "speaker": "苏晴",
+     "han": "外面又开始下雪了，你看，那些雪花落在地上，好像一直都不会化掉。",
+     "draft_pinyin": "Sū qíng: wài miàn yòu kāi shǐ xià xuě le, nǐ kàn, nà xiē xuě huā luò zài dì shàng, hǎo xiàng yì zhí dōu bú huì huà diào."
+    },
+    {
+     "speaker": "林宇",
+     "han": "这个季节的雪确实比较特别，气温一直很低，落下来的雪能一直保持好几天。",
+     "draft_pinyin": "Lín yǔ: zhè ge jì jié de xuě què shí bǐ jiào tè bié, qì wēn yì zhí hěn dī, là xià lái de xuě néng yì zhí bǎo chí hǎo jǐ tiān."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "说到冬天，以前我一直觉得，冬天就是又冷又不方便的一个季节，没什么值得期待的。",
+     "draft_pinyin": "Sū qíng: shuō dào dōng tiān, yǐ qián wǒ yì zhí jué de, dōng tiān jiù shì yòu lěng yòu bù fāng biàn de yí gè jì jié, méi shén me zhí de qī dài de."
+    },
+    {
+     "speaker": "林宇",
+     "han": "那现在呢？",
+     "draft_pinyin": "Lín yǔ: nà xiàn zài ne?"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "现在，我发现，冬天好像也可以有别的意义。",
+     "draft_pinyin": "Sū qíng: xiàn zài, wǒ fā xiàn, dōng tiān hǎo xiàng yě kě yǐ yǒu bié de yì yì."
+    },
+    {
+     "speaker": "林宇",
+     "han": "什么意义？",
+     "draft_pinyin": "Lín yǔ: shén me yì yì?"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "比如，因为天气冷，我们训练完以后，总会找个借口，一起走得慢一点儿，或者靠得近一点儿取暖。",
+     "draft_pinyin": "Sū qíng: bǐ rú, yīn wèi tiān qì lěng, wǒ men xùn liàn wán yǐ hòu, zǒng huì zhǎo gè jiè kǒu, yì qǐ zǒu dé màn yì diǎn ér, huò zhě kào dé jìn yì diǎn ér qǔ nuǎn."
+    },
+    {
+     "speaker": "林宇",
+     "han": "（笑）这么说的话，冬天倒是给了我们不少\"正大光明\"待在一起的理由。",
+     "draft_pinyin": "Lín yǔ: (xiào) zhè me shuō de huà, dōng tiān dǎo shì gěi le wǒ men bù shǎo\"zhèng dà guāng míng\"dài zài yì qǐ de lǐ yóu."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "对，我以前从来没想过，有一天，我会因为觉得冷，而觉得开心，因为这样就有理由让你抱一下。",
+     "draft_pinyin": "Sū qíng: duì, wǒ yǐ qián cóng lái méi xiǎng guò, yǒu yī tiān, wǒ huì yīn wèi jué de lěng, ér jué de kāi xīn, yīn wèi zhè yàng jiù yǒu lǐ yóu ràng nǐ bào yī xià."
+    },
+    {
+     "speaker": "林宇",
+     "han": "那我们现在可以试试看。",
+     "draft_pinyin": "Lín yǔ: nà wǒ men xiàn zài kě yǐ shì shì kàn."
+    },
+    {
+     "speaker": "",
+     "han": "（林宇轻轻地抱了一下苏晴）",
+     "draft_pinyin": "(lín yǔ qīng qīng dì bào le yī xià sū qíng)"
+    },
+    {
+     "speaker": "苏晴",
+     "han": "（小声地）嗯，这样确实暖和多了。",
+     "draft_pinyin": "Sū qíng: (xiǎo shēng dì) ń, zhè yàng què shí nuǎn huo duō le."
+    },
+    {
+     "speaker": "林宇",
+     "han": "你看那边，阳光正好照在雪地上，那些雪已经积了好几天了，但是被阳光照着，看起来特别亮。",
+     "draft_pinyin": "Lín yǔ: nǐ kàn nà biān, yáng guāng zhèng hǎo zhào zài xuě dì shàng, nà xiē xuě yǐ jīng jī le hǎo jǐ tiān le, dàn shì bèi yáng guāng zhào zhe, kàn qǐ lái tè bié liàng."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "是啊，好看是好看，但是那些雪不是应该被阳光照久了就化掉吗？",
+     "draft_pinyin": "Sū qíng: shì a, hǎo kàn shì hǎo kàn, dàn shì nà xiē xuě bú shì yīng gāi bèi yáng guāng zhào jiǔ le jiù huà diào ma?"
+    },
+    {
+     "speaker": "林宇",
+     "han": "这一片山谷海拔比较高，气温一直很低，所以雪就一直留在那里，很久都不会完全消失。",
+     "draft_pinyin": "Lín yǔ: zhè yī piàn shān gǔ hǎi bá bǐ jiào gāo, qì wēn yì zhí hěn dī, suǒ yǐ xuě jiù yì zhí liú zài nà lǐ, hěn jiǔ dōu bú huì wán quán xiāo shī."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "这么说的话，这片雪，倒真的有点儿\"顽固\"。",
+     "draft_pinyin": "Sū qíng: zhè me shuō de huà, zhè piàn xuě, dào zhēn de yǒu diǎn ér\"wán gù\"."
+    },
+    {
+     "speaker": "林宇",
+     "han": "我倒觉得，这跟我对你的感觉有点儿像，不管外面的环境怎么变化，这份心意，会一直留在那里，不会轻易消失。",
+     "draft_pinyin": "Lín yǔ: wǒ dào jué de, zhè gēn wǒ duì nǐ de gǎn jué yǒu diǎn ér xiàng, bù guǎn wài miàn de huán jìng zěn me biàn huà, zhè fèn xīn yì, huì yì zhí liú zài nà lǐ, bú huì qīng yì xiāo shī."
+    },
+    {
+     "speaker": "苏晴",
+     "han": "你这个人，怎么突然说话这么正式。",
+     "draft_pinyin": "Sū qíng: nǐ zhè ge rén, zěn me tū rán shuō huà zhè me zhèng shì."
+    },
+    {
+     "speaker": "林宇",
+     "han": "只是想让你知道，这不是一时的感觉，而是会一直留着的。",
+     "draft_pinyin": "Lín yǔ: zhǐ shì xiǎng ràng nǐ zhī dào, zhè bú shì yī shí de gǎn jué, ér shì huì yì zhí liú zhe de."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "雪花",
+     "pinyin": "",
+     "meaning": "bông tuyết"
+    },
+    {
+     "word": "化掉",
+     "pinyin": "",
+     "meaning": "tan chảy"
+    },
+    {
+     "word": "保持",
+     "pinyin": "",
+     "meaning": "duy trì"
+    },
+    {
+     "word": "值得期待",
+     "pinyin": "",
+     "meaning": "đáng để mong chờ"
+    },
+    {
+     "word": "借口",
+     "pinyin": "",
+     "meaning": "cái cớ"
+    },
+    {
+     "word": "取暖",
+     "pinyin": "",
+     "meaning": "làm ấm, sưởi ấm"
+    },
+    {
+     "word": "正大光明",
+     "pinyin": "",
+     "meaning": "đường hoàng, chính đáng"
+    },
+    {
+     "word": "理由",
+     "pinyin": "",
+     "meaning": "lý do"
+    },
+    {
+     "word": "山谷",
+     "pinyin": "",
+     "meaning": "thung lũng"
+    },
+    {
+     "word": "海拔",
+     "pinyin": "",
+     "meaning": "độ cao (so với mặt biển)"
+    },
+    {
+     "word": "消失",
+     "pinyin": "",
+     "meaning": "biến mất"
+    },
+    {
+     "word": "顽固",
+     "pinyin": "",
+     "meaning": "ngoan cố, dai dẳng (ở đây dùng hài hước)"
+    },
+    {
+     "word": "心意",
+     "pinyin": "",
+     "meaning": "tấm lòng"
+    },
+    {
+     "word": "轻易",
+     "pinyin": "",
+     "meaning": "dễ dàng"
+    },
+    {
+     "word": "一时",
+     "pinyin": "",
+     "meaning": "tạm thời, nhất thời"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一直觉得……没什么值得…… (luôn cho rằng…không có gì đáng…)",
+     "example": "以前一直觉得冬天没什么值得期待的",
+     "meaning": "dẫn ra một quan niệm cũ trước khi thay đổi"
+    },
+    {
+     "name": "总会找个借口…… (luôn tìm được một cái cớ…)",
+     "example": "训练完以后，总会找个借口一起走慢一点儿",
+     "meaning": "diễn tả hành vi lặp lại có chủ ý nhẹ nhàng"
+    },
+    {
+     "name": "从来没想过，有一天会…… (chưa từng nghĩ, có một ngày sẽ…)",
+     "example": "从来没想过，有一天会因为觉得冷而觉得开心",
+     "meaning": "dẫn ra sự thay đổi bất ngờ so với suy nghĩ trước đây"
+    },
+    {
+     "name": "不管……这份……会一直留在那里 (bất kể…thì…sẽ luôn ở đó)",
+     "example": "不管环境怎么变化，这份心意会一直留在那里",
+     "meaning": "khẳng định sự bền vững không đổi trước tác động ngoại cảnh"
+    }
+   ]
+  }
+ ]
+}

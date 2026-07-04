@@ -1,0 +1,264 @@
+[
+ {
+  "group": "hsk3ht2",
+  "no": 9,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Jiàoliàn: Xiǎo Yǔ, jīntiān de xùnliàn gǎnjué zěnmeyàng? Dòngzuò bǐ shàng zhōu wěndìng duō le.",
+    "vi": "Tiểu Vũ, buổi tập hôm nay cảm thấy thế nào? Động tác ổn định hơn tuần trước nhiều rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lín Yǔ: Xièxie jiàoliàn, wǒ zhè jǐ tiān yìzhí zài liàn nàge zhuǎnshēn de dòngzuò, zǒngsuàn zhǎodào yìdiǎnr gǎnjué le.",
+    "vi": "Cảm ơn huấn luyện viên, mấy hôm nay em cứ tập mãi động tác xoay người đó, rốt cuộc cũng tìm được chút cảm giác rồi.",
+    "grammar": [
+     "总算…… (rốt cuộc cũng…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Jiàoliàn: Búcuò, duì le, xià gè yuè de bǐsài, xuéxiào juédìng ràng xīn lái de nà wèi xuǎnshǒu, gēn nǐ yìqǐ liànxí shuāngrén xiàngmù.",
+    "vi": "Không tệ, à đúng rồi, cuộc thi tháng sau, nhà trường quyết định cho vận động viên mới đến kia tập nội dung đôi cùng em.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Lín Yǔ: Xīn lái de xuǎnshǒu? Wǒ hái bù zhīdào zhè jiàn shì.",
+    "vi": "Vận động viên mới đến? Em vẫn chưa biết chuyện này.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jiàoliàn: Tā gāng cóng bié de chéngshì zhuǎn guòlái, huábīng de jīchǔ hěn hǎo, xìnggé yě tǐng kāilǎng de, nǐmen yīnggāi néng hézuò de búcuò.",
+    "vi": "Cô ấy vừa chuyển từ thành phố khác đến, nền tảng trượt băng rất tốt, tính cách cũng khá vui vẻ, các em chắc sẽ hợp tác rất ăn ý.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lín Yǔ: Hǎo, nà wǒ děngzhe jiàn tā.",
+    "vi": "Được, vậy em chờ gặp cô ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "(Jǐ tiān yǐhòu, xùnliàn chǎng shàng)",
+    "vi": "(Vài ngày sau, tại sân tập)",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Sū Qíng: Nǐ hǎo, wǒ shì Sū Qíng, yǐhòu yào gēn nǐ yìqǐ liàn shuāngrén xiàngmù le, qǐng duō zhǐjiào.",
+    "vi": "Chào anh, em là 苏晴, sau này sẽ tập nội dung đôi cùng anh, mong anh chỉ giáo nhiều.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Lín Yǔ: Nǐ hǎo, wǒ shì Lín Yǔ. Jiàoliàn gēn wǒ shuōguo nǐ, huānyíng nǐ jiārù wǒmen duì.",
+    "vi": "Chào em, anh là 林宇. Huấn luyện viên có nói với anh về em rồi, chào mừng em gia nhập đội chúng ta.",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Sū Qíng: Xièxie, shuō shíhuà, wǒ yǒudiǎnr jǐnzhāng, shuāngrén xiàngmù gēn wǒ yǐqián liàn de bú tài yíyàng, xūyào gēn dādàng pèihé de tèbié hǎo.",
+    "vi": "Cảm ơn anh, nói thật, em hơi hồi hộp, nội dung đôi khác với những gì em từng tập trước đây, cần phối hợp với bạn diễn thật ăn ý.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Lín Yǔ: Búyòng jǐnzhāng, wǒmen kěyǐ mànmàn lái, xiān shúxī yíxià bǐcǐ de jiézòu.",
+    "vi": "Đừng căng thẳng, chúng ta có thể từ từ, trước tiên làm quen với nhịp điệu của nhau đã.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "(Jǐ gè yuè yǐhòu)",
+    "vi": "(Vài tháng sau)",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Sū Qíng: Wǒ fāxiàn, zìcóng gēn nǐ yìqǐ liànxí yǐhòu, wǒ zài bīng shàng hǎoxiàng bǐ yǐqián gèng fàngsōng le.",
+    "vi": "Em phát hiện, từ khi tập cùng anh, em ở trên băng hình như thoải mái hơn trước nhiều.",
+    "grammar": [
+     "自从……以后…… (từ khi…thì…)"
+    ]
+   },
+   {
+    "idx": 14,
+    "pinyin": "Lín Yǔ: Yěxǔ shì yīnwèi, xùnliàn de shíhou, wǒmen yǐjīng yuè lái yuè liǎojiě duìfāng de dòngzuò hé xíguàn le.",
+    "vi": "Có lẽ là vì, khi luyện tập, chúng ta đã ngày càng hiểu động tác và thói quen của nhau hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 15,
+    "pinyin": "Sū Qíng: Shuō dào zhège, wǒ yǐqián yí gè rén xùnliàn de shíhou, juéde měitiān de shēnghuó chúle xùnliàn, jiùshì bǐsài, hǎoxiàng yǒudiǎnr dāndiào.",
+    "vi": "Nói đến chuyện này, trước đây khi em tập một mình, em thấy cuộc sống mỗi ngày ngoài luyện tập thì là thi đấu, hình như hơi đơn điệu.",
+    "grammar": [
+     "除了……就是…… (ngoài…thì là…)"
+    ]
+   },
+   {
+    "idx": 16,
+    "pinyin": "Lín Yǔ: Nà xiànzài ne?",
+    "vi": "Vậy bây giờ thì sao?",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Sū Qíng: Xiànzài, wǒ fāxiàn měitiān lái xùnliàn chǎng, chúle liànxí, yě huì qīdài gēn nǐ liáoliáo tiān, gǎnjué shēnghuó hǎoxiàng bù yíyàng le.",
+    "vi": "Bây giờ, em phát hiện mỗi ngày đến sân tập, ngoài luyện tập, em còn mong được trò chuyện với anh, cảm giác cuộc sống hình như khác rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 18,
+    "pinyin": "Lín Yǔ: Qíshí wǒ yě yǒu tóngyàng de gǎnjué, yǐqián wǒ bǎ suǒyǒu jīnglì dōu fàng zài xùnliàn hé bǐsài shàng, hěn shǎo xiǎng bié de shìqíng.",
+    "vi": "Thật ra anh cũng có cảm giác giống vậy, trước đây anh dồn hết tâm sức vào luyện tập và thi đấu, rất ít khi nghĩ đến chuyện khác.",
+    "grammar": []
+   },
+   {
+    "idx": 19,
+    "pinyin": "Sū Qíng: Nà xiànzài nǐ huì xiǎng shénme?",
+    "vi": "Vậy bây giờ anh sẽ nghĩ đến điều gì?",
+    "grammar": []
+   },
+   {
+    "idx": 20,
+    "pinyin": "Lín Yǔ: Xiànzài, chúle xiǎng zěnme bǎ dòngzuò liàn de gèng hǎo, wǒ yě huì xiǎng, míngtiān xùnliàn de shíhou, néng bu néng zǎo yìdiǎnr jiàndào nǐ.",
+    "vi": "Bây giờ, ngoài việc nghĩ làm sao tập động tác tốt hơn, anh cũng sẽ nghĩ, ngày mai lúc luyện tập, có thể gặp em sớm hơn một chút không.",
+    "grammar": [
+     "也会想，能不能……(cũng sẽ nghĩ, có thể…không)"
+    ]
+   },
+   {
+    "idx": 21,
+    "pinyin": "Sū Qíng: (Xiào) nǐ zhèyàng shuō, wǒ dōu bù zhīdào gāi zěnme huídá le.",
+    "vi": "(Cười) Anh nói vậy, em đến mức không biết nên trả lời thế nào nữa.",
+    "grammar": []
+   },
+   {
+    "idx": 22,
+    "pinyin": "Lín Yǔ: Búyòng mǎshàng huídá, wǒmen hái yǒu hěn duō shíjiān, kěyǐ mànmàn liǎojiě bǐcǐ.",
+    "vi": "Không cần trả lời ngay, chúng ta vẫn còn rất nhiều thời gian, có thể từ từ hiểu về nhau.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3ht2",
+  "no": 10,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Sū Qíng: Míngtiān jiùshì bǐsài le, shuō shíhuà, wǒ zhè jǐ tiān yìzhí shuì bú tài hǎo, xīnlǐ tèbié jǐnzhāng.",
+    "vi": "Ngày mai là thi đấu rồi, nói thật, mấy hôm nay em cứ ngủ không ngon, trong lòng đặc biệt căng thẳng.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lín Yǔ: Wǒ zhīdào, zhè cì bǐsài duì wǒmen liǎng gè rén lái shuō dōu hěn zhòngyào, jǐnzhāng yě shì zhèngcháng de.",
+    "vi": "Anh biết, cuộc thi lần này với cả hai chúng ta đều rất quan trọng, hồi hộp cũng là bình thường thôi.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Sū Qíng: Wǒ dānxīn, rúguǒ wǒ míngtiān zài bīng shàng chū le shénme chācuò, huì bú huì yǐngxiǎng wǒmen zhè yì nián de nǔlì.",
+    "vi": "Em lo, nếu ngày mai trên băng em có sai sót gì đó, liệu có ảnh hưởng đến công sức cả năm nay của chúng ta không.",
+    "grammar": [
+     "如果……会不会…… (nếu…có…không?)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Lín Yǔ: Nǐ búyòng bǎ suǒyǒu de yālì dōu fàng zài zìjǐ shēnshang, bǐsài shì wǒmen liǎng gè rén yìqǐ wánchéng de, wúlùn jiéguǒ zěnyàng, wǒmen dōu huì yìqǐ chéngdān.",
+    "vi": "Em không cần đặt hết áp lực lên bản thân, cuộc thi là do hai chúng ta cùng hoàn thành, dù kết quả thế nào, chúng ta cũng sẽ cùng gánh vác.",
+    "grammar": [
+     "不用把……都放在自己身上 (không cần đặt hết…lên bản thân)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Sū Qíng: Xièxie nǐ zhème shuō, xīnlǐ quèshí juéde hǎoshòu yìdiǎnr le.",
+    "vi": "Cảm ơn anh nói vậy, trong lòng quả thật thấy dễ chịu hơn một chút rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lín Yǔ: Qíshí, wǒ xiǎng gēn nǐ shuō yí jiàn shì, cóng wǒmen kāishǐ yìqǐ xùnliàn dào xiànzài, nǐ gěi wǒ de gǎnjué, gēn yǐqián wánquán bù yíyàng.",
+    "vi": "Thật ra, anh muốn nói với em một chuyện, từ khi chúng ta bắt đầu tập cùng nhau đến giờ, cảm giác em mang lại cho anh, hoàn toàn khác trước đây.",
+    "grammar": [
+     "从……到现在…… (từ…đến giờ…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Sū Qíng: Shénme yìsi?",
+    "vi": "Ý anh là gì?",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Lín Yǔ: Yǐqián, wǒ de shēnghuó lǐ, hǎoxiàng zhǐyǒu xùnliàn hé bǐsài, měitiān xiǎng de dōu shì zěnme bǎ dòngzuò liàn de gèng wánměi.",
+    "vi": "Trước đây, trong cuộc sống của anh, hình như chỉ có luyện tập và thi đấu, mỗi ngày anh nghĩ đều là làm sao tập động tác hoàn hảo hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Sū Qíng: Nà xiànzài ne?",
+    "vi": "Vậy bây giờ thì sao?",
+    "grammar": []
+   },
+   {
+    "idx": 10,
+    "pinyin": "Lín Yǔ: Xiànzài, chúle dòngzuò hé chéngjì, wǒ fāxiàn zìjǐ yě kāishǐ zàiyì bié de shìqíng, bǐrú nǐ jīntiān xīnqíng hǎo bù hǎo, xùnliàn lèi bu lèi.",
+    "vi": "Bây giờ, ngoài động tác và thành tích, anh phát hiện mình cũng bắt đầu để tâm đến chuyện khác, ví dụ hôm nay em vui hay không, tập có mệt không.",
+    "grammar": []
+   },
+   {
+    "idx": 11,
+    "pinyin": "Sū Qíng: (Dītóu xiào le yíxià) wǒ yě shì, yǐqián wǒ juéde, huábīng jiùshì wǒ yí gè rén de shìqíng, gēn biérén méiyǒu tài dà guānxì.",
+    "vi": "(Cúi đầu cười một cái) Em cũng vậy, trước đây em thấy, trượt băng chỉ là chuyện của riêng em, chẳng liên quan mấy đến người khác.",
+    "grammar": []
+   },
+   {
+    "idx": 12,
+    "pinyin": "Lín Yǔ: Nà xiànzài?",
+    "vi": "Vậy bây giờ?",
+    "grammar": []
+   },
+   {
+    "idx": 13,
+    "pinyin": "Sū Qíng: Xiànzài, měi cì huábīng de shíhou, wǒ dōu huì xiǎng, xīwàng nǐ yě néng zài pángbiān kànzhe, zhèyàng wǒ cái huì juéde gèng yǒu lìliàng.",
+    "vi": "Bây giờ, mỗi lần trượt băng, em đều nghĩ, mong anh cũng có thể ở bên cạnh nhìn em, như vậy em mới thấy có thêm sức mạnh.",
+    "grammar": []
+   },
+   {
+    "idx": 14,
+    "pinyin": "Lín Yǔ: Tīng nǐ zhème shuō, wǒ xīnlǐ yě hěn wēnnuǎn. Bùguǎn míngtiān bǐsài de jiéguǒ zěnmeyàng, néng yǒu zhè yì nián yìqǐ nǔlì de jīnglì, wǒ yǐjīng juéde hěn zhídé le.",
+    "vi": "Nghe em nói vậy, lòng anh cũng thấy rất ấm áp. Bất kể kết quả cuộc thi ngày mai thế nào, được có một năm cùng nhau cố gắng như thế này, anh đã thấy rất đáng rồi.",
+    "grammar": [
+     "不管……我已经觉得…… (bất kể…tôi đã thấy…)"
+    ]
+   },
+   {
+    "idx": 15,
+    "pinyin": "Sū Qíng: Wǒ yě shì zhème xiǎng de, hǎo, nà wǒmen zǎodiǎnr xiūxi, míngtiān hǎohǎo bǐsài.",
+    "vi": "Em cũng nghĩ vậy, được, thế thì chúng ta nghỉ sớm chút, ngày mai thi đấu thật tốt.",
+    "grammar": []
+   },
+   {
+    "idx": 16,
+    "pinyin": "Lín Yǔ: Hǎo, wǎn'ān, Sū Qíng.",
+    "vi": "Được, ngủ ngon, 苏晴.",
+    "grammar": []
+   },
+   {
+    "idx": 17,
+    "pinyin": "Sū Qíng: Wǎn'ān.",
+    "vi": "Ngủ ngon.",
+    "grammar": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,6579 @@
+{
+ "hsk3": [
+  {
+   "kind": "reading",
+   "no": 1,
+   "titleHan": "我的大学生活",
+   "titleVi": "Đời sống đại học của tôi",
+   "sentences": [
+    {
+     "han": "去年九月，我离开家，来到一个新的城市上大学，一切都要自己安排。",
+     "pinyin": "",
+     "draft_pinyin": "Qù nián jiǔ yuè, wǒ lí kāi jiā, lái dào yí gè xīn de chéng shì shàng dà xué, yī qiè dōu yào zì jǐ ān pái."
+    },
+    {
+     "han": "刚开始，我很不习惯，因为要自己洗衣服、打扫房间，还要管理自己的时间。",
+     "pinyin": "",
+     "draft_pinyin": "Gāng kāi shǐ, wǒ hěn bù xí guàn, yīn wèi yào zì jǐ xǐ yī fú, dǎ sǎo fáng jiān, hái yào guǎn lǐ zì jǐ de shí jiān."
+    },
+    {
+     "han": "大学的课比高中多样，除了上课，还有很多社团活动可以参加。",
+     "pinyin": "",
+     "draft_pinyin": "Dà xué de kè bǐ gāo zhōng duō yàng, chú le shàng kè, hái yǒu hěn duō shè tuán huó dòng kě yǐ cān jiā."
+    },
+    {
+     "han": "我参加了一个音乐社团，认识了很多有共同爱好的朋友，周末常常一起练习。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ cān jiā le yí gè yīn yuè shè tuán, rèn shí le hěn duō yǒu gòng tóng ài hào de péng yǒu, zhōu mò cháng cháng yì qǐ liàn xí."
+    },
+    {
+     "han": "虽然功课有时候很多，压力也不小，但是我慢慢学会了怎么安排学习和生活。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán gōng kè yǒu shí hòu hěn duō, yā lì yě bù xiǎo, dàn shì wǒ màn màn xué huì le zěn me ān pái xué xí hé shēng huó."
+    },
+    {
+     "han": "教授们讲课的方式跟高中老师不一样，更注意培养我们独立思考的能力。",
+     "pinyin": "",
+     "draft_pinyin": "Jiào shòu men jiǎng kè de fāng shì gēn gāo zhōng lǎo shī bù yí yàng, gèng zhù yì péi yǎng wǒ men dú lì sī kǎo de néng lì."
+    },
+    {
+     "han": "有一次，我在图书馆写论文，遇到问题，同学主动过来帮我解决，我特别感动。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì, wǒ zài tú shū guǎn xiě lùn wén, yù dào wèn tí, tóng xué zhǔ dòng guò lái bāng wǒ jiě jué, wǒ tè bié gǎn dòng."
+    },
+    {
+     "han": "一年过去了，我发现，大学生活不只是学习知识，更是学习怎么照顾自己、怎么跟人相处。",
+     "pinyin": "",
+     "draft_pinyin": "Yī nián guò qù le, wǒ fā xiàn, dà xué shēng huó bù zhǐ shì xué xí zhī shí, gèng shì xué xí zěn me zhào gù zì jǐ, zěn me gēn rén xiāng chǔ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "一切",
+     "pinyin": "",
+     "meaning": "tất cả, mọi thứ"
+    },
+    {
+     "word": "安排",
+     "pinyin": "",
+     "meaning": "sắp xếp"
+    },
+    {
+     "word": "管理",
+     "pinyin": "",
+     "meaning": "quản lý"
+    },
+    {
+     "word": "多样",
+     "pinyin": "",
+     "meaning": "đa dạng"
+    },
+    {
+     "word": "社团",
+     "pinyin": "",
+     "meaning": "hội, câu lạc bộ"
+    },
+    {
+     "word": "共同",
+     "pinyin": "",
+     "meaning": "chung, cùng"
+    },
+    {
+     "word": "功课",
+     "pinyin": "",
+     "meaning": "bài học, việc học"
+    },
+    {
+     "word": "压力",
+     "pinyin": "",
+     "meaning": "áp lực"
+    },
+    {
+     "word": "教授",
+     "pinyin": "",
+     "meaning": "giáo sư"
+    },
+    {
+     "word": "培养",
+     "pinyin": "",
+     "meaning": "nuôi dưỡng, bồi dưỡng"
+    },
+    {
+     "word": "独立",
+     "pinyin": "",
+     "meaning": "độc lập"
+    },
+    {
+     "word": "论文",
+     "pinyin": "",
+     "meaning": "luận văn"
+    },
+    {
+     "word": "感动",
+     "pinyin": "",
+     "meaning": "cảm động"
+    },
+    {
+     "word": "知识",
+     "pinyin": "",
+     "meaning": "kiến thức"
+    },
+    {
+     "word": "相处",
+     "pinyin": "",
+     "meaning": "sống chung, hòa hợp"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "除了……还有…… (ngoài…còn có…)",
+     "example": "除了上课，还有很多社团活动",
+     "meaning": "bổ sung thêm nội dung ngoài điều đã nêu"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "不只是学习知识，更是学习怎么照顾自己",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然功课有时候很多，但是我慢慢学会了安排",
+     "meaning": "nhượng bộ, khẳng định điều tích cực"
+    },
+    {
+     "name": "慢慢学会了 (dần dần học được)",
+     "example": "慢慢学会了怎么安排",
+     "meaning": "diễn tả quá trình thay đổi dần theo thời gian"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 2,
+   "titleHan": "找工作",
+   "titleVi": "Tìm việc làm",
+   "sentences": [
+    {
+     "han": "大学毕业以后，我开始找工作，这个过程比我想的要困难得多。",
+     "pinyin": "",
+     "draft_pinyin": "Dà xué bì yè yǐ hòu, wǒ kāi shǐ zhǎo gōng zuò, zhè ge guò chéng bǐ wǒ xiǎng de yào kùn nán dé duō."
+    },
+    {
+     "han": "一开始，我把简历发给了很多公司，但是大部分都没有回复，我心里有点儿失望。",
+     "pinyin": "",
+     "draft_pinyin": "Yī kāi shǐ, wǒ bǎ jiǎn lì fā gěi le hěn duō gōng sī, dàn shì dà bù fèn dōu méi yǒu huí fù, wǒ xīn lǐ yǒu diǎn ér shī wàng."
+    },
+    {
+     "han": "后来，一位老师建议我，应该先想清楚自己真正想做什么工作，而不是什么都试。",
+     "pinyin": "",
+     "draft_pinyin": "Hòu lái, yī wèi lǎo shī jiàn yì wǒ, yīng gāi xiān xiǎng qīng chǔ zì jǐ zhēn zhèng xiǎng zuò shén me gōng zuò, ér bú shì shén me dōu shì."
+    },
+    {
+     "han": "我认真想了想，决定申请跟自己专业相关的工作，虽然选择变少了，但是方向更清楚了。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ rèn zhēn xiǎng le xiǎng, jué dìng shēn qǐng gēn zì jǐ zhuān yè xiāng guān de gōng zuò, suī rán xuǎn zé biàn shǎo le, dàn shì fāng xiàng gèng qīng chǔ le."
+    },
+    {
+     "han": "第一次面试的时候，我特别紧张，说话都不太顺利，结果没有被录取。",
+     "pinyin": "",
+     "draft_pinyin": "Dì yī cì miàn shì de shí hòu, wǒ tè bié jǐn zhāng, shuō huà dōu bù tài shùn lì, jié guǒ méi yǒu bèi lù qǔ."
+    },
+    {
+     "han": "经过那次经历，我总结了经验，练习了怎么回答常见的问题，准备得更充分。",
+     "pinyin": "",
+     "draft_pinyin": "Jīng guò nà cì jīng lì, wǒ zǒng jié le jīng yàn, liàn xí le zěn me huí dá cháng jiàn de wèn tí, zhǔn bèi dé gèng chōng fèn."
+    },
+    {
+     "han": "第二次面试，我表现得比上次自然多了，面试官对我的回答比较满意。",
+     "pinyin": "",
+     "draft_pinyin": "Dì èr cì miàn shì, wǒ biǎo xiàn dé bǐ shàng cì zì rán duō le, miàn shì guān duì wǒ de huí dá bǐ jiào mǎn yì."
+    },
+    {
+     "han": "一个星期以后，我收到了那家公司的电话，通知我被录取了，我高兴得跳了起来。",
+     "pinyin": "",
+     "draft_pinyin": "Yí gè xīng qī yǐ hòu, wǒ shōu dào le nà jiā gōng sī de diàn huà, tōng zhī wǒ bèi lù qǔ le, wǒ gāo xìng dé tiào le qǐ lái."
+    },
+    {
+     "han": "这次找工作的经历让我明白，失败并不可怕，重要的是能从中学到东西。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì zhǎo gōng zuò de jīng lì ràng wǒ míng bái, shī bài bìng bù kě pà, zhòng yào de shì néng cóng zhōng xué dào dōng xī."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "毕业",
+     "pinyin": "",
+     "meaning": "tốt nghiệp"
+    },
+    {
+     "word": "简历",
+     "pinyin": "",
+     "meaning": "sơ yếu lý lịch"
+    },
+    {
+     "word": "回复",
+     "pinyin": "",
+     "meaning": "trả lời, phản hồi"
+    },
+    {
+     "word": "失望",
+     "pinyin": "",
+     "meaning": "thất vọng"
+    },
+    {
+     "word": "申请",
+     "pinyin": "",
+     "meaning": "xin, đăng ký"
+    },
+    {
+     "word": "专业",
+     "pinyin": "",
+     "meaning": "chuyên ngành"
+    },
+    {
+     "word": "相关",
+     "pinyin": "",
+     "meaning": "liên quan"
+    },
+    {
+     "word": "方向",
+     "pinyin": "",
+     "meaning": "phương hướng"
+    },
+    {
+     "word": "面试",
+     "pinyin": "",
+     "meaning": "phỏng vấn"
+    },
+    {
+     "word": "顺利",
+     "pinyin": "",
+     "meaning": "thuận lợi"
+    },
+    {
+     "word": "录取",
+     "pinyin": "",
+     "meaning": "tuyển dụng, trúng tuyển"
+    },
+    {
+     "word": "总结",
+     "pinyin": "",
+     "meaning": "tổng kết"
+    },
+    {
+     "word": "经验",
+     "pinyin": "",
+     "meaning": "kinh nghiệm"
+    },
+    {
+     "word": "充分",
+     "pinyin": "",
+     "meaning": "đầy đủ, kỹ càng"
+    },
+    {
+     "word": "表现",
+     "pinyin": "",
+     "meaning": "thể hiện"
+    },
+    {
+     "word": "自然",
+     "pinyin": "",
+     "meaning": "tự nhiên"
+    },
+    {
+     "word": "面试官",
+     "pinyin": "",
+     "meaning": "người phỏng vấn"
+    },
+    {
+     "word": "通知",
+     "pinyin": "",
+     "meaning": "thông báo"
+    },
+    {
+     "word": "可怕",
+     "pinyin": "",
+     "meaning": "đáng sợ"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "而不是…… (mà không phải là…)",
+     "example": "应该先想清楚想做什么，而不是什么都试",
+     "meaning": "phản bác cách làm sai, khẳng định cách đúng"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然选择变少了，但是方向更清楚了",
+     "meaning": "nhượng bộ, khẳng định điều tích cực"
+    },
+    {
+     "name": "经过…… (trải qua…)",
+     "example": "经过那次经历，我总结了经验",
+     "meaning": "dẫn ra quá trình đã trải qua trước khi có kết quả"
+    },
+    {
+     "name": "并不…… (hoàn toàn không…)",
+     "example": "失败并不可怕",
+     "meaning": "nhấn mạnh phủ định, phản bác quan niệm thường gặp"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 3,
+   "titleHan": "学开车",
+   "titleVi": "Học lái xe",
+   "sentences": [
+    {
+     "han": "上个月，我终于开始学开车了，这是我很久以前就想做的事情。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè yuè, wǒ zhōng yú kāi shǐ xué kāi chē le, zhè shì wǒ hěn jiǔ yǐ qián jiù xiǎng zuò de shì qíng."
+    },
+    {
+     "han": "第一次坐在驾驶座上，我的手有点儿发抖，连最简单的操作都做得不熟练。",
+     "pinyin": "",
+     "draft_pinyin": "Dì yī cì zuò zài jià shǐ zuò shàng, wǒ de shǒu yǒu diǎn ér fā dǒu, lián zuì jiǎn dān de cāo zuò dōu zuò dé bù shú liàn."
+    },
+    {
+     "han": "教练很有耐心，一步一步地教我怎么控制方向盘，怎么看后视镜。",
+     "pinyin": "",
+     "draft_pinyin": "Jiào liàn hěn yǒu nài xīn, yí bù yí bù dì jiào wǒ zěn me kòng zhì fāng xiàng pán, zěn me kàn hòu shì jìng."
+    },
+    {
+     "han": "练了几次以后，我发现，开车不但需要熟悉操作，还需要注意周围的情况。",
+     "pinyin": "",
+     "draft_pinyin": "Liàn le jǐ cì yǐ hòu, wǒ fā xiàn, kāi chē bù dàn xū yào shú xī cāo zuò, hái xū yào zhù yì zhōu wéi de qíng kuàng."
+    },
+    {
+     "han": "有一次在路口，我因为紧张，差一点儿闯了红灯，教练马上提醒了我。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì zài lù kǒu, wǒ yīn wèi jǐn zhāng, chà yì diǎn er chuǎng le hóng dēng, jiào liàn mǎ shàng tí xǐng le wǒ."
+    },
+    {
+     "han": "那次以后，我更加小心，每次开车以前，都会提醒自己集中注意力。",
+     "pinyin": "",
+     "draft_pinyin": "Nà cì yǐ hòu, wǒ gèng jiā xiǎo xīn, měi cì kāi chē yǐ qián, dū huì tí xǐng zì jǐ jí zhōng zhù yì lì."
+    },
+    {
+     "han": "经过一个月的练习，我的技术提高了不少，教练说我已经可以考试了。",
+     "pinyin": "",
+     "draft_pinyin": "Jīng guò yí gè yuè de liàn xí, wǒ de jì shù tí gāo le bù shǎo, jiào liàn shuō wǒ yǐ jīng kě yǐ kǎo shì le."
+    },
+    {
+     "han": "考试那天，我一开始有点儿紧张，但是想起教练教我的方法，慢慢就放松了。",
+     "pinyin": "",
+     "draft_pinyin": "Kǎo shì nà tiān, wǒ yī kāi shǐ yǒu diǎn ér jǐn zhāng, dàn shì xiǎng qǐ jiào liàn jiào wǒ de fāng fǎ, màn màn jiù fàng sōng le."
+    },
+    {
+     "han": "最后，我顺利通过了考试，拿到了驾照，心里特别有成就感。",
+     "pinyin": "",
+     "draft_pinyin": "Zuì hòu, wǒ shùn lì tōng guò le kǎo shì, ná dào le jià zhào, xīn lǐ tè bié yǒu chéng jiù gǎn."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "驾驶座",
+     "pinyin": "",
+     "meaning": "ghế lái"
+    },
+    {
+     "word": "发抖",
+     "pinyin": "",
+     "meaning": "run rẩy"
+    },
+    {
+     "word": "操作",
+     "pinyin": "",
+     "meaning": "vận hành, thao tác"
+    },
+    {
+     "word": "熟练",
+     "pinyin": "",
+     "meaning": "thành thục"
+    },
+    {
+     "word": "耐心",
+     "pinyin": "",
+     "meaning": "kiên nhẫn"
+    },
+    {
+     "word": "控制",
+     "pinyin": "",
+     "meaning": "điều khiển"
+    },
+    {
+     "word": "方向盘",
+     "pinyin": "",
+     "meaning": "vô lăng"
+    },
+    {
+     "word": "后视镜",
+     "pinyin": "",
+     "meaning": "kính chiếu hậu"
+    },
+    {
+     "word": "周围",
+     "pinyin": "",
+     "meaning": "xung quanh"
+    },
+    {
+     "word": "路口",
+     "pinyin": "",
+     "meaning": "ngã tư, giao lộ"
+    },
+    {
+     "word": "闯红灯",
+     "pinyin": "",
+     "meaning": "vượt đèn đỏ"
+    },
+    {
+     "word": "提醒",
+     "pinyin": "",
+     "meaning": "nhắc nhở"
+    },
+    {
+     "word": "集中",
+     "pinyin": "",
+     "meaning": "tập trung"
+    },
+    {
+     "word": "技术",
+     "pinyin": "",
+     "meaning": "kỹ thuật"
+    },
+    {
+     "word": "提高",
+     "pinyin": "",
+     "meaning": "nâng cao"
+    },
+    {
+     "word": "放松",
+     "pinyin": "",
+     "meaning": "thư giãn, thả lỏng"
+    },
+    {
+     "word": "通过",
+     "pinyin": "",
+     "meaning": "thông qua, vượt qua"
+    },
+    {
+     "word": "驾照",
+     "pinyin": "",
+     "meaning": "bằng lái xe"
+    },
+    {
+     "word": "成就感",
+     "pinyin": "",
+     "meaning": "cảm giác thành tựu"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "连……都…… (đến cả…cũng…)",
+     "example": "连最简单的操作都做得不熟练",
+     "meaning": "nhấn mạnh mức độ, thường mang nghĩa phủ định"
+    },
+    {
+     "name": "不但……还…… (không những…mà còn…)",
+     "example": "开车不但需要熟悉操作，还需要注意周围情况",
+     "meaning": "bổ sung thêm ý ngoài điều đã nêu"
+    },
+    {
+     "name": "差一点儿…… (suýt chút nữa…)",
+     "example": "差一点儿闯了红灯",
+     "meaning": "diễn tả việc suýt xảy ra nhưng chưa xảy ra"
+    },
+    {
+     "name": "经过 + khoảng thời gian (trải qua)",
+     "example": "经过一个月的练习，技术提高了不少",
+     "meaning": "diễn tả kết quả sau một quá trình"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 4,
+   "titleHan": "去银行",
+   "titleVi": "Đi ngân hàng",
+   "sentences": [
+    {
+     "han": "上个星期，我因为需要开一个新的银行账户，第一次自己去银行办事。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xīng qī, wǒ yīn wèi xū yào kāi yí gè xīn de yín háng zhàng hù, dì yī cì zì jǐ qù yín háng bàn shì."
+    },
+    {
+     "han": "银行里人不算太多，但是我不知道应该在哪里排队，只好向工作人员询问。",
+     "pinyin": "",
+     "draft_pinyin": "Yín háng lǐ rén bù suàn tài duō, dàn shì wǒ bù zhī dào yīng gāi zài nǎ lǐ pái duì, zhǐ hǎo xiàng gōng zuò rén yuán xún wèn."
+    },
+    {
+     "han": "工作人员很热情地告诉我，应该先取一个号，然后坐着等叫号。",
+     "pinyin": "",
+     "draft_pinyin": "Gōng zuò rén yuán hěn rè qíng dì gào sù wǒ, yīng gāi xiān qǔ yí gè hào, rán hòu zuò zhe děng jiào hào."
+    },
+    {
+     "han": "等了大概二十分钟，终于轮到我了，工作人员让我填写一张申请表。",
+     "pinyin": "",
+     "draft_pinyin": "Děng le dà gài èr shí fēn zhōng, zhōng yú lún dào wǒ le, gōng zuò rén yuán ràng wǒ tián xiě yī zhāng shēn qǐng biǎo."
+    },
+    {
+     "han": "表格上有一些词语我不太明白是什么意思，工作人员耐心地跟我解释。",
+     "pinyin": "",
+     "draft_pinyin": "Biǎo gé shàng yǒu yī xiē cí yǔ wǒ bù tài míng bái shì shén me yì si, gōng zuò rén yuán nài xīn dì gēn wǒ jiě shì."
+    },
+    {
+     "han": "办理账户的过程比我想的要复杂一些，需要提供身份证，还要设置密码。",
+     "pinyin": "",
+     "draft_pinyin": "Bàn lǐ zhàng hù de guò chéng bǐ wǒ xiǎng de yào fù zá yī xiē, xū yào tí gōng shēn fèn zhèng, hái yào shè zhì mì mǎ."
+    },
+    {
+     "han": "工作人员还建议我，可以顺便办一张信用卡，这样以后购物会更方便。",
+     "pinyin": "",
+     "draft_pinyin": "Gōng zuò rén yuán hái jiàn yì wǒ, kě yǐ shùn biàn bàn yī zhāng xìn yòng kǎ, zhè yàng yǐ hòu gòu wù huì gèng fāng biàn."
+    },
+    {
+     "han": "考虑了一下，我决定先不办信用卡，因为我担心自己会花钱花得没有计划。",
+     "pinyin": "",
+     "draft_pinyin": "Kǎo lǜ le yī xià, wǒ jué dìng xiān bù bàn xìn yòng kǎ, yīn wèi wǒ dān xīn zì jǐ huì huā qián huā dé méi yǒu jì huà."
+    },
+    {
+     "han": "从银行出来以后，我觉得，虽然这次办事花了不少时间，但是学到了很多有用的知识。",
+     "pinyin": "",
+     "draft_pinyin": "Cóng yín háng chū lái yǐ hòu, wǒ jué de, suī rán zhè cì bàn shì huā le bù shǎo shí jiān, dàn shì xué dào le hěn duō yǒu yòng de zhī shí."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "账户",
+     "pinyin": "",
+     "meaning": "tài khoản"
+    },
+    {
+     "word": "排队",
+     "pinyin": "",
+     "meaning": "xếp hàng"
+    },
+    {
+     "word": "询问",
+     "pinyin": "",
+     "meaning": "hỏi thăm"
+    },
+    {
+     "word": "取号",
+     "pinyin": "",
+     "meaning": "lấy số"
+    },
+    {
+     "word": "叫号",
+     "pinyin": "",
+     "meaning": "gọi số"
+    },
+    {
+     "word": "填写",
+     "pinyin": "",
+     "meaning": "điền vào"
+    },
+    {
+     "word": "申请表",
+     "pinyin": "",
+     "meaning": "đơn xin"
+    },
+    {
+     "word": "复杂",
+     "pinyin": "",
+     "meaning": "phức tạp"
+    },
+    {
+     "word": "提供",
+     "pinyin": "",
+     "meaning": "cung cấp"
+    },
+    {
+     "word": "身份证",
+     "pinyin": "",
+     "meaning": "chứng minh nhân dân"
+    },
+    {
+     "word": "设置",
+     "pinyin": "",
+     "meaning": "thiết lập"
+    },
+    {
+     "word": "密码",
+     "pinyin": "",
+     "meaning": "mật khẩu"
+    },
+    {
+     "word": "顺便",
+     "pinyin": "",
+     "meaning": "tiện thể"
+    },
+    {
+     "word": "购物",
+     "pinyin": "",
+     "meaning": "mua hàng, mua sắm"
+    },
+    {
+     "word": "考虑",
+     "pinyin": "",
+     "meaning": "suy nghĩ, xem xét"
+    },
+    {
+     "word": "计划",
+     "pinyin": "",
+     "meaning": "kế hoạch"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "只好…… (chỉ còn cách…)",
+     "example": "只好向工作人员询问",
+     "meaning": "dẫn hành động bất đắc dĩ khi không có lựa chọn khác"
+    },
+    {
+     "name": "先……然后…… (trước…rồi sau đó…)",
+     "example": "先取一个号，然后坐着等叫号",
+     "meaning": "sắp xếp trình tự các bước"
+    },
+    {
+     "name": "比……要……一些 (…hơn một chút so với…)",
+     "example": "办理账户的过程比我想的要复杂一些",
+     "meaning": "so sánh mức độ vượt trội nhẹ"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然花了不少时间，但是学到了很多知识",
+     "meaning": "nhượng bộ, khẳng định giá trị tích cực"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 5,
+   "titleHan": "保护环境",
+   "titleVi": "Bảo vệ môi trường",
+   "sentences": [
+    {
+     "han": "上个月，学校组织了一次关于保护环境的活动，我们班也参加了。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè yuè, xué xiào zǔ zhī le yī cì guān yú bǎo hù huán jìng de huó dòng, wǒ men bān yě cān jiā le."
+    },
+    {
+     "han": "活动开始以前，老师先跟我们讲了现在环境污染的一些问题，让我们更了解情况。",
+     "pinyin": "",
+     "draft_pinyin": "Huó dòng kāi shǐ yǐ qián, lǎo shī xiān gēn wǒ men jiǎng le xiàn zài huán jìng wū rǎn de yī xiē wèn tí, ràng wǒ men gèng liǎo jiě qíng kuàng."
+    },
+    {
+     "han": "听完以后，我才发现，自己平时的一些习惯，其实对环境不太好。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng wán yǐ hòu, wǒ cái fā xiàn, zì jǐ píng shí de yī xiē xí guàn, qí shí duì huán jìng bù tài hǎo."
+    },
+    {
+     "han": "比如，我以前常常用一次性的筷子和杯子，从来没有想过这样会产生很多垃圾。",
+     "pinyin": "",
+     "draft_pinyin": "Bǐ rú, wǒ yǐ qián cháng cháng yòng yí cì xìng de kuài zi hé bēi zi, cóng lái méi yǒu xiǎng guò zhè yàng huì chǎn shēng hěn duō lā jī."
+    },
+    {
+     "han": "从那天以后，我决定改变一些生活习惯，尽量减少使用一次性用品。",
+     "pinyin": "",
+     "draft_pinyin": "Cóng nà tiān yǐ hòu, wǒ jué dìng gǎi biàn yī xiē shēng huó xí guàn, jǐn liàng jiǎn shǎo shǐ yòng yí cì xìng yòng pǐn."
+    },
+    {
+     "han": "我还开始学习怎么把垃圾分类，虽然一开始常常分错，但是慢慢就熟悉了。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hái kāi shǐ xué xí zěn me bǎ lā jī fēn lèi, suī rán yī kāi shǐ cháng cháng fēn cuò, dàn shì màn màn jiù shú xī le."
+    },
+    {
+     "han": "除了自己改变习惯，我也常常提醒家人，跟他们分享我学到的环保知识。",
+     "pinyin": "",
+     "draft_pinyin": "Chú le zì jǐ gǎi biàn xí guàn, wǒ yě cháng cháng tí xǐng jiā rén, gēn tā men fēn xiǎng wǒ xué dào de huán bǎo zhī shí."
+    },
+    {
+     "han": "妈妈说，她以前不太在意这些事情，但是听了我说的以后，也开始注意节约用水用电。",
+     "pinyin": "",
+     "draft_pinyin": "Mā mā shuō, tā yǐ qián bù tài zài yì zhè xiē shì qíng, dàn shì tīng le wǒ shuō de yǐ hòu, yě kāi shǐ zhù yì jié yuē yòng shuǐ yòng diàn."
+    },
+    {
+     "han": "我觉得，保护环境不是一件很难的事情，只要每个人都做一点儿，就能带来大大的改变。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ jué de, bǎo hù huán jìng bú shì yī jiàn hěn nán de shì qíng, zhǐ yào měi gè rén dōu zuò yì diǎn ér, jiù néng dài lái dà dà de gǎi biàn."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "组织",
+     "pinyin": "",
+     "meaning": "tổ chức"
+    },
+    {
+     "word": "污染",
+     "pinyin": "",
+     "meaning": "ô nhiễm"
+    },
+    {
+     "word": "一次性",
+     "pinyin": "",
+     "meaning": "dùng một lần"
+    },
+    {
+     "word": "垃圾",
+     "pinyin": "",
+     "meaning": "rác"
+    },
+    {
+     "word": "改变",
+     "pinyin": "",
+     "meaning": "thay đổi"
+    },
+    {
+     "word": "尽量",
+     "pinyin": "",
+     "meaning": "cố gắng hết mức"
+    },
+    {
+     "word": "用品",
+     "pinyin": "",
+     "meaning": "vật dụng"
+    },
+    {
+     "word": "分类",
+     "pinyin": "",
+     "meaning": "phân loại"
+    },
+    {
+     "word": "分享",
+     "pinyin": "",
+     "meaning": "chia sẻ"
+    },
+    {
+     "word": "环保",
+     "pinyin": "",
+     "meaning": "bảo vệ môi trường"
+    },
+    {
+     "word": "在意",
+     "pinyin": "",
+     "meaning": "để tâm, quan tâm"
+    },
+    {
+     "word": "节约",
+     "pinyin": "",
+     "meaning": "tiết kiệm"
+    },
+    {
+     "word": "用水",
+     "pinyin": "",
+     "meaning": "dùng nước"
+    },
+    {
+     "word": "用电",
+     "pinyin": "",
+     "meaning": "dùng điện"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "才 (mới, lúc đó mới)",
+     "example": "听完以后，我才发现",
+     "meaning": "nhấn mạnh việc chỉ nhận ra sau một điều kiện nhất định"
+    },
+    {
+     "name": "从来没有……过 (chưa từng…)",
+     "example": "从来没有想过这样会产生很多垃圾",
+     "meaning": "phủ định tuyệt đối trải nghiệm trong quá khứ"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然一开始常常分错，但是慢慢就熟悉了",
+     "meaning": "nhượng bộ, khẳng định sự tiến bộ"
+    },
+    {
+     "name": "只要……就…… (chỉ cần…là…)",
+     "example": "只要每个人都做一点儿，就能带来大大的改变",
+     "meaning": "nêu điều kiện đủ để đạt kết quả"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 6,
+   "titleHan": "参加婚礼",
+   "titleVi": "Tham dự đám cưới",
+   "sentences": [
+    {
+     "han": "上个星期六，我参加了大学同学小李的婚礼，这是我第一次当伴郎。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xīng qī liù, wǒ cān jiā le dà xué tóng xué xiǎo lǐ de hūn lǐ, zhè shì wǒ dì yī cì dāng bàn láng."
+    },
+    {
+     "han": "婚礼当天，我很早就到了现场，帮忙布置会场，检查每一个细节。",
+     "pinyin": "",
+     "draft_pinyin": "Hūn lǐ dàng tiān, wǒ hěn zǎo jiù dào le xiàn chǎng, bāng máng bù zhì huì chǎng, jiǎn chá měi yí gè xì jié."
+    },
+    {
+     "han": "新郎新娘走进来的时候，全场的人都站起来，为他们鼓掌，气氛特别热闹。",
+     "pinyin": "",
+     "draft_pinyin": "Xīn láng xīn niáng zǒu jìn lái de shí hòu, quán chǎng de rén dōu zhàn qǐ lái, wèi tā men gǔ zhǎng, qì fēn tè bié rè nào."
+    },
+    {
+     "han": "仪式开始以后，主持人请新郎新娘互相说出对对方的感谢，很多客人都感动得流泪了。",
+     "pinyin": "",
+     "draft_pinyin": "Yí shì kāi shǐ yǐ hòu, zhǔ chí rén qǐng xīn láng xīn niáng hù xiāng shuō chū duì duì fāng de gǎn xiè, hěn duō kè rén dōu gǎn dòng dé liú lèi le."
+    },
+    {
+     "han": "接下来是敬酒环节，小李带着新娘一桌一桌地过来，向大家表示感谢。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē xià lái shì jìng jiǔ huán jié, xiǎo lǐ dài zhe xīn niáng yī zhuō yī zhuō dì guò lái, xiàng dà jiā biǎo shì gǎn xiè."
+    },
+    {
+     "han": "轮到我们这一桌的时候，小李特别激动地说，谢谢我这些年一直陪着他。",
+     "pinyin": "",
+     "draft_pinyin": "Lún dào wǒ men zhè yī zhuō de shí hòu, xiǎo lǐ tè bié jī dòng dì shuō, xiè xiè wǒ zhè xiē nián yì zhí péi zhe tā."
+    },
+    {
+     "han": "听了这句话，我也有点儿想哭，想起我们从大学到现在经历的很多事情。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng le zhè jù huà, wǒ yě yǒu diǎn ér xiǎng kū, xiǎng qǐ wǒ men cóng dà xué dào xiàn zài jīng lì de hěn duō shì qíng."
+    },
+    {
+     "han": "婚礼结束以后，我们几个老朋友留下来聊天，一起回忆大学时代的故事。",
+     "pinyin": "",
+     "draft_pinyin": "Hūn lǐ jié shù yǐ hòu, wǒ men jǐ gè lǎo péng yǒu liú xià lái liáo tiān, yì qǐ huí yì dà xué shí dài de gù shì."
+    },
+    {
+     "han": "这次经历让我明白，朋友之间的感情，会随着时间变得更深，更珍贵。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì jīng lì ràng wǒ míng bái, péng yǒu zhī jiān de gǎn qíng, huì suí zhe shí jiān biàn dé gēng shēn, gèng zhēn guì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "婚礼",
+     "pinyin": "",
+     "meaning": "đám cưới"
+    },
+    {
+     "word": "伴郎",
+     "pinyin": "",
+     "meaning": "phụ rể"
+    },
+    {
+     "word": "现场",
+     "pinyin": "",
+     "meaning": "hiện trường, tại chỗ"
+    },
+    {
+     "word": "布置",
+     "pinyin": "",
+     "meaning": "trang trí, bố trí"
+    },
+    {
+     "word": "细节",
+     "pinyin": "",
+     "meaning": "chi tiết"
+    },
+    {
+     "word": "新郎",
+     "pinyin": "",
+     "meaning": "chú rể"
+    },
+    {
+     "word": "新娘",
+     "pinyin": "",
+     "meaning": "cô dâu"
+    },
+    {
+     "word": "全场",
+     "pinyin": "",
+     "meaning": "toàn bộ hội trường"
+    },
+    {
+     "word": "鼓掌",
+     "pinyin": "",
+     "meaning": "vỗ tay"
+    },
+    {
+     "word": "气氛",
+     "pinyin": "",
+     "meaning": "không khí (bầu không khí)"
+    },
+    {
+     "word": "仪式",
+     "pinyin": "",
+     "meaning": "nghi lễ"
+    },
+    {
+     "word": "主持人",
+     "pinyin": "",
+     "meaning": "người dẫn chương trình"
+    },
+    {
+     "word": "流泪",
+     "pinyin": "",
+     "meaning": "rơi lệ"
+    },
+    {
+     "word": "敬酒",
+     "pinyin": "",
+     "meaning": "mời rượu (chúc rượu)"
+    },
+    {
+     "word": "环节",
+     "pinyin": "",
+     "meaning": "công đoạn, khâu"
+    },
+    {
+     "word": "激动",
+     "pinyin": "",
+     "meaning": "phấn khích, xúc động"
+    },
+    {
+     "word": "回忆",
+     "pinyin": "",
+     "meaning": "hồi tưởng"
+    },
+    {
+     "word": "时代",
+     "pinyin": "",
+     "meaning": "thời đại"
+    },
+    {
+     "word": "随着",
+     "pinyin": "",
+     "meaning": "theo cùng với"
+    },
+    {
+     "word": "珍贵",
+     "pinyin": "",
+     "meaning": "quý báu"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "……的时候，全……都…… (khi…thì toàn bộ…đều…)",
+     "example": "新郎新娘走进来的时候，全场的人都站起来",
+     "meaning": "nhấn mạnh phản ứng đồng loạt tại một thời điểm"
+    },
+    {
+     "name": "一桌一桌地 (từng bàn từng bàn)",
+     "example": "一桌一桌地过来敬酒",
+     "meaning": "láy lượng từ làm trạng ngữ, nhấn mạnh tính tuần tự"
+    },
+    {
+     "name": "随着…… (theo cùng với…)",
+     "example": "感情会随着时间变得更深",
+     "meaning": "dẫn ra yếu tố khiến sự việc biến đổi theo"
+    },
+    {
+     "name": "更……更…… (càng…càng…)",
+     "example": "变得更深，更珍贵",
+     "meaning": "liệt kê hai mức độ tăng cùng lúc"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 7,
+   "titleHan": "看中医",
+   "titleVi": "Khám Đông y",
+   "sentences": [
+    {
+     "han": "最近，我常常觉得没有力气，晚上也睡不好，朋友建议我去看看中医。",
+     "pinyin": "",
+     "draft_pinyin": "Zuì jìn, wǒ cháng cháng jué de méi yǒu lì qì, wǎn shàng yě shuì bù hǎo, péng yǒu jiàn yì wǒ qù kàn kàn zhōng yī."
+    },
+    {
+     "han": "这是我第一次看中医，进了诊所以后，感觉环境跟西医医院很不一样，特别安静。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè shì wǒ dì yī cì kàn zhòng yī, jìn le zhěn suǒ yǐ hòu, gǎn jué huán jìng gēn xī yī yī yuàn hěn bù yí yàng, tè bié ān jìng."
+    },
+    {
+     "han": "医生先问了我很多问题，比如平时吃饭、睡觉的习惯，还有最近的心情怎么样。",
+     "pinyin": "",
+     "draft_pinyin": "Yī shēng xiān wèn le wǒ hěn duō wèn tí, bǐ rú píng shí chī fàn, shuì jiào de xí guàn, hái yǒu zuì jìn de xīn qíng zěn me yàng."
+    },
+    {
+     "han": "接着，医生看了看我的舌头，又摸了摸我的脉，说这是中医常用的检查方法。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, yī shēng kàn le kàn wǒ de shé tou, yòu mō le mō wǒ de mài, shuō zhè shì zhōng yī cháng yòng de jiǎn chá fāng fǎ."
+    },
+    {
+     "han": "医生说，我的身体有点儿虚，可能是因为最近工作太累，休息得不够。",
+     "pinyin": "",
+     "draft_pinyin": "Yī shēng shuō, wǒ de shēn tǐ yǒu diǎn ér xū, kě néng shì yīn wèi zuì jìn gōng zuò tài lèi, xiū xī dé bù gòu."
+    },
+    {
+     "han": "他给我开了一些中药，还提醒我，喝中药的时候要注意，不能同时吃太辣的东西。",
+     "pinyin": "",
+     "draft_pinyin": "Tā gěi wǒ kāi le yī xiē zhōng yào, hái tí xǐng wǒ, hē zhōng yào de shí hòu yào zhù yì, bù néng tóng shí chī tài là de dōng xī."
+    },
+    {
+     "han": "除了吃药，医生还建议我每天早睡早起，多做一些简单的运动，比如散步。",
+     "pinyin": "",
+     "draft_pinyin": "Chú le chī yào, yī shēng huán jiàn yì wǒ měi tiān zǎo shuì zǎo qǐ, duō zuò yī xiē jiǎn dān de yùn dòng, bǐ rú sàn bù."
+    },
+    {
+     "han": "一开始，我觉得中药的味道有点儿苦，但是喝了一段时间以后，也慢慢习惯了。",
+     "pinyin": "",
+     "draft_pinyin": "Yī kāi shǐ, wǒ jué de zhōng yào de wèi dào yǒu diǎn ér kǔ, dàn shì hē le yī duàn shí jiān yǐ hòu, yě màn màn xí guàn le."
+    },
+    {
+     "han": "两个星期以后，我发现自己的精神好了很多，睡眠质量也提高了不少。",
+     "pinyin": "",
+     "draft_pinyin": "Liǎng gè xīng qī yǐ hòu, wǒ fā xiàn zì jǐ de jīng shén hǎo le hěn duō, shuì mián zhì liàng yě tí gāo le bù shǎo."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "中医",
+     "pinyin": "",
+     "meaning": "Đông y"
+    },
+    {
+     "word": "诊所",
+     "pinyin": "",
+     "meaning": "phòng khám"
+    },
+    {
+     "word": "西医",
+     "pinyin": "",
+     "meaning": "Tây y"
+    },
+    {
+     "word": "舌头",
+     "pinyin": "",
+     "meaning": "lưỡi"
+    },
+    {
+     "word": "摸",
+     "pinyin": "",
+     "meaning": "sờ, bắt (mạch)"
+    },
+    {
+     "word": "脉",
+     "pinyin": "",
+     "meaning": "mạch"
+    },
+    {
+     "word": "虚",
+     "pinyin": "",
+     "meaning": "suy nhược, hư"
+    },
+    {
+     "word": "中药",
+     "pinyin": "",
+     "meaning": "thuốc Đông y"
+    },
+    {
+     "word": "同时",
+     "pinyin": "",
+     "meaning": "đồng thời"
+    },
+    {
+     "word": "辣",
+     "pinyin": "",
+     "meaning": "cay"
+    },
+    {
+     "word": "早睡早起",
+     "pinyin": "",
+     "meaning": "ngủ sớm dậy sớm"
+    },
+    {
+     "word": "苦",
+     "pinyin": "",
+     "meaning": "đắng"
+    },
+    {
+     "word": "习惯",
+     "pinyin": "",
+     "meaning": "quen, thói quen"
+    },
+    {
+     "word": "精神",
+     "pinyin": "",
+     "meaning": "tinh thần, sức sống"
+    },
+    {
+     "word": "睡眠",
+     "pinyin": "",
+     "meaning": "ngủ, giấc ngủ"
+    },
+    {
+     "word": "质量",
+     "pinyin": "",
+     "meaning": "chất lượng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "接着…… (tiếp theo)",
+     "example": "接着，医生看了看我的舌头",
+     "meaning": "dẫn hành động tiếp nối trong trình tự"
+    },
+    {
+     "name": "可能是因为…… (có thể là vì…)",
+     "example": "可能是因为最近工作太累",
+     "meaning": "nêu suy đoán về nguyên nhân"
+    },
+    {
+     "name": "不能同时…… (không thể đồng thời…)",
+     "example": "不能同时吃太辣的东西",
+     "meaning": "nêu điều kiện cấm kèm theo một hành động khác"
+    },
+    {
+     "name": "一开始……但是……也慢慢…… (lúc đầu…nhưng…cũng dần…)",
+     "example": "一开始觉得苦，但是慢慢就习惯了",
+     "meaning": "chuyển biến từ trạng thái đầu sang trạng thái sau"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 8,
+   "titleHan": "租房子",
+   "titleVi": "Thuê nhà",
+   "sentences": [
+    {
+     "han": "工作以后，我决定搬出父母家，自己租一个房子住，体验一下独立生活。",
+     "pinyin": "",
+     "draft_pinyin": "Gōng zuò yǐ hòu, wǒ jué dìng bān chū fù mǔ jiā, zì jǐ zū yí gè fáng zi zhù, tǐ yàn yī xià dú lì shēng huó."
+    },
+    {
+     "han": "找房子的过程比我想的要花时间，我看了差不多十个房子，才找到比较满意的。",
+     "pinyin": "",
+     "draft_pinyin": "Zhǎo fáng zi de guò chéng bǐ wǒ xiǎng de yào huā shí jiān, wǒ kàn le chà bu duō shí gè fáng zi, cái zhǎo dào bǐ jiào mǎn yì de."
+    },
+    {
+     "han": "有的房子价格便宜，但是位置太远，上班需要一个小时以上；有的位置好，但是租金太贵。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu de fáng zi jià gé pián yi, dàn shì wèi zhì tài yuǎn, shàng bān xū yào yí gè xiǎo shí yǐ shàng; yǒu de wèi zhì hǎo, dàn shì zū jīn tài guì."
+    },
+    {
+     "han": "最后，我选了一个位置和价格都比较合适的房子，虽然面积不大，但是采光很好。",
+     "pinyin": "",
+     "draft_pinyin": "Zuì hòu, wǒ xuǎn le yí gè wèi zhì hé jià gé dōu bǐ jiào hé shì de fáng zi, suī rán miàn jī bù dà, dàn shì cǎi guāng hěn hǎo."
+    },
+    {
+     "han": "签合同以前，中介提醒我，一定要仔细检查合同上的每一条内容，不要着急签字。",
+     "pinyin": "",
+     "draft_pinyin": "Qiān hé tóng yǐ qián, zhōng jiè tí xǐng wǒ, yí dìng yào zǐ xì jiǎn chá hé tóng shàng de měi yī tiáo nèi róng, bú yào zháo jí qiān zì."
+    },
+    {
+     "han": "我认真看了合同，发现有一条关于押金的规定不太清楚，就请中介解释了一下。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ rèn zhēn kàn le hé tóng, fā xiàn yǒu yī tiáo guān yú yā jīn de guī dìng bù tài qīng chǔ, jiù qǐng zhōng jiè jiě shì le yī xià."
+    },
+    {
+     "han": "搬进新家以后，我开始学习怎么自己安排生活，比如做饭、打扫、缴纳各种费用。",
+     "pinyin": "",
+     "draft_pinyin": "Bān jìn xīn jiā yǐ hòu, wǒ kāi shǐ xué xí zěn me zì jǐ ān pái shēng huó, bǐ rú zuò fàn, dǎ sǎo, jiǎo nà gè zhǒng fèi yòng."
+    },
+    {
+     "han": "一开始，一个人生活觉得有点儿孤单，但是慢慢地，我也享受起了这种自由的感觉。",
+     "pinyin": "",
+     "draft_pinyin": "Yī kāi shǐ, yí gè rén shēng huó jué de yǒu diǎn ér gū dān, dàn shì màn màn dì, wǒ yě xiǎng shòu qǐ le zhè zhǒng zì yóu de gǎn jué."
+    },
+    {
+     "han": "现在，每次下班回到自己的小房子，我都觉得特别放松，好像终于有了真正属于自己的空间。",
+     "pinyin": "",
+     "draft_pinyin": "Xiàn zài, měi cì xià bān huí dào zì jǐ de xiǎo fáng zi, wǒ dōu jué de tè bié fàng sōng, hǎo xiàng zhōng yú yǒu le zhēn zhèng shǔ yú zì jǐ de kōng jiān."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "租",
+     "pinyin": "",
+     "meaning": "thuê"
+    },
+    {
+     "word": "体验",
+     "pinyin": "",
+     "meaning": "trải nghiệm"
+    },
+    {
+     "word": "位置",
+     "pinyin": "",
+     "meaning": "vị trí"
+    },
+    {
+     "word": "租金",
+     "pinyin": "",
+     "meaning": "tiền thuê"
+    },
+    {
+     "word": "面积",
+     "pinyin": "",
+     "meaning": "diện tích"
+    },
+    {
+     "word": "采光",
+     "pinyin": "",
+     "meaning": "ánh sáng (chiếu vào phòng)"
+    },
+    {
+     "word": "合同",
+     "pinyin": "",
+     "meaning": "hợp đồng"
+    },
+    {
+     "word": "中介",
+     "pinyin": "",
+     "meaning": "môi giới"
+    },
+    {
+     "word": "押金",
+     "pinyin": "",
+     "meaning": "tiền đặt cọc"
+    },
+    {
+     "word": "规定",
+     "pinyin": "",
+     "meaning": "quy định"
+    },
+    {
+     "word": "缴纳",
+     "pinyin": "",
+     "meaning": "nộp (tiền)"
+    },
+    {
+     "word": "费用",
+     "pinyin": "",
+     "meaning": "chi phí"
+    },
+    {
+     "word": "孤单",
+     "pinyin": "",
+     "meaning": "cô đơn"
+    },
+    {
+     "word": "享受",
+     "pinyin": "",
+     "meaning": "tận hưởng"
+    },
+    {
+     "word": "自由",
+     "pinyin": "",
+     "meaning": "tự do"
+    },
+    {
+     "word": "空间",
+     "pinyin": "",
+     "meaning": "không gian"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "有的……有的…… (cái này…cái khác…)",
+     "example": "有的房子价格便宜，有的位置好",
+     "meaning": "liệt kê các trường hợp khác nhau"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然面积不大，但是采光很好",
+     "meaning": "nhượng bộ, khẳng định ưu điểm"
+    },
+    {
+     "name": "一定要…… (nhất định phải…)",
+     "example": "一定要仔细检查合同",
+     "meaning": "nhấn mạnh yêu cầu bắt buộc"
+    },
+    {
+     "name": "好像……了 (dường như đã…)",
+     "example": "好像终于有了真正属于自己的空间",
+     "meaning": "dẫn cảm nhận chủ quan mang tính khẳng định nhẹ"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 9,
+   "titleHan": "去医院看病",
+   "titleVi": "Đi khám bệnh ở bệnh viện",
+   "sentences": [
+    {
+     "han": "上个星期，我的肚子突然疼得很厉害，妈妈马上带我去了医院。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xīng qī, wǒ de dǔ zi tū rán téng dé hěn lì hài, mā mā mǎ shàng dài wǒ qù le yī yuàn."
+    },
+    {
+     "han": "到了医院，人很多，我们先在挂号处排队，办理了挂号手续。",
+     "pinyin": "",
+     "draft_pinyin": "Dào le yī yuàn, rén hěn duō, wǒ men xiān zài guà hào chù pái duì, bàn lǐ le guà hào shǒu xù."
+    },
+    {
+     "han": "等了大概半个小时，终于轮到我们，医生仔细问了我最近吃了什么东西。",
+     "pinyin": "",
+     "draft_pinyin": "Děng le dà gài bàn gè xiǎo shí, zhōng yú lún dào wǒ men, yī shēng zǐ xì wèn le wǒ zuì jìn chī le shén me dōng xī."
+    },
+    {
+     "han": "医生怀疑可能是食物中毒，建议我先做一个血液检查，确认具体的原因。",
+     "pinyin": "",
+     "draft_pinyin": "Yī shēng huái yí kě néng shì shí wù zhòng dú, jiàn yì wǒ xiān zuò yí gè xuè yè jiǎn chá, què rèn jù tǐ de yuán yīn."
+    },
+    {
+     "han": "检查结果出来以后，医生说问题不算严重，只是肠胃有一点儿发炎。",
+     "pinyin": "",
+     "draft_pinyin": "Jiǎn chá jié guǒ chū lái yǐ hòu, yī shēng shuō wèn tí bù suàn yán zhòng, zhǐ shì cháng wèi yǒu yì diǎn ér fā yán."
+    },
+    {
+     "han": "医生给我开了药，还叮嘱我这几天要吃清淡的食物，不能吃油腻和辛辣的东西。",
+     "pinyin": "",
+     "draft_pinyin": "Yī shēng gěi wǒ kāi le yào, hái dīng zhǔ wǒ zhè jǐ tiān yào chī qīng dàn de shí wù, bù néng chī yóu nì hé xīn là de dōng xī."
+    },
+    {
+     "han": "拿药的时候，药房的工作人员很详细地告诉我，每种药应该什么时候吃，吃多少。",
+     "pinyin": "",
+     "draft_pinyin": "Ná yào de shí hòu, yào fáng de gōng zuò rén yuán hěn xiáng xì dì gào sù wǒ, měi zhǒng yào yīng gāi shén me shí hòu chī, chī duō shǎo."
+    },
+    {
+     "han": "回家以后，我按照医生说的方法吃药、休息，身体渐渐好了起来。",
+     "pinyin": "",
+     "draft_pinyin": "Huí jiā yǐ hòu, wǒ àn zhào yī shēng shuō de fāng fǎ chī yào, xiū xī, shēn tǐ jiàn jiàn hǎo le qǐ lái."
+    },
+    {
+     "han": "这次生病的经历让我明白，平时应该更注意饮食健康，不要随便乱吃东西。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì shēng bìng de jīng lì ràng wǒ míng bái, píng shí yīng gāi gèng zhù yì yǐn shí jiàn kāng, bú yào suí biàn luàn chī dōng xī."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "肚子",
+     "pinyin": "",
+     "meaning": "bụng"
+    },
+    {
+     "word": "厉害",
+     "pinyin": "",
+     "meaning": "nghiêm trọng, dữ dội"
+    },
+    {
+     "word": "挂号处",
+     "pinyin": "",
+     "meaning": "quầy đăng ký khám"
+    },
+    {
+     "word": "挂号",
+     "pinyin": "",
+     "meaning": "đăng ký khám bệnh"
+    },
+    {
+     "word": "怀疑",
+     "pinyin": "",
+     "meaning": "nghi ngờ"
+    },
+    {
+     "word": "食物中毒",
+     "pinyin": "",
+     "meaning": "ngộ độc thực phẩm"
+    },
+    {
+     "word": "血液",
+     "pinyin": "",
+     "meaning": "máu"
+    },
+    {
+     "word": "确认",
+     "pinyin": "",
+     "meaning": "xác nhận"
+    },
+    {
+     "word": "具体",
+     "pinyin": "",
+     "meaning": "cụ thể"
+    },
+    {
+     "word": "肠胃",
+     "pinyin": "",
+     "meaning": "dạ dày, đường ruột"
+    },
+    {
+     "word": "发炎",
+     "pinyin": "",
+     "meaning": "viêm"
+    },
+    {
+     "word": "叮嘱",
+     "pinyin": "",
+     "meaning": "dặn dò kỹ"
+    },
+    {
+     "word": "清淡",
+     "pinyin": "",
+     "meaning": "thanh đạm, nhạt"
+    },
+    {
+     "word": "油腻",
+     "pinyin": "",
+     "meaning": "dầu mỡ, béo"
+    },
+    {
+     "word": "辛辣",
+     "pinyin": "",
+     "meaning": "cay nồng"
+    },
+    {
+     "word": "药房",
+     "pinyin": "",
+     "meaning": "nhà thuốc"
+    },
+    {
+     "word": "详细",
+     "pinyin": "",
+     "meaning": "chi tiết, tường tận"
+    },
+    {
+     "word": "渐渐",
+     "pinyin": "",
+     "meaning": "dần dần"
+    },
+    {
+     "word": "饮食",
+     "pinyin": "",
+     "meaning": "ăn uống"
+    },
+    {
+     "word": "随便",
+     "pinyin": "",
+     "meaning": "tùy tiện, bừa"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "怀疑可能是…… (nghi ngờ có thể là…)",
+     "example": "医生怀疑可能是食物中毒",
+     "meaning": "nêu suy đoán chưa chắc chắn của người nói"
+    },
+    {
+     "name": "只是…… (chỉ là…)",
+     "example": "只是肠胃有一点儿发炎",
+     "meaning": "giảm nhẹ mức độ nghiêm trọng của sự việc"
+    },
+    {
+     "name": "按照……方法 (theo phương pháp…)",
+     "example": "按照医生说的方法吃药、休息",
+     "meaning": "dẫn ra căn cứ để thực hiện hành động"
+    },
+    {
+     "name": "不要随便…… (đừng tùy tiện…)",
+     "example": "不要随便乱吃东西",
+     "meaning": "lời khuyên/cảnh báo mang tính phủ định nhẹ"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 10,
+   "titleHan": "学太极拳",
+   "titleVi": "Học Thái Cực Quyền",
+   "sentences": [
+    {
+     "han": "退休以后，爸爸开始每天早上去公园学打太极拳，我觉得很好奇，就跟他一起去了。",
+     "pinyin": "",
+     "draft_pinyin": "Tuì xiū yǐ hòu, bà bà kāi shǐ měi tiān zǎo shàng qù gōng yuán xué dǎ tài jí quán, wǒ jué de hěn hào qí, jiù gēn tā yì qǐ qù le."
+    },
+    {
+     "han": "第一天学习的时候，我发现太极拳的动作看起来简单，但是做起来一点儿也不容易。",
+     "pinyin": "",
+     "draft_pinyin": "Dì yī tiān xué xí de shí hòu, wǒ fā xiàn tài jí quán de dòng zuò kàn qǐ lái jiǎn dān, dàn shì zuò qǐ lái yì diǎn ér yě bù róng yì."
+    },
+    {
+     "han": "教练说，太极拳最重要的不是动作有多快，而是身体和呼吸能不能配合好。",
+     "pinyin": "",
+     "draft_pinyin": "Jiào liàn shuō, tài jí quán zuì zhòng yào de bú shì dòng zuò yǒu duō kuài, ér shì shēn tǐ hé hū xī néng bù néng pèi hé hǎo."
+    },
+    {
+     "han": "我一开始总是忘记应该怎么呼吸，动作也做得不够标准，教练一直耐心地纠正我。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ yī kāi shǐ zǒng shì wàng jì yīng gāi zěn me hū xī, dòng zuò yě zuò dé bù gòu biāo zhǔn, jiào liàn yì zhí nài xīn dì jiū zhèng wǒ."
+    },
+    {
+     "han": "练了一个星期以后，我发现自己的注意力比以前更集中了，心情也变得更平静。",
+     "pinyin": "",
+     "draft_pinyin": "Liàn le yí gè xīng qī yǐ hòu, wǒ fā xiàn zì jǐ de zhù yì lì bǐ yǐ qián gèng jí zhōng le, xīn qíng yě biàn dé gèng píng jìng."
+    },
+    {
+     "han": "爸爸告诉我，他打太极拳已经打了十几年，这已经成了他生活中不可缺少的一部分。",
+     "pinyin": "",
+     "draft_pinyin": "Bà bà gào sù wǒ, tā dǎ tài jí quán yǐ jīng dǎ le shí jǐ nián, zhè yǐ jīng chéng le tā shēng huó zhōng bù kě quē shǎo de yī bù fèn."
+    },
+    {
+     "han": "有一次，我因为工作压力大，晚上睡不好，爸爸建议我，睡前可以练习几个简单的动作。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì, wǒ yīn wèi gōng zuò yā lì dà, wǎn shàng shuì bù hǎo, bà bà jiàn yì wǒ, shuì qián kě yǐ liàn xí jǐ gè jiǎn dān de dòng zuò."
+    },
+    {
+     "han": "我试着照做，发现确实有点儿用，身体放松了以后，睡眠质量也提高了不少。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ shì zhe zhào zuò, fā xiàn què shí yǒu diǎn ér yòng, shēn tǐ fàng sōng le yǐ hòu, shuì mián zhì liàng yě tí gāo le bù shǎo."
+    },
+    {
+     "han": "现在，我也渐渐喜欢上了太极拳，觉得它不只是一种运动，更是一种生活的态度。",
+     "pinyin": "",
+     "draft_pinyin": "Xiàn zài, wǒ yě jiàn jiàn xǐ huān shàng le tài jí quán, jué de tā bù zhǐ shì yī zhǒng yùn dòng, gèng shì yī zhǒng shēng huó de tài dù."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "退休",
+     "pinyin": "",
+     "meaning": "nghỉ hưu"
+    },
+    {
+     "word": "太极拳",
+     "pinyin": "",
+     "meaning": "Thái Cực Quyền"
+    },
+    {
+     "word": "好奇",
+     "pinyin": "",
+     "meaning": "tò mò"
+    },
+    {
+     "word": "动作",
+     "pinyin": "",
+     "meaning": "động tác"
+    },
+    {
+     "word": "呼吸",
+     "pinyin": "",
+     "meaning": "hô hấp, hít thở"
+    },
+    {
+     "word": "配合",
+     "pinyin": "",
+     "meaning": "phối hợp"
+    },
+    {
+     "word": "标准",
+     "pinyin": "",
+     "meaning": "chuẩn, chính xác"
+    },
+    {
+     "word": "纠正",
+     "pinyin": "",
+     "meaning": "sửa chữa, chỉnh sửa"
+    },
+    {
+     "word": "集中",
+     "pinyin": "",
+     "meaning": "tập trung"
+    },
+    {
+     "word": "平静",
+     "pinyin": "",
+     "meaning": "bình yên, tĩnh lặng"
+    },
+    {
+     "word": "缺少",
+     "pinyin": "",
+     "meaning": "thiếu"
+    },
+    {
+     "word": "部分",
+     "pinyin": "",
+     "meaning": "phần, bộ phận"
+    },
+    {
+     "word": "压力",
+     "pinyin": "",
+     "meaning": "áp lực"
+    },
+    {
+     "word": "确实",
+     "pinyin": "",
+     "meaning": "đích thực, đúng là"
+    },
+    {
+     "word": "态度",
+     "pinyin": "",
+     "meaning": "thái độ"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "不是……而是…… (không phải…mà là…)",
+     "example": "不是动作有多快，而是呼吸能不能配合好",
+     "meaning": "phủ định vế trước, khẳng định vế sau là điều đúng"
+    },
+    {
+     "name": "总是…… (luôn luôn)",
+     "example": "一开始总是忘记应该怎么呼吸",
+     "meaning": "chỉ hành động lặp lại không đổi trong một giai đoạn"
+    },
+    {
+     "name": "已经成了…… (đã trở thành…)",
+     "example": "已经成了他生活中不可缺少的一部分",
+     "meaning": "diễn tả sự chuyển biến đã hoàn thành thành trạng thái mới"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "不只是一种运动，更是一种生活的态度",
+     "meaning": "nâng ý nghĩa của sự vật lên mức sâu hơn"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 11,
+   "titleHan": "暗恋",
+   "titleVi": "Thầm yêu",
+   "sentences": [
+    {
+     "han": "高中三年，我一直暗恋着坐在我前面的女生，她的名字叫林小雨。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo zhōng sān nián, wǒ yì zhí àn liàn zhe zuò zài wǒ qián miàn de nǚ shēng, tā de míng zì jiào lín xiǎo yǔ."
+    },
+    {
+     "han": "我从来没有勇气告诉她我的感觉，只敢偶尔偷偷看她的背影。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ cóng lái méi yǒu yǒng qì gào sù tā wǒ de gǎn jué, zhǐ gǎn ǒu ěr tōu tōu kàn tā de bèi yǐng."
+    },
+    {
+     "han": "小雨很聪明，也很努力，每次考试成绩都在班里排在前面，很多同学都佩服她。",
+     "pinyin": "",
+     "draft_pinyin": "Xiǎo yǔ hěn cōng míng, yě hěn nǔ lì, měi cì kǎo shì chéng jì dōu zài bān lǐ pái zài qián miàn, hěn duō tóng xué dōu pèi fú tā."
+    },
+    {
+     "han": "有一次，她转身问我借一本参考书，我紧张得连话都说不清楚，只好点点头。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì, tā zhuǎn shēn wèn wǒ jiè yī běn cān kǎo shū, wǒ jǐn zhāng dé lián huà dōu shuō bù qīng chǔ, zhǐ hǎo diǎn diǎn tóu."
+    },
+    {
+     "han": "从那以后，我们偶尔会聊几句关于作业的事情，虽然内容很简单，但是我心里特别开心。",
+     "pinyin": "",
+     "draft_pinyin": "Cóng nà yǐ hòu, wǒ men ǒu ěr huì liáo jǐ jù guān yú zuò yè de shì qíng, suī rán nèi róng hěn jiǎn dān, dàn shì wǒ xīn lǐ tè bié kāi xīn."
+    },
+    {
+     "han": "我常常想，如果有一天，我能够勇敢地把心里的话说出来，会发生什么呢。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ cháng cháng xiǎng, rú guǒ yǒu yī tiān, wǒ néng gòu yǒng gǎn dì bǎ xīn lǐ de huà shuō chū lái, huì fā shēng shén me ne."
+    },
+    {
+     "han": "可是，每次机会来了，我又会因为害怕被拒绝，把想说的话重新放回心里。",
+     "pinyin": "",
+     "draft_pinyin": "Kě shì, měi cì jī huì lái le, wǒ yòu huì yīn wèi hài pà bèi jù jué, bǎ xiǎng shuō de huà chóng xīn fàng huí xīn lǐ."
+    },
+    {
+     "han": "高三快结束的时候，我终于意识到，如果继续这样下去，我可能会后悔一辈子。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo sān kuài jié shù de shí hòu, wǒ zhōng yú yì shí dào, rú guǒ jì xù zhè yàng xià qù, wǒ kě néng huì hòu huǐ yī bèi zi."
+    },
+    {
+     "han": "虽然最后我还是没能说出口，但是那段安静地喜欢一个人的时光，已经成了我最珍惜的记忆。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán zuì hòu wǒ hái shì méi néng shuō chū kǒu, dàn shì nà duàn ān jìng dì xǐ huān yí gè rén de shí guāng, yǐ jīng chéng le wǒ zuì zhēn xī de jì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "暗恋",
+     "pinyin": "",
+     "meaning": "thầm yêu"
+    },
+    {
+     "word": "偷偷",
+     "pinyin": "",
+     "meaning": "lặng lẽ, âm thầm"
+    },
+    {
+     "word": "背影",
+     "pinyin": "",
+     "meaning": "dáng lưng, hình dáng phía sau"
+    },
+    {
+     "word": "佩服",
+     "pinyin": "",
+     "meaning": "khâm phục, ngưỡng mộ"
+    },
+    {
+     "word": "转身",
+     "pinyin": "",
+     "meaning": "quay người"
+    },
+    {
+     "word": "参考书",
+     "pinyin": "",
+     "meaning": "sách tham khảo"
+    },
+    {
+     "word": "拒绝",
+     "pinyin": "",
+     "meaning": "từ chối"
+    },
+    {
+     "word": "意识到",
+     "pinyin": "",
+     "meaning": "nhận ra"
+    },
+    {
+     "word": "后悔",
+     "pinyin": "",
+     "meaning": "hối hận"
+    },
+    {
+     "word": "一辈子",
+     "pinyin": "",
+     "meaning": "cả đời"
+    },
+    {
+     "word": "说出口",
+     "pinyin": "",
+     "meaning": "nói ra miệng"
+    },
+    {
+     "word": "时光",
+     "pinyin": "",
+     "meaning": "thời gian, thời khắc"
+    },
+    {
+     "word": "珍惜",
+     "pinyin": "",
+     "meaning": "trân trọng"
+    },
+    {
+     "word": "记忆",
+     "pinyin": "",
+     "meaning": "ký ức"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "从来没有…… (chưa từng…)",
+     "example": "从来没有勇气告诉她",
+     "meaning": "phủ định tuyệt đối trải nghiệm trong quá khứ"
+    },
+    {
+     "name": "只敢…… (chỉ dám…)",
+     "example": "只敢偶尔偷偷看她的背影",
+     "meaning": "giới hạn hành động ở mức tối thiểu vì e ngại"
+    },
+    {
+     "name": "如果……会…… (nếu…thì sẽ…)",
+     "example": "如果有一天，我能够勇敢地说出来，会发生什么呢",
+     "meaning": "câu điều kiện giả định"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然最后没能说出口，但是那段时光已经成了珍惜的记忆",
+     "meaning": "nhượng bộ, khẳng định giá trị dù không đạt được kết quả"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 12,
+   "titleHan": "一封没有寄出的情书",
+   "titleVi": "Lá thư tình chưa gửi",
+   "sentences": [
+    {
+     "han": "高二那年，我认识了转学过来的男生陈浩，他坐在我旁边，很快就成了我最好的朋友。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo èr nà nián, wǒ rèn shí le zhuǎn xué guò lái de nán shēng chén hào, tā zuò zài wǒ páng biān, hěn kuài jiù chéng le wǒ zuì hǎo de péng yǒu."
+    },
+    {
+     "han": "慢慢地，我发现自己对他的感觉，已经超出了普通朋友之间的关系。",
+     "pinyin": "",
+     "draft_pinyin": "Màn màn dì, wǒ fā xiàn zì jǐ duì tā de gǎn jué, yǐ jīng chāo chū le pǔ tōng péng yǒu zhī jiān de guān xì."
+    },
+    {
+     "han": "我不敢直接告诉他，于是决定用写信的方式，把心里的话一句一句地写下来。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ bù gǎn zhí jiē gào sù tā, yú shì jué dìng yòng xiě xìn de fāng shì, bǎ xīn lǐ de huà yī jù yī jù dì xiě xià lái."
+    },
+    {
+     "han": "那封信，我写了差不多一个星期，改了很多次，每一个字都是认真考虑以后才写的。",
+     "pinyin": "",
+     "draft_pinyin": "Nà fēng xìn, wǒ xiě le chà bu duō yí gè xīng qī, gǎi le hěn duō cì, měi yí gè zì dōu shì rèn zhēn kǎo lǜ yǐ hòu cái xiě de."
+    },
+    {
+     "han": "信写好以后，我把它放进一个信封，藏在书桌最下面的抽屉里，一直没有寄出去。",
+     "pinyin": "",
+     "draft_pinyin": "Xìn xiě hǎo yǐ hòu, wǒ bǎ tā fàng jìn yí gè xìn fēng, cáng zài shū zhuō zuì xià miàn de chōu tì lǐ, yì zhí méi yǒu jì chū qù."
+    },
+    {
+     "han": "我常常问自己，为什么不敢把信交给他，也许是因为，我害怕这份友谊会因此结束。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ cháng cháng wèn zì jǐ, wèi shén me bù gǎn bǎ xìn jiāo gěi tā, yě xǔ shì yīn wèi, wǒ hài pà zhè fèn yǒu yì huì yīn cǐ jié shù."
+    },
+    {
+     "han": "高三分班以后，我们被分到了不同的班，见面的机会也渐渐变少了。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo sān fēn bān yǐ hòu, wǒ men bèi fēn dào le bù tóng de bān, jiàn miàn de jī huì yě jiàn jiàn biàn shǎo le."
+    },
+    {
+     "han": "毕业那天，我又想起了那封信，可是陈浩已经要去很远的城市上大学了。",
+     "pinyin": "",
+     "draft_pinyin": "Bì yè nà tiān, wǒ yòu xiǎng qǐ le nà fēng xìn, kě shì chén hào yǐ jīng yào qù hěn yuǎn de chéng shì shàng dà xué le."
+    },
+    {
+     "han": "虽然那封信，直到现在还留在我抽屉里，但是我已经渐渐学会了，接受一些没有结果的感情。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán nà fēng xìn, zhí dào xiàn zài hái liú zài wǒ chōu tì lǐ, dàn shì wǒ yǐ jīng jiàn jiàn xué huì le, jiē shòu yī xiē méi yǒu jié guǒ de gǎn qíng."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "情书",
+     "pinyin": "",
+     "meaning": "thư tình"
+    },
+    {
+     "word": "超出",
+     "pinyin": "",
+     "meaning": "vượt quá"
+    },
+    {
+     "word": "信",
+     "pinyin": "",
+     "meaning": "thư (chữ danh từ)"
+    },
+    {
+     "word": "信封",
+     "pinyin": "",
+     "meaning": "phong bì"
+    },
+    {
+     "word": "藏",
+     "pinyin": "",
+     "meaning": "giấu, ẩn"
+    },
+    {
+     "word": "抽屉",
+     "pinyin": "",
+     "meaning": "ngăn kéo"
+    },
+    {
+     "word": "寄",
+     "pinyin": "",
+     "meaning": "gửi (thư)"
+    },
+    {
+     "word": "友谊",
+     "pinyin": "",
+     "meaning": "tình bạn"
+    },
+    {
+     "word": "因此",
+     "pinyin": "",
+     "meaning": "vì thế, do đó"
+    },
+    {
+     "word": "分班",
+     "pinyin": "",
+     "meaning": "phân lớp"
+    },
+    {
+     "word": "渐渐",
+     "pinyin": "",
+     "meaning": "dần dần"
+    },
+    {
+     "word": "直到",
+     "pinyin": "",
+     "meaning": "cho đến khi"
+    },
+    {
+     "word": "接受",
+     "pinyin": "",
+     "meaning": "chấp nhận"
+    },
+    {
+     "word": "结果",
+     "pinyin": "",
+     "meaning": "kết quả"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "已经超出了…… (đã vượt quá…)",
+     "example": "对他的感觉已经超出了普通朋友之间的关系",
+     "meaning": "diễn tả mức độ đã vượt ngưỡng thông thường"
+    },
+    {
+     "name": "于是…… (thế là)",
+     "example": "于是决定用写信的方式",
+     "meaning": "dẫn kết quả tiếp diễn từ sự việc/quyết định vừa nêu"
+    },
+    {
+     "name": "也许是因为…… (có lẽ là vì…)",
+     "example": "也许是因为，我害怕这份友谊会因此结束",
+     "meaning": "nêu suy đoán về nguyên nhân của hành động trước đó"
+    },
+    {
+     "name": "直到现在还…… (cho đến giờ vẫn còn…)",
+     "example": "那封信，直到现在还留在我抽屉里",
+     "meaning": "nhấn mạnh tình trạng kéo dài đến hiện tại"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 13,
+   "titleHan": "陪她准备考试",
+   "titleVi": "Cùng bạn ôn thi",
+   "sentences": [
+    {
+     "han": "高三的时候，班里有一个女生叫夏婷，数学成绩一直不太好，常常因此感到没有信心。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo sān de shí hòu, bān lǐ yǒu yí gè nǚ shēng jiào xià tíng, shù xué chéng jì yì zhí bù tài hǎo, cháng cháng yīn cǐ gǎn dào méi yǒu xìn xīn."
+    },
+    {
+     "han": "我的数学还算不错，有一次，老师提议我可以帮她补习，我心里既紧张又高兴地答应了。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ de shù xué hái suàn bú cuò, yǒu yī cì, lǎo shī tí yì wǒ kě yǐ bāng tā bǔ xí, wǒ xīn lǐ jì jǐn zhāng yòu gāo xìng dì dā yìng le."
+    },
+    {
+     "han": "第一次一起复习，我发现她其实非常努力，只是有些基础的概念一直没有真正理解。",
+     "pinyin": "",
+     "draft_pinyin": "Dì yī cì yì qǐ fù xí, wǒ fā xiàn tā qí shí fēi cháng nǔ lì, zhǐ shì yǒu xiē jī chǔ de gài niàn yì zhí méi yǒu zhēn zhèng lǐ jiě."
+    },
+    {
+     "han": "我试着用简单的例子，一点一点地跟她解释那些概念，慢慢地，她开始能听懂了。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ shì zhe yòng jiǎn dān de lì zi, yì diǎn yì diǎn dì gēn tā jiě shì nà xiē gài niàn, màn màn dì, tā kāi shǐ néng tīng dǒng le."
+    },
+    {
+     "han": "接下来的几个月，我们几乎每天放学以后都留在教室，一起讨论题目，一起解决问题。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē xià lái de jǐ gè yuè, wǒ men jī hū měi tiān fàng xué yǐ hòu dōu liú zài jiào shì, yì qǐ tǎo lùn tí mù, yì qǐ jiě jué wèn tí."
+    },
+    {
+     "han": "虽然只是普通的学习伙伴关系，但是每次看到她进步，我心里都会感到特别满足。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán zhǐ shì pǔ tōng de xué xí huǒ bàn guān xì, dàn shì měi cì kàn dào tā jìn bù, wǒ xīn lǐ dū huì gǎn dào tè bié mǎn zú."
+    },
+    {
+     "han": "有一次模拟考试，她的数学成绩比以前提高了很多，她特别激动地跟我分享这个消息。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì mó nǐ kǎo shì, tā de shù xué chéng jì bǐ yǐ qián tí gāo le hěn duō, tā tè bié jī dòng dì gēn wǒ fēn xiǎng zhè ge xiāo xī."
+    },
+    {
+     "han": "那一刻，我突然意识到，自己对她的感觉，好像已经不只是普通同学之间的关心了。",
+     "pinyin": "",
+     "draft_pinyin": "Nà yī kè, wǒ tū rán yì shí dào, zì jǐ duì tā de gǎn jué, hǎo xiàng yǐ jīng bù zhǐ shì pǔ tōng tóng xué zhī jiān de guān xīn le."
+    },
+    {
+     "han": "高考结束以后，我们各自去了不同的大学，但是那段一起努力的日子，我一直没有忘记。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo kǎo jié shù yǐ hòu, wǒ men gè zì qù le bù tóng de dà xué, dàn shì nà duàn yì qǐ nǔ lì de rì zi, wǒ yì zhí méi yǒu wàng jì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "信心",
+     "pinyin": "",
+     "meaning": "sự tự tin"
+    },
+    {
+     "word": "补习",
+     "pinyin": "",
+     "meaning": "dạy phụ đạo, học thêm"
+    },
+    {
+     "word": "基础",
+     "pinyin": "",
+     "meaning": "cơ bản, nền tảng"
+    },
+    {
+     "word": "概念",
+     "pinyin": "",
+     "meaning": "khái niệm"
+    },
+    {
+     "word": "例子",
+     "pinyin": "",
+     "meaning": "ví dụ"
+    },
+    {
+     "word": "伙伴",
+     "pinyin": "",
+     "meaning": "bạn đồng hành"
+    },
+    {
+     "word": "满足",
+     "pinyin": "",
+     "meaning": "thỏa mãn, hài lòng"
+    },
+    {
+     "word": "模拟考试",
+     "pinyin": "",
+     "meaning": "thi thử"
+    },
+    {
+     "word": "突然",
+     "pinyin": "",
+     "meaning": "bất chợt"
+    },
+    {
+     "word": "高考",
+     "pinyin": "",
+     "meaning": "kỳ thi đại học (Trung Quốc)"
+    },
+    {
+     "word": "各自",
+     "pinyin": "",
+     "meaning": "mỗi người, riêng mỗi bên"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "既……又…… (vừa…vừa…)",
+     "example": "心里既紧张又高兴地答应了",
+     "meaning": "liệt kê hai cảm xúc cùng tồn tại"
+    },
+    {
+     "name": "一点一点地…… (từng chút từng chút)",
+     "example": "一点一点地跟她解释那些概念",
+     "meaning": "láy số từ làm trạng ngữ, nhấn mạnh tính tuần tự"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然只是普通的学习伙伴关系，但是每次看到进步都感到满足",
+     "meaning": "nhượng bộ, khẳng định cảm xúc thật"
+    },
+    {
+     "name": "好像……了 (dường như đã…)",
+     "example": "自己对她的感觉，好像已经不只是普通同学的关心了",
+     "meaning": "dẫn cảm nhận chủ quan mang tính khẳng định nhẹ"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 14,
+   "titleHan": "毕业前的表白",
+   "titleVi": "Tỏ tình trước khi tốt nghiệp",
+   "sentences": [
+    {
+     "han": "高中三年，我一直喜欢着同班同学周雨，但是因为害怕影响学习，一直没有告诉她。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo zhōng sān nián, wǒ yì zhí xǐ huān zhe tóng bān tóng xué zhōu yǔ, dàn shì yīn wèi hài pà yǐng xiǎng xué xí, yì zhí méi yǒu gào sù tā."
+    },
+    {
+     "han": "高考结束以后，大家都轻松了很多，我心里也开始认真考虑，要不要把这份感情说出来。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo kǎo jié shù yǐ hòu, dà jiā dōu qīng sōng le hěn duō, wǒ xīn lǐ yě kāi shǐ rèn zhēn kǎo lǜ, yào bù yào bǎ zhè fèn gǎn qíng shuō chū lái."
+    },
+    {
+     "han": "朋友们都建议我，既然高考已经结束，不用再担心影响学习，应该抓住这个机会。",
+     "pinyin": "",
+     "draft_pinyin": "Péng yǒu men dōu jiàn yì wǒ, jì rán gāo kǎo yǐ jīng jié shù, bù yòng zài dān xīn yǐng xiǎng xué xí, yīng gāi zhuā zhù zhè ge jī huì."
+    },
+    {
+     "han": "经过几天的犹豫，我决定在毕业典礼那天，找一个安静的时间，把心里话告诉她。",
+     "pinyin": "",
+     "draft_pinyin": "Jīng guò jǐ tiān de yóu yù, wǒ jué dìng zài bì yè diǎn lǐ nà tiān, zhǎo yí gè ān jìng de shí jiān, bǎ xīn lǐ huà gào sù tā."
+    },
+    {
+     "han": "毕业典礼结束以后，我特别紧张地把周雨叫到了操场边上，几乎不知道应该怎么开口。",
+     "pinyin": "",
+     "draft_pinyin": "Bì yè diǎn lǐ jié shù yǐ hòu, wǒ tè bié jǐn zhāng dì bǎ zhōu yǔ jiào dào le cāo chǎng biān shàng, jī hū bù zhī dào yīng gāi zěn me kāi kǒu."
+    },
+    {
+     "han": "我告诉她，这三年来，我一直很喜欢她，虽然不知道结果会怎样，但是不想留下遗憾。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ gào sù tā, zhè sān nián lái, wǒ yì zhí hěn xǐ huān tā, suī rán bù zhī dào jié guǒ huì zěn yàng, dàn shì bù xiǎng liú xià yí hàn."
+    },
+    {
+     "han": "周雨听完，先是愣了一下，然后笑着说，她也曾经注意到我，只是没有想到我会主动说出来。",
+     "pinyin": "",
+     "draft_pinyin": "Zhōu yǔ tīng wán, xiān shì lèng le yī xià, rán hòu xiào zhe shuō, tā yě céng jīng zhù yì dào wǒ, zhǐ shì méi yǒu xiǎng dào wǒ huì zhǔ dòng shuō chū lái."
+    },
+    {
+     "han": "那一刻，我们都有点儿不敢相信，原来彼此心里都藏着同样的感觉。",
+     "pinyin": "",
+     "draft_pinyin": "Nà yī kè, wǒ men dōu yǒu diǎn ér bù gǎn xiāng xìn, yuán lái bǐ cǐ xīn lǐ dōu cáng zhe tóng yàng de gǎn jué."
+    },
+    {
+     "han": "虽然我们要去不同的城市上大学，但是我们决定，先试着做朋友，慢慢了解对方，看看未来会怎样。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán wǒ men yào qù bù tóng de chéng shì shàng dà xué, dàn shì wǒ men jué dìng, xiān shì zhe zuò péng yǒu, màn màn liǎo jiě duì fāng, kàn kàn wèi lái huì zěn yàng."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "表白",
+     "pinyin": "",
+     "meaning": "tỏ tình"
+    },
+    {
+     "word": "影响",
+     "pinyin": "",
+     "meaning": "ảnh hưởng"
+    },
+    {
+     "word": "既然",
+     "pinyin": "",
+     "meaning": "đã như vậy, đã vậy"
+    },
+    {
+     "word": "抓住",
+     "pinyin": "",
+     "meaning": "nắm bắt"
+    },
+    {
+     "word": "犹豫",
+     "pinyin": "",
+     "meaning": "do dự"
+    },
+    {
+     "word": "典礼",
+     "pinyin": "",
+     "meaning": "lễ (nghi thức)"
+    },
+    {
+     "word": "开口",
+     "pinyin": "",
+     "meaning": "mở miệng (nói)"
+    },
+    {
+     "word": "遗憾",
+     "pinyin": "",
+     "meaning": "tiếc nuối"
+    },
+    {
+     "word": "愣",
+     "pinyin": "",
+     "meaning": "ngẩn ra, sững lại"
+    },
+    {
+     "word": "曾经",
+     "pinyin": "",
+     "meaning": "đã từng"
+    },
+    {
+     "word": "彼此",
+     "pinyin": "",
+     "meaning": "lẫn nhau, đôi bên"
+    },
+    {
+     "word": "未来",
+     "pinyin": "",
+     "meaning": "tương lai"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "既然……应该…… (đã vậy…nên…)",
+     "example": "既然高考已经结束，不用再担心，应该抓住机会",
+     "meaning": "nêu tiền đề đã xảy ra rồi rút ra hành động nên làm"
+    },
+    {
+     "name": "经过 + khoảng thời gian (trải qua)",
+     "example": "经过几天的犹豫，我决定…",
+     "meaning": "diễn tả kết quả sau một quá trình"
+    },
+    {
+     "name": "虽然不知道……但是…… (tuy không biết…nhưng…)",
+     "example": "虽然不知道结果会怎样，但是不想留下遗憾",
+     "meaning": "nhượng bộ, khẳng định quyết tâm"
+    },
+    {
+     "name": "原来…… (hóa ra…)",
+     "example": "原来彼此心里都藏着同样的感觉",
+     "meaning": "dẫn ra một sự thật vừa được phát hiện, khác với điều tưởng trước đó"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 15,
+   "titleHan": "多年后的重逢",
+   "titleVi": "Gặp lại sau nhiều năm",
+   "sentences": [
+    {
+     "han": "十年前，我和高中同班同学许诺是彼此的初恋，那时候我们常常一起放学回家，一起讨论未来的梦想。",
+     "pinyin": "",
+     "draft_pinyin": "Shí nián qián, wǒ hé gāo zhōng tóng bān tóng xué xǔ nuò shì bǐ cǐ de chū liàn, nà shí hòu wǒ men cháng cháng yì qǐ fàng xué huí jiā, yì qǐ tǎo lùn wèi lái de mèng xiǎng."
+    },
+    {
+     "han": "高中毕业以后，我们去了不同的城市上大学，因为距离太远，联系渐渐变少了，最后自然地分开了。",
+     "pinyin": "",
+     "draft_pinyin": "Gāo zhōng bì yè yǐ hòu, wǒ men qù le bù tóng de chéng shì shàng dà xué, yīn wèi jù lí tài yuǎn, lián xì jiàn jiàn biàn shǎo le, zuì hòu zì rán dì fēn kāi le."
+    },
+    {
+     "han": "这些年，我们各自经历了不同的生活，我一直没有忘记他，但是也慢慢学会了接受这段感情的结束。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè xiē nián, wǒ men gè zì jīng lì le bù tóng de shēng huó, wǒ yì zhí méi yǒu wàng jì tā, dàn shì yě màn màn xué huì le jiē shòu zhè duàn gǎn qíng de jié shù."
+    },
+    {
+     "han": "上个星期，我回到家乡参加高中同学的聚会，没想到，许诺竟然也回来了。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xīng qī, wǒ huí dào jiā xiāng cān jiā gāo zhōng tóng xué de jù huì, méi xiǎng dào, xǔ nuò jìng rán yě huí lái le."
+    },
+    {
+     "han": "十年不见，我们都变了很多，但是聊起以前的事情，还是能感觉到当年那种熟悉的感觉。",
+     "pinyin": "",
+     "draft_pinyin": "Shí nián bú jiàn, wǒ men dōu biàn le hěn duō, dàn shì liáo qǐ yǐ qián de shì qíng, hái shì néng gǎn jué dào dāng nián nà zhǒng shú xī de gǎn jué."
+    },
+    {
+     "han": "聚会结束以后，我们两个人单独找了一家咖啡店，聊了很久，从高中的回忆聊到现在的生活。",
+     "pinyin": "",
+     "draft_pinyin": "Jù huì jié shù yǐ hòu, wǒ men liǎng gè rén dān dú zhǎo le yī jiā kā fēi diàn, liáo le hěn jiǔ, cóng gāo zhōng de huí yì liáo dào xiàn zài de shēng huó."
+    },
+    {
+     "han": "许诺告诉我，这些年，他也常常想起我们一起度过的那段时光，觉得那是他最美好的记忆之一。",
+     "pinyin": "",
+     "draft_pinyin": "Xǔ nuò gào sù wǒ, zhè xiē nián, tā yě cháng cháng xiǎng qǐ wǒ men yì qǐ dù guò de nà duàn shí guāng, jué de nà shì tā zuì měi hǎo de jì yì zhī yī."
+    },
+    {
+     "han": "我们都已经不是十年前那个年轻、冲动的自己了，但是这次重逢，让我们都感到特别温暖。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ men dōu yǐ jīng bú shì shí nián qián nà ge nián qīng, chōng dòng de zì jǐ le, dàn shì zhè cì chóng féng, ràng wǒ men dōu gǎn dào tè bié wēn nuǎn."
+    },
+    {
+     "han": "虽然我们最后决定，先做朋友，慢慢重新了解对方，但是我心里知道，这次重逢，也是一种珍贵的缘分。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán wǒ men zuì hòu jué dìng, xiān zuò péng yǒu, màn màn chóng xīn liǎo jiě duì fāng, dàn shì wǒ xīn lǐ zhī dào, zhè cì chóng féng, yě shì yī zhǒng zhēn guì de yuán fēn."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "重逢",
+     "pinyin": "",
+     "meaning": "gặp lại"
+    },
+    {
+     "word": "距离",
+     "pinyin": "",
+     "meaning": "khoảng cách"
+    },
+    {
+     "word": "自然地",
+     "pinyin": "",
+     "meaning": "một cách tự nhiên"
+    },
+    {
+     "word": "经历",
+     "pinyin": "",
+     "meaning": "trải nghiệm, trải qua"
+    },
+    {
+     "word": "家乡",
+     "pinyin": "",
+     "meaning": "quê hương"
+    },
+    {
+     "word": "聚会",
+     "pinyin": "",
+     "meaning": "buổi họp mặt"
+    },
+    {
+     "word": "竟然",
+     "pinyin": "",
+     "meaning": "lại (bất ngờ)"
+    },
+    {
+     "word": "当年",
+     "pinyin": "",
+     "meaning": "năm đó"
+    },
+    {
+     "word": "单独",
+     "pinyin": "",
+     "meaning": "riêng, một mình"
+    },
+    {
+     "word": "度过",
+     "pinyin": "",
+     "meaning": "trải qua (thời gian)"
+    },
+    {
+     "word": "美好",
+     "pinyin": "",
+     "meaning": "tốt đẹp"
+    },
+    {
+     "word": "冲动",
+     "pinyin": "",
+     "meaning": "bốc đồng"
+    },
+    {
+     "word": "缘分",
+     "pinyin": "",
+     "meaning": "duyên số"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "因为……渐渐…… (vì…dần dần…)",
+     "example": "因为距离太远，联系渐渐变少了",
+     "meaning": "dẫn nguyên nhân dẫn đến sự thay đổi dần theo thời gian"
+    },
+    {
+     "name": "没想到…… (không ngờ…)",
+     "example": "没想到，许诺竟然也回来了",
+     "meaning": "dẫn ra sự việc bất ngờ, không dự đoán trước"
+    },
+    {
+     "name": "从……聊到…… (nói chuyện từ…đến…)",
+     "example": "从高中的回忆聊到现在的生活",
+     "meaning": "chỉ phạm vi nội dung trò chuyện trải dài từ điểm này đến điểm khác"
+    },
+    {
+     "name": "虽然……但是……也是…… (tuy…nhưng…cũng là…)",
+     "example": "虽然决定先做朋友，但是这次重逢也是一种珍贵的缘分",
+     "meaning": "nhượng bộ, khẳng định giá trị của sự việc"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 16,
+   "titleHan": "元宵节看花灯",
+   "titleVi": "Ngắm đèn lồng Tết Nguyên Tiêu",
+   "sentences": [
+    {
+     "han": "每年正月十五，也就是元宵节，很多城市都会举行盛大的花灯展览，吸引大量游客前来观赏。",
+     "pinyin": "",
+     "draft_pinyin": "Měi nián zhēng yuè shí wǔ, yě jiù shì yuán xiāo jié, hěn duō chéng shì dū huì jǔ xíng shèng dà de huā dēng zhǎn lǎn, xī yǐn dà liàng yóu kè qián lái guān shǎng."
+    },
+    {
+     "han": "今年元宵节，我特意请了一天假，跟家人一起去古城看花灯，这是我第一次参加这样的活动。",
+     "pinyin": "",
+     "draft_pinyin": "Jīn nián yuán xiāo jié, wǒ tè yì qǐng le yī tiān jiǎ, gēn jiā rén yì qǐ qù gǔ chéng kàn huā dēng, zhè shì wǒ dì yī cì cān jiā zhè yàng de huó dòng."
+    },
+    {
+     "han": "天还没黑的时候，街上已经挤满了人，大家都带着期待的心情，等着花灯亮起来的那一刻。",
+     "pinyin": "",
+     "draft_pinyin": "Tiān hái méi hēi de shí hòu, jiē shàng yǐ jīng jǐ mǎn le rén, dà jiā dōu dài zhe qī dài de xīn qíng, děng zhe huā dēng liàng qǐ lái de nà yī kè."
+    },
+    {
+     "han": "太阳落山以后，整条街突然被各种颜色的灯光照亮，气氛立刻变得热闹起来。",
+     "pinyin": "",
+     "draft_pinyin": "Tài yáng luò shān yǐ hòu, zhěng tiáo jiē tū rán bèi gè zhǒng yán sè de dēng guāng zhào liàng, qì fēn lì kè biàn dé rè nào qǐ lái."
+    },
+    {
+     "han": "花灯的样子非常丰富，有做成十二生肖形状的，也有做成古代传说人物形状的，每一个都很精致。",
+     "pinyin": "",
+     "draft_pinyin": "Huā dēng de yàng zi fēi cháng fēng fù, yǒu zuò chéng shí èr shēng xiào xíng zhuàng de, yě yǒu zuò chéng gǔ dài chuán shuō rén wù xíng zhuàng de, měi yí gè dōu hěn jīng zhì."
+    },
+    {
+     "han": "我们一边慢慢地走，一边欣赏两旁的花灯，还猜了几个挂在灯上的灯谜，觉得特别有意思。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ men yī biān màn màn dì zǒu, yī biān xīn shǎng liǎng páng de huā dēng, hái cāi le jǐ gè guà zài dēng shàng de dēng mí, jué de tè bié yǒu yì si."
+    },
+    {
+     "han": "妈妈告诉我，元宵节除了看花灯，还有一个重要的习俗，就是全家人一起吃元宵，象征团圆美满。",
+     "pinyin": "",
+     "draft_pinyin": "Mā mā gào sù wǒ, yuán xiāo jié chú le kàn huā dēng, hái yǒu yí gè zhòng yào de xí sú, jiù shì quán jiā rén yì qǐ chī yuán xiāo, xiàng zhēng tuán yuán měi mǎn."
+    },
+    {
+     "han": "逛完花灯以后，我们找了一家小店，吃了热腾腾的元宵，甜甜的味道让人感到特别温暖。",
+     "pinyin": "",
+     "draft_pinyin": "Guàng wán huā dēng yǐ hòu, wǒ men zhǎo le yī jiā xiǎo diàn, chī le rè téng téng de yuán xiāo, tián tián de wèi dào ràng rén gǎn dào tè bié wēn nuǎn."
+    },
+    {
+     "han": "这次经历让我明白，传统节日不只是放假休息，更是让我们感受传统文化的好机会。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì jīng lì ràng wǒ míng bái, chuán tǒng jié rì bù zhǐ shì fàng jià xiū xī, gèng shì ràng wǒ men gǎn shòu chuán tǒng wén huà de hǎo jī huì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "元宵节",
+     "pinyin": "",
+     "meaning": "Tết Nguyên Tiêu"
+    },
+    {
+     "word": "盛大",
+     "pinyin": "",
+     "meaning": "long trọng, hoành tráng"
+    },
+    {
+     "word": "展览",
+     "pinyin": "",
+     "meaning": "triển lãm"
+    },
+    {
+     "word": "吸引",
+     "pinyin": "",
+     "meaning": "thu hút"
+    },
+    {
+     "word": "游客",
+     "pinyin": "",
+     "meaning": "du khách"
+    },
+    {
+     "word": "观赏",
+     "pinyin": "",
+     "meaning": "ngắm nhìn, chiêm ngưỡng"
+    },
+    {
+     "word": "特意",
+     "pinyin": "",
+     "meaning": "cố ý, đặc biệt"
+    },
+    {
+     "word": "古城",
+     "pinyin": "",
+     "meaning": "phố cổ"
+    },
+    {
+     "word": "挤满",
+     "pinyin": "",
+     "meaning": "chật ních"
+    },
+    {
+     "word": "落山",
+     "pinyin": "",
+     "meaning": "(mặt trời) lặn"
+    },
+    {
+     "word": "照亮",
+     "pinyin": "",
+     "meaning": "chiếu sáng"
+    },
+    {
+     "word": "十二生肖",
+     "pinyin": "",
+     "meaning": "12 con giáp"
+    },
+    {
+     "word": "古代",
+     "pinyin": "",
+     "meaning": "thời cổ đại"
+    },
+    {
+     "word": "传说",
+     "pinyin": "",
+     "meaning": "truyền thuyết"
+    },
+    {
+     "word": "精致",
+     "pinyin": "",
+     "meaning": "tinh xảo"
+    },
+    {
+     "word": "欣赏",
+     "pinyin": "",
+     "meaning": "thưởng thức, ngắm nhìn"
+    },
+    {
+     "word": "灯谜",
+     "pinyin": "",
+     "meaning": "câu đố đèn"
+    },
+    {
+     "word": "习俗",
+     "pinyin": "",
+     "meaning": "tập tục"
+    },
+    {
+     "word": "元宵",
+     "pinyin": "",
+     "meaning": "chè trôi nước"
+    },
+    {
+     "word": "象征",
+     "pinyin": "",
+     "meaning": "biểu tượng, tượng trưng"
+    },
+    {
+     "word": "团圆",
+     "pinyin": "",
+     "meaning": "đoàn viên"
+    },
+    {
+     "word": "美满",
+     "pinyin": "",
+     "meaning": "tốt đẹp, viên mãn"
+    },
+    {
+     "word": "热腾腾",
+     "pinyin": "",
+     "meaning": "nóng hổi"
+    },
+    {
+     "word": "传统",
+     "pinyin": "",
+     "meaning": "truyền thống"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "也就是…… (cũng chính là…)",
+     "example": "正月十五，也就是元宵节",
+     "meaning": "giải thích thêm bằng cách nêu tên gọi khác"
+    },
+    {
+     "name": "……以后，突然…… (sau khi…thì đột nhiên…)",
+     "example": "太阳落山以后，整条街突然被灯光照亮",
+     "meaning": "dẫn sự thay đổi bất ngờ ngay sau một thời điểm"
+    },
+    {
+     "name": "一边……一边…… (vừa…vừa…)",
+     "example": "一边慢慢地走，一边欣赏花灯",
+     "meaning": "hai hành động song song"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "不只是放假休息，更是感受传统文化的机会",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 17,
+   "titleHan": "春节放烟花",
+   "titleVi": "Đốt pháo hoa đêm giao thừa",
+   "sentences": [
+    {
+     "han": "除夕晚上，吃完团圆饭以后，我们全家人都聚集在院子里，准备一起放烟花，迎接新年的到来。",
+     "pinyin": "",
+     "draft_pinyin": "Chú xī wǎn shàng, chī wán tuán yuán fàn yǐ hòu, wǒ men quán jiā rén dōu jù jí zài yuàn zi lǐ, zhǔn bèi yì qǐ fàng yān huā, yíng jiē xīn nián de dào lái."
+    },
+    {
+     "han": "爸爸从商店买回来各种各样的烟花，有的可以在地上旋转，有的可以飞到天上炸开，样式非常丰富。",
+     "pinyin": "",
+     "draft_pinyin": "Bà bà cóng shāng diàn mǎi huí lái gè zhǒng gè yàng de yān huā, yǒu de kě yǐ zài dì shàng xuán zhuǎn, yǒu de kě yǐ fēi dào tiān shàng zhà kāi, yàng shì fēi cháng fēng fù."
+    },
+    {
+     "han": "弟弟第一次自己点烟花，因为害怕，手一直发抖，最后是在爸爸的帮助下才顺利点着的。",
+     "pinyin": "",
+     "draft_pinyin": "Dì di dì yī cì zì jǐ diǎn yān huā, yīn wèi hài pà, shǒu yì zhí fā dǒu, zuì hòu shì zài bà bà de bāng zhù xià cái shùn lì diǎn zháo de."
+    },
+    {
+     "han": "随着一声响亮的声音，第一个烟花冲向天空，在夜空中炸开成一朵美丽的花朵，全家人都发出赞叹的声音。",
+     "pinyin": "",
+     "draft_pinyin": "Suí zhe yī shēng xiǎng liàng de shēng yīn, dì yí gè yān huā chōng xiàng tiān kōng, zài yè kōng zhōng zhà kāi chéng yī duǒ měi lì de huā duǒ, quán jiā rén dōu fā chū zàn tàn de shēng yīn."
+    },
+    {
+     "han": "接下来的一个小时，我们轮流点燃不同的烟花，五颜六色的光在天空中不停地绽放，非常壮观。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē xià lái de yí gè xiǎo shí, wǒ men lún liú diǎn rán bù tóng de yān huā, wǔ yán liù sè de guāng zài tiān kōng zhōng bù tíng dì zhàn fàng, fēi cháng zhuàng guān."
+    },
+    {
+     "han": "除了我们家，周围的邻居也在放烟花，整个小区的天空都被烟花照得亮堂堂的，气氛热闹极了。",
+     "pinyin": "",
+     "draft_pinyin": "Chú le wǒ men jiā, zhōu wéi de lín jū yě zài fàng yān huā, zhěng gè xiǎo qū de tiān kōng dōu bèi yān huā zhào dé liàng táng táng de, qì fēn rè nào jí le."
+    },
+    {
+     "han": "奶奶说，以前放烟花的规则没有现在这么严格，但是为了安全和环保，现在很多城市都限制了烟花的种类和时间。",
+     "pinyin": "",
+     "draft_pinyin": "Nǎi nǎi shuō, yǐ qián fàng yān huā de guī zé méi yǒu xiàn zài zhè me yán gé, dàn shì wèi le ān quán hé huán bǎo, xiàn zài hěn duō chéng shì dōu xiàn zhì le yān huā de zhǒng lèi hé shí jiān."
+    },
+    {
+     "han": "虽然烟花放的时间不长，但是那种全家人一起抬头看烟花的感觉，让我觉得特别幸福。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán yān huā fàng de shí jiān bù zhǎng, dàn shì nà zhǒng quán jiā rén yì qǐ tái tóu kàn yān huā de gǎn jué, ràng wǒ jué de tè bié xìng fú."
+    },
+    {
+     "han": "零点钟声响起的那一刻，我们互相说着新年快乐，这个热闹又温暖的除夕夜，成了我难忘的记忆。",
+     "pinyin": "",
+     "draft_pinyin": "Líng diǎn zhōng shēng xiǎng qǐ de nà yī kè, wǒ men hù xiāng shuō zhe xīn nián kuài lè, zhè ge rè nào yòu wēn nuǎn de chú xī yè, chéng le wǒ nán wàng de jì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "除夕",
+     "pinyin": "",
+     "meaning": "đêm giao thừa"
+    },
+    {
+     "word": "团圆饭",
+     "pinyin": "",
+     "meaning": "bữa cơm tất niên"
+    },
+    {
+     "word": "聚集",
+     "pinyin": "",
+     "meaning": "tập hợp, tụ họp"
+    },
+    {
+     "word": "院子",
+     "pinyin": "",
+     "meaning": "sân"
+    },
+    {
+     "word": "到来",
+     "pinyin": "",
+     "meaning": "sự đến, sự xuất hiện"
+    },
+    {
+     "word": "各种各样",
+     "pinyin": "",
+     "meaning": "đa dạng, muôn hình muôn vẻ"
+    },
+    {
+     "word": "旋转",
+     "pinyin": "",
+     "meaning": "xoay tròn"
+    },
+    {
+     "word": "炸开",
+     "pinyin": "",
+     "meaning": "nổ ra"
+    },
+    {
+     "word": "样式",
+     "pinyin": "",
+     "meaning": "kiểu dáng"
+    },
+    {
+     "word": "点",
+     "pinyin": "",
+     "meaning": "đốt, mồi (lửa)"
+    },
+    {
+     "word": "发抖",
+     "pinyin": "",
+     "meaning": "run rẩy"
+    },
+    {
+     "word": "响亮",
+     "pinyin": "",
+     "meaning": "vang dội"
+    },
+    {
+     "word": "冲向",
+     "pinyin": "",
+     "meaning": "lao thẳng về"
+    },
+    {
+     "word": "夜空",
+     "pinyin": "",
+     "meaning": "trời đêm"
+    },
+    {
+     "word": "赞叹",
+     "pinyin": "",
+     "meaning": "tán thưởng, thán phục"
+    },
+    {
+     "word": "轮流",
+     "pinyin": "",
+     "meaning": "thay phiên nhau"
+    },
+    {
+     "word": "点燃",
+     "pinyin": "",
+     "meaning": "đốt lên"
+    },
+    {
+     "word": "五颜六色",
+     "pinyin": "",
+     "meaning": "sặc sỡ nhiều màu"
+    },
+    {
+     "word": "绽放",
+     "pinyin": "",
+     "meaning": "bung nở"
+    },
+    {
+     "word": "壮观",
+     "pinyin": "",
+     "meaning": "hùng vĩ, hoành tráng"
+    },
+    {
+     "word": "亮堂堂",
+     "pinyin": "",
+     "meaning": "sáng rực"
+    },
+    {
+     "word": "规则",
+     "pinyin": "",
+     "meaning": "quy tắc"
+    },
+    {
+     "word": "严格",
+     "pinyin": "",
+     "meaning": "nghiêm ngặt"
+    },
+    {
+     "word": "限制",
+     "pinyin": "",
+     "meaning": "hạn chế"
+    },
+    {
+     "word": "抬头",
+     "pinyin": "",
+     "meaning": "ngước đầu lên"
+    },
+    {
+     "word": "零点",
+     "pinyin": "",
+     "meaning": "0 giờ (giao thừa)"
+    },
+    {
+     "word": "钟声",
+     "pinyin": "",
+     "meaning": "tiếng chuông"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "随着……的一声…… (theo một tiếng…)",
+     "example": "随着一声响亮的声音，第一个烟花冲向天空",
+     "meaning": "dẫn sự việc xảy ra ngay theo một âm thanh/tín hiệu"
+    },
+    {
+     "name": "在……的帮助下 (dưới sự giúp đỡ của…)",
+     "example": "在爸爸的帮助下才顺利点着的",
+     "meaning": "nêu điều kiện/sự hỗ trợ giúp hành động thành công"
+    },
+    {
+     "name": "为了……现在…… (để…nên hiện nay…)",
+     "example": "为了安全和环保，现在很多城市限制了烟花",
+     "meaning": "dẫn mục đích rồi nêu biện pháp thực hiện"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然放的时间不长，但是那种感觉让我觉得幸福",
+     "meaning": "nhượng bộ, khẳng định giá trị cảm xúc"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 18,
+   "titleHan": "中秋节的团圆晚会",
+   "titleVi": "Đêm hội đoàn viên Trung thu",
+   "sentences": [
+    {
+     "han": "中秋节那天，社区组织了一场团圆晚会，邀请大家一起赏月、吃月饼、看表演。",
+     "pinyin": "",
+     "draft_pinyin": "Zhōng qiū jié nà tiān, shè qū zǔ zhī le yī cháng tuán yuán wǎn huì, yāo qǐng dà jiā yì qǐ shǎng yuè, chī yuè bǐng, kàn biǎo yǎn."
+    },
+    {
+     "han": "晚会开始以前，社区的工作人员已经在广场上摆好了桌椅，还挂上了很多兔子和月亮形状的装饰。",
+     "pinyin": "",
+     "draft_pinyin": "Wǎn huì kāi shǐ yǐ qián, shè qū de gōng zuò rén yuán yǐ jīng zài guǎng chǎng shàng bǎi hǎo le zhuō yǐ, hái guà shàng le hěn duō tù zi hé yuè liàng xíng zhuàng de zhuāng shì."
+    },
+    {
+     "han": "天渐渐黑了下来，圆圆的月亮慢慢升起，晚会也正式开始，主持人先介绍了中秋节的来历。",
+     "pinyin": "",
+     "draft_pinyin": "Tiān jiàn jiàn hēi le xià lái, yuán yuán de yuè liàng màn màn shēng qǐ, wǎn huì yě zhèng shì kāi shǐ, zhǔ chí rén xiān jiè shào le zhōng qiū jié de lái lì."
+    },
+    {
+     "han": "接着，有几位老人上台，讲了他们小时候过中秋节的故事，讲到有趣的地方，大家都笑了起来。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, yǒu jǐ wèi lǎo rén shàng tái, jiǎng le tā men xiǎo shí hòu guò zhōng qiū jié de gù shì, jiǎng dào yǒu qù de dì fāng, dà jiā dōu xiào le qǐ lái."
+    },
+    {
+     "han": "表演环节，几个小朋友表演了跟月亮有关的舞蹈，动作虽然不算专业，但是特别可爱，观众都热情地鼓掌。",
+     "pinyin": "",
+     "draft_pinyin": "Biǎo yǎn huán jié, jǐ gè xiǎo péng yǒu biǎo yǎn le gēn yuè liàng yǒu guān de wǔ dǎo, dòng zuò suī rán bù suàn zhuān yè, dàn shì tè bié kě ài, guān zhòng dōu rè qíng dì gǔ zhǎng."
+    },
+    {
+     "han": "社区还准备了各种口味的月饼，供大家免费品尝，有传统的豆沙味，也有比较新颖的冰淇淋味。",
+     "pinyin": "",
+     "draft_pinyin": "Shè qū hái zhǔn bèi le gè zhǒng kǒu wèi de yuè bǐng, gōng dà jiā miǎn fèi pǐn cháng, yǒu chuán tǒng de dòu shā wèi, yě yǒu bǐ jiào xīn yǐng de bīng qí lín wèi."
+    },
+    {
+     "han": "我和邻居们坐在一起，一边吃月饼，一边聊天，聊起了自己小时候中秋节的回忆，感觉特别亲切。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hé lín jū men zuò zài yì qǐ, yī biān chī yuè bǐng, yī biān liáo tiān, liáo qǐ le zì jǐ xiǎo shí hòu zhōng qiū jié de huí yì, gǎn jué tè bié qīn qiè."
+    },
+    {
+     "han": "晚会最后，大家一起唱了一首关于团圆的歌，歌声和月光交织在一起，气氛特别温馨。",
+     "pinyin": "",
+     "draft_pinyin": "Wǎn huì zuì hòu, dà jiā yì qǐ chàng le yī shǒu guān yú tuán yuán de gē, gē shēng hé yuè guāng jiāo zhī zài yì qǐ, qì fēn tè bié wēn xīn."
+    },
+    {
+     "han": "虽然我一个人住在这个城市，家人在很远的地方，但是这次晚会让我感受到，陌生的邻居也可以像家人一样温暖。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán wǒ yí gè rén zhù zài zhè ge chéng shì, jiā rén zài hěn yuǎn de dì fāng, dàn shì zhè cì wǎn huì ràng wǒ gǎn shòu dào, mò shēng de lín jū yě kě yǐ xiàng jiā rén yī yàng wēn nuǎn."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "社区",
+     "pinyin": "",
+     "meaning": "khu dân cư"
+    },
+    {
+     "word": "赏月",
+     "pinyin": "",
+     "meaning": "ngắm trăng"
+    },
+    {
+     "word": "广场",
+     "pinyin": "",
+     "meaning": "quảng trường"
+    },
+    {
+     "word": "摆",
+     "pinyin": "",
+     "meaning": "bày, sắp xếp"
+    },
+    {
+     "word": "装饰",
+     "pinyin": "",
+     "meaning": "trang trí"
+    },
+    {
+     "word": "升起",
+     "pinyin": "",
+     "meaning": "mọc lên, dâng lên"
+    },
+    {
+     "word": "正式",
+     "pinyin": "",
+     "meaning": "chính thức"
+    },
+    {
+     "word": "来历",
+     "pinyin": "",
+     "meaning": "nguồn gốc, xuất xứ"
+    },
+    {
+     "word": "环节",
+     "pinyin": "",
+     "meaning": "công đoạn, khâu"
+    },
+    {
+     "word": "舞蹈",
+     "pinyin": "",
+     "meaning": "vũ điệu, múa"
+    },
+    {
+     "word": "观众",
+     "pinyin": "",
+     "meaning": "khán giả"
+    },
+    {
+     "word": "口味",
+     "pinyin": "",
+     "meaning": "vị (mùi vị)"
+    },
+    {
+     "word": "供",
+     "pinyin": "",
+     "meaning": "cung cấp, để cho"
+    },
+    {
+     "word": "品尝",
+     "pinyin": "",
+     "meaning": "thưởng thức, nếm"
+    },
+    {
+     "word": "豆沙",
+     "pinyin": "",
+     "meaning": "đậu đỏ nghiền"
+    },
+    {
+     "word": "新颖",
+     "pinyin": "",
+     "meaning": "mới lạ"
+    },
+    {
+     "word": "冰淇淋",
+     "pinyin": "",
+     "meaning": "kem"
+    },
+    {
+     "word": "亲切",
+     "pinyin": "",
+     "meaning": "thân thiết, gần gũi"
+    },
+    {
+     "word": "交织",
+     "pinyin": "",
+     "meaning": "đan xen, hòa quyện"
+    },
+    {
+     "word": "温馨",
+     "pinyin": "",
+     "meaning": "ấm áp, êm đềm"
+    },
+    {
+     "word": "陌生",
+     "pinyin": "",
+     "meaning": "lạ, xa lạ"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "接着…… (tiếp theo)",
+     "example": "接着，有几位老人上台",
+     "meaning": "dẫn hành động tiếp nối trong trình tự"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "动作虽然不算专业，但是特别可爱",
+     "meaning": "nhượng bộ, khẳng định điểm tích cực"
+    },
+    {
+     "name": "一边……一边…… (vừa…vừa…)",
+     "example": "一边吃月饼，一边聊天",
+     "meaning": "hai hành động song song"
+    },
+    {
+     "name": "虽然……但是……也可以…… (tuy…nhưng…cũng có thể…)",
+     "example": "虽然家人在很远的地方，但是陌生的邻居也可以像家人一样温暖",
+     "meaning": "nhượng bộ, khẳng định điều bất ngờ tích cực"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 19,
+   "titleHan": "洛阳牡丹花节",
+   "titleVi": "Lễ hội hoa mẫu đơn Lạc Dương",
+   "sentences": [
+    {
+     "han": "每年四月，洛阳都会举行牡丹花节，吸引来自全国各地，甚至国外的游客前来观赏。",
+     "pinyin": "",
+     "draft_pinyin": "Měi nián sì yuè, luò yáng dū huì jǔ xíng mǔ dān huā jié, xī yǐn lái zì quán guó gè dì, shèn zhì guó wài de yóu kè qián lái guān shǎng."
+    },
+    {
+     "han": "今年春天，我特意安排了一次旅行，专门去洛阳看牡丹，因为听说那里的牡丹是全国最有名的。",
+     "pinyin": "",
+     "draft_pinyin": "Jīn nián chūn tiān, wǒ tè yì ān pái le yī cì lǚ xíng, zhuān mén qù luò yáng kàn mǔ dān, yīn wèi tīng shuō nà lǐ de mǔ dān shì quán guó zuì yǒu míng de."
+    },
+    {
+     "han": "到了公园以后，我被眼前的景象惊呆了，成片的牡丹花开得非常茂盛，颜色也十分丰富。",
+     "pinyin": "",
+     "draft_pinyin": "Dào le gōng yuán yǐ hòu, wǒ bèi yǎn qián de jǐng xiàng jīng dāi le, chéng piàn de mǔ dān huā kāi dé fēi cháng mào shèng, yán sè yě shí fēn fēng fù."
+    },
+    {
+     "han": "有红色的，粉色的，还有比较少见的绿色和黑色牡丹，每一种都吸引了大量游客拍照留念。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu hóng sè de, fěn sè de, hái yǒu bǐ jiào shǎo jiàn de lǜ sè hé hēi sè mǔ dān, měi yī zhǒng dōu xī yǐn le dà liàng yóu kè pāi zhào liú niàn."
+    },
+    {
+     "han": "导游告诉我们，牡丹在中国文化中象征着富贵和美好，古代很多诗人都写过关于牡丹的诗句。",
+     "pinyin": "",
+     "draft_pinyin": "Dǎo yóu gào sù wǒ men, mǔ dān zài zhōng guó wén huà zhōng xiàng zhēng zhe fù guì hé měi hǎo, gǔ dài hěn duō shī rén dōu xiě guò guān yú mǔ dān de shī jù."
+    },
+    {
+     "han": "我们跟着导游，一边听关于牡丹的历史故事，一边慢慢地在花园里散步，感觉特别放松。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ men gēn zhe dǎo yóu, yī biān tīng guān yú mǔ dān de lì shǐ gù shì, yī biān màn màn dì zài huā yuán lǐ sàn bù, gǎn jué tè bié fàng sōng."
+    },
+    {
+     "han": "中午的时候，我们在公园附近找了一家餐厅，尝了当地的特色小吃，味道跟我家乡的完全不一样。",
+     "pinyin": "",
+     "draft_pinyin": "Zhōng wǔ de shí hòu, wǒ men zài gōng yuán fù jìn zhǎo le yī jiā cān tīng, cháng liǎo dàng dì de tè sè xiǎo chī, wèi dào gēn wǒ jiā xiāng de wán quán bù yí yàng."
+    },
+    {
+     "han": "花节期间，公园里还举行了摄影比赛和牡丹画展，很多艺术爱好者都带着作品前来参加。",
+     "pinyin": "",
+     "draft_pinyin": "Huā jié qī jiān, gōng yuán lǐ hái jǔ xíng le shè yǐng bǐ sài hé mǔ dān huà zhǎn, hěn duō yì shù ài hào zhě dōu dài zhe zuò pǐn qián lái cān jiā."
+    },
+    {
+     "han": "这次旅行不但让我看到了美丽的牡丹花，也让我更加了解了中国传统文化中花的象征意义。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì lǚ xíng bù dàn ràng wǒ kàn dào le měi lì de mǔ dān huā, yě ràng wǒ gèng jiā liǎo jiě le zhōng guó chuán tǒng wén huà zhōng huā de xiàng zhēng yì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "牡丹",
+     "pinyin": "",
+     "meaning": "hoa mẫu đơn"
+    },
+    {
+     "word": "甚至",
+     "pinyin": "",
+     "meaning": "thậm chí"
+    },
+    {
+     "word": "景象",
+     "pinyin": "",
+     "meaning": "cảnh tượng"
+    },
+    {
+     "word": "惊呆",
+     "pinyin": "",
+     "meaning": "ngỡ ngàng, sững sờ"
+    },
+    {
+     "word": "成片",
+     "pinyin": "",
+     "meaning": "thành từng khoảng, trải rộng"
+    },
+    {
+     "word": "茂盛",
+     "pinyin": "",
+     "meaning": "sum suê, xanh tốt"
+    },
+    {
+     "word": "少见",
+     "pinyin": "",
+     "meaning": "hiếm gặp"
+    },
+    {
+     "word": "留念",
+     "pinyin": "",
+     "meaning": "lưu niệm"
+    },
+    {
+     "word": "导游",
+     "pinyin": "",
+     "meaning": "hướng dẫn viên du lịch"
+    },
+    {
+     "word": "富贵",
+     "pinyin": "",
+     "meaning": "giàu sang"
+    },
+    {
+     "word": "诗人",
+     "pinyin": "",
+     "meaning": "nhà thơ"
+    },
+    {
+     "word": "诗句",
+     "pinyin": "",
+     "meaning": "câu thơ"
+    },
+    {
+     "word": "特色",
+     "pinyin": "",
+     "meaning": "đặc sắc, đặc trưng"
+    },
+    {
+     "word": "摄影比赛",
+     "pinyin": "",
+     "meaning": "cuộc thi chụp ảnh"
+    },
+    {
+     "word": "画展",
+     "pinyin": "",
+     "meaning": "triển lãm tranh"
+    },
+    {
+     "word": "艺术",
+     "pinyin": "",
+     "meaning": "nghệ thuật"
+    },
+    {
+     "word": "作品",
+     "pinyin": "",
+     "meaning": "tác phẩm"
+    },
+    {
+     "word": "象征意义",
+     "pinyin": "",
+     "meaning": "ý nghĩa biểu tượng"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "甚至…… (thậm chí…)",
+     "example": "吸引来自全国各地，甚至国外的游客",
+     "meaning": "nhấn mạnh mức độ vượt trội hơn dự kiến"
+    },
+    {
+     "name": "被……惊呆了 (bị…làm ngỡ ngàng)",
+     "example": "我被眼前的景象惊呆了",
+     "meaning": "câu bị động diễn tả cảm xúc bất ngờ mạnh mẽ"
+    },
+    {
+     "name": "一边……一边…… (vừa…vừa…)",
+     "example": "一边听历史故事，一边慢慢散步",
+     "meaning": "hai hành động song song"
+    },
+    {
+     "name": "不但……也…… (không những…mà còn…)",
+     "example": "不但让我看到牡丹花，也让我更了解文化意义",
+     "meaning": "bổ sung thêm lợi ích ngoài điều đã nêu"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 20,
+   "titleHan": "美食节",
+   "titleVi": "Lễ hội ẩm thực",
+   "sentences": [
+    {
+     "han": "上个周末，市中心的广场举行了一场为期三天的美食节，吸引了来自各地的小吃摊位。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè zhōu mò, shì zhōng xīn de guǎng chǎng jǔ xíng le yī cháng wéi qī sān tiān de měi shí jié, xī yǐn le lái zì gè dì de xiǎo chī tān wèi."
+    },
+    {
+     "han": "我和朋友一大早就到了现场，因为听说，去晚了，很多受欢迎的小吃都会卖光。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hé péng yǒu yī dà zǎo jiù dào le xiàn chǎng, yīn wèi tīng shuō, qù wǎn le, hěn duō shòu huān yíng de xiǎo chī dū huì mài guāng."
+    },
+    {
+     "han": "广场上摆满了各种各样的摊位，空气里飘着各种食物的香味，让人忍不住想全部尝一遍。",
+     "pinyin": "",
+     "draft_pinyin": "Guǎng chǎng shàng bǎi mǎn le gè zhǒng gè yàng de tān wèi, kōng qì lǐ piāo zhe gè zhǒng shí wù de xiāng wèi, ràng rén rěn bú zhù xiǎng quán bù cháng yī biàn."
+    },
+    {
+     "han": "我们先买了几串烤肉，肉烤得很嫩，撒上了特制的调料，味道非常香浓。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ men xiān mǎi le jǐ chuàn kǎo ròu, ròu kǎo dé hěn nèn, sā shàng le tè zhì de tiáo liào, wèi dào fēi cháng xiāng nóng."
+    },
+    {
+     "han": "接着，我们又排队买了一家很有名的煎饺，据说这家店已经开了三十多年，一直深受当地人喜爱。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, wǒ men yòu pái duì mǎi le yī jiā hěn yǒu míng de jiān jiǎo, jù shuō zhè jiā diàn yǐ jīng kāi le sān shí duō nián, yì zhí shēn shòu dāng dì rén xǐ ài."
+    },
+    {
+     "han": "除了本地小吃，美食节还邀请了不少外地和外国的摊位，我们还尝到了从没吃过的异国美食。",
+     "pinyin": "",
+     "draft_pinyin": "Chú le běn dì xiǎo chī, měi shí jié hái yāo qǐng le bù shǎo wài dì hé wài guó de tān wèi, wǒ men hái cháng dào le cóng méi chī guò de yì guó měi shí."
+    },
+    {
+     "han": "逛了一个多小时以后，我们几乎吃不下了，但是看到新的摊位，还是忍不住想再尝一口。",
+     "pinyin": "",
+     "draft_pinyin": "Guàng le yí gè duō xiǎo shí yǐ hòu, wǒ men jī hū chī bù xià le, dàn shì kàn dào xīn de tān wèi, hái shì rěn bú zhù xiǎng zài cháng yī kǒu."
+    },
+    {
+     "han": "美食节现场还举行了美食制作比赛，几位有名的厨师现场展示了做菜的技巧，吸引了很多人围观。",
+     "pinyin": "",
+     "draft_pinyin": "Měi shí jié xiàn chǎng hái jǔ xíng le měi shí zhì zuò bǐ sài, jǐ wèi yǒu míng de chú shī xiàn chǎng zhǎn shì le zuò cài de jì qiǎo, xī yǐn le hěn duō rén wéi guān."
+    },
+    {
+     "han": "这次美食节的经历让我发现，透过食物，我们不但能感受到不同地方的文化，也能拉近人与人之间的距离。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì měi shí jié de jīng lì ràng wǒ fā xiàn, tòu guò shí wù, wǒ men bù dàn néng gǎn shòu dào bù tóng dì fāng de wén huà, yě néng lā jìn rén yǔ rén zhī jiān de jù lí."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "为期",
+     "pinyin": "",
+     "meaning": "trong khoảng thời gian"
+    },
+    {
+     "word": "摊位",
+     "pinyin": "",
+     "meaning": "quầy hàng, gian hàng"
+    },
+    {
+     "word": "忍不住",
+     "pinyin": "",
+     "meaning": "không kìm được"
+    },
+    {
+     "word": "串",
+     "pinyin": "",
+     "meaning": "xiên (lượng từ)"
+    },
+    {
+     "word": "嫩",
+     "pinyin": "",
+     "meaning": "non, mềm"
+    },
+    {
+     "word": "撒",
+     "pinyin": "",
+     "meaning": "rắc"
+    },
+    {
+     "word": "调料",
+     "pinyin": "",
+     "meaning": "gia vị"
+    },
+    {
+     "word": "香浓",
+     "pinyin": "",
+     "meaning": "thơm đậm đà"
+    },
+    {
+     "word": "煎饺",
+     "pinyin": "",
+     "meaning": "sủi cảo chiên"
+    },
+    {
+     "word": "据说",
+     "pinyin": "",
+     "meaning": "nghe nói, theo lời kể"
+    },
+    {
+     "word": "深受",
+     "pinyin": "",
+     "meaning": "rất được, sâu sắc chịu"
+    },
+    {
+     "word": "本地",
+     "pinyin": "",
+     "meaning": "địa phương, bản địa"
+    },
+    {
+     "word": "外地",
+     "pinyin": "",
+     "meaning": "nơi khác, ngoại địa"
+    },
+    {
+     "word": "异国",
+     "pinyin": "",
+     "meaning": "nước ngoài, dị quốc"
+    },
+    {
+     "word": "展示",
+     "pinyin": "",
+     "meaning": "trình diễn, thể hiện"
+    },
+    {
+     "word": "技巧",
+     "pinyin": "",
+     "meaning": "kỹ xảo, kỹ năng"
+    },
+    {
+     "word": "围观",
+     "pinyin": "",
+     "meaning": "tụ tập xem"
+    },
+    {
+     "word": "透过",
+     "pinyin": "",
+     "meaning": "thông qua"
+    },
+    {
+     "word": "拉近",
+     "pinyin": "",
+     "meaning": "kéo gần lại"
+    },
+    {
+     "word": "距离",
+     "pinyin": "",
+     "meaning": "khoảng cách"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "据说…… (nghe nói…)",
+     "example": "据说这家店已经开了三十多年",
+     "meaning": "dẫn thông tin nghe được, chưa chắc chắn hoàn toàn"
+    },
+    {
+     "name": "深受…… (rất được…)",
+     "example": "一直深受当地人喜爱",
+     "meaning": "nhấn mạnh mức độ được yêu thích sâu sắc"
+    },
+    {
+     "name": "虽然……但是……还是…… (tuy…nhưng…vẫn…)",
+     "example": "几乎吃不下了，但是还是忍不住想再尝",
+     "meaning": "nhượng bộ, khẳng định hành động vẫn xảy ra"
+    },
+    {
+     "name": "不但……也…… (không những…mà còn…)",
+     "example": "不但能感受文化，也能拉近人与人的距离",
+     "meaning": "bổ sung thêm lợi ích ngoài điều đã nêu"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 21,
+   "titleHan": "象形字的故事",
+   "titleVi": "Câu chuyện về chữ tượng hình",
+   "sentences": [
+    {
+     "han": "这个学期，我们的中文老师开始教我们汉字的历史，第一课讲的是象形字。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge xué qī, wǒ men de zhōng wén lǎo shī kāi shǐ jiào wǒ men hàn zì de lì shǐ, dì yī kè jiǎng de shì xiàng xíng zì."
+    },
+    {
+     "han": "老师说，象形字是最古老的一种造字方法，就是根据事物的样子，直接画出它的形状。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, xiàng xíng zì shì zuì gǔ lǎo de yī zhǒng zào zì fāng fǎ, jiù shì gēn jù shì wù de yàng zi, zhí jiē huà chū tā de xíng zhuàng."
+    },
+    {
+     "han": "比如\"日\"字，最开始是一个圆形，中间有一点，代表天上圆圆的太阳。",
+     "pinyin": "",
+     "draft_pinyin": "Bǐ rú\"rì\"zì, zuì kāi shǐ shì yí gè yuán xíng, zhōng jiān yǒu yì diǎn, dài biǎo tiān shàng yuán yuán de tài yáng."
+    },
+    {
+     "han": "\"月\"字也是这样，古人看到天上的月亮是弯弯的形状，就照着这个形状造出了这个字。",
+     "pinyin": "",
+     "draft_pinyin": "\"yuè\"zì yě shì zhè yàng, gǔ rén kàn dào tiān shàng de yuè liàng shì wān wān de xíng zhuàng, jiù zhào zhe zhè ge xíng zhuàng zào chū le zhè ge zì."
+    },
+    {
+     "han": "老师又举了\"山\"字做例子，古代的\"山\"字，看起来就像三个连在一起的山峰。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī yòu jǔ le\"shān\"zì zuò lì zi, gǔ dài de\"shān\"zì, kàn qǐ lái jiù xiàng sān gè lián zài yì qǐ de shān fēng."
+    },
+    {
+     "han": "听到这里，我突然觉得，原来每一个古老的汉字，背后都藏着古人观察世界的方法。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng dào zhè lǐ, wǒ tū rán jué de, yuán lái měi yí gè gǔ lǎo de hàn zì, bèi hòu dōu cáng zhe gǔ rén guān chá shì jiè de fāng fǎ."
+    },
+    {
+     "han": "老师还给我们看了\"水\"字最早的写法，那时候的\"水\"字，画的是水流动的样子，弯弯曲曲的。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī huán gěi wǒ men kàn le\"shuǐ\"zì zuì zǎo de xiě fǎ, nà shí hòu de\"shuǐ\"zì, huà de shì shuǐ liú dòng de yàng zi, wān wān qū qū de."
+    },
+    {
+     "han": "下课以后，我特意找了一些甲骨文的图片来看，发现很多象形字真的跟它们代表的事物很相似。",
+     "pinyin": "",
+     "draft_pinyin": "Xià kè yǐ hòu, wǒ tè yì zhǎo le yī xiē jiǎ gǔ wén de tú piàn lái kàn, fā xiàn hěn duō xiàng xíng zì zhēn de gēn tā men dài biǎo de shì wù hěn xiāng sì."
+    },
+    {
+     "han": "这次学习让我明白，汉字不只是用来记录语言的符号，更是古人智慧和观察力的结晶。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì xué xí ràng wǒ míng bái, hàn zì bù zhǐ shì yòng lái jì lù yǔ yán de fú hào, gèng shì gǔ rén zhì huì hé guān chá lì de jié jīng."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "象形字",
+     "pinyin": "",
+     "meaning": "chữ tượng hình"
+    },
+    {
+     "word": "古老",
+     "pinyin": "",
+     "meaning": "cổ xưa"
+    },
+    {
+     "word": "造字",
+     "pinyin": "",
+     "meaning": "tạo chữ"
+    },
+    {
+     "word": "事物",
+     "pinyin": "",
+     "meaning": "sự vật"
+    },
+    {
+     "word": "形状",
+     "pinyin": "",
+     "meaning": "hình dạng"
+    },
+    {
+     "word": "圆形",
+     "pinyin": "",
+     "meaning": "hình tròn"
+    },
+    {
+     "word": "代表",
+     "pinyin": "",
+     "meaning": "đại diện, tượng trưng"
+    },
+    {
+     "word": "古人",
+     "pinyin": "",
+     "meaning": "người xưa"
+    },
+    {
+     "word": "举例子",
+     "pinyin": "",
+     "meaning": "nêu ví dụ"
+    },
+    {
+     "word": "山峰",
+     "pinyin": "",
+     "meaning": "đỉnh núi"
+    },
+    {
+     "word": "观察",
+     "pinyin": "",
+     "meaning": "quan sát"
+    },
+    {
+     "word": "流动",
+     "pinyin": "",
+     "meaning": "chảy, lưu động"
+    },
+    {
+     "word": "弯弯曲曲",
+     "pinyin": "",
+     "meaning": "ngoằn ngoèo"
+    },
+    {
+     "word": "甲骨文",
+     "pinyin": "",
+     "meaning": "chữ giáp cốt"
+    },
+    {
+     "word": "相似",
+     "pinyin": "",
+     "meaning": "giống nhau, tương tự"
+    },
+    {
+     "word": "符号",
+     "pinyin": "",
+     "meaning": "ký hiệu"
+    },
+    {
+     "word": "智慧",
+     "pinyin": "",
+     "meaning": "trí tuệ"
+    },
+    {
+     "word": "观察力",
+     "pinyin": "",
+     "meaning": "khả năng quan sát"
+    },
+    {
+     "word": "结晶",
+     "pinyin": "",
+     "meaning": "tinh hoa, kết tinh"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "就是…… (chính là…)",
+     "example": "就是根据事物的样子，直接画出它的形状",
+     "meaning": "giải thích, làm rõ khái niệm vừa nêu"
+    },
+    {
+     "name": "……的时候，古人……就…… (khi…thì người xưa liền…)",
+     "example": "古人看到月亮的形状，就照着造出了这个字",
+     "meaning": "dẫn hành động của người xưa dựa vào quan sát"
+    },
+    {
+     "name": "原来…… (hóa ra…)",
+     "example": "原来每一个古老的汉字，背后都藏着古人观察世界的方法",
+     "meaning": "dẫn ra một sự thật vừa được nhận ra"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "汉字不只是符号，更是智慧和观察力的结晶",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 22,
+   "titleHan": "指事字真有意思",
+   "titleVi": "Chữ chỉ sự thật thú vị",
+   "sentences": [
+    {
+     "han": "上完象形字这一课以后，我对汉字的历史越来越感兴趣，主动跟老师请教了别的造字方法。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng wán xiàng xíng zì zhè yī kè yǐ hòu, wǒ duì hàn zì de lì shǐ yuè lái yuè gǎn xìng qù, zhǔ dòng gēn lǎo shī qǐng jiào le bié de zào zì fāng fǎ."
+    },
+    {
+     "han": "老师说，除了象形字，还有一种叫指事字，这种字不是直接画出事物的样子，而是用符号表示某种抽象的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, chú le xiàng xíng zì, hái yǒu yī zhǒng jiào zhǐ shì zì, zhè zhǒng zì bú shì zhí jiē huà chū shì wù de yàng zi, ér shì yòng fú hào biǎo shì mǒu zhǒng chōu xiàng de yì si."
+    },
+    {
+     "han": "她举了\"上\"和\"下\"两个字做例子，这两个字最早的写法，是用一条横线，加上一个点或者一个符号，表示位置的高低。",
+     "pinyin": "",
+     "draft_pinyin": "Tā jǔ le\"shàng\"hé\"xià\"liǎng gè zì zuò lì zi, zhè liǎng gè zì zuì zǎo de xiě fǎ, shì yòng yī tiáo héng xiàn, jiā shàng yí gè diǎn huò zhě yí gè fú hào, biǎo shì wèi zhì de gāo dī."
+    },
+    {
+     "han": "我听了以后，觉得这种造字方法比象形字更抽象一些，因为它表示的是位置，而不是具体的东西。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ tīng le yǐ hòu, jué de zhè zhǒng zào zì fāng fǎ bǐ xiàng xíng zì gèng chōu xiàng yī xiē, yīn wèi tā biǎo shì de shì wèi zhì, ér bú shì jù tǐ de dōng xī."
+    },
+    {
+     "han": "接着，老师又讲了\"刃\"这个字，\"刃\"字是在\"刀\"字上加一点，表示刀最锋利的那个部分。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, lǎo shī yòu jiǎng le\"rèn\"zhè ge zì, \"rèn\"zì shì zài\"dāo\"zì shàng jiā yì diǎn, biǎo shì dāo zuì fēng lì de nà ge bù fèn."
+    },
+    {
+     "han": "这个例子让我明白，指事字常常是在已经有的字上，加一点内容，来表示一个新的、相关的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge lì zi ràng wǒ míng bái, zhǐ shì zì cháng cháng shì zài yǐ jīng yǒu de zì shàng, jiā yì diǎn nèi róng, lái biǎo shì yí gè xīn de, xiāng guān de yì si."
+    },
+    {
+     "han": "我还发现，虽然指事字的数量比象形字少一些，但是它们体现的想法非常聪明，也很有创造力。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hái fā xiàn, suī rán zhǐ shì zì de shù liàng bǐ xiàng xíng zì shǎo yī xiē, dàn shì tā men tǐ xiàn de xiǎng fǎ fēi cháng cōng míng, yě hěn yǒu chuàng zào lì."
+    },
+    {
+     "han": "放学回家的路上，我一直在想，古人是怎么想到用这么简单的符号，来表达这些抽象的概念的。",
+     "pinyin": "",
+     "draft_pinyin": "Fàng xué huí jiā de lù shàng, wǒ yì zhí zài xiǎng, gǔ rén shì zěn me xiǎng dào yòng zhè me jiǎn dān de fú hào, lái biǎo dá zhè xiē chōu xiàng de gài niàn de."
+    },
+    {
+     "han": "这次学习让我更加佩服古人的智慧，也让我对接下来要学的造字方法充满了期待。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì xué xí ràng wǒ gèng jiā pèi fú gǔ rén de zhì huì, yě ràng wǒ duì jiē xià lái yào xué de zào zì fāng fǎ chōng mǎn le qī dài."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "指事字",
+     "pinyin": "",
+     "meaning": "chữ chỉ sự"
+    },
+    {
+     "word": "请教",
+     "pinyin": "",
+     "meaning": "thỉnh giáo, hỏi ý kiến"
+    },
+    {
+     "word": "抽象",
+     "pinyin": "",
+     "meaning": "trừu tượng"
+    },
+    {
+     "word": "横线",
+     "pinyin": "",
+     "meaning": "đường ngang"
+    },
+    {
+     "word": "位置",
+     "pinyin": "",
+     "meaning": "vị trí"
+    },
+    {
+     "word": "高低",
+     "pinyin": "",
+     "meaning": "cao thấp"
+    },
+    {
+     "word": "具体",
+     "pinyin": "",
+     "meaning": "cụ thể"
+    },
+    {
+     "word": "刃",
+     "pinyin": "",
+     "meaning": "mũi dao, lưỡi dao"
+    },
+    {
+     "word": "锋利",
+     "pinyin": "",
+     "meaning": "sắc bén"
+    },
+    {
+     "word": "部分",
+     "pinyin": "",
+     "meaning": "phần, bộ phận"
+    },
+    {
+     "word": "体现",
+     "pinyin": "",
+     "meaning": "thể hiện"
+    },
+    {
+     "word": "创造力",
+     "pinyin": "",
+     "meaning": "khả năng sáng tạo"
+    },
+    {
+     "word": "表达",
+     "pinyin": "",
+     "meaning": "diễn đạt, biểu đạt"
+    },
+    {
+     "word": "概念",
+     "pinyin": "",
+     "meaning": "khái niệm"
+    },
+    {
+     "word": "佩服",
+     "pinyin": "",
+     "meaning": "khâm phục"
+    },
+    {
+     "word": "充满",
+     "pinyin": "",
+     "meaning": "đầy tràn"
+    },
+    {
+     "word": "期待",
+     "pinyin": "",
+     "meaning": "mong chờ"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "不是……而是…… (không phải…mà là…)",
+     "example": "不是直接画出事物的样子，而是用符号表示抽象的意思",
+     "meaning": "phủ định vế trước, khẳng định vế sau"
+    },
+    {
+     "name": "比……更…… (…hơn so với…)",
+     "example": "这种造字方法比象形字更抽象一些",
+     "meaning": "so sánh mức độ vượt trội"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然指事字数量少一些，但是体现的想法很聪明",
+     "meaning": "nhượng bộ, khẳng định ưu điểm"
+    },
+    {
+     "name": "常常是……来表示…… (thường là…để biểu thị…)",
+     "example": "指事字常常是在已有的字上加一点，来表示新的意思",
+     "meaning": "mô tả quy luật chung của cách tạo chữ"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 23,
+   "titleHan": "会意字的智慧",
+   "titleVi": "Trí tuệ của chữ hội ý",
+   "sentences": [
+    {
+     "han": "这个星期的中文课，老师带我们学习了另一种造字方法，叫做会意字，这是我目前最喜欢的一种。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge xīng qī de zhōng wén kè, lǎo shī dài wǒ men xué xí le lìng yī zhǒng zào zì fāng fǎ, jiào zuò huì yì zì, zhè shì wǒ mù qián zuì xǐ huān de yī zhǒng."
+    },
+    {
+     "han": "老师解释说，会意字是把两个或者更多的字组合在一起，通过它们的意思，共同表示一个新的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī jiě shì shuō, huì yì zì shì bǎ liǎng gè huò zhě gèng duō de zì zǔ hé zài yì qǐ, tōng guò tā men de yì si, gòng tóng biǎo shì yí gè xīn de yì si."
+    },
+    {
+     "han": "她先写了\"休\"这个字，说这个字是由\"人\"和\"木\"两部分组成，表示一个人靠在树旁边休息。",
+     "pinyin": "",
+     "draft_pinyin": "Tā xiān xiě le\"xiū\"zhè ge zì, shuō zhè ge zì shì yóu\"rén\"hé\"mù\"liǎng bù fèn zǔ chéng, biǎo shì yí gè rén kào zài shù páng biān xiū xī."
+    },
+    {
+     "han": "我一听就明白了，这个字的画面感特别强，好像能想象出一个人靠着大树，安静地休息的样子。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ yī tīng jiù míng bái le, zhè ge zì de huà miàn gǎn tè bié qiáng, hǎo xiàng néng xiǎng xiàng chū yí gè rén kào zhe dà shù, ān jìng dì xiū xī de yàng zi."
+    },
+    {
+     "han": "接着，老师又讲了\"明\"字，\"明\"字由\"日\"和\"月\"组成，太阳和月亮都能发光，合在一起表示明亮的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, lǎo shī yòu jiǎng le\"míng\"zì, \"míng\"zì yóu\"rì\"hé\"yuè\"zǔ chéng, tài yáng hé yuè liàng dōu néng fā guāng, hé zài yì qǐ biǎo shì míng liàng de yì si."
+    },
+    {
+     "han": "还有\"林\"字，两个\"木\"字放在一起，表示很多树聚在一起，就形成了树林。",
+     "pinyin": "",
+     "draft_pinyin": "Hái yǒu\"lín\"zì, liǎng gè\"mù\"zì fàng zài yì qǐ, biǎo shì hěn duō shù jù zài yì qǐ, jiù xíng chéng le shù lín."
+    },
+    {
+     "han": "老师说，这种造字方法比指事字更容易理解，因为它是通过组合已经认识的字，来创造新的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, zhè zhǒng zào zì fāng fǎ bǐ zhǐ shì zì gèng róng yì lǐ jiě, yīn wèi tā shì tōng guò zǔ hé yǐ jīng rèn shí de zì, lái chuàng zào xīn de yì si."
+    },
+    {
+     "han": "我觉得，会意字就像是在玩一种文字游戏，把不同的部分拼在一起，就能得到一个全新的、合理的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ jué de, huì yì zì jiù xiàng shì zài wán yī zhǒng wén zì yóu xì, bǎ bù tóng de bù fèn pīn zài yì qǐ, jiù néng dé dào yí gè quán xīn de, hé lǐ de yì si."
+    },
+    {
+     "han": "学完这一课以后，我发现自己看到不认识的汉字时，会不自觉地想，这个字是不是也是由几个部分组合而成的。",
+     "pinyin": "",
+     "draft_pinyin": "Xué wán zhè yī kè yǐ hòu, wǒ fā xiàn zì jǐ kàn dào bù rèn shí de hàn zì shí, huì bù zì jué dì xiǎng, zhè ge zì shì bú shì yě shì yóu jǐ gè bù fèn zǔ hé ér chéng de."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "会意字",
+     "pinyin": "",
+     "meaning": "chữ hội ý"
+    },
+    {
+     "word": "目前",
+     "pinyin": "",
+     "meaning": "hiện tại, hiện giờ"
+    },
+    {
+     "word": "组合",
+     "pinyin": "",
+     "meaning": "kết hợp, tổ hợp"
+    },
+    {
+     "word": "共同",
+     "pinyin": "",
+     "meaning": "cùng nhau, chung"
+    },
+    {
+     "word": "靠",
+     "pinyin": "",
+     "meaning": "dựa vào"
+    },
+    {
+     "word": "画面感",
+     "pinyin": "",
+     "meaning": "cảm giác hình ảnh"
+    },
+    {
+     "word": "想象",
+     "pinyin": "",
+     "meaning": "tưởng tượng"
+    },
+    {
+     "word": "发光",
+     "pinyin": "",
+     "meaning": "phát sáng"
+    },
+    {
+     "word": "合在一起",
+     "pinyin": "",
+     "meaning": "hợp lại với nhau"
+    },
+    {
+     "word": "聚",
+     "pinyin": "",
+     "meaning": "tụ lại"
+    },
+    {
+     "word": "形成",
+     "pinyin": "",
+     "meaning": "hình thành"
+    },
+    {
+     "word": "拼",
+     "pinyin": "",
+     "meaning": "ghép lại"
+    },
+    {
+     "word": "全新",
+     "pinyin": "",
+     "meaning": "hoàn toàn mới"
+    },
+    {
+     "word": "合理",
+     "pinyin": "",
+     "meaning": "hợp lý"
+    },
+    {
+     "word": "不自觉地",
+     "pinyin": "",
+     "meaning": "một cách vô thức"
+    },
+    {
+     "word": "组合而成",
+     "pinyin": "",
+     "meaning": "được tạo thành bởi sự kết hợp"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "由……组成 (được tạo thành từ…)",
+     "example": "这个字是由\"人\"和\"木\"两部分组成",
+     "meaning": "nêu ra thành phần cấu tạo của sự vật"
+    },
+    {
+     "name": "一……就…… (vừa…là…)",
+     "example": "我一听就明白了",
+     "meaning": "hai việc xảy ra liên tiếp gần như ngay lập tức"
+    },
+    {
+     "name": "比……更…… (…hơn so với…)",
+     "example": "这种造字方法比指事字更容易理解",
+     "meaning": "so sánh mức độ"
+    },
+    {
+     "name": "就像是……一样 (giống như là…)",
+     "example": "会意字就像是在玩一种文字游戏",
+     "meaning": "tạo ẩn dụ so sánh để giải thích khái niệm"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 24,
+   "titleHan": "形声字最常见",
+   "titleVi": "Chữ hình thanh phổ biến nhất",
+   "sentences": [
+    {
+     "han": "学完会意字以后，老师告诉我们，接下来要学的形声字，才是现代汉字中数量最多的一种。",
+     "pinyin": "",
+     "draft_pinyin": "Xué wán huì yì zì yǐ hòu, lǎo shī gào sù wǒ men, jiē xià lái yào xué de xíng shēng zì, cái shì xiàn dài hàn zì zhōng shù liàng zuì duō de yī zhǒng."
+    },
+    {
+     "han": "老师说，形声字由两部分组成：一部分表示意思，叫做形旁；另一部分表示读音，叫做声旁。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, xíng shēng zì yóu liǎng bù fèn zǔ chéng: yī bù fèn biǎo shì yì si, jiào zuò xíng páng; lìng yī bù fèn biǎo shì dú yīn, jiào zuò shēng páng."
+    },
+    {
+     "han": "她举了\"妈\"字做例子，\"妈\"字左边是\"女\"，表示这个字跟女性有关，右边是\"马\"，提示这个字的读音跟\"马\"接近。",
+     "pinyin": "",
+     "draft_pinyin": "Tā jǔ le\"mā\"zì zuò lì zi, \"mā\"zì zuǒ biān shì\"nǚ\", biǎo shì zhè ge zì gēn nǚ xìng yǒu guān, yòu biān shì\"mǎ\", tí shì zhè ge zì de dú yīn gēn\"mǎ\"jiē jìn."
+    },
+    {
+     "han": "我一听，立刻想到了\"爸\"这个字，左边是\"父\"，表示跟父亲有关，右边是\"巴\"，提示读音。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ yī tīng, lì kè xiǎng dào le\"bà\"zhè ge zì, zuǒ biān shì\"fù\", biǎo shì gēn fù qīn yǒu guān, yòu biān shì\"bā\", tí shì dú yīn."
+    },
+    {
+     "han": "老师接着说，因为形声字既能提示意思，又能提示读音，所以学起来比象形字和会意字更有规律。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī jiē zhe shuō, yīn wèi xíng shēng zì jì néng tí shì yì si, yòu néng tí shì dú yīn, suǒ yǐ xué qǐ lái bǐ xiàng xíng zì hé huì yì zì gèng yǒu guī lǜ."
+    },
+    {
+     "han": "她给我们看了一组带\"氵\"这个形旁的字，比如\"河\"、\"湖\"、\"海\"，都跟水有关系，这让我一下子记住了很多字。",
+     "pinyin": "",
+     "draft_pinyin": "Tā gěi wǒ men kàn le yī zǔ dài\"shui\"zhè ge xíng páng de zì, bǐ rú\"hé\", \"hú\", \"hǎi\", dōu gēn shuǐ yǒu guān xì, zhè ràng wǒ yī xià zi jì zhù le hěn duō zì."
+    },
+    {
+     "han": "我发现，只要认识形旁和声旁的规律，看到一个不认识的形声字，也能大概猜出它的意思和读音。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ fā xiàn, zhǐ yào rèn shí xíng páng hé shēng páng de guī lǜ, kàn dào yí gè bù rèn shí de xíng shēng zì, yě néng dà gài cāi chū tā de yì si hé dú yīn."
+    },
+    {
+     "han": "老师说，虽然形声字有一定的规律，但是也有一些例外，不能完全依赖猜测，还是要认真学习每一个字。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, suī rán xíng shēng zì yǒu yí dìng de guī lǜ, dàn shì yě yǒu yī xiē lì wài, bù néng wán quán yī lài cāi cè, hái shì yào rèn zhēn xué xí měi yí gè zì."
+    },
+    {
+     "han": "这次学习让我对汉字系统有了更全面的了解，也让我觉得，汉字其实是一套非常聪明的记录系统。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì xué xí ràng wǒ duì hàn zì xì tǒng yǒu le gèng quán miàn de liǎo jiě, yě ràng wǒ jué de, hàn zì qí shí shì yī tào fēi cháng cōng míng de jì lù xì tǒng."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "形声字",
+     "pinyin": "",
+     "meaning": "chữ hình thanh"
+    },
+    {
+     "word": "现代",
+     "pinyin": "",
+     "meaning": "hiện đại"
+    },
+    {
+     "word": "形旁",
+     "pinyin": "",
+     "meaning": "phần biểu ý (bộ thủ chỉ nghĩa)"
+    },
+    {
+     "word": "声旁",
+     "pinyin": "",
+     "meaning": "phần biểu âm"
+    },
+    {
+     "word": "女性",
+     "pinyin": "",
+     "meaning": "giới nữ"
+    },
+    {
+     "word": "提示",
+     "pinyin": "",
+     "meaning": "gợi ý, ám chỉ"
+    },
+    {
+     "word": "接近",
+     "pinyin": "",
+     "meaning": "gần giống"
+    },
+    {
+     "word": "父亲",
+     "pinyin": "",
+     "meaning": "người cha"
+    },
+    {
+     "word": "既……又……",
+     "pinyin": "",
+     "meaning": "vừa…vừa…"
+    },
+    {
+     "word": "规律",
+     "pinyin": "",
+     "meaning": "quy luật"
+    },
+    {
+     "word": "一组",
+     "pinyin": "",
+     "meaning": "một nhóm"
+    },
+    {
+     "word": "例外",
+     "pinyin": "",
+     "meaning": "trường hợp ngoại lệ"
+    },
+    {
+     "word": "依赖",
+     "pinyin": "",
+     "meaning": "phụ thuộc, dựa vào"
+    },
+    {
+     "word": "猜测",
+     "pinyin": "",
+     "meaning": "đoán, suy đoán"
+    },
+    {
+     "word": "系统",
+     "pinyin": "",
+     "meaning": "hệ thống"
+    },
+    {
+     "word": "全面",
+     "pinyin": "",
+     "meaning": "toàn diện"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "既……又…… (vừa…vừa…)",
+     "example": "既能提示意思，又能提示读音",
+     "meaning": "liệt kê hai đặc điểm cùng tồn tại"
+    },
+    {
+     "name": "只要……也能…… (chỉ cần…cũng có thể…)",
+     "example": "只要认识形旁和声旁的规律，也能大概猜出意思",
+     "meaning": "nêu điều kiện đủ để đạt được khả năng"
+    },
+    {
+     "name": "虽然……但是……不能…… (tuy…nhưng…không thể…)",
+     "example": "虽然有一定规律，但是不能完全依赖猜测",
+     "meaning": "nhượng bộ, đưa ra giới hạn cần lưu ý"
+    },
+    {
+     "name": "其实…… (thực ra…)",
+     "example": "汉字其实是一套非常聪明的记录系统",
+     "meaning": "dẫn ra nhận định thực chất, có thể khác với ấn tượng ban đầu"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 25,
+   "titleHan": "汉字的旅程",
+   "titleVi": "Hành trình của chữ Hán",
+   "sentences": [
+    {
+     "han": "学完象形字、指事字、会意字和形声字以后，老师说，今天这节课，我们要一起回顾汉字演变的整个历程。",
+     "pinyin": "",
+     "draft_pinyin": "Xué wán xiàng xíng zì, zhǐ shì zì, huì yì zì hé xíng shēng zì yǐ hòu, lǎo shī shuō, jīn tiān zhè jié kè, wǒ men yào yì qǐ huí gù hàn zì yǎn biàn de zhěng gè lì chéng."
+    },
+    {
+     "han": "老师说，最早的汉字，是刻在乌龟壳和动物骨头上的甲骨文，主要用来记录占卜的内容。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, zuì zǎo de hàn zì, shì kè zài wū guī ké hé dòng wù gǔ tou shàng de jiǎ gǔ wén, zhǔ yào yòng lái jì lù zhān bǔ de nèi róng."
+    },
+    {
+     "han": "后来，人们开始把文字刻在青铜器上，这种文字叫做金文，笔画比甲骨文更加规整一些。",
+     "pinyin": "",
+     "draft_pinyin": "Hòu lái, rén men kāi shǐ bǎ wén zì kè zài qīng tóng qì shàng, zhè zhǒng wén zì jiào zuò jīn wén, bǐ huà bǐ jiǎ gǔ wén gèng jiā guī zhěng yī xiē."
+    },
+    {
+     "han": "接着，汉字又经过了几次重要的变化，从比较复杂的篆书，慢慢演变成了书写起来更方便的隶书。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, hàn zì yòu jīng guò le jǐ cì zhòng yào de biàn huà, cóng bǐ jiào fù zá de zhuàn shū, màn màn yǎn biàn chéng le shū xiě qǐ lái gèng fāng biàn de lì shū."
+    },
+    {
+     "han": "隶书以后，又出现了楷书，楷书的笔画更加清楚、端正，一直影响到我们现在使用的汉字。",
+     "pinyin": "",
+     "draft_pinyin": "Lì shū yǐ hòu, yòu chū xiàn le kǎi shū, kǎi shū de bǐ huà gèng jiā qīng chǔ, duān zhèng, yì zhí yǐng xiǎng dào wǒ men xiàn zài shǐ yòng de hàn zì."
+    },
+    {
+     "han": "老师说，虽然汉字的样子经过了几千年的变化，但是很多字的基本结构和意思，其实一直保留了下来。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, suī rán hàn zì de yàng zi jīng guò le jǐ qiān nián de biàn huà, dàn shì hěn duō zì de jī běn jié gòu hé yì si, qí shí yì zhí bǎo liú le xià lái."
+    },
+    {
+     "han": "听完这段历史，我突然觉得，我们每天写的这些汉字，其实都是几千年历史留下来的宝贵财富。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng wán zhè duàn lì shǐ, wǒ tū rán jué de, wǒ men měi tiān xiě de zhè xiē hàn zì, qí shí dōu shì jǐ qiān nián lì shǐ liú xià lái de bǎo guì cái fù."
+    },
+    {
+     "han": "老师最后说，了解了造字的方法和汉字的演变过程，以后我们学习新的汉字，会觉得更有意思，也更容易记住。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī zuì hòu shuō, liǎo jiě le zào zì de fāng fǎ hé hàn zì de yǎn biàn guò chéng, yǐ hòu wǒ men xué xí xīn de hàn zì, huì jué de gèng yǒu yì si, yě gèng róng yì jì zhù."
+    },
+    {
+     "han": "这个学期关于汉字历史的学习，让我对中文这门语言，有了跟以前完全不一样的感情和理解。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge xué qī guān yú hàn zì lì shǐ de xué xí, ràng wǒ duì zhōng wén zhè mén yǔ yán, yǒu le gēn yǐ qián wán quán bù yí yàng de gǎn qíng hé lǐ jiě."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "回顾",
+     "pinyin": "",
+     "meaning": "nhìn lại, hồi tưởng"
+    },
+    {
+     "word": "演变",
+     "pinyin": "",
+     "meaning": "biến đổi, tiến hóa"
+    },
+    {
+     "word": "历程",
+     "pinyin": "",
+     "meaning": "quá trình, hành trình"
+    },
+    {
+     "word": "刻",
+     "pinyin": "",
+     "meaning": "khắc"
+    },
+    {
+     "word": "乌龟壳",
+     "pinyin": "",
+     "meaning": "mai rùa"
+    },
+    {
+     "word": "骨头",
+     "pinyin": "",
+     "meaning": "xương"
+    },
+    {
+     "word": "占卜",
+     "pinyin": "",
+     "meaning": "bói toán"
+    },
+    {
+     "word": "青铜器",
+     "pinyin": "",
+     "meaning": "đồ đồng"
+    },
+    {
+     "word": "金文",
+     "pinyin": "",
+     "meaning": "chữ kim văn"
+    },
+    {
+     "word": "笔画",
+     "pinyin": "",
+     "meaning": "nét chữ"
+    },
+    {
+     "word": "规整",
+     "pinyin": "",
+     "meaning": "ngay ngắn, chỉnh chu"
+    },
+    {
+     "word": "篆书",
+     "pinyin": "",
+     "meaning": "chữ triện"
+    },
+    {
+     "word": "隶书",
+     "pinyin": "",
+     "meaning": "chữ lệ"
+    },
+    {
+     "word": "楷书",
+     "pinyin": "",
+     "meaning": "chữ khải"
+    },
+    {
+     "word": "端正",
+     "pinyin": "",
+     "meaning": "ngay ngắn, đứng đắn"
+    },
+    {
+     "word": "结构",
+     "pinyin": "",
+     "meaning": "kết cấu"
+    },
+    {
+     "word": "保留",
+     "pinyin": "",
+     "meaning": "giữ lại"
+    },
+    {
+     "word": "宝贵",
+     "pinyin": "",
+     "meaning": "quý báu"
+    },
+    {
+     "word": "财富",
+     "pinyin": "",
+     "meaning": "tài sản, của cải"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "主要用来…… (chủ yếu dùng để…)",
+     "example": "甲骨文主要用来记录占卜的内容",
+     "meaning": "nêu mục đích/công năng chính của sự vật"
+    },
+    {
+     "name": "从……慢慢演变成…… (từ…dần dần tiến hóa thành…)",
+     "example": "从篆书慢慢演变成隶书",
+     "meaning": "diễn tả quá trình biến đổi dần theo thời gian"
+    },
+    {
+     "name": "虽然……但是……其实…… (tuy…nhưng…thực ra…)",
+     "example": "虽然样子变化很多，但是基本结构其实一直保留",
+     "meaning": "nhượng bộ, khẳng định điều thực chất không đổi"
+    },
+    {
+     "name": "以后……会……也…… (sau này…sẽ…cũng…)",
+     "example": "以后学习新汉字，会更有意思，也更容易记住",
+     "meaning": "dự đoán kết quả tích cực trong tương lai"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 26,
+   "titleHan": "木字旁的秘密",
+   "titleVi": "Bí mật của bộ Mộc",
+   "sentences": [
+    {
+     "han": "学完汉字的历史以后，老师说，接下来这几节课，我们要专门研究几个常见的部首，先从\"木\"字旁开始。",
+     "pinyin": "",
+     "draft_pinyin": "Xué wán hàn zì de lì shǐ yǐ hòu, lǎo shī shuō, jiē xià lái zhè jǐ jié kè, wǒ men yào zhuān mén yán jiū jǐ gè cháng jiàn de bù shǒu, xiān cóng\"mù\"zì páng kāi shǐ."
+    },
+    {
+     "han": "老师说，\"木\"这个字本身就是一个象形字，样子就像一棵有树根、树干和树枝的树。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, \"mù\"zhè ge zì běn shēn jiù shì yí gè xiàng xíng zì, yàng zi jiù xiàng yī kē yǒu shù gēn, shù gàn hé shù zhī de shù."
+    },
+    {
+     "han": "带有\"木\"字旁的字，大部分都跟树木或者木头做的东西有关系，比如\"树\"、\"林\"、\"森\"这几个字。",
+     "pinyin": "",
+     "draft_pinyin": "Dài yǒu\"mù\"zì páng de zì, dà bù fèn dōu gēn shù mù huò zhě mù tou zuò de dōng xī yǒu guān xì, bǐ rú\"shù\", \"lín\", \"sēn\"zhè jǐ gè zì."
+    },
+    {
+     "han": "她解释说，\"林\"是两个\"木\"，表示树比较多；\"森\"是三个\"木\"，表示树更多，形容茂密的森林。",
+     "pinyin": "",
+     "draft_pinyin": "Tā jiě shì shuō, \"lín\"shì liǎng gè\"mù\", biǎo shì shù bǐ jiào duō; \"sēn\"shì sān gè\"mù\", biǎo shì shù gèng duō, xíng róng mào mì de sēn lín."
+    },
+    {
+     "han": "接着，老师又写了\"桌\"、\"椅\"、\"床\"这几个字，说这些都是用木头做的家具，所以也带有\"木\"字旁。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, lǎo shī yòu xiě le\"zhuō\", \"yǐ\", \"chuáng\"zhè jǐ gè zì, shuō zhè xiē dōu shì yòng mù tou zuò de jiā jù, suǒ yǐ yě dài yǒu\"mù\"zì páng."
+    },
+    {
+     "han": "我突然想到，\"橙\"和\"梅\"这两个字也有\"木\"字旁，因为橙子树和梅树，都是能结果的树木。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ tū rán xiǎng dào, \"chéng\"hé\"méi\"zhè liǎng gè zì yě yǒu\"mù\"zì páng, yīn wèi chéng zi shù hé méi shù, dōu shì néng jié guǒ de shù mù."
+    },
+    {
+     "han": "老师说，认识了\"木\"字旁的规律以后，下次看到一个不认识的、带\"木\"字旁的字，我们就可以大概猜到，它跟树木或者木制品有关。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, rèn shí le\"mù\"zì páng de guī lǜ yǐ hòu, xià cì kàn dào yí gè bù rèn shí de, dài\"mù\"zì páng de zì, wǒ men jiù kě yǐ dà gài cāi dào, tā gēn shù mù huò zhě mù zhì pǐn yǒu guān."
+    },
+    {
+     "han": "我照着这个方法，试着猜了几个新字的意思，发现虽然不能百分之百猜对，但是猜对的可能性确实提高了不少。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ zhào zhe zhè ge fāng fǎ, shì zhe cāi le jǐ gè xīn zì de yì si, fā xiàn suī rán bù néng bǎi fēn zhī bǎi cāi duì, dàn shì cāi duì de kě néng xìng què shí tí gāo le bù shǎo."
+    },
+    {
+     "han": "这节课让我明白，部首就像一个个小小的线索，能帮助我们更快地理解和记住汉字。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè ràng wǒ míng bái, bù shǒu jiù xiàng yí gè gè xiǎo xiǎo de xiàn suǒ, néng bāng zhù wǒ men gèng kuài dì lǐ jiě hé jì zhù hàn zì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "部首",
+     "pinyin": "",
+     "meaning": "bộ thủ"
+    },
+    {
+     "word": "树根",
+     "pinyin": "",
+     "meaning": "rễ cây"
+    },
+    {
+     "word": "树干",
+     "pinyin": "",
+     "meaning": "thân cây"
+    },
+    {
+     "word": "树枝",
+     "pinyin": "",
+     "meaning": "cành cây"
+    },
+    {
+     "word": "木头",
+     "pinyin": "",
+     "meaning": "gỗ"
+    },
+    {
+     "word": "森林",
+     "pinyin": "",
+     "meaning": "rừng"
+    },
+    {
+     "word": "茂密",
+     "pinyin": "",
+     "meaning": "rậm rạp"
+    },
+    {
+     "word": "家具",
+     "pinyin": "",
+     "meaning": "đồ nội thất"
+    },
+    {
+     "word": "橙子",
+     "pinyin": "",
+     "meaning": "quả cam"
+    },
+    {
+     "word": "梅",
+     "pinyin": "",
+     "meaning": "mơ, mai"
+    },
+    {
+     "word": "结果",
+     "pinyin": "",
+     "meaning": "kết quả (ra quả)"
+    },
+    {
+     "word": "木制品",
+     "pinyin": "",
+     "meaning": "sản phẩm gỗ"
+    },
+    {
+     "word": "百分之百",
+     "pinyin": "",
+     "meaning": "trăm phần trăm"
+    },
+    {
+     "word": "可能性",
+     "pinyin": "",
+     "meaning": "khả năng, xác suất"
+    },
+    {
+     "word": "线索",
+     "pinyin": "",
+     "meaning": "đầu mối, gợi ý"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "本身就是…… (chính bản thân nó là…)",
+     "example": "\"木\"这个字本身就是一个象形字",
+     "meaning": "nhấn mạnh đặc điểm vốn có của sự vật"
+    },
+    {
+     "name": "大部分都…… (phần lớn đều…)",
+     "example": "带\"木\"字旁的字，大部分都跟树木有关系",
+     "meaning": "nêu quy luật chung, không tuyệt đối"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然不能百分之百猜对，但是可能性提高了不少",
+     "meaning": "nhượng bộ, khẳng định kết quả tích cực"
+    },
+    {
+     "name": "就像……一样 (giống như…)",
+     "example": "部首就像一个个小小的线索",
+     "meaning": "tạo ẩn dụ so sánh để giải thích khái niệm"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 27,
+   "titleHan": "心字底藏着感情",
+   "titleVi": "Bộ Tâm ẩn chứa cảm xúc",
+   "sentences": [
+    {
+     "han": "这节课，老师带我们研究\"心\"这个部首，她说，古人认为，人的感情和想法都来自心脏，所以很多表示感情的字，都带有\"心\"字。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè, lǎo shī dài wǒ men yán jiū\"xīn\"zhè ge bù shǒu, tā shuō, gǔ rén rèn wéi, rén de gǎn qíng hé xiǎng fǎ dōu lái zì xīn zàng, suǒ yǐ hěn duō biǎo shì gǎn qíng de zì, dōu dài yǒu\"xīn\"zì."
+    },
+    {
+     "han": "老师先写了\"想\"和\"念\"这两个字，两个字下面都有一个\"心\"，表示这些行为都跟内心的活动有关。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī xiān xiě le\"xiǎng\"hé\"niàn\"zhè liǎng gè zì, liǎng gè zì xià miàn dōu yǒu yí gè\"xīn\", biǎo shì zhè xiē xíng wéi dōu gēn nèi xīn de huó dòng yǒu guān."
+    },
+    {
+     "han": "接着，她写了\"忙\"、\"快\"、\"忘\"这几个字，说这几个字左边有一个竖着的\"心\"，也就是我们常说的\"竖心旁\"。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, tā xiě le\"máng\", \"kuài\", \"wàng\"zhè jǐ gè zì, shuō zhè jǐ gè zì zuǒ biān yǒu yí gè shù zhe de\"xīn\", yě jiù shì wǒ men cháng shuō de\"shù xīn páng\"."
+    },
+    {
+     "han": "我发现，虽然写法不太一样，一个在下面，一个在左边，但是它们都是从\"心\"这个字变化出来的。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ fā xiàn, suī rán xiě fǎ bù tài yī yàng, yí gè zài xià miàn, yí gè zài zuǒ biān, dàn shì tā men dōu shì cóng\"xīn\"zhè ge zì biàn huà chū lái de."
+    },
+    {
+     "han": "老师又举了\"情\"字做例子，\"情\"字左边是竖心旁，右边是\"青\"，表示这个字跟内心的感受有关系。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī yòu jǔ le\"qíng\"zì zuò lì zi, \"qíng\"zì zuǒ biān shì shù xīn páng, yòu biān shì\"qīng\", biǎo shì zhè ge zì gēn nèi xīn de gǎn shòu yǒu guān xì."
+    },
+    {
+     "han": "她还提到，\"怕\"、\"怒\"、\"恨\"这几个表示情绪的字，也都带有\"心\"这个部首，情绪越强烈，好像跟心的关系就越紧密。",
+     "pinyin": "",
+     "draft_pinyin": "Tā hái tí dào, \"pà\", \"nù\", \"hèn\"zhè jǐ gè biǎo shì qíng xù de zì, yě dōu dài yǒu\"xīn\"zhè ge bù shǒu, qíng xù yuè qiáng liè, hǎo xiàng gēn xīn de guān xì jiù yuè jǐn mì."
+    },
+    {
+     "han": "我突然想起，自己紧张的时候，心跳会变快，这好像也能解释，为什么古人会把感情和\"心\"联系在一起。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ tū rán xiǎng qǐ, zì jǐ jǐn zhāng de shí hòu, xīn tiào huì biàn kuài, zhè hǎo xiàng yě néng jiě shì, wèi shén me gǔ rén huì bǎ gǎn qíng hé\"xīn\"lián xì zài yì qǐ."
+    },
+    {
+     "han": "老师说，虽然现代科学告诉我们，感情主要是由大脑控制的，但是\"心\"这个部首，依然保留在很多跟感情有关的字里。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, suī rán xiàn dài kē xué gào sù wǒ men, gǎn qíng zhǔ yào shì yóu dà nǎo kòng zhì de, dàn shì\"xīn\"zhè ge bù shǒu, yī rán bǎo liú zài hěn duō gēn gǎn qíng yǒu guān de zì lǐ."
+    },
+    {
+     "han": "这节课让我觉得，汉字不仅记录了古人对世界的观察，还记录了他们对自己内心世界的理解。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè ràng wǒ jué de, hàn zì bù jǐn jì lù le gǔ rén duì shì jiè de guān chá, hái jì lù le tā men duì zì jǐ nèi xīn shì jiè de lǐ jiě."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "心脏",
+     "pinyin": "",
+     "meaning": "quả tim"
+    },
+    {
+     "word": "内心",
+     "pinyin": "",
+     "meaning": "nội tâm, trong lòng"
+    },
+    {
+     "word": "竖着",
+     "pinyin": "",
+     "meaning": "dựng thẳng"
+    },
+    {
+     "word": "竖心旁",
+     "pinyin": "",
+     "meaning": "bộ Tâm dạng dựng (忄)"
+    },
+    {
+     "word": "感受",
+     "pinyin": "",
+     "meaning": "cảm nhận"
+    },
+    {
+     "word": "情绪",
+     "pinyin": "",
+     "meaning": "tình cảm, cảm xúc"
+    },
+    {
+     "word": "强烈",
+     "pinyin": "",
+     "meaning": "mạnh mẽ"
+    },
+    {
+     "word": "紧密",
+     "pinyin": "",
+     "meaning": "chặt chẽ, khít"
+    },
+    {
+     "word": "心跳",
+     "pinyin": "",
+     "meaning": "tim đập"
+    },
+    {
+     "word": "联系",
+     "pinyin": "",
+     "meaning": "liên hệ, kết nối"
+    },
+    {
+     "word": "大脑",
+     "pinyin": "",
+     "meaning": "não bộ"
+    },
+    {
+     "word": "控制",
+     "pinyin": "",
+     "meaning": "điều khiển, kiểm soát"
+    },
+    {
+     "word": "依然",
+     "pinyin": "",
+     "meaning": "vẫn, vẫn còn"
+    },
+    {
+     "word": "内心世界",
+     "pinyin": "",
+     "meaning": "thế giới nội tâm"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "……都来自…… (đều bắt nguồn từ…)",
+     "example": "人的感情和想法都来自心脏",
+     "meaning": "nêu nguồn gốc chung của các sự vật"
+    },
+    {
+     "name": "虽然……但是……都是…… (tuy…nhưng…đều là…)",
+     "example": "虽然写法不一样，但是都是从\"心\"变化出来的",
+     "meaning": "nhượng bộ, khẳng định điểm chung"
+    },
+    {
+     "name": "好像……越……就越…… (dường như…càng…thì càng…)",
+     "example": "情绪越强烈，好像跟心的关系就越紧密",
+     "meaning": "nêu quy luật tỉ lệ thuận mang tính cảm nhận"
+    },
+    {
+     "name": "不仅……还…… (không chỉ…mà còn…)",
+     "example": "汉字不仅记录了观察，还记录了对内心世界的理解",
+     "meaning": "bổ sung thêm ý ngoài điều đã nêu"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 28,
+   "titleHan": "提手旁的动作",
+   "titleVi": "Động tác của bộ Tay",
+   "sentences": [
+    {
+     "han": "这节课，老师带我们研究\"扌\"这个部首，也就是我们常说的\"提手旁\"，它是从\"手\"这个字简化变形来的。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè, lǎo shī dài wǒ men yán jiū\"shou\"zhè ge bù shǒu, yě jiù shì wǒ men cháng shuō de\"tí shǒu páng\", tā shì cóng\"shǒu\"zhè ge zì jiǎn huà biàn xíng lái de."
+    },
+    {
+     "han": "老师说，带有提手旁的字，大部分都表示用手完成的动作，学会这个规律，能帮助我们记住很多动词。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, dài yǒu tí shǒu páng de zì, dà bù fèn dōu biǎo shì yòng shǒu wán chéng de dòng zuò, xué huì zhè ge guī lǜ, néng bāng zhù wǒ men jì zhù hěn duō dòng cí."
+    },
+    {
+     "han": "她先写了\"打\"、\"拍\"、\"抱\"这三个字，说这些都是用手做的动作，\"打\"是用手击打，\"拍\"是用手轻轻地拍，\"抱\"是用手臂抱住。",
+     "pinyin": "",
+     "draft_pinyin": "Tā xiān xiě le\"dǎ\", \"pāi\", \"bào\"zhè sān gè zì, shuō zhè xiē dōu shì yòng shǒu zuò de dòng zuò, \"dǎ\"shì yòng shǒu jī dǎ, \"pāi\"shì yòng shǒu qīng qīng dì pāi, \"bào\"shì yòng shǒu bì bào zhù."
+    },
+    {
+     "han": "接着，她又写了\"推\"和\"拉\"，说这两个字的意思正好相反，\"推\"是用手向前用力，\"拉\"是用手向自己方向用力。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, tā yòu xiě le\"tuī\"hé\"lā\", shuō zhè liǎng gè zì de yì si zhèng hǎo xiāng fǎn, \"tuī\"shì yòng shǒu xiàng qián yòng lì, \"lā\"shì yòng shǒu xiàng zì jǐ fāng xiàng yòng lì."
+    },
+    {
+     "han": "我发现，很多我们每天都会用到的动词，比如\"拿\"、\"提\"、\"扔\"，也都带有提手旁，跟手的动作有关系。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ fā xiàn, hěn duō wǒ men měi tiān dū huì yòng dào de dòng cí, bǐ rú\"ná\", \"tí\", \"rēng\", yě dōu dài yǒu tí shǒu páng, gēn shǒu de dòng zuò yǒu guān xì."
+    },
+    {
+     "han": "老师提醒我们，虽然大部分带提手旁的字都跟手有关，但是也有个别例外，需要单独记住，不能完全依赖规律。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī tí xǐng wǒ men, suī rán dà bù fèn dài tí shǒu páng de zì dōu gēn shǒu yǒu guān, dàn shì yě yǒu gè bié lì wài, xū yào dān dú jì zhù, bù néng wán quán yī lài guī lǜ."
+    },
+    {
+     "han": "她还举了\"我\"这个字，虽然它看起来也有点儿像有提手旁的样子，但其实\"我\"字的历史比较特殊，并不是这个规律里的字。",
+     "pinyin": "",
+     "draft_pinyin": "Tā hái jǔ le\"wǒ\"zhè ge zì, suī rán tā kàn qǐ lái yě yǒu diǎn ér xiàng yǒu tí shǒu páng de yàng zi, dàn qí shí\"wǒ\"zì de lì shǐ bǐ jiào tè shū, bìng bú shì zhè ge guī lǜ lǐ de zì."
+    },
+    {
+     "han": "听到这里，我更加明白，学习部首规律很有用，但也要保持一定的细心，不能什么都不加思考地套用规律。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng dào zhè lǐ, wǒ gèng jiā míng bái, xué xí bù shǒu guī lǜ hěn yǒu yòng, dàn yě yào bǎo chí yí dìng de xì xīn, bù néng shén me dōu bù jiā sī kǎo dì tào yòng guī lǜ."
+    },
+    {
+     "han": "这节课让我发现，观察一个字的部首，就像是在观察这个字的\"身份证\"，能帮助我们更快地了解它的大概意思。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè ràng wǒ fā xiàn, guān chá yí gè zì de bù shǒu, jiù xiàng shì zài guān chá zhè ge zì de\"shēn fèn zhèng\", néng bāng zhù wǒ men gèng kuài dì liǎo jiě tā de dà gài yì si."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "提手旁",
+     "pinyin": "",
+     "meaning": "bộ Thủ (dạng tay - 扌)"
+    },
+    {
+     "word": "简化",
+     "pinyin": "",
+     "meaning": "đơn giản hóa"
+    },
+    {
+     "word": "变形",
+     "pinyin": "",
+     "meaning": "biến hình"
+    },
+    {
+     "word": "击打",
+     "pinyin": "",
+     "meaning": "đánh, đập"
+    },
+    {
+     "word": "抱",
+     "pinyin": "",
+     "meaning": "ôm"
+    },
+    {
+     "word": "相反",
+     "pinyin": "",
+     "meaning": "ngược lại, đối lập"
+    },
+    {
+     "word": "用力",
+     "pinyin": "",
+     "meaning": "dùng lực"
+    },
+    {
+     "word": "提",
+     "pinyin": "",
+     "meaning": "nhắc, cầm (bằng tay)"
+    },
+    {
+     "word": "扔",
+     "pinyin": "",
+     "meaning": "vứt, ném"
+    },
+    {
+     "word": "个别",
+     "pinyin": "",
+     "meaning": "cá biệt, riêng lẻ"
+    },
+    {
+     "word": "例外",
+     "pinyin": "",
+     "meaning": "ngoại lệ"
+    },
+    {
+     "word": "单独",
+     "pinyin": "",
+     "meaning": "riêng biệt"
+    },
+    {
+     "word": "特殊",
+     "pinyin": "",
+     "meaning": "đặc biệt"
+    },
+    {
+     "word": "细心",
+     "pinyin": "",
+     "meaning": "cẩn thận, kỹ tính"
+    },
+    {
+     "word": "思考",
+     "pinyin": "",
+     "meaning": "suy nghĩ"
+    },
+    {
+     "word": "套用",
+     "pinyin": "",
+     "meaning": "áp dụng máy móc"
+    },
+    {
+     "word": "身份证",
+     "pinyin": "",
+     "meaning": "chứng minh nhân dân"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "也就是我们常说的…… (cũng chính là…mà chúng ta thường gọi…)",
+     "example": "这个部首，也就是我们常说的\"提手旁\"",
+     "meaning": "giải thích thêm bằng tên gọi thông dụng"
+    },
+    {
+     "name": "正好相反 (vừa đối lập nhau)",
+     "example": "\"推\"和\"拉\"的意思正好相反",
+     "meaning": "nhấn mạnh hai sự vật có ý nghĩa trái ngược hoàn toàn"
+    },
+    {
+     "name": "虽然……但是……不能…… (tuy…nhưng…không thể…)",
+     "example": "虽然大部分都跟手有关，但是也有例外，不能完全依赖规律",
+     "meaning": "nhượng bộ, đưa ra giới hạn cần lưu ý"
+    },
+    {
+     "name": "就像是……一样 (giống như là…)",
+     "example": "观察部首，就像是在观察这个字的\"身份证\"",
+     "meaning": "tạo ẩn dụ so sánh để giải thích khái niệm"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 29,
+   "titleHan": "火字旁的温度",
+   "titleVi": "Nhiệt độ của bộ Hỏa",
+   "sentences": [
+    {
+     "han": "这节课，老师带我们认识\"火\"这个部首，她说，\"火\"本身也是一个象形字，样子就像燃烧时向上跳动的火苗。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè, lǎo shī dài wǒ men rèn shí\"huǒ\"zhè ge bù shǒu, tā shuō, \"huǒ\"běn shēn yě shì yí gè xiàng xíng zì, yàng zi jiù xiàng rán shāo shí xiàng shàng tiào dòng de huǒ miáo."
+    },
+    {
+     "han": "老师说，带有\"火\"字旁的字，大部分都跟火、热或者光有关系，比如\"烤\"、\"烧\"、\"热\"这几个字。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, dài yǒu\"huǒ\"zì páng de zì, dà bù fèn dōu gēn huǒ, rè huò zhě guāng yǒu guān xì, bǐ rú\"kǎo\", \"shāo\", \"rè\"zhè jǐ gè zì."
+    },
+    {
+     "han": "她举了\"灯\"字做例子，古代的灯是用火照明的，所以这个字带有\"火\"字旁，虽然现在的灯大多是用电的。",
+     "pinyin": "",
+     "draft_pinyin": "Tā jǔ le\"dēng\"zì zuò lì zi, gǔ dài de dēng shì yòng huǒ zhào míng de, suǒ yǐ zhè ge zì dài yǒu\"huǒ\"zì páng, suī rán xiàn zài de dēng dà duō shì yòng diàn de."
+    },
+    {
+     "han": "接着，老师写了\"灰\"字，说这个字表示东西被火烧过以后剩下的东西，跟\"火\"的关系也非常直接。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, lǎo shī xiě le\"huī\"zì, shuō zhè ge zì biǎo shì dōng xī bèi huǒ shāo guò yǐ hòu shèng xià de dōng xī, gēn\"huǒ\"de guān xì yě fēi cháng zhí jiē."
+    },
+    {
+     "han": "我发现，\"烈\"这个字虽然写法看起来复杂一些，但是下面同样藏着\"火\"的变形，表示火势很猛烈的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ fā xiàn, \"liè\"zhè ge zì suī rán xiě fǎ kàn qǐ lái fù zá yī xiē, dàn shì xià miàn tóng yàng cáng zhe\"huǒ\"de biàn xíng, biǎo shì huǒ shì hěn měng liè de yì si."
+    },
+    {
+     "han": "老师还提到，有些带\"火\"字旁的字，写在下面的时候，会变成四个点，这种写法叫做\"四点底\"，比如\"煮\"和\"熊\"这两个字。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī hái tí dào, yǒu xiē dài\"huǒ\"zì páng de zì, xiě zài xià miàn de shí hòu, huì biàn chéng sì gè diǎn, zhè zhǒng xiě fǎ jiào zuò\"sì diǎn dǐ\", bǐ rú\"zhǔ\"hé\"xióng\"zhè liǎng gè zì."
+    },
+    {
+     "han": "听到\"熊\"字也跟火有关系，我觉得特别有意思，因为我一直以为这个字只是跟动物有关。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng dào\"xióng\"zì yě gēn huǒ yǒu guān xì, wǒ jué de tè bié yǒu yì si, yīn wèi wǒ yì zhí yǐ wéi zhè ge zì zhǐ shì gēn dòng wù yǒu guān."
+    },
+    {
+     "han": "老师解释说，\"熊\"字下面的四点，其实是表示熊在寒冷的时候，会有一种像火一样温暖的皮毛，帮助保暖。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī jiě shì shuō, \"xióng\"zì xià miàn de sì diǎn, qí shí shì biǎo shì xióng zài hán lěng de shí hòu, huì yǒu yī zhǒng xiàng huǒ yī yàng wēn nuǎn de pí máo, bāng zhù bǎo nuǎn."
+    },
+    {
+     "han": "这节课让我更加确定，每一个部首背后，都可能藏着一个跟古人生活经验有关的、有意思的小故事。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jié kè ràng wǒ gèng jiā què dìng, měi yí gè bù shǒu bèi hòu, dōu kě néng cáng zhe yí gè gēn gǔ rén shēng huó jīng yàn yǒu guān de, yǒu yì si de xiǎo gù shì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "燃烧",
+     "pinyin": "",
+     "meaning": "thiêu cháy, đốt"
+    },
+    {
+     "word": "火苗",
+     "pinyin": "",
+     "meaning": "ngọn lửa"
+    },
+    {
+     "word": "照明",
+     "pinyin": "",
+     "meaning": "chiếu sáng"
+    },
+    {
+     "word": "灰",
+     "pinyin": "",
+     "meaning": "tro"
+    },
+    {
+     "word": "剩下",
+     "pinyin": "",
+     "meaning": "còn lại"
+    },
+    {
+     "word": "直接",
+     "pinyin": "",
+     "meaning": "trực tiếp"
+    },
+    {
+     "word": "火势",
+     "pinyin": "",
+     "meaning": "thế lửa, sức lửa"
+    },
+    {
+     "word": "猛烈",
+     "pinyin": "",
+     "meaning": "mãnh liệt, dữ dội"
+    },
+    {
+     "word": "四点底",
+     "pinyin": "",
+     "meaning": "bộ 4 điểm (灬)"
+    },
+    {
+     "word": "熊",
+     "pinyin": "",
+     "meaning": "con gấu"
+    },
+    {
+     "word": "皮毛",
+     "pinyin": "",
+     "meaning": "lông da"
+    },
+    {
+     "word": "保暖",
+     "pinyin": "",
+     "meaning": "giữ ấm"
+    },
+    {
+     "word": "寒冷",
+     "pinyin": "",
+     "meaning": "lạnh giá"
+    },
+    {
+     "word": "生活经验",
+     "pinyin": "",
+     "meaning": "kinh nghiệm sống"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "本身也是…… (chính bản thân nó cũng là…)",
+     "example": "\"火\"本身也是一个象形字",
+     "meaning": "nhấn mạnh đặc điểm vốn có"
+    },
+    {
+     "name": "虽然……但是……同样…… (tuy…nhưng…cũng đồng dạng…)",
+     "example": "\"烈\"字写法复杂一些，但是下面同样藏着\"火\"的变形",
+     "meaning": "nhượng bộ, khẳng định điểm chung ẩn giấu"
+    },
+    {
+     "name": "一直以为…… (luôn tưởng rằng…)",
+     "example": "我一直以为这个字只是跟动物有关",
+     "meaning": "dẫn ra một nhận định sai trước đây"
+    },
+    {
+     "name": "其实是…… (thực ra là…)",
+     "example": "\"熊\"字下面的四点，其实是表示温暖的皮毛",
+     "meaning": "dẫn ra sự thật đúng, khác với vẻ ngoài"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 30,
+   "titleHan": "走字底的旅程",
+   "titleVi": "Hành trình của bộ Sước",
+   "sentences": [
+    {
+     "han": "这是我们研究部首的最后一节课，老师带我们认识了跟走路、移动有关的两个部首：\"走\"字旁和\"辶\"。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè shì wǒ men yán jiū bù shǒu de zuì hòu yī jié kè, lǎo shī dài wǒ men rèn shí le gēn zǒu lù, yí dòng yǒu guān de liǎng gè bù shǒu: \"zǒu\"zì páng hé\"chuò\"."
+    },
+    {
+     "han": "老师先说了\"走\"这个部首，比如\"起\"、\"越\"这两个字，都带有\"走\"，表示跟走动或者超过某种状态有关。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī xiān shuō le\"zǒu\"zhè ge bù shǒu, bǐ rú\"qǐ\", \"yuè\"zhè liǎng gè zì, dōu dài yǒu\"zǒu\", biǎo shì gēn zǒu dòng huò zhě chāo guò mǒu zhǒng zhuàng tài yǒu guān."
+    },
+    {
+     "han": "接着，她重点讲了\"辶\"这个部首，说它其实是\"走\"字进一步简化以后的写法，看起来像一条弯曲的小路。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, tā zhòng diǎn jiǎng le\"chuò\"zhè ge bù shǒu, shuō tā qí shí shì\"zǒu\"zì jìn yí bù jiǎn huà yǐ hòu de xiě fǎ, kàn qǐ lái xiàng yī tiáo wān qū de xiǎo lù."
+    },
+    {
+     "han": "她举了\"进\"、\"退\"这两个字做例子，\"进\"表示向前移动，\"退\"表示向后移动，两个字的意思正好相反，都带有\"辶\"。",
+     "pinyin": "",
+     "draft_pinyin": "Tā jǔ le\"jìn\", \"tuì\"zhè liǎng gè zì zuò lì zi, \"jìn\"biǎo shì xiàng qián yí dòng, \"tuì\"biǎo shì xiàng hòu yí dòng, liǎng gè zì de yì si zhèng hǎo xiāng fǎn, dōu dài yǒu\"chuò\"."
+    },
+    {
+     "han": "我又想到了\"过\"、\"还\"这两个字，也都带有\"辶\"，\"过\"表示经过某个地方，\"还\"表示回到原来的地方。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ yòu xiǎng dào le\"guò\", \"hái\"zhè liǎng gè zì, yě dōu dài yǒu\"chuò\", \"guò\"biǎo shì jīng guò mǒu gè dì fāng, \"hái\"biǎo shì huí dào yuán lái de dì fāng."
+    },
+    {
+     "han": "老师说，这个部首非常形象，因为它本身就像一条路，很多跟\"移动\"、\"路程\"有关的字，都选择用它来表示相关的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, zhè ge bù shǒu fēi cháng xíng xiàng, yīn wèi tā běn shēn jiù xiàng yī tiáo lù, hěn duō gēn\"yí dòng\", \"lù chéng\"yǒu guān de zì, dōu xuǎn zé yòng tā lái biǎo shì xiāng guān de yì si."
+    },
+    {
+     "han": "她还提醒我们，\"这\"和\"那\"这两个常用字，也带有\"辶\"，虽然它们本身不表示移动，但是历史上，它们的意思跟指示方向有一定关系。",
+     "pinyin": "",
+     "draft_pinyin": "Tā hái tí xǐng wǒ men, \"zhè\"hé\"nà\"zhè liǎng gè cháng yòng zì, yě dài yǒu\"chuò\", suī rán tā men běn shēn bù biǎo shì yí dòng, dàn shì lì shǐ shàng, tā men de yì si gēn zhǐ shì fāng xiàng yǒu yí dìng guān xì."
+    },
+    {
+     "han": "学完这五节关于部首的课，我发现，自己看汉字的方式已经完全不一样了，不再只是记住笔画，而是会主动思考每个部分的意思。",
+     "pinyin": "",
+     "draft_pinyin": "Xué wán zhè wǔ jié guān yú bù shǒu de kè, wǒ fā xiàn, zì jǐ kàn hàn zì de fāng shì yǐ jīng wán quán bù yí yàng le, bù zài zhǐ shì jì zhù bǐ huà, ér shì huì zhǔ dòng sī kǎo měi gè bù fèn de yì si."
+    },
+    {
+     "han": "老师最后说，希望我们以后学习新的汉字时，都能像这几节课一样，多问一问\"为什么\"，这样学习会变得更有意思，也更有效率。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī zuì hòu shuō, xī wàng wǒ men yǐ hòu xué xí xīn de hàn zì shí, dōu néng xiàng zhè jǐ jié kè yī yàng, duō wèn yī wèn\"wèi shén me\", zhè yàng xué xí huì biàn dé gèng yǒu yì si, yě gèng yǒu xiào lǜ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "移动",
+     "pinyin": "",
+     "meaning": "di chuyển"
+    },
+    {
+     "word": "走字旁",
+     "pinyin": "",
+     "meaning": "bộ Tẩu (走)"
+    },
+    {
+     "word": "超过",
+     "pinyin": "",
+     "meaning": "vượt qua"
+    },
+    {
+     "word": "状态",
+     "pinyin": "",
+     "meaning": "trạng thái"
+    },
+    {
+     "word": "进一步",
+     "pinyin": "",
+     "meaning": "tiến thêm một bước"
+    },
+    {
+     "word": "弯曲",
+     "pinyin": "",
+     "meaning": "cong, uốn khúc"
+    },
+    {
+     "word": "小路",
+     "pinyin": "",
+     "meaning": "con đường nhỏ"
+    },
+    {
+     "word": "退",
+     "pinyin": "",
+     "meaning": "lùi lại, rút lui"
+    },
+    {
+     "word": "经过",
+     "pinyin": "",
+     "meaning": "đi qua, trải qua"
+    },
+    {
+     "word": "路程",
+     "pinyin": "",
+     "meaning": "hành trình, đoạn đường"
+    },
+    {
+     "word": "形象",
+     "pinyin": "",
+     "meaning": "mang tính hình ảnh"
+    },
+    {
+     "word": "指示",
+     "pinyin": "",
+     "meaning": "chỉ thị, chỉ ra"
+    },
+    {
+     "word": "方向",
+     "pinyin": "",
+     "meaning": "phương hướng"
+    },
+    {
+     "word": "笔画",
+     "pinyin": "",
+     "meaning": "nét chữ"
+    },
+    {
+     "word": "效率",
+     "pinyin": "",
+     "meaning": "hiệu suất"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "其实是……以后的写法 (thực ra là cách viết sau khi…)",
+     "example": "\"辶\"其实是\"走\"字进一步简化以后的写法",
+     "meaning": "dẫn nguồn gốc/quá trình biến đổi"
+    },
+    {
+     "name": "正好相反 (vừa đối lập nhau)",
+     "example": "\"进\"和\"退\"的意思正好相反",
+     "meaning": "nhấn mạnh hai sự vật có ý nghĩa trái ngược"
+    },
+    {
+     "name": "虽然……但是…… (tuy…nhưng…)",
+     "example": "虽然\"这\"和\"那\"本身不表示移动，但是历史上跟方向有关",
+     "meaning": "nhượng bộ, bổ sung thông tin"
+    },
+    {
+     "name": "不再只是……而是…… (không còn chỉ là…mà là…)",
+     "example": "不再只是记住笔画，而是会主动思考每个部分的意思",
+     "meaning": "chuyển đổi từ cách học cũ sang cách học mới"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 31,
+   "titleHan": "一部老电影",
+   "titleVi": "Một bộ phim cũ",
+   "sentences": [
+    {
+     "han": "上个周末，爷爷提议我们一起看一部他年轻时候特别喜欢的老电影，我虽然有点儿犹豫，但还是答应了。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè zhōu mò, yé yé tí yì wǒ men yì qǐ kàn yī bù tā nián qīng shí hòu tè bié xǐ huān de lǎo diàn yǐng, wǒ suī rán yǒu diǎn ér yóu yù, dàn hái shì dā yìng le."
+    },
+    {
+     "han": "那部电影是黑白的，画面质量跟现在的电影完全不能比，一开始我觉得有点儿不习惯，甚至有点儿无聊。",
+     "pinyin": "",
+     "draft_pinyin": "Nà bù diàn yǐng shì hēi bái de, huà miàn zhì liàng gēn xiàn zài de diàn yǐng wán quán bù néng bǐ, yī kāi shǐ wǒ jué de yǒu diǎn ér bù xí guàn, shèn zhì yǒu diǎn ér wú liáo."
+    },
+    {
+     "han": "但是随着剧情慢慢展开，我发现，虽然拍摄技术比较简单，但是故事本身非常感人，演员的表演也很自然。",
+     "pinyin": "",
+     "draft_pinyin": "Dàn shì suí zhe jù qíng màn màn zhǎn kāi, wǒ fā xiàn, suī rán pāi shè jì shù bǐ jiào jiǎn dān, dàn shì gù shì běn shēn fēi cháng gǎn rén, yǎn yuán de biǎo yǎn yě hěn zì rán."
+    },
+    {
+     "han": "看到一半的时候，爷爷突然说，这部电影他小时候看过很多次，每一次都会因为其中一个情节而流泪。",
+     "pinyin": "",
+     "draft_pinyin": "Kàn dào yí bàn de shí hòu, yé yé tū rán shuō, zhè bù diàn yǐng tā xiǎo shí hòu kàn guò hěn duō cì, měi yī cì dū huì yīn wèi qí zhōng yí gè qíng jié ér liú lèi."
+    },
+    {
+     "han": "我好奇地问他，为什么这么老的电影，他还能记得这么清楚，爷爷说，好的故事，是不会因为时间而被忘记的。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hào qí dì wèn tā, wèi shén me zhè me lǎo de diàn yǐng, tā hái néng jì de zhè me qīng chǔ, yé yé shuō, hǎo de gù shì, shì bú huì yīn wèi shí jiān ér bèi wàng jì de."
+    },
+    {
+     "han": "电影结束以后，爷爷跟我聊了很多关于那个年代的事情，还提到了当时的电影院和现在完全不一样。",
+     "pinyin": "",
+     "draft_pinyin": "Diàn yǐng jié shù yǐ hòu, yé yé gēn wǒ liáo le hěn duō guān yú nà ge nián dài de shì qíng, hái tí dào liǎo dàng shí de diàn yǐng yuàn hé xiàn zài wán quán bù yí yàng."
+    },
+    {
+     "han": "我这才知道，以前看电影是一件很难得的事情，一张电影票，有时候要排队很长时间才能买到。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ zhè cái zhī dào, yǐ qián kàn diàn yǐng shì yī jiàn hěn nán dé de shì qíng, yī zhāng diàn yǐng piào, yǒu shí hòu yào pái duì hěn zhǎng shí jiān cái néng mǎi dào."
+    },
+    {
+     "han": "这次经历让我明白，电影不只是娱乐方式，也是记录一个时代生活和情感的重要载体。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì jīng lì ràng wǒ míng bái, diàn yǐng bù zhǐ shì yú lè fāng shì, yě shì jì lù yí gè shí dài shēng huó hé qíng gǎn de zhòng yào zài tǐ."
+    },
+    {
+     "han": "虽然现在的电影技术已经进步了很多，但是我觉得，那种朴素又真实的故事，依然有它独特的魅力。",
+     "pinyin": "",
+     "draft_pinyin": "Suī rán xiàn zài de diàn yǐng jì shù yǐ jīng jìn bù le hěn duō, dàn shì wǒ jué de, nà zhǒng pǔ sù yòu zhēn shí de gù shì, yī rán yǒu tā dú tè de mèi lì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "提议",
+     "pinyin": "",
+     "meaning": "đề xuất"
+    },
+    {
+     "word": "犹豫",
+     "pinyin": "",
+     "meaning": "do dự"
+    },
+    {
+     "word": "画面",
+     "pinyin": "",
+     "meaning": "khung hình"
+    },
+    {
+     "word": "质量",
+     "pinyin": "",
+     "meaning": "chất lượng"
+    },
+    {
+     "word": "剧情",
+     "pinyin": "",
+     "meaning": "cốt truyện"
+    },
+    {
+     "word": "展开",
+     "pinyin": "",
+     "meaning": "triển khai, mở ra"
+    },
+    {
+     "word": "拍摄",
+     "pinyin": "",
+     "meaning": "quay phim"
+    },
+    {
+     "word": "表演",
+     "pinyin": "",
+     "meaning": "diễn xuất"
+    },
+    {
+     "word": "情节",
+     "pinyin": "",
+     "meaning": "tình tiết"
+    },
+    {
+     "word": "流泪",
+     "pinyin": "",
+     "meaning": "rơi lệ"
+    },
+    {
+     "word": "年代",
+     "pinyin": "",
+     "meaning": "thời đại, thập niên"
+    },
+    {
+     "word": "难得",
+     "pinyin": "",
+     "meaning": "hiếm có, khó mà có"
+    },
+    {
+     "word": "排队",
+     "pinyin": "",
+     "meaning": "xếp hàng"
+    },
+    {
+     "word": "娱乐",
+     "pinyin": "",
+     "meaning": "giải trí"
+    },
+    {
+     "word": "载体",
+     "pinyin": "",
+     "meaning": "vật mang, phương tiện lưu giữ"
+    },
+    {
+     "word": "进步",
+     "pinyin": "",
+     "meaning": "tiến bộ"
+    },
+    {
+     "word": "朴素",
+     "pinyin": "",
+     "meaning": "giản dị, chân chất"
+    },
+    {
+     "word": "真实",
+     "pinyin": "",
+     "meaning": "chân thật"
+    },
+    {
+     "word": "独特",
+     "pinyin": "",
+     "meaning": "độc đáo"
+    },
+    {
+     "word": "魅力",
+     "pinyin": "",
+     "meaning": "sức hút, vẻ đẹp cuốn hút"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "随着……慢慢…… (theo…dần dần…)",
+     "example": "随着剧情慢慢展开，我发现故事很感人",
+     "meaning": "dẫn quá trình biến đổi theo một yếu tố khác"
+    },
+    {
+     "name": "不会因为……而…… (không vì…mà…)",
+     "example": "好的故事，不会因为时间而被忘记",
+     "meaning": "phủ định một tác động, khẳng định tính bền vững"
+    },
+    {
+     "name": "这才知道…… (lúc này mới biết…)",
+     "example": "我这才知道，以前看电影是一件很难得的事情",
+     "meaning": "nhấn mạnh việc chỉ nhận ra sau một điều kiện nhất định"
+    },
+    {
+     "name": "虽然……但是……依然…… (tuy…nhưng…vẫn…)",
+     "example": "虽然技术进步了，但是朴素的故事依然有独特的魅力",
+     "meaning": "nhượng bộ, khẳng định giá trị không đổi"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 32,
+   "titleHan": "学习古筝",
+   "titleVi": "Học đàn tranh cổ",
+   "sentences": [
+    {
+     "han": "去年，我在一次学校的表演活动中，第一次听到古筝演奏，那种独特的音色让我一下子就被吸引了。",
+     "pinyin": "",
+     "draft_pinyin": "Qù nián, wǒ zài yī cì xué xiào de biǎo yǎn huó dòng zhōng, dì yī cì tīng dào gǔ zhēng yǎn zòu, nà zhǒng dú tè de yīn sè ràng wǒ yī xià zi jiù bèi xī yǐn le."
+    },
+    {
+     "han": "表演结束以后，我主动去问了那位弹古筝的同学，才知道这是一种历史非常悠久的中国传统乐器。",
+     "pinyin": "",
+     "draft_pinyin": "Biǎo yǎn jié shù yǐ hòu, wǒ zhǔ dòng qù wèn le nà wèi dàn gǔ zhēng de tóng xué, cái zhī dào zhè shì yī zhǒng lì shǐ fēi cháng yōu jiǔ de zhōng guó chuán tǒng yuè qì."
+    },
+    {
+     "han": "从那以后，我决定自己也开始学习古筝，虽然身边的朋友都觉得，这种传统乐器学起来一定很枯燥。",
+     "pinyin": "",
+     "draft_pinyin": "Cóng nà yǐ hòu, wǒ jué dìng zì jǐ yě kāi shǐ xué xí gǔ zhēng, suī rán shēn biān de péng yǒu dōu jué de, zhè zhǒng chuán tǒng yuè qì xué qǐ lái yí dìng hěn kū zào."
+    },
+    {
+     "han": "第一次上课，老师先教我怎么正确地摆放手指，还讲解了古筝二十一根弦分别代表什么音高。",
+     "pinyin": "",
+     "draft_pinyin": "Dì yī cì shàng kè, lǎo shī xiān jiào wǒ zěn me zhèng què dì bǎi fàng shǒu zhǐ, hái jiǎng jiě le gǔ zhēng èr shí yī gēn xián fēn bié dài biǎo shén me yīn gāo."
+    },
+    {
+     "han": "一开始，我的手指常常配合不好，弹出来的声音跟老师的完全不一样，我心里有点儿着急。",
+     "pinyin": "",
+     "draft_pinyin": "Yī kāi shǐ, wǒ de shǒu zhǐ cháng cháng pèi hé bù hǎo, dàn chū lái de shēng yīn gēn lǎo shī de wán quán bù yí yàng, wǒ xīn lǐ yǒu diǎn ér zháo jí."
+    },
+    {
+     "han": "老师告诉我，弹古筝不但需要技巧，更需要耐心和对音乐的感受力，急不来的。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī gào sù wǒ, dàn gǔ zhēng bù dàn xū yào jì qiǎo, gèng xū yào nài xīn hé duì yīn yuè de gǎn shòu lì, jí bù lái de."
+    },
+    {
+     "han": "我试着放慢速度，认真感受每一个音符，慢慢地，我弹出来的旋律，也开始有了一点儿古筝特有的韵味。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ shì zhe fàng màn sù dù, rèn zhēn gǎn shòu měi yí gè yīn fú, màn màn dì, wǒ dàn chū lái de xuán lǜ, yě kāi shǐ yǒu le yì diǎn ér gǔ zhēng tè yǒu de yùn wèi."
+    },
+    {
+     "han": "练习了半年以后，我在一次小型的音乐会上，第一次为大家演奏了一首完整的曲子，虽然还不算完美，但是特别有成就感。",
+     "pinyin": "",
+     "draft_pinyin": "Liàn xí le bàn nián yǐ hòu, wǒ zài yī cì xiǎo xíng de yīn yuè huì shàng, dì yī cì wèi dà jiā yǎn zòu le yī shǒu wán zhěng de qǔ zi, suī rán hái bù suàn wán měi, dàn shì tè bié yǒu chéng jiù gǎn."
+    },
+    {
+     "han": "这段学习古筝的经历让我明白，传统艺术并不像很多人想象的那样枯燥，它其实充满了值得慢慢发现的美。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè duàn xué xí gǔ zhēng de jīng lì ràng wǒ míng bái, chuán tǒng yì shù bìng bù xiàng hěn duō rén xiǎng xiàng de nà yàng kū zào, tā qí shí chōng mǎn le zhí de màn màn fā xiàn de měi."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "古筝",
+     "pinyin": "",
+     "meaning": "đàn tranh cổ (Guzheng)"
+    },
+    {
+     "word": "演奏",
+     "pinyin": "",
+     "meaning": "diễn tấu"
+    },
+    {
+     "word": "音色",
+     "pinyin": "",
+     "meaning": "âm sắc"
+    },
+    {
+     "word": "悠久",
+     "pinyin": "",
+     "meaning": "lâu đời"
+    },
+    {
+     "word": "乐器",
+     "pinyin": "",
+     "meaning": "nhạc cụ"
+    },
+    {
+     "word": "枯燥",
+     "pinyin": "",
+     "meaning": "khô khan, nhạt nhẽo"
+    },
+    {
+     "word": "摆放",
+     "pinyin": "",
+     "meaning": "đặt để"
+    },
+    {
+     "word": "讲解",
+     "pinyin": "",
+     "meaning": "giảng giải"
+    },
+    {
+     "word": "弦",
+     "pinyin": "",
+     "meaning": "dây (đàn)"
+    },
+    {
+     "word": "音高",
+     "pinyin": "",
+     "meaning": "cao độ (âm nhạc)"
+    },
+    {
+     "word": "配合",
+     "pinyin": "",
+     "meaning": "phối hợp"
+    },
+    {
+     "word": "技巧",
+     "pinyin": "",
+     "meaning": "kỹ xảo"
+    },
+    {
+     "word": "感受力",
+     "pinyin": "",
+     "meaning": "khả năng cảm nhận"
+    },
+    {
+     "word": "音符",
+     "pinyin": "",
+     "meaning": "nốt nhạc"
+    },
+    {
+     "word": "旋律",
+     "pinyin": "",
+     "meaning": "giai điệu"
+    },
+    {
+     "word": "韵味",
+     "pinyin": "",
+     "meaning": "dư vị, phong vị"
+    },
+    {
+     "word": "成就感",
+     "pinyin": "",
+     "meaning": "cảm giác thành tựu"
+    },
+    {
+     "word": "值得",
+     "pinyin": "",
+     "meaning": "đáng giá"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "一下子就…… (ngay một lúc đã…)",
+     "example": "那种独特的音色让我一下子就被吸引了",
+     "meaning": "nhấn mạnh việc xảy ra rất nhanh"
+    },
+    {
+     "name": "不但……更…… (không những…mà càng…)",
+     "example": "弹古筝不但需要技巧，更需要耐心",
+     "meaning": "bổ sung, nâng cao yêu cầu ở mức cao hơn"
+    },
+    {
+     "name": "急不来的 (không thể vội được)",
+     "example": "老师告诉我，急不来的",
+     "meaning": "nhấn mạnh việc cần kiên nhẫn, không thể rút ngắn quá trình"
+    },
+    {
+     "name": "并不像……那样…… (hoàn toàn không như…)",
+     "example": "传统艺术并不像很多人想象的那样枯燥",
+     "meaning": "phản bác một quan niệm sai thường gặp"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 33,
+   "titleHan": "欣赏中国画",
+   "titleVi": "Thưởng thức tranh Trung Quốc",
+   "sentences": [
+    {
+     "han": "上个星期，我跟朋友一起去了一场中国画展览，这是我第一次认真地欣赏这种传统绘画艺术。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xīng qī, wǒ gēn péng yǒu yì qǐ qù le yī cháng zhōng guó huà zhǎn lǎn, zhè shì wǒ dì yī cì rèn zhēn dì xīn shǎng zhè zhǒng chuán tǒng huì huà yì shù."
+    },
+    {
+     "han": "一进展厅，我就发现，跟平时看到的西方油画不一样，这些中国画大多是黑白的，颜色非常简单。",
+     "pinyin": "",
+     "draft_pinyin": "Yī jìn zhǎn tīng, wǒ jiù fā xiàn, gēn píng shí kàn dào de xī fāng yóu huà bù yí yàng, zhè xiē zhōng guó huà dà duō shì hēi bái de, yán sè fēi cháng jiǎn dān."
+    },
+    {
+     "han": "朋友告诉我，这种以黑色墨水为主要材料的绘画方式，叫做水墨画，是中国画中很重要的一种类型。",
+     "pinyin": "",
+     "draft_pinyin": "Péng yǒu gào sù wǒ, zhè zhǒng yǐ hēi sè mò shuǐ wéi zhǔ yào cái liào de huì huà fāng shì, jiào zuò shuǐ mò huà, shì zhōng guó huà zhōng hěn zhòng yào de yī zhǒng lèi xíng."
+    },
+    {
+     "han": "我们停在一幅画着山水的作品前，画面上只有简单的几笔线条，但是却能让人感受到山的高大和水的流动。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ men tíng zài yī fú huà zhe shān shuǐ de zuò pǐn qián, huà miàn shàng zhǐ yǒu jiǎn dān de jǐ bǐ xiàn tiáo, dàn shì què néng ràng rén gǎn shòu dào shān de gāo dà hé shuǐ de liú dòng."
+    },
+    {
+     "han": "讲解员说，水墨画讲究\"留白\"，也就是画面上故意留下一些空白，让观众自己想象那里可能是什么。",
+     "pinyin": "",
+     "draft_pinyin": "Jiǎng jiě yuán shuō, shuǐ mò huà jiǎng jiū\"liú bái\", yě jiù shì huà miàn shàng gù yì liú xià yī xiē kòng bái, ràng guān zhòng zì jǐ xiǎng xiàng nà lǐ kě néng shì shén me."
+    },
+    {
+     "han": "我盯着那幅画看了很久，慢慢开始理解，那些看起来\"空\"的地方，其实也是画面的一部分，能给人很大的想象空间。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ dīng zhe nà fú huà kàn le hěn jiǔ, màn màn kāi shǐ lǐ jiě, nà xiē kàn qǐ lái\"kōng\"de dì fāng, qí shí yě shì huà miàn de yī bù fèn, néng gěi rén hěn dà de xiǎng xiàng kōng jiān."
+    },
+    {
+     "han": "接着，我们又看到了几幅画着花鸟的作品，虽然只用了简单的几种颜色，但是花朵和鸟儿都显得非常生动。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, wǒ men yòu kàn dào le jǐ fú huà zhe huā niǎo de zuò pǐn, suī rán zhǐ yòng le jiǎn dān de jǐ zhǒng yán sè, dàn shì huā duǒ hé niǎo ér dōu xiǎn de fēi cháng shēng dòng."
+    },
+    {
+     "han": "朋友说，中国画不只是在画眼睛看到的东西，更是在表达画家心里的感受和想法。",
+     "pinyin": "",
+     "draft_pinyin": "Péng yǒu shuō, zhōng guó huà bù zhǐ shì zài huà yǎn jīng kàn dào de dōng xī, gèng shì zài biǎo dá huà jiā xīn lǐ de gǎn shòu hé xiǎng fǎ."
+    },
+    {
+     "han": "这次看展览的经历，让我对\"简单\"这个词有了新的理解，原来简单的画面，也可以蕴含着非常丰富的意义。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì kàn zhǎn lǎn de jīng lì, ràng wǒ duì\"jiǎn dān\"zhè ge cí yǒu le xīn de lǐ jiě, yuán lái jiǎn dān de huà miàn, yě kě yǐ yùn hán zhe fēi cháng fēng fù de yì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "展厅",
+     "pinyin": "",
+     "meaning": "phòng triển lãm"
+    },
+    {
+     "word": "西方",
+     "pinyin": "",
+     "meaning": "phương Tây"
+    },
+    {
+     "word": "油画",
+     "pinyin": "",
+     "meaning": "tranh sơn dầu"
+    },
+    {
+     "word": "墨水",
+     "pinyin": "",
+     "meaning": "mực"
+    },
+    {
+     "word": "水墨画",
+     "pinyin": "",
+     "meaning": "tranh thủy mặc"
+    },
+    {
+     "word": "类型",
+     "pinyin": "",
+     "meaning": "loại hình"
+    },
+    {
+     "word": "线条",
+     "pinyin": "",
+     "meaning": "đường nét"
+    },
+    {
+     "word": "讲究",
+     "pinyin": "",
+     "meaning": "chú trọng, cầu kỳ"
+    },
+    {
+     "word": "留白",
+     "pinyin": "",
+     "meaning": "để trống (khoảng trắng)"
+    },
+    {
+     "word": "故意",
+     "pinyin": "",
+     "meaning": "cố ý"
+    },
+    {
+     "word": "空白",
+     "pinyin": "",
+     "meaning": "khoảng trống"
+    },
+    {
+     "word": "想象空间",
+     "pinyin": "",
+     "meaning": "không gian tưởng tượng"
+    },
+    {
+     "word": "盯",
+     "pinyin": "",
+     "meaning": "nhìn chăm chú"
+    },
+    {
+     "word": "生动",
+     "pinyin": "",
+     "meaning": "sống động"
+    },
+    {
+     "word": "表达",
+     "pinyin": "",
+     "meaning": "biểu đạt"
+    },
+    {
+     "word": "蕴含",
+     "pinyin": "",
+     "meaning": "ẩn chứa, hàm chứa"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "跟……不一样 (khác với…)",
+     "example": "跟平时看到的西方油画不一样",
+     "meaning": "nêu sự khác biệt so với sự vật quen thuộc"
+    },
+    {
+     "name": "却能…… (nhưng lại có thể…)",
+     "example": "只有简单几笔线条，却能让人感受到山的高大",
+     "meaning": "nêu kết quả bất ngờ, vượt trên mong đợi"
+    },
+    {
+     "name": "也是……的一部分 (cũng là một phần của…)",
+     "example": "那些\"空\"的地方，其实也是画面的一部分",
+     "meaning": "mở rộng định nghĩa về thành phần của sự vật"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "不只是在画看到的东西，更是在表达心里的感受",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 34,
+   "titleHan": "练习书法",
+   "titleVi": "Luyện tập thư pháp",
+   "sentences": [
+    {
+     "han": "从小学开始，我就一直坚持练习书法，到现在已经有五六年了，这已经成了我生活中不可缺少的一部分。",
+     "pinyin": "",
+     "draft_pinyin": "Cóng xiǎo xué kāi shǐ, wǒ jiù yì zhí jiān chí liàn xí shū fǎ, dào xiàn zài yǐ jīng yǒu wǔ liù nián le, zhè yǐ jīng chéng le wǒ shēng huó zhōng bù kě quē shǎo de yī bù fèn."
+    },
+    {
+     "han": "刚开始学习的时候，我练的是楷书，因为楷书笔画清楚、结构端正，比较适合初学者打基础。",
+     "pinyin": "",
+     "draft_pinyin": "Gāng kāi shǐ xué xí de shí hòu, wǒ liàn de shì kǎi shū, yīn wèi kǎi shū bǐ huà qīng chǔ, jié gòu duān zhèng, bǐ jiào shì hé chū xué zhě dǎ jī chǔ."
+    },
+    {
+     "han": "练习楷书的过程，其实相当枯燥，需要反复地写同一个字，直到笔画的位置和比例都掌握准确为止。",
+     "pinyin": "",
+     "draft_pinyin": "Liàn xí kǎi shū de guò chéng, qí shí xiāng dāng kū zào, xū yào fǎn fù dì xiě tóng yī gè zì, zhí dào bǐ huà de wèi zhì hé bǐ lì dōu zhǎng wò zhǔn què wéi zhǐ."
+    },
+    {
+     "han": "坚持了两年以后，老师开始教我练习行书，行书的笔画比楷书更加流畅，写起来也更加自由一些。",
+     "pinyin": "",
+     "draft_pinyin": "Jiān chí le liǎng nián yǐ hòu, lǎo shī kāi shǐ jiào wǒ liàn xí xíng shū, xíng shū de bǐ huà bǐ kǎi shū gèng jiā liú chàng, xiě qǐ lái yě gèng jiā zì yóu yī xiē."
+    },
+    {
+     "han": "后来，我又尝试了草书，草书的笔画简化很多，速度也更快，但是也更难辨认，需要更深厚的基础才能写好。",
+     "pinyin": "",
+     "draft_pinyin": "Hòu lái, wǒ yòu cháng shì le cǎo shū, cǎo shū de bǐ huà jiǎn huà hěn duō, sù dù yě gèng kuài, dàn shì yě gèng nán biàn rèn, xū yào gēng shēn hòu de jī chǔ cái néng xiě hǎo."
+    },
+    {
+     "han": "每次练习书法之前，我都会先把心静下来，因为老师说，写字如果心不静，笔画就会显得浮躁、不稳定。",
+     "pinyin": "",
+     "draft_pinyin": "Měi cì liàn xí shū fǎ zhī qián, wǒ dū huì xiān bǎ xīn jìng xià lái, yīn wèi lǎo shī shuō, xiě zì rú guǒ xīn bù jìng, bǐ huà jiù huì xiǎn de fú zào, bù wěn dìng."
+    },
+    {
+     "han": "有一次，我参加了一个书法比赛，虽然没有得到最高的名次，但是评委老师说，我的字里能看出一种沉稳的气质。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yī cì, wǒ cān jiā le yí gè shū fǎ bǐ sài, suī rán méi yǒu dé dào zuì gāo de míng cì, dàn shì píng wěi lǎo shī shuō, wǒ de zì lǐ néng kàn chū yī zhǒng chén wěn de qì zhì."
+    },
+    {
+     "han": "听到这个评价，我特别开心，因为这说明，这几年的努力，已经在不知不觉中影响了我的性格。",
+     "pinyin": "",
+     "draft_pinyin": "Tīng dào zhè ge píng jià, wǒ tè bié kāi xīn, yīn wèi zhè shuō míng, zhè jǐ nián de nǔ lì, yǐ jīng zài bù zhī bù jué zhōng yǐng xiǎng le wǒ de xìng gé."
+    },
+    {
+     "han": "这段练习书法的经历让我明白，书法不只是一种写字的技巧，更是一种修养身心、培养耐心的方式。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè duàn liàn xí shū fǎ de jīng lì ràng wǒ míng bái, shū fǎ bù zhǐ shì yī zhǒng xiě zì de jì qiǎo, gèng shì yī zhǒng xiū yǎng shēn xīn, péi yǎng nài xīn de fāng shì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "坚持",
+     "pinyin": "",
+     "meaning": "kiên trì"
+    },
+    {
+     "word": "楷书",
+     "pinyin": "",
+     "meaning": "chữ khải"
+    },
+    {
+     "word": "结构",
+     "pinyin": "",
+     "meaning": "kết cấu"
+    },
+    {
+     "word": "端正",
+     "pinyin": "",
+     "meaning": "ngay ngắn"
+    },
+    {
+     "word": "初学者",
+     "pinyin": "",
+     "meaning": "người mới học"
+    },
+    {
+     "word": "打基础",
+     "pinyin": "",
+     "meaning": "xây nền tảng"
+    },
+    {
+     "word": "反复",
+     "pinyin": "",
+     "meaning": "lặp đi lặp lại"
+    },
+    {
+     "word": "比例",
+     "pinyin": "",
+     "meaning": "tỷ lệ"
+    },
+    {
+     "word": "掌握",
+     "pinyin": "",
+     "meaning": "nắm vững"
+    },
+    {
+     "word": "行书",
+     "pinyin": "",
+     "meaning": "chữ hành"
+    },
+    {
+     "word": "流畅",
+     "pinyin": "",
+     "meaning": "trôi chảy, mượt mà"
+    },
+    {
+     "word": "草书",
+     "pinyin": "",
+     "meaning": "chữ thảo"
+    },
+    {
+     "word": "辨认",
+     "pinyin": "",
+     "meaning": "nhận biết"
+    },
+    {
+     "word": "深厚",
+     "pinyin": "",
+     "meaning": "sâu dày"
+    },
+    {
+     "word": "浮躁",
+     "pinyin": "",
+     "meaning": "bộp chộp, nóng nảy"
+    },
+    {
+     "word": "不稳定",
+     "pinyin": "",
+     "meaning": "không ổn định"
+    },
+    {
+     "word": "名次",
+     "pinyin": "",
+     "meaning": "thứ hạng"
+    },
+    {
+     "word": "评委",
+     "pinyin": "",
+     "meaning": "ban giám khảo"
+    },
+    {
+     "word": "沉稳",
+     "pinyin": "",
+     "meaning": "trầm tĩnh, chững chạc"
+    },
+    {
+     "word": "气质",
+     "pinyin": "",
+     "meaning": "khí chất"
+    },
+    {
+     "word": "不知不觉",
+     "pinyin": "",
+     "meaning": "không hay không biết"
+    },
+    {
+     "word": "修养身心",
+     "pinyin": "",
+     "meaning": "tu dưỡng thân tâm"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "直到……为止 (cho đến khi…thì thôi)",
+     "example": "需要反复写，直到笔画位置准确为止",
+     "meaning": "nêu mốc kết thúc của một quá trình lặp lại"
+    },
+    {
+     "name": "比……更加…… (…hơn hẳn so với…)",
+     "example": "行书的笔画比楷书更加流畅",
+     "meaning": "so sánh mức độ vượt trội"
+    },
+    {
+     "name": "如果……就会…… (nếu…thì sẽ…)",
+     "example": "写字如果心不静，笔画就会显得浮躁",
+     "meaning": "câu điều kiện giả định"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "书法不只是写字技巧，更是修养身心的方式",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 35,
+   "titleHan": "一场传统艺术展览",
+   "titleVi": "Một buổi triển lãm nghệ thuật truyền thống",
+   "sentences": [
+    {
+     "han": "上个月，市里的文化中心举办了一场综合性的传统艺术展览，同时展示了电影、音乐、绘画和书法这几种艺术形式。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè yuè, shì lǐ de wén huà zhōng xīn jǔ bàn le yī cháng zōng hé xìng de chuán tǒng yì shù zhǎn lǎn, tóng shí zhǎn shì le diàn yǐng, yīn yuè, huì huà hé shū fǎ zhè jǐ zhǒng yì shù xíng shì."
+    },
+    {
+     "han": "展览的第一个部分，是一间小型的电影放映厅，专门播放上个世纪不同年代的经典老电影片段。",
+     "pinyin": "",
+     "draft_pinyin": "Zhǎn lǎn de dì yí gè bù fèn, shì yī jiān xiǎo xíng de diàn yǐng fàng yìng tīng, zhuān mén bō fàng shàng gè shì jì bù tóng nián dài de jīng diǎn lǎo diàn yǐng piān duàn."
+    },
+    {
+     "han": "第二个部分，是一个小舞台，每天定时会有音乐家现场演奏古筝、二胡等传统乐器，观众可以近距离欣赏。",
+     "pinyin": "",
+     "draft_pinyin": "Dì èr gè bù fèn, shì yí gè xiǎo wǔ tái, měi tiān dìng shí huì yǒu yīn yuè jiā xiàn chǎng yǎn zòu gǔ zhēng, èr hú děng chuán tǒng yuè qì, guān zhòng kě yǐ jìn jù lí xīn shǎng."
+    },
+    {
+     "han": "接着往里走，就到了绘画和书法的展区，墙上挂满了水墨画作品，还有不同字体的书法作品，供大家慢慢欣赏。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe wǎng lǐ zǒu, jiù dào le huì huà hé shū fǎ de zhǎn qū, qiáng shàng guà mǎn le shuǐ mò huà zuò pǐn, hái yǒu bù tóng zì tǐ de shū fǎ zuò pǐn, gōng dà jiā màn màn xīn shǎng."
+    },
+    {
+     "han": "我在书法展区停留了很长时间，因为我发现，很多作品的字体，正是我这几年一直在学习和练习的楷书和行书。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ zài shū fǎ zhǎn qū tíng liú le hěn zhǎng shí jiān, yīn wèi wǒ fā xiàn, hěn duō zuò pǐn de zì tǐ, zhèng shì wǒ zhè jǐ nián yì zhí zài xué xí hé liàn xí de kǎi shū hé xíng shū."
+    },
+    {
+     "han": "逛到音乐展区的时候，我正好听到一位老师在现场演奏古筝，那熟悉的旋律，让我想起了自己学习古筝的那段经历。",
+     "pinyin": "",
+     "draft_pinyin": "Guàng dào yīn yuè zhǎn qū de shí hòu, wǒ zhèng hǎo tīng dào yī wèi lǎo shī zài xiàn chǎng yǎn zòu gǔ zhēng, nà shú xī de xuán lǜ, ràng wǒ xiǎng qǐ le zì jǐ xué xí gǔ zhēng de nà duàn jīng lì."
+    },
+    {
+     "han": "主办方还邀请了几位艺术家，现场跟观众交流，讲解不同艺术形式之间，其实存在着很多共同的美学观念。",
+     "pinyin": "",
+     "draft_pinyin": "Zhǔ bàn fāng hái yāo qǐng le jǐ wèi yì shù jiā, xiàn chǎng gēn guān zhòng jiāo liú, jiǎng jiě bù tóng yì shù xíng shì zhī jiān, qí shí cún zài zhe hěn duō gòng tóng de měi xué guān niàn."
+    },
+    {
+     "han": "一位画家说，无论是电影、音乐、绘画还是书法，最重要的都是通过作品，表达创作者内心真实的情感。",
+     "pinyin": "",
+     "draft_pinyin": "Yī wèi huà jiā shuō, wú lùn shì diàn yǐng, yīn yuè, huì huà hái shì shū fǎ, zuì zhòng yào de dōu shì tōng guò zuò pǐn, biǎo dá chuàng zuò zhě nèi xīn zhēn shí de qíng gǎn."
+    },
+    {
+     "han": "这次展览让我明白，虽然这几种艺术的表现方式完全不同，但是它们追求的，都是同一种打动人心的力量。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì zhǎn lǎn ràng wǒ míng bái, suī rán zhè jǐ zhǒng yì shù de biǎo xiàn fāng shì wán quán bù tóng, dàn shì tā men zhuī qiú de, dōu shì tóng yī zhǒng dǎ dòng rén xīn de lì liàng."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "文化中心",
+     "pinyin": "",
+     "meaning": "trung tâm văn hóa"
+    },
+    {
+     "word": "举办",
+     "pinyin": "",
+     "meaning": "tổ chức"
+    },
+    {
+     "word": "综合性",
+     "pinyin": "",
+     "meaning": "tính tổng hợp"
+    },
+    {
+     "word": "展示",
+     "pinyin": "",
+     "meaning": "trình diễn, thể hiện"
+    },
+    {
+     "word": "形式",
+     "pinyin": "",
+     "meaning": "hình thức"
+    },
+    {
+     "word": "放映厅",
+     "pinyin": "",
+     "meaning": "phòng chiếu phim"
+    },
+    {
+     "word": "世纪",
+     "pinyin": "",
+     "meaning": "thế kỷ"
+    },
+    {
+     "word": "片段",
+     "pinyin": "",
+     "meaning": "đoạn, phân đoạn"
+    },
+    {
+     "word": "定时",
+     "pinyin": "",
+     "meaning": "định kỳ, theo giờ"
+    },
+    {
+     "word": "音乐家",
+     "pinyin": "",
+     "meaning": "nhà âm nhạc"
+    },
+    {
+     "word": "二胡",
+     "pinyin": "",
+     "meaning": "đàn nhị hồ (Erhu)"
+    },
+    {
+     "word": "近距离",
+     "pinyin": "",
+     "meaning": "khoảng cách gần"
+    },
+    {
+     "word": "展区",
+     "pinyin": "",
+     "meaning": "khu trưng bày"
+    },
+    {
+     "word": "停留",
+     "pinyin": "",
+     "meaning": "dừng lại, lưu lại"
+    },
+    {
+     "word": "正是",
+     "pinyin": "",
+     "meaning": "chính là"
+    },
+    {
+     "word": "熟悉",
+     "pinyin": "",
+     "meaning": "quen thuộc"
+    },
+    {
+     "word": "旋律",
+     "pinyin": "",
+     "meaning": "giai điệu"
+    },
+    {
+     "word": "主办方",
+     "pinyin": "",
+     "meaning": "ban tổ chức"
+    },
+    {
+     "word": "艺术家",
+     "pinyin": "",
+     "meaning": "nghệ sĩ"
+    },
+    {
+     "word": "交流",
+     "pinyin": "",
+     "meaning": "giao lưu"
+    },
+    {
+     "word": "美学观念",
+     "pinyin": "",
+     "meaning": "quan niệm mỹ học"
+    },
+    {
+     "word": "画家",
+     "pinyin": "",
+     "meaning": "họa sĩ"
+    },
+    {
+     "word": "创作者",
+     "pinyin": "",
+     "meaning": "người sáng tác"
+    },
+    {
+     "word": "打动人心",
+     "pinyin": "",
+     "meaning": "lay động lòng người"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "同时…… (đồng thời…)",
+     "example": "同时展示了电影、音乐、绘画和书法",
+     "meaning": "nêu nhiều sự vật diễn ra/tồn tại cùng lúc"
+    },
+    {
+     "name": "正是…… (chính là…)",
+     "example": "很多作品的字体，正是我这几年一直练习的楷书和行书",
+     "meaning": "nhấn mạnh sự trùng khớp"
+    },
+    {
+     "name": "无论……都…… (bất kể…đều…)",
+     "example": "无论是电影、音乐、绘画还是书法，最重要的都是表达情感",
+     "meaning": "nhấn mạnh tính khái quát, không có ngoại lệ"
+    },
+    {
+     "name": "虽然……但是……都是…… (tuy…nhưng…đều là…)",
+     "example": "虽然表现方式不同，但是追求的都是同一种力量",
+     "meaning": "nhượng bộ, khẳng định điểm chung cốt lõi"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 36,
+   "titleHan": "〈西游记〉的启示",
+   "titleVi": "Bài học từ Tây Du Ký",
+   "sentences": [
+    {
+     "han": "暑假的时候，我重新读了一遍《西游记》，这是我从小时候就熟悉的一部中国古典小说。",
+     "pinyin": "",
+     "draft_pinyin": "Shǔ jià de shí hòu, wǒ chóng xīn dú le yī biàn\"xī yóu jì\", zhè shì wǒ cóng xiǎo shí hòu jiù shú xī de yī bù zhōng guó gǔ diǎn xiǎo shuō."
+    },
+    {
+     "han": "这部小说讲的是唐僧带着孙悟空、猪八戒和沙僧，一起去西方取经的故事，路上经历了许多困难。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè bù xiǎo shuō jiǎng de shì táng sēng dài zhe sūn wù kōng, zhū bā jiè hé shā sēng, yì qǐ qù xī fāng qǔ jīng de gù shì, lù shàng jīng lì le xǔ duō kùn nán."
+    },
+    {
+     "han": "小时候，我只是单纯地喜欢孙悟空的本领，觉得他会七十二变，还能打败各种妖怪，非常厉害。",
+     "pinyin": "",
+     "draft_pinyin": "Xiǎo shí hòu, wǒ zhǐ shì dān chún dì xǐ huān sūn wù kōng de běn lǐng, jué de tā huì qī shí èr biàn, hái néng dǎ bài gè zhǒng yāo guài, fēi cháng lì hài."
+    },
+    {
+     "han": "这次重新阅读，我发现，除了精彩的故事情节，这部小说其实也表达了很多值得思考的道理。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì chóng xīn yuè dú, wǒ fā xiàn, chú le jīng cǎi de gù shì qíng jié, zhè bù xiǎo shuō qí shí yě biǎo dá le hěn duō zhí de sī kǎo de dào lǐ."
+    },
+    {
+     "han": "比如，师徒四人的性格完全不同，孙悟空勇敢但有时候急躁，猪八戒懒惰却又善良，沙僧沉稳而忠诚。",
+     "pinyin": "",
+     "draft_pinyin": "Bǐ rú, shī tú sì rén de xìng gé wán quán bù tóng, sūn wù kōng yǒng gǎn dàn yǒu shí hòu jí zào, zhū bā jiè lǎn duò què yòu shàn liáng, shā sēng chén wěn ér zhōng chéng."
+    },
+    {
+     "han": "正是因为这几种不同的性格互相配合，他们才能克服一次又一次的困难，最终顺利到达目的地。",
+     "pinyin": "",
+     "draft_pinyin": "Zhèng shì yīn wèi zhè jǐ zhǒng bù tóng de xìng gé hù xiāng pèi hé, tā men cái néng kè fú yī cì yòu yī cì de kùn nán, zuì zhōng shùn lì dào dá mù dì dì."
+    },
+    {
+     "han": "我还发现，取经路上遇到的很多妖怪，其实也可以理解为人生中会遇到的各种诱惑和困难。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ hái fā xiàn, qǔ jīng lù shàng yù dào de hěn duō yāo guài, qí shí yě kě yǐ lǐ jiě wéi rén shēng zhōng huì yù dào de gè zhǒng yòu huò hé kùn nán."
+    },
+    {
+     "han": "读完以后，我跟爸爸讨论了这个想法，爸爸说，这正是这部小说流传了几百年，依然受欢迎的原因之一。",
+     "pinyin": "",
+     "draft_pinyin": "Dú wán yǐ hòu, wǒ gēn bà bà tǎo lùn le zhè ge xiǎng fǎ, bà bà shuō, zhè zhèng shì zhè bù xiǎo shuō liú chuán le jǐ bǎi nián, yī rán shòu huān yíng de yuán yīn zhī yī."
+    },
+    {
+     "han": "这次阅读经历让我明白，经典作品之所以经典，是因为不同年龄的人，都能从中读出不一样的意义。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè cì yuè dú jīng lì ràng wǒ míng bái, jīng diǎn zuò pǐn zhī suǒ yǐ jīng diǎn, shì yīn wèi bù tóng nián líng de rén, dōu néng cóng zhōng dú chū bù yí yàng de yì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "古典小说",
+     "pinyin": "",
+     "meaning": "tiểu thuyết cổ điển"
+    },
+    {
+     "word": "取经",
+     "pinyin": "",
+     "meaning": "thỉnh kinh, lấy kinh"
+    },
+    {
+     "word": "单纯",
+     "pinyin": "",
+     "meaning": "đơn thuần"
+    },
+    {
+     "word": "本领",
+     "pinyin": "",
+     "meaning": "bản lĩnh, tài năng"
+    },
+    {
+     "word": "妖怪",
+     "pinyin": "",
+     "meaning": "yêu quái"
+    },
+    {
+     "word": "情节",
+     "pinyin": "",
+     "meaning": "tình tiết"
+    },
+    {
+     "word": "师徒",
+     "pinyin": "",
+     "meaning": "thầy trò"
+    },
+    {
+     "word": "急躁",
+     "pinyin": "",
+     "meaning": "nóng nảy"
+    },
+    {
+     "word": "懒惰",
+     "pinyin": "",
+     "meaning": "lười biếng"
+    },
+    {
+     "word": "忠诚",
+     "pinyin": "",
+     "meaning": "trung thành"
+    },
+    {
+     "word": "克服",
+     "pinyin": "",
+     "meaning": "vượt qua, khắc phục"
+    },
+    {
+     "word": "目的地",
+     "pinyin": "",
+     "meaning": "điểm đến"
+    },
+    {
+     "word": "诱惑",
+     "pinyin": "",
+     "meaning": "cám dỗ"
+    },
+    {
+     "word": "讨论",
+     "pinyin": "",
+     "meaning": "thảo luận"
+    },
+    {
+     "word": "流传",
+     "pinyin": "",
+     "meaning": "lưu truyền"
+    },
+    {
+     "word": "经典",
+     "pinyin": "",
+     "meaning": "kinh điển"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "除了……其实也…… (ngoài…thực ra cũng…)",
+     "example": "除了精彩的情节，这部小说其实也表达了很多道理",
+     "meaning": "bổ sung thêm ý nghĩa sâu hơn ngoài điều dễ thấy"
+    },
+    {
+     "name": "正是因为……才…… (chính vì…mới…)",
+     "example": "正是因为性格不同，才能克服困难",
+     "meaning": "nhấn mạnh nguyên nhân cốt lõi dẫn đến kết quả"
+    },
+    {
+     "name": "可以理解为…… (có thể hiểu là…)",
+     "example": "妖怪也可以理解为人生中的困难",
+     "meaning": "dẫn ra cách diễn giải/liên tưởng mới"
+    },
+    {
+     "name": "……之所以……是因为…… (…dĩ nhiên…là vì…)",
+     "example": "经典作品之所以经典，是因为不同年龄的人都能读出不同意义",
+     "meaning": "giải thích lý do cho một đặc điểm đã nêu"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 37,
+   "titleHan": "〈三国演义〉里的智慧",
+   "titleVi": "Trí tuệ trong Tam Quốc Diễn Nghĩa",
+   "sentences": [
+    {
+     "han": "这个学期，历史老师推荐我们读一读《三国演义》，说这部小说不但故事精彩，还能帮助我们了解那段历史。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge xué qī, lì shǐ lǎo shī tuī jiàn wǒ men dú yī dú\"sān guó yǎn yì\", shuō zhè bù xiǎo shuō bù dàn gù shì jīng cǎi, hái néng bāng zhù wǒ men liǎo jiě nà duàn lì shǐ."
+    },
+    {
+     "han": "《三国演义》讲的是东汉末年，魏、蜀、吴三个国家互相争夺天下的故事，里面有很多性格鲜明的人物。",
+     "pinyin": "",
+     "draft_pinyin": "\"sān guó yǎn yì\"jiǎng de shì dōng hàn mò nián, wèi, shǔ, wú sān gè guó jiā hù xiāng zhēng duó tiān xià de gù shì, lǐ miàn yǒu hěn duō xìng gé xiān míng de rén wù."
+    },
+    {
+     "han": "我最喜欢的人物是诸葛亮，他非常聪明，善于分析局势，常常能在关键的时候，想出让人意外的计策。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ zuì xǐ huān de rén wù shì zhū gě liàng, tā fēi cháng cōng míng, shàn yú fēn xī jú shì, cháng cháng néng zài guān jiàn de shí hòu, xiǎng chū ràng rén yì wài de jì cè."
+    },
+    {
+     "han": "有一个情节让我印象特别深刻，诸葛亮通过仔细观察天气的变化，准确地预测了什么时候会起大风，帮助军队赢得了一场重要的战役。",
+     "pinyin": "",
+     "draft_pinyin": "Yǒu yí gè qíng jié ràng wǒ yìn xiàng tè bié shēn kè, zhū gě liàng tōng guò zǐ xì guān chá tiān qì de biàn huà, zhǔn què dì yù cè le shén me shí hòu huì qǐ dà fēng, bāng zhù jūn duì yíng dé le yī cháng zhòng yào de zhàn yì."
+    },
+    {
+     "han": "读到这里，我才明白，古代打仗，不只是靠军队的数量和武器，更需要智慧和对各种情况的判断能力。",
+     "pinyin": "",
+     "draft_pinyin": "Dú dào zhè lǐ, wǒ cái míng bái, gǔ dài dǎ zhàng, bù zhǐ shì kào jūn duì de shù liàng hé wǔ qì, gèng xū yào zhì huì hé duì gè zhǒng qíng kuàng de pàn duàn néng lì."
+    },
+    {
+     "han": "除了诸葛亮，小说里还有关羽、张飞这些以忠诚和勇敢著称的人物，他们之间的兄弟情义，也让我特别感动。",
+     "pinyin": "",
+     "draft_pinyin": "Chú le zhū gě liàng, xiǎo shuō lǐ hái yǒu guān yǔ, zhāng fēi zhè xiē yǐ zhōng chéng hé yǒng gǎn zhù chēng de rén wù, tā men zhī jiān de xiōng dì qíng yì, yě ràng wǒ tè bié gǎn dòng."
+    },
+    {
+     "han": "老师说，虽然《三国演义》是小说，跟真实的历史有一些不同，但是它体现的很多智慧和道理，到现在依然有用。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, suī rán\"sān guó yǎn yì\"shì xiǎo shuō, gēn zhēn shí de lì shǐ yǒu yī xiē bù tóng, dàn shì tā tǐ xiàn de hěn duō zhì huì hé dào lǐ, dào xiàn zài yī rán yǒu yòng."
+    },
+    {
+     "han": "比如，小说里经常提到，做事情要考虑各方面的因素，不能只看眼前的利益，这一点对我们今天的学习和生活也有启发。",
+     "pinyin": "",
+     "draft_pinyin": "Bǐ rú, xiǎo shuō lǐ jīng cháng tí dào, zuò shì qíng yào kǎo lǜ gè fāng miàn de yīn sù, bù néng zhǐ kàn yǎn qián de lì yì, zhè yì diǎn duì wǒ men jīn tiān de xué xí hé shēng huó yě yǒu qǐ fā."
+    },
+    {
+     "han": "读完这部小说，我不但对那段历史有了更深的了解，也从这些历史人物身上，学到了很多关于智慧和品格的道理。",
+     "pinyin": "",
+     "draft_pinyin": "Dú wán zhè bù xiǎo shuō, wǒ bù dàn duì nà duàn lì shǐ yǒu le gēng shēn de liǎo jiě, yě cóng zhè xiē lì shǐ rén wù shēn shàng, xué dào le hěn duō guān yú zhì huì hé pǐn gé de dào lǐ."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "推荐",
+     "pinyin": "",
+     "meaning": "giới thiệu, khuyến nghị"
+    },
+    {
+     "word": "争夺",
+     "pinyin": "",
+     "meaning": "giành giật, tranh đoạt"
+    },
+    {
+     "word": "天下",
+     "pinyin": "",
+     "meaning": "thiên hạ"
+    },
+    {
+     "word": "鲜明",
+     "pinyin": "",
+     "meaning": "rõ nét, sắc nét"
+    },
+    {
+     "word": "善于",
+     "pinyin": "",
+     "meaning": "giỏi về, sở trường"
+    },
+    {
+     "word": "局势",
+     "pinyin": "",
+     "meaning": "tình hình, cục diện"
+    },
+    {
+     "word": "关键",
+     "pinyin": "",
+     "meaning": "mấu chốt, then chốt"
+    },
+    {
+     "word": "计策",
+     "pinyin": "",
+     "meaning": "kế sách, mưu lược"
+    },
+    {
+     "word": "预测",
+     "pinyin": "",
+     "meaning": "dự đoán"
+    },
+    {
+     "word": "军队",
+     "pinyin": "",
+     "meaning": "quân đội"
+    },
+    {
+     "word": "战役",
+     "pinyin": "",
+     "meaning": "trận chiến"
+    },
+    {
+     "word": "判断能力",
+     "pinyin": "",
+     "meaning": "khả năng phán đoán"
+    },
+    {
+     "word": "著称",
+     "pinyin": "",
+     "meaning": "nổi tiếng, được biết đến"
+    },
+    {
+     "word": "情义",
+     "pinyin": "",
+     "meaning": "tình nghĩa"
+    },
+    {
+     "word": "体现",
+     "pinyin": "",
+     "meaning": "thể hiện"
+    },
+    {
+     "word": "因素",
+     "pinyin": "",
+     "meaning": "yếu tố"
+    },
+    {
+     "word": "利益",
+     "pinyin": "",
+     "meaning": "lợi ích"
+    },
+    {
+     "word": "启发",
+     "pinyin": "",
+     "meaning": "gợi mở, khai sáng"
+    },
+    {
+     "word": "品格",
+     "pinyin": "",
+     "meaning": "phẩm cách, nhân cách"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "不但……还…… (không những…mà còn…)",
+     "example": "这部小说不但故事精彩，还能帮助我们了解历史",
+     "meaning": "bổ sung thêm lợi ích ngoài điều đã nêu"
+    },
+    {
+     "name": "通过……准确地…… (thông qua…một cách chính xác…)",
+     "example": "诸葛亮通过观察天气，准确地预测了大风",
+     "meaning": "nêu phương thức dẫn đến kết quả chính xác"
+    },
+    {
+     "name": "不只是……更需要…… (không chỉ là…mà càng cần…)",
+     "example": "打仗不只是靠数量，更需要智慧",
+     "meaning": "nâng yêu cầu lên mức cao hơn"
+    },
+    {
+     "name": "不能只……要…… (không thể chỉ…mà phải…)",
+     "example": "做事情不能只看眼前的利益，要考虑各方面因素",
+     "meaning": "phản bác cách làm hạn hẹp, đưa ra cách làm đúng"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 38,
+   "titleHan": "唐诗里的意境",
+   "titleVi": "Ý cảnh trong thơ Đường",
+   "sentences": [
+    {
+     "han": "语文课上，老师这个学期专门安排了几节课，带我们欣赏唐朝时期最有代表性的文学形式——唐诗。",
+     "pinyin": "",
+     "draft_pinyin": "Yǔ wén kè shàng, lǎo shī zhè ge xué qī zhuān mén ān pái le jǐ jié kè, dài wǒ men xīn shǎng táng cháo shí qī zuì yǒu dài biǎo xìng de wén xué xíng shì--táng shī."
+    },
+    {
+     "han": "老师说，唐朝是中国古代诗歌发展最繁荣的时期，那个时代出现了非常多有名的诗人，留下了大量优秀的作品。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī shuō, táng cháo shì zhōng guó gǔ dài shī gē fā zhǎn zuì fán róng de shí qī, nà ge shí dài chū xiàn le fēi cháng duō yǒu míng de shī rén, liú xià le dà liàng yōu xiù de zuò pǐn."
+    },
+    {
+     "han": "她先介绍了李白，说他的诗风格豪放，常常运用夸张的手法，描写壮观的自然景色，表达自由奔放的情感。",
+     "pinyin": "",
+     "draft_pinyin": "Tā xiān jiè shào le lǐ bái, shuō tā de shī fēng gé háo fàng, cháng cháng yùn yòng kuā zhāng de shǒu fǎ, miáo xiě zhuàng guān de zì rán jǐng sè, biǎo dá zì yóu bēn fàng de qíng gǎn."
+    },
+    {
+     "han": "接着，老师又讲了杜甫，说他的诗跟李白不一样，更加关注普通百姓的生活，语言也比较朴实、深沉。",
+     "pinyin": "",
+     "draft_pinyin": "Jiē zhe, lǎo shī yòu jiǎng le dù fǔ, shuō tā de shī gēn lǐ bái bù yí yàng, gèng jiā guān zhù pǔ tōng bǎi xìng de shēng huó, yǔ yán yě bǐ jiào pǔ shí, shēn chén."
+    },
+    {
+     "han": "老师带我们分析了一首描写思念家乡的诗，虽然只有短短几句，但是通过描写月光和秋夜的景象，表达出深深的乡愁。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī dài wǒ men fēn xī le yī shǒu miáo xiě sī niàn jiā xiāng de shī, suī rán zhǐ yǒu duǎn duǎn jǐ jù, dàn shì tōng guò miáo xiě yuè guāng hé qiū yè de jǐng xiàng, biǎo dá chū shēn shēn de xiāng chóu."
+    },
+    {
+     "han": "我发现，很多唐诗都善于借助自然景物，比如月亮、江水、高山，来表达诗人内心复杂的情感，这种表达方式非常含蓄。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ fā xiàn, hěn duō táng shī dōu shàn yú jiè zhù zì rán jǐng wù, bǐ rú yuè liàng, jiāng shuǐ, gāo shān, lái biǎo dá shī rén nèi xīn fù zá de qíng gǎn, zhè zhǒng biǎo dá fāng shì fēi cháng hán xù."
+    },
+    {
+     "han": "老师提醒我们，读唐诗的时候，不能只关注表面的意思，更要体会诗句背后，诗人当时的心情和处境。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī tí xǐng wǒ men, dú táng shī de shí hòu, bù néng zhǐ guān zhù biǎo miàn de yì si, gèng yào tǐ huì shī jù bèi hòu, shī rén dāng shí de xīn qíng hé chǔ jìng."
+    },
+    {
+     "han": "她还说，虽然这些诗已经有一千多年的历史，但是诗中描写的思乡、感慨时光流逝等情感，到现在依然能让读者产生共鸣。",
+     "pinyin": "",
+     "draft_pinyin": "Tā hái shuō, suī rán zhè xiē shī yǐ jīng yǒu yī qiān duō nián de lì shǐ, dàn shì shī zhōng miáo xiě de sī xiāng, gǎn kǎi shí guāng liú shì děng qíng gǎn, dào xiàn zài yī rán néng ràng dú zhě chǎn shēng gòng míng."
+    },
+    {
+     "han": "这几节关于唐诗的课，让我第一次真正体会到，中国古代文学中，那种借景抒情的独特魅力。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè jǐ jié guān yú táng shī de kè, ràng wǒ dì yī cì zhēn zhèng tǐ huì dào, zhōng guó gǔ dài wén xué zhōng, nà zhǒng jiè jǐng shū qíng de dú tè mèi lì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "文学形式",
+     "pinyin": "",
+     "meaning": "hình thức văn học"
+    },
+    {
+     "word": "诗歌",
+     "pinyin": "",
+     "meaning": "thơ ca"
+    },
+    {
+     "word": "繁荣",
+     "pinyin": "",
+     "meaning": "phồn vinh, thịnh vượng"
+    },
+    {
+     "word": "诗人",
+     "pinyin": "",
+     "meaning": "nhà thơ"
+    },
+    {
+     "word": "风格",
+     "pinyin": "",
+     "meaning": "phong cách"
+    },
+    {
+     "word": "豪放",
+     "pinyin": "",
+     "meaning": "hào sảng, phóng khoáng"
+    },
+    {
+     "word": "运用",
+     "pinyin": "",
+     "meaning": "vận dụng"
+    },
+    {
+     "word": "夸张",
+     "pinyin": "",
+     "meaning": "phóng đại, ngoa dụ"
+    },
+    {
+     "word": "壮观",
+     "pinyin": "",
+     "meaning": "hùng vĩ"
+    },
+    {
+     "word": "奔放",
+     "pinyin": "",
+     "meaning": "mạnh mẽ, tự do bay bổng"
+    },
+    {
+     "word": "关注",
+     "pinyin": "",
+     "meaning": "quan tâm chú ý"
+    },
+    {
+     "word": "百姓",
+     "pinyin": "",
+     "meaning": "dân chúng"
+    },
+    {
+     "word": "朴实",
+     "pinyin": "",
+     "meaning": "chân chất, giản dị"
+    },
+    {
+     "word": "深沉",
+     "pinyin": "",
+     "meaning": "sâu sắc, trầm lắng"
+    },
+    {
+     "word": "乡愁",
+     "pinyin": "",
+     "meaning": "nỗi nhớ quê"
+    },
+    {
+     "word": "借助",
+     "pinyin": "",
+     "meaning": "mượn, nhờ vào"
+    },
+    {
+     "word": "含蓄",
+     "pinyin": "",
+     "meaning": "kín đáo, hàm ý"
+    },
+    {
+     "word": "处境",
+     "pinyin": "",
+     "meaning": "tình cảnh, hoàn cảnh"
+    },
+    {
+     "word": "感慨",
+     "pinyin": "",
+     "meaning": "cảm khái, cảm thán"
+    },
+    {
+     "word": "流逝",
+     "pinyin": "",
+     "meaning": "trôi qua (thời gian)"
+    },
+    {
+     "word": "共鸣",
+     "pinyin": "",
+     "meaning": "đồng cảm, cộng hưởng"
+    },
+    {
+     "word": "借景抒情",
+     "pinyin": "",
+     "meaning": "mượn cảnh tả tình"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "常常运用……来…… (thường dùng…để…)",
+     "example": "常常运用夸张的手法，来描写壮观的景色",
+     "meaning": "nêu phương pháp thường dùng để đạt mục đích"
+    },
+    {
+     "name": "善于借助……来…… (giỏi mượn…để…)",
+     "example": "唐诗善于借助自然景物，来表达情感",
+     "meaning": "nêu kỹ năng vận dụng công cụ để đạt hiệu quả"
+    },
+    {
+     "name": "不能只……更要…… (không thể chỉ…mà càng cần…)",
+     "example": "不能只关注表面意思，更要体会背后的心情",
+     "meaning": "nâng yêu cầu lên mức sâu hơn"
+    },
+    {
+     "name": "虽然……但是……依然…… (tuy…nhưng…vẫn…)",
+     "example": "虽然已经一千多年，但是情感依然能让人产生共鸣",
+     "meaning": "nhượng bộ, khẳng định giá trị bền vững"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 39,
+   "titleHan": "〈红楼梦〉的魅力",
+   "titleVi": "Sức hút của Hồng Lâu Mộng",
+   "sentences": [
+    {
+     "han": "上个学期，我开始读《红楼梦》，这是中国古典小说中，被认为艺术成就最高的一部作品之一。",
+     "pinyin": "",
+     "draft_pinyin": "Shàng gè xué qī, wǒ kāi shǐ dú\"hóng lóu mèng\", zhè shì zhōng guó gǔ diǎn xiǎo shuō zhōng, bèi rèn wéi yì shù chéng jiù zuì gāo de yī bù zuò pǐn zhī yī."
+    },
+    {
+     "han": "刚开始读的时候，我觉得里面的人物特别多，关系也很复杂，一度觉得有点儿难以坚持下去。",
+     "pinyin": "",
+     "draft_pinyin": "Gāng kāi shǐ dú de shí hòu, wǒ jué de lǐ miàn de rén wù tè bié duō, guān xì yě hěn fù zá, yí dù jué de yǒu diǎn ér nán yǐ jiān chí xià qù."
+    },
+    {
+     "han": "但是随着慢慢深入阅读，我发现，每一个人物都被作者描写得非常细致，性格特点也十分鲜明。",
+     "pinyin": "",
+     "draft_pinyin": "Dàn shì suí zhe màn màn shēn rù yuè dú, wǒ fā xiàn, měi yí gè rén wù dōu bèi zuò zhě miáo xiě dé fēi cháng xì zhì, xìng gé tè diǎn yě shí fēn xiān míng."
+    },
+    {
+     "han": "我最感兴趣的人物是林黛玉，她敏感、聪明，也很有才华，但是性格里又带着一丝忧郁和脆弱。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ zuì gǎn xìng qù de rén wù shì lín dài yù, tā mǐn gǎn, cōng míng, yě hěn yǒu cái huá, dàn shì xìng gé lǐ yòu dài zhe yī sī yōu yù hé cuì ruò."
+    },
+    {
+     "han": "小说通过描写贾家这个大家族由兴盛逐渐走向衰败的过程，展现了当时社会各个阶层的生活状态。",
+     "pinyin": "",
+     "draft_pinyin": "Xiǎo shuō tōng guò miáo xiě jiǎ jiā zhè ge dà jiā zú yóu xīng shèng zhú jiàn zǒu xiàng shuāi bài de guò chéng, zhǎn xiàn liǎo dàng shí shè huì gè gè jiē céng de shēng huó zhuàng tài."
+    },
+    {
+     "han": "老师在课堂上说，《红楼梦》不只是一个爱情故事，更是一部反映社会现实的伟大作品。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī zài kè táng shàng shuō, \"hóng lóu mèng\"bù zhǐ shì yí gè ài qíng gù shì, gèng shì yī bù fǎn yìng shè huì xiàn shí de wěi dà zuò pǐn."
+    },
+    {
+     "han": "读到贾家逐渐衰落的部分，我心里也感到很复杂，好像亲眼看着一个曾经辉煌的家族，慢慢走向结束。",
+     "pinyin": "",
+     "draft_pinyin": "Dú dào jiǎ jiā zhú jiàn shuāi luò de bù fèn, wǒ xīn lǐ yě gǎn dào hěn fù zá, hǎo xiàng qīn yǎn kàn zhe yí gè céng jīng huī huáng de jiā zú, màn màn zǒu xiàng jié shù."
+    },
+    {
+     "han": "这部小说的语言非常优美，作者对细节的描写十分讲究，比如人物的服饰、居住的环境，都描写得极其生动。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè bù xiǎo shuō de yǔ yán fēi cháng yōu měi, zuò zhě duì xì jié de miáo xiě shí fēn jiǎng jiū, bǐ rú rén wù de fú shì, jū zhù de huán jìng, dōu miáo xiě dé jí qí shēng dòng."
+    },
+    {
+     "han": "读完这部小说，我明白了，为什么这么多年来，一直有专门研究《红楼梦》的学者，因为它的内容实在太丰富、太深刻了。",
+     "pinyin": "",
+     "draft_pinyin": "Dú wán zhè bù xiǎo shuō, wǒ míng bái le, wèi shén me zhè me duō nián lái, yì zhí yǒu zhuān mén yán jiū\"hóng lóu mèng\"de xué zhě, yīn wèi tā de nèi róng shí zài tài fēng fù, tài shēn kè le."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "艺术成就",
+     "pinyin": "",
+     "meaning": "thành tựu nghệ thuật"
+    },
+    {
+     "word": "复杂",
+     "pinyin": "",
+     "meaning": "phức tạp"
+    },
+    {
+     "word": "一度",
+     "pinyin": "",
+     "meaning": "có lúc, một thời"
+    },
+    {
+     "word": "深入",
+     "pinyin": "",
+     "meaning": "sâu sắc, thâm nhập"
+    },
+    {
+     "word": "细致",
+     "pinyin": "",
+     "meaning": "tinh tế, kỹ càng"
+    },
+    {
+     "word": "敏感",
+     "pinyin": "",
+     "meaning": "nhạy cảm"
+    },
+    {
+     "word": "才华",
+     "pinyin": "",
+     "meaning": "tài năng"
+    },
+    {
+     "word": "忧郁",
+     "pinyin": "",
+     "meaning": "u sầu"
+    },
+    {
+     "word": "脆弱",
+     "pinyin": "",
+     "meaning": "mong manh, yếu đuối"
+    },
+    {
+     "word": "家族",
+     "pinyin": "",
+     "meaning": "gia tộc"
+    },
+    {
+     "word": "兴盛",
+     "pinyin": "",
+     "meaning": "thịnh vượng"
+    },
+    {
+     "word": "衰败",
+     "pinyin": "",
+     "meaning": "suy tàn"
+    },
+    {
+     "word": "阶层",
+     "pinyin": "",
+     "meaning": "tầng lớp"
+    },
+    {
+     "word": "现实",
+     "pinyin": "",
+     "meaning": "hiện thực"
+    },
+    {
+     "word": "辉煌",
+     "pinyin": "",
+     "meaning": "huy hoàng"
+    },
+    {
+     "word": "服饰",
+     "pinyin": "",
+     "meaning": "trang phục"
+    },
+    {
+     "word": "居住",
+     "pinyin": "",
+     "meaning": "cư trú, sinh sống"
+    },
+    {
+     "word": "极其",
+     "pinyin": "",
+     "meaning": "cực kỳ"
+    },
+    {
+     "word": "学者",
+     "pinyin": "",
+     "meaning": "học giả"
+    },
+    {
+     "word": "深刻",
+     "pinyin": "",
+     "meaning": "sâu sắc"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "随着……慢慢…… (theo…dần dần…)",
+     "example": "随着慢慢深入阅读，我发现人物描写得很细致",
+     "meaning": "dẫn quá trình biến đổi theo thời gian"
+    },
+    {
+     "name": "由……逐渐走向…… (từ…dần dần đi đến…)",
+     "example": "贾家由兴盛逐渐走向衰败",
+     "meaning": "diễn tả quá trình biến đổi trạng thái theo chiều hướng nhất định"
+    },
+    {
+     "name": "不只是……更是…… (không chỉ là…mà còn là…)",
+     "example": "不只是爱情故事，更是反映社会现实的作品",
+     "meaning": "nâng ý nghĩa lên mức sâu hơn"
+    },
+    {
+     "name": "好像亲眼……一样 (như tận mắt…)",
+     "example": "好像亲眼看着一个辉煌的家族，慢慢走向结束",
+     "meaning": "tạo hình ảnh sinh động cho cảm nhận của người đọc"
+    }
+   ]
+  },
+  {
+   "kind": "reading",
+   "no": 40,
+   "titleHan": "四大名著陪伴我成长",
+   "titleVi": "Tứ đại danh tác đồng hành cùng tôi trưởng thành",
+   "sentences": [
+    {
+     "han": "这个学期，我陆续读完了《西游记》、《三国演义》和《红楼梦》，加上以前读过的《水浒传》，正好凑成了中国古典文学中著名的\"四大名著\"。",
+     "pinyin": "",
+     "draft_pinyin": "Zhè ge xué qī, wǒ lù xù dú wán le\"xī yóu jì\", \"sān guó yǎn yì\"hé\"hóng lóu mèng\", jiā shàng yǐ qián dú guò de\"shuǐ hǔ zhuàn\", zhèng hǎo còu chéng le zhōng guó gǔ diǎn wén xué zhōng zhù míng de\"sì dà míng zhù\"."
+    },
+    {
+     "han": "回想起来，这四部小说陪伴了我从小学到高中的这几年时间，每一次重新阅读，都会有新的收获和体会。",
+     "pinyin": "",
+     "draft_pinyin": "Huí xiǎng qǐ lái, zhè sì bù xiǎo shuō péi bàn le wǒ cóng xiǎo xué dào gāo zhōng de zhè jǐ nián shí jiān, měi yī cì chóng xīn yuè dú, dū huì yǒu xīn de shōu huò hé tǐ huì."
+    },
+    {
+     "han": "《水浒传》讲的是一百零八位好汉，因为各种原因聚在一起，最终走上反抗的道路，故事充满了豪气和悲壮的色彩。",
+     "pinyin": "",
+     "draft_pinyin": "\"shuǐ hǔ zhuàn\"jiǎng de shì yì bǎi líng bā wèi hǎo hàn, yīn wèi gè zhǒng yuán yīn jù zài yì qǐ, zuì zhōng zǒu shàng fǎn kàng de dào lù, gù shì chōng mǎn le háo qì hé bēi zhuàng de sè cǎi."
+    },
+    {
+     "han": "《三国演义》让我看到了智慧和策略在历史中的重要作用，也让我明白，团结与合作往往比单独的力量更强大。",
+     "pinyin": "",
+     "draft_pinyin": "\"sān guó yǎn yì\"ràng wǒ kàn dào le zhì huì hé cè lüè zài lì shǐ zhōng de zhòng yào zuò yòng, yě ràng wǒ míng bái, tuán jié yǔ hé zuò wǎng wǎng bǐ dān dú de lì liàng gèng qiáng dà."
+    },
+    {
+     "han": "《西游记》教会我，面对困难的时候，要保持勇气和坚持，同时也要学会跟不同性格的人互相理解、互相配合。",
+     "pinyin": "",
+     "draft_pinyin": "\"xī yóu jì\"jiào huì wǒ, miàn duì kùn nán de shí hòu, yào bǎo chí yǒng qì hé jiān chí, tóng shí yě yào xué huì gēn bù tóng xìng gé de rén hù xiāng lǐ jiě, hù xiāng pèi hé."
+    },
+    {
+     "han": "《红楼梦》则让我看到了，繁华背后往往隐藏着衰落的可能，也让我学会了更细致地观察生活中的细节和人物的内心。",
+     "pinyin": "",
+     "draft_pinyin": "\"hóng lóu mèng\"zé ràng wǒ kàn dào le, fán huá bèi hòu wǎng wǎng yǐn cáng zhe shuāi luò de kě néng, yě ràng wǒ xué huì le gèng xì zhì dì guān chá shēng huó zhōng de xì jié hé rén wù de nèi xīn."
+    },
+    {
+     "han": "老师曾经说过，这四部作品之所以被称为\"名著\"，是因为它们不仅代表了当时文学创作的最高水平，也蕴含着深刻的人生智慧。",
+     "pinyin": "",
+     "draft_pinyin": "Lǎo shī céng jīng shuō guò, zhè sì bù zuò pǐn zhī suǒ yǐ bèi chēng wéi\"míng zhù\", shì yīn wèi tā men bù jǐn dài biǎo liǎo dàng shí wén xué chuàng zuò de zuì gāo shuǐ píng, yě yùn hán zhe shēn kè de rén shēng zhì huì."
+    },
+    {
+     "han": "读完这四部作品，我发现，虽然它们写的都是几百年前的故事，但是里面探讨的关于人性、命运、社会的问题，到现在依然值得思考。",
+     "pinyin": "",
+     "draft_pinyin": "Dú wán zhè sì bù zuò pǐn, wǒ fā xiàn, suī rán tā men xiě de dōu shì jǐ bǎi nián qián de gù shì, dàn shì lǐ miàn tàn tǎo de guān yú rén xìng, mìng yùn, shè huì de wèn tí, dào xiàn zài yī rán zhí de sī kǎo."
+    },
+    {
+     "han": "我相信，随着自己年龄的增长和阅历的丰富，将来再重新阅读这四部经典，我一定还能读出更多、更深的意义。",
+     "pinyin": "",
+     "draft_pinyin": "Wǒ xiāng xìn, suí zhe zì jǐ nián líng de zēng zhǎng hé yuè lì de fēng fù, jiāng lái zài chóng xīn yuè dú zhè sì bù jīng diǎn, wǒ yí dìng hái néng dú chū gèng duō, gēng shēn de yì yì."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "陆续",
+     "pinyin": "",
+     "meaning": "dần dần, lần lượt"
+    },
+    {
+     "word": "凑成",
+     "pinyin": "",
+     "meaning": "góp lại thành"
+    },
+    {
+     "word": "名著",
+     "pinyin": "",
+     "meaning": "tác phẩm nổi tiếng, danh tác"
+    },
+    {
+     "word": "好汉",
+     "pinyin": "",
+     "meaning": "hảo hán"
+    },
+    {
+     "word": "反抗",
+     "pinyin": "",
+     "meaning": "phản kháng"
+    },
+    {
+     "word": "豪气",
+     "pinyin": "",
+     "meaning": "khí phách hào hùng"
+    },
+    {
+     "word": "悲壮",
+     "pinyin": "",
+     "meaning": "bi tráng"
+    },
+    {
+     "word": "策略",
+     "pinyin": "",
+     "meaning": "chiến lược"
+    },
+    {
+     "word": "团结",
+     "pinyin": "",
+     "meaning": "đoàn kết"
+    },
+    {
+     "word": "繁华",
+     "pinyin": "",
+     "meaning": "phồn hoa"
+    },
+    {
+     "word": "隐藏",
+     "pinyin": "",
+     "meaning": "ẩn giấu"
+    },
+    {
+     "word": "衰落",
+     "pinyin": "",
+     "meaning": "suy tàn"
+    },
+    {
+     "word": "蕴含",
+     "pinyin": "",
+     "meaning": "ẩn chứa"
+    },
+    {
+     "word": "探讨",
+     "pinyin": "",
+     "meaning": "thảo luận, tìm hiểu"
+    },
+    {
+     "word": "人性",
+     "pinyin": "",
+     "meaning": "nhân tính"
+    },
+    {
+     "word": "命运",
+     "pinyin": "",
+     "meaning": "vận mệnh"
+    },
+    {
+     "word": "阅历",
+     "pinyin": "",
+     "meaning": "trải nghiệm, vốn sống"
+    }
+   ],
+   "grammar": [
+    {
+     "name": "加上…… (cộng thêm…)",
+     "example": "加上以前读过的《水浒传》，正好凑成四大名著",
+     "meaning": "bổ sung thêm một yếu tố để hoàn thành tổng thể"
+    },
+    {
+     "name": "……之所以……是因为…… (…dĩ nhiên…là vì…)",
+     "example": "这四部作品之所以被称为名著，是因为代表最高文学水平",
+     "meaning": "giải thích lý do cho một đặc điểm/danh xưng"
+    },
+    {
+     "name": "虽然……但是……依然…… (tuy…nhưng…vẫn…)",
+     "example": "虽然写的是几百年前的故事，但是探讨的问题依然值得思考",
+     "meaning": "nhượng bộ, khẳng định giá trị bền vững"
+    },
+    {
+     "name": "随着……将来……一定…… (theo…thì sau này…chắc chắn…)",
+     "example": "随着年龄增长，将来重读经典，一定能读出更深的意义",
+     "meaning": "dự đoán kết quả tích cực trong tương lai dựa trên một điều kiện"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,482 @@
+[
+ {
+  "group": "hsk3",
+  "no": 33,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè xīngqī, wǒ gēn péngyou yìqǐ qùle yì chǎng Zhōngguó huà zhǎnlǎn, zhè shì wǒ dì-yī cì rènzhēn de xīnshǎng zhè zhǒng chuántǒng huìhuà yìshù.",
+    "vi": "Tuần trước, tôi cùng bạn đi xem một buổi triển lãm tranh Trung Quốc, đây là lần đầu tiên tôi nghiêm túc thưởng thức loại hình nghệ thuật hội họa truyền thống này.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Yí jìn zhǎntīng, wǒ jiù fāxiàn, gēn píngshí kàndào de xīfāng yóuhuà bù yíyàng, zhèxiē Zhōngguó huà dàduō shì hēibái de, yánsè fēicháng jiǎndān.",
+    "vi": "Vừa bước vào phòng triển lãm, tôi liền nhận ra rằng, khác với tranh sơn dầu phương Tây thường thấy, những bức tranh Trung Quốc này phần lớn là đen trắng, màu sắc rất đơn giản.",
+    "grammar": ["跟……不一样 (khác với…)"]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Péngyou gàosu wǒ, zhè zhǒng yǐ hēisè mòshuǐ wéi zhǔyào cáiliào de huìhuà fāngshì, jiàozuò shuǐmòhuà, shì Zhōngguó huà zhōng hěn zhòngyào de yì zhǒng lèixíng.",
+    "vi": "Bạn tôi cho biết, kiểu vẽ lấy mực đen làm chất liệu chính này gọi là tranh thủy mặc, là một thể loại rất quan trọng trong tranh Trung Quốc.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒmen tíng zài yì fú huàzhe shānshuǐ de zuòpǐn qián, huàmiàn shàng zhǐyǒu jiǎndān de jǐ bǐ xiàntiáo, dànshì què néng ràng rén gǎnshòu dào shān de gāodà hé shuǐ de liúdòng.",
+    "vi": "Chúng tôi dừng lại trước một bức tranh vẽ sơn thủy, trên mặt tranh chỉ có vài nét vẽ đơn giản, nhưng lại có thể khiến người xem cảm nhận được sự cao lớn của núi và dòng chảy của nước.",
+    "grammar": ["却能…… (nhưng lại có thể…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jiǎngjiěyuán shuō, shuǐmòhuà jiǎngjiu \"liúbái\", yě jiù shì huàmiàn shàng gùyì liúxià yìxiē kòngbái, ràng guānzhòng zìjǐ xiǎngxiàng nàlǐ kěnéng shì shénme.",
+    "vi": "Người thuyết minh nói, tranh thủy mặc chú trọng \"lưu bạch\", tức là cố ý để lại một số khoảng trống trên mặt tranh, để người xem tự tưởng tượng nơi đó có thể là gì.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Wǒ dīngzhe nà fú huà kànle hěn jiǔ, mànmàn kāishǐ lǐjiě, nàxiē kàn qǐlái \"kōng\" de dìfang, qíshí yě shì huàmiàn de yí bùfen, néng gěi rén hěn dà de xiǎngxiàng kōngjiān.",
+    "vi": "Tôi nhìn chăm chú bức tranh đó rất lâu, dần dần bắt đầu hiểu ra, những chỗ trông có vẻ \"trống\" ấy thực ra cũng là một phần của bức tranh, có thể đem lại cho người xem không gian tưởng tượng rất lớn.",
+    "grammar": ["也是……的一部分 (cũng là một phần của…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Jiēzhe, wǒmen yòu kàndàole jǐ fú huàzhe huāniǎo de zuòpǐn, suīrán zhǐ yòngle jiǎndān de jǐ zhǒng yánsè, dànshì huāduǒ hé niǎor dōu xiǎnde fēicháng shēngdòng.",
+    "vi": "Tiếp theo, chúng tôi lại xem mấy bức tranh vẽ hoa và chim, tuy chỉ dùng vài màu sắc đơn giản, nhưng hoa và chim đều trông vô cùng sống động.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Péngyou shuō, Zhōngguó huà bù zhǐshì zài huà yǎnjing kàndào de dōngxi, gèng shì zài biǎodá huàjiā xīnlǐ de gǎnshòu hé xiǎngfǎ.",
+    "vi": "Bạn tôi nói, tranh Trung Quốc không chỉ là vẽ những gì mắt nhìn thấy, mà còn là biểu đạt cảm xúc và suy nghĩ trong lòng người họa sĩ.",
+    "grammar": ["不只是……更是…… (không chỉ là…mà còn là…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì kàn zhǎnlǎn de jīnglì, ràng wǒ duì \"jiǎndān\" zhège cí yǒule xīn de lǐjiě, yuánlái jiǎndān de huàmiàn, yě kěyǐ yùnhánzhe fēicháng fēngfù de yìyì.",
+    "vi": "Trải nghiệm xem triển lãm lần này khiến tôi có cách hiểu mới về từ \"đơn giản\", hóa ra một bức tranh đơn giản cũng có thể ẩn chứa ý nghĩa vô cùng phong phú.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 34,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Cóng xiǎoxué kāishǐ, wǒ jiù yìzhí jiānchí liànxí shūfǎ, dào xiànzài yǐjīng yǒu wǔ-liù nián le, zhè yǐjīng chéngle wǒ shēnghuó zhōng bù kě quēshǎo de yí bùfen.",
+    "vi": "Từ hồi tiểu học, tôi đã luôn kiên trì luyện tập thư pháp, đến nay đã được năm sáu năm rồi, việc này đã trở thành một phần không thể thiếu trong cuộc sống của tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Gāng kāishǐ xuéxí de shíhou, wǒ liàn de shì kǎishū, yīnwèi kǎishū bǐhuà qīngchu, jiégòu duānzhèng, bǐjiào shìhé chūxuézhě dǎ jīchǔ.",
+    "vi": "Lúc mới bắt đầu học, tôi luyện chữ khải, vì chữ khải nét bút rõ ràng, kết cấu ngay ngắn, khá phù hợp cho người mới học xây nền tảng.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Liànxí kǎishū de guòchéng, qíshí xiāngdāng kūzào, xūyào fǎnfù de xiě tóng yí gè zì, zhídào bǐhuà de wèizhì hé bǐlì dōu zhǎngwò zhǔnquè wéizhǐ.",
+    "vi": "Quá trình luyện chữ khải thực ra khá nhàm chán, cần viết đi viết lại cùng một chữ, cho đến khi nắm chính xác vị trí và tỷ lệ của các nét bút thì thôi.",
+    "grammar": ["直到……为止 (cho đến khi…thì thôi)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiānchíle liǎng nián yǐhòu, lǎoshī kāishǐ jiāo wǒ liànxí xíngshū, xíngshū de bǐhuà bǐ kǎishū gèngjiā liúchàng, xiě qǐlái yě gèngjiā zìyóu yìxiē.",
+    "vi": "Sau khi kiên trì được hai năm, thầy giáo bắt đầu dạy tôi luyện chữ hành; nét bút của chữ hành lưu loát hơn hẳn chữ khải, viết cũng tự do hơn một chút.",
+    "grammar": ["比……更加…… (…hơn hẳn so với…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Hòulái, wǒ yòu chángshìle cǎoshū, cǎoshū de bǐhuà jiǎnhuà hěn duō, sùdù yě gèng kuài, dànshì yě gèng nán biànrèn, xūyào gèng shēnhòu de jīchǔ cái néng xiě hǎo.",
+    "vi": "Về sau, tôi lại thử chữ thảo; nét bút của chữ thảo được giản lược rất nhiều, tốc độ cũng nhanh hơn, nhưng cũng khó nhận ra hơn, cần nền tảng vững vàng hơn mới viết đẹp được.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Měi cì liànxí shūfǎ zhīqián, wǒ dōu huì xiān bǎ xīn jìng xiàlái, yīnwèi lǎoshī shuō, xiězì rúguǒ xīn bú jìng, bǐhuà jiù huì xiǎnde fúzào, bù wěndìng.",
+    "vi": "Mỗi lần trước khi luyện thư pháp, tôi đều tĩnh tâm lại trước, vì thầy nói, khi viết chữ nếu tâm không tĩnh, nét bút sẽ trông nóng vội, thiếu ổn định.",
+    "grammar": ["如果……就会…… (nếu…thì sẽ…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yǒu yí cì, wǒ cānjiāle yí gè shūfǎ bǐsài, suīrán méiyǒu dédào zuì gāo de míngcì, dànshì píngwěi lǎoshī shuō, wǒ de zì lǐ néng kànchū yì zhǒng chénwěn de qìzhì.",
+    "vi": "Có một lần, tôi tham gia một cuộc thi thư pháp, tuy không đạt thứ hạng cao nhất, nhưng thầy giám khảo nói, trong nét chữ của tôi có thể nhìn ra một khí chất trầm ổn.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Tīngdào zhège píngjià, wǒ tèbié kāixīn, yīnwèi zhè shuōmíng, zhè jǐ nián de nǔlì, yǐjīng zài bùzhī-bùjué zhōng yǐngxiǎngle wǒ de xìnggé.",
+    "vi": "Nghe nhận xét này, tôi vô cùng vui, vì điều đó cho thấy, nỗ lực của mấy năm nay đã ảnh hưởng đến tính cách của tôi lúc nào không hay.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè duàn liànxí shūfǎ de jīnglì ràng wǒ míngbai, shūfǎ bù zhǐshì yì zhǒng xiězì de jìqiǎo, gèng shì yì zhǒng xiūyǎng shēnxīn, péiyǎng nàixīn de fāngshì.",
+    "vi": "Quãng thời gian luyện thư pháp này giúp tôi hiểu rằng, thư pháp không chỉ là một kỹ thuật viết chữ, mà còn là một cách tu dưỡng thân tâm, rèn luyện tính kiên nhẫn.",
+    "grammar": ["不只是……更是…… (không chỉ là…mà còn là…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 35,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè yuè, shì lǐ de wénhuà zhōngxīn jǔbànle yì chǎng zōnghéxìng de chuántǒng yìshù zhǎnlǎn, tóngshí zhǎnshìle diànyǐng, yīnyuè, huìhuà hé shūfǎ zhè jǐ zhǒng yìshù xíngshì.",
+    "vi": "Tháng trước, trung tâm văn hóa của thành phố tổ chức một buổi triển lãm nghệ thuật truyền thống mang tính tổng hợp, đồng thời trưng bày mấy loại hình nghệ thuật gồm điện ảnh, âm nhạc, hội họa và thư pháp.",
+    "grammar": ["同时…… (đồng thời…)"]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhǎnlǎn de dì-yī gè bùfen, shì yì jiān xiǎoxíng de diànyǐng fàngyìngtīng, zhuānmén bōfàng shàng gè shìjì bùtóng niándài de jīngdiǎn lǎo diànyǐng piànduàn.",
+    "vi": "Phần đầu tiên của triển lãm là một phòng chiếu phim nhỏ, chuyên chiếu những trích đoạn phim kinh điển của các thập niên khác nhau trong thế kỷ trước.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Dì-èr gè bùfen, shì yí gè xiǎo wǔtái, měitiān dìngshí huì yǒu yīnyuèjiā xiànchǎng yǎnzòu gǔzhēng, èrhú děng chuántǒng yuèqì, guānzhòng kěyǐ jìn jùlí xīnshǎng.",
+    "vi": "Phần thứ hai là một sân khấu nhỏ, mỗi ngày vào giờ cố định đều có nhạc sĩ biểu diễn trực tiếp các nhạc cụ truyền thống như đàn cổ tranh, đàn nhị, khán giả có thể thưởng thức ở cự ly gần.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe wǎng lǐ zǒu, jiù dàole huìhuà hé shūfǎ de zhǎnqū, qiáng shàng guàmǎnle shuǐmòhuà zuòpǐn, hái yǒu bùtóng zìtǐ de shūfǎ zuòpǐn, gōng dàjiā mànmàn xīnshǎng.",
+    "vi": "Đi tiếp vào trong là khu trưng bày hội họa và thư pháp, trên tường treo kín các tác phẩm tranh thủy mặc, còn có các tác phẩm thư pháp với nhiều kiểu chữ khác nhau, để mọi người từ từ thưởng thức.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒ zài shūfǎ zhǎnqū tíngliúle hěn cháng shíjiān, yīnwèi wǒ fāxiàn, hěn duō zuòpǐn de zìtǐ, zhèng shì wǒ zhè jǐ nián yìzhí zài xuéxí hé liànxí de kǎishū hé xíngshū.",
+    "vi": "Tôi dừng lại rất lâu ở khu thư pháp, vì tôi phát hiện, kiểu chữ của nhiều tác phẩm chính là chữ khải và chữ hành mà tôi vẫn luôn học và luyện mấy năm nay.",
+    "grammar": ["正是…… (chính là…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Guàngdào yīnyuè zhǎnqū de shíhou, wǒ zhènghǎo tīngdào yí wèi lǎoshī zài xiànchǎng yǎnzòu gǔzhēng, nà shúxī de xuánlǜ, ràng wǒ xiǎngqǐle zìjǐ xuéxí gǔzhēng de nà duàn jīnglì.",
+    "vi": "Khi dạo đến khu âm nhạc, tôi vừa hay nghe thấy một vị giáo viên đang biểu diễn đàn cổ tranh tại chỗ, giai điệu quen thuộc ấy khiến tôi nhớ lại quãng thời gian mình học đàn cổ tranh.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Zhǔbànfāng hái yāoqǐngle jǐ wèi yìshùjiā, xiànchǎng gēn guānzhòng jiāoliú, jiǎngjiě bùtóng yìshù xíngshì zhī jiān, qíshí cúnzàizhe hěn duō gòngtóng de měixué guānniàn.",
+    "vi": "Ban tổ chức còn mời mấy nghệ sĩ đến giao lưu trực tiếp với khán giả, giảng giải rằng giữa các loại hình nghệ thuật khác nhau thực ra tồn tại rất nhiều quan niệm thẩm mỹ chung.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yí wèi huàjiā shuō, wúlùn shì diànyǐng, yīnyuè, huìhuà háishi shūfǎ, zuì zhòngyào de dōu shì tōngguò zuòpǐn, biǎodá chuàngzuòzhě nèixīn zhēnshí de qínggǎn.",
+    "vi": "Một họa sĩ nói, bất kể là điện ảnh, âm nhạc, hội họa hay thư pháp, điều quan trọng nhất đều là thông qua tác phẩm biểu đạt tình cảm chân thật trong lòng người sáng tác.",
+    "grammar": ["无论……都…… (bất kể…đều…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì zhǎnlǎn ràng wǒ míngbai, suīrán zhè jǐ zhǒng yìshù de biǎoxiàn fāngshì wánquán bùtóng, dànshì tāmen zhuīqiú de, dōu shì tóng yì zhǒng dǎdòng rénxīn de lìliàng.",
+    "vi": "Buổi triển lãm lần này giúp tôi hiểu rằng, tuy cách thể hiện của mấy loại hình nghệ thuật này hoàn toàn khác nhau, nhưng điều chúng theo đuổi đều là cùng một sức mạnh lay động lòng người.",
+    "grammar": ["虽然……但是……都是…… (tuy…nhưng…đều là…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 36,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shǔjià de shíhou, wǒ chóngxīn dúle yí biàn Xīyóujì, zhè shì wǒ cóng xiǎoshíhou jiù shúxī de yí bù Zhōngguó gǔdiǎn xiǎoshuō.",
+    "vi": "Vào kỳ nghỉ hè, tôi đọc lại một lượt Tây Du Ký, đây là một bộ tiểu thuyết cổ điển Trung Quốc mà tôi đã quen thuộc từ nhỏ.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhè bù xiǎoshuō jiǎng de shì Táng Sēng dàizhe Sūn Wùkōng, Zhū Bājiè hé Shā Sēng, yìqǐ qù xīfāng qǔjīng de gùshi, lùshang jīnglìle xǔduō kùnnan.",
+    "vi": "Bộ tiểu thuyết này kể chuyện Đường Tăng dẫn theo Tôn Ngộ Không, Trư Bát Giới và Sa Tăng cùng nhau sang Tây Thiên thỉnh kinh, trên đường trải qua rất nhiều khó khăn.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Xiǎoshíhou, wǒ zhǐshì dānchún de xǐhuan Sūn Wùkōng de běnlǐng, juéde tā huì qīshí'èr biàn, hái néng dǎbài gè zhǒng yāoguài, fēicháng lìhai.",
+    "vi": "Hồi nhỏ, tôi chỉ đơn thuần thích tài phép của Tôn Ngộ Không, thấy rằng chú khỉ ấy biết bảy mươi hai phép biến hóa, còn có thể đánh bại đủ loại yêu quái, vô cùng lợi hại.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Zhè cì chóngxīn yuèdú, wǒ fāxiàn, chúle jīngcǎi de gùshi qíngjié, zhè bù xiǎoshuō qíshí yě biǎodále hěn duō zhídé sīkǎo de dàolǐ.",
+    "vi": "Lần đọc lại này, tôi phát hiện, ngoài tình tiết câu chuyện hấp dẫn, bộ tiểu thuyết này thực ra cũng truyền tải rất nhiều đạo lý đáng suy ngẫm.",
+    "grammar": ["除了……其实也…… (ngoài…thực ra cũng…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Bǐrú, shī-tú sì rén de xìnggé wánquán bùtóng, Sūn Wùkōng yǒnggǎn dàn yǒushíhou jízào, Zhū Bājiè lǎnduò què yòu shànliáng, Shā Sēng chénwěn ér zhōngchéng.",
+    "vi": "Ví dụ, tính cách của bốn thầy trò hoàn toàn khác nhau: Tôn Ngộ Không dũng cảm nhưng đôi khi nóng vội, Trư Bát Giới lười biếng nhưng lại lương thiện, Sa Tăng trầm ổn và trung thành.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Zhèng shì yīnwèi zhè jǐ zhǒng bùtóng de xìnggé hùxiāng pèihé, tāmen cái néng kèfú yí cì yòu yí cì de kùnnan, zuìzhōng shùnlì dàodá mùdìdì.",
+    "vi": "Chính vì mấy kiểu tính cách khác nhau này phối hợp với nhau, họ mới có thể vượt qua hết khó khăn này đến khó khăn khác, cuối cùng thuận lợi đến được đích.",
+    "grammar": ["正是因为……才…… (chính vì…mới…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Wǒ hái fāxiàn, qǔjīng lùshang yùdào de hěn duō yāoguài, qíshí yě kěyǐ lǐjiě wéi rénshēng zhōng huì yùdào de gè zhǒng yòuhuò hé kùnnan.",
+    "vi": "Tôi còn phát hiện, rất nhiều yêu quái gặp trên đường thỉnh kinh thực ra cũng có thể hiểu là những cám dỗ và khó khăn mà con người sẽ gặp trong cuộc đời.",
+    "grammar": ["可以理解为…… (có thể hiểu là…)"]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Dú wán yǐhòu, wǒ gēn bàba tǎolùnle zhège xiǎngfǎ, bàba shuō, zhè zhèng shì zhè bù xiǎoshuō liúchuánle jǐ bǎi nián, yīrán shòu huānyíng de yuányīn zhī yī.",
+    "vi": "Đọc xong, tôi thảo luận ý nghĩ này với bố, bố nói, đây chính là một trong những lý do khiến bộ tiểu thuyết này lưu truyền mấy trăm năm mà vẫn được yêu thích.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì yuèdú jīnglì ràng wǒ míngbai, jīngdiǎn zuòpǐn zhī suǒyǐ jīngdiǎn, shì yīnwèi bùtóng niánlíng de rén, dōu néng cóngzhōng dúchū bù yíyàng de yìyì.",
+    "vi": "Trải nghiệm đọc lần này giúp tôi hiểu rằng, tác phẩm kinh điển sở dĩ kinh điển là vì người ở những độ tuổi khác nhau đều có thể đọc ra từ đó những ý nghĩa không giống nhau.",
+    "grammar": ["……之所以……是因为…… (…dĩ nhiên…là vì…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 37,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhège xuéqī, lìshǐ lǎoshī tuījiàn wǒmen dú yi dú Sānguó Yǎnyì, shuō zhè bù xiǎoshuō búdàn gùshi jīngcǎi, hái néng bāngzhù wǒmen liǎojiě nà duàn lìshǐ.",
+    "vi": "Học kỳ này, thầy giáo lịch sử khuyên chúng tôi đọc thử Tam Quốc Diễn Nghĩa, nói rằng bộ tiểu thuyết này không những câu chuyện hấp dẫn, mà còn có thể giúp chúng tôi hiểu về giai đoạn lịch sử đó.",
+    "grammar": ["不但……还…… (không những…mà còn…)"]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Sānguó Yǎnyì jiǎng de shì Dōng Hàn mònián, Wèi, Shǔ, Wú sān gè guójiā hùxiāng zhēngduó tiānxià de gùshi, lǐmiàn yǒu hěn duō xìnggé xiānmíng de rénwù.",
+    "vi": "Tam Quốc Diễn Nghĩa kể về chuyện cuối thời Đông Hán, ba nước Ngụy, Thục, Ngô tranh đoạt thiên hạ với nhau, trong đó có rất nhiều nhân vật tính cách nổi bật.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Wǒ zuì xǐhuan de rénwù shì Zhūgě Liàng, tā fēicháng cōngming, shànyú fēnxī júshì, chángcháng néng zài guānjiàn de shíhou, xiǎngchū ràng rén yìwài de jìcè.",
+    "vi": "Nhân vật tôi thích nhất là Gia Cát Lượng, ông rất thông minh, giỏi phân tích cục diện, thường có thể nghĩ ra những mưu kế khiến người ta bất ngờ vào thời khắc then chốt.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Yǒu yí gè qíngjié ràng wǒ yìnxiàng tèbié shēnkè, Zhūgě Liàng tōngguò zǐxì guānchá tiānqì de biànhuà, zhǔnquè de yùcèle shénme shíhou huì qǐ dàfēng, bāngzhù jūnduì yíngdéle yì chǎng zhòngyào de zhànyì.",
+    "vi": "Có một tình tiết để lại cho tôi ấn tượng đặc biệt sâu sắc: Gia Cát Lượng thông qua quan sát kỹ sự thay đổi của thời tiết, đã dự đoán một cách chính xác khi nào sẽ nổi gió lớn, giúp quân đội giành chiến thắng trong một trận đánh quan trọng.",
+    "grammar": ["通过……准确地…… (thông qua…một cách chính xác…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Dú dào zhèlǐ, wǒ cái míngbai, gǔdài dǎzhàng, bù zhǐshì kào jūnduì de shùliàng hé wǔqì, gèng xūyào zhìhuì hé duì gè zhǒng qíngkuàng de pànduàn nénglì.",
+    "vi": "Đọc đến đây, tôi mới hiểu, thời xưa đánh trận không chỉ dựa vào số lượng quân đội và vũ khí, mà càng cần trí tuệ và khả năng phán đoán các loại tình huống.",
+    "grammar": ["不只是……更需要…… (không chỉ là…mà càng cần…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Chúle Zhūgě Liàng, xiǎoshuō lǐ hái yǒu Guān Yǔ, Zhāng Fēi zhèxiē yǐ zhōngchéng hé yǒnggǎn zhùchēng de rénwù, tāmen zhī jiān de xiōngdì qíngyì, yě ràng wǒ tèbié gǎndòng.",
+    "vi": "Ngoài Gia Cát Lượng, trong tiểu thuyết còn có Quan Vũ, Trương Phi, những nhân vật nổi tiếng vì trung thành và dũng cảm; tình nghĩa huynh đệ giữa họ cũng khiến tôi vô cùng cảm động.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Lǎoshī shuō, suīrán Sānguó Yǎnyì shì xiǎoshuō, gēn zhēnshí de lìshǐ yǒu yìxiē bùtóng, dànshì tā tǐxiàn de hěn duō zhìhuì hé dàolǐ, dào xiànzài yīrán yǒuyòng.",
+    "vi": "Thầy nói, tuy Tam Quốc Diễn Nghĩa là tiểu thuyết, có một số điểm khác với lịch sử thật, nhưng rất nhiều trí tuệ và đạo lý mà nó thể hiện, đến nay vẫn hữu dụng.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Bǐrú, xiǎoshuō lǐ jīngcháng tídào, zuò shìqing yào kǎolǜ gè fāngmiàn de yīnsù, bù néng zhǐ kàn yǎnqián de lìyì, zhè yì diǎn duì wǒmen jīntiān de xuéxí hé shēnghuó yě yǒu qǐfā.",
+    "vi": "Ví dụ, trong tiểu thuyết thường nhắc đến, làm việc phải cân nhắc các yếu tố từ mọi mặt, không thể chỉ nhìn lợi ích trước mắt; điểm này cũng gợi mở cho việc học tập và cuộc sống của chúng ta ngày nay.",
+    "grammar": ["不能只……要…… (không thể chỉ…mà phải…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Dú wán zhè bù xiǎoshuō, wǒ búdàn duì nà duàn lìshǐ yǒule gèng shēn de liǎojiě, yě cóng zhèxiē lìshǐ rénwù shēnshang, xuédàole hěn duō guānyú zhìhuì hé pǐngé de dàolǐ.",
+    "vi": "Đọc xong bộ tiểu thuyết này, tôi không những hiểu sâu hơn về giai đoạn lịch sử đó, mà còn học được từ những nhân vật lịch sử này rất nhiều đạo lý về trí tuệ và phẩm cách.",
+    "grammar": ["不但……还…… (không những…mà còn…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 38,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Yǔwén kè shàng, lǎoshī zhège xuéqī zhuānmén ānpáile jǐ jié kè, dài wǒmen xīnshǎng Táng cháo shíqī zuì yǒu dàibiǎoxìng de wénxué xíngshì — Tángshī.",
+    "vi": "Trong giờ Ngữ văn, học kỳ này cô giáo dành riêng mấy tiết học, dẫn dắt chúng tôi thưởng thức hình thức văn học tiêu biểu nhất của thời Đường — thơ Đường.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, Táng cháo shì Zhōngguó gǔdài shīgē fāzhǎn zuì fánróng de shíqī, nàge shídài chūxiànle fēicháng duō yǒumíng de shīrén, liúxiàle dàliàng yōuxiù de zuòpǐn.",
+    "vi": "Cô nói, thời Đường là thời kỳ thơ ca cổ đại Trung Quốc phát triển rực rỡ nhất, thời đại đó xuất hiện rất nhiều nhà thơ nổi tiếng, để lại số lượng lớn tác phẩm xuất sắc.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tā xiān jièshàole Lǐ Bái, shuō tā de shī fēnggé háofàng, chángcháng yùnyòng kuāzhāng de shǒufǎ, miáoxiě zhuàngguān de zìrán jǐngsè, biǎodá zìyóu bēnfàng de qínggǎn.",
+    "vi": "Cô giới thiệu trước về Lý Bạch, nói thơ ông phong cách hào phóng, thường dùng thủ pháp khoa trương để miêu tả cảnh sắc thiên nhiên hùng vĩ, biểu đạt tình cảm tự do phóng khoáng.",
+    "grammar": ["常常运用……来…… (thường dùng…để…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe, lǎoshī yòu jiǎngle Dù Fǔ, shuō tā de shī gēn Lǐ Bái bù yíyàng, gèngjiā guānzhù pǔtōng bǎixìng de shēnghuó, yǔyán yě bǐjiào pǔshí, shēnchén.",
+    "vi": "Tiếp theo, cô lại giảng về Đỗ Phủ, nói thơ ông khác với thơ Lý Bạch, quan tâm nhiều hơn đến cuộc sống của người dân bình thường, ngôn ngữ cũng khá mộc mạc, sâu lắng.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Lǎoshī dài wǒmen fēnxīle yì shǒu miáoxiě sīniàn jiāxiāng de shī, suīrán zhǐyǒu duǎnduǎn jǐ jù, dànshì tōngguò miáoxiě yuèguāng hé qiūyè de jǐngxiàng, biǎodá chū shēnshēn de xiāngchóu.",
+    "vi": "Cô dẫn chúng tôi phân tích một bài thơ miêu tả nỗi nhớ quê hương, tuy chỉ có vài câu ngắn ngủi, nhưng qua việc miêu tả ánh trăng và cảnh đêm thu, đã biểu đạt được nỗi nhớ quê sâu sắc.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Wǒ fāxiàn, hěn duō Tángshī dōu shànyú jièzhù zìrán jǐngwù, bǐrú yuèliang, jiāngshuǐ, gāoshān, lái biǎodá shīrén nèixīn fùzá de qínggǎn, zhè zhǒng biǎodá fāngshì fēicháng hánxù.",
+    "vi": "Tôi nhận ra, rất nhiều bài thơ Đường đều giỏi mượn cảnh vật thiên nhiên, như ánh trăng, dòng sông, núi cao, để biểu đạt tình cảm phức tạp trong lòng nhà thơ; cách biểu đạt này rất hàm súc.",
+    "grammar": ["善于借助……来…… (giỏi mượn…để…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Lǎoshī tíxǐng wǒmen, dú Tángshī de shíhou, bù néng zhǐ guānzhù biǎomiàn de yìsi, gèng yào tǐhuì shījù bèihòu, shīrén dāngshí de xīnqíng hé chǔjìng.",
+    "vi": "Cô nhắc nhở chúng tôi, khi đọc thơ Đường, không thể chỉ chú ý đến nghĩa bề mặt, mà càng cần cảm nhận tâm trạng và hoàn cảnh lúc bấy giờ của nhà thơ đằng sau câu thơ.",
+    "grammar": ["不能只……更要…… (không thể chỉ…mà càng cần…)"]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Tā hái shuō, suīrán zhèxiē shī yǐjīng yǒu yìqiān duō nián de lìshǐ, dànshì shī zhōng miáoxiě de sīxiāng, gǎnkǎi shíguāng liúshì děng qínggǎn, dào xiànzài yīrán néng ràng dúzhě chǎnshēng gòngmíng.",
+    "vi": "Cô còn nói, tuy những bài thơ này đã có lịch sử hơn một nghìn năm, nhưng những tình cảm được miêu tả trong thơ như nỗi nhớ quê, niềm cảm khái trước thời gian trôi qua, đến nay vẫn có thể khiến người đọc đồng cảm.",
+    "grammar": ["虽然……但是……依然…… (tuy…nhưng…vẫn…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè jǐ jié guānyú Tángshī de kè, ràng wǒ dì-yī cì zhēnzhèng tǐhuì dào, Zhōngguó gǔdài wénxué zhōng, nà zhǒng jièjǐng-shūqíng de dútè mèilì.",
+    "vi": "Mấy tiết học về thơ Đường này lần đầu tiên giúp tôi thực sự cảm nhận được sức hút độc đáo của lối tả cảnh ngụ tình trong văn học cổ đại Trung Quốc.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 39,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè xuéqī, wǒ kāishǐ dú Hónglóumèng, zhè shì Zhōngguó gǔdiǎn xiǎoshuō zhōng, bèi rènwéi yìshù chéngjiù zuì gāo de yí bù zuòpǐn zhī yī.",
+    "vi": "Học kỳ trước, tôi bắt đầu đọc Hồng Lâu Mộng, đây là một trong những tác phẩm được coi là có thành tựu nghệ thuật cao nhất trong tiểu thuyết cổ điển Trung Quốc.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Gāng kāishǐ dú de shíhou, wǒ juéde lǐmiàn de rénwù tèbié duō, guānxì yě hěn fùzá, yídù juéde yǒudiǎnr nányǐ jiānchí xiàqù.",
+    "vi": "Lúc mới bắt đầu đọc, tôi thấy nhân vật trong truyện đặc biệt nhiều, quan hệ cũng rất phức tạp, có lúc từng cảm thấy hơi khó kiên trì đọc tiếp.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Dànshì suízhe mànmàn shēnrù yuèdú, wǒ fāxiàn, měi yí gè rénwù dōu bèi zuòzhě miáoxiě de fēicháng xìzhì, xìnggé tèdiǎn yě shífēn xiānmíng.",
+    "vi": "Nhưng theo quá trình dần dần đọc sâu vào, tôi phát hiện, mỗi nhân vật đều được tác giả miêu tả vô cùng tỉ mỉ, đặc điểm tính cách cũng hết sức rõ nét.",
+    "grammar": ["随着……慢慢…… (theo…dần dần…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒ zuì gǎn xìngqù de rénwù shì Lín Dàiyù, tā mǐngǎn, cōngming, yě hěn yǒu cáihuá, dànshì xìnggé lǐ yòu dàizhe yì sī yōuyù hé cuìruò.",
+    "vi": "Nhân vật tôi thấy hứng thú nhất là Lâm Đại Ngọc, nàng nhạy cảm, thông minh, cũng rất có tài hoa, nhưng trong tính cách lại mang một chút u sầu và yếu đuối.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Xiǎoshuō tōngguò miáoxiě Jiǎ jiā zhège dà jiāzú yóu xīngshèng zhújiàn zǒuxiàng shuāibài de guòchéng, zhǎnxiànle dāngshí shèhuì gège jiēcéng de shēnghuó zhuàngtài.",
+    "vi": "Tiểu thuyết thông qua miêu tả quá trình gia tộc lớn họ Giả từ hưng thịnh dần dần đi đến suy bại, đã tái hiện trạng thái cuộc sống của các tầng lớp trong xã hội đương thời.",
+    "grammar": ["由……逐渐走向…… (từ…dần dần đi đến…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī zài kètáng shàng shuō, Hónglóumèng bù zhǐshì yí gè àiqíng gùshi, gèng shì yí bù fǎnyìng shèhuì xiànshí de wěidà zuòpǐn.",
+    "vi": "Cô giáo nói trên lớp, Hồng Lâu Mộng không chỉ là một câu chuyện tình yêu, mà còn là một tác phẩm vĩ đại phản ánh hiện thực xã hội.",
+    "grammar": ["不只是……更是…… (không chỉ là…mà còn là…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Dú dào Jiǎ jiā zhújiàn shuāiluò de bùfen, wǒ xīnlǐ yě gǎndào hěn fùzá, hǎoxiàng qīnyǎn kànzhe yí gè céngjīng huīhuáng de jiāzú, mànmàn zǒuxiàng jiéshù.",
+    "vi": "Đọc đến phần gia tộc họ Giả dần suy tàn, trong lòng tôi cũng cảm thấy rất phức tạp, như thể tận mắt nhìn một gia tộc từng huy hoàng từ từ đi đến hồi kết.",
+    "grammar": ["好像亲眼……一样 (như tận mắt…)"]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Zhè bù xiǎoshuō de yǔyán fēicháng yōuměi, zuòzhě duì xìjié de miáoxiě shífēn jiǎngjiu, bǐrú rénwù de fúshì, jūzhù de huánjìng, dōu miáoxiě de jíqí shēngdòng.",
+    "vi": "Ngôn ngữ của bộ tiểu thuyết này vô cùng đẹp, tác giả rất chú trọng việc miêu tả chi tiết, ví dụ trang phục của nhân vật, môi trường sinh sống, đều được miêu tả cực kỳ sống động.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Dú wán zhè bù xiǎoshuō, wǒ míngbaile, wèishénme zhème duō nián lái, yìzhí yǒu zhuānmén yánjiū Hónglóumèng de xuézhě, yīnwèi tā de nèiróng shízài tài fēngfù, tài shēnkè le.",
+    "vi": "Đọc xong bộ tiểu thuyết này, tôi đã hiểu vì sao bao nhiêu năm nay luôn có những học giả chuyên nghiên cứu Hồng Lâu Mộng, bởi vì nội dung của nó thực sự quá phong phú, quá sâu sắc.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 40,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhège xuéqī, wǒ lùxù dú wánle Xīyóujì, Sānguó Yǎnyì hé Hónglóumèng, jiāshàng yǐqián dúguo de Shuǐhǔzhuàn, zhènghǎo còuchéngle Zhōngguó gǔdiǎn wénxué zhōng zhùmíng de \"sì dà míngzhù\".",
+    "vi": "Học kỳ này, tôi lần lượt đọc xong Tây Du Ký, Tam Quốc Diễn Nghĩa và Hồng Lâu Mộng, cộng thêm Thủy Hử đã đọc trước đây, vừa đúng gom đủ \"tứ đại danh tác\" nổi tiếng của văn học cổ điển Trung Quốc.",
+    "grammar": ["加上…… (cộng thêm…)"]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Huíxiǎng qǐlái, zhè sì bù xiǎoshuō péibànle wǒ cóng xiǎoxué dào gāozhōng de zhè jǐ nián shíjiān, měi yí cì chóngxīn yuèdú, dōu huì yǒu xīn de shōuhuò hé tǐhuì.",
+    "vi": "Nhớ lại, bốn bộ tiểu thuyết này đã đồng hành cùng tôi suốt mấy năm từ tiểu học đến trung học phổ thông, mỗi lần đọc lại đều có thu hoạch và cảm nhận mới.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Shuǐhǔzhuàn jiǎng de shì yìbǎi líng bā wèi hǎohàn, yīnwèi gè zhǒng yuányīn jù zài yìqǐ, zuìzhōng zǒushàng fǎnkàng de dàolù, gùshi chōngmǎnle háoqì hé bēizhuàng de sècǎi.",
+    "vi": "Thủy Hử kể về một trăm lẻ tám vị hảo hán, vì nhiều nguyên nhân khác nhau mà tụ họp lại với nhau, cuối cùng bước lên con đường phản kháng; câu chuyện tràn đầy hào khí và màu sắc bi tráng.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Sānguó Yǎnyì ràng wǒ kàndàole zhìhuì hé cèlüè zài lìshǐ zhōng de zhòngyào zuòyòng, yě ràng wǒ míngbai, tuánjié yǔ hézuò wǎngwǎng bǐ dāndú de lìliàng gèng qiángdà.",
+    "vi": "Tam Quốc Diễn Nghĩa cho tôi thấy vai trò quan trọng của trí tuệ và mưu lược trong lịch sử, cũng giúp tôi hiểu rằng, đoàn kết và hợp tác thường mạnh hơn sức mạnh đơn lẻ.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Xīyóujì jiāohuì wǒ, miànduì kùnnan de shíhou, yào bǎochí yǒngqì hé jiānchí, tóngshí yě yào xuéhuì gēn bùtóng xìnggé de rén hùxiāng lǐjiě, hùxiāng pèihé.",
+    "vi": "Tây Du Ký dạy tôi, khi đối mặt với khó khăn phải giữ vững dũng khí và sự kiên trì, đồng thời cũng phải học cách thấu hiểu lẫn nhau, phối hợp lẫn nhau với những người có tính cách khác nhau.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Hónglóumèng zé ràng wǒ kàndàole, fánhuá bèihòu wǎngwǎng yǐncángzhe shuāiluò de kěnéng, yě ràng wǒ xuéhuìle gèng xìzhì de guānchá shēnghuó zhōng de xìjié hé rénwù de nèixīn.",
+    "vi": "Còn Hồng Lâu Mộng cho tôi thấy, đằng sau sự phồn hoa thường ẩn giấu khả năng suy tàn, cũng giúp tôi học được cách quan sát tỉ mỉ hơn những chi tiết trong cuộc sống và nội tâm con người.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Lǎoshī céngjīng shuōguo, zhè sì bù zuòpǐn zhī suǒyǐ bèi chēngwéi \"míngzhù\", shì yīnwèi tāmen bùjǐn dàibiǎole dāngshí wénxué chuàngzuò de zuì gāo shuǐpíng, yě yùnhánzhe shēnkè de rénshēng zhìhuì.",
+    "vi": "Thầy giáo từng nói, bốn tác phẩm này sở dĩ được gọi là \"danh tác\" là vì chúng không chỉ đại diện cho trình độ sáng tác văn học cao nhất thời bấy giờ, mà còn ẩn chứa trí tuệ nhân sinh sâu sắc.",
+    "grammar": ["……之所以……是因为…… (…dĩ nhiên…là vì…)"]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Dú wán zhè sì bù zuòpǐn, wǒ fāxiàn, suīrán tāmen xiě de dōu shì jǐ bǎi nián qián de gùshi, dànshì lǐmiàn tàntǎo de guānyú rénxìng, mìngyùn, shèhuì de wèntí, dào xiànzài yīrán zhídé sīkǎo.",
+    "vi": "Đọc xong bốn tác phẩm này, tôi nhận ra, tuy chúng đều viết về những câu chuyện của mấy trăm năm trước, nhưng những vấn đề về nhân tính, số phận, xã hội được bàn đến trong đó, đến nay vẫn đáng để suy ngẫm.",
+    "grammar": ["虽然……但是……依然…… (tuy…nhưng…vẫn…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Wǒ xiāngxìn, suízhe zìjǐ niánlíng de zēngzhǎng hé yuèlì de fēngfù, jiānglái zài chóngxīn yuèdú zhè sì bù jīngdiǎn, wǒ yídìng hái néng dúchū gèng duō, gèng shēn de yìyì.",
+    "vi": "Tôi tin rằng, theo sự trưởng thành về tuổi tác và sự phong phú thêm của trải nghiệm, sau này khi đọc lại bốn bộ kinh điển này, tôi chắc chắn còn có thể đọc ra nhiều ý nghĩa hơn, sâu sắc hơn.",
+    "grammar": ["随着……将来……一定…… (theo…thì sau này…chắc chắn…)"]
+   }
+  ]
+ }
+]

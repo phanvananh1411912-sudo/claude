@@ -1,0 +1,476 @@
+[
+ {
+  "group": "hsk3",
+  "no": 1,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Qùnián jiǔyuè, wǒ líkāi jiā, láidào yí gè xīn de chéngshì shàng dàxué, yíqiè dōu yào zìjǐ ānpái.",
+    "vi": "Tháng chín năm ngoái, tôi rời nhà, đến một thành phố mới để học đại học, mọi thứ đều phải tự mình sắp xếp.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Gāng kāishǐ, wǒ hěn bù xíguàn, yīnwèi yào zìjǐ xǐ yīfu, dǎsǎo fángjiān, hái yào guǎnlǐ zìjǐ de shíjiān.",
+    "vi": "Lúc mới bắt đầu, tôi rất không quen, vì phải tự giặt quần áo, dọn dẹp phòng, còn phải quản lý thời gian của mình.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Dàxué de kè bǐ gāozhōng duōyàng, chúle shàngkè, hái yǒu hěn duō shètuán huódòng kěyǐ cānjiā.",
+    "vi": "Các môn học ở đại học đa dạng hơn thời cấp ba, ngoài giờ lên lớp, còn có rất nhiều hoạt động câu lạc bộ có thể tham gia.",
+    "grammar": ["除了……还有…… (ngoài…còn có…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒ cānjiāle yí gè yīnyuè shètuán, rènshile hěn duō yǒu gòngtóng àihào de péngyou, zhōumò chángcháng yìqǐ liànxí.",
+    "vi": "Tôi đã tham gia một câu lạc bộ âm nhạc, quen được rất nhiều người bạn có cùng sở thích, cuối tuần thường cùng nhau luyện tập.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Suīrán gōngkè yǒushíhou hěn duō, yālì yě bù xiǎo, dànshì wǒ mànmàn xuéhuìle zěnme ānpái xuéxí hé shēnghuó.",
+    "vi": "Tuy bài vở đôi khi rất nhiều, áp lực cũng không nhỏ, nhưng tôi dần dần học được cách sắp xếp việc học và cuộc sống.",
+    "grammar": ["虽然……但是…… (tuy…nhưng…)", "慢慢学会了 (dần dần học được)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Jiàoshòumen jiǎngkè de fāngshì gēn gāozhōng lǎoshī bù yíyàng, gèng zhùyì péiyǎng wǒmen dúlì sīkǎo de nénglì.",
+    "vi": "Cách giảng bài của các giáo sư khác với thầy cô cấp ba, chú trọng hơn đến việc bồi dưỡng khả năng tư duy độc lập của chúng tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Yǒu yí cì, wǒ zài túshūguǎn xiě lùnwén, yùdào wèntí, tóngxué zhǔdòng guòlái bāng wǒ jiějué, wǒ tèbié gǎndòng.",
+    "vi": "Có một lần, tôi viết luận văn trong thư viện, gặp phải vấn đề, bạn học chủ động đến giúp tôi giải quyết, tôi vô cùng cảm động.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yì nián guòqù le, wǒ fāxiàn, dàxué shēnghuó bù zhǐshì xuéxí zhīshi, gèng shì xuéxí zěnme zhàogù zìjǐ, zěnme gēn rén xiāngchǔ.",
+    "vi": "Một năm đã trôi qua, tôi nhận ra rằng cuộc sống đại học không chỉ là học kiến thức, mà còn là học cách chăm sóc bản thân, cách hòa hợp với mọi người.",
+    "grammar": ["不只是……更是…… (không chỉ là…mà còn là…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 2,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Dàxué bìyè yǐhòu, wǒ kāishǐ zhǎo gōngzuò, zhège guòchéng bǐ wǒ xiǎng de yào kùnnán de duō.",
+    "vi": "Sau khi tốt nghiệp đại học, tôi bắt đầu tìm việc, quá trình này khó khăn hơn tôi nghĩ rất nhiều.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Yì kāishǐ, wǒ bǎ jiǎnlì fā gěile hěn duō gōngsī, dànshì dàbùfen dōu méiyǒu huífù, wǒ xīnli yǒudiǎnr shīwàng.",
+    "vi": "Ban đầu, tôi gửi hồ sơ xin việc cho rất nhiều công ty, nhưng phần lớn đều không trả lời, trong lòng tôi hơi thất vọng.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Hòulái, yí wèi lǎoshī jiànyì wǒ, yīnggāi xiān xiǎng qīngchu zìjǐ zhēnzhèng xiǎng zuò shénme gōngzuò, ér bú shì shénme dōu shì.",
+    "vi": "Về sau, một thầy giáo khuyên tôi rằng nên nghĩ cho rõ trước xem mình thật sự muốn làm công việc gì, chứ không phải cái gì cũng thử.",
+    "grammar": ["而不是…… (mà không phải là…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒ rènzhēn xiǎngle xiǎng, juédìng shēnqǐng gēn zìjǐ zhuānyè xiāngguān de gōngzuò, suīrán xuǎnzé biàn shǎo le, dànshì fāngxiàng gèng qīngchu le.",
+    "vi": "Tôi suy nghĩ nghiêm túc, quyết định ứng tuyển những công việc liên quan đến chuyên ngành của mình, tuy lựa chọn ít đi, nhưng phương hướng rõ ràng hơn.",
+    "grammar": ["虽然……但是…… (tuy…nhưng…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Dì yī cì miànshì de shíhou, wǒ tèbié jǐnzhāng, shuōhuà dōu bú tài shùnlì, jiéguǒ méiyǒu bèi lùqǔ.",
+    "vi": "Lần phỏng vấn đầu tiên, tôi cực kỳ căng thẳng, nói năng cũng không được trôi chảy lắm, kết quả là không được nhận.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Jīngguò nà cì jīnglì, wǒ zǒngjiéle jīngyàn, liànxíle zěnme huídá chángjiàn de wèntí, zhǔnbèi de gèng chōngfèn.",
+    "vi": "Trải qua lần đó, tôi rút ra kinh nghiệm, luyện tập cách trả lời những câu hỏi thường gặp, chuẩn bị đầy đủ hơn.",
+    "grammar": ["经过…… (trải qua…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Dì èr cì miànshì, wǒ biǎoxiàn de bǐ shàng cì zìrán duō le, miànshìguān duì wǒ de huídá bǐjiào mǎnyì.",
+    "vi": "Lần phỏng vấn thứ hai, tôi thể hiện tự nhiên hơn lần trước nhiều, người phỏng vấn khá hài lòng với câu trả lời của tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yí gè xīngqī yǐhòu, wǒ shōudàole nà jiā gōngsī de diànhuà, tōngzhī wǒ bèi lùqǔ le, wǒ gāoxìng de tiàole qǐlái.",
+    "vi": "Một tuần sau, tôi nhận được điện thoại của công ty đó, thông báo tôi đã được nhận, tôi mừng đến mức nhảy cẫng lên.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì zhǎo gōngzuò de jīnglì ràng wǒ míngbai, shībài bìng bù kěpà, zhòngyào de shì néng cóngzhōng xuédào dōngxi.",
+    "vi": "Trải nghiệm tìm việc lần này khiến tôi hiểu ra rằng thất bại hoàn toàn không đáng sợ, quan trọng là có thể học được điều gì đó từ nó.",
+    "grammar": ["并不…… (hoàn toàn không…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 3,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè yuè, wǒ zhōngyú kāishǐ xué kāichē le, zhè shì wǒ hěn jiǔ yǐqián jiù xiǎng zuò de shìqing.",
+    "vi": "Tháng trước, cuối cùng tôi cũng bắt đầu học lái xe, đây là việc tôi đã muốn làm từ rất lâu rồi.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Dì yī cì zuò zài jiàshǐzuò shàng, wǒ de shǒu yǒudiǎnr fādǒu, lián zuì jiǎndān de cāozuò dōu zuò de bù shúliàn.",
+    "vi": "Lần đầu ngồi vào ghế lái, tay tôi hơi run, đến cả thao tác đơn giản nhất cũng làm không thành thạo.",
+    "grammar": ["连……都…… (đến cả…cũng…)"]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Jiàoliàn hěn yǒu nàixīn, yí bù yí bù de jiāo wǒ zěnme kòngzhì fāngxiàngpán, zěnme kàn hòushìjìng.",
+    "vi": "Thầy dạy lái rất kiên nhẫn, từng bước từng bước dạy tôi cách điều khiển vô lăng, cách nhìn gương chiếu hậu.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Liànle jǐ cì yǐhòu, wǒ fāxiàn, kāichē búdàn xūyào shúxī cāozuò, hái xūyào zhùyì zhōuwéi de qíngkuàng.",
+    "vi": "Sau vài lần luyện tập, tôi nhận ra rằng lái xe không những cần thành thạo thao tác, mà còn cần chú ý tình hình xung quanh.",
+    "grammar": ["不但……还…… (không những…mà còn…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yǒu yí cì zài lùkǒu, wǒ yīnwèi jǐnzhāng, chà yìdiǎnr chuǎngle hóngdēng, jiàoliàn mǎshàng tíxǐngle wǒ.",
+    "vi": "Có một lần ở ngã tư, vì căng thẳng, tôi suýt chút nữa vượt đèn đỏ, thầy dạy lái lập tức nhắc nhở tôi.",
+    "grammar": ["差一点儿…… (suýt chút nữa…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Nà cì yǐhòu, wǒ gèngjiā xiǎoxīn, měi cì kāichē yǐqián, dōu huì tíxǐng zìjǐ jízhōng zhùyìlì.",
+    "vi": "Sau lần đó, tôi càng cẩn thận hơn, mỗi lần trước khi lái xe đều tự nhắc mình phải tập trung chú ý.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Jīngguò yí gè yuè de liànxí, wǒ de jìshù tígāole bù shǎo, jiàoliàn shuō wǒ yǐjīng kěyǐ kǎoshì le.",
+    "vi": "Trải qua một tháng luyện tập, kỹ thuật của tôi tiến bộ không ít, thầy dạy lái nói tôi đã có thể đi thi được rồi.",
+    "grammar": ["经过 + khoảng thời gian (trải qua)"]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Kǎoshì nà tiān, wǒ yì kāishǐ yǒudiǎnr jǐnzhāng, dànshì xiǎngqǐ jiàoliàn jiāo wǒ de fāngfǎ, mànmàn jiù fàngsōng le.",
+    "vi": "Hôm thi, lúc đầu tôi hơi căng thẳng, nhưng nhớ lại phương pháp thầy dạy lái đã dạy, tôi dần dần thả lỏng.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zuìhòu, wǒ shùnlì tōngguòle kǎoshì, nádàole jiàzhào, xīnli tèbié yǒu chéngjiùgǎn.",
+    "vi": "Cuối cùng, tôi thuận lợi vượt qua kỳ thi, lấy được bằng lái, trong lòng cảm thấy vô cùng có cảm giác thành tựu.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 4,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè xīngqī, wǒ yīnwèi xūyào kāi yí gè xīn de yínháng zhànghù, dì yī cì zìjǐ qù yínháng bànshì.",
+    "vi": "Tuần trước, vì cần mở một tài khoản ngân hàng mới, lần đầu tiên tôi tự mình đến ngân hàng làm thủ tục.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Yínháng lǐ rén bú suàn tài duō, dànshì wǒ bù zhīdào yīnggāi zài nǎlǐ páiduì, zhǐhǎo xiàng gōngzuò rényuán xúnwèn.",
+    "vi": "Trong ngân hàng người không quá đông, nhưng tôi không biết nên xếp hàng ở đâu, đành phải hỏi nhân viên.",
+    "grammar": ["只好…… (chỉ còn cách…)"]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Gōngzuò rényuán hěn rèqíng de gàosu wǒ, yīnggāi xiān qǔ yí gè hào, ránhòu zuòzhe děng jiàohào.",
+    "vi": "Nhân viên rất nhiệt tình nói với tôi rằng nên lấy số trước, rồi sau đó ngồi chờ gọi số.",
+    "grammar": ["先……然后…… (trước…rồi sau đó…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Děngle dàgài èrshí fēnzhōng, zhōngyú lúndào wǒ le, gōngzuò rényuán ràng wǒ tiánxiě yì zhāng shēnqǐngbiǎo.",
+    "vi": "Chờ khoảng hai mươi phút, cuối cùng cũng đến lượt tôi, nhân viên bảo tôi điền một tờ đơn đăng ký.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Biǎogé shàng yǒu yìxiē cíyǔ wǒ bú tài míngbai shì shénme yìsi, gōngzuò rényuán nàixīn de gēn wǒ jiěshì.",
+    "vi": "Trên biểu mẫu có một số từ ngữ tôi không hiểu rõ nghĩa là gì, nhân viên đã kiên nhẫn giải thích cho tôi.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Bànlǐ zhànghù de guòchéng bǐ wǒ xiǎng de yào fùzá yìxiē, xūyào tígōng shēnfènzhèng, hái yào shèzhì mìmǎ.",
+    "vi": "Quá trình mở tài khoản phức tạp hơn tôi nghĩ một chút, cần cung cấp chứng minh thư, còn phải cài đặt mật khẩu.",
+    "grammar": ["比……要……一些 (…hơn một chút so với…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Gōngzuò rényuán hái jiànyì wǒ, kěyǐ shùnbiàn bàn yì zhāng xìnyòngkǎ, zhèyàng yǐhòu gòuwù huì gèng fāngbiàn.",
+    "vi": "Nhân viên còn gợi ý tôi có thể tiện thể làm một chiếc thẻ tín dụng, như vậy sau này mua sắm sẽ thuận tiện hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Kǎolǜle yíxià, wǒ juédìng xiān bú bàn xìnyòngkǎ, yīnwèi wǒ dānxīn zìjǐ huì huā qián huā de méiyǒu jìhuà.",
+    "vi": "Suy nghĩ một lúc, tôi quyết định tạm thời chưa làm thẻ tín dụng, vì tôi lo mình sẽ tiêu tiền không có kế hoạch.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Cóng yínháng chūlái yǐhòu, wǒ juéde, suīrán zhè cì bànshì huāle bù shǎo shíjiān, dànshì xuédàole hěn duō yǒuyòng de zhīshi.",
+    "vi": "Sau khi ra khỏi ngân hàng, tôi thấy rằng tuy lần này đi làm thủ tục mất không ít thời gian, nhưng đã học được rất nhiều kiến thức hữu ích.",
+    "grammar": ["虽然……但是…… (tuy…nhưng…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 5,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè yuè, xuéxiào zǔzhīle yí cì guānyú bǎohù huánjìng de huódòng, wǒmen bān yě cānjiā le.",
+    "vi": "Tháng trước, nhà trường tổ chức một hoạt động về bảo vệ môi trường, lớp chúng tôi cũng tham gia.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Huódòng kāishǐ yǐqián, lǎoshī xiān gēn wǒmen jiǎngle xiànzài huánjìng wūrǎn de yìxiē wèntí, ràng wǒmen gèng liǎojiě qíngkuàng.",
+    "vi": "Trước khi hoạt động bắt đầu, thầy giáo giảng cho chúng tôi nghe về một số vấn đề ô nhiễm môi trường hiện nay, giúp chúng tôi hiểu rõ tình hình hơn.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tīngwán yǐhòu, wǒ cái fāxiàn, zìjǐ píngshí de yìxiē xíguàn, qíshí duì huánjìng bú tài hǎo.",
+    "vi": "Nghe xong, tôi mới nhận ra rằng một số thói quen thường ngày của mình thực ra không tốt lắm cho môi trường.",
+    "grammar": ["才 (mới, lúc đó mới)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Bǐrú, wǒ yǐqián chángcháng yòng yícìxìng de kuàizi hé bēizi, cónglái méiyǒu xiǎngguò zhèyàng huì chǎnshēng hěn duō lājī.",
+    "vi": "Ví dụ, trước đây tôi thường dùng đũa và cốc dùng một lần, chưa từng nghĩ rằng như vậy sẽ tạo ra rất nhiều rác.",
+    "grammar": ["从来没有……过 (chưa từng…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Cóng nà tiān yǐhòu, wǒ juédìng gǎibiàn yìxiē shēnghuó xíguàn, jǐnliàng jiǎnshǎo shǐyòng yícìxìng yòngpǐn.",
+    "vi": "Từ hôm đó, tôi quyết định thay đổi một số thói quen sinh hoạt, cố gắng giảm bớt việc sử dụng đồ dùng một lần.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Wǒ hái kāishǐ xuéxí zěnme bǎ lājī fēnlèi, suīrán yì kāishǐ chángcháng fēncuò, dànshì mànmàn jiù shúxī le.",
+    "vi": "Tôi còn bắt đầu học cách phân loại rác, tuy lúc đầu thường phân sai, nhưng dần dần đã quen thuộc.",
+    "grammar": ["虽然……但是…… (tuy…nhưng…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Chúle zìjǐ gǎibiàn xíguàn, wǒ yě chángcháng tíxǐng jiārén, gēn tāmen fēnxiǎng wǒ xuédào de huánbǎo zhīshi.",
+    "vi": "Ngoài việc tự thay đổi thói quen, tôi cũng thường nhắc nhở người nhà, chia sẻ với họ những kiến thức bảo vệ môi trường mà tôi học được.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Māma shuō, tā yǐqián bú tài zàiyì zhèxiē shìqing, dànshì tīngle wǒ shuō de yǐhòu, yě kāishǐ zhùyì jiéyuē yòng shuǐ yòng diàn.",
+    "vi": "Mẹ nói trước đây mẹ không mấy để ý đến những việc này, nhưng sau khi nghe tôi nói, mẹ cũng bắt đầu chú ý tiết kiệm nước và điện.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Wǒ juéde, bǎohù huánjìng bú shì yí jiàn hěn nán de shìqing, zhǐyào měi gè rén dōu zuò yìdiǎnr, jiù néng dàilái dàdà de gǎibiàn.",
+    "vi": "Tôi thấy bảo vệ môi trường không phải là một việc quá khó, chỉ cần mỗi người đều làm một chút là có thể mang lại thay đổi to lớn.",
+    "grammar": ["只要……就…… (chỉ cần…là…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 6,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè xīngqīliù, wǒ cānjiāle dàxué tóngxué Xiǎo Lǐ de hūnlǐ, zhè shì wǒ dì yī cì dāng bànláng.",
+    "vi": "Thứ Bảy tuần trước, tôi tham dự đám cưới của 小李, bạn học đại học của tôi, đây là lần đầu tiên tôi làm phù rể.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Hūnlǐ dàngtiān, wǒ hěn zǎo jiù dàole xiànchǎng, bāngmáng bùzhì huìchǎng, jiǎnchá měi yí gè xìjié.",
+    "vi": "Ngày cưới, tôi đến nơi từ rất sớm, giúp trang trí hội trường, kiểm tra từng chi tiết một.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Xīnláng xīnniáng zǒu jìnlái de shíhou, quán chǎng de rén dōu zhàn qǐlái, wèi tāmen gǔzhǎng, qìfēn tèbié rènao.",
+    "vi": "Khi cô dâu chú rể bước vào, tất cả mọi người trong hội trường đều đứng dậy vỗ tay chúc mừng họ, bầu không khí vô cùng náo nhiệt.",
+    "grammar": ["……的时候，全……都…… (khi…thì toàn bộ…đều…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Yíshì kāishǐ yǐhòu, zhǔchírén qǐng xīnláng xīnniáng hùxiāng shuōchū duì duìfāng de gǎnxiè, hěn duō kèrén dōu gǎndòng de liúlèi le.",
+    "vi": "Sau khi hôn lễ bắt đầu, người dẫn chương trình mời cô dâu chú rể nói lời cảm ơn dành cho nhau, rất nhiều khách mời cảm động đến rơi nước mắt.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jiē xiàlái shì jìngjiǔ huánjié, Xiǎo Lǐ dàizhe xīnniáng yì zhuō yì zhuō de guòlái, xiàng dàjiā biǎoshì gǎnxiè.",
+    "vi": "Tiếp theo là phần mời rượu, 小李 dẫn cô dâu đi từng bàn từng bàn, bày tỏ lời cảm ơn với mọi người.",
+    "grammar": ["一桌一桌地 (từng bàn từng bàn)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lúndào wǒmen zhè yì zhuō de shíhou, Xiǎo Lǐ tèbié jīdòng de shuō, xièxie wǒ zhèxiē nián yìzhí péizhe tā.",
+    "vi": "Khi đến lượt bàn của chúng tôi, 小李 vô cùng xúc động nói lời cảm ơn tôi vì những năm qua luôn ở bên cạnh cậu ấy.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tīngle zhè jù huà, wǒ yě yǒudiǎnr xiǎng kū, xiǎngqǐ wǒmen cóng dàxué dào xiànzài jīnglì de hěn duō shìqing.",
+    "vi": "Nghe câu nói ấy, tôi cũng hơi muốn khóc, nhớ lại biết bao chuyện chúng tôi đã cùng trải qua từ thời đại học đến bây giờ.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Hūnlǐ jiéshù yǐhòu, wǒmen jǐ gè lǎo péngyou liú xiàlái liáotiān, yìqǐ huíyì dàxué shídài de gùshi.",
+    "vi": "Sau khi đám cưới kết thúc, mấy người bạn cũ chúng tôi ở lại trò chuyện, cùng nhau ôn lại những câu chuyện thời đại học.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè cì jīnglì ràng wǒ míngbai, péngyou zhī jiān de gǎnqíng, huì suízhe shíjiān biàn de gèng shēn, gèng zhēnguì.",
+    "vi": "Trải nghiệm lần này khiến tôi hiểu rằng tình cảm giữa bạn bè sẽ theo thời gian mà trở nên càng sâu sắc, càng quý giá hơn.",
+    "grammar": ["随着…… (theo cùng với…)", "更……更…… (càng…càng…)"]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 7,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zuìjìn, wǒ chángcháng juéde méiyǒu lìqi, wǎnshang yě shuì bù hǎo, péngyou jiànyì wǒ qù kànkan zhōngyī.",
+    "vi": "Gần đây, tôi thường cảm thấy không có sức lực, ban đêm cũng ngủ không ngon, bạn tôi khuyên tôi đi khám Đông y thử.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhè shì wǒ dì yī cì kàn zhōngyī, jìnle zhěnsuǒ yǐhòu, gǎnjué huánjìng gēn xīyī yīyuàn hěn bù yíyàng, tèbié ānjìng.",
+    "vi": "Đây là lần đầu tiên tôi đi khám Đông y, sau khi vào phòng khám, tôi cảm thấy môi trường rất khác với bệnh viện Tây y, đặc biệt yên tĩnh.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yīshēng xiān wènle wǒ hěn duō wèntí, bǐrú píngshí chīfàn, shuìjiào de xíguàn, hái yǒu zuìjìn de xīnqíng zěnmeyàng.",
+    "vi": "Trước tiên, bác sĩ hỏi tôi rất nhiều câu hỏi, ví dụ như thói quen ăn uống, ngủ nghỉ thường ngày, và cả tâm trạng gần đây thế nào.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe, yīshēng kànle kàn wǒ de shétou, yòu mōle mō wǒ de mài, shuō zhè shì zhōngyī chángyòng de jiǎnchá fāngfǎ.",
+    "vi": "Tiếp theo, bác sĩ xem lưỡi của tôi, rồi lại bắt mạch cho tôi, nói rằng đây là phương pháp khám thường dùng của Đông y.",
+    "grammar": ["接着…… (tiếp theo)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yīshēng shuō, wǒ de shēntǐ yǒudiǎnr xū, kěnéng shì yīnwèi zuìjìn gōngzuò tài lèi, xiūxi de bú gòu.",
+    "vi": "Bác sĩ nói cơ thể tôi hơi suy nhược, có thể là vì gần đây làm việc quá mệt, nghỉ ngơi không đủ.",
+    "grammar": ["可能是因为…… (có thể là vì…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Tā gěi wǒ kāile yìxiē zhōngyào, hái tíxǐng wǒ, hē zhōngyào de shíhou yào zhùyì, bù néng tóngshí chī tài là de dōngxi.",
+    "vi": "Bác sĩ kê cho tôi một ít thuốc Đông y, còn nhắc tôi rằng khi uống thuốc phải chú ý, không được đồng thời ăn đồ quá cay.",
+    "grammar": ["不能同时…… (không thể đồng thời…)"]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Chúle chī yào, yīshēng hái jiànyì wǒ měi tiān zǎo shuì zǎo qǐ, duō zuò yìxiē jiǎndān de yùndòng, bǐrú sànbù.",
+    "vi": "Ngoài việc uống thuốc, bác sĩ còn khuyên tôi mỗi ngày ngủ sớm dậy sớm, tập thêm một số bài vận động đơn giản, ví dụ như đi bộ.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yì kāishǐ, wǒ juéde zhōngyào de wèidào yǒudiǎnr kǔ, dànshì hēle yí duàn shíjiān yǐhòu, yě mànmàn xíguàn le.",
+    "vi": "Lúc đầu, tôi thấy thuốc Đông y có vị hơi đắng, nhưng sau khi uống được một thời gian thì cũng dần dần quen.",
+    "grammar": ["一开始……但是……也慢慢…… (lúc đầu…nhưng…cũng dần…)"]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Liǎng gè xīngqī yǐhòu, wǒ fāxiàn zìjǐ de jīngshén hǎole hěn duō, shuìmián zhìliàng yě tígāole bù shǎo.",
+    "vi": "Hai tuần sau, tôi nhận thấy tinh thần của mình tốt lên rất nhiều, chất lượng giấc ngủ cũng cải thiện không ít.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 8,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Gōngzuò yǐhòu, wǒ juédìng bānchū fùmǔ jiā, zìjǐ zū yí gè fángzi zhù, tǐyàn yíxià dúlì shēnghuó.",
+    "vi": "Sau khi đi làm, tôi quyết định dọn ra khỏi nhà bố mẹ, tự thuê một căn nhà để ở, trải nghiệm cuộc sống tự lập.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Zhǎo fángzi de guòchéng bǐ wǒ xiǎng de yào huā shíjiān, wǒ kànle chàbuduō shí gè fángzi, cái zhǎodào bǐjiào mǎnyì de.",
+    "vi": "Quá trình tìm nhà tốn thời gian hơn tôi nghĩ, tôi đã xem gần mười căn nhà mới tìm được căn tương đối ưng ý.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Yǒude fángzi jiàgé piányi, dànshì wèizhì tài yuǎn, shàngbān xūyào yí gè xiǎoshí yǐshàng; yǒude wèizhì hǎo, dànshì zūjīn tài guì.",
+    "vi": "Có căn giá rẻ nhưng vị trí quá xa, đi làm mất hơn một tiếng đồng hồ; có căn vị trí tốt nhưng tiền thuê lại quá đắt.",
+    "grammar": ["有的……有的…… (cái này…cái khác…)"]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Zuìhòu, wǒ xuǎnle yí gè wèizhì hé jiàgé dōu bǐjiào héshì de fángzi, suīrán miànjī bú dà, dànshì cǎiguāng hěn hǎo.",
+    "vi": "Cuối cùng, tôi chọn một căn nhà có vị trí và giá cả đều khá phù hợp, tuy diện tích không lớn nhưng ánh sáng rất tốt.",
+    "grammar": ["虽然……但是…… (tuy…nhưng…)"]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Qiān hétóng yǐqián, zhōngjiè tíxǐng wǒ, yídìng yào zǐxì jiǎnchá hétóng shàng de měi yì tiáo nèiróng, búyào zháojí qiānzì.",
+    "vi": "Trước khi ký hợp đồng, người môi giới nhắc tôi nhất định phải kiểm tra kỹ từng điều khoản trong hợp đồng, đừng vội vàng ký tên.",
+    "grammar": ["一定要…… (nhất định phải…)"]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Wǒ rènzhēn kànle hétóng, fāxiàn yǒu yì tiáo guānyú yājīn de guīdìng bú tài qīngchu, jiù qǐng zhōngjiè jiěshìle yíxià.",
+    "vi": "Tôi đọc hợp đồng một cách nghiêm túc, phát hiện có một điều khoản về tiền đặt cọc không rõ ràng lắm, liền nhờ người môi giới giải thích.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Bānjìn xīn jiā yǐhòu, wǒ kāishǐ xuéxí zěnme zìjǐ ānpái shēnghuó, bǐrú zuòfàn, dǎsǎo, jiǎonà gè zhǒng fèiyòng.",
+    "vi": "Sau khi dọn vào nhà mới, tôi bắt đầu học cách tự sắp xếp cuộc sống, ví dụ như nấu ăn, dọn dẹp, đóng các loại chi phí.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Yì kāishǐ, yí gè rén shēnghuó juéde yǒudiǎnr gūdān, dànshì mànmàn de, wǒ yě xiǎngshòu qǐle zhè zhǒng zìyóu de gǎnjué.",
+    "vi": "Lúc đầu, sống một mình cảm thấy hơi cô đơn, nhưng dần dần, tôi cũng bắt đầu tận hưởng cảm giác tự do này.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Xiànzài, měi cì xiàbān huídào zìjǐ de xiǎo fángzi, wǒ dōu juéde tèbié fàngsōng, hǎoxiàng zhōngyú yǒule zhēnzhèng shǔyú zìjǐ de kōngjiān.",
+    "vi": "Bây giờ, mỗi lần tan làm trở về căn nhà nhỏ của mình, tôi đều cảm thấy vô cùng thư thái, dường như cuối cùng đã có một không gian thực sự thuộc về mình.",
+    "grammar": ["好像……了 (dường như đã…)"]
+   }
+  ]
+ }
+]

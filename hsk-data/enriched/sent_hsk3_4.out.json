@@ -1,0 +1,545 @@
+[
+ {
+  "group": "hsk3",
+  "no": 25,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Xué wán xiàngxíngzì, zhǐshìzì, huìyìzì hé xíngshēngzì yǐhòu, lǎoshī shuō, jīntiān zhè jié kè, wǒmen yào yìqǐ huígù Hànzì yǎnbiàn de zhěnggè lìchéng.",
+    "vi": "Sau khi học xong chữ tượng hình, chữ chỉ sự, chữ hội ý và chữ hình thanh, cô giáo nói, tiết học hôm nay chúng ta sẽ cùng nhau ôn lại toàn bộ quá trình diễn biến của chữ Hán.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, zuì zǎo de Hànzì, shì kè zài wūguī ké hé dòngwù gǔtou shang de jiǎgǔwén, zhǔyào yònglái jìlù zhānbǔ de nèiróng.",
+    "vi": "Cô giáo nói, chữ Hán sớm nhất là giáp cốt văn khắc trên mai rùa và xương động vật, chủ yếu dùng để ghi chép nội dung bói toán.",
+    "grammar": [
+     "主要用来…… (chủ yếu dùng để…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Hòulái, rénmen kāishǐ bǎ wénzì kè zài qīngtóngqì shang, zhè zhǒng wénzì jiàozuò jīnwén, bǐhuà bǐ jiǎgǔwén gèngjiā guīzhěng yìxiē.",
+    "vi": "Về sau, người ta bắt đầu khắc chữ lên đồ đồng, loại chữ này gọi là kim văn, nét chữ ngay ngắn hơn giáp cốt văn một chút.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe, Hànzì yòu jīngguò le jǐ cì zhòngyào de biànhuà, cóng bǐjiào fùzá de zhuànshū, mànmàn yǎnbiàn chéng le shūxiě qǐlái gèng fāngbiàn de lìshū.",
+    "vi": "Tiếp đó, chữ Hán lại trải qua mấy lần thay đổi quan trọng, từ triện thư khá phức tạp dần dần diễn biến thành lệ thư viết thuận tiện hơn.",
+    "grammar": [
+     "从……慢慢演变成…… (từ…dần dần tiến hóa thành…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Lìshū yǐhòu, yòu chūxiàn le kǎishū, kǎishū de bǐhuà gèngjiā qīngchu, duānzhèng, yìzhí yǐngxiǎng dào wǒmen xiànzài shǐyòng de Hànzì.",
+    "vi": "Sau lệ thư lại xuất hiện khải thư, nét bút của khải thư rõ ràng, ngay ngắn hơn, ảnh hưởng mãi đến chữ Hán mà chúng ta sử dụng ngày nay.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī shuō, suīrán Hànzì de yàngzi jīngguò le jǐ qiān nián de biànhuà, dànshì hěn duō zì de jīběn jiégòu hé yìsi, qíshí yìzhí bǎoliú le xiàlái.",
+    "vi": "Cô giáo nói, tuy hình dáng của chữ Hán đã trải qua mấy nghìn năm biến đổi, nhưng kết cấu cơ bản và ý nghĩa của rất nhiều chữ thực ra vẫn luôn được giữ lại.",
+    "grammar": [
+     "虽然……但是……其实…… (tuy…nhưng…thực ra…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tīng wán zhè duàn lìshǐ, wǒ tūrán juéde, wǒmen měi tiān xiě de zhèxiē Hànzì, qíshí dōu shì jǐ qiān nián lìshǐ liú xiàlái de bǎoguì cáifù.",
+    "vi": "Nghe xong đoạn lịch sử này, tôi chợt cảm thấy những chữ Hán chúng ta viết mỗi ngày thực ra đều là tài sản quý giá mà mấy nghìn năm lịch sử để lại.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Lǎoshī zuìhòu shuō, liǎojiě le zàozì de fāngfǎ hé Hànzì de yǎnbiàn guòchéng, yǐhòu wǒmen xuéxí xīn de Hànzì, huì juéde gèng yǒu yìsi, yě gèng róngyì jìzhù.",
+    "vi": "Cuối cùng cô giáo nói, khi đã hiểu cách tạo chữ và quá trình diễn biến của chữ Hán, sau này chúng ta học chữ Hán mới sẽ thấy thú vị hơn, cũng dễ nhớ hơn.",
+    "grammar": [
+     "以后……会……也…… (sau này…sẽ…cũng…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhège xuéqī guānyú Hànzì lìshǐ de xuéxí, ràng wǒ duì Zhōngwén zhè mén yǔyán, yǒu le gēn yǐqián wánquán bù yíyàng de gǎnqíng hé lǐjiě.",
+    "vi": "Việc học về lịch sử chữ Hán trong học kỳ này khiến tôi có tình cảm và cách hiểu hoàn toàn khác trước đối với tiếng Trung.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 26,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Xué wán Hànzì de lìshǐ yǐhòu, lǎoshī shuō, jiē xiàlái zhè jǐ jié kè, wǒmen yào zhuānmén yánjiū jǐ gè chángjiàn de bùshǒu, xiān cóng \"mù\" zìpáng kāishǐ.",
+    "vi": "Sau khi học xong lịch sử chữ Hán, cô giáo nói, mấy tiết học tới chúng ta sẽ chuyên nghiên cứu vài bộ thủ thường gặp, bắt đầu từ bộ 木 (mộc).",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, \"mù\" zhège zì běnshēn jiù shì yí gè xiàngxíngzì, yàngzi jiù xiàng yì kē yǒu shùgēn, shùgàn hé shùzhī de shù.",
+    "vi": "Cô giáo nói, chữ 木 bản thân nó chính là một chữ tượng hình, hình dáng giống như một cái cây có rễ, thân và cành.",
+    "grammar": [
+     "本身就是…… (chính bản thân nó là…)"
+    ]
+   },
+   {
+    "idx": 3,
+    "pinyin": "Dàiyǒu \"mù\" zìpáng de zì, dàbùfen dōu gēn shùmù huòzhě mùtou zuò de dōngxi yǒu guānxì, bǐrú \"shù\", \"lín\", \"sēn\" zhè jǐ gè zì.",
+    "vi": "Những chữ mang bộ 木, phần lớn đều liên quan đến cây cối hoặc đồ vật làm bằng gỗ, ví dụ như mấy chữ 树, 林, 森.",
+    "grammar": [
+     "大部分都…… (phần lớn đều…)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Tā jiěshì shuō, \"lín\" shì liǎng gè \"mù\", biǎoshì shù bǐjiào duō; \"sēn\" shì sān gè \"mù\", biǎoshì shù gèng duō, xíngróng màomì de sēnlín.",
+    "vi": "Cô giải thích, 林 là hai chữ 木, biểu thị cây khá nhiều; 森 là ba chữ 木, biểu thị cây còn nhiều hơn nữa, hình dung khu rừng rậm rạp.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Jiēzhe, lǎoshī yòu xiě le \"zhuō\", \"yǐ\", \"chuáng\" zhè jǐ gè zì, shuō zhèxiē dōu shì yòng mùtou zuò de jiājù, suǒyǐ yě dàiyǒu \"mù\" zìpáng.",
+    "vi": "Tiếp đó, cô giáo lại viết mấy chữ 桌, 椅, 床, nói đây đều là đồ nội thất làm bằng gỗ, nên cũng mang bộ 木.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Wǒ tūrán xiǎngdào, \"chéng\" hé \"méi\" zhè liǎng gè zì yě yǒu \"mù\" zìpáng, yīnwèi chéngzi shù hé méi shù, dōu shì néng jiéguǒ de shùmù.",
+    "vi": "Tôi chợt nghĩ ra, hai chữ 橙 và 梅 cũng có bộ 木, vì cây cam và cây mơ đều là cây có thể kết trái.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Lǎoshī shuō, rènshi le \"mù\" zìpáng de guīlǜ yǐhòu, xià cì kàndào yí gè bú rènshi de, dài \"mù\" zìpáng de zì, wǒmen jiù kěyǐ dàgài cāidào, tā gēn shùmù huòzhě mùzhìpǐn yǒuguān.",
+    "vi": "Cô giáo nói, sau khi nắm được quy luật của bộ 木, lần sau nhìn thấy một chữ lạ mang bộ 木, chúng ta có thể đoán được đại khái rằng nó liên quan đến cây cối hoặc đồ gỗ.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Wǒ zhàozhe zhège fāngfǎ, shìzhe cāi le jǐ gè xīn zì de yìsi, fāxiàn suīrán bù néng bǎifēnzhībǎi cāi duì, dànshì cāi duì de kěnéngxìng quèshí tígāo le bù shǎo.",
+    "vi": "Tôi làm theo cách này, thử đoán nghĩa của mấy chữ mới, phát hiện tuy không thể đoán đúng trăm phần trăm, nhưng khả năng đoán đúng quả thật tăng lên không ít.",
+    "grammar": [
+     "虽然……但是…… (tuy…nhưng…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè jié kè ràng wǒ míngbai, bùshǒu jiù xiàng yí gè gè xiǎoxiǎo de xiànsuǒ, néng bāngzhù wǒmen gèng kuài de lǐjiě hé jìzhù Hànzì.",
+    "vi": "Tiết học này giúp tôi hiểu, bộ thủ giống như từng manh mối nho nhỏ, có thể giúp chúng ta hiểu và ghi nhớ chữ Hán nhanh hơn.",
+    "grammar": [
+     "就像……一样 (giống như…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 27,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhè jié kè, lǎoshī dài wǒmen yánjiū \"xīn\" zhège bùshǒu, tā shuō, gǔrén rènwéi, rén de gǎnqíng hé xiǎngfǎ dōu láizì xīnzàng, suǒyǐ hěn duō biǎoshì gǎnqíng de zì, dōu dàiyǒu \"xīn\" zì.",
+    "vi": "Tiết học này, cô giáo dẫn chúng tôi nghiên cứu bộ 心 (tâm), cô nói, người xưa cho rằng tình cảm và suy nghĩ của con người đều bắt nguồn từ trái tim, nên rất nhiều chữ biểu thị tình cảm đều mang chữ 心.",
+    "grammar": [
+     "……都来自…… (đều bắt nguồn từ…)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī xiān xiě le \"xiǎng\" hé \"niàn\" zhè liǎng gè zì, liǎng gè zì xiàmiàn dōu yǒu yí gè \"xīn\", biǎoshì zhèxiē xíngwéi dōu gēn nèixīn de huódòng yǒuguān.",
+    "vi": "Cô giáo viết trước hai chữ 想 và 念, phía dưới cả hai chữ đều có một chữ 心, biểu thị những hành vi này đều liên quan đến hoạt động nội tâm.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Jiēzhe, tā xiě le \"máng\", \"kuài\", \"wàng\" zhè jǐ gè zì, shuō zhè jǐ gè zì zuǒbiān yǒu yí gè shùzhe de \"xīn\", yě jiù shì wǒmen cháng shuō de \"shùxīnpáng\".",
+    "vi": "Tiếp đó, cô viết mấy chữ 忙, 快, 忘, nói bên trái mấy chữ này có một chữ 心 dựng đứng, cũng chính là \"bộ tâm đứng\" (竖心旁) mà chúng ta thường nói.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Wǒ fāxiàn, suīrán xiěfǎ bú tài yíyàng, yí gè zài xiàmiàn, yí gè zài zuǒbiān, dànshì tāmen dōu shì cóng \"xīn\" zhège zì biànhuà chūlái de.",
+    "vi": "Tôi phát hiện, tuy cách viết không giống nhau lắm, một cái ở phía dưới, một cái ở bên trái, nhưng chúng đều là biến thể từ chữ 心 mà ra.",
+    "grammar": [
+     "虽然……但是……都是…… (tuy…nhưng…đều là…)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Lǎoshī yòu jǔ le \"qíng\" zì zuò lìzi, \"qíng\" zì zuǒbiān shì shùxīnpáng, yòubiān shì \"qīng\", biǎoshì zhège zì gēn nèixīn de gǎnshòu yǒu guānxì.",
+    "vi": "Cô giáo lại lấy chữ 情 làm ví dụ, bên trái chữ 情 là bộ tâm đứng, bên phải là chữ 青, biểu thị chữ này liên quan đến cảm nhận trong lòng.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Tā hái tídào, \"pà\", \"nù\", \"hèn\" zhè jǐ gè biǎoshì qíngxù de zì, yě dōu dàiyǒu \"xīn\" zhège bùshǒu, qíngxù yuè qiángliè, hǎoxiàng gēn xīn de guānxì jiù yuè jǐnmì.",
+    "vi": "Cô còn nhắc đến mấy chữ chỉ cảm xúc như 怕, 怒, 恨 cũng đều mang bộ 心; cảm xúc càng mãnh liệt thì dường như quan hệ với \"tâm\" càng chặt chẽ.",
+    "grammar": [
+     "好像……越……就越…… (dường như…càng…thì càng…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Wǒ tūrán xiǎngqǐ, zìjǐ jǐnzhāng de shíhou, xīntiào huì biàn kuài, zhè hǎoxiàng yě néng jiěshì, wèishénme gǔrén huì bǎ gǎnqíng hé \"xīn\" liánxì zài yìqǐ.",
+    "vi": "Tôi chợt nhớ ra, khi mình căng thẳng, tim sẽ đập nhanh hơn, điều này dường như cũng giải thích được vì sao người xưa lại gắn tình cảm với chữ 心.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Lǎoshī shuō, suīrán xiàndài kēxué gàosu wǒmen, gǎnqíng zhǔyào shì yóu dànǎo kòngzhì de, dànshì \"xīn\" zhège bùshǒu, yīrán bǎoliú zài hěn duō gēn gǎnqíng yǒuguān de zì lǐ.",
+    "vi": "Cô giáo nói, tuy khoa học hiện đại cho chúng ta biết tình cảm chủ yếu do não bộ điều khiển, nhưng bộ 心 vẫn được giữ lại trong rất nhiều chữ liên quan đến tình cảm.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè jié kè ràng wǒ juéde, Hànzì bùjǐn jìlù le gǔrén duì shìjiè de guānchá, hái jìlù le tāmen duì zìjǐ nèixīn shìjiè de lǐjiě.",
+    "vi": "Tiết học này khiến tôi cảm thấy, chữ Hán không chỉ ghi lại sự quan sát thế giới của người xưa, mà còn ghi lại cách họ hiểu về thế giới nội tâm của chính mình.",
+    "grammar": [
+     "不仅……还…… (không chỉ…mà còn…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 28,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhè jié kè, lǎoshī dài wǒmen yánjiū \"shǒu\" (扌) zhège bùshǒu, yě jiù shì wǒmen cháng shuō de \"tíshǒupáng\", tā shì cóng \"shǒu\" zhège zì jiǎnhuà biànxíng lái de.",
+    "vi": "Tiết học này, cô giáo dẫn chúng tôi nghiên cứu bộ 扌, cũng chính là \"bộ tay đề\" (提手旁) mà chúng ta thường nói, nó được giản hóa và biến hình từ chữ 手 mà thành.",
+    "grammar": [
+     "也就是我们常说的…… (cũng chính là…mà chúng ta thường gọi…)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, dàiyǒu tíshǒupáng de zì, dàbùfen dōu biǎoshì yòng shǒu wánchéng de dòngzuò, xuéhuì zhège guīlǜ, néng bāngzhù wǒmen jìzhù hěn duō dòngcí.",
+    "vi": "Cô giáo nói, những chữ mang bộ tay đề phần lớn đều biểu thị động tác thực hiện bằng tay, học được quy luật này có thể giúp chúng ta nhớ rất nhiều động từ.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tā xiān xiě le \"dǎ\", \"pāi\", \"bào\" zhè sān gè zì, shuō zhèxiē dōu shì yòng shǒu zuò de dòngzuò, \"dǎ\" shì yòng shǒu jīdǎ, \"pāi\" shì yòng shǒu qīngqīng de pāi, \"bào\" shì yòng shǒubì bàozhù.",
+    "vi": "Cô viết trước ba chữ 打, 拍, 抱, nói đây đều là động tác làm bằng tay: 打 là dùng tay đánh, 拍 là dùng tay vỗ nhẹ, 抱 là dùng cánh tay ôm lấy.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe, tā yòu xiě le \"tuī\" hé \"lā\", shuō zhè liǎng gè zì de yìsi zhènghǎo xiāngfǎn, \"tuī\" shì yòng shǒu xiàng qián yònglì, \"lā\" shì yòng shǒu xiàng zìjǐ fāngxiàng yònglì.",
+    "vi": "Tiếp đó, cô lại viết 推 và 拉, nói nghĩa của hai chữ này vừa đúng trái ngược nhau: 推 là dùng tay đẩy mạnh về phía trước, 拉 là dùng tay kéo về phía mình.",
+    "grammar": [
+     "正好相反 (vừa đối lập nhau)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒ fāxiàn, hěn duō wǒmen měi tiān dōu huì yòngdào de dòngcí, bǐrú \"ná\", \"tí\", \"rēng\", yě dōu dàiyǒu tíshǒupáng, gēn shǒu de dòngzuò yǒu guānxì.",
+    "vi": "Tôi phát hiện, rất nhiều động từ chúng ta dùng đến hằng ngày, như 拿, 提, 扔, cũng đều mang bộ tay đề, liên quan đến động tác của tay.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī tíxǐng wǒmen, suīrán dàbùfen dài tíshǒupáng de zì dōu gēn shǒu yǒuguān, dànshì yě yǒu gèbié lìwài, xūyào dāndú jìzhù, bù néng wánquán yīlài guīlǜ.",
+    "vi": "Cô giáo nhắc nhở chúng tôi, tuy phần lớn chữ mang bộ tay đề đều liên quan đến tay, nhưng cũng có vài ngoại lệ, cần ghi nhớ riêng, không thể hoàn toàn dựa vào quy luật.",
+    "grammar": [
+     "虽然……但是……不能…… (tuy…nhưng…không thể…)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tā hái jǔ le \"wǒ\" zhège zì, suīrán tā kàn qǐlái yě yǒudiǎnr xiàng yǒu tíshǒupáng de yàngzi, dàn qíshí \"wǒ\" zì de lìshǐ bǐjiào tèshū, bìng bú shì zhège guīlǜ lǐ de zì.",
+    "vi": "Cô còn lấy ví dụ chữ 我, tuy trông nó cũng hơi giống như có bộ tay đề, nhưng thực ra lịch sử của chữ 我 khá đặc biệt, hoàn toàn không phải là chữ nằm trong quy luật này.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Tīngdào zhèlǐ, wǒ gèngjiā míngbai, xuéxí bùshǒu guīlǜ hěn yǒuyòng, dàn yě yào bǎochí yídìng de xìxīn, bù néng shénme dōu bù jiā sīkǎo de tàoyòng guīlǜ.",
+    "vi": "Nghe đến đây, tôi càng hiểu rõ, học quy luật bộ thủ rất hữu ích, nhưng cũng phải giữ sự cẩn thận nhất định, không thể cái gì cũng áp dụng quy luật mà không suy nghĩ.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè jié kè ràng wǒ fāxiàn, guānchá yí gè zì de bùshǒu, jiù xiàng shì zài guānchá zhège zì de \"shēnfènzhèng\", néng bāngzhù wǒmen gèng kuài de liǎojiě tā de dàgài yìsi.",
+    "vi": "Tiết học này giúp tôi phát hiện, quan sát bộ thủ của một chữ giống như là đang xem \"chứng minh thư\" của chữ đó, có thể giúp chúng ta hiểu nhanh hơn nghĩa đại khái của nó.",
+    "grammar": [
+     "就像是……一样 (giống như là…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 29,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhè jié kè, lǎoshī dài wǒmen rènshi \"huǒ\" zhège bùshǒu, tā shuō, \"huǒ\" běnshēn yě shì yí gè xiàngxíngzì, yàngzi jiù xiàng ránshāo shí xiàng shàng tiàodòng de huǒmiáo.",
+    "vi": "Tiết học này, cô giáo dẫn chúng tôi làm quen bộ 火 (hỏa), cô nói, 火 bản thân nó cũng là một chữ tượng hình, hình dáng giống như ngọn lửa nhảy múa vươn lên khi cháy.",
+    "grammar": [
+     "本身也是…… (chính bản thân nó cũng là…)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī shuō, dàiyǒu \"huǒ\" zìpáng de zì, dàbùfen dōu gēn huǒ, rè huòzhě guāng yǒu guānxì, bǐrú \"kǎo\", \"shāo\", \"rè\" zhè jǐ gè zì.",
+    "vi": "Cô giáo nói, những chữ mang bộ 火 phần lớn đều liên quan đến lửa, sức nóng hoặc ánh sáng, ví dụ như mấy chữ 烤 (nướng), 烧 (đốt), 热 (nóng).",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Tā jǔ le \"dēng\" zì zuò lìzi, gǔdài de dēng shì yòng huǒ zhàomíng de, suǒyǐ zhège zì dàiyǒu \"huǒ\" zìpáng, suīrán xiànzài de dēng dàduō shì yòng diàn de.",
+    "vi": "Cô lấy chữ 灯 (đèn) làm ví dụ, đèn thời xưa dùng lửa để chiếu sáng nên chữ này mang bộ 火, tuy đèn ngày nay phần lớn dùng điện.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Jiēzhe, lǎoshī xiě le \"huī\" zì, shuō zhège zì biǎoshì dōngxi bèi huǒ shāo guò yǐhòu shèngxià de dōngxi, gēn \"huǒ\" de guānxì yě fēicháng zhíjiē.",
+    "vi": "Tiếp đó, cô giáo viết chữ 灰 (tro), nói chữ này chỉ thứ còn lại sau khi đồ vật bị lửa đốt, quan hệ với 火 cũng rất trực tiếp.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒ fāxiàn, \"liè\" zhège zì suīrán xiěfǎ kàn qǐlái fùzá yìxiē, dànshì xiàmiàn tóngyàng cángzhe \"huǒ\" de biànxíng, biǎoshì huǒshì hěn měngliè de yìsi.",
+    "vi": "Tôi phát hiện, chữ 烈 tuy cách viết trông phức tạp hơn một chút, nhưng phía dưới cũng ẩn chứa biến thể của 火, biểu thị ý nghĩa thế lửa rất dữ dội.",
+    "grammar": [
+     "虽然……但是……同样…… (tuy…nhưng…cũng đồng dạng…)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī hái tídào, yǒuxiē dài \"huǒ\" zìpáng de zì, xiě zài xiàmiàn de shíhou, huì biànchéng sì gè diǎn, zhè zhǒng xiěfǎ jiàozuò \"sìdiǎndǐ\", bǐrú \"zhǔ\" hé \"xióng\" zhè liǎng gè zì.",
+    "vi": "Cô giáo còn nhắc đến, một số chữ mang bộ 火 khi viết ở phía dưới sẽ biến thành bốn dấu chấm, cách viết này gọi là \"bốn chấm đáy\" (四点底), ví dụ hai chữ 煮 và 熊.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tīngdào \"xióng\" zì yě gēn huǒ yǒu guānxì, wǒ juéde tèbié yǒu yìsi, yīnwèi wǒ yìzhí yǐwéi zhège zì zhǐshì gēn dòngwù yǒuguān.",
+    "vi": "Nghe nói chữ 熊 (gấu) cũng liên quan đến lửa, tôi thấy đặc biệt thú vị, vì tôi luôn tưởng rằng chữ này chỉ liên quan đến động vật.",
+    "grammar": [
+     "一直以为…… (luôn tưởng rằng…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Lǎoshī jiěshì shuō, \"xióng\" zì xiàmiàn de sì diǎn, qíshí shì biǎoshì xióng zài hánlěng de shíhou, huì yǒu yì zhǒng xiàng huǒ yíyàng wēnnuǎn de pímáo, bāngzhù bǎonuǎn.",
+    "vi": "Cô giáo giải thích, bốn dấu chấm dưới chữ 熊 thực ra là biểu thị khi trời lạnh giá, gấu có một bộ lông ấm áp như lửa giúp giữ ấm.",
+    "grammar": [
+     "其实是…… (thực ra là…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè jié kè ràng wǒ gèngjiā quèdìng, měi yí gè bùshǒu bèihòu, dōu kěnéng cángzhe yí gè gēn gǔrén shēnghuó jīngyàn yǒuguān de, yǒu yìsi de xiǎo gùshi.",
+    "vi": "Tiết học này khiến tôi càng chắc chắn rằng, đằng sau mỗi bộ thủ đều có thể ẩn giấu một câu chuyện nhỏ thú vị, liên quan đến kinh nghiệm sống của người xưa.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 30,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Zhè shì wǒmen yánjiū bùshǒu de zuìhòu yì jié kè, lǎoshī dài wǒmen rènshi le gēn zǒulù, yídòng yǒuguān de liǎng gè bùshǒu: \"zǒu\" zìpáng hé \"chuò\" (辶).",
+    "vi": "Đây là tiết học cuối cùng chúng tôi nghiên cứu bộ thủ, cô giáo dẫn chúng tôi làm quen hai bộ thủ liên quan đến việc đi lại, di chuyển: bộ 走 (tẩu) và bộ 辶 (sước).",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Lǎoshī xiān shuō le \"zǒu\" zhège bùshǒu, bǐrú \"qǐ\", \"yuè\" zhè liǎng gè zì, dōu dàiyǒu \"zǒu\", biǎoshì gēn zǒudòng huòzhě chāoguò mǒu zhǒng zhuàngtài yǒuguān.",
+    "vi": "Cô giáo nói trước về bộ 走, ví dụ hai chữ 起 và 越 đều mang chữ 走, biểu thị liên quan đến việc đi lại hoặc vượt qua một trạng thái nào đó.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Jiēzhe, tā zhòngdiǎn jiǎng le \"chuò\" (辶) zhège bùshǒu, shuō tā qíshí shì \"zǒu\" zì jìn yí bù jiǎnhuà yǐhòu de xiěfǎ, kàn qǐlái xiàng yì tiáo wānqū de xiǎolù.",
+    "vi": "Tiếp đó, cô giảng trọng tâm về bộ 辶, nói nó thực ra là cách viết sau khi chữ 走 được giản hóa thêm một bước, trông giống như một con đường nhỏ uốn cong.",
+    "grammar": [
+     "其实是……以后的写法 (thực ra là cách viết sau khi…)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Tā jǔ le \"jìn\", \"tuì\" zhè liǎng gè zì zuò lìzi, \"jìn\" biǎoshì xiàng qián yídòng, \"tuì\" biǎoshì xiàng hòu yídòng, liǎng gè zì de yìsi zhènghǎo xiāngfǎn, dōu dàiyǒu \"chuò\" (辶).",
+    "vi": "Cô lấy hai chữ 进 và 退 làm ví dụ: 进 biểu thị di chuyển về phía trước, 退 biểu thị di chuyển về phía sau, nghĩa của hai chữ vừa đúng trái ngược nhau, và đều mang bộ 辶.",
+    "grammar": [
+     "正好相反 (vừa đối lập nhau)"
+    ]
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒ yòu xiǎngdào le \"guò\", \"huán\" zhè liǎng gè zì, yě dōu dàiyǒu \"chuò\" (辶), \"guò\" biǎoshì jīngguò mǒu gè dìfāng, \"huán\" biǎoshì huídào yuánlái de dìfāng.",
+    "vi": "Tôi lại nghĩ đến hai chữ 过 và 还, cũng đều mang bộ 辶: 过 biểu thị đi qua một nơi nào đó, 还 (huán) biểu thị trở về chỗ ban đầu.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī shuō, zhège bùshǒu fēicháng xíngxiàng, yīnwèi tā běnshēn jiù xiàng yì tiáo lù, hěn duō gēn \"yídòng\", \"lùchéng\" yǒuguān de zì, dōu xuǎnzé yòng tā lái biǎoshì xiāngguān de yìsi.",
+    "vi": "Cô giáo nói, bộ thủ này rất giàu tính hình tượng, vì bản thân nó giống như một con đường, rất nhiều chữ liên quan đến \"di chuyển\", \"lộ trình\" đều chọn dùng nó để biểu thị ý nghĩa liên quan.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Tā hái tíxǐng wǒmen, \"zhè\" hé \"nà\" zhè liǎng gè chángyòng zì, yě dàiyǒu \"chuò\" (辶), suīrán tāmen běnshēn bù biǎoshì yídòng, dànshì lìshǐ shàng, tāmen de yìsi gēn zhǐshì fāngxiàng yǒu yídìng guānxì.",
+    "vi": "Cô còn nhắc chúng tôi, hai chữ thường dùng 这 và 那 cũng mang bộ 辶, tuy bản thân chúng không biểu thị sự di chuyển, nhưng trong lịch sử, ý nghĩa của chúng có quan hệ nhất định với việc chỉ phương hướng.",
+    "grammar": [
+     "虽然……但是…… (tuy…nhưng…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Xué wán zhè wǔ jié guānyú bùshǒu de kè, wǒ fāxiàn, zìjǐ kàn Hànzì de fāngshì yǐjīng wánquán bù yíyàng le, bú zài zhǐshì jìzhù bǐhuà, ér shì huì zhǔdòng sīkǎo měi gè bùfen de yìsi.",
+    "vi": "Học xong năm tiết về bộ thủ, tôi phát hiện cách mình nhìn chữ Hán đã hoàn toàn khác, không còn chỉ là ghi nhớ nét chữ, mà là chủ động suy nghĩ về ý nghĩa của từng bộ phận.",
+    "grammar": [
+     "不再只是……而是…… (không còn chỉ là…mà là…)"
+    ]
+   },
+   {
+    "idx": 9,
+    "pinyin": "Lǎoshī zuìhòu shuō, xīwàng wǒmen yǐhòu xuéxí xīn de Hànzì shí, dōu néng xiàng zhè jǐ jié kè yíyàng, duō wèn yi wèn \"wèishénme\", zhèyàng xuéxí huì biàn de gèng yǒu yìsi, yě gèng yǒu xiàolǜ.",
+    "vi": "Cuối cùng cô giáo nói, hy vọng sau này khi học chữ Hán mới, chúng tôi đều có thể giống như mấy tiết học này, hỏi thêm nhiều câu \"vì sao\", như vậy việc học sẽ trở nên thú vị hơn và cũng hiệu quả hơn.",
+    "grammar": []
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 31,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Shàng gè zhōumò, yéye tíyì wǒmen yìqǐ kàn yí bù tā niánqīng shíhou tèbié xǐhuan de lǎo diànyǐng, wǒ suīrán yǒudiǎnr yóuyù, dàn háishì dāyìng le.",
+    "vi": "Cuối tuần trước, ông nội đề nghị cả nhà cùng xem một bộ phim cũ mà hồi trẻ ông đặc biệt thích, tôi tuy hơi do dự nhưng vẫn đồng ý.",
+    "grammar": []
+   },
+   {
+    "idx": 2,
+    "pinyin": "Nà bù diànyǐng shì hēibái de, huàmiàn zhìliàng gēn xiànzài de diànyǐng wánquán bù néng bǐ, yì kāishǐ wǒ juéde yǒudiǎnr bù xíguàn, shènzhì yǒudiǎnr wúliáo.",
+    "vi": "Bộ phim đó là phim đen trắng, chất lượng hình ảnh hoàn toàn không thể so với phim bây giờ, ban đầu tôi thấy hơi không quen, thậm chí hơi chán.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Dànshì suízhe jùqíng mànmàn zhǎnkāi, wǒ fāxiàn, suīrán pāishè jìshù bǐjiào jiǎndān, dànshì gùshi běnshēn fēicháng gǎnrén, yǎnyuán de biǎoyǎn yě hěn zìrán.",
+    "vi": "Nhưng theo tình tiết dần dần mở ra, tôi phát hiện, tuy kỹ thuật quay phim khá đơn giản, nhưng bản thân câu chuyện rất cảm động, diễn xuất của diễn viên cũng rất tự nhiên.",
+    "grammar": [
+     "随着……慢慢…… (theo…dần dần…)"
+    ]
+   },
+   {
+    "idx": 4,
+    "pinyin": "Kàndào yíbàn de shíhou, yéye tūrán shuō, zhè bù diànyǐng tā xiǎo shíhou kàn guò hěn duō cì, měi yí cì dōu huì yīnwèi qízhōng yí gè qíngjié ér liúlèi.",
+    "vi": "Xem được một nửa, ông nội bỗng nói, bộ phim này hồi nhỏ ông đã xem rất nhiều lần, lần nào cũng rơi nước mắt vì một tình tiết trong phim.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Wǒ hàoqí de wèn tā, wèishénme zhème lǎo de diànyǐng, tā hái néng jìde zhème qīngchu, yéye shuō, hǎo de gùshi, shì bú huì yīnwèi shíjiān ér bèi wàngjì de.",
+    "vi": "Tôi tò mò hỏi ông, vì sao bộ phim cũ như vậy mà ông vẫn nhớ rõ đến thế, ông nói, câu chuyện hay sẽ không vì thời gian mà bị lãng quên.",
+    "grammar": [
+     "不会因为……而…… (không vì…mà…)"
+    ]
+   },
+   {
+    "idx": 6,
+    "pinyin": "Diànyǐng jiéshù yǐhòu, yéye gēn wǒ liáo le hěn duō guānyú nàge niándài de shìqing, hái tídào le dāngshí de diànyǐngyuàn hé xiànzài wánquán bù yíyàng.",
+    "vi": "Sau khi phim kết thúc, ông nội kể với tôi rất nhiều chuyện về thời đó, còn nhắc rằng rạp chiếu phim hồi ấy hoàn toàn khác bây giờ.",
+    "grammar": []
+   },
+   {
+    "idx": 7,
+    "pinyin": "Wǒ zhè cái zhīdào, yǐqián kàn diànyǐng shì yí jiàn hěn nándé de shìqing, yì zhāng diànyǐngpiào, yǒushíhou yào páiduì hěn cháng shíjiān cái néng mǎidào.",
+    "vi": "Lúc này tôi mới biết, ngày xưa xem phim là một việc rất hiếm có, một tấm vé xem phim có khi phải xếp hàng rất lâu mới mua được.",
+    "grammar": [
+     "这才知道…… (lúc này mới biết…)"
+    ]
+   },
+   {
+    "idx": 8,
+    "pinyin": "Zhè cì jīnglì ràng wǒ míngbai, diànyǐng bù zhǐshì yúlè fāngshì, yě shì jìlù yí gè shídài shēnghuó hé qínggǎn de zhòngyào zàitǐ.",
+    "vi": "Trải nghiệm lần này giúp tôi hiểu, điện ảnh không chỉ là một hình thức giải trí, mà còn là phương tiện quan trọng ghi lại cuộc sống và tình cảm của cả một thời đại.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Suīrán xiànzài de diànyǐng jìshù yǐjīng jìnbù le hěn duō, dànshì wǒ juéde, nà zhǒng pǔsù yòu zhēnshí de gùshi, yīrán yǒu tā dútè de mèilì.",
+    "vi": "Tuy kỹ thuật điện ảnh ngày nay đã tiến bộ rất nhiều, nhưng tôi thấy kiểu câu chuyện mộc mạc mà chân thực ấy vẫn có sức hút độc đáo riêng của nó.",
+    "grammar": [
+     "虽然……但是……依然…… (tuy…nhưng…vẫn…)"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "hsk3",
+  "no": 32,
+  "sentences": [
+   {
+    "idx": 1,
+    "pinyin": "Qùnián, wǒ zài yí cì xuéxiào de biǎoyǎn huódòng zhōng, dì yī cì tīngdào gǔzhēng yǎnzòu, nà zhǒng dútè de yīnsè ràng wǒ yíxiàzi jiù bèi xīyǐn le.",
+    "vi": "Năm ngoái, trong một buổi biểu diễn của trường, lần đầu tiên tôi được nghe diễn tấu đàn cổ tranh, âm sắc độc đáo ấy khiến tôi ngay lập tức bị cuốn hút.",
+    "grammar": [
+     "一下子就…… (ngay một lúc đã…)"
+    ]
+   },
+   {
+    "idx": 2,
+    "pinyin": "Biǎoyǎn jiéshù yǐhòu, wǒ zhǔdòng qù wèn le nà wèi tán gǔzhēng de tóngxué, cái zhīdào zhè shì yì zhǒng lìshǐ fēicháng yōujiǔ de Zhōngguó chuántǒng yuèqì.",
+    "vi": "Sau buổi biểu diễn, tôi chủ động đến hỏi bạn học gảy đàn cổ tranh, mới biết đây là một loại nhạc cụ truyền thống Trung Quốc có lịch sử rất lâu đời.",
+    "grammar": []
+   },
+   {
+    "idx": 3,
+    "pinyin": "Cóng nà yǐhòu, wǒ juédìng zìjǐ yě kāishǐ xuéxí gǔzhēng, suīrán shēnbiān de péngyǒu dōu juéde, zhè zhǒng chuántǒng yuèqì xué qǐlái yídìng hěn kūzào.",
+    "vi": "Từ đó về sau, tôi quyết định mình cũng bắt đầu học đàn cổ tranh, tuy bạn bè xung quanh đều cho rằng loại nhạc cụ truyền thống này học chắc chắn rất khô khan.",
+    "grammar": []
+   },
+   {
+    "idx": 4,
+    "pinyin": "Dì yī cì shàngkè, lǎoshī xiān jiāo wǒ zěnme zhèngquè de bǎifàng shǒuzhǐ, hái jiǎngjiě le gǔzhēng èrshíyī gēn xián fēnbié dàibiǎo shénme yīngāo.",
+    "vi": "Buổi học đầu tiên, thầy dạy tôi trước cách đặt ngón tay cho đúng, còn giảng giải hai mươi mốt dây của đàn cổ tranh lần lượt đại diện cho những cao độ nào.",
+    "grammar": []
+   },
+   {
+    "idx": 5,
+    "pinyin": "Yì kāishǐ, wǒ de shǒuzhǐ chángcháng pèihé bù hǎo, tán chūlái de shēngyīn gēn lǎoshī de wánquán bù yíyàng, wǒ xīnlǐ yǒudiǎnr zháojí.",
+    "vi": "Ban đầu, các ngón tay tôi thường phối hợp không tốt, âm thanh gảy ra hoàn toàn khác với của thầy, trong lòng tôi hơi sốt ruột.",
+    "grammar": []
+   },
+   {
+    "idx": 6,
+    "pinyin": "Lǎoshī gàosu wǒ, tán gǔzhēng búdàn xūyào jìqiǎo, gèng xūyào nàixīn hé duì yīnyuè de gǎnshòulì, jí bù lái de.",
+    "vi": "Thầy bảo tôi, gảy đàn cổ tranh không những cần kỹ xảo, mà càng cần sự kiên nhẫn và khả năng cảm thụ âm nhạc, không thể vội được.",
+    "grammar": [
+     "不但……更…… (không những…mà càng…)",
+     "急不来的 (không thể vội được)"
+    ]
+   },
+   {
+    "idx": 7,
+    "pinyin": "Wǒ shìzhe fàngmàn sùdù, rènzhēn gǎnshòu měi yí gè yīnfú, mànmàn de, wǒ tán chūlái de xuánlǜ, yě kāishǐ yǒu le yìdiǎnr gǔzhēng tèyǒu de yùnwèi.",
+    "vi": "Tôi thử chậm lại, chăm chú cảm nhận từng nốt nhạc, dần dần, giai điệu tôi gảy ra cũng bắt đầu có chút phong vị đặc trưng của đàn cổ tranh.",
+    "grammar": []
+   },
+   {
+    "idx": 8,
+    "pinyin": "Liànxí le bàn nián yǐhòu, wǒ zài yí cì xiǎoxíng de yīnyuèhuì shàng, dì yī cì wèi dàjiā yǎnzòu le yì shǒu wánzhěng de qǔzi, suīrán hái bú suàn wánměi, dànshì tèbié yǒu chéngjiùgǎn.",
+    "vi": "Sau nửa năm luyện tập, trong một buổi hòa nhạc nhỏ, lần đầu tiên tôi diễn tấu trọn vẹn một bản nhạc cho mọi người, tuy vẫn chưa được coi là hoàn hảo, nhưng tôi đặc biệt có cảm giác thành tựu.",
+    "grammar": []
+   },
+   {
+    "idx": 9,
+    "pinyin": "Zhè duàn xuéxí gǔzhēng de jīnglì ràng wǒ míngbai, chuántǒng yìshù bìng bú xiàng hěn duō rén xiǎngxiàng de nàyàng kūzào, tā qíshí chōngmǎn le zhíde mànmàn fāxiàn de měi.",
+    "vi": "Quãng thời gian học đàn cổ tranh này giúp tôi hiểu, nghệ thuật truyền thống hoàn toàn không khô khan như nhiều người tưởng tượng, nó thực ra chứa đầy vẻ đẹp đáng để từ từ khám phá.",
+    "grammar": [
+     "并不像……那样…… (hoàn toàn không như…)"
+    ]
+   }
+  ]
+ }
+]

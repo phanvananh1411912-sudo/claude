@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK3-Bài 1",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě shuō, gāng kāi shǐ dà xué shēng huó de shí hòu, wèi shén me bù xí guàn?",
+  "cau_hoi_vi": "Tác giả nói, khi mới bắt đầu cuộc sống đại học, vì sao chưa quen?",
+  "options": {
+   "A": {"pinyin": "Yīn wèi kè tài nán le", "vi": "Vì bài học quá khó"},
+   "B": {"pinyin": "Yīn wèi yào zì jǐ xǐ yī fu, dǎ sǎo fáng jiān, guǎn lǐ shí jiān", "vi": "Vì phải tự giặt quần áo, dọn phòng, quản lý thời gian"},
+   "C": {"pinyin": "Yīn wèi méi yǒu péng yǒu", "vi": "Vì không có bạn bè"},
+   "D": {"pinyin": "Yīn wèi xué xiào tài yuǎn", "vi": "Vì trường học quá xa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 1",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě cān jiā le shén me shè tuán?",
+  "cau_hoi_vi": "Tác giả đã tham gia câu lạc bộ nào?",
+  "options": {
+   "A": {"pinyin": "Tǐ yù shè tuán", "vi": "Câu lạc bộ thể thao"},
+   "B": {"pinyin": "Yīn yuè shè tuán", "vi": "Câu lạc bộ âm nhạc"},
+   "C": {"pinyin": "Dú shū shè tuán", "vi": "Câu lạc bộ đọc sách"},
+   "D": {"pinyin": "Wén zhāng méi yǒu shuō", "vi": "Bài viết không nói rõ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 1",
+  "so": 3,
+  "cau_hoi_pinyin": "Dà xué jiào shòu jiǎng kè de fāng shì, gēn gāo zhōng lǎo shī yǒu shén me bù yí yàng?",
+  "cau_hoi_vi": "Cách giảng bài của giáo sư đại học có gì khác so với giáo viên trung học phổ thông?",
+  "options": {
+   "A": {"pinyin": "Jiào shòu jiǎng de gèng jiǎn dān", "vi": "Giáo sư giảng đơn giản hơn"},
+   "B": {"pinyin": "Gèng zhù yì péi yǎng dú lì sī kǎo de néng lì", "vi": "Chú trọng hơn đến việc bồi dưỡng khả năng tư duy độc lập"},
+   "C": {"pinyin": "Jiào shòu cóng lái bù jiǎng kè", "vi": "Giáo sư không bao giờ giảng bài"},
+   "D": {"pinyin": "Wán quán yí yàng, méi yǒu bù tóng", "vi": "Hoàn toàn giống nhau, không có gì khác biệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 1",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuò zhě zài tú shū guǎn xiě lùn wén shí, yù dào wèn tí, fā shēng le shén me?",
+  "cau_hoi_vi": "Khi tác giả viết luận văn ở thư viện, gặp phải vấn đề, chuyện gì đã xảy ra?",
+  "options": {
+   "A": {"pinyin": "Zì jǐ yí gè rén jiě jué le", "vi": "Tự mình một mình giải quyết được"},
+   "B": {"pinyin": "Tóng xué zhǔ dòng guò lái bāng máng, zuò zhě hěn gǎn dòng", "vi": "Bạn học chủ động đến giúp đỡ, tác giả rất cảm động"},
+   "C": {"pinyin": "Fàng qì le xiě lùn wén", "vi": "Từ bỏ việc viết luận văn"},
+   "D": {"pinyin": "Qù wèn le jiào shòu", "vi": "Đi hỏi giáo sư"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 1",
+  "so": 5,
+  "cau_hoi_pinyin": "Yì nián yǐ hòu, zuò zhě duì dà xué shēng huó yǒu shén me xīn de rèn shí?",
+  "cau_hoi_vi": "Một năm sau, tác giả có nhận thức mới gì về cuộc sống đại học?",
+  "options": {
+   "A": {"pinyin": "Dà xué zhǐ shì xué xí zhī shí de dì fāng", "vi": "Đại học chỉ là nơi học kiến thức"},
+   "B": {"pinyin": "Dà xué shēng huó bù zhǐ shì xué zhī shí, gèng shì xué zěn me zhào gù zì jǐ, gēn rén xiāng chǔ", "vi": "Cuộc sống đại học không chỉ là học kiến thức, mà còn là học cách chăm sóc bản thân, hòa hợp với người khác"},
+   "C": {"pinyin": "Dà xué shēng huó bǐ gāo zhōng qīng sōng hěn duō", "vi": "Cuộc sống đại học thoải mái hơn nhiều so với trung học phổ thông"},
+   "D": {"pinyin": "Dà xué shēng huó ràng rén jué de hěn gū dān", "vi": "Cuộc sống đại học khiến người ta cảm thấy rất cô đơn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 2",
+  "so": 1,
+  "cau_hoi_pinyin": "Yì kāi shǐ zhǎo gōng zuò de shí hòu, zuò zhě yù dào le shén me wèn tí?",
+  "cau_hoi_vi": "Khi mới bắt đầu tìm việc, tác giả đã gặp phải vấn đề gì?",
+  "options": {
+   "A": {"pinyin": "Zhǎo dào gōng zuò tài róng yì le", "vi": "Tìm được việc làm quá dễ dàng"},
+   "B": {"pinyin": "Bǎ jiǎn lì fā gěi hěn duō gōng sī, dàn dà bù fèn dōu méi yǒu huí fù", "vi": "Gửi hồ sơ cho rất nhiều công ty, nhưng phần lớn đều không có phản hồi"},
+   "C": {"pinyin": "Méi yǒu shí jiān zhǎo gōng zuò", "vi": "Không có thời gian tìm việc"},
+   "D": {"pinyin": "Bù zhī dào zěn me xiě jiǎn lì", "vi": "Không biết viết hồ sơ như thế nào"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 2",
+  "so": 2,
+  "cau_hoi_pinyin": "Lǎo shī jiàn yì zuò zhě yīng gāi zěn me zuò?",
+  "cau_hoi_vi": "Thầy giáo đề nghị tác giả nên làm thế nào?",
+  "options": {
+   "A": {"pinyin": "Shén me gōng zuò dōu shì zhe shēn qǐng", "vi": "Công việc nào cũng thử nộp đơn ứng tuyển"},
+   "B": {"pinyin": "Xiān xiǎng qīng chǔ zì jǐ zhēn zhèng xiǎng zuò shén me gōng zuò", "vi": "Trước tiên hãy suy nghĩ rõ ràng xem bản thân thực sự muốn làm công việc gì"},
+   "C": {"pinyin": "Xiān qù bié de chéng shì shēng huó", "vi": "Trước tiên đi sống ở thành phố khác"},
+   "D": {"pinyin": "Děng gōng sī zhǔ dòng lián xì zì jǐ", "vi": "Đợi công ty chủ động liên hệ với mình"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 2",
+  "so": 3,
+  "cau_hoi_pinyin": "Dì yī cì miàn shì, jié guǒ zěn me yàng?",
+  "cau_hoi_vi": "Lần phỏng vấn đầu tiên, kết quả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shùn lì bèi lù qǔ le", "vi": "Được tuyển dụng thuận lợi"},
+   "B": {"pinyin": "Yīn wèi tài jǐn zhāng, shuō huà bú shùn lì, méi yǒu bèi lù qǔ", "vi": "Vì quá căng thẳng, nói năng không suôn sẻ, không được tuyển dụng"},
+   "C": {"pinyin": "Miàn shì guān hěn mǎn yì", "vi": "Người phỏng vấn rất hài lòng"},
+   "D": {"pinyin": "Zuò zhě zì jǐ fàng qì le", "vi": "Tác giả tự mình từ bỏ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 2",
+  "so": 4,
+  "cau_hoi_pinyin": "Dì èr cì miàn shì yǐ qián, zuò zhě zuò le shén me zhǔn bèi?",
+  "cau_hoi_vi": "Trước lần phỏng vấn thứ hai, tác giả đã chuẩn bị những gì?",
+  "options": {
+   "A": {"pinyin": "Shén me dōu méi zhǔn bèi", "vi": "Chẳng chuẩn bị gì cả"},
+   "B": {"pinyin": "Zǒng jié jīng yàn, liàn xí huí dá cháng jiàn wèn tí", "vi": "Tổng kết kinh nghiệm, luyện tập trả lời những câu hỏi thường gặp"},
+   "C": {"pinyin": "Qǐng péng yǒu dài tì zì jǐ miàn shì", "vi": "Nhờ bạn bè đi phỏng vấn thay mình"},
+   "D": {"pinyin": "Huàn le yí fèn xīn de jiǎn lì", "vi": "Đổi một bản hồ sơ mới"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 2",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì zhǎo gōng zuò de jīng lì ràng zuò zhě míng bái le shén me dào lǐ?",
+  "cau_hoi_vi": "Trải nghiệm tìm việc lần này đã giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Zhǎo gōng zuò yí dìng yào kào yùn qì", "vi": "Tìm việc nhất định phải dựa vào may mắn"},
+   "B": {"pinyin": "Shī bài bìng bù kě pà, zhòng yào de shì néng cóng zhōng xué dào dōng xī", "vi": "Thất bại không đáng sợ, quan trọng là có thể học được điều gì đó từ trong đó"},
+   "C": {"pinyin": "Dì yī cì miàn shì yǒng yuǎn bú huì chéng gōng", "vi": "Lần phỏng vấn đầu tiên sẽ mãi mãi không thành công"},
+   "D": {"pinyin": "Zhuān yè bú zhòng yào, zhǐ yào nǔ lì jiù xíng", "vi": "Chuyên ngành không quan trọng, chỉ cần nỗ lực là được"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 3",
+  "so": 1,
+  "cau_hoi_pinyin": "Dì yī cì zuò zài jià shǐ zuò shàng, zuò zhě de gǎn jué shì zěn yàng de?",
+  "cau_hoi_vi": "Lần đầu tiên ngồi vào ghế lái, cảm giác của tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Hěn qīng sōng, yì diǎn ér dōu bù jǐn zhāng", "vi": "Rất thoải mái, không hề căng thẳng chút nào"},
+   "B": {"pinyin": "Shǒu yǒu diǎn ér fā dǒu, cāo zuò bù shú liàn", "vi": "Tay hơi run, thao tác chưa thành thạo"},
+   "C": {"pinyin": "Wán quán bú huì jǐn zhāng", "vi": "Hoàn toàn không cảm thấy căng thẳng"},
+   "D": {"pinyin": "Lì kè jiù néng kāi de hěn hǎo", "vi": "Lập tức có thể lái rất giỏi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 3",
+  "so": 2,
+  "cau_hoi_pinyin": "Jiào liàn shì zěn me jiāo zuò zhě de?",
+  "cau_hoi_vi": "Huấn luyện viên đã dạy tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Ràng zuò zhě zì jǐ liàn xí, bù yòng jiāo", "vi": "Để tác giả tự luyện tập, không cần dạy"},
+   "B": {"pinyin": "Hěn yǒu nài xīn, yí bù yí bù de jiāo", "vi": "Rất kiên nhẫn, dạy từng bước một"},
+   "C": {"pinyin": "Zhǐ jiāo le yí cì jiù bú zài jiāo le", "vi": "Chỉ dạy một lần rồi không dạy nữa"},
+   "D": {"pinyin": "Jiāo de hěn kuài, bù gěi zuò zhě shí jiān liàn xí", "vi": "Dạy rất nhanh, không cho tác giả thời gian luyện tập"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 3",
+  "so": 3,
+  "cau_hoi_pinyin": "Zài lù kǒu nà cì, fā shēng le shén me shì?",
+  "cau_hoi_vi": "Lần ở ngã tư đó, đã xảy ra chuyện gì?",
+  "options": {
+   "A": {"pinyin": "Zuò zhě shùn lì tōng guò le lù kǒu", "vi": "Tác giả đã đi qua ngã tư một cách thuận lợi"},
+   "B": {"pinyin": "Zuò zhě yīn wèi jǐn zhāng, chà yì diǎn er chuǎng le hóng dēng", "vi": "Tác giả vì căng thẳng nên suýt vượt đèn đỏ"},
+   "C": {"pinyin": "Zuò zhě de chē huài le", "vi": "Xe của tác giả bị hỏng"},
+   "D": {"pinyin": "Jiào liàn ràng zuò zhě tíng xià lái xiū xī", "vi": "Huấn luyện viên bảo tác giả dừng lại nghỉ ngơi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 3",
+  "so": 4,
+  "cau_hoi_pinyin": "Jīng guò yí gè yuè de liàn xí, zuò zhě de jì shù zěn me yàng?",
+  "cau_hoi_vi": "Qua một tháng luyện tập, kỹ thuật của tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wán quán méi yǒu jìn bù", "vi": "Hoàn toàn không có tiến bộ"},
+   "B": {"pinyin": "Tí gāo le bù shǎo, jiào liàn shuō kě yǐ kǎo shì le", "vi": "Đã tiến bộ khá nhiều, huấn luyện viên nói có thể thi được rồi"},
+   "C": {"pinyin": "Bǐ yǐ qián gèng chà le", "vi": "Còn kém hơn trước"},
+   "D": {"pinyin": "Hái shì bù gǎn kāi chē", "vi": "Vẫn không dám lái xe"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 3",
+  "so": 5,
+  "cau_hoi_pinyin": "Kǎo shì de jié guǒ zěn me yàng?",
+  "cau_hoi_vi": "Kết quả kỳ thi như thế nào?",
+  "options": {
+   "A": {"pinyin": "Méi yǒu tōng guò, xū yào chóng xīn kǎo", "vi": "Không đậu, cần thi lại"},
+   "B": {"pinyin": "Shùn lì tōng guò le kǎo shì, ná dào le jià zhào", "vi": "Đã thi đậu thuận lợi, lấy được bằng lái xe"},
+   "C": {"pinyin": "Yīn wèi tài jǐn zhāng, méi yǒu qù kǎo shì", "vi": "Vì quá căng thẳng nên không đi thi"},
+   "D": {"pinyin": "Kǎo shì bèi qǔ xiāo le", "vi": "Kỳ thi đã bị hủy"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 4",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě zhè cì qù yín háng shì wèi le shén me?",
+  "cau_hoi_vi": "Lần này tác giả đi ngân hàng là vì mục đích gì?",
+  "options": {
+   "A": {"pinyin": "Qǔ qián", "vi": "Rút tiền"},
+   "B": {"pinyin": "Kāi yí gè xīn de yín háng zhàng hù", "vi": "Mở một tài khoản ngân hàng mới"},
+   "C": {"pinyin": "Bàn xìn yòng kǎ", "vi": "Làm thẻ tín dụng"},
+   "D": {"pinyin": "Cún qián", "vi": "Gửi tiền"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 4",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě bù zhī dào zěn me pái duì shí, shì zěn me jiě jué de?",
+  "cau_hoi_vi": "Khi tác giả không biết cách xếp hàng, đã giải quyết như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zì jǐ suí biàn zhǎo le yí gè dì fāng zhàn zhe", "vi": "Tự mình tùy tiện tìm một chỗ đứng"},
+   "B": {"pinyin": "Xiàng gōng zuò rén yuán xún wèn", "vi": "Hỏi nhân viên làm việc"},
+   "C": {"pinyin": "Zhí jiē lí kāi le yín háng", "vi": "Rời khỏi ngân hàng ngay lập tức"},
+   "D": {"pinyin": "Dǎ diàn huà wèn péng yǒu", "vi": "Gọi điện hỏi bạn bè"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 4",
+  "so": 3,
+  "cau_hoi_pinyin": "Bàn lǐ zhàng hù xū yào tí gōng shén me?",
+  "cau_hoi_vi": "Làm thủ tục tài khoản cần cung cấp những gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ xū yào xìng míng", "vi": "Chỉ cần họ tên"},
+   "B": {"pinyin": "Shēn fèn zhèng, hái yào shè zhì mì mǎ", "vi": "Chứng minh thư, còn phải thiết lập mật khẩu"},
+   "C": {"pinyin": "Bù xū yào rèn hé zhèng jiàn", "vi": "Không cần bất kỳ giấy tờ nào"},
+   "D": {"pinyin": "Xū yào yì zhāng zhào piàn", "vi": "Cần một tấm ảnh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 4",
+  "so": 4,
+  "cau_hoi_pinyin": "Gōng zuò rén yuán jiàn yì zuò zhě shùn biàn bàn shén me?",
+  "cau_hoi_vi": "Nhân viên đề nghị tác giả tiện thể làm thêm gì?",
+  "options": {
+   "A": {"pinyin": "Cún zhé", "vi": "Sổ tiết kiệm"},
+   "B": {"pinyin": "Xìn yòng kǎ", "vi": "Thẻ tín dụng"},
+   "C": {"pinyin": "Bǎo xiǎn", "vi": "Bảo hiểm"},
+   "D": {"pinyin": "Shǒu jī kǎ", "vi": "Thẻ sim điện thoại"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 4",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuò zhě zuì hòu wèi shén me jué dìng bú bàn xìn yòng kǎ?",
+  "cau_hoi_vi": "Cuối cùng vì sao tác giả quyết định không làm thẻ tín dụng?",
+  "options": {
+   "A": {"pinyin": "Yīn wèi gōng zuò rén yuán bú jiàn yì bàn", "vi": "Vì nhân viên không đề nghị làm"},
+   "B": {"pinyin": "Yīn wèi dān xīn zì jǐ huā qián méi yǒu jì huà", "vi": "Vì lo lắng bản thân tiêu tiền không có kế hoạch"},
+   "C": {"pinyin": "Yīn wèi bàn xìn yòng kǎ tài má fán", "vi": "Vì làm thẻ tín dụng quá phiền phức"},
+   "D": {"pinyin": "Yīn wèi yín háng bù yǔn xǔ bàn", "vi": "Vì ngân hàng không cho phép làm"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 5",
+  "so": 1,
+  "cau_hoi_pinyin": "Xué xiào zǔ zhī de zhè cì huó dòng shì guān yú shén me de?",
+  "cau_hoi_vi": "Hoạt động lần này do trường tổ chức là về vấn đề gì?",
+  "options": {
+   "A": {"pinyin": "Tǐ yù bǐ sài", "vi": "Thi đấu thể thao"},
+   "B": {"pinyin": "Bǎo hù huán jìng", "vi": "Bảo vệ môi trường"},
+   "C": {"pinyin": "Xué xí lì shǐ", "vi": "Học lịch sử"},
+   "D": {"pinyin": "Yīn yuè biǎo yǎn", "vi": "Biểu diễn âm nhạc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 5",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě yǐ qián de shén me xí guàn, qí shí duì huán jìng bú tài hǎo?",
+  "cau_hoi_vi": "Thói quen nào trước đây của tác giả thực ra không tốt cho môi trường?",
+  "options": {
+   "A": {"pinyin": "Cháng cháng qí zì xíng chē", "vi": "Thường xuyên đi xe đạp"},
+   "B": {"pinyin": "Cháng cháng yòng yí cì xìng de kuài zi hé bēi zi", "vi": "Thường xuyên dùng đũa và cốc dùng một lần"},
+   "C": {"pinyin": "Cháng cháng kàn diàn shì", "vi": "Thường xuyên xem tivi"},
+   "D": {"pinyin": "Cháng cháng yùn dòng", "vi": "Thường xuyên vận động"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 5",
+  "so": 3,
+  "cau_hoi_pinyin": "Cóng nà tiān yǐ hòu, zuò zhě kāi shǐ xué xí shén me?",
+  "cau_hoi_vi": "Từ ngày đó trở đi, tác giả bắt đầu học điều gì?",
+  "options": {
+   "A": {"pinyin": "Zěn me zuò fàn", "vi": "Cách nấu ăn"},
+   "B": {"pinyin": "Zěn me bǎ lā jī fēn lèi", "vi": "Cách phân loại rác"},
+   "C": {"pinyin": "Zěn me kāi chē", "vi": "Cách lái xe"},
+   "D": {"pinyin": "Zěn me shǐ yòng yí cì xìng yòng pǐn", "vi": "Cách sử dụng đồ dùng một lần"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 5",
+  "so": 4,
+  "cau_hoi_pinyin": "Mā mā tīng le zuò zhě fēn xiǎng de huán bǎo zhī shí yǐ hòu, yǒu shén me biàn huà?",
+  "cau_hoi_vi": "Sau khi nghe kiến thức bảo vệ môi trường mà tác giả chia sẻ, mẹ có thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Wán quán méi yǒu biàn huà", "vi": "Hoàn toàn không có thay đổi gì"},
+   "B": {"pinyin": "Kāi shǐ zhù yì jié yuē yòng shuǐ yòng diàn", "vi": "Bắt đầu chú ý tiết kiệm nước và điện"},
+   "C": {"pinyin": "Jué de zuò zhě shuō de bú duì", "vi": "Cho rằng tác giả nói không đúng"},
+   "D": {"pinyin": "Yě kāi shǐ shǐ yòng gèng duō yí cì xìng yòng pǐn", "vi": "Cũng bắt đầu sử dụng nhiều đồ dùng một lần hơn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 5",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuò zhě zuì hòu rèn wéi, bǎo hù huán jìng shì yí jiàn zěn yàng de shì qíng?",
+  "cau_hoi_vi": "Cuối cùng tác giả cho rằng bảo vệ môi trường là việc như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēi cháng kùn nán, pǔ tōng rén zuò bú dào", "vi": "Rất khó khăn, người bình thường không làm được"},
+   "B": {"pinyin": "Bù nán, zhǐ yào měi gè rén dōu zuò yì diǎn ér, jiù néng dài lái gǎi biàn", "vi": "Không khó, chỉ cần mỗi người làm một chút, là có thể tạo ra thay đổi"},
+   "C": {"pinyin": "Gēn zì jǐ méi yǒu guān xì", "vi": "Không liên quan gì đến bản thân"},
+   "D": {"pinyin": "Zhǐ yǒu zhèng fǔ cái néng zuò de shì qíng", "vi": "Là việc chỉ có chính phủ mới làm được"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 6",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě zài zhè cì hūn lǐ shàng, dān rèn shén me jué sè?",
+  "cau_hoi_vi": "Tác giả đảm nhận vai trò gì trong đám cưới lần này?",
+  "options": {
+   "A": {"pinyin": "Zhǔ chí rén", "vi": "Người dẫn chương trình"},
+   "B": {"pinyin": "Bàn láng", "vi": "Phù rể"},
+   "C": {"pinyin": "Xīn láng", "vi": "Chú rể"},
+   "D": {"pinyin": "Kè rén dài biǎo", "vi": "Đại diện khách mời"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 6",
+  "so": 2,
+  "cau_hoi_pinyin": "Xīn láng xīn niáng zǒu jìn lái de shí hòu, quán chǎng de fǎn yìng shì shén me?",
+  "cau_hoi_vi": "Khi chú rể và cô dâu bước vào, phản ứng của cả hội trường là gì?",
+  "options": {
+   "A": {"pinyin": "Dà jiā dōu ān jìng de zuò zhe", "vi": "Mọi người đều ngồi yên lặng"},
+   "B": {"pinyin": "Quán chǎng de rén dōu zhàn qǐ lái, wèi tā men gǔ zhǎng", "vi": "Cả hội trường đứng dậy, vỗ tay chúc mừng họ"},
+   "C": {"pinyin": "Dà jiā dōu lí kāi le huì chǎng", "vi": "Mọi người đều rời khỏi hội trường"},
+   "D": {"pinyin": "Méi yǒu rén zhù yì dào", "vi": "Không ai chú ý đến"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 6",
+  "so": 3,
+  "cau_hoi_pinyin": "Lún dào zuò zhě zhè yì zhuō jìng jiǔ de shí hòu, xiǎo lǐ shuō le shén me?",
+  "cau_hoi_vi": "Khi đến lượt bàn của tác giả mời rượu, Tiểu Lý đã nói gì?",
+  "options": {
+   "A": {"pinyin": "Qǐng dà jiā duō hē jiǔ", "vi": "Mời mọi người uống nhiều rượu hơn"},
+   "B": {"pinyin": "Xiè xiè zuò zhě zhè xiē nián yì zhí péi zhe tā", "vi": "Cảm ơn tác giả những năm qua đã luôn ở bên cạnh cậu ấy"},
+   "C": {"pinyin": "Jiè shào le xīn niáng de jiā rén", "vi": "Giới thiệu người nhà của cô dâu"},
+   "D": {"pinyin": "Shén me dōu méi yǒu shuō", "vi": "Không nói gì cả"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 6",
+  "so": 4,
+  "cau_hoi_pinyin": "Hūn lǐ jié shù yǐ hòu, zuò zhě hé lǎo péng yǒu men zuò le shén me?",
+  "cau_hoi_vi": "Sau khi đám cưới kết thúc, tác giả và những người bạn cũ đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Mǎ shàng gè zì huí jiā le", "vi": "Lập tức ai về nhà nấy"},
+   "B": {"pinyin": "Liú xià lái liáo tiān, huí yì dà xué shí dài de gù shì", "vi": "Ở lại trò chuyện, ôn lại những câu chuyện thời đại học"},
+   "C": {"pinyin": "Qù le lìng yí gè dì fāng qìng zhù", "vi": "Đi đến một nơi khác để ăn mừng"},
+   "D": {"pinyin": "Jì xù bāng máng dǎ sǎo huì chǎng", "vi": "Tiếp tục giúp dọn dẹp hội trường"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 6",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīng lì ràng zuò zhě míng bái le shén me?",
+  "cau_hoi_vi": "Trải nghiệm lần này đã giúp tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Hūn lǐ de liú chéng hěn fù zá", "vi": "Trình tự đám cưới rất phức tạp"},
+   "B": {"pinyin": "Péng yǒu zhī jiān de gǎn qíng huì suí zhe shí jiān biàn de gèng shēn, gèng zhēn guì", "vi": "Tình cảm bạn bè sẽ trở nên sâu đậm hơn, quý giá hơn theo thời gian"},
+   "C": {"pinyin": "Cān jiā hūn lǐ yào zhǔn bèi hěn duō lǐ wù", "vi": "Tham dự đám cưới phải chuẩn bị rất nhiều quà"},
+   "D": {"pinyin": "Dāng bàn láng shì yí jiàn hěn lèi de shì qíng", "vi": "Làm phù rể là một việc rất mệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 7",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě wèi shén me jué dìng qù kàn zhōng yī?",
+  "cau_hoi_vi": "Vì sao tác giả quyết định đi khám Đông y?",
+  "options": {
+   "A": {"pinyin": "Yīn wèi xī yī yī yuàn tài yuǎn", "vi": "Vì bệnh viện Tây y quá xa"},
+   "B": {"pinyin": "Yīn wèi cháng cháng méi yǒu lì qì, wǎn shàng shuì bù hǎo", "vi": "Vì thường xuyên không có sức lực, ban đêm ngủ không ngon"},
+   "C": {"pinyin": "Yīn wèi péng yǒu shēng bìng le", "vi": "Vì bạn bè bị ốm"},
+   "D": {"pinyin": "Yīn wèi xiǎng cháng shì xīn de dōng xī", "vi": "Vì muốn thử điều gì đó mới mẻ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 7",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhōng yī zhěn suǒ de huán jìng, gēn xī yī yī yuàn bǐ qǐ lái zěn me yàng?",
+  "cau_hoi_vi": "Môi trường của phòng khám Đông y so với bệnh viện Tây y như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yí yàng rè nào", "vi": "Náo nhiệt như nhau"},
+   "B": {"pinyin": "Tè bié ān jìng, hěn bù yí yàng", "vi": "Đặc biệt yên tĩnh, rất khác biệt"},
+   "C": {"pinyin": "Gèng chǎo nào", "vi": "Ồn ào hơn"},
+   "D": {"pinyin": "Wén zhāng méi yǒu tí dào huán jìng", "vi": "Bài viết không đề cập đến môi trường"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 7",
+  "so": 3,
+  "cau_hoi_pinyin": "Zhōng yī shì tōng guò shén me fāng fǎ jiǎn chá zuò zhě de shēn tǐ de?",
+  "cau_hoi_vi": "Đông y đã kiểm tra cơ thể tác giả bằng phương pháp gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ shì wèn wèn tí", "vi": "Chỉ hỏi vài câu hỏi"},
+   "B": {"pinyin": "Kàn shé tou, mō mài", "vi": "Xem lưỡi, bắt mạch"},
+   "C": {"pinyin": "Yòng yí qì jiǎn chá", "vi": "Dùng thiết bị để kiểm tra"},
+   "D": {"pinyin": "Ràng zuò zhě zuò yùn dòng", "vi": "Bảo tác giả vận động"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 7",
+  "so": 4,
+  "cau_hoi_pinyin": "Yī shēng chú le kāi yào, hái gěi le zuò zhě shén me jiàn yì?",
+  "cau_hoi_vi": "Ngoài việc kê đơn thuốc, bác sĩ còn đưa ra lời khuyên gì cho tác giả?",
+  "options": {
+   "A": {"pinyin": "Duō chī là de shí wù", "vi": "Ăn nhiều đồ cay"},
+   "B": {"pinyin": "Měi tiān zǎo shuì zǎo qǐ, duō zuò jiǎn dān yùn dòng", "vi": "Mỗi ngày ngủ sớm dậy sớm, vận động nhẹ nhàng nhiều hơn"},
+   "C": {"pinyin": "Wán quán bú yào yùn dòng", "vi": "Hoàn toàn không nên vận động"},
+   "D": {"pinyin": "Měi tiān wǎn shuì wǎn qǐ", "vi": "Mỗi ngày ngủ muộn dậy muộn"}
+  }
+ }
+]

@@ -1,0 +1,722 @@
+[
+ {
+  "bai": "HSK2-Hội thoại 35",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng shǒuxiān xiǎngdào yào jièshào shénme Zhōngguó wénhuà?",
+  "cau_hoi_vi": "Đức Thịnh đầu tiên nghĩ đến việc giới thiệu văn hóa Trung Quốc nào?",
+  "options": {
+   "A": {
+    "pinyin": "Zhōngguó de lìshǐ",
+    "vi": "Lịch sử Trung Quốc"
+   },
+   "B": {
+    "pinyin": "Zhōngguó de měishí, bǐrú jiǎozi, huǒguō",
+    "vi": "Ẩm thực Trung Quốc, ví dụ như sủi cảo, lẩu"
+   },
+   "C": {
+    "pinyin": "Zhōngguó de yīnyuè",
+    "vi": "Âm nhạc Trung Quốc"
+   },
+   "D": {
+    "pinyin": "Zhōngguó de diànyǐng",
+    "vi": "Điện ảnh Trung Quốc"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 35",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù gēn wàiguó rén jièshào wénhuà?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von việc giới thiệu văn hóa với người nước ngoài?",
+  "options": {
+   "A": {
+    "pinyin": "Dǎkāi yì běn shū",
+    "vi": "Mở một quyển sách"
+   },
+   "B": {
+    "pinyin": "Dǎkāi yí ge xiǎoxiǎo de mén",
+    "vi": "Mở một cánh cửa nhỏ nhỏ"
+   },
+   "C": {
+    "pinyin": "Zuò yí dùn fàn",
+    "vi": "Nấu một bữa cơm"
+   },
+   "D": {
+    "pinyin": "Chàng yì shǒu gē",
+    "vi": "Hát một bài hát"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 35",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, yíxiàzi jièshào tài duō wénhuà zhīshi, huì yǒu shénme wèntí?",
+  "cau_hoi_vi": "Vân Anh cho rằng, nếu giới thiệu quá nhiều kiến thức văn hóa cùng một lúc thì sẽ có vấn đề gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu wèntí",
+    "vi": "Hoàn toàn không có vấn đề gì"
+   },
+   "B": {
+    "pinyin": "Biéren kěnéng huì juéde tài duō, bù zhīdào gāi kàn nǎlǐ",
+    "vi": "Người khác có thể sẽ cảm thấy quá nhiều, không biết nên xem chỗ nào"
+   },
+   "C": {
+    "pinyin": "Huì ràng rén gèng gǎn xìngqù",
+    "vi": "Sẽ khiến người ta hứng thú hơn"
+   },
+   "D": {
+    "pinyin": "Huì ràng rén juéde hěn jiǎndān",
+    "vi": "Sẽ khiến người ta cảm thấy rất đơn giản"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 35",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng jiànyì, yòng shénme fāngshì jièshào wénhuà, biéren gèng róngyì jìzhù?",
+  "cau_hoi_vi": "Vân Anh đề nghị dùng cách nào để giới thiệu văn hóa thì người khác dễ nhớ hơn?",
+  "options": {
+   "A": {
+    "pinyin": "Yòng hěn duō zhuānyè de cíyǔ",
+    "vi": "Dùng nhiều từ ngữ chuyên môn"
+   },
+   "B": {
+    "pinyin": "Yòng gùshi huòzhě zìjǐ de jīnglì lái jièshào",
+    "vi": "Dùng câu chuyện hoặc trải nghiệm của bản thân để giới thiệu"
+   },
+   "C": {
+    "pinyin": "Yòng hěn cháng de wénzhāng jièshào",
+    "vi": "Dùng bài viết rất dài để giới thiệu"
+   },
+   "D": {
+    "pinyin": "Zhǐ yòng túpiàn, bú yòng shuōhuà",
+    "vi": "Chỉ dùng hình ảnh, không cần nói"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 35",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Dé Shèng dǎsuàn zěnme zuò?",
+  "cau_hoi_vi": "Cuối chương trình, Đức Thịnh định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú zài gēn wàiguó rén jièshào Zhōngguó wénhuà",
+    "vi": "Quyết định không giới thiệu văn hóa Trung Quốc với người nước ngoài nữa"
+   },
+   "B": {
+    "pinyin": "Xiàcì kěyǐ xiān gēn wàiguó péngyou shuōshuo zìjǐ jiā guò Chūnjié de xiǎo gùshi",
+    "vi": "Lần sau có thể trước tiên kể cho bạn nước ngoài nghe câu chuyện nhỏ về việc nhà mình đón Tết"
+   },
+   "C": {
+    "pinyin": "Qǐng Yún Yīng dàitì tā jièshào",
+    "vi": "Nhờ Vân Anh giới thiệu thay mình"
+   },
+   "D": {
+    "pinyin": "Juédìng zhǐ jièshào měishí, biéde dōu bù shuō",
+    "vi": "Quyết định chỉ giới thiệu ẩm thực, còn lại không nói gì cả"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 36",
+  "so": 1,
+  "cau_hoi_pinyin": "Yún Yīng tídào, zuìjìn niánqīngrén liúxíng shénme?",
+  "cau_hoi_vi": "Vân Anh nhắc đến, gần đây giới trẻ đang thịnh hành cái gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yì zhǒng xīn de shíwù",
+    "vi": "Một loại thức ăn mới"
+   },
+   "B": {
+    "pinyin": "Yì zhǒng xīn de yùndòng fāngshì, hái yǒu yìxiē xīn de shǒujī yìngyòng",
+    "vi": "Một kiểu vận động mới, cùng với một số ứng dụng điện thoại mới"
+   },
+   "C": {
+    "pinyin": "Yì zhǒng xīn de yǔyán",
+    "vi": "Một loại ngôn ngữ mới"
+   },
+   "D": {
+    "pinyin": "Yì zhǒng xīn de diànyǐng",
+    "vi": "Một loại phim mới"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 36",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù liúxíng de dōngxi?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von những thứ đang thịnh hành?",
+  "options": {
+   "A": {
+    "pinyin": "Yì tiáo hé",
+    "vi": "Một con sông"
+   },
+   "B": {
+    "pinyin": "Fēng",
+    "vi": "Gió"
+   },
+   "C": {
+    "pinyin": "Yì běn shū",
+    "vi": "Một quyển sách"
+   },
+   "D": {
+    "pinyin": "Yí zuò shān",
+    "vi": "Một ngọn núi"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 36",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, zhǐ gēnzhe liúxíng, bù zhǎo zìjǐ zhēnzhèng xǐhuan de dōngxi, huì zěnyàng?",
+  "cau_hoi_vi": "Vân Anh cho rằng, nếu chỉ chạy theo trào lưu mà không tìm thứ mình thực sự thích thì sẽ thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu wèntí",
+    "vi": "Hoàn toàn không có vấn đề gì"
+   },
+   "B": {
+    "pinyin": "Děng liúxíng biàn le, kěnéng huì juéde kōngkōng de",
+    "vi": "Khi trào lưu thay đổi, có thể sẽ cảm thấy trống rỗng"
+   },
+   "C": {
+    "pinyin": "Huì jiāodào gèng duō péngyou",
+    "vi": "Sẽ kết bạn được nhiều hơn"
+   },
+   "D": {
+    "pinyin": "Huì biànde gèng shòu huānyíng",
+    "vi": "Sẽ trở nên được yêu thích hơn"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 36",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, wǒmen yīnggāi zěnme duìdài liúxíng de dōngxi?",
+  "cau_hoi_vi": "Vân Anh cho rằng, chúng ta nên đối xử với những thứ đang thịnh hành như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán bú yào gēnzhe liúxíng",
+    "vi": "Hoàn toàn không chạy theo trào lưu"
+   },
+   "B": {
+    "pinyin": "Kěyǐ gēnzhe wán yi wán, dànshì bú yòng tài rènzhēn, yě yào zhǎo zìjǐ zhēnzhèng xǐhuan de",
+    "vi": "Có thể chạy theo chơi thử một chút, nhưng không cần quá nghiêm túc, cũng cần tìm thứ mình thực sự thích"
+   },
+   "C": {
+    "pinyin": "Bìxū yìzhí gēnzhe zuìxīn de liúxíng",
+    "vi": "Phải luôn chạy theo trào lưu mới nhất"
+   },
+   "D": {
+    "pinyin": "Liúxíng de dōngxi dōu bù zhíde chángshì",
+    "vi": "Những thứ thịnh hành đều không đáng để thử"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 36",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Dé Shèng juédìng zuò shénme?",
+  "cau_hoi_vi": "Cuối chương trình, Đức Thịnh quyết định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú zài gēnzhe rènhé liúxíng le",
+    "vi": "Quyết định không chạy theo bất kỳ trào lưu nào nữa"
+   },
+   "B": {
+    "pinyin": "Duō huā shíjiān zhǎo zìjǐ zhēnzhèng xǐhuan de shìqing",
+    "vi": "Dành nhiều thời gian hơn để tìm việc mình thực sự thích"
+   },
+   "C": {
+    "pinyin": "Qǐng Yún Yīng bāng tā juédìng àihào",
+    "vi": "Nhờ Vân Anh giúp mình quyết định sở thích"
+   },
+   "D": {
+    "pinyin": "Juédìng zhǐ zuò liúxíng de shìqing",
+    "vi": "Quyết định chỉ làm những việc đang thịnh hành"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 37",
+  "so": 1,
+  "cau_hoi_pinyin": "Yún Yīng qùguò Chéngdū jǐ cì? Fēnbié shì shénme jìjié?",
+  "cau_hoi_vi": "Vân Anh đã đến Thành Đô mấy lần? Lần lượt là mùa nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yí cì, xiàtiān",
+    "vi": "Một lần, mùa hè"
+   },
+   "B": {
+    "pinyin": "Liǎng cì, chūntiān hé qiūtiān",
+    "vi": "Hai lần, mùa xuân và mùa thu"
+   },
+   "C": {
+    "pinyin": "Sān cì, chūn xià qiū",
+    "vi": "Ba lần, xuân hạ thu"
+   },
+   "D": {
+    "pinyin": "Méiyǒu qùguò Chéngdū",
+    "vi": "Chưa từng đến Thành Đô"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 37",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng shuō, chūntiān de Chéngdū shì shénme yàngzi de?",
+  "cau_hoi_vi": "Vân Anh nói, Thành Đô vào mùa xuân trông như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Dàochù dōu shì xuě",
+    "vi": "Khắp nơi đều là tuyết"
+   },
+   "B": {
+    "pinyin": "Dàochù dōu shì huā, tèbié piàoliang",
+    "vi": "Khắp nơi đều là hoa, đặc biệt đẹp"
+   },
+   "C": {
+    "pinyin": "Tiānqì hěn rè",
+    "vi": "Thời tiết rất nóng"
+   },
+   "D": {
+    "pinyin": "Méiyǒu shénme tèbié de",
+    "vi": "Không có gì đặc biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 37",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù yí ge chéngshì bùtóng de jìjié?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von các mùa khác nhau của một thành phố?",
+  "options": {
+   "A": {
+    "pinyin": "Chuān bùtóng de yīfu",
+    "vi": "Mặc những bộ quần áo khác nhau"
+   },
+   "B": {
+    "pinyin": "Huàn bùtóng de míngzi",
+    "vi": "Đổi những cái tên khác nhau"
+   },
+   "C": {
+    "pinyin": "Biànchéng bùtóng de dòngwù",
+    "vi": "Biến thành những con vật khác nhau"
+   },
+   "D": {
+    "pinyin": "Jiǎng bùtóng de yǔyán",
+    "vi": "Nói những ngôn ngữ khác nhau"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 37",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, wèishénme hěn nán shuō Chéngdū nǎge jìjié \"zuì\" měi?",
+  "cau_hoi_vi": "Vân Anh cho rằng, tại sao rất khó nói mùa nào ở Thành Đô là đẹp \"nhất\"?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi Chéngdū yì nián sìjì dōu yíyàng",
+    "vi": "Vì Thành Đô bốn mùa trong năm đều giống nhau"
+   },
+   "B": {
+    "pinyin": "Yīnwèi měi ge jìjié dōu yǒu zìjǐ de měi",
+    "vi": "Vì mỗi mùa đều có vẻ đẹp riêng của nó"
+   },
+   "C": {
+    "pinyin": "Yīnwèi tā zhǐ qùguò yí cì",
+    "vi": "Vì cô ấy chỉ mới đến một lần"
+   },
+   "D": {
+    "pinyin": "Yīnwèi Chéngdū de tiānqì yìzhí bù hǎo",
+    "vi": "Vì thời tiết Thành Đô luôn không tốt"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 37",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Dé Shèng juédìng zěnme zuò?",
+  "cau_hoi_vi": "Cuối chương trình, Đức Thịnh quyết định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú qù Chéngdū le",
+    "vi": "Quyết định không đi Thành Đô nữa"
+   },
+   "B": {
+    "pinyin": "Xiǎnghǎo zìjǐ xǐhuan de jìjié, zài jìhuà yí cì Chéngdū de lǚxíng",
+    "vi": "Nghĩ kỹ xem mình thích mùa nào rồi lên kế hoạch cho một chuyến đi Thành Đô"
+   },
+   "C": {
+    "pinyin": "Qǐng Yún Yīng bāng tā juédìng shénme shíhou qù",
+    "vi": "Nhờ Vân Anh giúp quyết định khi nào đi"
+   },
+   "D": {
+    "pinyin": "Juédìng mǎshàng chūfā, bú yòng xiǎng jìjié",
+    "vi": "Quyết định lên đường ngay, không cần nghĩ đến mùa nào"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 38",
+  "so": 1,
+  "cau_hoi_pinyin": "Yún Yīng zuì xiǎng qù nǎlǐ lǚyóu?",
+  "cau_hoi_vi": "Vân Anh thích nhất muốn đi du lịch ở đâu?",
+  "options": {
+   "A": {
+    "pinyin": "Rìběn",
+    "vi": "Nhật Bản"
+   },
+   "B": {
+    "pinyin": "Bīngdǎo",
+    "vi": "Iceland"
+   },
+   "C": {
+    "pinyin": "Fǎguó",
+    "vi": "Pháp"
+   },
+   "D": {
+    "pinyin": "Měiguó",
+    "vi": "Mỹ"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 38",
+  "so": 2,
+  "cau_hoi_pinyin": "Dé Shèng zuì xiǎng qù nǎlǐ? Wèishénme?",
+  "cau_hoi_vi": "Đức Thịnh thích nhất muốn đi đâu? Vì sao?",
+  "options": {
+   "A": {
+    "pinyin": "Bīngdǎo, yīnwèi xiǎng kàn jíguāng",
+    "vi": "Iceland, vì muốn ngắm cực quang"
+   },
+   "B": {
+    "pinyin": "Rìběn, yīnwèi xiǎng kàn yīnghuā hé chéngshì",
+    "vi": "Nhật Bản, vì muốn ngắm hoa anh đào và thành phố"
+   },
+   "C": {
+    "pinyin": "Zhōngguó, yīnwèi xiǎng kàn Chángchéng",
+    "vi": "Trung Quốc, vì muốn xem Vạn Lý Trường Thành"
+   },
+   "D": {
+    "pinyin": "Tàiguó, yīnwèi xiǎng kàn hǎi",
+    "vi": "Thái Lan, vì muốn ngắm biển"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 38",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù xīnlǐ yìzhí xiǎng qù de dìfang?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von nơi mà mình luôn muốn đến trong lòng?",
+  "options": {
+   "A": {
+    "pinyin": "Yì běn méi kànwán de shū",
+    "vi": "Một quyển sách chưa đọc xong"
+   },
+   "B": {
+    "pinyin": "Yì kē zhòng zài xīnlǐ de zhǒngzi",
+    "vi": "Một hạt giống gieo trong lòng"
+   },
+   "C": {
+    "pinyin": "Yì zhāng méi yòngguò de piào",
+    "vi": "Một tấm vé chưa dùng"
+   },
+   "D": {
+    "pinyin": "Yí ge méi dǎkāi de lǐwù",
+    "vi": "Một món quà chưa mở"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 38",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, hái méi qù xiǎng qù de dìfang, yīnggāi zěnme kàndài?",
+  "cau_hoi_vi": "Vân Anh cho rằng, nơi mình muốn đến mà chưa đến được thì nên nhìn nhận như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnggāi juéde hěn yíhàn",
+    "vi": "Nên cảm thấy rất tiếc nuối"
+   },
+   "B": {
+    "pinyin": "Bú yòng yíhàn, zhòngyào de shì yìzhí wèi zhège mùbiāo zuò zhǔnbèi",
+    "vi": "Không cần tiếc nuối, quan trọng là luôn chuẩn bị cho mục tiêu đó"
+   },
+   "C": {
+    "pinyin": "Yīnggāi fàngqì zhège xiǎngfǎ",
+    "vi": "Nên từ bỏ ý nghĩ đó"
+   },
+   "D": {
+    "pinyin": "Yīnggāi mǎshàng jiè qián qù",
+    "vi": "Nên vay tiền đi ngay lập tức"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 38",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Dé Shèng juédìng zuò shénme?",
+  "cau_hoi_vi": "Cuối chương trình, Đức Thịnh quyết định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú qù Rìběn le",
+    "vi": "Quyết định không đi Nhật Bản nữa"
+   },
+   "B": {
+    "pinyin": "Cóng jīntiān kāishǐ cún qián, wèi qù Rìběn zuò zhǔnbèi",
+    "vi": "Bắt đầu từ hôm nay tiết kiệm tiền để chuẩn bị đi Nhật Bản"
+   },
+   "C": {
+    "pinyin": "Juédìng xiān qù Bīngdǎo",
+    "vi": "Quyết định đi Iceland trước"
+   },
+   "D": {
+    "pinyin": "Qǐng Yún Yīng bāng tā jìhuà xíngchéng",
+    "vi": "Nhờ Vân Anh giúp lên kế hoạch hành trình"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 39",
+  "so": 1,
+  "cau_hoi_pinyin": "Chūnjié zuì zhòngyào de yí dùn fàn shì shénme?",
+  "cau_hoi_vi": "Bữa ăn quan trọng nhất của Tết Nguyên Đán là bữa nào?",
+  "options": {
+   "A": {
+    "pinyin": "Zǎofàn",
+    "vi": "Bữa sáng"
+   },
+   "B": {
+    "pinyin": "Niányèfàn",
+    "vi": "Bữa cơm tất niên"
+   },
+   "C": {
+    "pinyin": "Wǔfàn",
+    "vi": "Bữa trưa"
+   },
+   "D": {
+    "pinyin": "Xiàwǔchá",
+    "vi": "Trà chiều"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 39",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhōngqiūjié, dàjiā yìbān huì chī shénme, hái huì zuò shénme?",
+  "cau_hoi_vi": "Vào Tết Trung Thu, mọi người thường ăn gì, và còn làm gì nữa?",
+  "options": {
+   "A": {
+    "pinyin": "Chī zòngzi, kàn yānhuā",
+    "vi": "Ăn bánh ú, xem pháo hoa"
+   },
+   "B": {
+    "pinyin": "Chī yuèbǐng, kàn yuèliang",
+    "vi": "Ăn bánh trung thu, ngắm trăng"
+   },
+   "C": {
+    "pinyin": "Chī tāngyuán, fàng fēngzheng",
+    "vi": "Ăn bánh trôi, thả diều"
+   },
+   "D": {
+    "pinyin": "Chī niángāo, kàn diànyǐng",
+    "vi": "Ăn bánh tổ, xem phim"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 39",
+  "so": 3,
+  "cau_hoi_pinyin": "Duānwǔjié chī de zòngzi, shì yòng shénme zuò de?",
+  "cau_hoi_vi": "Bánh ú ăn vào Tết Đoan Ngọ được làm từ gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yòng miànfěn zuò de",
+    "vi": "Làm từ bột mì"
+   },
+   "B": {
+    "pinyin": "Yòng yèzi bāozhe mǐ zuò de",
+    "vi": "Làm từ gạo được gói trong lá"
+   },
+   "C": {
+    "pinyin": "Yòng jīdàn zuò de",
+    "vi": "Làm từ trứng gà"
+   },
+   "D": {
+    "pinyin": "Yòng shuǐguǒ zuò de",
+    "vi": "Làm từ trái cây"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 39",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù měi ge jiérì de shíwù?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von món ăn của mỗi lễ hội?",
+  "options": {
+   "A": {
+    "pinyin": "Yì běn shū",
+    "vi": "Một quyển sách"
+   },
+   "B": {
+    "pinyin": "Yì zhāng xiǎoxiǎo de míngpiàn",
+    "vi": "Một tấm danh thiếp nhỏ nhỏ"
+   },
+   "C": {
+    "pinyin": "Yì zhāng dìtú",
+    "vi": "Một tấm bản đồ"
+   },
+   "D": {
+    "pinyin": "Yí jiàn lǐwù",
+    "vi": "Một món quà"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 39",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Yún Yīng hé Dé Shèng dǎsuàn zuò shénme?",
+  "cau_hoi_vi": "Cuối chương trình, Vân Anh và Đức Thịnh định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú zài liáo jiérì de huàtí",
+    "vi": "Quyết định không nói về chủ đề lễ hội nữa"
+   },
+   "B": {
+    "pinyin": "Xiàcì zài liáoliao mǒu yí ge jiérì bèihòu de gùshi",
+    "vi": "Lần sau sẽ nói thêm về câu chuyện phía sau một lễ hội nào đó"
+   },
+   "C": {
+    "pinyin": "Yìqǐ qù mǎi zhèxiē shíwù",
+    "vi": "Cùng nhau đi mua những món ăn này"
+   },
+   "D": {
+    "pinyin": "Juédìng zìjǐ zài jiā zuò zhèxiē shíwù",
+    "vi": "Quyết định tự làm những món ăn này ở nhà"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 40",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng zuìjìn tīngdào de gēmíng shì shénme?",
+  "cau_hoi_vi": "Tên bài hát mà Đức Thịnh mới nghe gần đây là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Jīnyè de fēng, zuóyè de yuè",
+    "vi": "Gió đêm nay, trăng đêm qua"
+   },
+   "B": {
+    "pinyin": "Zuóyè de fēng, jīnyè de yuè",
+    "vi": "Gió đêm qua, trăng đêm nay"
+   },
+   "C": {
+    "pinyin": "Jīntiān de fēng, míngtiān de yuè",
+    "vi": "Gió hôm nay, trăng ngày mai"
+   },
+   "D": {
+    "pinyin": "Zuótiān de yǔ, jīntiān de fēng",
+    "vi": "Mưa hôm qua, gió hôm nay"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 40",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, Zhōngwén gēmíng wèishénme xǐhuan yòng \"fēng\" hé \"yuè\"?",
+  "cau_hoi_vi": "Vân Anh cho rằng, vì sao tên bài hát tiếng Trung thích dùng chữ \"gió\" và \"trăng\"?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi fēng hé yuè hěn róngyì huà chūlái",
+    "vi": "Vì gió và trăng rất dễ vẽ ra"
+   },
+   "B": {
+    "pinyin": "Yīnwèi tāmen kàn bú jiàn mō bù zháo, yòu néng ràng rén gǎnjué dào shíjiān zài biànhuà",
+    "vi": "Vì chúng nhìn không thấy sờ không được, lại có thể khiến người ta cảm nhận được thời gian đang trôi"
+   },
+   "C": {
+    "pinyin": "Yīnwèi fēng hé yuè de míngzi hěn hǎo xiě",
+    "vi": "Vì tên chữ gió và trăng rất dễ viết"
+   },
+   "D": {
+    "pinyin": "Yīnwèi méiyǒu bié de dōngxi kěyǐ yòng",
+    "vi": "Vì không có thứ nào khác để dùng"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 40",
+  "so": 3,
+  "cau_hoi_pinyin": "Guānyú \"zuóyè de fēng\" hé \"jīnyè de yuè\", Yún Yīng shì zěnme lǐjiě de?",
+  "cau_hoi_vi": "Về \"gió đêm qua\" và \"trăng đêm nay\", Vân Anh hiểu như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Tāmen shuō de shì tóng yí ge wǎnshàng",
+    "vi": "Chúng nói về cùng một đêm"
+   },
+   "B": {
+    "pinyin": "Tāmen shì zài shuō, zuótiān hé jīntiān yǐjīng shì bùtóng de shíjiān",
+    "vi": "Chúng đang nói rằng hôm qua và hôm nay đã là hai thời điểm khác nhau"
+   },
+   "C": {
+    "pinyin": "Tāmen gēn shíjiān méiyǒu guānxì",
+    "vi": "Chúng không liên quan gì đến thời gian"
+   },
+   "D": {
+    "pinyin": "Tāmen shì zài shuō tiānqì bù hǎo",
+    "vi": "Chúng đang nói về thời tiết xấu"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 40",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng yòng shénme lái bǐyù zhèyàng jiǎndān yòu yǒu yìsi de gēmíng?",
+  "cau_hoi_vi": "Vân Anh dùng gì để ví von những tên bài hát vừa đơn giản vừa thú vị như vậy?",
+  "options": {
+   "A": {
+    "pinyin": "Yì běn hěn hòu de shū",
+    "vi": "Một quyển sách rất dày"
+   },
+   "B": {
+    "pinyin": "Yì zhāng zhǐ yǒu jǐ bǐ de huà",
+    "vi": "Một bức tranh chỉ có vài nét"
+   },
+   "C": {
+    "pinyin": "Yì fēng hěn cháng de xìn",
+    "vi": "Một bức thư rất dài"
+   },
+   "D": {
+    "pinyin": "Yí bù hěn cháng de diànyǐng",
+    "vi": "Một bộ phim rất dài"
+   }
+  }
+ },
+ {
+  "bai": "HSK2-Hội thoại 40",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiémù zuìhòu, Dé Shèng juédìng zěnme zuò?",
+  "cau_hoi_vi": "Cuối chương trình, Đức Thịnh quyết định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng bú zài guānzhù zhè zhǒng gēmíng le",
+    "vi": "Quyết định không để ý đến kiểu tên bài hát này nữa"
+   },
+   "B": {
+    "pinyin": "Yǐhòu duō zhùyì zhè zhǒng jiǎndān yòu yǒu yìsi de shuōfǎ",
+    "vi": "Sau này sẽ chú ý nhiều hơn đến cách diễn đạt vừa đơn giản vừa thú vị này"
+   },
+   "C": {
+    "pinyin": "Qǐng Yún Yīng bāng tā xiě yì shǒu gē",
+    "vi": "Nhờ Vân Anh giúp mình viết một bài hát"
+   },
+   "D": {
+    "pinyin": "Juédìng qù xué chàng zhè shǒu gē",
+    "vi": "Quyết định đi học hát bài hát này"
+   }
+  }
+ }
+]

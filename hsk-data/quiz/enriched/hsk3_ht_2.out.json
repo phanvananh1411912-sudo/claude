@@ -1,0 +1,842 @@
+[
+ {
+  "bai": "HSK3-Hội thoại 4",
+  "so": 1,
+  "cau_hoi_pinyin": "Xióng māo zhǔ yào shēng huó zài nǎ ge dì qū?",
+  "cau_hoi_vi": "Gấu trúc chủ yếu sống ở khu vực nào?",
+  "options": {
+   "A": {
+    "pinyin": "Dōng běi",
+    "vi": "Đông Bắc"
+   },
+   "B": {
+    "pinyin": "Sì chuān yí dài",
+    "vi": "Vùng Tứ Xuyên"
+   },
+   "C": {
+    "pinyin": "Xī zàng",
+    "vi": "Tây Tạng"
+   },
+   "D": {
+    "pinyin": "Ān huī",
+    "vi": "An Huy"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 4",
+  "so": 2,
+  "cau_hoi_pinyin": "Xióng māo wèi shén me yào chī zhè me cháng shí jiān de zhú zi?",
+  "cau_hoi_vi": "Vì sao gấu trúc phải ăn tre trong một thời gian dài như vậy?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi tā men tè bié tān chī",
+    "vi": "Vì chúng đặc biệt tham ăn"
+   },
+   "B": {
+    "pinyin": "Yīn wèi zhú zi de yíng yǎng bìng bú suàn tè bié gāo",
+    "vi": "Vì giá trị dinh dưỡng của tre không hẳn là cao"
+   },
+   "C": {
+    "pinyin": "Yīn wèi zhú zi hěn nán zhǎo dào",
+    "vi": "Vì tre rất khó tìm thấy"
+   },
+   "D": {
+    "pinyin": "Yīn wèi tā men bù xǐ huān bié de shí wù",
+    "vi": "Vì chúng không thích thức ăn khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 4",
+  "so": 3,
+  "cau_hoi_pinyin": "Kē xué jiā rèn wéi, xióng māo de hēi bái yán sè kě néng yǒu shén me zuò yòng?",
+  "cau_hoi_vi": "Các nhà khoa học cho rằng, màu đen trắng của gấu trúc có thể có tác dụng gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ shì wèi le hǎo kàn",
+    "vi": "Chỉ là để cho đẹp mắt"
+   },
+   "B": {
+    "pinyin": "Bāng zhù tā men zài xuě dì hé shù lín jiān yǐn cáng zì jǐ",
+    "vi": "Giúp chúng ẩn mình giữa vùng tuyết và rừng cây"
+   },
+   "C": {
+    "pinyin": "Bāng zhù tā men yóu yǒng",
+    "vi": "Giúp chúng bơi lội"
+   },
+   "D": {
+    "pinyin": "Méi yǒu rèn hé zuò yòng",
+    "vi": "Không có tác dụng gì cả"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 4",
+  "so": 4,
+  "cau_hoi_pinyin": "Xiàn zài xióng māo de shù liàng gēn yǐ qián bǐ qǐ lái zěn me yàng?",
+  "cau_hoi_vi": "Hiện nay số lượng gấu trúc so với trước đây thì thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Biàn shǎo le hěn duō",
+    "vi": "Đã giảm đi nhiều"
+   },
+   "B": {
+    "pinyin": "Bǐ yǐ qián duō le bù shǎo",
+    "vi": "So với trước đây đã tăng lên không ít"
+   },
+   "C": {
+    "pinyin": "Wán quán méi yǒu biàn huà",
+    "vi": "Hoàn toàn không có thay đổi"
+   },
+   "D": {
+    "pinyin": "Yǐ jīng xiāo shī le",
+    "vi": "Đã biến mất rồi"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 4",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiàn zài, xióng māo zài Zhōng guó dài biǎo zhe shén me?",
+  "cau_hoi_vi": "Hiện nay, gấu trúc đại diện cho điều gì ở Trung Quốc?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ shì yì zhǒng pǔ tōng de dòng wù",
+    "vi": "Chỉ là một loài động vật bình thường"
+   },
+   "B": {
+    "pinyin": "Yí gè zhòng yào de xiàng zhēng, dài biǎo hé píng, yǒu hǎo",
+    "vi": "Một biểu tượng quan trọng, đại diện cho hòa bình, hữu nghị"
+   },
+   "C": {
+    "pinyin": "Wēi xiǎn de xiàng zhēng",
+    "vi": "Biểu tượng của sự nguy hiểm"
+   },
+   "D": {
+    "pinyin": "Gēn Zhōng guó wén huà méi yǒu guān xì",
+    "vi": "Không liên quan gì đến văn hóa Trung Quốc"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 5",
+  "so": 1,
+  "cau_hoi_pinyin": "Běi fāng rén hé nán fāng rén de zhǔ shí yǒu shén me bù tóng?",
+  "cau_hoi_vi": "Lương thực chính của người miền Bắc và người miền Nam có gì khác nhau?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán yí yàng",
+    "vi": "Hoàn toàn giống nhau"
+   },
+   "B": {
+    "pinyin": "Běi fāng rén xǐ huān chī miàn shí, nán fāng rén bǐ jiào xǐ huān chī mǐ fàn",
+    "vi": "Người miền Bắc thích ăn đồ làm từ bột mì, người miền Nam thích ăn cơm hơn"
+   },
+   "C": {
+    "pinyin": "Běi fāng rén zhǐ chī mǐ fàn",
+    "vi": "Người miền Bắc chỉ ăn cơm"
+   },
+   "D": {
+    "pinyin": "Nán fāng rén zhǐ chī miàn shí",
+    "vi": "Người miền Nam chỉ ăn đồ bột mì"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 5",
+  "so": 2,
+  "cau_hoi_pinyin": "Wèi shén me běi fāng shì hé zhòng xiǎo mài, nán fāng shì hé zhòng shuǐ dào?",
+  "cau_hoi_vi": "Vì sao miền Bắc thích hợp trồng lúa mì, miền Nam thích hợp trồng lúa nước?",
+  "options": {
+   "A": {
+    "pinyin": "Gēn qì hòu hé dì lǐ tiáo jiàn yǒu guān",
+    "vi": "Liên quan đến khí hậu và điều kiện địa lý"
+   },
+   "B": {
+    "pinyin": "Wán quán méi yǒu yuán yīn",
+    "vi": "Hoàn toàn không có nguyên nhân gì"
+   },
+   "C": {
+    "pinyin": "Yīn wèi běi fāng rén bù xǐ huān shuǐ dào",
+    "vi": "Vì người miền Bắc không thích lúa nước"
+   },
+   "D": {
+    "pinyin": "Yīn wèi nán fāng méi yǒu tǔ dì",
+    "vi": "Vì miền Nam không có đất đai"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 5",
+  "so": 3,
+  "cau_hoi_pinyin": "Běi fāng hé nán fāng de tiān qì yǒu shén me bù tóng?",
+  "cau_hoi_vi": "Thời tiết miền Bắc và miền Nam khác nhau như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán yí yàng",
+    "vi": "Hoàn toàn giống nhau"
+   },
+   "B": {
+    "pinyin": "Běi fāng sì jì fēn míng, dōng tiān lěng xià tiān rè; nán fāng dōng tiān méi nà me lěng, xià tiān bǐ jiào shī",
+    "vi": "Miền Bắc bốn mùa rõ rệt, mùa đông lạnh mùa hè nóng; miền Nam mùa đông không lạnh lắm, mùa hè khá ẩm"
+   },
+   "C": {
+    "pinyin": "Běi fāng yì zhí hěn rè",
+    "vi": "Miền Bắc lúc nào cũng nóng"
+   },
+   "D": {
+    "pinyin": "Nán fāng yì zhí hěn lěng",
+    "vi": "Miền Nam lúc nào cũng lạnh"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 5",
+  "so": 4,
+  "cau_hoi_pinyin": "Guān yú nán běi fāng de yǔ yán, wén zhāng shuō le shén me?",
+  "cau_hoi_vi": "Về ngôn ngữ giữa miền Nam và miền Bắc, bài viết nói gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán yí yàng, méi yǒu qū bié",
+    "vi": "Hoàn toàn giống nhau, không có khác biệt"
+   },
+   "B": {
+    "pinyin": "Běi fāng huà (pǔ tōng huà) bǐ jiào róng yì dǒng, nán fāng yì xiē fāng yán wài dì rén bǐ jiào nán dǒng",
+    "vi": "Tiếng miền Bắc (tiếng phổ thông) khá dễ hiểu, một số phương ngữ miền Nam thì người ở nơi khác lại khá khó hiểu"
+   },
+   "C": {
+    "pinyin": "Nán fāng huà bǐ běi fāng huà gèng róng yì dǒng",
+    "vi": "Tiếng miền Nam dễ hiểu hơn tiếng miền Bắc"
+   },
+   "D": {
+    "pinyin": "Zhōng guó zhǐ yǒu yì zhǒng yǔ yán",
+    "vi": "Trung Quốc chỉ có một loại ngôn ngữ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 5",
+  "so": 5,
+  "cau_hoi_pinyin": "Yún Yīng rèn wéi, zhè xiē nán běi chā yì dài lái le shén me?",
+  "cau_hoi_vi": "云英 cho rằng, những khác biệt Nam Bắc này đã mang lại điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán méi yǒu yì yì de chā yì",
+    "vi": "Những khác biệt hoàn toàn vô nghĩa"
+   },
+   "B": {
+    "pinyin": "Zhèng shì zhè xiē chā yì, ràng Zhōng guó yǒu le fēng fù duō yàng de wén huà",
+    "vi": "Chính những khác biệt này đã khiến Trung Quốc có được nền văn hóa phong phú đa dạng"
+   },
+   "C": {
+    "pinyin": "Ràng Zhōng guó rén wú fǎ jiāo liú",
+    "vi": "Khiến người Trung Quốc không thể giao tiếp được với nhau"
+   },
+   "D": {
+    "pinyin": "Yīng gāi xiāo chú suǒ yǒu chā yì",
+    "vi": "Nên xóa bỏ hết mọi khác biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 6",
+  "so": 1,
+  "cau_hoi_pinyin": "Pǔ tōng huà zhǔ yào shì gēn jù nǎ zhǒng fāng yán wèi jī chǔ xíng chéng de?",
+  "cau_hoi_vi": "Tiếng phổ thông chủ yếu được hình thành trên cơ sở phương ngữ nào?",
+  "options": {
+   "A": {
+    "pinyin": "Shàng hǎi huà",
+    "vi": "Tiếng Thượng Hải"
+   },
+   "B": {
+    "pinyin": "Běi jīng huà",
+    "vi": "Tiếng Bắc Kinh"
+   },
+   "C": {
+    "pinyin": "Guǎng dōng huà",
+    "vi": "Tiếng Quảng Đông"
+   },
+   "D": {
+    "pinyin": "Sì chuān huà",
+    "vi": "Tiếng Tứ Xuyên"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 6",
+  "so": 2,
+  "cau_hoi_pinyin": "Wèi shén me xué xiào jiào yù, xīn wén guǎng bō jī běn dōu yòng pǔ tōng huà?",
+  "cau_hoi_vi": "Vì sao giáo dục nhà trường, phát thanh tin tức về cơ bản đều dùng tiếng phổ thông?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi fāng yán bù hǎo tīng",
+    "vi": "Vì phương ngữ nghe không hay"
+   },
+   "B": {
+    "pinyin": "Wèi le fāng biàn bù tóng dì fāng de rén jiāo liú",
+    "vi": "Để tiện cho việc giao tiếp giữa người ở những nơi khác nhau"
+   },
+   "C": {
+    "pinyin": "Yīn wèi pǔ tōng huà shì wéi yī de yǔ yán",
+    "vi": "Vì tiếng phổ thông là ngôn ngữ duy nhất"
+   },
+   "D": {
+    "pinyin": "Yīn wèi fāng yán yǐ jīng xiāo shī le",
+    "vi": "Vì phương ngữ đã biến mất rồi"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 6",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng shuō, fāng yán bù zhǐ shì jiāo liú gōng jù, hái chéng zài zhe shén me?",
+  "cau_hoi_vi": "云英 nói, phương ngữ không chỉ là công cụ giao tiếp, mà còn mang trong mình điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ shì yì zhǒng shēng yīn",
+    "vi": "Chỉ là một loại âm thanh"
+   },
+   "B": {
+    "pinyin": "Dāng dì rén de gǎn qíng hé wén huà jì yì",
+    "vi": "Tình cảm và ký ức văn hóa của người địa phương"
+   },
+   "C": {
+    "pinyin": "Gēn gǎn qíng wán quán méi yǒu guān xì",
+    "vi": "Hoàn toàn không liên quan gì đến tình cảm"
+   },
+   "D": {
+    "pinyin": "Zhǐ zài kǎo shì zhōng yǒu yòng",
+    "vi": "Chỉ có ích trong các kỳ thi"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 6",
+  "so": 4,
+  "cau_hoi_pinyin": "Dé Shèng jué de, gēn lǎo jiā de rén shuō fāng yán, gǎn jué zěn me yàng?",
+  "cau_hoi_vi": "德盛 cảm thấy, khi nói phương ngữ với người ở quê thì cảm giác thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán méi yǒu tè bié de gǎn jué",
+    "vi": "Hoàn toàn không có cảm giác gì đặc biệt"
+   },
+   "B": {
+    "pinyin": "Tè bié qīn qiè, bǐ shuō pǔ tōng huà gèng yǒu \"jiā\" de gǎn jué",
+    "vi": "Đặc biệt thân thiết, có cảm giác giống \"nhà\" hơn cả khi nói tiếng phổ thông"
+   },
+   "C": {
+    "pinyin": "Jué de hěn mò shēng",
+    "vi": "Cảm thấy rất xa lạ"
+   },
+   "D": {
+    "pinyin": "Jué de hěn má fán",
+    "vi": "Cảm thấy rất phiền phức"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 6",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiàn zài yǒu xiē rén shì zěn me bǎo hù fāng yán de?",
+  "cau_hoi_vi": "Hiện nay có những người bảo vệ phương ngữ bằng cách nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán bù shǐ yòng fāng yán",
+    "vi": "Hoàn toàn không sử dụng phương ngữ"
+   },
+   "B": {
+    "pinyin": "Yòng fāng yán chàng gē, pāi diàn yǐng, ràng gèng duō rén liǎo jiě fāng yán de mèi lì",
+    "vi": "Dùng phương ngữ để hát, làm phim, để nhiều người hơn hiểu được sức hấp dẫn của phương ngữ"
+   },
+   "C": {
+    "pinyin": "Zhǐ zài shū lǐ xiě fāng yán",
+    "vi": "Chỉ viết phương ngữ trong sách"
+   },
+   "D": {
+    "pinyin": "Jìn zhǐ bié rén shuō fāng yán",
+    "vi": "Cấm người khác nói phương ngữ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 23",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng shuō, tā xiàn zài zuì xiǎng qù de dì fāng shì nǎ lǐ?",
+  "cau_hoi_vi": "德盛 nói, nơi anh ấy muốn đến nhất bây giờ là đâu?",
+  "options": {
+   "A": {
+    "pinyin": "Shàng hǎi",
+    "vi": "Thượng Hải"
+   },
+   "B": {
+    "pinyin": "Běi jīng",
+    "vi": "Bắc Kinh"
+   },
+   "C": {
+    "pinyin": "Háng zhōu",
+    "vi": "Hàng Châu"
+   },
+   "D": {
+    "pinyin": "Guǎng zhōu",
+    "vi": "Quảng Châu"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 23",
+  "so": 2,
+  "cau_hoi_pinyin": "Dé Shèng wèi shén me tè bié xiǎng xuǎn dōng tiān qù Běi jīng?",
+  "cau_hoi_vi": "Vì sao 德盛 đặc biệt muốn chọn mùa đông để đi Bắc Kinh?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi dōng tiān jī piào pián yi",
+    "vi": "Vì vé máy bay mùa đông rẻ"
+   },
+   "B": {
+    "pinyin": "Yīn wèi dōng tiān xià xuě shí zhàn zài gù gōng hóng qiáng páng biān, gǎn jué yīng gāi bù yí yàng",
+    "vi": "Vì khi mùa đông có tuyết rơi, đứng bên bức tường đỏ của Cố Cung chắc sẽ có cảm giác khác biệt"
+   },
+   "C": {
+    "pinyin": "Yīn wèi dōng tiān rén zuì duō",
+    "vi": "Vì mùa đông đông người nhất"
+   },
+   "D": {
+    "pinyin": "Wén zhāng méi yǒu shuō míng yuán yīn",
+    "vi": "Bài viết không nói rõ nguyên nhân"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 23",
+  "so": 3,
+  "cau_hoi_pinyin": "Dé Shèng wèn Yún Yīng yào bú yào yì qǐ qù, Yún Yīng de fǎn yìng shì zěn yàng de?",
+  "cau_hoi_vi": "德盛 hỏi 云英 có muốn đi cùng không, phản ứng của 云英 như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Mǎ shàng shēng qì de jù jué",
+    "vi": "Lập tức tức giận từ chối"
+   },
+   "B": {
+    "pinyin": "Lèng le yí xià, yě xiào le, jué de tā hǎo xiàng tí qián xiǎng hǎo le",
+    "vi": "Sững người một chút, rồi cũng cười, cảm thấy anh ấy hình như đã tính trước cả rồi"
+   },
+   "C": {
+    "pinyin": "Wán quán méi yǒu fǎn yìng",
+    "vi": "Hoàn toàn không có phản ứng gì"
+   },
+   "D": {
+    "pinyin": "Lì kè dā yìng le",
+    "vi": "Lập tức đồng ý"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 23",
+  "so": 4,
+  "cau_hoi_pinyin": "Dé Shèng shuō, Sì chuān de shān lù nán zǒu, dàn shì tā jué de zěn yàng?",
+  "cau_hoi_vi": "德盛 nói, đường núi ở Tứ Xuyên khó đi, nhưng anh ấy lại cảm thấy thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yí gè rén zǒu bǐ jiào hǎo",
+    "vi": "Đi một mình thì tốt hơn"
+   },
+   "B": {
+    "pinyin": "Zhǐ yào yǒu rén yì qǐ zǒu, zài nán de lù yě méi nà me kě pà",
+    "vi": "Chỉ cần có người cùng đi, đường có khó đến đâu cũng không đáng sợ đến thế"
+   },
+   "C": {
+    "pinyin": "Wán quán bù xiǎng qù Sì chuān le",
+    "vi": "Hoàn toàn không muốn đi Tứ Xuyên nữa"
+   },
+   "D": {
+    "pinyin": "Yīng gāi xuǎn bié de dì fāng",
+    "vi": "Nên chọn nơi khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 23",
+  "so": 5,
+  "cau_hoi_pinyin": "Yún Yīng duì Dé Shèng jīn tiān shuō huà fāng shì de píng jià shì shén me?",
+  "cau_hoi_vi": "云英 đánh giá thế nào về cách nói chuyện của 德盛 hôm nay?",
+  "options": {
+   "A": {
+    "pinyin": "Jué de hěn zhèng cháng, méi shén me tè bié",
+    "vi": "Cảm thấy rất bình thường, không có gì đặc biệt"
+   },
+   "B": {
+    "pinyin": "Jué de tā shuō huà chù chù dōu zài \"àn shì\" shén me",
+    "vi": "Cảm thấy anh ấy nói chuyện chỗ nào cũng như đang \"ám chỉ\" điều gì đó"
+   },
+   "C": {
+    "pinyin": "Jué de tā shuō de bù qīng chǔ",
+    "vi": "Cảm thấy anh ấy nói không rõ ràng"
+   },
+   "D": {
+    "pinyin": "Wán quán méi yǒu píng jià",
+    "vi": "Hoàn toàn không có nhận xét gì"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 24",
+  "so": 1,
+  "cau_hoi_pinyin": "Yún Yīng zuì xiǎng qù de dì fāng shì nǎ lǐ?",
+  "cau_hoi_vi": "Nơi 云英 muốn đến nhất là đâu?",
+  "options": {
+   "A": {
+    "pinyin": "Běi jīng",
+    "vi": "Bắc Kinh"
+   },
+   "B": {
+    "pinyin": "Háng zhōu, kàn Xī hú",
+    "vi": "Hàng Châu, ngắm Tây Hồ"
+   },
+   "C": {
+    "pinyin": "Sì chuān",
+    "vi": "Tứ Xuyên"
+   },
+   "D": {
+    "pinyin": "Shàng hǎi",
+    "vi": "Thượng Hải"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 24",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng lǐ xiǎng zhōng de lǚ xíng fāng shì shì zěn yàng de?",
+  "cau_hoi_vi": "Kiểu du lịch lý tưởng trong lòng 云英 là như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Xǐ huān bǐ jiào cì jī, kuài jié zòu de",
+    "vi": "Thích kiểu khá kích thích, nhịp độ nhanh"
+   },
+   "B": {
+    "pinyin": "Xǐ huān ān jìng, màn jié zòu, zuò zhe kàn fēng jǐng",
+    "vi": "Thích sự yên tĩnh, nhịp độ chậm rãi, ngồi ngắm cảnh"
+   },
+   "C": {
+    "pinyin": "Xǐ huān rén duō rè nào de dì fāng",
+    "vi": "Thích những nơi đông người náo nhiệt"
+   },
+   "D": {
+    "pinyin": "Wán quán bù xǐ huān lǚ xíng",
+    "vi": "Hoàn toàn không thích du lịch"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 24",
+  "so": 3,
+  "cau_hoi_pinyin": "Yún Yīng rèn wéi, ān jìng de shí hòu, fǎn ér gèng róng yì zuò shén me?",
+  "cau_hoi_vi": "云英 cho rằng, lúc yên tĩnh, ngược lại càng dễ làm điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Gèng róng yì gǎn dào wú liáo",
+    "vi": "Càng dễ cảm thấy buồn chán"
+   },
+   "B": {
+    "pinyin": "Gèng róng yì liáo dào xīn lǐ huà, bú xiàng píng shí nà me cōng máng",
+    "vi": "Càng dễ nói được những lời từ tận đáy lòng, không vội vã như ngày thường"
+   },
+   "C": {
+    "pinyin": "Gèng róng yì chǎo jià",
+    "vi": "Càng dễ cãi nhau"
+   },
+   "D": {
+    "pinyin": "Wán quán méi yǒu tè bié de xiào guǒ",
+    "vi": "Hoàn toàn không có hiệu quả gì đặc biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 24",
+  "so": 4,
+  "cau_hoi_pinyin": "Táng hú lú shì yòng shén me zuò de?",
+  "cau_hoi_vi": "Tang hồ lô (糖葫芦) được làm từ gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ yǒu táng",
+    "vi": "Chỉ có đường"
+   },
+   "B": {
+    "pinyin": "Wài miàn yì céng táng, lǐ miàn shì shān zhā",
+    "vi": "Bên ngoài một lớp đường, bên trong là táo gai"
+   },
+   "C": {
+    "pinyin": "Zhǐ yǒu shān zhā",
+    "vi": "Chỉ có táo gai"
+   },
+   "D": {
+    "pinyin": "Wén zhāng méi yǒu shuō míng",
+    "vi": "Bài viết không nói rõ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 24",
+  "so": 5,
+  "cau_hoi_pinyin": "Yún Yīng bǎ táng hú lú suān tián de wèi dào, bǐ yù chéng shén me?",
+  "cau_hoi_vi": "云英 ví vị chua ngọt của tang hồ lô giống với điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yì zhǒng pǔ tōng de shí wù",
+    "vi": "Một món ăn bình thường"
+   },
+   "B": {
+    "pinyin": "Yǒu xiē yì kāi shǐ shuō bù qīng chǔ, dàn cháng guò yǐ hòu jiù huì yì zhí xiǎng qǐ lái de gǎn jué",
+    "vi": "Một cảm giác mà lúc đầu khó nói rõ, nhưng nếm qua rồi thì sẽ cứ nhớ mãi"
+   },
+   "C": {
+    "pinyin": "Gēn gǎn qíng wán quán méi yǒu guān xì",
+    "vi": "Hoàn toàn không liên quan gì đến tình cảm"
+   },
+   "D": {
+    "pinyin": "Yì zhǒng hěn nán chī de dōng xi",
+    "vi": "Một thứ rất khó ăn"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 25",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng qù Shàng hǎi yìn xiàng zuì shēn de shì shén me?",
+  "cau_hoi_vi": "Ấn tượng sâu sắc nhất của 德盛 khi đến Thượng Hải là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Bái tiān de gōng yuán",
+    "vi": "Công viên vào ban ngày"
+   },
+   "B": {
+    "pinyin": "Wǎn shàng Wài tān de dēng guāng hé yè jǐng",
+    "vi": "Ánh đèn và cảnh đêm ở Ngoại Than vào buổi tối"
+   },
+   "C": {
+    "pinyin": "Shàng hǎi de měi shí",
+    "vi": "Ẩm thực Thượng Hải"
+   },
+   "D": {
+    "pinyin": "Shàng hǎi de bó wù guǎn",
+    "vi": "Bảo tàng Thượng Hải"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 25",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhàn zài Wài tān kàn yè jǐng de shí hòu, Dé Shèng xīn lǐ de gǎn jué shì zěn yàng de?",
+  "cau_hoi_vi": "Khi đứng ở Ngoại Than ngắm cảnh đêm, cảm giác trong lòng 德盛 là như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Tè bié kāi xīn, yì diǎn ér dōu bù gū dān",
+    "vi": "Đặc biệt vui vẻ, không hề cô đơn chút nào"
+   },
+   "B": {
+    "pinyin": "Zhōu wéi hěn rè nào, dàn tā fǎn ér jué de yǒu diǎn ér gū dān",
+    "vi": "Xung quanh rất náo nhiệt, nhưng anh ấy lại ngược lại cảm thấy có chút cô đơn"
+   },
+   "C": {
+    "pinyin": "Wán quán méi yǒu rèn hé gǎn jué",
+    "vi": "Hoàn toàn không có cảm giác gì"
+   },
+   "D": {
+    "pinyin": "Jué de fēi cháng wú liáo",
+    "vi": "Cảm thấy vô cùng buồn chán"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 25",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuò yì zhī hǎo de Běi jīng kǎo yā, xū yào zhù yì shén me?",
+  "cau_hoi_vi": "Để làm một con vịt quay Bắc Kinh ngon, cần chú ý điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Bù xū yào huā tài duō shí jiān",
+    "vi": "Không cần tốn quá nhiều thời gian"
+   },
+   "B": {
+    "pinyin": "Xū yào guà hěn cháng shí jiān, hái yào kòng zhì hǎo huǒ hòu",
+    "vi": "Cần treo trong thời gian dài, còn phải khống chế tốt độ lửa"
+   },
+   "C": {
+    "pinyin": "Zhǐ xū yào yí gè xiǎo shí jiù néng zuò hǎo",
+    "vi": "Chỉ cần một tiếng đồng hồ là làm xong"
+   },
+   "D": {
+    "pinyin": "Wán quán bù xū yào jīng yàn",
+    "vi": "Hoàn toàn không cần kinh nghiệm"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 25",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng shuō \"hǎo dōng xi, zhí dé děng\", Dé Shèng shì zěn me fǎn yìng de?",
+  "cau_hoi_vi": "云英 nói \"đồ tốt thì đáng để chờ đợi\", 德盛 phản ứng như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán méi yǒu fǎn yìng",
+    "vi": "Hoàn toàn không có phản ứng gì"
+   },
+   "B": {
+    "pinyin": "Dùn le yí xià, wèn tā shì zài shuō kǎo yā hái shì zài shuō bié de",
+    "vi": "Khựng lại một chút, hỏi cô ấy đang nói về vịt quay hay đang nói chuyện khác"
+   },
+   "C": {
+    "pinyin": "Shēng qì de zǒu kāi le",
+    "vi": "Tức giận bỏ đi"
+   },
+   "D": {
+    "pinyin": "Mǎ shàng biǎo shì tóng yì",
+    "vi": "Lập tức tỏ ý đồng ý"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 25",
+  "so": 5,
+  "cau_hoi_pinyin": "Duì huà zuì hòu, Dé Shèng qī dài shén me?",
+  "cau_hoi_vi": "Cuối cuộc hội thoại, 德盛 mong đợi điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Jué dìng yǐ hòu bú zài chī kǎo yā",
+    "vi": "Quyết định sau này không ăn vịt quay nữa"
+   },
+   "B": {
+    "pinyin": "Qī dài yǐ hòu yǒu jī huì, yì qǐ qù cháng cháng nà zhī kǎo yā",
+    "vi": "Mong sau này có dịp, cùng nhau đi nếm thử con vịt quay đó"
+   },
+   "C": {
+    "pinyin": "Jué dìng yí gè rén qù chī kǎo yā",
+    "vi": "Quyết định một mình đi ăn vịt quay"
+   },
+   "D": {
+    "pinyin": "Wán quán méi yǒu rèn hé qī dài",
+    "vi": "Hoàn toàn không có mong đợi gì cả"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 26",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng duì là de shí wù, tài dù shì zěn yàng de?",
+  "cau_hoi_vi": "Thái độ của 德盛 đối với đồ ăn cay là như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán bù néng chī là",
+    "vi": "Hoàn toàn không ăn được cay"
+   },
+   "B": {
+    "pinyin": "Bú suàn tè bié néng chī là, dàn hěn xǐ huān Sì chuān huǒ guō nà zhǒng là",
+    "vi": "Không hẳn là ăn cay giỏi lắm, nhưng rất thích kiểu vị cay của lẩu Tứ Xuyên"
+   },
+   "C": {
+    "pinyin": "Fēi cháng néng chī là, shén me dōu bú pà",
+    "vi": "Ăn cay rất giỏi, không sợ gì cả"
+   },
+   "D": {
+    "pinyin": "Cóng lái méi chī guò là de shí wù",
+    "vi": "Từ trước đến giờ chưa từng ăn đồ cay"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 26",
+  "so": 2,
+  "cau_hoi_pinyin": "Yún Yīng xíng róng huǒ guō shì zěn yàng \"máo dùn\" de shí wù?",
+  "cau_hoi_vi": "云英 miêu tả lẩu là món ăn \"mâu thuẫn\" như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wán quán bú là, yě bù hǎo chī",
+    "vi": "Hoàn toàn không cay, mà cũng không ngon"
+   },
+   "B": {
+    "pinyin": "Yòu ràng rén shòu bù liǎo, yòu ràng rén lí bù kāi",
+    "vi": "Vừa khiến người ta chịu không nổi, vừa khiến người ta không rời xa được"
+   },
+   "C": {
+    "pinyin": "Yì diǎn ér dōu bù máo dùn",
+    "vi": "Không hề mâu thuẫn chút nào"
+   },
+   "D": {
+    "pinyin": "Zhǐ shì pǔ tōng de shí wù",
+    "vi": "Chỉ là món ăn bình thường"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 26",
+  "so": 3,
+  "cau_hoi_pinyin": "Chī xiǎo lóng bāo de shí hòu, wèi shén me yào xiān yǎo yí gè xiǎo kǒu?",
+  "cau_hoi_vi": "Khi ăn tiểu long bao (小笼包), vì sao phải cắn một miếng nhỏ trước?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi bāo zi tài dà",
+    "vi": "Vì bánh bao quá to"
+   },
+   "B": {
+    "pinyin": "Yīn wèi lǐ miàn yǒu tāng, bù xiǎo xīn huì bèi tàng dào",
+    "vi": "Vì bên trong có nước súp, không cẩn thận sẽ bị bỏng"
+   },
+   "C": {
+    "pinyin": "Yīn wèi bāo zi pí hěn yìng",
+    "vi": "Vì vỏ bánh bao rất cứng"
+   },
+   "D": {
+    "pinyin": "Méi yǒu tè bié de yuán yīn",
+    "vi": "Không có nguyên nhân gì đặc biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 26",
+  "so": 4,
+  "cau_hoi_pinyin": "Dé Shèng shuō, huǒ guō hé xiǎo lóng bāo fēn bié xū yào shén me?",
+  "cau_hoi_vi": "德盛 nói, lẩu và tiểu long bao lần lượt cần điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Dōu xū yào nài xīn",
+    "vi": "Đều cần sự kiên nhẫn"
+   },
+   "B": {
+    "pinyin": "Huǒ guō xū yào yǒng qì, xiǎo lóng bāo xū yào nài xīn",
+    "vi": "Lẩu cần sự dũng cảm, tiểu long bao cần sự kiên nhẫn"
+   },
+   "C": {
+    "pinyin": "Dōu xū yào yǒng qì",
+    "vi": "Đều cần sự dũng cảm"
+   },
+   "D": {
+    "pinyin": "Liǎng zhě wán quán yí yàng",
+    "vi": "Cả hai hoàn toàn giống nhau"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 26",
+  "so": 5,
+  "cau_hoi_pinyin": "Duì huà zuì hòu, liǎng gè rén dǎ suàn zěn me zuò?",
+  "cau_hoi_vi": "Cuối cuộc hội thoại, hai người định làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Jué dìng zhǐ chī yì zhǒng shí wù",
+    "vi": "Quyết định chỉ ăn một loại món ăn"
+   },
+   "B": {
+    "pinyin": "Yǐ hòu yǒu jī huì, liǎng zhǒng \"chī fǎ\" dōu shì shi kàn",
+    "vi": "Sau này có dịp, sẽ thử cả hai kiểu \"ăn\""
+   },
+   "C": {
+    "pinyin": "Jué dìng bú zài tǎo lùn zhè ge huà tí",
+    "vi": "Quyết định không bàn về chủ đề này nữa"
+   },
+   "D": {
+    "pinyin": "Wán quán méi yǒu rèn hé jì huà",
+    "vi": "Hoàn toàn không có kế hoạch gì"
+   }
+  }
+ }
+]

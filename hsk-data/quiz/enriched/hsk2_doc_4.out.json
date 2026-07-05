@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK2-Bài 23",
+  "so": 3,
+  "cau_hoi_pinyin": "Bānjiā guòchéng zhōng, zuì ràng \"wǒ\" shě bu de de shì shénme?",
+  "cau_hoi_vi": "Trong quá trình chuyển nhà, điều khiến \"tôi\" lưu luyến nhất là gì?",
+  "options": {
+   "A": {"pinyin": "Shě bu de jiù fángzi", "vi": "Tiếc ngôi nhà cũ"},
+   "B": {"pinyin": "Shě bu de gēn cóngxiǎo yìqǐ zhǎngdà de péngyoumen fēnkāi", "vi": "Tiếc phải chia tay với những người bạn đã cùng lớn lên từ nhỏ"},
+   "C": {"pinyin": "Shě bu de jiù jiājù", "vi": "Tiếc bộ đồ nội thất cũ"},
+   "D": {"pinyin": "Shě bu de fùjìn de shāngdiàn", "vi": "Tiếc các cửa hàng gần đó"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 23",
+  "so": 4,
+  "cau_hoi_pinyin": "Gāng bān dào xīn jiā de shíhou, \"wǒ\" de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Khi vừa chuyển đến nhà mới, tâm trạng của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng xīngfèn, yìdiǎnr dōu bù dānxīn", "vi": "Rất phấn khích, không lo lắng chút nào"},
+   "B": {"pinyin": "Chángcháng juéde gūdān, xiǎngniàn yǐqián de línjū", "vi": "Thường cảm thấy cô đơn, nhớ những người hàng xóm trước đây"},
+   "C": {"pinyin": "Hěn shēngqì, bù xiǎng bānjiā", "vi": "Rất tức giận, không muốn chuyển nhà"},
+   "D": {"pinyin": "Wánquán méiyǒu rènhé gǎnjué", "vi": "Hoàn toàn không có cảm giác gì"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 23",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiànzài huíxiǎng qǐlái, zuòzhě shì zěnme kàndài zhè cì bānjiā de?",
+  "cau_hoi_vi": "Bây giờ nhớ lại, tác giả nhìn nhận việc chuyển nhà lần này như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán shì yí jiàn bù hǎo de shìqing", "vi": "Hoàn toàn là một chuyện không tốt"},
+   "B": {"pinyin": "Suīrán jǐnzhāng shě bu de, dàn yě shì rènshi xīn huánjìng, xīn péngyou de jīhuì", "vi": "Tuy căng thẳng và lưu luyến, nhưng cũng là cơ hội để quen biết môi trường mới, bạn bè mới"},
+   "C": {"pinyin": "Hòuhuǐ dāngchū bānjiā de juédìng", "vi": "Hối hận về quyết định chuyển nhà lúc đó"},
+   "D": {"pinyin": "Juéde bānjiā méiyǒu dàilái rènhé biànhuà", "vi": "Cho rằng chuyển nhà không mang lại thay đổi gì"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 24",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" wèishénme xiǎng zìjǐ zuò lǐwù, ér bú shì mǎi?",
+  "cau_hoi_vi": "Vì sao \"tôi\" muốn tự tay làm quà tặng, chứ không mua?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi méiyǒu qián mǎi lǐwù", "vi": "Vì không có tiền mua quà"},
+   "B": {"pinyin": "Xiǎng sòng yí gè tèbié yìdiǎnr de lǐwù", "vi": "Muốn tặng một món quà đặc biệt hơn một chút"},
+   "C": {"pinyin": "Yīnwèi shāngdiàn dōu guānmén le", "vi": "Vì các cửa hàng đều đã đóng cửa"},
+   "D": {"pinyin": "Yīnwèi Xiǎoyǔ bù xǐhuan mǎi lái de dōngxi", "vi": "Vì Tiểu Vũ không thích đồ mua sẵn"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 24",
+  "so": 2,
+  "cau_hoi_pinyin": "Dì yī cì yòng gōngjù de shíhou, fāshēng le shénme shì?",
+  "cau_hoi_vi": "Lần đầu tiên sử dụng dụng cụ, đã xảy ra chuyện gì?",
+  "options": {
+   "A": {"pinyin": "Gōngjù huài le", "vi": "Dụng cụ bị hỏng"},
+   "B": {"pinyin": "Bǎ shǒuzhǐ nòngshāng le yìdiǎnr", "vi": "Làm bị thương ngón tay một chút"},
+   "C": {"pinyin": "Cáiliào yòng cuò le", "vi": "Dùng sai nguyên liệu"},
+   "D": {"pinyin": "Xiāngkuàng zuò huài le, yào chóngxīn kāishǐ", "vi": "Làm hỏng khung ảnh, phải bắt đầu lại từ đầu"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 24",
+  "so": 3,
+  "cau_hoi_pinyin": "Māma shì zěnme bāngzhù \"wǒ\" de?",
+  "cau_hoi_vi": "Mẹ đã giúp đỡ \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhíjiē bāng \"wǒ\" bǎ xiāngkuàng zuò wán", "vi": "Trực tiếp giúp \"tôi\" làm xong khung ảnh"},
+   "B": {"pinyin": "Jiāo \"wǒ\" zěnme gèng ānquán, gèng fāngbiàn de shǐyòng gōngjù", "vi": "Dạy \"tôi\" cách sử dụng dụng cụ an toàn và thuận tiện hơn"},
+   "C": {"pinyin": "Bāngmáng qù mǎi cáiliào", "vi": "Giúp đi mua nguyên liệu"},
+   "D": {"pinyin": "Bāngmáng qù tiāoxuǎn lǐwù bāozhuāngzhǐ", "vi": "Giúp đi chọn giấy gói quà"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 24",
+  "so": 4,
+  "cau_hoi_pinyin": "Xiāngkuàng zuìhòu fàng le shénme zài lǐmiàn?",
+  "cau_hoi_vi": "Cuối cùng khung ảnh đã đặt gì bên trong?",
+  "options": {
+   "A": {"pinyin": "Yì zhāng Xiǎoyǔ yí gè rén de zhàopiàn", "vi": "Một tấm ảnh chỉ có một mình Tiểu Vũ"},
+   "B": {"pinyin": "Zuì xǐhuan de yì zhāng hézhào", "vi": "Tấm ảnh chụp chung yêu thích nhất"},
+   "C": {"pinyin": "Yì fēng xìn", "vi": "Một lá thư"},
+   "D": {"pinyin": "Shénme dōu méi fàng, zhǐshì kōng xiāngkuàng", "vi": "Không đặt gì cả, chỉ là khung ảnh trống"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 24",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiǎoyǔ shōudào lǐwù yǐhòu, shì shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi nhận được quà, Tiểu Vũ có phản ứng gì?",
+  "options": {
+   "A": {"pinyin": "Juéde lǐwù tài jiǎndān, yǒudiǎnr shīwàng", "vi": "Cảm thấy món quà quá đơn giản, hơi thất vọng"},
+   "B": {"pinyin": "Kàn le hěn jiǔ, yǎnjing lǐ yǒu gǎndòng de lèiguāng", "vi": "Nhìn rất lâu, trong mắt ánh lên giọt lệ xúc động"},
+   "C": {"pinyin": "Mǎshàng wèn \"wǒ\" huā le duōshǎo qián", "vi": "Lập tức hỏi \"tôi\" đã tốn bao nhiêu tiền"},
+   "D": {"pinyin": "Méiyǒu tài dà de fǎnyìng", "vi": "Không có phản ứng gì nhiều"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 25",
+  "so": 1,
+  "cau_hoi_pinyin": "Chūfā qù yǎnglǎoyuàn zhīqián, \"wǒ\" de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Trước khi xuất phát đến viện dưỡng lão, tâm trạng của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng xīngfèn, yìdiǎnr dōu bù dānxīn", "vi": "Rất phấn khích, không lo lắng chút nào"},
+   "B": {"pinyin": "Yǒudiǎnr jǐnzhāng, bù zhīdào gāi liáo shénme huàtí", "vi": "Hơi căng thẳng, không biết nên nói chuyện đề tài gì"},
+   "C": {"pinyin": "Wánquán bù xiǎng cānjiā zhè cì huódòng", "vi": "Hoàn toàn không muốn tham gia hoạt động lần này"},
+   "D": {"pinyin": "Hěn shēngqì, yīnwèi shì bèipò cānjiā de", "vi": "Rất tức giận, vì bị ép buộc tham gia"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 25",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Wǒ\" bèi fēn dào le nǎ yí wèi lǎorén shēnbiān?",
+  "cau_hoi_vi": "\"Tôi\" được phân đến bên cạnh cụ già nào?",
+  "options": {
+   "A": {"pinyin": "Yí wèi xìng Wáng de nǎinai", "vi": "Một bà cụ họ Vương"},
+   "B": {"pinyin": "Yí wèi xìng Chén de yéye", "vi": "Một ông cụ họ Trần"},
+   "C": {"pinyin": "Yí wèi xìng Lǐ de nǎinai", "vi": "Một bà cụ họ Lý"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng", "vi": "Bài văn không nói rõ"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 25",
+  "so": 3,
+  "cau_hoi_pinyin": "Yì kāishǐ, \"wǒ\" hé Chén yéye de duìhuà shì zěnyàng de?",
+  "cau_hoi_vi": "Lúc mới đầu, cuộc trò chuyện giữa \"tôi\" và ông Trần như thế nào?",
+  "options": {
+   "A": {"pinyin": "Liáo le hěn duō, fēicháng rènao", "vi": "Nói chuyện rất nhiều, rất rôm rả"},
+   "B": {"pinyin": "Duìhuà bìng bù duō, \"wǒ\" zhǐshì ānjìng de tīng tā shuōhuà", "vi": "Cuộc trò chuyện không nhiều, \"tôi\" chỉ yên lặng lắng nghe ông nói"},
+   "C": {"pinyin": "Wánquán méiyǒu shuōhuà", "vi": "Hoàn toàn không nói gì"},
+   "D": {"pinyin": "Chén yéye yìzhí zài wèn \"wǒ\" wèntí", "vi": "Ông Trần cứ liên tục hỏi \"tôi\" các câu hỏi"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 25",
+  "so": 4,
+  "cau_hoi_pinyin": "Tīng Chén yéye jiǎng gùshi yǐhòu, \"wǒ\" fāshēng le shénme biànhuà?",
+  "cau_hoi_vi": "Sau khi nghe ông Trần kể chuyện, \"tôi\" đã có thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Gèngjiā jǐnzhāng le", "vi": "Càng căng thẳng hơn"},
+   "B": {"pinyin": "Jiànjiàn wàngjì le jǐnzhāng, kāishǐ zhǔdòng wèn wèntí", "vi": "Dần dần quên đi căng thẳng, bắt đầu chủ động hỏi han"},
+   "C": {"pinyin": "Juéde hěn wúliáo, xiǎng yào líkāi", "vi": "Cảm thấy rất chán, muốn rời đi"},
+   "D": {"pinyin": "Juédìng bú zài cānjiā lèisì de huódòng", "vi": "Quyết định không tham gia các hoạt động tương tự nữa"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 25",
+  "so": 5,
+  "cau_hoi_pinyin": "Tōngguò zhè cì huódòng, zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Qua hoạt động lần này, tác giả đã hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Zhìyuànzhě huódòng dōu hěn wúliáo", "vi": "Các hoạt động tình nguyện đều rất nhàm chán"},
+   "B": {"pinyin": "Yǒu shíhou, péibàn bǐ lǐwù gèng néng ràng yí gè rén gǎndào wēnnuǎn", "vi": "Đôi khi, sự đồng hành còn khiến người ta cảm thấy ấm áp hơn cả quà tặng"},
+   "C": {"pinyin": "Lǎorén dōu bù xǐhuan gēn niánqīngrén shuōhuà", "vi": "Người già đều không thích nói chuyện với người trẻ"},
+   "D": {"pinyin": "Cānjiā huódòng shì wèile wánchéng xuéxiào de rènwu", "vi": "Tham gia hoạt động là để hoàn thành nhiệm vụ của trường"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 26",
+  "so": 1,
+  "cau_hoi_pinyin": "Biǎoyǎn qián de yí gè yuè, \"wǒ\" shì zěnme zhǔnbèi de?",
+  "cau_hoi_vi": "Một tháng trước buổi biểu diễn, \"tôi\" đã chuẩn bị như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu zhǔnbèi, kào línchǎng fāhuī", "vi": "Hoàn toàn không chuẩn bị, dựa vào ứng biến tại chỗ"},
+   "B": {"pinyin": "Jīhū měitiān dōu liànxí, chàng cuò yí gè zì yě chóngxīn zài lái", "vi": "Gần như ngày nào cũng luyện tập, hát sai một chữ cũng làm lại từ đầu"},
+   "C": {"pinyin": "Zhǐ zài biǎoyǎn qián yì tiān liànxí le yí cì", "vi": "Chỉ luyện tập một lần vào ngày trước buổi biểu diễn"},
+   "D": {"pinyin": "Qǐng le zhuānyè gēshǒu lái jiāo", "vi": "Mời ca sĩ chuyên nghiệp đến dạy"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 26",
+  "so": 2,
+  "cau_hoi_pinyin": "Shàngtái yǐhòu, \"wǒ\" de shēntǐ fǎnyìng shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi lên sân khấu, phản ứng cơ thể của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng píngjìng, yìdiǎnr dōu bù jǐnzhāng", "vi": "Rất bình tĩnh, không hề căng thẳng chút nào"},
+   "B": {"pinyin": "Shuāngshǒu rěnbuzhù wēiwēi fādǒu", "vi": "Hai tay không kìm được mà khẽ run lên"},
+   "C": {"pinyin": "Wàngjì le suǒyǒu de gēcí", "vi": "Quên hết tất cả lời bài hát"},
+   "D": {"pinyin": "Túrán xiǎng yào líkāi wǔtái", "vi": "Đột nhiên muốn rời khỏi sân khấu"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 26",
+  "so": 3,
+  "cau_hoi_pinyin": "Guānyú nà duàn chàng bù zhǔn de gāoyīn, \"wǒ\" shì zěnme zuò de?",
+  "cau_hoi_vi": "Về đoạn nốt cao hát không chuẩn đó, \"tôi\" đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Zhíjiē tiàoguò bú chàng", "vi": "Trực tiếp bỏ qua không hát"},
+   "B": {"pinyin": "Suīrán méi chàng dào wánměi, dàn háishi yǒnggǎn de shì le, jiānchí dào zuìhòu", "vi": "Tuy hát chưa hoàn hảo, nhưng vẫn dũng cảm thử, kiên trì đến cùng"},
+   "C": {"pinyin": "Biǎoyǎn zhōngtú tíng xiàlái chóngxīn kāishǐ", "vi": "Dừng lại giữa chừng buổi biểu diễn để bắt đầu lại"},
+   "D": {"pinyin": "Huàn chéng le lìng yì shǒu gèng jiǎndān de gē", "vi": "Đổi sang hát một bài khác đơn giản hơn"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 26",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī rènwéi, \"wǒ\" jīntiān zuì dà de chénggōng shì shénme?",
+  "cau_hoi_vi": "Cô giáo cho rằng, thành công lớn nhất hôm nay của \"tôi\" là gì?",
+  "options": {
+   "A": {"pinyin": "Gē chàng de fēicháng hǎotīng", "vi": "Hát bài hát rất hay"},
+   "B": {"pinyin": "Gǎn yí gè rén zhàn shàng wǔtái biǎoyǎn", "vi": "Dám một mình đứng lên sân khấu biểu diễn"},
+   "C": {"pinyin": "Dédào le hěn duō zhǎngshēng", "vi": "Nhận được rất nhiều tiếng vỗ tay"},
+   "D": {"pinyin": "Méiyǒu chàng cuò rènhé yí gè zì", "vi": "Không hát sai bất kỳ chữ nào"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 26",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Trải nghiệm lần này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐyǒu chàng de wánměi cái zhíde jiāo'ào", "vi": "Chỉ khi hát hoàn hảo mới đáng tự hào"},
+   "B": {"pinyin": "Zhǐyào jìnlì zuò dào zuì hǎo, jiéguǒ rúhé dōu zhíde wèi zìjǐ jiāo'ào", "vi": "Chỉ cần cố gắng hết sức làm tốt nhất, dù kết quả thế nào cũng đáng tự hào về bản thân"},
+   "C": {"pinyin": "Yǐhòu bù gǎn zài yí gè rén biǎoyǎn le", "vi": "Sau này không dám một mình biểu diễn nữa"},
+   "D": {"pinyin": "Chànggē bǐsài méiyǒu shénme yìyì", "vi": "Thi hát không có ý nghĩa gì"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 27",
+  "so": 1,
+  "cau_hoi_pinyin": "Dì yī cì qí zìxíngchē de shíhou, fāshēng le shénme shì?",
+  "cau_hoi_vi": "Lần đầu tiên đi xe đạp, đã xảy ra chuyện gì?",
+  "options": {
+   "A": {"pinyin": "Qí de hěn wěn, yìdiǎnr wèntí dōu méiyǒu", "vi": "Đi rất vững, không có vấn đề gì"},
+   "B": {"pinyin": "Lián zěnme bǎochí pínghéng dōu bù zhīdào, hěn kuài jiù shuāidǎo le", "vi": "Ngay cả cách giữ thăng bằng cũng không biết, rất nhanh đã ngã"},
+   "C": {"pinyin": "Chēzi huài le, méi bànfǎ qí", "vi": "Xe bị hỏng, không có cách nào đi được"},
+   "D": {"pinyin": "Yīnwèi xiàyǔ méi néng qí", "vi": "Vì trời mưa nên không thể đi được"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 27",
+  "so": 2,
+  "cau_hoi_pinyin": "Bàba zài pángbiān shì zěnme jiāo \"wǒ\" de?",
+  "cau_hoi_vi": "Bố ở bên cạnh đã dạy \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Ràng \"wǒ\" zìjǐ yí gè rén liànxí", "vi": "Để \"tôi\" tự mình luyện tập một mình"},
+   "B": {"pinyin": "Fú zhe chēzi, gàosu \"wǒ\" yǎnjing yào kàn qiánmiàn", "vi": "Đỡ lấy xe, bảo \"tôi\" mắt phải nhìn về phía trước"},
+   "C": {"pinyin": "Zhíjiē bǎ chēzi de fǔzhùlún zhuāng shàng", "vi": "Trực tiếp lắp bánh phụ vào xe"},
+   "D": {"pinyin": "Juédìng xiān bù jiāo, děng \"wǒ\" zhǎngdà yìdiǎnr", "vi": "Quyết định chưa dạy vội, đợi \"tôi\" lớn hơn một chút"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 27",
+  "so": 3,
+  "cau_hoi_pinyin": "Qí de bǐjiào kuài yòu shuāi le yì jiāo yǐhòu, \"wǒ\" de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi đi nhanh hơn một chút rồi lại ngã thêm một lần nữa, tâm trạng của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán méishì, mǎshàng yòu kāishǐ qí", "vi": "Hoàn toàn không sao, lập tức lại bắt đầu đi tiếp"},
+   "B": {"pinyin": "Xīnli yǒudiǎnr xiǎng fàngqì", "vi": "Trong lòng có chút muốn từ bỏ"},
+   "C": {"pinyin": "Fēicháng shēngqì, bǎ chēzi rēng diào le", "vi": "Rất tức giận, đã vứt bỏ xe đi"},
+   "D": {"pinyin": "Juéde hěn hǎowán, xiǎng zài shuāi yí cì", "vi": "Cảm thấy rất thú vị, muốn ngã thêm lần nữa"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 27",
+  "so": 4,
+  "cau_hoi_pinyin": "Māma shì zěnme gǔlì \"wǒ\" de?",
+  "cau_hoi_vi": "Mẹ đã động viên \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shuō xué qíchē hěn jiǎndān, búyòng dānxīn", "vi": "Nói học đi xe đạp rất đơn giản, không cần lo lắng"},
+   "B": {"pinyin": "Shuō shuāi de yuè duō, shuōmíng liàn de yuè duō", "vi": "Nói ngã càng nhiều thì chứng tỏ luyện tập càng nhiều"},
+   "C": {"pinyin": "Shuō bú huì qíchē yě méi guānxi", "vi": "Nói không biết đi xe đạp cũng không sao"},
+   "D": {"pinyin": "Shuō yào qǐng zhuānyè jiàoliàn lái jiāo", "vi": "Nói sẽ mời huấn luyện viên chuyên nghiệp đến dạy"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 27",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè piān wénzhāng zhǔyào xiǎng gàosu wǒmen shénme?",
+  "cau_hoi_vi": "Bài viết này chủ yếu muốn nói với chúng ta điều gì?",
+  "options": {
+   "A": {"pinyin": "Qí zìxíngchē shì yí jiàn hěn wēixiǎn de shìqing", "vi": "Đi xe đạp là một việc rất nguy hiểm"},
+   "B": {"pinyin": "Xuéxí xīn jìnéng nánmiǎn huì yùdào shībài, jiānchí liànxí cái néng chénggōng", "vi": "Học kỹ năng mới khó tránh khỏi thất bại, phải kiên trì luyện tập mới thành công"},
+   "C": {"pinyin": "Yīnggāi qǐng zhuānyè jiàoliàn jiāo qíchē", "vi": "Nên mời huấn luyện viên chuyên nghiệp dạy đi xe đạp"},
+   "D": {"pinyin": "Xiǎoháizi bú shìhé xué qí zìxíngchē", "vi": "Trẻ nhỏ không thích hợp học đi xe đạp"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 28",
+  "so": 1,
+  "cau_hoi_pinyin": "Wèile huà hǎo zhè zhāng huà, \"wǒ\" zuò le shénme?",
+  "cau_hoi_vi": "Để vẽ tốt bức tranh này, \"tôi\" đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ zài bǐsài qián yì tiān huà wán", "vi": "Chỉ vẽ xong vào ngày trước cuộc thi"},
+   "B": {"pinyin": "Měitiān fàngxué hòu liú zài jiàoshì liànxí, yǒushí huà liǎng-sān gè xiǎoshí", "vi": "Mỗi ngày sau khi tan học đều ở lại lớp luyện tập, có lúc vẽ hai ba tiếng đồng hồ"},
+   "C": {"pinyin": "Qǐng zhuānyè huàjiā bāngmáng huà", "vi": "Nhờ họa sĩ chuyên nghiệp vẽ giúp"},
+   "D": {"pinyin": "Suíbiàn zhǎo le yì zhāng jiù huà jiāo shàngqù", "vi": "Tùy tiện tìm một bức tranh cũ nộp lên"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 28",
+  "so": 2,
+  "cau_hoi_pinyin": "Bǐsài jiéguǒ chūlái yǐhòu, \"wǒ\" de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi có kết quả cuộc thi, tâm trạng của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng shēngqì, juéde bǐsài bù gōngpíng", "vi": "Rất tức giận, cảm thấy cuộc thi không công bằng"},
+   "B": {"pinyin": "Yǒu yìdiǎnr shīwàng, yě yǒu yìdiǎnr nánguò", "vi": "Hơi thất vọng, cũng có chút buồn"},
+   "C": {"pinyin": "Wánquán méiyǒu rènhé gǎnjué", "vi": "Hoàn toàn không có cảm giác gì"},
+   "D": {"pinyin": "Mǎshàng jiù xiǎng fàngqì huàhuà", "vi": "Lập tức muốn từ bỏ việc vẽ tranh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 28",
+  "so": 3,
+  "cau_hoi_pinyin": "Měishù lǎoshī kàn le \"wǒ\" de huà yǐhòu, shuō le shénme?",
+  "cau_hoi_vi": "Sau khi xem bức tranh của \"tôi\", giáo viên mỹ thuật đã nói gì?",
+  "options": {
+   "A": {"pinyin": "Zhè zhāng huà wánquán méiyǒu jìnbù", "vi": "Bức tranh này hoàn toàn không có tiến bộ"},
+   "B": {"pinyin": "Yánsè dāpèi bǐ shàng cì jìnbù le hěn duō", "vi": "Cách phối màu đã tiến bộ hơn nhiều so với lần trước"},
+   "C": {"pinyin": "Yīnggāi chóngxīn huà yì zhāng", "vi": "Nên vẽ lại một bức khác"},
+   "D": {"pinyin": "Zhè cì bǐsài de huà dōu bú tài hǎo", "vi": "Các bức tranh dự thi lần này đều không tốt lắm"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 28",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī rènwéi, huìhuà bǐsài zhēnzhèng zhòngyào de shì shénme?",
+  "cau_hoi_vi": "Giáo viên cho rằng, điều thực sự quan trọng trong cuộc thi vẽ tranh là gì?",
+  "options": {
+   "A": {"pinyin": "Yídìng yào dé jiǎng cái yǒu yìyì", "vi": "Nhất định phải đoạt giải mới có ý nghĩa"},
+   "B": {"pinyin": "Zài guòchéng zhōng xué dào le shénme", "vi": "Đã học được gì trong quá trình đó"},
+   "C": {"pinyin": "Huà de tící shì bu shì gòu tèbié", "vi": "Đề tài bức tranh có đủ đặc biệt hay không"},
+   "D": {"pinyin": "Huā de shíjiān yǒu duō cháng", "vi": "Thời gian bỏ ra dài bao lâu"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 28",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè piān wénzhāng zuìhòu xiǎng gàosu wǒmen shénme dàolǐ?",
+  "cau_hoi_vi": "Cuối cùng bài viết này muốn nói với chúng ta đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Méiyǒu dé jiǎng, shuōmíng zhè duàn nǔlì bèi làngfèi le", "vi": "Không đoạt giải nghĩa là quãng nỗ lực đó đã bị lãng phí"},
+   "B": {"pinyin": "Méiyǒu dé jiǎng, bìng bú dàibiǎo nǔlì de shíjiān bèi làngfèi, tā yǐjīng ràng rén biàn de gèng hǎo", "vi": "Không đoạt giải không có nghĩa là thời gian nỗ lực bị lãng phí, nó đã giúp con người trở nên tốt hơn"},
+   "C": {"pinyin": "Yǐhòu bú yào zài cānjiā huìhuà bǐsài le", "vi": "Sau này đừng tham gia thi vẽ tranh nữa"},
+   "D": {"pinyin": "Zhǐyǒu dé jiǎng cái néng zhèngmíng zìjǐ de nénglì", "vi": "Chỉ có đoạt giải mới chứng minh được năng lực của bản thân"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 29",
+  "so": 1,
+  "cau_hoi_pinyin": "Qù pānyánguǎn zhīqián, \"wǒ\" de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Trước khi đến phòng leo núi nhân tạo, tâm trạng của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán bù dānxīn, fēicháng zìxìn", "vi": "Hoàn toàn không lo lắng, rất tự tin"},
+   "B": {"pinyin": "Jì hàoqí yòu yǒudiǎnr dānxīn, yīnwèi cónglái méi zuò guò", "vi": "Vừa tò mò vừa hơi lo lắng, vì chưa từng làm việc này bao giờ"},
+   "C": {"pinyin": "Yìdiǎnr dōu bù xiǎng qù", "vi": "Không muốn đi chút nào"},
+   "D": {"pinyin": "Fēicháng xīngfèn, juéde huì hěn jiǎndān", "vi": "Rất phấn khích, nghĩ rằng sẽ rất đơn giản"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 29",
+  "so": 2,
+  "cau_hoi_pinyin": "Pá dào yíbàn zhǎo bú dào cǎi de dìfang shí, \"wǒ\" shì zěnme xiǎng de?",
+  "cau_hoi_vi": "Khi leo đến nửa chừng không tìm được chỗ đặt chân, \"tôi\" đã nghĩ gì?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng jiù zhǎodào le jiějué bànfǎ", "vi": "Lập tức tìm ra cách giải quyết"},
+   "B": {"pinyin": "Yóuyù le hěn jiǔ, shènzhì xiǎng yào zhíjiē fàngqì", "vi": "Do dự rất lâu, thậm chí muốn từ bỏ luôn"},
+   "C": {"pinyin": "Lìkè jiào jiàoliàn bǎ zìjǐ fàng xiàlái", "vi": "Lập tức gọi huấn luyện viên thả mình xuống"},
+   "D": {"pinyin": "Juédìng tiào dào pángbiān de yánbì shàng", "vi": "Quyết định nhảy sang vách đá bên cạnh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 29",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiàoliàn shì zěnme bāngzhù \"wǒ\" de?",
+  "cau_hoi_vi": "Huấn luyện viên đã giúp đỡ \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhíjiē bāng \"wǒ\" pá shàngqù", "vi": "Trực tiếp giúp \"tôi\" leo lên"},
+   "B": {"pinyin": "Gǔlì \"wǒ\" mànman kàn, gàosu \"wǒ\" jiǎoxià hái yǒu kěyǐ cǎi de dìfang", "vi": "Động viên \"tôi\" từ từ nhìn kỹ, bảo \"tôi\" dưới chân vẫn còn chỗ có thể đặt chân"},
+   "C": {"pinyin": "Ràng \"wǒ\" mǎshàng xiàlái, bú yào zài pá le", "vi": "Bảo \"tôi\" xuống ngay, đừng leo nữa"},
+   "D": {"pinyin": "Huàn le yì tiáo gèng róngyì de lùxiàn", "vi": "Đổi sang một tuyến đường dễ hơn"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 29",
+  "so": 4,
+  "cau_hoi_pinyin": "Pá dào zhōngdiǎn yǐhòu, \"wǒ\" de gǎnshòu shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi leo đến đích, cảm nhận của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde méiyǒu shénme tèbié de gǎnjué", "vi": "Cảm thấy không có cảm giác gì đặc biệt"},
+   "B": {"pinyin": "Chéngjiùgǎn bǐ xiǎngxiàng de hái yào dà", "vi": "Cảm giác thành tựu còn lớn hơn cả tưởng tượng"},
+   "C": {"pinyin": "Juéde fēicháng hòuhuǐ chángshì zhè xiàng yùndòng", "vi": "Cảm thấy rất hối hận vì đã thử môn thể thao này"},
+   "D": {"pinyin": "Juédìng yǐhòu zài yě bù pá le", "vi": "Quyết định sau này không leo nữa"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 29",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì chángshì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Lần thử nghiệm này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Pānyán shì yí xiàng hěn wēixiǎn de yùndòng, bù yīnggāi chángshì", "vi": "Leo núi là môn thể thao rất nguy hiểm, không nên thử"},
+   "B": {"pinyin": "Hěn duō shìqing kàn qǐlái nán, dàn yí bù yí bù shì, wǎngwǎng bǐ xiǎngxiàng zhōng róngyì wánchéng", "vi": "Nhiều việc nhìn có vẻ khó, nhưng cứ thử từng bước một, thường lại dễ hoàn thành hơn ta tưởng"},
+   "C": {"pinyin": "Yīnggāi qǐng gèng zhuānyè de jiàoliàn cái néng wánchéng tiǎozhàn", "vi": "Nên mời huấn luyện viên chuyên nghiệp hơn mới có thể hoàn thành thử thách"},
+   "D": {"pinyin": "Zhǐyǒu shēntǐ hǎo de rén cái néng wánchéng pānyán", "vi": "Chỉ có người thể lực tốt mới leo núi được"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 30",
+  "so": 1,
+  "cau_hoi_pinyin": "Qīmò kǎoshì kuài dào de shíhou, \"wǒ\" duì shùxué shì shénme gǎnjué?",
+  "cau_hoi_vi": "Khi kỳ thi cuối kỳ sắp đến, cảm giác của \"tôi\" đối với môn Toán là gì?",
+  "options": {
+   "A": {"pinyin": "Hěn yǒu xìnxīn, juéde hěn jiǎndān", "vi": "Rất tự tin, cảm thấy rất đơn giản"},
+   "B": {"pinyin": "Yālì tèbié dà, yīnwèi shùxué shì zuì bú shàncháng de kēmù", "vi": "Áp lực đặc biệt lớn, vì Toán là môn học kém nhất"},
+   "C": {"pinyin": "Wánquán bù dānxīn, suíbiàn kǎokǎo jiù xíng", "vi": "Hoàn toàn không lo lắng, thi qua loa cũng được"},
+   "D": {"pinyin": "Juéde shùxué bǐ biéde kēmù róngyì", "vi": "Cảm thấy Toán dễ hơn các môn khác"}
+  }
+ }
+]

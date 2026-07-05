@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK2-Bài 16",
+  "so": 4,
+  "cau_hoi_pinyin": "Guānyú nà dào yǒu zhēngyì de tímù, lǎoshī zuìhòu shuō le shénme?",
+  "cau_hoi_vi": "Về câu hỏi gây tranh cãi đó, cuối cùng giáo viên đã nói gì?",
+  "options": {
+   "A": {"pinyin": "Shuō tāmen liǎng gè rén dōu cuò le", "vi": "Nói rằng cả hai người đều sai"},
+   "B": {"pinyin": "Shuō zhè dào tí méiyǒu biāozhǔn dá'àn, zhòngyào de shì tǎolùn guòchéng", "vi": "Nói rằng câu hỏi này không có đáp án chuẩn, điều quan trọng là quá trình thảo luận"},
+   "C": {"pinyin": "Shuō yīnggāi xuǎnzé wǒ de dá'àn", "vi": "Nói rằng nên chọn đáp án của tôi"},
+   "D": {"pinyin": "Shuō zhè dào tí yīnggāi tiàoguò bú suàn fēn", "vi": "Nói rằng câu này nên bỏ qua, không tính điểm"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 16",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Trải nghiệm lần này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Kǎoshì liǎng gè rén zuò bǐ yí gè rén zuò gèng róngyì tōngguò", "vi": "Khi thi, hai người cùng làm bài dễ vượt qua hơn một người làm"},
+   "B": {"pinyin": "Liǎng gè rén yìqǐ xiǎng wèntí, wǎngwǎng bǐ yí gè rén xiǎng de gèng quánmiàn", "vi": "Hai người cùng suy nghĩ vấn đề thường toàn diện hơn một người suy nghĩ"},
+   "C": {"pinyin": "Yǐhòu suǒyǒu kǎoshì dōu yīnggāi liǎng rén yì zǔ", "vi": "Sau này tất cả các kỳ thi đều nên chia thành nhóm hai người"},
+   "D": {"pinyin": "Tǎolùn huì làngfèi hěn duō kǎoshì shíjiān", "vi": "Thảo luận sẽ lãng phí rất nhiều thời gian thi cử"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 17",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" kàndào Wáng āyí de shíhou, tā zhèngzài zuò shénme?",
+  "cau_hoi_vi": "Khi \"tôi\" nhìn thấy dì Vương, dì ấy đang làm gì?",
+  "options": {
+   "A": {"pinyin": "Dǎsǎo ménkǒu", "vi": "Quét dọn trước cửa"},
+   "B": {"pinyin": "Zhàn zài ménkǒu, kàn qǐlái yǒudiǎnr zháojí", "vi": "Đứng ở trước cửa, trông có vẻ hơi vội vàng"},
+   "C": {"pinyin": "Gēn kuàidìyuán shuōhuà", "vi": "Đang nói chuyện với người giao hàng"},
+   "D": {"pinyin": "Gěi sūnzi dǎ diànhuà", "vi": "Gọi điện thoại cho cháu trai"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 17",
+  "so": 2,
+  "cau_hoi_pinyin": "Wáng āyí wèishénme xūyào \"wǒ\" bāngmáng?",
+  "cau_hoi_vi": "Vì sao dì Vương cần \"tôi\" giúp đỡ?",
+  "options": {
+   "A": {"pinyin": "Tā yào chūmén qù yīyuàn, pà cuòguò kuàidì", "vi": "Dì ấy phải ra ngoài đi bệnh viện, sợ lỡ mất chuyến hàng chuyển phát"},
+   "B": {"pinyin": "Tā de shǒu shòushāng le, ná bu dòng dōngxi", "vi": "Tay dì ấy bị thương, không cầm nổi đồ"},
+   "C": {"pinyin": "Tā bú huì yòng shǒujī qiānshōu kuàidì", "vi": "Dì ấy không biết dùng điện thoại để ký nhận hàng"},
+   "D": {"pinyin": "Tā yào chūchāi hěn duō tiān", "vi": "Dì ấy phải đi công tác nhiều ngày"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 17",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Wǒ\" shōudào kuàidì yǐhòu, shì zěnme chǔlǐ de?",
+  "cau_hoi_vi": "Sau khi \"tôi\" nhận được hàng, đã xử lý như thế nào?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng dǎkāi kànkan lǐmiàn shì shénme", "vi": "Mở ra ngay xem bên trong là gì"},
+   "B": {"pinyin": "Xiǎoxīn de bǎ tā fàng zài kètīng, méiyǒu dǎkāi", "vi": "Cẩn thận đặt nó ở phòng khách, không mở ra"},
+   "C": {"pinyin": "Zhíjiē sòngdào Wáng āyí jiā lǐ", "vi": "Mang thẳng đến nhà dì Vương"},
+   "D": {"pinyin": "Fàng zài ménkǒu děng tā zìjǐ ná", "vi": "Để ở trước cửa đợi dì ấy tự lấy"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 17",
+  "so": 4,
+  "cau_hoi_pinyin": "Kuàidì xiāngzi lǐ shì shénme dōngxi?",
+  "cau_hoi_vi": "Trong thùng hàng chuyển phát là thứ gì?",
+  "options": {
+   "A": {"pinyin": "Wáng āyí zìjǐ mǎi de yīfu", "vi": "Quần áo dì Vương tự mua"},
+   "B": {"pinyin": "Gěi sūnzi mǎi de shēngrì lǐwù", "vi": "Quà sinh nhật mua cho cháu trai"},
+   "C": {"pinyin": "Yīyuàn xūyào de yàopǐn", "vi": "Thuốc men bệnh viện cần dùng"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng", "vi": "Bài viết không nói rõ"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 17",
+  "so": 5,
+  "cau_hoi_pinyin": "Tōngguò zhè jiàn shì, zuòzhě yǒu shénme gǎnshòu?",
+  "cau_hoi_vi": "Qua sự việc này, tác giả có cảm nhận gì?",
+  "options": {
+   "A": {"pinyin": "Juéde bāng línjū de máng hěn máfan", "vi": "Cảm thấy giúp đỡ hàng xóm rất phiền phức"},
+   "B": {"pinyin": "Juéde línjū zhījiān hùxiāng bāngzhù, shì yí jiàn hěn wēnnuǎn de shìqíng", "vi": "Cảm thấy hàng xóm giúp đỡ lẫn nhau là một việc rất ấm áp"},
+   "C": {"pinyin": "Hòuhuǐ dāying bāngmáng shōu kuàidì", "vi": "Hối hận vì đã nhận lời giúp nhận hàng"},
+   "D": {"pinyin": "Juéde Wáng āyí tài kèqi le, bù xūyào shuō xièxie", "vi": "Cảm thấy dì Vương khách sáo quá, không cần phải cảm ơn"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 18",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" shì zài shénme qíngkuàng xià mílù de?",
+  "cau_hoi_vi": "\"Tôi\" bị lạc đường trong hoàn cảnh nào?",
+  "options": {
+   "A": {"pinyin": "Gēn péngyou yìqǐ lǚxíng de shíhou", "vi": "Khi đi du lịch cùng bạn bè"},
+   "B": {"pinyin": "Yí gè rén qù bù shúxī de chéngshì lǚxíng de shíhou", "vi": "Khi một mình đi du lịch đến thành phố xa lạ"},
+   "C": {"pinyin": "Zài zìjǐ zhù de chéngshì lǐ", "vi": "Ở ngay thành phố mình đang sống"},
+   "D": {"pinyin": "Zuò gōngjiāochē qù shàngbān de shíhou", "vi": "Khi đi xe buýt đi làm"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 18",
+  "so": 2,
+  "cau_hoi_pinyin": "Mílù yǐhòu, \"wǒ\" wèishénme bù néng yòng shǒujī chá dìtú?",
+  "cau_hoi_vi": "Sau khi bị lạc đường, vì sao \"tôi\" không thể dùng điện thoại xem bản đồ?",
+  "options": {
+   "A": {"pinyin": "Shǒujī méiyǒu diàn le", "vi": "Điện thoại hết pin rồi"},
+   "B": {"pinyin": "Méiyǒu wǎngluò xìnhào", "vi": "Không có tín hiệu mạng"},
+   "C": {"pinyin": "Shǒujī diū le", "vi": "Điện thoại bị mất"},
+   "D": {"pinyin": "Bú huì yòng dìtú ruǎnjiàn", "vi": "Không biết dùng phần mềm bản đồ"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 18",
+  "so": 3,
+  "cau_hoi_pinyin": "Shāngdiàn lǎobǎn shì zěnme bāngzhù \"wǒ\" de?",
+  "cau_hoi_vi": "Ông chủ cửa hàng đã giúp đỡ \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì gàosu le fāngxiàng, méiyǒu bié de bāngzhù", "vi": "Chỉ nói cho hướng đi, không có giúp đỡ gì khác"},
+   "B": {"pinyin": "Búdàn gàosu zěnme zǒu, hái huà le yì zhāng jiǎndān de dìtú", "vi": "Không những chỉ đường đi mà còn vẽ một tấm bản đồ đơn giản"},
+   "C": {"pinyin": "Kāichē sòng \"wǒ\" huí jiǔdiàn", "vi": "Lái xe đưa \"tôi\" về khách sạn"},
+   "D": {"pinyin": "Jiè le shǒujī gěi \"wǒ\" yòng", "vi": "Cho \"tôi\" mượn điện thoại để dùng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 18",
+  "so": 4,
+  "cau_hoi_pinyin": "Huídào jiǔdiàn yǐhòu, \"wǒ\" zài xiǎng shénme?",
+  "cau_hoi_vi": "Sau khi về đến khách sạn, \"tôi\" đang nghĩ gì?",
+  "options": {
+   "A": {"pinyin": "Hòuhuǐ yí gè rén chūlái lǚxíng", "vi": "Hối hận vì đã một mình đi du lịch"},
+   "B": {"pinyin": "Rúguǒ méi yùdào nà wèi hǎoxīn de lǎobǎn, kěnéng huì yìzhí mílù", "vi": "Nếu không gặp được ông chủ tốt bụng đó, có thể sẽ cứ lạc đường mãi"},
+   "C": {"pinyin": "Juédìng yǐhòu bú zài lái zhè ge chéngshì", "vi": "Quyết định sau này không đến thành phố này nữa"},
+   "D": {"pinyin": "Xiǎng gěi lǎobǎn yìxiē qián zuòwéi bàochou", "vi": "Muốn đưa cho ông chủ một ít tiền để trả công"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 18",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Trải nghiệm lần này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Chūmén lǚxíng yídìng yào dài dìtú", "vi": "Đi du lịch nhất định phải mang theo bản đồ"},
+   "B": {"pinyin": "Yùdào kùnnán de shíhou, xiàng biéren qiúzhù bìng bù diūliǎn", "vi": "Khi gặp khó khăn, nhờ người khác giúp đỡ không phải là điều xấu hổ"},
+   "C": {"pinyin": "Mòshēngrén dōu bù kě xìnrèn", "vi": "Người lạ đều không thể tin tưởng"},
+   "D": {"pinyin": "Shǒujī de diànliàng zuì zhòngyào", "vi": "Lượng pin điện thoại là quan trọng nhất"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 19",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" wèishénme juédìng zìjǐ zuò dàngāo?",
+  "cau_hoi_vi": "Vì sao \"tôi\" quyết định tự làm bánh kem?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi xiǎng xué yí gè xīn jìnéng", "vi": "Vì muốn học một kỹ năng mới"},
+   "B": {"pinyin": "Yīnwèi māma de shēngrì kuài dào le", "vi": "Vì sinh nhật mẹ sắp đến"},
+   "C": {"pinyin": "Yīnwèi dàngāo diàn dōu guānmén le", "vi": "Vì các tiệm bánh kem đều đóng cửa hết rồi"},
+   "D": {"pinyin": "Yīnwèi xiǎng zài péngyou miànqián biǎoxiàn yíxià", "vi": "Vì muốn thể hiện một chút trước mặt bạn bè"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 19",
+  "so": 2,
+  "cau_hoi_pinyin": "Zài zhǔnbèi cáiliào zhīqián, \"wǒ\" shì tōngguò shénme fāngshì xué zuò dàngāo de?",
+  "cau_hoi_vi": "Trước khi chuẩn bị nguyên liệu, \"tôi\" đã học làm bánh kem bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Shàng guò zhuānmén de pēngrèn kè", "vi": "Đã học qua lớp nấu ăn chuyên nghiệp"},
+   "B": {"pinyin": "Zhǐ zài wǎngshàng kàn guò yìxiē jiàochéng", "vi": "Chỉ xem qua một số video hướng dẫn trên mạng"},
+   "C": {"pinyin": "Māma jiāo guò \"wǒ\"", "vi": "Mẹ đã từng dạy \"tôi\""},
+   "D": {"pinyin": "Kàn le dàngāo diàn shīfu zuò de guòchéng", "vi": "Đã xem quá trình làm bánh của thợ ở tiệm bánh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 19",
+  "so": 3,
+  "cau_hoi_pinyin": "Dǎ jīdàn de shíhou, fāshēng le shénme xiǎo máfan?",
+  "cau_hoi_vi": "Khi đập trứng gà, đã xảy ra rắc rối nhỏ gì?",
+  "options": {
+   "A": {"pinyin": "Jīdàn bù xiǎoxīn dǎ suì zài dì shàng", "vi": "Trứng gà không cẩn thận bị vỡ rơi xuống đất"},
+   "B": {"pinyin": "Dànké nòng jìn le wǎn lǐ, huā le shíjiān jiǎn chūlái", "vi": "Vỏ trứng rơi vào trong bát, phải mất thời gian nhặt ra"},
+   "C": {"pinyin": "Wàng le mǎi jīdàn", "vi": "Quên mua trứng gà"},
+   "D": {"pinyin": "Jīdàn fàng de shùliàng bú duì", "vi": "Số lượng trứng gà cho vào không đúng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 19",
+  "so": 4,
+  "cau_hoi_pinyin": "Dàngāo kǎohǎo yǐhòu, yàngzi hé wèidào zěnmeyàng?",
+  "cau_hoi_vi": "Sau khi bánh kem nướng xong, hình dáng và mùi vị như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yàngzi hěn piàoliang, dànshì bù hǎochī", "vi": "Hình dáng rất đẹp nhưng không ngon"},
+   "B": {"pinyin": "Yàngzi bú suàn piàoliang, dànshì wén qǐlái hěn xiāng", "vi": "Hình dáng không đẹp lắm nhưng ngửi rất thơm"},
+   "C": {"pinyin": "Yàngzi hé wèidào dōu hěn wánměi", "vi": "Hình dáng và mùi vị đều rất hoàn hảo"},
+   "D": {"pinyin": "Wánquán méiyǒu kǎo shú", "vi": "Hoàn toàn chưa nướng chín"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 19",
+  "so": 5,
+  "cau_hoi_pinyin": "Kàndào dàngāo yǐhòu, māma shì shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi nhìn thấy bánh kem, mẹ có phản ứng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde dàngāo zuò de bù hǎo, yǒudiǎnr shīwàng", "vi": "Cảm thấy bánh làm không ngon, có chút thất vọng"},
+   "B": {"pinyin": "Hěn gǎndòng, shuō zhè shì tā chī guò zuì yǒu yìyì de dàngāo", "vi": "Rất cảm động, nói đây là chiếc bánh ý nghĩa nhất mà mẹ từng ăn"},
+   "C": {"pinyin": "Méiyǒu shuō tài duō, zhǐshì xiào le yíxià", "vi": "Không nói gì nhiều, chỉ cười một chút"},
+   "D": {"pinyin": "Jiànyì yǐhòu qù dàngāo diàn mǎi jiù hǎo", "vi": "Đề nghị sau này cứ ra tiệm mua bánh là được"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 20",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" cānjiā de shì shénme bǐsài xiàngmù?",
+  "cau_hoi_vi": "Môn thi đấu \"tôi\" tham gia là gì?",
+  "options": {
+   "A": {"pinyin": "Yìbǎi mǐ duǎnpǎo", "vi": "Chạy nước rút một trăm mét"},
+   "B": {"pinyin": "Bābǎi mǐ chángpǎo", "vi": "Chạy đường dài tám trăm mét"},
+   "C": {"pinyin": "Tiàoyuǎn bǐsài", "vi": "Thi nhảy xa"},
+   "D": {"pinyin": "Yóuyǒng bǐsài", "vi": "Thi bơi lội"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 20",
+  "so": 2,
+  "cau_hoi_pinyin": "Bǐsài dàngtiān de tiānqì zěnmeyàng?",
+  "cau_hoi_vi": "Thời tiết vào ngày thi đấu như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yángguāng hěn hǎo, hěn rè", "vi": "Nắng rất đẹp, rất nóng"},
+   "B": {"pinyin": "Yǒu yìdiǎnr xiǎoyǔ", "vi": "Có một chút mưa nhỏ"},
+   "C": {"pinyin": "Xià dàxuě", "vi": "Có tuyết rơi to"},
+   "D": {"pinyin": "Guā hěn dà de fēng", "vi": "Gió thổi rất mạnh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 20",
+  "so": 3,
+  "cau_hoi_pinyin": "Pǎo dào dì-sān quān de shíhou, \"wǒ\" gǎnjué zěnmeyàng?",
+  "cau_hoi_vi": "Khi chạy đến vòng thứ ba, \"tôi\" cảm thấy thế nào?",
+  "options": {
+   "A": {"pinyin": "Gǎnjué yuè pǎo yuè qīngsōng", "vi": "Cảm thấy càng chạy càng nhẹ nhàng"},
+   "B": {"pinyin": "Tǐlì bú gòu le, shuāng tuǐ biàn de chénzhòng", "vi": "Sức lực không đủ nữa, hai chân trở nên nặng nề"},
+   "C": {"pinyin": "Wánquán méiyǒu gǎnjué, hěn zhèngcháng", "vi": "Hoàn toàn không có cảm giác gì, rất bình thường"},
+   "D": {"pinyin": "Xiǎng yào fàngqì bǐsài", "vi": "Muốn từ bỏ cuộc thi"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 20",
+  "so": 4,
+  "cau_hoi_pinyin": "Shì shénme ràng \"wǒ\" chóngxīn yǒu le lìqi jiākuài sùdù?",
+  "cau_hoi_vi": "Điều gì khiến \"tôi\" lấy lại sức để tăng tốc độ?",
+  "options": {
+   "A": {"pinyin": "Hē le shuǐ, xiūxi le yíxià", "vi": "Uống nước, nghỉ ngơi một chút"},
+   "B": {"pinyin": "Tīngdào tóngxuémen hǎn míngzì wèi zìjǐ jiāyóu", "vi": "Nghe thấy các bạn học hô tên mình để cổ vũ"},
+   "C": {"pinyin": "Kàndào zhōngdiǎn yǐjīng hěn jìn le", "vi": "Nhìn thấy đích đến đã rất gần rồi"},
+   "D": {"pinyin": "Lǎoshī zài pángbiān zhǐdǎo", "vi": "Giáo viên hướng dẫn ở bên cạnh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 20",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì yùndònghuì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Hội thao lần này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐyǒu ná dì-yī míng cái yǒu yìyì", "vi": "Chỉ có giành được hạng nhất mới có ý nghĩa"},
+   "B": {"pinyin": "Jiānchí dào zuìhòu, bǐ jiéguǒ shì bu shì dì-yī míng gèng zhòngyào", "vi": "Kiên trì đến cùng quan trọng hơn việc kết quả có phải hạng nhất hay không"},
+   "C": {"pinyin": "Chángpǎo bǐsài tài xīnkǔ, bù zhídé cānjiā", "vi": "Thi chạy đường dài quá vất vả, không đáng để tham gia"},
+   "D": {"pinyin": "Yīnggāi zài sài qián duō xiūxi, shǎo liànxí", "vi": "Nên nghỉ ngơi nhiều, luyện tập ít trước khi thi"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 21",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhè cì biànlùnsài de tímù shì shénme?",
+  "cau_hoi_vi": "Chủ đề của cuộc thi tranh biện lần này là gì?",
+  "options": {
+   "A": {"pinyin": "Shǒujī duì xuésheng yǒu méiyǒu bāngzhù", "vi": "Điện thoại có giúp ích gì cho học sinh hay không"},
+   "B": {"pinyin": "Yīnggāi bù yīnggāi yǒu shǔjià zuòyè", "vi": "Có nên có bài tập nghỉ hè hay không"},
+   "C": {"pinyin": "Xuésheng yào bú yào chuān xiàofú", "vi": "Học sinh có nên mặc đồng phục hay không"},
+   "D": {"pinyin": "Wǎngluò duì shēnghuó de yǐngxiǎng", "vi": "Ảnh hưởng của mạng internet đối với cuộc sống"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 21",
+  "so": 2,
+  "cau_hoi_pinyin": "Wèile zhǔnbèi zhè cì bǐsài, \"wǒ\" zuò le shénme?",
+  "cau_hoi_vi": "Để chuẩn bị cho cuộc thi lần này, \"tôi\" đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì suíbiàn kàn le yíxià zīliào", "vi": "Chỉ xem qua loa tài liệu một chút"},
+   "B": {"pinyin": "Měitiān huā shíjiān zhǎo zīliào, hái qǐng bàba māma péi liànxí", "vi": "Mỗi ngày dành thời gian tìm tài liệu, còn nhờ bố mẹ tập luyện cùng"},
+   "C": {"pinyin": "Qǐng le zhuānyè de biànlùn lǎoshī", "vi": "Mời giáo viên tranh biện chuyên nghiệp"},
+   "D": {"pinyin": "Wánquán méiyǒu zhǔnbèi", "vi": "Hoàn toàn không chuẩn bị gì"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 21",
+  "so": 3,
+  "cau_hoi_pinyin": "Bǐsài zhōng, \"wǒ\" wèishénme tūrán jǐnzhāng qǐlái?",
+  "cau_hoi_vi": "Trong lúc thi đấu, vì sao \"tôi\" đột nhiên căng thẳng?",
+  "options": {
+   "A": {"pinyin": "Wàngjì le zìjǐ yào shuō shénme", "vi": "Quên mất mình định nói gì"},
+   "B": {"pinyin": "Duìfāng shuō de lǐyóu, shìxiān wánquán méi xiǎngdào", "vi": "Lý lẽ đối phương đưa ra, trước đó hoàn toàn không nghĩ tới"},
+   "C": {"pinyin": "Màikèfēng huài le", "vi": "Micro bị hỏng"},
+   "D": {"pinyin": "Shíjiān kuài dào le", "vi": "Thời gian sắp hết"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 21",
+  "so": 4,
+  "cau_hoi_pinyin": "Xiǎngqǐ lǎoshī shuō de huà yǐhòu, \"wǒ\" shì zěnme zuò de?",
+  "cau_hoi_vi": "Sau khi nhớ lại lời giáo viên nói, \"tôi\" đã làm như thế nào?",
+  "options": {
+   "A": {"pinyin": "Lìkè dàshēng fǎnbó duìfāng", "vi": "Lập tức lớn tiếng phản bác đối phương"},
+   "B": {"pinyin": "Lěngjìng xiàlái, tīngwán duìfāng de huà zài yìdiǎn yìdiǎn shuōchū xiǎngfǎ", "vi": "Bình tĩnh lại, nghe hết lời đối phương rồi mới từ từ nói ra suy nghĩ của mình"},
+   "C": {"pinyin": "Juédìng fàngqì zhè chǎng bǐsài", "vi": "Quyết định từ bỏ trận thi đấu này"},
+   "D": {"pinyin": "Qǐngqiú huàn yí gè tímù", "vi": "Xin đổi một đề tài khác"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 21",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Trải nghiệm lần này giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Yídìng yào yíngdé bǐsài cái yǒu yìyì", "vi": "Nhất định phải thắng cuộc thi mới có ý nghĩa"},
+   "B": {"pinyin": "Gǎnyú biǎodá zìjǐ de xiǎngfǎ, bǐ shūyíng gèng zhòngyào", "vi": "Dám bày tỏ suy nghĩ của bản thân quan trọng hơn thắng thua"},
+   "C": {"pinyin": "Biànlùnsài yīnggāi qǔxiāo", "vi": "Cuộc thi tranh biện nên bị hủy bỏ"},
+   "D": {"pinyin": "Shǒujī duì xuésheng wánquán méiyǒu bāngzhù", "vi": "Điện thoại hoàn toàn không giúp ích gì cho học sinh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 22",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" shì zěnme fāxiàn xiǎogǒu shēngbìng de?",
+  "cau_hoi_vi": "\"Tôi\" đã phát hiện chó con bị bệnh như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yīshēng dǎ diànhuà gàosu wǒmen", "vi": "Bác sĩ gọi điện báo cho chúng tôi"},
+   "B": {"pinyin": "Xiǎogǒu tūrán bú ài chī dōngxi, yě méiyǒu jīngshen", "vi": "Chó con bỗng nhiên không thích ăn, cũng không có tinh thần"},
+   "C": {"pinyin": "Xiǎogǒu yìzhí zài jiào", "vi": "Chó con cứ sủa mãi"},
+   "D": {"pinyin": "Xiǎogǒu shēnshàng yǒu shāngkǒu", "vi": "Trên người chó con có vết thương"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 22",
+  "so": 2,
+  "cau_hoi_pinyin": "Yīshēng shuō xiǎogǒu shēngbìng de yuányīn kěnéng shì shénme?",
+  "cau_hoi_vi": "Bác sĩ nói nguyên nhân khiến chó con bị bệnh có thể là gì?",
+  "options": {
+   "A": {"pinyin": "Gǎnmào le", "vi": "Bị cảm rồi"},
+   "B": {"pinyin": "Chī le bù xīnxiān de dōngxi, wèi bù shūfu", "vi": "Ăn phải đồ không tươi, dạ dày khó chịu"},
+   "C": {"pinyin": "Yùndòng tài duō le", "vi": "Vận động quá nhiều"},
+   "D": {"pinyin": "Tiānqì tài lěng", "vi": "Thời tiết quá lạnh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 22",
+  "so": 3,
+  "cau_hoi_pinyin": "Wèile ràng xiǎogǒu gèng róngyì chī yào, \"wǒ\" xiǎng le shénme bànfǎ?",
+  "cau_hoi_vi": "Để chó con dễ uống thuốc hơn, \"tôi\" đã nghĩ ra cách gì?",
+  "options": {
+   "A": {"pinyin": "Qiángxíng bǎ yào sāi jìn tā zuǐ lǐ", "vi": "Cưỡng ép nhét thuốc vào miệng nó"},
+   "B": {"pinyin": "Bǎ yào cáng zài tā xǐhuan de shíwù lǐ", "vi": "Giấu thuốc vào trong món ăn nó thích"},
+   "C": {"pinyin": "Huàn le yì zhǒng xīn de yào", "vi": "Đổi sang một loại thuốc mới"},
+   "D": {"pinyin": "Qǐng yīshēng měitiān shàngmén wèi yào", "vi": "Nhờ bác sĩ mỗi ngày đến tận nhà cho uống thuốc"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 22",
+  "so": 4,
+  "cau_hoi_pinyin": "\"Wǒ\" wèishénme bǎ xiǎogǒu de wō bāndào zìjǐ fángjiān?",
+  "cau_hoi_vi": "Vì sao \"tôi\" chuyển ổ của chó con vào phòng mình?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi kètīng tài lěng", "vi": "Vì phòng khách quá lạnh"},
+   "B": {"pinyin": "Zhèyàng rúguǒ tā bànyè bù shūfu, kěyǐ mǎshàng zhīdào", "vi": "Như vậy nếu nửa đêm nó khó chịu, có thể biết ngay lập tức"},
+   "C": {"pinyin": "Yīnwèi māma bù xǐhuan xiǎogǒu dāi zài kètīng", "vi": "Vì mẹ không thích chó con ở phòng khách"},
+   "D": {"pinyin": "Yīnwèi fángjiān bǐjiào dà", "vi": "Vì phòng khá rộng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 22",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiǎogǒu dàgài guò le duō jiǔ huīfù le jiànkāng?",
+  "cau_hoi_vi": "Chó con mất khoảng bao lâu thì hồi phục sức khỏe?",
+  "options": {
+   "A": {"pinyin": "Liǎng tiān", "vi": "Hai ngày"},
+   "B": {"pinyin": "Wǔ tiān", "vi": "Năm ngày"},
+   "C": {"pinyin": "Shí tiān", "vi": "Mười ngày"},
+   "D": {"pinyin": "Yí gè yuè", "vi": "Một tháng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 23",
+  "so": 1,
+  "cau_hoi_pinyin": "Wèishénme \"wǒmen\" quánjiā yào bāndào xīn chéngshì?",
+  "cau_hoi_vi": "Vì sao cả nhà \"chúng tôi\" phải chuyển đến thành phố mới?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi xiǎng huàn yí gè gèng dà de fángzi", "vi": "Vì muốn đổi sang một căn nhà lớn hơn"},
+   "B": {"pinyin": "Yīnwèi bàba gōngzuò de dìfang biàn le", "vi": "Vì nơi làm việc của bố đã thay đổi"},
+   "C": {"pinyin": "Yīnwèi bù xǐhuan yuánlái de línjū", "vi": "Vì không thích hàng xóm cũ"},
+   "D": {"pinyin": "Yīnwèi yào qù zhàogù qīnqi", "vi": "Vì phải đi chăm sóc họ hàng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 23",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhěnglǐ fángjiān de shíhou, \"wǒ\" fāxiàn le shénme?",
+  "cau_hoi_vi": "Khi dọn dẹp phòng, \"tôi\" đã phát hiện ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Hěn duō méi yòng guò de dōngxi", "vi": "Rất nhiều đồ vật chưa từng dùng đến"},
+   "B": {"pinyin": "Hěn duō xiǎoshíhou de zhàopiàn hé wánjù", "vi": "Rất nhiều ảnh chụp và đồ chơi hồi nhỏ"},
+   "C": {"pinyin": "Yìxiē bú rènshi de dōngxi", "vi": "Một số đồ vật không nhận ra"},
+   "D": {"pinyin": "Línjū liú xià de dōngxi", "vi": "Đồ đạc hàng xóm để lại"}
+  }
+ }
+]

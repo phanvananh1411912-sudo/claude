@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK3-Bài 21",
+  "so": 3,
+  "cau_hoi_pinyin": "Gǔdài de \"shān\" zì, kàn qǐlái xiàng shénme?",
+  "cau_hoi_vi": "Chữ \"山\" (núi) thời cổ đại trông giống cái gì?",
+  "options": {
+   "A": {"pinyin": "Yì tiáo hé", "vi": "Một con sông"},
+   "B": {"pinyin": "Sān gè lián zài yìqǐ de shānfēng", "vi": "Ba ngọn núi nối liền nhau"},
+   "C": {"pinyin": "Yì kē shù", "vi": "Một cái cây"},
+   "D": {"pinyin": "Yí gè yuánquān", "vi": "Một vòng tròn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 21",
+  "so": 4,
+  "cau_hoi_pinyin": "Xiàkè yǐhòu, zuòzhě zuò le shénme?",
+  "cau_hoi_vi": "Sau khi tan học, tác giả đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng huí jiā le", "vi": "Lập tức về nhà"},
+   "B": {"pinyin": "Tèyì zhǎo le yìxiē jiǎgǔwén de túpiàn lái kàn", "vi": "Cố ý tìm một số hình ảnh giáp cốt văn để xem"},
+   "C": {"pinyin": "Qù wèn le biéde lǎoshī", "vi": "Đi hỏi giáo viên khác"},
+   "D": {"pinyin": "Juédìng bú zài xuéxí Hànzì lìshǐ", "vi": "Quyết định không học lịch sử chữ Hán nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 21",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì xuéxí ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Lần học này khiến tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Hànzì zhǐshì jìlù yǔyán de fúhào, méiyǒu biéde yìyì", "vi": "Chữ Hán chỉ là ký hiệu ghi lại ngôn ngữ, không có ý nghĩa gì khác"},
+   "B": {"pinyin": "Hànzì gèng shì gǔrén zhìhuì hé guānchálì de jiéjīng", "vi": "Chữ Hán còn là kết tinh trí tuệ và khả năng quan sát của người xưa"},
+   "C": {"pinyin": "Xuéxí Hànzì lìshǐ hěn làngfèi shíjiān", "vi": "Học lịch sử chữ Hán rất lãng phí thời gian"},
+   "D": {"pinyin": "Xiàngxíngzì shì zuì nán xué de yì zhǒng Hànzì", "vi": "Chữ tượng hình là loại chữ Hán khó học nhất"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 22",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhǐshìzì gēn xiàngxíngzì yǒu shénme bùtóng?",
+  "cau_hoi_vi": "Chữ chỉ sự khác với chữ tượng hình ở điểm nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng, méiyǒu qūbié", "vi": "Hoàn toàn giống nhau, không có gì khác biệt"},
+   "B": {"pinyin": "Zhǐshìzì yòng fúhào biǎoshì chōuxiàng de yìsi, bú shì zhíjiē huà chū shìwù yàngzi", "vi": "Chữ chỉ sự dùng ký hiệu biểu thị ý nghĩa trừu tượng, không phải trực tiếp vẽ ra hình dáng sự vật"},
+   "C": {"pinyin": "Zhǐshìzì bǐ xiàngxíngzì gèng jiǎndān", "vi": "Chữ chỉ sự đơn giản hơn chữ tượng hình"},
+   "D": {"pinyin": "Zhǐshìzì zhǐ yòngyú shùzì", "vi": "Chữ chỉ sự chỉ dùng cho chữ số"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 22",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Shàng\" hé \"xià\" liǎng gè zì, zuìzǎo shì zěnme biǎoshì wèizhì gāodī de?",
+  "cau_hoi_vi": "Hai chữ \"上\" (trên) và \"下\" (dưới), ban đầu thể hiện vị trí cao thấp bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Yòng liǎng gè bùtóng de túxíng", "vi": "Dùng hai hình vẽ khác nhau"},
+   "B": {"pinyin": "Yòng yì tiáo héngxiàn, jiāshàng yí gè diǎn huò fúhào", "vi": "Dùng một nét ngang, thêm vào một chấm hoặc ký hiệu"},
+   "C": {"pinyin": "Yòng bùtóng de yánsè", "vi": "Dùng màu sắc khác nhau"},
+   "D": {"pinyin": "Yòng shùzì biǎoshì", "vi": "Dùng chữ số để biểu thị"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 22",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Rèn\" zì shì zěnme zào chūlái de?",
+  "cau_hoi_vi": "Chữ \"刃\" (lưỡi dao) được tạo ra như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán shì yí gè xīn de túxíng", "vi": "Hoàn toàn là một hình vẽ mới"},
+   "B": {"pinyin": "Zài \"dāo\" zì shàng jiā yì diǎn, biǎoshì dāo zuì fēnglì de bùfèn", "vi": "Thêm một chấm vào chữ \"刀\" (dao), biểu thị phần sắc bén nhất của con dao"},
+   "C": {"pinyin": "Yòng liǎng gè \"dāo\" zì zǔchéng", "vi": "Dùng hai chữ \"刀\" ghép thành"},
+   "D": {"pinyin": "Gēn \"dāo\" zì méiyǒu guānxì", "vi": "Không liên quan gì đến chữ \"刀\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 22",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě rènwéi, zhǐshìzì tǐxiàn le shénme?",
+  "cau_hoi_vi": "Tác giả cho rằng, chữ chỉ sự thể hiện điều gì?",
+  "options": {
+   "A": {"pinyin": "Gǔrén hěn lǎnduò", "vi": "Người xưa rất lười biếng"},
+   "B": {"pinyin": "Gǔrén de xiǎngfǎ hěn cōngmíng, yě hěn yǒu chuàngzàolì", "vi": "Cách nghĩ của người xưa rất thông minh, cũng rất có sức sáng tạo"},
+   "C": {"pinyin": "Zhǐshìzì hěn nán lǐjiě", "vi": "Chữ chỉ sự rất khó hiểu"},
+   "D": {"pinyin": "Zhǐshìzì shùliàng bǐ xiàngxíngzì duō", "vi": "Số lượng chữ chỉ sự nhiều hơn chữ tượng hình"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 22",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì xuéxí yǐhòu, zuòzhě de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Sau lần học này, tâm trạng của tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde xuéxí Hànzì lìshǐ hěn wúliáo", "vi": "Cảm thấy học lịch sử chữ Hán rất nhàm chán"},
+   "B": {"pinyin": "Gèngjiā pèifú gǔrén de zhìhuì, duì jiē xiàlái de xuéxí chōngmǎn qīdài", "vi": "Càng thêm khâm phục trí tuệ của người xưa, tràn đầy mong đợi đối với việc học tiếp theo"},
+   "C": {"pinyin": "Juédìng bú zài xuéxí biéde zàozì fāngfǎ", "vi": "Quyết định không học thêm các phương pháp tạo chữ khác nữa"},
+   "D": {"pinyin": "Juéde zhǐshìzì bǐ xiàngxíngzì gèng róngyì", "vi": "Cảm thấy chữ chỉ sự dễ hơn chữ tượng hình"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 23",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī shuō, huìyìzì shì zěnme zào chūlái de?",
+  "cau_hoi_vi": "Giáo viên nói, chữ hội ý được tạo ra như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhíjiē huà chū shìwù de yàngzi", "vi": "Trực tiếp vẽ ra hình dáng sự vật"},
+   "B": {"pinyin": "Bǎ liǎng gè huò gèng duō zì zǔhé zài yìqǐ, gòngtóng biǎoshì xīn yìsi", "vi": "Ghép hai hoặc nhiều chữ lại với nhau, cùng biểu thị một ý nghĩa mới"},
+   "C": {"pinyin": "Wánquán píngkōng chuàngzào xīn fúhào", "vi": "Hoàn toàn bịa ra ký hiệu mới mà không dựa vào gì"},
+   "D": {"pinyin": "Cóng biéde yǔyán jièyòng wénzì", "vi": "Mượn chữ viết từ ngôn ngữ khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 23",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Xiū\" zì shì yóu nǎ liǎng bùfèn zǔchéng de?",
+  "cau_hoi_vi": "Chữ \"休\" (nghỉ) do hai bộ phận nào ghép thành?",
+  "options": {
+   "A": {"pinyin": "\"Rén\" hé \"mù\"", "vi": "\"人\" (người) và \"木\" (cây)"},
+   "B": {"pinyin": "\"Rì\" hé \"yuè\"", "vi": "\"日\" (mặt trời) và \"月\" (mặt trăng)"},
+   "C": {"pinyin": "Liǎng gè \"mù\"", "vi": "Hai chữ \"木\""},
+   "D": {"pinyin": "\"Rén\" hé \"rì\"", "vi": "\"人\" và \"日\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 23",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Míng\" zì wèishénme biǎoshì míngliàng de yìsi?",
+  "cau_hoi_vi": "Tại sao chữ \"明\" (sáng) lại mang ý nghĩa sáng sủa?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi \"rì\" hé \"yuè\" de xíngzhuàng hěn liàng", "vi": "Vì hình dạng của \"日\" và \"月\" rất sáng"},
+   "B": {"pinyin": "Yīnwèi tàiyáng hé yuèliang dōu néng fāguāng, hé zài yìqǐ biǎoshì míngliàng", "vi": "Vì mặt trời và mặt trăng đều có thể phát sáng, ghép lại với nhau biểu thị sự sáng sủa"},
+   "C": {"pinyin": "Yīnwèi zhè shì gǔrén suíbiàn juédìng de", "vi": "Vì đây là điều người xưa tùy tiện quyết định"},
+   "D": {"pinyin": "Wénzhāng méiyǒu jiěshì yuányīn", "vi": "Bài viết không giải thích nguyên nhân"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 23",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě rènwéi, huìyìzì bǐ zhǐshìzì yǒu shénme yōudiǎn?",
+  "cau_hoi_vi": "Tác giả cho rằng, chữ hội ý có ưu điểm gì so với chữ chỉ sự?",
+  "options": {
+   "A": {"pinyin": "Gèng nán lǐjiě", "vi": "Khó hiểu hơn"},
+   "B": {"pinyin": "Gèng róngyì lǐjiě, yīnwèi shì zǔhé yǐ rènshi de zì", "vi": "Dễ hiểu hơn, vì là ghép các chữ đã biết"},
+   "C": {"pinyin": "Shùliàng gèng shǎo", "vi": "Số lượng ít hơn"},
+   "D": {"pinyin": "Zhǐ yòngyú biǎoshì wèizhì", "vi": "Chỉ dùng để biểu thị vị trí"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 23",
+  "so": 5,
+  "cau_hoi_pinyin": "Xué wán zhè yí kè yǐhòu, zuòzhě yǎngchéng le shénme xíguàn?",
+  "cau_hoi_vi": "Sau khi học xong bài này, tác giả đã hình thành thói quen gì?",
+  "options": {
+   "A": {"pinyin": "Bú zài xuéxí Hànzì lìshǐ", "vi": "Không học lịch sử chữ Hán nữa"},
+   "B": {"pinyin": "Kàndào bú rènshi de zì, huì xiǎng tā shì bú shì yóu jǐ gè bùfèn zǔchéng de", "vi": "Nhìn thấy chữ không quen biết, sẽ nghĩ xem nó có phải do mấy bộ phận ghép thành hay không"},
+   "C": {"pinyin": "Zhǐ jìyì Hànzì de dúyīn, bùguǎn yìsi", "vi": "Chỉ ghi nhớ cách đọc chữ Hán, không quan tâm ý nghĩa"},
+   "D": {"pinyin": "Juédìng bú zài xiě Hànzì", "vi": "Quyết định không viết chữ Hán nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 24",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī shuō, xíngshēngzì shì xiàndài Hànzì zhōng shénmeyàng de yì zhǒng?",
+  "cau_hoi_vi": "Giáo viên nói, chữ hình thanh là loại chữ như thế nào trong chữ Hán hiện đại?",
+  "options": {
+   "A": {"pinyin": "Shùliàng zuì shǎo de yì zhǒng", "vi": "Loại có số lượng ít nhất"},
+   "B": {"pinyin": "Shùliàng zuì duō de yì zhǒng", "vi": "Loại có số lượng nhiều nhất"},
+   "C": {"pinyin": "Zuì nán xiě de yì zhǒng", "vi": "Loại khó viết nhất"},
+   "D": {"pinyin": "Yǐjīng bú zài shǐyòng de yì zhǒng", "vi": "Loại đã không còn được sử dụng nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 24",
+  "so": 2,
+  "cau_hoi_pinyin": "Xíngshēngzì yóu nǎ liǎng bùfèn zǔchéng?",
+  "cau_hoi_vi": "Chữ hình thanh do hai bộ phận nào tạo thành?",
+  "options": {
+   "A": {"pinyin": "Shēngpáng hé yùnmǔ", "vi": "Thanh bàng (bộ biểu âm) và vận mẫu"},
+   "B": {"pinyin": "Xíngpáng (biǎoshì yìsi) hé shēngpáng (biǎoshì dúyīn)", "vi": "Hình bàng (biểu thị ý nghĩa) và thanh bàng (biểu thị cách đọc)"},
+   "C": {"pinyin": "Liǎng gè xíngpáng", "vi": "Hai hình bàng"},
+   "D": {"pinyin": "Liǎng gè shēngpáng", "vi": "Hai thanh bàng"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 24",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Mā\" zì de xíngpáng hé shēngpáng fēnbié shì shénme?",
+  "cau_hoi_vi": "Hình bàng và thanh bàng của chữ \"妈\" (mẹ) lần lượt là gì?",
+  "options": {
+   "A": {"pinyin": "Xíngpáng shì \"mǎ\", shēngpáng shì \"nǚ\"", "vi": "Hình bàng là \"马\" (ngựa), thanh bàng là \"女\" (nữ)"},
+   "B": {"pinyin": "Xíngpáng shì \"nǚ\", shēngpáng shì \"mǎ\"", "vi": "Hình bàng là \"女\" (nữ), thanh bàng là \"马\" (ngựa)"},
+   "C": {"pinyin": "Dōu shì \"nǚ\"", "vi": "Đều là \"女\""},
+   "D": {"pinyin": "Dōu shì \"mǎ\"", "vi": "Đều là \"马\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 24",
+  "so": 4,
+  "cau_hoi_pinyin": "Dài \"shuǐ\" xíngpáng de zì, yìbān gēn shénme yǒu guānxì?",
+  "cau_hoi_vi": "Chữ có bộ hình bàng \"氵\" (ba chấm thủy) thường liên quan đến điều gì?",
+  "options": {
+   "A": {"pinyin": "Gēn huǒ yǒuguān", "vi": "Liên quan đến lửa"},
+   "B": {"pinyin": "Gēn shuǐ yǒuguān", "vi": "Liên quan đến nước"},
+   "C": {"pinyin": "Gēn rén yǒuguān", "vi": "Liên quan đến người"},
+   "D": {"pinyin": "Gēn dòngwù yǒuguān", "vi": "Liên quan đến động vật"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 24",
+  "so": 5,
+  "cau_hoi_pinyin": "Lǎoshī tíxǐng wǒmen, xuéxí xíngshēngzì de shíhou yào zhùyì shénme?",
+  "cau_hoi_vi": "Giáo viên nhắc nhở chúng ta, khi học chữ hình thanh cần chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán yīlài cāicè jiù kěyǐ le", "vi": "Chỉ cần hoàn toàn dựa vào phỏng đoán là được"},
+   "B": {"pinyin": "Suīrán yǒu guīlǜ, dàn yě yǒu lìwài, yào rènzhēn xuéxí měi yí gè zì", "vi": "Tuy có quy luật, nhưng cũng có ngoại lệ, cần học nghiêm túc từng chữ một"},
+   "C": {"pinyin": "Bú yòng jìzhù xíngpáng hé shēngpáng", "vi": "Không cần nhớ hình bàng và thanh bàng"},
+   "D": {"pinyin": "Xíngshēngzì méiyǒu rènhé guīlǜ", "vi": "Chữ hình thanh không có quy luật nào cả"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 25",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuìzǎo de Hànzì shì kè zài shénme shàngmiàn de?",
+  "cau_hoi_vi": "Chữ Hán sớm nhất được khắc lên vật gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ shàng", "vi": "Trên giấy"},
+   "B": {"pinyin": "Wūguī ké hé dòngwù gǔtou shàng", "vi": "Trên mai rùa và xương động vật"},
+   "C": {"pinyin": "Mùtou shàng", "vi": "Trên gỗ"},
+   "D": {"pinyin": "Shítou shàng", "vi": "Trên đá"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 25",
+  "so": 2,
+  "cau_hoi_pinyin": "Jiǎgǔwén zhǔyào yòng lái jìlù shénme nèiróng?",
+  "cau_hoi_vi": "Giáp cốt văn chủ yếu dùng để ghi lại nội dung gì?",
+  "options": {
+   "A": {"pinyin": "Rìcháng shēnghuó", "vi": "Cuộc sống thường ngày"},
+   "B": {"pinyin": "Zhānbǔ de nèiróng", "vi": "Nội dung bói toán"},
+   "C": {"pinyin": "Shāngyè jiāoyì", "vi": "Giao dịch buôn bán"},
+   "D": {"pinyin": "Shīgē", "vi": "Thơ ca"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 25",
+  "so": 3,
+  "cau_hoi_pinyin": "Hànzì yǎnbiàn de shùnxù, ànzhào wénzhāng shì zěnyàng de?",
+  "cau_hoi_vi": "Theo bài viết, trình tự diễn biến của chữ Hán là như thế nào?",
+  "options": {
+   "A": {"pinyin": "Kǎishū → lìshū → zhuànshū → jīnwén → jiǎgǔwén", "vi": "Chữ khải → chữ lệ → chữ triện → kim văn → giáp cốt văn"},
+   "B": {"pinyin": "Jiǎgǔwén → jīnwén → zhuànshū → lìshū → kǎishū", "vi": "Giáp cốt văn → kim văn → chữ triện → chữ lệ → chữ khải"},
+   "C": {"pinyin": "Jīnwén → jiǎgǔwén → kǎishū → zhuànshū → lìshū", "vi": "Kim văn → giáp cốt văn → chữ khải → chữ triện → chữ lệ"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng shùnxù", "vi": "Bài viết không nói rõ trình tự"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 25",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī shuō, suīrán Hànzì de yàngzi biànhuà hěn duō, dànshì shénme yìzhí bǎoliú le xiàlái?",
+  "cau_hoi_vi": "Giáo viên nói, tuy hình dạng chữ Hán thay đổi nhiều, nhưng cái gì vẫn được giữ lại?",
+  "options": {
+   "A": {"pinyin": "Dúyīn wánquán méiyǒu biànhuà", "vi": "Cách đọc hoàn toàn không thay đổi"},
+   "B": {"pinyin": "Hěn duō zì de jīběn jiégòu hé yìsi", "vi": "Kết cấu cơ bản và ý nghĩa của nhiều chữ"},
+   "C": {"pinyin": "Shūxiě gōngjù méiyǒu biànhuà", "vi": "Công cụ viết chữ không thay đổi"},
+   "D": {"pinyin": "Shǐyòng de rénshù méiyǒu biànhuà", "vi": "Số người sử dụng không thay đổi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 25",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhège xuéqī xuéxí Hànzì lìshǐ, gěi zuòzhě dàilái le shénme biànhuà?",
+  "cau_hoi_vi": "Việc học lịch sử chữ Hán trong học kỳ này đã mang lại cho tác giả sự thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Juéde xué Zhōngwén gèngjiā kùnnán le", "vi": "Cảm thấy học tiếng Trung khó khăn hơn"},
+   "B": {"pinyin": "Duì Zhōngwén zhè mén yǔyán, yǒule wánquán bù yíyàng de gǎnqíng hé lǐjiě", "vi": "Đối với tiếng Trung, đã có tình cảm và sự hiểu biết hoàn toàn khác trước"},
+   "C": {"pinyin": "Juédìng bú zài xuéxí Zhōngwén de lìshǐ", "vi": "Quyết định không học lịch sử tiếng Trung nữa"},
+   "D": {"pinyin": "Juéde Hànzì lìshǐ gēn zìjǐ méiyǒu guānxì", "vi": "Cảm thấy lịch sử chữ Hán không liên quan gì đến bản thân"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 26",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī shuō, \"mù\" zhège zì běnshēn shì shénmeyàng de yì zhǒng zì?",
+  "cau_hoi_vi": "Giáo viên nói, bản thân chữ \"木\" (cây) là loại chữ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Huìyìzì", "vi": "Chữ hội ý"},
+   "B": {"pinyin": "Xiàngxíngzì", "vi": "Chữ tượng hình"},
+   "C": {"pinyin": "Zhǐshìzì", "vi": "Chữ chỉ sự"},
+   "D": {"pinyin": "Xíngshēngzì", "vi": "Chữ hình thanh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 26",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Sēn\" zì wèishénme yóu sān gè \"mù\" zǔchéng?",
+  "cau_hoi_vi": "Tại sao chữ \"森\" (rừng) lại do ba chữ \"木\" ghép thành?",
+  "options": {
+   "A": {"pinyin": "Suíbiàn juédìng de", "vi": "Được quyết định một cách tùy tiện"},
+   "B": {"pinyin": "Biǎoshì shù gèng duō, xíngróng màomì de sēnlín", "vi": "Biểu thị cây nhiều hơn, hình dung khu rừng rậm rạp"},
+   "C": {"pinyin": "Biǎoshì yì zhǒng tèbié de shù", "vi": "Biểu thị một loại cây đặc biệt"},
+   "D": {"pinyin": "Gēn shù méiyǒu guānxì", "vi": "Không liên quan gì đến cây"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 26",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Zhuō\", \"yǐ\", \"chuáng\" zhè jǐ gè zì, wèishénme dài yǒu \"mù\" zì páng?",
+  "cau_hoi_vi": "Mấy chữ \"桌\" (bàn), \"椅\" (ghế), \"床\" (giường) này, vì sao lại mang bộ \"木\"?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi tāmen de dúyīn gēn \"mù\" jiējìn", "vi": "Vì cách đọc của chúng gần giống với \"木\""},
+   "B": {"pinyin": "Yīnwèi zhèxiē dōu shì yòng mùtou zuò de jiājù", "vi": "Vì đây đều là đồ nội thất làm bằng gỗ"},
+   "C": {"pinyin": "Yīnwèi tāmen dōu zhǎng zài sēnlín lǐ", "vi": "Vì chúng đều mọc trong rừng"},
+   "D": {"pinyin": "Méiyǒu tèbié de yuányīn", "vi": "Không có nguyên nhân gì đặc biệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 26",
+  "so": 4,
+  "cau_hoi_pinyin": "Rènshi le \"mù\" zì páng de guīlǜ yǐhòu, néng yǒu shénme yòngchù?",
+  "cau_hoi_vi": "Sau khi biết được quy luật của bộ \"木\", có thể có tác dụng gì?",
+  "options": {
+   "A": {"pinyin": "Kěyǐ wánquán bú yòng xuéxí xīn zì", "vi": "Có thể hoàn toàn không cần học chữ mới"},
+   "B": {"pinyin": "Kàndào bú rènshi de dài \"mù\" zì páng de zì, kěyǐ dàgài cāi chū gēn shùmù yǒuguān", "vi": "Nhìn thấy chữ lạ có mang bộ \"木\", có thể đoán được đại khái là liên quan đến cây cối"},
+   "C": {"pinyin": "Kěyǐ mǎshàng xiě chū suǒyǒu dài \"mù\" de zì", "vi": "Có thể lập tức viết ra hết tất cả các chữ có \"木\""},
+   "D": {"pinyin": "Méiyǒu shénme tèbié de yòngchù", "vi": "Không có tác dụng gì đặc biệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 26",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè jié kè ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Tiết học này khiến tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Bùshǒu méiyǒu shénme guīlǜ", "vi": "Bộ thủ không có quy luật gì cả"},
+   "B": {"pinyin": "Bùshǒu jiù xiàng xiànsuǒ, néng bāngzhù lǐjiě hé jìzhù Hànzì", "vi": "Bộ thủ giống như manh mối, có thể giúp hiểu và ghi nhớ chữ Hán"},
+   "C": {"pinyin": "Zhǐyǒu \"mù\" zì páng de zì cái yǒu guīlǜ", "vi": "Chỉ có chữ mang bộ \"木\" mới có quy luật"},
+   "D": {"pinyin": "Xuéxí bùshǒu méiyǒu yìyì", "vi": "Học bộ thủ không có ý nghĩa gì"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 27",
+  "so": 1,
+  "cau_hoi_pinyin": "Gǔrén rènwéi, rén de gǎnqíng hé xiǎngfǎ láizì nǎlǐ?",
+  "cau_hoi_vi": "Người xưa cho rằng, tình cảm và suy nghĩ của con người xuất phát từ đâu?",
+  "options": {
+   "A": {"pinyin": "Dànǎo", "vi": "Não bộ"},
+   "B": {"pinyin": "Xīnzàng", "vi": "Trái tim"},
+   "C": {"pinyin": "Yǎnjīng", "vi": "Mắt"},
+   "D": {"pinyin": "Ěrduo", "vi": "Tai"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 27",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Máng\", \"kuài\", \"wàng\" zhè jǐ gè zì zuǒbiān de bùfèn, jiàozuò shénme?",
+  "cau_hoi_vi": "Phần bên trái của mấy chữ \"忙\" (bận), \"快\" (nhanh), \"忘\" (quên) này gọi là gì?",
+  "options": {
+   "A": {"pinyin": "Mù zì páng", "vi": "Bộ mộc (木)"},
+   "B": {"pinyin": "Shùxīnpáng", "vi": "Bộ thụ tâm (忄)"},
+   "C": {"pinyin": "Tíshǒupáng", "vi": "Bộ đề thủ (扌)"},
+   "D": {"pinyin": "Sān diǎn shuǐ", "vi": "Bộ ba chấm thủy (氵)"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 27",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Qíng\" zì shì yóu nǎ liǎng bùfèn zǔchéng de?",
+  "cau_hoi_vi": "Chữ \"情\" (tình cảm) do hai bộ phận nào ghép thành?",
+  "options": {
+   "A": {"pinyin": "Shùxīnpáng hé \"qīng\"", "vi": "Bộ thụ tâm (忄) và \"青\""},
+   "B": {"pinyin": "\"Xīn\" hé \"máng\"", "vi": "\"心\" và \"忙\""},
+   "C": {"pinyin": "Liǎng gè \"xīn\"", "vi": "Hai chữ \"心\""},
+   "D": {"pinyin": "\"Mù\" hé \"xīn\"", "vi": "\"木\" và \"心\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 27",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě cóng zìjǐ jǐnzhāng shí xīntiào biàn kuài, liánxiǎng dào le shénme?",
+  "cau_hoi_vi": "Từ việc bản thân khi căng thẳng thì tim đập nhanh hơn, tác giả đã liên tưởng đến điều gì?",
+  "options": {
+   "A": {"pinyin": "Xīnzàng bú jiànkāng", "vi": "Tim không khỏe mạnh"},
+   "B": {"pinyin": "Zhè néng jiěshì wèishénme gǔrén bǎ gǎnqíng hé \"xīn\" liánxì zài yìqǐ", "vi": "Điều này có thể giải thích tại sao người xưa lại gắn tình cảm với \"心\" (tim)"},
+   "C": {"pinyin": "Yīnggāi duō yùndòng", "vi": "Nên vận động nhiều hơn"},
+   "D": {"pinyin": "Gǎnqíng gēn \"xīn\" méiyǒu guānxì", "vi": "Tình cảm không liên quan gì đến \"心\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 27",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè jié kè ràng zuòzhě juéde Hànzì jìlù le shénme?",
+  "cau_hoi_vi": "Tiết học này khiến tác giả cảm thấy chữ Hán đã ghi lại điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ jìlù le gǔrén duì shìjiè de guānchá", "vi": "Chỉ ghi lại sự quan sát thế giới của người xưa"},
+   "B": {"pinyin": "Bùjǐn jìlù le duì shìjiè de guānchá, hái jìlù le duì nèixīn shìjiè de lǐjiě", "vi": "Không chỉ ghi lại sự quan sát thế giới, mà còn ghi lại sự thấu hiểu về thế giới nội tâm"},
+   "C": {"pinyin": "Zhǐshì yìxiē suíyì de fúhào", "vi": "Chỉ là một số ký hiệu tùy tiện"},
+   "D": {"pinyin": "Gēn gǔrén de gǎnqíng méiyǒu guānxì", "vi": "Không liên quan gì đến tình cảm của người xưa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 28",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Shǒu\" zhège bùshǒu shì cóng nǎge zì jiǎnhuà biànxíng lái de?",
+  "cau_hoi_vi": "Bộ thủ \"扌\" (đề thủ) này được đơn giản hóa, biến hình từ chữ nào?",
+  "options": {
+   "A": {"pinyin": "\"Dǎ\"", "vi": "\"打\" (đánh)"},
+   "B": {"pinyin": "\"Shǒu\"", "vi": "\"手\" (tay)"},
+   "C": {"pinyin": "\"Ná\"", "vi": "\"拿\" (cầm, lấy)"},
+   "D": {"pinyin": "\"Wǒ\"", "vi": "\"我\" (tôi)"}
+  }
+ }
+]

@@ -1,0 +1,650 @@
+[
+ {
+  "bai": "HSK3-Hội thoại 20",
+  "so": 4,
+  "cau_hoi_pinyin": "Jiāyí rènwéi, wèishénme Dàwěi zài gǎnqíng shàng bù xūyào liú tuìlù?",
+  "cau_hoi_vi": "Jiāyí cho rằng vì sao Dàwěi không cần chừa đường lui trong chuyện tình cảm?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi gǎnqíng bú zhòngyào",
+    "vi": "Vì tình cảm không quan trọng"
+   },
+   "B": {
+    "pinyin": "Zhèng shì yīnwèi zhè fèn gǎnqíng zúgòu zhòngyào, cái bù xūyào, yě bù xiǎng liú tuìlù",
+    "vi": "Chính vì tình cảm này đủ quan trọng, nên mới không cần, cũng không muốn chừa đường lui"
+   },
+   "C": {
+    "pinyin": "Yīnwèi tā gōngzuò tài máng, méi shíjiān xiǎng",
+    "vi": "Vì anh ấy công việc quá bận, không có thời gian nghĩ"
+   },
+   "D": {
+    "pinyin": "Yīnwèi tā hái méi quèdìng zìjǐ de gǎnqíng",
+    "vi": "Vì anh ấy vẫn chưa xác định rõ tình cảm của mình"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 20",
+  "so": 5,
+  "cau_hoi_pinyin": "Dàwěi zuìhòu zǒngjié, gōngzuò hé gǎnqíng yào de fēnbié shì shénme?",
+  "cau_hoi_vi": "Cuối cùng Dàwěi tổng kết, công việc và tình cảm cần những điều khác nhau là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Dōu yào bǎozhàng",
+    "vi": "Cả hai đều cần sự đảm bảo"
+   },
+   "B": {
+    "pinyin": "Gōngzuò yào de shì bǎozhàng, gǎnqíng yào de bú shì bǎozhàng, shì quèdìng",
+    "vi": "Công việc cần sự đảm bảo, còn tình cảm cần không phải là đảm bảo, mà là sự chắc chắn"
+   },
+   "C": {
+    "pinyin": "Dōu bù xūyào kǎolǜ",
+    "vi": "Cả hai đều không cần phải suy nghĩ"
+   },
+   "D": {
+    "pinyin": "Gǎnqíng bǐ gōngzuò gèng xūyào bǎozhàng",
+    "vi": "Tình cảm cần được đảm bảo hơn công việc"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 11",
+  "so": 1,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, bǐqǐ huábīng de sùdù, hái yǒu shénme ràng tā de xīn tiào de gèng kuài?",
+  "cau_hoi_vi": "Lín Yǔ nói, so với tốc độ trượt băng, còn điều gì khiến tim anh đập nhanh hơn?",
+  "options": {
+   "A": {
+    "pinyin": "Bǐsài de jǐnzhāng qìfēn",
+    "vi": "Bầu không khí căng thẳng của trận đấu"
+   },
+   "B": {
+    "pinyin": "Gēn Sū Qíng duìshì de nà yí shùnjiān",
+    "vi": "Khoảnh khắc nhìn nhau với Sū Qíng"
+   },
+   "C": {
+    "pinyin": "Guānzhòng de zhǎngshēng",
+    "vi": "Tiếng vỗ tay của khán giả"
+   },
+   "D": {
+    "pinyin": "Jiàoliàn de yāoqiú",
+    "vi": "Yêu cầu của huấn luyện viên"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 11",
+  "so": 2,
+  "cau_hoi_pinyin": "Lín Yǔ rènwéi, huábīng de sùdù hé xīntiào de gǎnjué yǒu shénme bùtóng?",
+  "cau_hoi_vi": "Lín Yǔ cho rằng tốc độ trượt băng và cảm giác tim đập có gì khác nhau?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán yíyàng, dōu néng kào xùnliàn kòngzhì",
+    "vi": "Hoàn toàn giống nhau, đều có thể dựa vào luyện tập để kiểm soát"
+   },
+   "B": {
+    "pinyin": "Sùdù kěyǐ kào xùnliàn liàn chūlái, dàn xīntiào de gǎnjué méi bànfǎ kòngzhì",
+    "vi": "Tốc độ có thể luyện tập mà có được, nhưng cảm giác tim đập thì không có cách nào kiểm soát"
+   },
+   "C": {
+    "pinyin": "Xīntiào bǐ sùdù gèng róngyì kòngzhì",
+    "vi": "Nhịp tim dễ kiểm soát hơn tốc độ"
+   },
+   "D": {
+    "pinyin": "Liǎngzhě wánquán méiyǒu guānxì",
+    "vi": "Hai điều này hoàn toàn không liên quan gì đến nhau"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 11",
+  "so": 3,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, rúguǒ tā dòngzuò ǒu'ěr màn le bàn pāi, kěnéng shì yīnwèi shénme?",
+  "cau_hoi_vi": "Lín Yǔ nói, nếu thỉnh thoảng động tác của anh chậm nửa nhịp, có thể là vì sao?",
+  "options": {
+   "A": {
+    "pinyin": "Shēntǐ bù shūfú",
+    "vi": "Cơ thể khó chịu"
+   },
+   "B": {
+    "pinyin": "Zhènghǎo kàndào Sū Qíng zài pángbiān kànzhe tā",
+    "vi": "Vừa đúng lúc nhìn thấy Sū Qíng đang đứng bên cạnh nhìn anh"
+   },
+   "C": {
+    "pinyin": "Wàngjì le dòngzuò",
+    "vi": "Quên mất động tác"
+   },
+   "D": {
+    "pinyin": "Tiānqì bù hǎo",
+    "vi": "Thời tiết không tốt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 11",
+  "so": 4,
+  "cau_hoi_pinyin": "Sū Qíng tīng le Lín Yǔ de huà yǐhòu, shì shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi nghe lời của Lín Yǔ, Sū Qíng có phản ứng gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu fǎnyìng",
+    "vi": "Hoàn toàn không có phản ứng gì"
+   },
+   "B": {
+    "pinyin": "Lèng le yíxià, bù zhīdào gāi kàn nǎlǐ, ránhòu xiào le",
+    "vi": "Sững người một chút, không biết nên nhìn vào đâu, rồi mỉm cười"
+   },
+   "C": {
+    "pinyin": "Shēngqì de zǒukāi le",
+    "vi": "Tức giận bỏ đi"
+   },
+   "D": {
+    "pinyin": "Juéde Lín Yǔ shuō de bú duì",
+    "vi": "Cảm thấy Lín Yǔ nói không đúng"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 11",
+  "so": 5,
+  "cau_hoi_pinyin": "Lín Yǔ zuìhòu xīwàng Sū Qíng zěnme zuò?",
+  "cau_hoi_vi": "Cuối cùng Lín Yǔ hy vọng Sū Qíng làm như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Xīwàng tā yǐhòu bú yào kànzhe tā, ràng tā zhuānxīn xùnliàn",
+    "vi": "Hy vọng sau này cô ấy đừng nhìn anh nữa, để anh chuyên tâm tập luyện"
+   },
+   "B": {
+    "pinyin": "Xīwàng tā néng yìzhí zài pángbiān kànzhe tā",
+    "vi": "Hy vọng cô ấy có thể luôn ở bên cạnh nhìn anh"
+   },
+   "C": {
+    "pinyin": "Xīwàng tā huàn yí gè dādàng",
+    "vi": "Hy vọng cô ấy đổi bạn nhảy khác"
+   },
+   "D": {
+    "pinyin": "Xīwàng tā bú yào zài huábīng le",
+    "vi": "Hy vọng cô ấy đừng trượt băng nữa"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 12",
+  "so": 1,
+  "cau_hoi_pinyin": "Sū Qíng lo lắng về điều gì trước buổi tập ngày mai?",
+  "cau_hoi_vi": "Sū Qíng lo lắng về điều gì trước buổi tập ngày mai?",
+  "options": {
+   "A": {
+    "pinyin": "Trời quá lạnh",
+    "vi": "Trời quá lạnh"
+   },
+   "B": {
+    "pinyin": "Một động tác nhảy khó cô chưa từng làm",
+    "vi": "Một động tác nhảy khó cô chưa từng làm"
+   },
+   "C": {
+    "pinyin": "Huấn luyện viên sẽ mắng",
+    "vi": "Huấn luyện viên sẽ mắng"
+   },
+   "D": {
+    "pinyin": "Không có găng tay",
+    "vi": "Không có găng tay"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 12",
+  "so": 2,
+  "cau_hoi_pinyin": "Lín Yǔ nói nếu Sū Qíng ngã thì phải làm gì?",
+  "cau_hoi_vi": "Lín Yǔ nói nếu Sū Qíng ngã thì phải làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Lìkè fàngqì xùnliàn",
+    "vi": "Lập tức từ bỏ luyện tập"
+   },
+   "B": {
+    "pinyin": "Zài zhàn qǐlái, jìxù liàn, méi shénme dà bù liǎo de",
+    "vi": "Đứng dậy lần nữa, tiếp tục tập, không có gì to tát cả"
+   },
+   "C": {
+    "pinyin": "Mǎshàng qù yīyuàn",
+    "vi": "Lập tức đi bệnh viện"
+   },
+   "D": {
+    "pinyin": "Huàn yí gè dòngzuò",
+    "vi": "Đổi sang một động tác khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 12",
+  "so": 3,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, tā huì zài Sū Qíng shēn hòu zuò shénme?",
+  "cau_hoi_vi": "Lín Yǔ nói, anh sẽ làm gì ở phía sau Sū Qíng?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ shì kànzhe, bú huì bāngmáng",
+    "vi": "Chỉ đứng nhìn, không giúp gì cả"
+   },
+   "B": {
+    "pinyin": "Rúguǒ tā méi jiē wěn huò bù pínghéng, huì xiǎng bànfǎ jiē zhù tā, bǎohù tā",
+    "vi": "Nếu cô ấy không tiếp nhận vững hoặc mất thăng bằng, anh sẽ tìm cách đỡ lấy cô, bảo vệ cô"
+   },
+   "C": {
+    "pinyin": "Huì líkāi xùnliàn chǎng",
+    "vi": "Sẽ rời khỏi sân tập"
+   },
+   "D": {
+    "pinyin": "Huì qù zhǎo jiàoliàn bāngmáng",
+    "vi": "Sẽ đi tìm huấn luyện viên giúp đỡ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 12",
+  "so": 4,
+  "cau_hoi_pinyin": "Lín Yǔ wèishénme bǎ zìjǐ de shǒutào gěi Sū Qíng?",
+  "cau_hoi_vi": "Vì sao Lín Yǔ đưa găng tay của mình cho Sū Qíng?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi tā zìjǐ bù xūyào shǒutào",
+    "vi": "Vì bản thân anh không cần găng tay"
+   },
+   "B": {
+    "pinyin": "Yīnwèi Sū Qíng de shǒu yǒudiǎnr lěng, ér tā shuō zìjǐ bù lěng",
+    "vi": "Vì tay Sū Qíng hơi lạnh, còn anh nói bản thân không lạnh"
+   },
+   "C": {
+    "pinyin": "Yīnwèi jiàoliàn ràng tā zhèyàng zuò",
+    "vi": "Vì huấn luyện viên bảo anh làm như vậy"
+   },
+   "D": {
+    "pinyin": "Yīnwèi shǒutào shì Sū Qíng de",
+    "vi": "Vì đôi găng tay vốn là của Sū Qíng"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 12",
+  "so": 5,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, zhǐyào zhàn zài Sū Qíng pángbiān, tā huì yǒu shénme gǎnjué?",
+  "cau_hoi_vi": "Lín Yǔ nói, chỉ cần đứng cạnh Sū Qíng, anh sẽ có cảm giác gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juéde gèng lěng",
+    "vi": "Cảm thấy lạnh hơn"
+   },
+   "B": {
+    "pinyin": "Jiùsuàn wàimiàn zài lěng, xīnlǐ yě juéde nuǎnnuǎn de",
+    "vi": "Dù bên ngoài có lạnh đến đâu, trong lòng vẫn thấy ấm áp"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu rènhé gǎnjué",
+    "vi": "Hoàn toàn không có cảm giác gì"
+   },
+   "D": {
+    "pinyin": "Juéde hěn lèi",
+    "vi": "Cảm thấy rất mệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 13",
+  "so": 1,
+  "cau_hoi_pinyin": "Sū Qíng trước đây nghĩ mùa đông là mùa như thế nào?",
+  "cau_hoi_vi": "Sū Qíng trước đây nghĩ mùa đông là mùa như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Mùa đáng mong chờ nhất",
+    "vi": "Mùa đáng mong chờ nhất"
+   },
+   "B": {
+    "pinyin": "Mùa lạnh và bất tiện, không có gì đáng mong chờ",
+    "vi": "Mùa lạnh và bất tiện, không có gì đáng mong chờ"
+   },
+   "C": {
+    "pinyin": "Mùa đẹp nhất trong năm",
+    "vi": "Mùa đẹp nhất trong năm"
+   },
+   "D": {
+    "pinyin": "Mùa cô không thích tập luyện",
+    "vi": "Mùa cô không thích tập luyện"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 13",
+  "so": 2,
+  "cau_hoi_pinyin": "Sū Qíng shuō, dōngtiān gěi le tāmen shénme yàng de lǐyóu?",
+  "cau_hoi_vi": "Sū Qíng nói, mùa đông đã cho họ lý do như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Bú yòng xùnliàn de lǐyóu",
+    "vi": "Lý do không cần luyện tập"
+   },
+   "B": {
+    "pinyin": "Yìqǐ zǒu màn yìdiǎnr, kàojìn qǔnuǎn de \"zhèngdàguāngmíng\" de lǐyóu",
+    "vi": "Lý do \"chính đại quang minh\" để cùng nhau đi chậm lại một chút, xích gần nhau sưởi ấm"
+   },
+   "C": {
+    "pinyin": "Bú yòng jiànmiàn de lǐyóu",
+    "vi": "Lý do không cần gặp mặt"
+   },
+   "D": {
+    "pinyin": "Tíqián huí jiā de lǐyóu",
+    "vi": "Lý do về nhà sớm"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 13",
+  "so": 3,
+  "cau_hoi_pinyin": "Shāngǔ lǐ de xuě wèishénme bèi yángguāng zhàozhe hái bú huì huàdiào?",
+  "cau_hoi_vi": "Vì sao tuyết trong thung lũng dù được ánh nắng chiếu vào vẫn không tan?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi nàlǐ méiyǒu yángguāng",
+    "vi": "Vì nơi đó không có ánh nắng"
+   },
+   "B": {
+    "pinyin": "Yīnwèi hǎibá bǐjiào gāo, qìwēn yìzhí hěn dī",
+    "vi": "Vì địa thế cao, nhiệt độ luôn rất thấp"
+   },
+   "C": {
+    "pinyin": "Yīnwèi nà zhǒng xuě gēn bié de xuě bù yíyàng",
+    "vi": "Vì loại tuyết đó khác với tuyết bình thường"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu jiěshì yuányīn",
+    "vi": "Bài viết không giải thích nguyên nhân"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 13",
+  "so": 4,
+  "cau_hoi_pinyin": "Lín Yǔ bǎ xuě bǐyù chéng shénme?",
+  "cau_hoi_vi": "Lín Yǔ ví tuyết giống như điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Bǐyù chéng tāmen de xùnliàn chéngjì",
+    "vi": "Ví thành thành tích luyện tập của họ"
+   },
+   "B": {
+    "pinyin": "Bǐyù chéng tā duì Sū Qíng de gǎnjué, bú huì qīngyì xiāoshī",
+    "vi": "Ví như tình cảm của anh dành cho Sū Qíng, sẽ không dễ dàng biến mất"
+   },
+   "C": {
+    "pinyin": "Bǐyù chéng hánlěng de tiānqì",
+    "vi": "Ví thành thời tiết lạnh giá"
+   },
+   "D": {
+    "pinyin": "Gēn gǎnqíng méiyǒu rènhé guānxì",
+    "vi": "Không liên quan gì đến tình cảm"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 13",
+  "so": 5,
+  "cau_hoi_pinyin": "Lín Yǔ zuìhòu xiǎng ràng Sū Qíng zhīdào shénme?",
+  "cau_hoi_vi": "Cuối cùng Lín Yǔ muốn Sū Qíng biết điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Tā zhǐshì suíbiàn shuōshuo",
+    "vi": "Anh chỉ tiện miệng nói vậy thôi"
+   },
+   "B": {
+    "pinyin": "Zhè fèn gǎnqíng bú shì yìshí de gǎnjué, ér shì huì yìzhí liú zhe de",
+    "vi": "Tình cảm này không phải chỉ là cảm giác nhất thời, mà sẽ luôn được giữ lại"
+   },
+   "C": {
+    "pinyin": "Tā hěn kuài jiù huì gǎibiàn xiǎngfǎ",
+    "vi": "Anh sẽ nhanh chóng thay đổi suy nghĩ"
+   },
+   "D": {
+    "pinyin": "Tā bú tài quèdìng zìjǐ de gǎnjué",
+    "vi": "Anh không chắc chắn lắm về cảm giác của mình"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 9",
+  "so": 1,
+  "cau_hoi_pinyin": "Jiàoliàn gàosù Lín Yǔ, xià gè yuè bǐsài huì fāshēng shénme shì?",
+  "cau_hoi_vi": "Huấn luyện viên nói với Lín Yǔ, tháng sau trận thi đấu sẽ xảy ra chuyện gì?",
+  "options": {
+   "A": {
+    "pinyin": "Bǐsài bèi qǔxiāo le",
+    "vi": "Trận thi đấu đã bị hủy"
+   },
+   "B": {
+    "pinyin": "Xīn lái de xuǎnshǒu huì gēn tā yìqǐ liànxí shuāngrén xiàngmù",
+    "vi": "Vận động viên mới đến sẽ cùng anh luyện tập nội dung đôi"
+   },
+   "C": {
+    "pinyin": "Tā yào huàn yí gè jiàoliàn",
+    "vi": "Anh sẽ phải đổi huấn luyện viên khác"
+   },
+   "D": {
+    "pinyin": "Bǐsài dìdiǎn gǎibiàn le",
+    "vi": "Địa điểm thi đấu đã thay đổi"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 9",
+  "so": 2,
+  "cau_hoi_pinyin": "Sū Qíng dì yī cì jiàndào Lín Yǔ de shíhòu, tā de xīnqíng shì zěnyàng de?",
+  "cau_hoi_vi": "Lần đầu tiên gặp Lín Yǔ, tâm trạng của Sū Qíng như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán bù jǐnzhāng",
+    "vi": "Hoàn toàn không căng thẳng"
+   },
+   "B": {
+    "pinyin": "Yǒudiǎnr jǐnzhāng, yīnwèi shuāngrén xiàngmù xūyào gēn dādàng pèihé hǎo",
+    "vi": "Hơi căng thẳng, vì nội dung đôi cần phối hợp ăn ý với bạn nhảy"
+   },
+   "C": {
+    "pinyin": "Fēicháng shēngqì",
+    "vi": "Rất tức giận"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu rènhé gǎnjué",
+    "vi": "Hoàn toàn không có cảm giác gì"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 9",
+  "so": 3,
+  "cau_hoi_pinyin": "Sū Qíng shuō, yǐqián yí gè rén xùnliàn de shíhòu, shēnghuó shì zěnyàng de?",
+  "cau_hoi_vi": "Sū Qíng nói, trước đây khi một mình luyện tập, cuộc sống như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Fēicháng fēngfù duōcǎi",
+    "vi": "Vô cùng phong phú đa dạng"
+   },
+   "B": {
+    "pinyin": "Chúle xùnliàn jiùshì bǐsài, gǎnjué yǒudiǎnr dāndiào",
+    "vi": "Ngoài luyện tập ra chỉ có thi đấu, cảm thấy có phần đơn điệu"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu xùnliàn",
+    "vi": "Hoàn toàn không luyện tập"
+   },
+   "D": {
+    "pinyin": "Měitiān dōu hěn kāixīn",
+    "vi": "Ngày nào cũng rất vui vẻ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 9",
+  "so": 4,
+  "cau_hoi_pinyin": "Xiànzài, Sū Qíng měitiān lái xùnliàn chǎng, chúle liànxí, hái huì qīdài shénme?",
+  "cau_hoi_vi": "Bây giờ, mỗi ngày Sū Qíng đến sân tập, ngoài luyện tập ra, còn mong chờ điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Qīdài fàngjià",
+    "vi": "Mong chờ được nghỉ"
+   },
+   "B": {
+    "pinyin": "Qīdài gēn Lín Yǔ liáoliao tiān",
+    "vi": "Mong chờ được trò chuyện cùng Lín Yǔ"
+   },
+   "C": {
+    "pinyin": "Qīdài huàn jiàoliàn",
+    "vi": "Mong chờ đổi huấn luyện viên"
+   },
+   "D": {
+    "pinyin": "Qīdài bǐsài qǔxiāo",
+    "vi": "Mong chờ trận thi đấu bị hủy"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 9",
+  "so": 5,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, xiànzài tā chúle xiǎng dòngzuò, hái huì xiǎng shénme?",
+  "cau_hoi_vi": "Lín Yǔ nói, bây giờ ngoài việc nghĩ về động tác, anh còn nghĩ đến điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Xiǎng huàn yí gè dādàng",
+    "vi": "Muốn đổi bạn nhảy khác"
+   },
+   "B": {
+    "pinyin": "Xiǎng míngtiān xùnliàn de shíhòu, néng bù néng zǎo yìdiǎnr jiàndào Sū Qíng",
+    "vi": "Nghĩ xem lúc luyện tập ngày mai, liệu có thể gặp Sū Qíng sớm hơn một chút không"
+   },
+   "C": {
+    "pinyin": "Xiǎng fàngqì xùnliàn",
+    "vi": "Muốn từ bỏ luyện tập"
+   },
+   "D": {
+    "pinyin": "Xiǎng qù bié de chéngshì",
+    "vi": "Muốn đến thành phố khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 10",
+  "so": 1,
+  "cau_hoi_pinyin": "Sū Qíng zhè jǐ tiān wèishénme shuì bù hǎo?",
+  "cau_hoi_vi": "Mấy hôm nay vì sao Sū Qíng ngủ không ngon?",
+  "options": {
+   "A": {
+    "pinyin": "Yīnwèi shēntǐ bù shūfú",
+    "vi": "Vì cơ thể khó chịu"
+   },
+   "B": {
+    "pinyin": "Yīnwèi míngtiān bǐsài, xīnlǐ tèbié jǐnzhāng",
+    "vi": "Vì ngày mai thi đấu, trong lòng đặc biệt căng thẳng"
+   },
+   "C": {
+    "pinyin": "Yīnwèi tiānqì bù hǎo",
+    "vi": "Vì thời tiết không tốt"
+   },
+   "D": {
+    "pinyin": "Yīnwèi gēn Lín Yǔ chǎojià le",
+    "vi": "Vì cãi nhau với Lín Yǔ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 10",
+  "so": 2,
+  "cau_hoi_pinyin": "Lín Yǔ shì zěnme ānwèi Sū Qíng de?",
+  "cau_hoi_vi": "Lín Yǔ đã an ủi Sū Qíng như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Ràng tā yí gè rén chéngdān suǒyǒu yālì",
+    "vi": "Để cô một mình gánh chịu mọi áp lực"
+   },
+   "B": {
+    "pinyin": "Shuō bǐsài shì liǎng gè rén yìqǐ wánchéng de, wúlùn jiéguǒ zěnyàng dōu huì yìqǐ chéngdān",
+    "vi": "Nói rằng trận đấu là do hai người cùng hoàn thành, dù kết quả thế nào cũng sẽ cùng nhau gánh chịu"
+   },
+   "C": {
+    "pinyin": "Shuō tā yídìng huì yíng",
+    "vi": "Nói rằng cô chắc chắn sẽ thắng"
+   },
+   "D": {
+    "pinyin": "Shénme dōu méiyǒu shuō",
+    "vi": "Không nói gì cả"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 10",
+  "so": 3,
+  "cau_hoi_pinyin": "Lín Yǔ shuō, yǐqián tā de shēnghuó zhǔyào shì shénme?",
+  "cau_hoi_vi": "Lín Yǔ nói, trước đây cuộc sống của anh chủ yếu là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐyǒu péngyǒu hé jiārén",
+    "vi": "Chỉ có bạn bè và người thân"
+   },
+   "B": {
+    "pinyin": "Hǎoxiàng zhǐyǒu xùnliàn hé bǐsài",
+    "vi": "Dường như chỉ có luyện tập và thi đấu"
+   },
+   "C": {
+    "pinyin": "Gèzhǒng-gèyàng de yúlè huódòng",
+    "vi": "Đủ loại hoạt động giải trí"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu shuōmíng",
+    "vi": "Bài viết không nói rõ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 10",
+  "so": 4,
+  "cau_hoi_pinyin": "Sū Qíng shuō, xiànzài tā huábīng de shíhòu, huì xīwàng shénme?",
+  "cau_hoi_vi": "Sū Qíng nói, bây giờ khi trượt băng, cô sẽ hy vọng điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Xīwàng méiyǒu rén kàn",
+    "vi": "Hy vọng không có ai nhìn"
+   },
+   "B": {
+    "pinyin": "Xīwàng Lín Yǔ yě néng zài pángbiān kànzhe, zhèyàng huì juéde gèng yǒu lìliàng",
+    "vi": "Hy vọng Lín Yǔ cũng có thể đứng bên cạnh nhìn, như vậy sẽ cảm thấy có thêm sức mạnh"
+   },
+   "C": {
+    "pinyin": "Xīwàng bǐsài mǎshàng jiéshù",
+    "vi": "Hy vọng trận đấu kết thúc ngay"
+   },
+   "D": {
+    "pinyin": "Xīwàng huàn yí gè dādàng",
+    "vi": "Hy vọng đổi bạn nhảy khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 10",
+  "so": 5,
+  "cau_hoi_pinyin": "Bùguǎn míngtiān bǐsài jiéguǒ zěnyàng, liǎng gè rén duì zhè yì nián de kànfǎ shì zěnyàng de?",
+  "cau_hoi_vi": "Dù kết quả trận đấu ngày mai thế nào, hai người nhìn nhận về một năm qua ra sao?",
+  "options": {
+   "A": {
+    "pinyin": "Juéde wánquán shì làngfèi shíjiān",
+    "vi": "Cảm thấy hoàn toàn là lãng phí thời gian"
+   },
+   "B": {
+    "pinyin": "Juéde zhè yì nián yìqǐ nǔlì de jīnglì yǐjīng hěn zhídé",
+    "vi": "Cảm thấy trải nghiệm cùng nhau nỗ lực trong một năm này đã rất đáng giá"
+   },
+   "C": {
+    "pinyin": "Hòuhuǐ xuǎnzé le zhège xiàngmù",
+    "vi": "Hối hận vì đã chọn nội dung này"
+   },
+   "D": {
+    "pinyin": "Juédìng yǐhòu bú zài yìqǐ xùnliàn",
+    "vi": "Quyết định sau này không luyện tập cùng nhau nữa"
+   }
+  }
+ }
+]

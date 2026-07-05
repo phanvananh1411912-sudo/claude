@@ -1,0 +1,410 @@
+[
+  {
+    "bai": "HSK2-Hội thoại 14",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiǎo Qíng rènwéi, wǒmen yīnggāi zěnme kàndài zìjǐ bú shàncháng de kēmù?",
+    "cau_hoi_vi": "Theo 晓晴, chúng ta nên nhìn nhận môn học mà mình không giỏi như thế nào?",
+    "options": {
+      "A": {"pinyin": "Yīnggāi měi ge kēmù dōu xué de yíyàng hǎo", "vi": "Nên học môn nào cũng giỏi như nhau"},
+      "B": {"pinyin": "Búyòng dānxīn, zhǐyào zhǎodào zìjǐ xǐhuan de kēmù, hǎohǎo xué jiù kěyǐ le", "vi": "Không cần lo lắng, chỉ cần tìm được môn mình thích, học tốt là được rồi"},
+      "C": {"pinyin": "Bú shàncháng de kēmù kěyǐ wánquán bù xué", "vi": "Môn không giỏi thì có thể hoàn toàn không học"},
+      "D": {"pinyin": "Yīnggāi qǐng hěn duō jiājiào bǔxí", "vi": "Nên mời nhiều gia sư để học kèm"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 14",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Zǐxuān juédìng zuò shénme?",
+    "cau_hoi_vi": "Cuối chương trình, 子轩 quyết định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng bú zài xué yǔwén le", "vi": "Quyết định không học Ngữ văn nữa"},
+      "B": {"pinyin": "Zhège xīngqī kàn yí ge jiǎndān de Zhōngwén xiǎo gùshi", "vi": "Tuần này đọc một câu chuyện nhỏ bằng tiếng Trung đơn giản"},
+      "C": {"pinyin": "Qǐng Xiǎo Qíng bāng tā bǔxí yǔwén", "vi": "Nhờ 晓晴 giúp cậu ấy học kèm môn Ngữ văn"},
+      "D": {"pinyin": "Juédìng huàn yí ge gèng xǐhuan de kēmù", "vi": "Quyết định đổi sang môn học mình thích hơn"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 15",
+    "so": 1,
+    "cau_hoi_pinyin": "Xiǎo Qíng dǎsuàn zěnme guò Zhōngqiū Jié?",
+    "cau_hoi_vi": "晓晴 dự định đón Tết Trung thu như thế nào?",
+    "options": {
+      "A": {"pinyin": "Yí ge rén zài wàimiàn lǚxíng", "vi": "Đi du lịch một mình ở bên ngoài"},
+      "B": {"pinyin": "Huí jiā, gēn jiārén yìqǐ chī yuèbǐng, kàn yuèliang", "vi": "Về nhà, cùng người thân ăn bánh trung thu, ngắm trăng"},
+      "C": {"pinyin": "Gēn péngyǒumen yìqǐ guò", "vi": "Đón cùng với bạn bè"},
+      "D": {"pinyin": "Zài jiā zìjǐ yí ge rén guò", "vi": "Ở nhà đón một mình"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 15",
+    "so": 2,
+    "cau_hoi_pinyin": "Zǐxuān zuì xǐhuan nǎ ge jiérì? Wèishénme?",
+    "cau_hoi_vi": "子轩 thích ngày lễ nào nhất? Vì sao?",
+    "options": {
+      "A": {"pinyin": "Zhōngqiū Jié, yīnwèi kěyǐ kàn yuèliang", "vi": "Tết Trung thu, vì có thể ngắm trăng"},
+      "B": {"pinyin": "Chūnjié, yīnwèi quánjiārén jù zài yìqǐ, hěn rènao", "vi": "Tết Nguyên đán, vì cả nhà sum họp lại với nhau, rất náo nhiệt"},
+      "C": {"pinyin": "Shèngdàn Jié, yīnwèi yǒu lǐwù", "vi": "Giáng sinh, vì có quà"},
+      "D": {"pinyin": "Tā méiyǒu tèbié xǐhuan de jiérì", "vi": "Cậu ấy không có ngày lễ nào đặc biệt thích"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 15",
+    "so": 3,
+    "cau_hoi_pinyin": "Xiǎo Qíng yòng shénme lái bǐyù jiérì?",
+    "cau_hoi_vi": "晓晴 dùng cái gì để ví von ngày lễ?",
+    "options": {
+      "A": {"pinyin": "Yì běn shū", "vi": "Một quyển sách"},
+      "B": {"pinyin": "Yí zuò qiáo", "vi": "Một cây cầu"},
+      "C": {"pinyin": "Yí dùn fàn", "vi": "Một bữa cơm"},
+      "D": {"pinyin": "Yì chǎng diànyǐng", "vi": "Một bộ phim"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 15",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiǎo Qíng rènwéi, Zhōngqiū Jié zuì zhòngyào de yìsi shì shénme?",
+    "cau_hoi_vi": "Theo 晓晴, ý nghĩa quan trọng nhất của Tết Trung thu là gì?",
+    "options": {
+      "A": {"pinyin": "Chī hěn duō yuèbǐng", "vi": "Ăn thật nhiều bánh trung thu"},
+      "B": {"pinyin": "Tuányuán, jiārén zài yìqǐ", "vi": "Đoàn viên, người thân ở bên nhau"},
+      "C": {"pinyin": "Fàngjià xiūxi", "vi": "Được nghỉ lễ để nghỉ ngơi"},
+      "D": {"pinyin": "Kàn hěn duō yānhuā", "vi": "Xem thật nhiều pháo hoa"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 15",
+    "so": 5,
+    "cau_hoi_pinyin": "Tīngwán Xiǎo Qíng shuō de huà, Zǐxuān zhè cì Zhōngqiū Jié dǎsuàn zěnme zuò?",
+    "cau_hoi_vi": "Nghe xong lời 晓晴 nói, Tết Trung thu lần này 子轩 định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng bù huí jiā le", "vi": "Quyết định không về nhà nữa"},
+      "B": {"pinyin": "Dǎsuàn zǎo yìdiǎnr huí jiā", "vi": "Định về nhà sớm hơn một chút"},
+      "C": {"pinyin": "Juédìng yí ge rén guò jié", "vi": "Quyết định đón lễ một mình"},
+      "D": {"pinyin": "Dǎsuàn huàn yí ge jiérì guò", "vi": "Định đổi sang đón một ngày lễ khác"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 16",
+    "so": 1,
+    "cau_hoi_pinyin": "Xiǎo Qíng zuótiān qù chāoshì mǎi le shénme?",
+    "cau_hoi_vi": "Hôm qua 晓晴 đi siêu thị mua gì?",
+    "options": {
+      "A": {"pinyin": "Zhǐ mǎi le niúnǎi", "vi": "Chỉ mua sữa"},
+      "B": {"pinyin": "Shuǐguǒ hé niúnǎi", "vi": "Trái cây và sữa"},
+      "C": {"pinyin": "Shūcài hé ròu", "vi": "Rau và thịt"},
+      "D": {"pinyin": "Wénjù", "vi": "Đồ dùng học tập"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 16",
+    "so": 2,
+    "cau_hoi_pinyin": "Zǐxuān qù chāoshì mǎi dōngxi de xíguàn shì zěnyàng de?",
+    "cau_hoi_vi": "Thói quen mua đồ ở siêu thị của 子轩 như thế nào?",
+    "options": {
+      "A": {"pinyin": "Xiān xiě hǎo dānzi, zài qù mǎi", "vi": "Viết sẵn danh sách rồi mới đi mua"},
+      "B": {"pinyin": "Xiǎngdào shénme jiù mǎi shénme, méiyǒu xiě dānzi", "vi": "Nghĩ đến gì thì mua nấy, không viết danh sách"},
+      "C": {"pinyin": "Zhǐ mǎi niúnǎi, biéde dōu bù mǎi", "vi": "Chỉ mua sữa, cái khác đều không mua"},
+      "D": {"pinyin": "Cónglái bú qù chāoshì", "vi": "Chưa bao giờ đi siêu thị"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 16",
+    "so": 3,
+    "cau_hoi_pinyin": "Xiǎo Qíng yòng shénme lái bǐyù mǎi dōngxi de dānzi?",
+    "cau_hoi_vi": "晓晴 dùng cái gì để ví von danh sách mua đồ?",
+    "options": {
+      "A": {"pinyin": "Yì běn shū", "vi": "Một quyển sách"},
+      "B": {"pinyin": "Yì zhāng xiǎo dìtú", "vi": "Một tấm bản đồ nhỏ"},
+      "C": {"pinyin": "Yì fēng xìn", "vi": "Một lá thư"},
+      "D": {"pinyin": "Yì zhāng zhàopiàn", "vi": "Một tấm ảnh"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 16",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiǎo Qíng rènwéi, xiě dānzi yǒu shénme hǎochù?",
+    "cau_hoi_vi": "Theo 晓晴, viết danh sách có lợi ích gì?",
+    "options": {
+      "A": {"pinyin": "Méiyǒu shénme hǎochù, zhǐshì máfan", "vi": "Không có lợi ích gì, chỉ thấy phiền phức"},
+      "B": {"pinyin": "Yòu néng shěng qián, yòu néng shěng shíjiān", "vi": "Vừa tiết kiệm được tiền, vừa tiết kiệm được thời gian"},
+      "C": {"pinyin": "Zhǐ néng shěng qián, bù néng shěng shíjiān", "vi": "Chỉ tiết kiệm được tiền, không tiết kiệm được thời gian"},
+      "D": {"pinyin": "Huì ràng mǎi dōngxi biàn de gèng màn", "vi": "Sẽ khiến việc mua đồ trở nên chậm hơn"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 16",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Zǐxuān juédìng zěnme zuò?",
+    "cau_hoi_vi": "Cuối chương trình, 子轩 quyết định làm như thế nào?",
+    "options": {
+      "A": {"pinyin": "Juédìng háishi bù xiě dānzi", "vi": "Quyết định vẫn không viết danh sách"},
+      "B": {"pinyin": "Xià cì qù chāoshì yǐqián, xiān xiě yì zhāng dānzi", "vi": "Lần sau trước khi đi siêu thị, sẽ viết trước một tờ danh sách"},
+      "C": {"pinyin": "Juédìng yǐhòu bú qù chāoshì le", "vi": "Quyết định sau này không đi siêu thị nữa"},
+      "D": {"pinyin": "Juédìng qǐng Xiǎo Qíng bāng tā mǎi dōngxi", "vi": "Quyết định nhờ 晓晴 mua đồ giúp mình"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 17",
+    "so": 1,
+    "cau_hoi_pinyin": "Xiǎo Qíng jīntiān mǎi le shénme?",
+    "cau_hoi_vi": "Hôm nay 晓晴 mua gì?",
+    "options": {
+      "A": {"pinyin": "Xīn yīfu", "vi": "Quần áo mới"},
+      "B": {"pinyin": "Xīn bǐ hé xīn běnzi", "vi": "Bút mới và vở mới"},
+      "C": {"pinyin": "Xīn shūbāo", "vi": "Cặp sách mới"},
+      "D": {"pinyin": "Xīn xiézi", "vi": "Giày mới"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 17",
+    "so": 2,
+    "cau_hoi_pinyin": "Zǐxuān mǎi wénjù de xíguàn shì zěnyàng de?",
+    "cau_hoi_vi": "Thói quen mua đồ dùng học tập của 子轩 như thế nào?",
+    "options": {
+      "A": {"pinyin": "Jīngcháng qù mǎi xīn de", "vi": "Thường xuyên đi mua đồ mới"},
+      "B": {"pinyin": "Hěn shǎo qù mǎi, bǐ hé běnzi néng yòng jiù yìzhí yòng", "vi": "Rất ít khi đi mua, bút và vở còn dùng được thì cứ dùng mãi"},
+      "C": {"pinyin": "Měi ge xīngqī dōu mǎi", "vi": "Tuần nào cũng mua"},
+      "D": {"pinyin": "Zhǐ zài kāixué de shíhou mǎi", "vi": "Chỉ mua vào lúc khai giảng"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 17",
+    "so": 3,
+    "cau_hoi_pinyin": "Xiǎo Qíng yòng shénme lái bǐyù yì zhī xīn de bǐ?",
+    "cau_hoi_vi": "晓晴 dùng cái gì để ví von một cây bút mới?",
+    "options": {
+      "A": {"pinyin": "Yì běn xīn shū", "vi": "Một quyển sách mới"},
+      "B": {"pinyin": "Yí ge xīn de kāishǐ", "vi": "Một khởi đầu mới"},
+      "C": {"pinyin": "Yí cì lǚxíng", "vi": "Một chuyến du lịch"},
+      "D": {"pinyin": "Yí fèn lǐwù", "vi": "Một món quà"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 17",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiǎo Qíng rènwéi, mǎi wénjù de shíhou, yīnggāi zhùyì shénme?",
+    "cau_hoi_vi": "Theo 晓晴, khi mua đồ dùng học tập, nên chú ý điều gì?",
+    "options": {
+      "A": {"pinyin": "Yídìng yào mǎi zuì guì de", "vi": "Nhất định phải mua loại đắt nhất"},
+      "B": {"pinyin": "Bù xūyào mǎi hěn guì de, jiǎndān, hǎoyòng jiù kěyǐ le", "vi": "Không cần mua loại quá đắt, đơn giản, dễ dùng là được rồi"},
+      "C": {"pinyin": "Yánsè yídìng yào hǎokàn", "vi": "Màu sắc nhất định phải đẹp"},
+      "D": {"pinyin": "Yídìng yào mǎi hěn duō zhī", "vi": "Nhất định phải mua thật nhiều cây"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 17",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Zǐxuān juédìng zuò shénme?",
+    "cau_hoi_vi": "Cuối chương trình, 子轩 quyết định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng háishi bù mǎi xīn bǐ", "vi": "Quyết định vẫn không mua bút mới"},
+      "B": {"pinyin": "Zhège xīngqīliù qù mǎi yì zhī xīn de bǐ", "vi": "Thứ Bảy tuần này sẽ đi mua một cây bút mới"},
+      "C": {"pinyin": "Qǐng Xiǎo Qíng bāng tā mǎi", "vi": "Nhờ 晓晴 mua giúp"},
+      "D": {"pinyin": "Juédìng qù mǎi hěn guì de bǐ", "vi": "Quyết định đi mua loại bút đắt tiền"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 18",
+    "so": 1,
+    "cau_hoi_pinyin": "Xiǎo Qíng jiā zhège xīngqī zài zuò shénme zhǔnbèi guònián?",
+    "cau_hoi_vi": "Tuần này nhà 晓晴 đang chuẩn bị gì để đón Tết?",
+    "options": {
+      "A": {"pinyin": "Qù lǚxíng", "vi": "Đi du lịch"},
+      "B": {"pinyin": "Dǎsǎo fángzi", "vi": "Dọn dẹp nhà cửa"},
+      "C": {"pinyin": "Mǎi xīn jiājù", "vi": "Mua đồ nội thất mới"},
+      "D": {"pinyin": "Qǐng kèrén chī fàn", "vi": "Mời khách ăn cơm"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 18",
+    "so": 2,
+    "cau_hoi_pinyin": "Xiǎo Qíng yòng shénme lái bǐyù dǎsǎo fángzi zhè jiàn shì?",
+    "cau_hoi_vi": "晓晴 dùng cái gì để ví von việc dọn dẹp nhà cửa?",
+    "options": {
+      "A": {"pinyin": "Yíngjiē kèrén", "vi": "Đón tiếp khách"},
+      "B": {"pinyin": "Bǎ jiù de qīnglǐ diào, gěi xīn de liú yí ge dìfang", "vi": "Dọn sạch cái cũ đi, để lại chỗ cho cái mới"},
+      "C": {"pinyin": "Yì chǎng bǐsài", "vi": "Một cuộc thi đấu"},
+      "D": {"pinyin": "Yí cì lǚxíng", "vi": "Một chuyến du lịch"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 18",
+    "so": 3,
+    "cau_hoi_pinyin": "Xiǎo Qíng de māma shuō, guònián chuān xīn yīfu dàibiǎo shénme?",
+    "cau_hoi_vi": "Mẹ của 晓晴 nói, mặc quần áo mới vào dịp Tết tượng trưng cho điều gì?",
+    "options": {
+      "A": {"pinyin": "Dàibiǎo jiālǐ yǒu qián", "vi": "Tượng trưng cho việc gia đình có tiền"},
+      "B": {"pinyin": "Dàibiǎo xīn de yì nián, huì yǒu xīn de kāishǐ", "vi": "Tượng trưng cho một năm mới, sẽ có khởi đầu mới"},
+      "C": {"pinyin": "Méiyǒu tèbié de yìsi", "vi": "Không có ý nghĩa gì đặc biệt"},
+      "D": {"pinyin": "Dàibiǎo yào chūqù bàinián", "vi": "Tượng trưng cho việc phải đi chúc Tết"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 18",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiǎo Qíng hé Zǐxuān rènwéi, guònián qián de zhèxiē zhǔnbèi, gòngtóng de yìsi shì shénme?",
+    "cau_hoi_vi": "Theo 晓晴 và 子轩, những sự chuẩn bị trước Tết này có ý nghĩa chung là gì?",
+    "options": {
+      "A": {"pinyin": "Zhǐshì wèile ràng jiālǐ gèng gānjìng", "vi": "Chỉ là để nhà cửa sạch sẽ hơn"},
+      "B": {"pinyin": "Xīwàng bǎ bù hǎo de liú zài guòqù, bǎ hǎo de liú gěi xīn de yì nián", "vi": "Mong muốn để lại những điều không tốt ở quá khứ, giữ lại những điều tốt đẹp cho năm mới"},
+      "C": {"pinyin": "Zhǐshì wèile chuān xīn yīfu hǎokàn", "vi": "Chỉ là để mặc quần áo mới cho đẹp"},
+      "D": {"pinyin": "Méiyǒu shénme tèbié de yìsi", "vi": "Không có ý nghĩa gì đặc biệt"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 18",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Zǐxuān juédìng zhège xīngqī zuò shénme?",
+    "cau_hoi_vi": "Cuối chương trình, tuần này 子轩 quyết định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng búyòng dǎsǎo fángjiān", "vi": "Quyết định không cần dọn phòng"},
+      "B": {"pinyin": "Xiān bǎ zìjǐ de fángjiān dǎsǎo gānjìng", "vi": "Trước tiên dọn sạch phòng của mình"},
+      "C": {"pinyin": "Qù mǎi hěn duō xīn yīfu", "vi": "Đi mua thật nhiều quần áo mới"},
+      "D": {"pinyin": "Qǐng Xiǎo Qíng lái bāng tā dǎsǎo", "vi": "Nhờ 晓晴 đến giúp dọn dẹp"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 19",
+    "so": 1,
+    "cau_hoi_pinyin": "Déshèng juéde Yīngyǔ zuì nán de dìfang shì shénme?",
+    "cau_hoi_vi": "德盛 thấy phần khó nhất của tiếng Anh là gì?",
+    "options": {
+      "A": {"pinyin": "Fāyīn", "vi": "Phát âm"},
+      "B": {"pinyin": "Yǔfǎ", "vi": "Ngữ pháp"},
+      "C": {"pinyin": "Dāncí", "vi": "Từ vựng"},
+      "D": {"pinyin": "Xiězì", "vi": "Viết chữ"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 19",
+    "so": 2,
+    "cau_hoi_pinyin": "Déshèng juéde Zhōngwén zuì nán de dìfang shì shénme?",
+    "cau_hoi_vi": "德盛 thấy phần khó nhất của tiếng Trung là gì?",
+    "options": {
+      "A": {"pinyin": "Yǔfǎ", "vi": "Ngữ pháp"},
+      "B": {"pinyin": "Hànzì", "vi": "Chữ Hán"},
+      "C": {"pinyin": "Fāyīn", "vi": "Phát âm"},
+      "D": {"pinyin": "Tīnglì", "vi": "Nghe hiểu"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 19",
+    "so": 3,
+    "cau_hoi_pinyin": "Yúnyīng yòng shénme lái bǐyù xué yì zhǒng yǔyán?",
+    "cau_hoi_vi": "云英 dùng cái gì để ví von việc học một ngôn ngữ?",
+    "options": {
+      "A": {"pinyin": "Xué zuò fàn", "vi": "Học nấu ăn"},
+      "B": {"pinyin": "Xué qí zìxíngchē", "vi": "Học đi xe đạp"},
+      "C": {"pinyin": "Xué yóuyǒng", "vi": "Học bơi"},
+      "D": {"pinyin": "Xué huà huà", "vi": "Học vẽ tranh"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 19",
+    "so": 4,
+    "cau_hoi_pinyin": "Yúnyīng rènwéi, xué yǔyán de guānjiàn shì shénme?",
+    "cau_hoi_vi": "Theo 云英, chìa khóa để học ngôn ngữ là gì?",
+    "options": {
+      "A": {"pinyin": "Zhǎo yí ge gèng róngyì de yǔyán xué", "vi": "Tìm một ngôn ngữ dễ hơn để học"},
+      "B": {"pinyin": "Jiānchí liànxí, nán de dìfang yě huì biàn de jiǎndān", "vi": "Kiên trì luyện tập, chỗ khó rồi cũng sẽ trở nên đơn giản"},
+      "C": {"pinyin": "Zhǐ xué zìjǐ xǐhuan de bùfen", "vi": "Chỉ học phần mình thích"},
+      "D": {"pinyin": "Bǐjiào nǎ zhǒng yǔyán gèng nán", "vi": "So sánh xem ngôn ngữ nào khó hơn"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 19",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Déshèng juédìng zuò shénme?",
+    "cau_hoi_vi": "Cuối chương trình, 德盛 quyết định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng fàngqì xué Zhōngwén", "vi": "Quyết định từ bỏ việc học tiếng Trung"},
+      "B": {"pinyin": "Měitiān huā yìdiǎnr shíjiān liànxí Zhōngwén", "vi": "Mỗi ngày dành chút thời gian luyện tập tiếng Trung"},
+      "C": {"pinyin": "Zhǐ xué Yīngyǔ, bù xué Zhōngwén le", "vi": "Chỉ học tiếng Anh, không học tiếng Trung nữa"},
+      "D": {"pinyin": "Qǐng Yúnyīng bāng tā xuéxí", "vi": "Nhờ 云英 giúp mình học"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 20",
+    "so": 1,
+    "cau_hoi_pinyin": "Yúnyīng rènwéi, xué yǔyán zuì zhòngyào de shì shénme?",
+    "cau_hoi_vi": "Theo 云英, điều quan trọng nhất khi học ngôn ngữ là gì?",
+    "options": {
+      "A": {"pinyin": "Yào hěn cōngming", "vi": "Phải rất thông minh"},
+      "B": {"pinyin": "Xīnlǐ yào kāifàng, bú pà shuōcuò", "vi": "Trong lòng phải cởi mở, không sợ nói sai"},
+      "C": {"pinyin": "Yào yǒu hěn duō qián shàngkè", "vi": "Phải có nhiều tiền để đi học"},
+      "D": {"pinyin": "Yào yǒu hěn hǎo de lǎoshī", "vi": "Phải có giáo viên thật giỏi"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 20",
+    "so": 2,
+    "cau_hoi_pinyin": "Déshèng yǐqián wèishénme bù gǎn kāikǒu shuō Zhōngwén?",
+    "cau_hoi_vi": "Trước đây vì sao 德盛 không dám mở miệng nói tiếng Trung?",
+    "options": {
+      "A": {"pinyin": "Yīnwèi méiyǒu shíjiān", "vi": "Vì không có thời gian"},
+      "B": {"pinyin": "Chángcháng pà shuōcuò, pà biéren xiào", "vi": "Thường sợ nói sai, sợ người khác cười"},
+      "C": {"pinyin": "Yīnwèi méiyǒu rén péi tā liànxí", "vi": "Vì không có ai cùng luyện tập với cậu ấy"},
+      "D": {"pinyin": "Yīnwèi juéde Zhōngwén tài jiǎndān le", "vi": "Vì thấy tiếng Trung quá đơn giản"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 20",
+    "so": 3,
+    "cau_hoi_pinyin": "Yúnyīng yòng shénme lái bǐyù yí ge kāifàng de xīn?",
+    "cau_hoi_vi": "云英 dùng cái gì để ví von một tấm lòng cởi mở?",
+    "options": {
+      "A": {"pinyin": "Yì běn shū", "vi": "Một quyển sách"},
+      "B": {"pinyin": "Yí ge dǎkāi de mén", "vi": "Một cánh cửa đang mở"},
+      "C": {"pinyin": "Yì tiáo hé", "vi": "Một con sông"},
+      "D": {"pinyin": "Yí piàn tiānkōng", "vi": "Một khoảng trời"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 20",
+    "so": 4,
+    "cau_hoi_pinyin": "Yúnyīng rènwéi, shuōcuò le shì hǎoshì, wèishénme?",
+    "cau_hoi_vi": "Theo 云英, nói sai là chuyện tốt, vì sao?",
+    "options": {
+      "A": {"pinyin": "Yīnwèi shuōcuò le huì yǒu rén bāngmáng", "vi": "Vì nói sai thì sẽ có người giúp đỡ"},
+      "B": {"pinyin": "Yīnwèi shuōcuò cái néng zhīdào zìjǐ nǎlǐ bú duì", "vi": "Vì có nói sai thì mới biết được mình sai ở đâu"},
+      "C": {"pinyin": "Yīnwèi shuōcuò bǐ shuōduì gèng róngyì", "vi": "Vì nói sai dễ hơn nói đúng"},
+      "D": {"pinyin": "Yīnwèi lǎoshī xǐhuan xuésheng shuōcuò", "vi": "Vì giáo viên thích học sinh nói sai"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 20",
+    "so": 5,
+    "cau_hoi_pinyin": "Jiémù zuìhòu, Déshèng juédìng zuò shénme?",
+    "cau_hoi_vi": "Cuối chương trình, 德盛 quyết định làm gì?",
+    "options": {
+      "A": {"pinyin": "Juédìng bú zài xué Zhōngwén le", "vi": "Quyết định không học tiếng Trung nữa"},
+      "B": {"pinyin": "Míngtiān kāishǐ duō gēn Zhōngguó péngyou shuō Zhōngwén", "vi": "Từ ngày mai bắt đầu nói tiếng Trung nhiều hơn với bạn bè người Trung Quốc"},
+      "C": {"pinyin": "Zhǐ zài jiā zìjǐ liànxí, bù gēn rén shuōhuà", "vi": "Chỉ tự luyện tập ở nhà, không nói chuyện với ai"},
+      "D": {"pinyin": "Juédìng huàn yì zhǒng yǔyán xuéxí", "vi": "Quyết định đổi sang học một ngôn ngữ khác"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 21",
+    "so": 1,
+    "cau_hoi_pinyin": "Yúnyīng rènwéi, hǎo jiātíng zuì zhòngyào de shì shénme?",
+    "cau_hoi_vi": "Theo 云英, điều quan trọng nhất của một gia đình tốt là gì?",
+    "options": {
+      "A": {"pinyin": "Yào yǒu hěn duō qián", "vi": "Phải có nhiều tiền"},
+      "B": {"pinyin": "Jiārén zhī jiān hùxiāng guānxīn", "vi": "Người thân trong nhà quan tâm lẫn nhau"},
+      "C": {"pinyin": "Yào zhù hěn dà de fángzi", "vi": "Phải ở nhà thật rộng"},
+      "D": {"pinyin": "Jiārén yào yǒu yíyàng de gōngzuò", "vi": "Người trong nhà phải có công việc giống nhau"}
+    }
+  },
+  {
+    "bai": "HSK2-Hội thoại 21",
+    "so": 2,
+    "cau_hoi_pinyin": "Déshèng shuō, tā xiǎo shíhou yùdào kùnnan, fùmǔ shì zěnme zuò de?",
+    "cau_hoi_vi": "德盛 nói, khi cậu ấy còn nhỏ gặp khó khăn, bố mẹ đã làm như thế nào?",
+    "options": {
+      "A": {"pinyin": "Ràng tā zìjǐ jiějué", "vi": "Để cậu ấy tự giải quyết"},
+      "B": {"pinyin": "Zǒngshì péizhe tā yìqǐ jiějué", "vi": "Luôn ở bên cạnh cùng cậu ấy giải quyết"},
+      "C": {"pinyin": "Bú tài guānxīn", "vi": "Không quan tâm lắm"},
+      "D": {"pinyin": "Zhǎo biéren bāngmáng", "vi": "Nhờ người khác giúp đỡ"}
+    }
+  }
+]

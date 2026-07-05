@@ -1,0 +1,842 @@
+[
+ {
+  "bai": "HSK3-Hội thoại 27",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng qù Chóngqìng de shíhou, fāshēng le shénme shì?",
+  "cau_hoi_vi": "Khi 德盛 đến Trùng Khánh, đã xảy ra chuyện gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yíqiè dōu hěn shùnlì",
+    "vi": "Mọi việc đều rất thuận lợi"
+   },
+   "B": {
+    "pinyin": "Chàdiǎnr mílù, yīnwèi nàbiān de lù tèbié fùzá",
+    "vi": "Suýt bị lạc đường, vì đường ở đó đặc biệt phức tạp"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu chūmén",
+    "vi": "Hoàn toàn không ra ngoài"
+   },
+   "D": {
+    "pinyin": "Mílù le, zuìhòu zìjǐ zhǎodào le lù",
+    "vi": "Bị lạc đường, cuối cùng tự mình tìm được đường"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 27",
+  "so": 2,
+  "cau_hoi_pinyin": "Dé Shèng shì zěnme jiějué mílù wèntí de?",
+  "cau_hoi_vi": "德盛 đã giải quyết vấn đề lạc đường như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Zìjǐ yí gè rén mànmàn zhǎo lù",
+    "vi": "Tự mình một mình từ từ tìm đường"
+   },
+   "B": {
+    "pinyin": "Duōkuī yí gè dāngdì péngyou yìzhí dàilù",
+    "vi": "May nhờ có một người bạn địa phương luôn dẫn đường"
+   },
+   "C": {
+    "pinyin": "Yòng dìtú zhǎodào le lù",
+    "vi": "Dùng bản đồ tìm được đường"
+   },
+   "D": {
+    "pinyin": "Wènle jǐngchá",
+    "vi": "Đã hỏi cảnh sát"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 27",
+  "so": 3,
+  "cau_hoi_pinyin": "Dé Shèng shuō, bùguǎn lù duō fùzá, zěnyàng jiù méi nàme kěpà?",
+  "cau_hoi_vi": "德盛 nói, dù đường có phức tạp đến đâu, như thế nào thì sẽ không còn đáng sợ nữa?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐyào yǒu dìtú",
+    "vi": "Chỉ cần có bản đồ"
+   },
+   "B": {
+    "pinyin": "Zhǐyào pángbiān yǒu yí gè kěkào de rén",
+    "vi": "Chỉ cần bên cạnh có một người đáng tin cậy"
+   },
+   "C": {
+    "pinyin": "Zhǐyào tiānqì hǎo",
+    "vi": "Chỉ cần thời tiết đẹp"
+   },
+   "D": {
+    "pinyin": "Zhǐyào dài gòu qián",
+    "vi": "Chỉ cần mang đủ tiền"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 27",
+  "so": 4,
+  "cau_hoi_pinyin": "Yúnyīng tèbié xǐhuan Xī'ān de shénme dìfang?",
+  "cau_hoi_vi": "云英 đặc biệt thích nơi nào ở Tây An?",
+  "options": {
+   "A": {
+    "pinyin": "Xiàndàihuà de shāngchǎng",
+    "vi": "Trung tâm thương mại hiện đại"
+   },
+   "B": {
+    "pinyin": "Gǔ chéngqiáng, zhàn zài shàngmiàn yǒu chuānyuè huí cóngqián de gǎnjué",
+    "vi": "Bức tường thành cổ, đứng trên đó có cảm giác như xuyên không trở về ngày xưa"
+   },
+   "C": {
+    "pinyin": "Xī'ān de měishí",
+    "vi": "Món ăn ngon của Tây An"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu tídào",
+    "vi": "Bài viết không nhắc đến"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 27",
+  "so": 5,
+  "cau_hoi_pinyin": "Guānyú Xī'ān gǔ chéngqiáng, dǎoyóu shuōle shénme?",
+  "cau_hoi_vi": "Về bức tường thành cổ Tây An, hướng dẫn viên đã nói gì?",
+  "options": {
+   "A": {
+    "pinyin": "Chéngqiáng shì zuìjìn cái jiàn de",
+    "vi": "Tường thành mới được xây gần đây"
+   },
+   "B": {
+    "pinyin": "Chéngqiáng yǐjīng yǒu jǐ bǎi nián lìshǐ, hěn duō dōngxi biàn le, dàn qiáng yìzhí lì zài nàlǐ",
+    "vi": "Tường thành đã có lịch sử mấy trăm năm, rất nhiều thứ đã thay đổi, nhưng bức tường vẫn luôn đứng đó"
+   },
+   "C": {
+    "pinyin": "Chéngqiáng yǐjīng bèi chāidiào le",
+    "vi": "Tường thành đã bị phá dỡ"
+   },
+   "D": {
+    "pinyin": "Chéngqiáng méiyǒu shénme lìshǐ",
+    "vi": "Tường thành không có lịch sử gì đáng kể"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 28",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng zài Yúnnán zuòle shénme, ràng tā xīnlǐ tèbié píngjìng?",
+  "cau_hoi_vi": "德盛 đã làm gì ở Vân Nam, khiến lòng anh ấy đặc biệt bình yên?",
+  "options": {
+   "A": {
+    "pinyin": "Qù gòuwù",
+    "vi": "Đi mua sắm"
+   },
+   "B": {
+    "pinyin": "Yí gè rén zuò zài Ěrhǎi biān, kàn fēng chuīguò shuǐmiàn",
+    "vi": "Một mình ngồi bên hồ Nhĩ Hải, ngắm gió thổi qua mặt nước"
+   },
+   "C": {
+    "pinyin": "Qù páshān",
+    "vi": "Đi leo núi"
+   },
+   "D": {
+    "pinyin": "Cānjiāle yí gè huódòng",
+    "vi": "Tham gia một hoạt động"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 28",
+  "so": 2,
+  "cau_hoi_pinyin": "Yúnyīng shuō, Dé Shèng qùguò de hěn duō dìfang, zuìhòu dōu huì xiǎngdào shénme?",
+  "cau_hoi_vi": "云英 nói, nhiều nơi mà 德盛 đã từng đến, cuối cùng đều khiến anh nghĩ đến điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Xiǎngdào yào mǎi shénme jìniànpǐn",
+    "vi": "Nghĩ đến việc nên mua món quà lưu niệm gì"
+   },
+   "B": {
+    "pinyin": "Xiǎngdào \"rúguǒ yǒu rén péizhe\" zhè jiàn shì",
+    "vi": "Nghĩ đến chuyện \"nếu có người bên cạnh\""
+   },
+   "C": {
+    "pinyin": "Xiǎngdào tiānqì wèntí",
+    "vi": "Nghĩ đến vấn đề thời tiết"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu tídào zhè jiàn shì",
+    "vi": "Hoàn toàn không nhắc đến chuyện này"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 28",
+  "so": 3,
+  "cau_hoi_pinyin": "Dé Shèng juéde Xiānggǎng wǎnshang shì zěnyàng de?",
+  "cau_hoi_vi": "德盛 cảm thấy buổi tối ở Hồng Kông như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Hěn ānjìng, méiyǒu shénme rén",
+    "vi": "Rất yên tĩnh, không có mấy người"
+   },
+   "B": {
+    "pinyin": "Tèbié rènao, dàochù shì cǎisè de dēng, dàn yí gè rén zǒu huì juéde gūdān",
+    "vi": "Đặc biệt náo nhiệt, khắp nơi là đèn màu sắc, nhưng đi một mình sẽ cảm thấy cô đơn"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu dēngguāng",
+    "vi": "Hoàn toàn không có ánh đèn"
+   },
+   "D": {
+    "pinyin": "Gēn Yúnnán wánquán yíyàng ānjìng",
+    "vi": "Yên tĩnh y hệt như Vân Nam"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 28",
+  "so": 4,
+  "cau_hoi_pinyin": "Dé Shèng fāxiàn, yuè rènao de dìfang, huì ràng rén juéde zěnyàng?",
+  "cau_hoi_vi": "德盛 phát hiện, nơi càng náo nhiệt thì càng khiến người ta cảm thấy như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yuè bù xūyào biérén péi",
+    "vi": "Càng không cần người khác bên cạnh"
+   },
+   "B": {
+    "pinyin": "Yuè róngyì ràng rén juéde xūyào yǒu rén péizhe zǒu",
+    "vi": "Càng dễ khiến người ta cảm thấy cần có người cùng đi bên cạnh"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu rènhé gǎnjué",
+    "vi": "Hoàn toàn không có cảm giác gì"
+   },
+   "D": {
+    "pinyin": "Yuè ràng rén xiǎng gǎnjǐn líkāi",
+    "vi": "Càng khiến người ta muốn rời đi ngay"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 28",
+  "so": 5,
+  "cau_hoi_pinyin": "Yúnyīng zuìhòu zěnme píngjià Dé Shèng qùguò zhème duō dìfang dédào de gǎnshòu?",
+  "cau_hoi_vi": "Cuối cùng 云英 đánh giá thế nào về những cảm nhận mà 德盛 có được sau khi đi qua nhiều nơi như vậy?",
+  "options": {
+   "A": {
+    "pinyin": "Juéde wánquán bù yízhì, hěn hùnluàn",
+    "vi": "Cảm thấy hoàn toàn không nhất quán, rất lộn xộn"
+   },
+   "B": {
+    "pinyin": "Juéde tā dédào de jiélùn, dàoshì tǐng yízhì de",
+    "vi": "Cảm thấy kết luận mà anh ấy rút ra lại khá là nhất quán"
+   },
+   "C": {
+    "pinyin": "Juéde zhèxiē gǎnshòu méiyǒu yìyì",
+    "vi": "Cảm thấy những cảm nhận này không có ý nghĩa"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu píngjià",
+    "vi": "Hoàn toàn không đưa ra nhận xét"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 29",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng dì-yī cì dào Xīzàng, shēntǐ yǒu shénme fǎnyìng?",
+  "cau_hoi_vi": "Lần đầu tiên đến Tây Tạng, cơ thể 德盛 có phản ứng gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu rènhé fǎnyìng",
+    "vi": "Hoàn toàn không có phản ứng gì"
+   },
+   "B": {
+    "pinyin": "Yīnwèi hǎibá gāo, juéde yǒudiǎnr chuǎn bu guò qì",
+    "vi": "Vì độ cao lớn, cảm thấy hơi khó thở"
+   },
+   "C": {
+    "pinyin": "Juéde tèbié lěng",
+    "vi": "Cảm thấy đặc biệt lạnh"
+   },
+   "D": {
+    "pinyin": "Lìkè jiù shìyìng le",
+    "vi": "Lập tức thích nghi ngay"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 29",
+  "so": 2,
+  "cau_hoi_pinyin": "Dé Shèng shuō, suīrán hūxī kùnnán, dànshì shénme ràng tā juéde shūfu?",
+  "cau_hoi_vi": "德盛 nói, tuy hô hấp khó khăn, nhưng điều gì khiến anh cảm thấy dễ chịu?",
+  "options": {
+   "A": {
+    "pinyin": "Dāngdì de shíwù",
+    "vi": "Món ăn địa phương"
+   },
+   "B": {
+    "pinyin": "Nàbiān tèbié gānjìng de yángguāng",
+    "vi": "Ánh nắng đặc biệt trong lành ở đó"
+   },
+   "C": {
+    "pinyin": "Jiǔdiàn de fángjiān",
+    "vi": "Phòng khách sạn"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu tídào",
+    "vi": "Bài viết không nhắc đến"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 29",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng tèbié xǐhuan Xiāngxī de shénme dìfang?",
+  "cau_hoi_vi": "云英 đặc biệt thích nơi nào ở Tương Tây?",
+  "options": {
+   "A": {
+    "pinyin": "Xiàndàihuà de shāngchǎng",
+    "vi": "Trung tâm thương mại hiện đại"
+   },
+   "B": {
+    "pinyin": "Fènghuáng gǔzhèn, hébiān de lǎo fángzi hé wǎnshang de dēngguāng",
+    "vi": "Thị trấn cổ Phượng Hoàng, những ngôi nhà cổ bên sông và ánh đèn ban đêm"
+   },
+   "C": {
+    "pinyin": "Gāoshān",
+    "vi": "Núi cao"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu tídào",
+    "vi": "Bài viết không nhắc đến"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 29",
+  "so": 4,
+  "cau_hoi_pinyin": "Yúnyīng miáoshù Fènghuáng gǔzhèn de héshuǐ, shì zěnyàng de?",
+  "cau_hoi_vi": "云英 miêu tả dòng sông ở thị trấn cổ Phượng Hoàng như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yòu jí yòu chǎo",
+    "vi": "Vừa chảy xiết vừa ồn ào"
+   },
+   "B": {
+    "pinyin": "Shuǐshēng yìzhí hěn wēnróu, ràng rén juéde ānxīn",
+    "vi": "Tiếng nước luôn dịu dàng, khiến người ta cảm thấy an tâm"
+   },
+   "C": {
+    "pinyin": "Yǐjīng gānhé le",
+    "vi": "Đã cạn khô rồi"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu shēngyīn",
+    "vi": "Hoàn toàn không có tiếng động"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 29",
+  "so": 5,
+  "cau_hoi_pinyin": "Guānyú fángzi hé gǎnjué, Dé Shèng zuìhòu shuōle shénme?",
+  "cau_hoi_vi": "Về ngôi nhà và cảm giác, cuối cùng 德盛 đã nói gì?",
+  "options": {
+   "A": {
+    "pinyin": "Fángzi hé gǎnjué dōu huì yìzhí biànhuà",
+    "vi": "Ngôi nhà và cảm giác đều sẽ luôn thay đổi"
+   },
+   "B": {
+    "pinyin": "Fángzi huì biàn jiù, dàn nà zhǒng wēnróu de gǎnjué hǎoxiàng yìzhí méi biàn",
+    "vi": "Ngôi nhà sẽ cũ đi, nhưng cảm giác dịu dàng ấy dường như chưa bao giờ thay đổi"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu tǎolùn zhège huàtí",
+    "vi": "Hoàn toàn không bàn đến chủ đề này"
+   },
+   "D": {
+    "pinyin": "Gǎnjué bǐ fángzi gèng róngyì gǎibiàn",
+    "vi": "Cảm giác dễ thay đổi hơn ngôi nhà"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng zài Guǎngzhōu tǐyàn zǎochá, gǎnjué zěnmeyàng?",
+  "cau_hoi_vi": "德盛 trải nghiệm ăn điểm tâm sáng (早茶) ở Quảng Châu, cảm thấy thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Juéde hěn làngfèi shíjiān",
+    "vi": "Cảm thấy rất lãng phí thời gian"
+   },
+   "B": {
+    "pinyin": "Yí zuò jiùshì liǎng sān gè xiǎoshí, juéde tèbié fàngsōng",
+    "vi": "Ngồi một cái là hai ba tiếng đồng hồ, cảm thấy đặc biệt thư giãn"
+   },
+   "C": {
+    "pinyin": "Juéde wèidao bù hǎo",
+    "vi": "Cảm thấy mùi vị không ngon"
+   },
+   "D": {
+    "pinyin": "Méiyǒu liúxià shénme yìnxiàng",
+    "vi": "Không để lại ấn tượng gì"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 2,
+  "cau_hoi_pinyin": "Dé Shèng shuō, bǐqǐ cōngcōngmángmáng de gǎnlù, tā gèng xǐhuan shénme?",
+  "cau_hoi_vi": "德盛 nói, so với việc vội vã hối hả trên đường, anh thích điều gì hơn?",
+  "options": {
+   "A": {
+    "pinyin": "Kuài jiézòu de shēnghuó",
+    "vi": "Cuộc sống nhịp độ nhanh"
+   },
+   "B": {
+    "pinyin": "Néng zuò xiàlai, bǎ shíjiān guò de màn yìdiǎnr de gǎnjué",
+    "vi": "Cảm giác được ngồi xuống, để thời gian trôi chậm lại một chút"
+   },
+   "C": {
+    "pinyin": "Yí gè rén lǚxíng",
+    "vi": "Đi du lịch một mình"
+   },
+   "D": {
+    "pinyin": "Wánquán bù hē chá",
+    "vi": "Hoàn toàn không uống trà"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 3,
+  "cau_hoi_pinyin": "Dé Shèng xíngróng Xīnjiāng de cǎoyuán shì zěnyàng de?",
+  "cau_hoi_vi": "德盛 miêu tả thảo nguyên Tân Cương như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Hěn xiǎo, hěn kuài jiù néng zǒuwán",
+    "vi": "Rất nhỏ, rất nhanh là đi hết"
+   },
+   "B": {
+    "pinyin": "Tèbié dà, yìyǎn kàn bú dào biān, fēng yě hěn dà",
+    "vi": "Đặc biệt rộng lớn, nhìn một cái không thấy bờ, gió cũng rất mạnh"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu fēng",
+    "vi": "Hoàn toàn không có gió"
+   },
+   "D": {
+    "pinyin": "Méiyǒu shénme tèbié de",
+    "vi": "Không có gì đặc biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 4,
+  "cau_hoi_pinyin": "Zhàn zài cǎoyuán shàng, Dé Shèng xīnlǐ zhēnzhèng xiǎng de shì shénme?",
+  "cau_hoi_vi": "Đứng trên thảo nguyên, điều 德盛 thực sự nghĩ trong lòng là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Xiǎng yí gè rén qù gèng yuǎn de dìfang",
+    "vi": "Muốn một mình đi đến nơi xa hơn"
+   },
+   "B": {
+    "pinyin": "Xiǎngzhe rúguǒ shēnbiān yǒu gè rén, yīnggāi huì gèng wánzhěng",
+    "vi": "Nghĩ rằng nếu bên cạnh có một người, chắc sẽ trọn vẹn hơn"
+   },
+   "C": {
+    "pinyin": "Xiǎng mǎshàng huí jiā",
+    "vi": "Muốn về nhà ngay"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu tèbié de xiǎngfǎ",
+    "vi": "Hoàn toàn không có suy nghĩ gì đặc biệt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 5,
+  "cau_hoi_pinyin": "Dé Shèng zuìhòu rènwéi, zhēnzhèng de zìyóu shì shénme?",
+  "cau_hoi_vi": "Cuối cùng 德盛 cho rằng, tự do thực sự là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yí gè rén dàochù pǎo, bú shòu rènhé yuēshù",
+    "vi": "Một mình chạy khắp nơi, không chịu bất kỳ ràng buộc nào"
+   },
+   "B": {
+    "pinyin": "Zhǎodào yí gè yuànyì yìzhí péizhe zǒu de rén",
+    "vi": "Tìm được một người sẵn lòng luôn đồng hành cùng mình"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu rènhé zérèn",
+    "vi": "Hoàn toàn không có bất kỳ trách nhiệm nào"
+   },
+   "D": {
+    "pinyin": "Yōngyǒu hěn duō qián",
+    "vi": "Có nhiều tiền"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 6,
+  "cau_hoi_pinyin": "Dé Shèng shuō \"zhège rén hǎoxiàng yǐjīng yǒule jùtǐ de yàngzi\", zhǐ de shì shéi?",
+  "cau_hoi_vi": "德盛 nói \"người này dường như đã có hình dáng cụ thể rồi\", ý chỉ ai?",
+  "options": {
+   "A": {
+    "pinyin": "Yí gè hái méi chūxiàn de rén",
+    "vi": "Một người vẫn chưa xuất hiện"
+   },
+   "B": {
+    "pinyin": "Jiùshì Yúnyīng, zhèng zuò zài tā duìmiàn de rén",
+    "vi": "Chính là 云英, người đang ngồi đối diện anh"
+   },
+   "C": {
+    "pinyin": "Yí gè mòshēng rén",
+    "vi": "Một người xa lạ"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu shuōmíng",
+    "vi": "Bài viết không nói rõ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 30",
+  "so": 7,
+  "cau_hoi_pinyin": "Tīngwán Dé Shèng de huà, Yúnyīng de fǎnyìng shì zěnyàng de?",
+  "cau_hoi_vi": "Nghe xong lời của 德盛, phản ứng của 云英 như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu rènhé fǎnyìng, lìkè jùjué",
+    "vi": "Hoàn toàn không có phản ứng gì, lập tức từ chối"
+   },
+   "B": {
+    "pinyin": "Chénmòle jǐ miǎo, liǎn yǒudiǎnr hóng, dàn yòng ruǎn xiàlai de shēngyīn huíyìng",
+    "vi": "Im lặng vài giây, mặt hơi đỏ, nhưng đáp lại bằng giọng nói dịu đi"
+   },
+   "C": {
+    "pinyin": "Shēngqì de líkāi le",
+    "vi": "Tức giận bỏ đi"
+   },
+   "D": {
+    "pinyin": "Shuō tā wánquán bù míngbai",
+    "vi": "Nói rằng cô hoàn toàn không hiểu"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 31",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng dì-yī cì chī Liǔzhōu luójiáfěn shí, gǎnjué zěnmeyàng?",
+  "cau_hoi_vi": "Lần đầu tiên 德盛 ăn món 螺蛺粉 (bún ốc) Liễu Châu, anh cảm thấy thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Lìkè jiù hěn xǐhuan",
+    "vi": "Lập tức đã rất thích"
+   },
+   "B": {
+    "pinyin": "Wèidao yǒudiǎnr chōng, chàdiǎnr méi jiēshòu",
+    "vi": "Mùi vị hơi nồng, suýt chút nữa không chấp nhận nổi"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu wèidao",
+    "vi": "Hoàn toàn không có mùi vị"
+   },
+   "D": {
+    "pinyin": "Juéde tài tián le",
+    "vi": "Cảm thấy quá ngọt"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 31",
+  "so": 2,
+  "cau_hoi_pinyin": "Chīwán dì-yī wǎn yǐhòu, Dé Shèng yǒu shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi ăn xong bát đầu tiên, 德盛 có phản ứng gì?",
+  "options": {
+   "A": {
+    "pinyin": "Juédìng zài yě bù chī le",
+    "vi": "Quyết định không bao giờ ăn nữa"
+   },
+   "B": {
+    "pinyin": "Fǎn'ér kāishǐ xiǎngniàn nàge wèidao, hòulái yòu chīle hǎo jǐ cì",
+    "vi": "Ngược lại lại bắt đầu nhớ mùi vị đó, sau này lại ăn thêm mấy lần nữa"
+   },
+   "C": {
+    "pinyin": "Wánquán wàngjìle zhège wèidao",
+    "vi": "Hoàn toàn quên mất mùi vị này"
+   },
+   "D": {
+    "pinyin": "Juéde wèidao biàn chà le",
+    "vi": "Cảm thấy mùi vị trở nên tệ hơn"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 31",
+  "so": 3,
+  "cau_hoi_pinyin": "Fótiàoqiáng zhè dào cài, xūyào shénmeyàng de pēngrèn fāngshì?",
+  "cau_hoi_vi": "Món 佛跳墙 (Phật nhảy tường) cần phương pháp nấu nướng như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yòng dàhuǒ kuàisù zhǔshú",
+    "vi": "Dùng lửa to nấu chín nhanh"
+   },
+   "B": {
+    "pinyin": "Yòng zhēnguì de shícái, xiǎohuǒ mànmàn dùn hěn cháng shíjiān",
+    "vi": "Dùng nguyên liệu quý hiếm, ninh nhỏ lửa từ từ trong thời gian dài"
+   },
+   "C": {
+    "pinyin": "Bù xūyào rènhé shícái",
+    "vi": "Không cần bất kỳ nguyên liệu nào"
+   },
+   "D": {
+    "pinyin": "Zhǐ xūyào jǐ fēnzhōng jiù néng zuòhǎo",
+    "vi": "Chỉ cần vài phút là làm xong"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 31",
+  "so": 4,
+  "cau_hoi_pinyin": "Dé Shèng cóng Fótiàoqiáng zhè dào cài, déchūle shénme dàolǐ?",
+  "cau_hoi_vi": "Từ món 佛跳墙, 德盛 rút ra được đạo lý gì?",
+  "options": {
+   "A": {
+    "pinyin": "Cáiliào yuè chà yuè hǎo",
+    "vi": "Nguyên liệu càng tệ càng tốt"
+   },
+   "B": {
+    "pinyin": "Hǎo dōngxi, fǎn'ér gèng xūyào nàixīn, bù néng zháojí",
+    "vi": "Thứ tốt, ngược lại càng cần sự kiên nhẫn, không thể vội vàng"
+   },
+   "C": {
+    "pinyin": "Zuòcài bù xūyào nàixīn",
+    "vi": "Nấu ăn không cần kiên nhẫn"
+   },
+   "D": {
+    "pinyin": "Gēn nàixīn méiyǒu guānxì",
+    "vi": "Không liên quan gì đến sự kiên nhẫn"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 31",
+  "so": 5,
+  "cau_hoi_pinyin": "Yúnyīng duì Dé Shèng zuìhòu nà jù huà de fǎnyìng shì zěnyàng de?",
+  "cau_hoi_vi": "Phản ứng của 云英 trước câu nói cuối cùng của 德盛 là như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wánquán méiyǒu gǎnjué",
+    "vi": "Hoàn toàn không có cảm giác gì"
+   },
+   "B": {
+    "pinyin": "Juéde zhè jù huà tīng qǐlai yìwèishēncháng",
+    "vi": "Cảm thấy câu nói này nghe có vẻ hàm ý sâu xa"
+   },
+   "C": {
+    "pinyin": "Juéde zhè jù huà hěn qíguài",
+    "vi": "Cảm thấy câu nói này rất kỳ lạ"
+   },
+   "D": {
+    "pinyin": "Lìkè fǎnbóle tā",
+    "vi": "Lập tức phản bác anh ấy"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 32",
+  "so": 1,
+  "cau_hoi_pinyin": "Cōngyóumiàn de zhǔyào cáiliào shì shénme?",
+  "cau_hoi_vi": "Nguyên liệu chính của mì dầu hành (葱油面) là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Hěn duō zhǒng ángguì de shícái",
+    "vi": "Rất nhiều loại nguyên liệu đắt tiền"
+   },
+   "B": {
+    "pinyin": "Miàntiáo hé cōngyóu, bǐjiào jiǎndān",
+    "vi": "Mì sợi và dầu hành, khá đơn giản"
+   },
+   "C": {
+    "pinyin": "Zhǐ yǒu cōng",
+    "vi": "Chỉ có hành"
+   },
+   "D": {
+    "pinyin": "Wénzhāng méiyǒu shuōmíng",
+    "vi": "Bài viết không nói rõ"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 32",
+  "so": 2,
+  "cau_hoi_pinyin": "Chīle hěn duō tiān dàcān yǐhòu, Dé Shèng fǎn'ér xiǎng chī shénme?",
+  "cau_hoi_vi": "Sau nhiều ngày ăn tiệc thịnh soạn, 德盛 ngược lại lại muốn ăn gì?",
+  "options": {
+   "A": {
+    "pinyin": "Gèng fēngshèng de dàcān",
+    "vi": "Bữa tiệc thịnh soạn hơn nữa"
+   },
+   "B": {
+    "pinyin": "Yì wǎn jiǎndān de cōngyóumiàn",
+    "vi": "Một bát mì dầu hành đơn giản"
+   },
+   "C": {
+    "pinyin": "Wánquán bù xiǎng chī dōngxi",
+    "vi": "Hoàn toàn không muốn ăn gì"
+   },
+   "D": {
+    "pinyin": "Biéde fùzá de cài",
+    "vi": "Món ăn phức tạp khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 32",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiàohuājī de zuòfǎ shì zěnyàng de?",
+  "cau_hoi_vi": "Cách làm món gà ăn mày (叫化鸡) như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Zhíjiē fàng zài guō lǐ zhǔ",
+    "vi": "Trực tiếp cho vào nồi nấu"
+   },
+   "B": {
+    "pinyin": "Yòng nítǔ bāo qǐlai, fàng zài huǒ lǐ kǎo",
+    "vi": "Dùng đất sét bọc lại, cho vào lửa nướng"
+   },
+   "C": {
+    "pinyin": "Wánquán bù xūyào pēngrèn",
+    "vi": "Hoàn toàn không cần nấu nướng"
+   },
+   "D": {
+    "pinyin": "Yòng shuǐ zhǔ hěn cháng shíjiān",
+    "vi": "Dùng nước nấu trong thời gian dài"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 32",
+  "so": 4,
+  "cau_hoi_pinyin": "Dǎkāi jiàohuājī wàimiàn nà céng ní yǐhòu, lǐmiàn shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi mở lớp đất bên ngoài của món gà ăn mày ra, bên trong như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Wèidao hěn chà",
+    "vi": "Mùi vị rất tệ"
+   },
+   "B": {
+    "pinyin": "Jīròu tèbié nèn, wèidao bǎocún de tèbié hǎo",
+    "vi": "Thịt gà đặc biệt mềm, hương vị được giữ lại đặc biệt tốt"
+   },
+   "C": {
+    "pinyin": "Yǐjīng biàn lěng biàn yìng le",
+    "vi": "Đã nguội và cứng lại rồi"
+   },
+   "D": {
+    "pinyin": "Wánquán méiyǒu wèidao",
+    "vi": "Hoàn toàn không có mùi vị"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 32",
+  "so": 5,
+  "cau_hoi_pinyin": "Yúnyīng hé Dé Shèng zuìhòu déchūle shénme gòngtóng de dàolǐ?",
+  "cau_hoi_vi": "Cuối cùng 云英 và 德盛 rút ra được đạo lý chung nào?",
+  "options": {
+   "A": {
+    "pinyin": "Shíwù yuè fùzá yuè hǎo",
+    "vi": "Món ăn càng phức tạp càng ngon"
+   },
+   "B": {
+    "pinyin": "Hǎo dōngxi chángcháng cáng zài bú tài qǐyǎn, xūyào céngcéng bāoguǒ bǎohù de dìfang",
+    "vi": "Thứ tốt thường ẩn giấu ở nơi không mấy nổi bật, cần được bao bọc bảo vệ nhiều lớp"
+   },
+   "C": {
+    "pinyin": "Jiǎndān de shíwù dōu bù hǎochī",
+    "vi": "Món ăn đơn giản đều không ngon"
+   },
+   "D": {
+    "pinyin": "Shíwù gēn biéde shìqing méiyǒu guānxì",
+    "vi": "Món ăn không liên quan gì đến chuyện khác"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 33",
+  "so": 1,
+  "cau_hoi_pinyin": "Dé Shèng miáoshù Guǎngdōng diǎnxin de tèdiǎn shì shénme?",
+  "cau_hoi_vi": "德盛 miêu tả đặc điểm của điểm tâm Quảng Đông là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ yǒu yì zhǒng kǒuwèi",
+    "vi": "Chỉ có một loại hương vị"
+   },
+   "B": {
+    "pinyin": "Tèbié duōyàng, xiājiǎo, shāomài, chāshāobāo gè bù xiāngtóng",
+    "vi": "Đặc biệt đa dạng, sủi cảo tôm, xíu mại, bánh bao xá xíu mỗi loại một khác"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu tèbié zhī chù",
+    "vi": "Hoàn toàn không có gì đặc biệt"
+   },
+   "D": {
+    "pinyin": "Zhǐyǒu wǎnshang cái néng chīdào",
+    "vi": "Chỉ có buổi tối mới ăn được"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 33",
+  "so": 2,
+  "cau_hoi_pinyin": "Nà cì chī diǎnxin de shíhou, Dé Shèng shì zěnme zuò juédìng de?",
+  "cau_hoi_vi": "Lần ăn điểm tâm đó, 德盛 đã quyết định như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Zìjǐ yí gè rén hěn kuài juédìng le",
+    "vi": "Tự mình một mình quyết định rất nhanh"
+   },
+   "B": {
+    "pinyin": "Yìzhí tiāo bù hǎo, zuìhòu shì pángbiān de péngyou bāng tā juédìng de",
+    "vi": "Cứ chọn mãi không xong, cuối cùng là người bạn bên cạnh giúp anh quyết định"
+   },
+   "C": {
+    "pinyin": "Wánquán méiyǒu diǎn rènhé dōngxi",
+    "vi": "Hoàn toàn không gọi món gì cả"
+   },
+   "D": {
+    "pinyin": "Ràng fúwùyuán bāng tā juédìng",
+    "vi": "Nhờ nhân viên phục vụ quyết định giúp"
+   }
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 33",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuò Dōngpōròu zuì kǎoyàn de shì shénme?",
+  "cau_hoi_vi": "Làm món thịt Đông Pha thử thách nhất ở điểm nào?",
+  "options": {
+   "A": {
+    "pinyin": "Shícái de jiàgé",
+    "vi": "Giá cả nguyên liệu"
+   },
+   "B": {
+    "pinyin": "Huǒhòu, yīnwèi huǒ tài dà róngyì hú, huǒ tài xiǎo dùn bú tòu",
+    "vi": "Độ lửa, vì lửa quá to dễ bị cháy khét, lửa quá nhỏ thì ninh không chín kỹ"
+   },
+   "C": {
+    "pinyin": "Bǎipán de yàngzi",
+    "vi": "Cách bày trí món ăn"
+   },
+   "D": {
+    "pinyin": "Wánquán bù xūyào jìqiǎo",
+    "vi": "Hoàn toàn không cần kỹ thuật gì"
+   }
+  }
+ }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "bai": "HSK2-Bài 37",
+    "so": 1,
+    "cau_hoi_pinyin": "Dì yī cì shàng shū fǎ kè, zhuō zi shàng fàng zhe shén me?",
+    "cau_hoi_vi": "Lần đầu tiên học lớp thư pháp, trên bàn để những gì?",
+    "options": {
+      "A": {"pinyin": "Qiān bǐ hé liàn xí běn", "vi": "Bút chì và vở luyện tập"},
+      "B": {"pinyin": "Máo bǐ, mò hé yì zhāng bái zhǐ", "vi": "Bút lông, mực và một tờ giấy trắng"},
+      "C": {"pinyin": "Diàn nǎo hé dǎ yìn jī", "vi": "Máy tính và máy in"},
+      "D": {"pinyin": "Cǎi sè de bǐ", "vi": "Bút màu"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 37",
+    "so": 2,
+    "cau_hoi_pinyin": "Lǎo shī xiě zì de shí hou, nà ge \"shān\" zì shì shén me yàng zi de?",
+    "cau_hoi_vi": "Khi thầy giáo viết chữ, chữ \"山\" trông như thế nào?",
+    "options": {
+      "A": {"pinyin": "Yòu kuài yòu luàn", "vi": "Vừa nhanh vừa lộn xộn"},
+      "B": {"pinyin": "Yòu wěn yòu měi", "vi": "Vừa vững vàng vừa đẹp"},
+      "C": {"pinyin": "Xiě de hěn xiǎo, kàn bu qīng chu", "vi": "Viết rất nhỏ, nhìn không rõ"},
+      "D": {"pinyin": "Xiě wāi le", "vi": "Viết bị lệch/xiêu vẹo"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 37",
+    "so": 3,
+    "cau_hoi_pinyin": "Lǎo shī shì zěn me gǔ lì \"wǒ\" de?",
+    "cau_hoi_vi": "Thầy giáo đã động viên \"tôi\" như thế nào?",
+    "options": {
+      "A": {"pinyin": "Shuō \"wǒ\" xiě de yǐ jīng hěn hǎo le, bú yòng zài liàn", "vi": "Nói \"tôi\" viết đã rất tốt rồi, không cần luyện thêm"},
+      "B": {"pinyin": "Shuō máo bǐ zì jí bu lái, shǒu yuè fàng sōng, zì jiù huì yuè hǎo kàn", "vi": "Nói viết bút lông không thể vội được, tay càng thả lỏng thì chữ sẽ càng đẹp"},
+      "C": {"pinyin": "Shuō \"wǒ\" yīng gāi huàn yì zhǒng máo bǐ", "vi": "Nói \"tôi\" nên đổi sang một loại bút lông khác"},
+      "D": {"pinyin": "Shuō xià cì kě yǐ bú yòng jiāo zuò yè", "vi": "Nói lần sau có thể không cần nộp bài tập"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 37",
+    "so": 4,
+    "cau_hoi_pinyin": "Xiě le shí jǐ zhāng zhǐ yǐ hòu, \"wǒ\" de zì yǒu shén me biàn huà?",
+    "cau_hoi_vi": "Sau khi viết hơn mười tờ giấy, chữ của \"tôi\" có thay đổi gì?",
+    "options": {
+      "A": {"pinyin": "Wán quán méi yǒu biàn huà", "vi": "Hoàn toàn không có thay đổi"},
+      "B": {"pinyin": "Bǐ yì kāi shǐ wěn le yì diǎnr", "vi": "Vững vàng hơn một chút so với lúc mới bắt đầu"},
+      "C": {"pinyin": "Bǐ lǎo shī xiě de hái hǎo kàn", "vi": "Đẹp hơn cả chữ thầy giáo viết"},
+      "D": {"pinyin": "Biàn de gèng wāi le", "vi": "Trở nên xiêu vẹo hơn"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 37",
+    "so": 5,
+    "cau_hoi_pinyin": "Zhè cì xué xiě máo bǐ zì de jīng lì, gěi \"wǒ\" dài lái le shén me yǐng xiǎng?",
+    "cau_hoi_vi": "Trải nghiệm học viết bút lông lần này đã mang lại ảnh hưởng gì cho \"tôi\"?",
+    "options": {
+      "A": {"pinyin": "Zhǐ shì ràng \"wǒ\" huì xiě máo bǐ zì, méi yǒu bié de yǐng xiǎng", "vi": "Chỉ giúp \"tôi\" biết viết bút lông, không có ảnh hưởng gì khác"},
+      "B": {"pinyin": "Ràng \"wǒ\" míng bai, zuò shì qing yě xū yào xué huì màn màn lái", "vi": "Giúp \"tôi\" hiểu ra rằng làm việc gì cũng cần học cách từ từ, không nóng vội"},
+      "C": {"pinyin": "Ràng \"wǒ\" yǐ hòu bù xiǎng zài xiě máo bǐ zì le", "vi": "Khiến \"tôi\" sau này không muốn viết bút lông nữa"},
+      "D": {"pinyin": "Ràng \"wǒ\" jué de shū fǎ kè hěn méi yǒu yì si", "vi": "Khiến \"tôi\" cảm thấy lớp thư pháp rất chán"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 38",
+    "so": 1,
+    "cau_hoi_pinyin": "Lǎo shī shuō, hěn duō hàn zì zuì kāi shǐ shì cóng shén me biàn lái de?",
+    "cau_hoi_vi": "Thầy giáo nói, rất nhiều chữ Hán ban đầu là biến đổi từ cái gì mà thành?",
+    "options": {
+      "A": {"pinyin": "Shēng yīn", "vi": "Âm thanh"},
+      "B": {"pinyin": "Tú huà", "vi": "Hình vẽ"},
+      "C": {"pinyin": "Shù zì", "vi": "Con số"},
+      "D": {"pinyin": "Wài yǔ dān cí", "vi": "Từ ngoại ngữ"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 38",
+    "so": 2,
+    "cau_hoi_pinyin": "\"Rì\" hé \"yuè\" liǎng gè zì fàng zài yì qǐ, biàn chéng le shén me zì? Yì si shì shén me?",
+    "cau_hoi_vi": "Hai chữ \"日\" và \"月\" ghép lại với nhau, biến thành chữ gì? Nghĩa là gì?",
+    "options": {
+      "A": {"pinyin": "\"Xiū\" zì, yì si shì xiū xi", "vi": "Chữ \"休\", nghĩa là nghỉ ngơi"},
+      "B": {"pinyin": "\"Míng\" zì, yì si shì míng liàng", "vi": "Chữ \"明\", nghĩa là sáng sủa"},
+      "C": {"pinyin": "\"Sēn\" zì, yì si shì shù lín", "vi": "Chữ \"森\", nghĩa là rừng cây"},
+      "D": {"pinyin": "\"Huǒ\" zì, yì si shì huǒ", "vi": "Chữ \"火\", nghĩa là lửa"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 38",
+    "so": 3,
+    "cau_hoi_pinyin": "Guān yú \"xiū\" zì, wén zhāng shì zěn me jiě shì de?",
+    "cau_hoi_vi": "Về chữ \"休\", bài viết giải thích như thế nào?",
+    "options": {
+      "A": {"pinyin": "Yí gè \"rén\" hé \"rì\" fàng zài yì qǐ", "vi": "Một chữ \"人\" và \"日\" đặt cùng nhau"},
+      "B": {"pinyin": "Yí gè \"rén\" kào zài \"mù\" (shù) páng biān, biǎo shì xiū xi", "vi": "Một người dựa vào bên cạnh chữ \"木\" (cây), biểu thị sự nghỉ ngơi"},
+      "C": {"pinyin": "Liǎng gè \"mù\" zì fàng zài yì qǐ", "vi": "Hai chữ \"木\" đặt cùng nhau"},
+      "D": {"pinyin": "Wén zhāng méi yǒu jiě shì zhè ge zì", "vi": "Bài viết không giải thích chữ này"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 38",
+    "so": 4,
+    "cau_hoi_pinyin": "Tīng wán zhè jié kè yǐ hòu, \"wǒ\" duì hàn zì de gǎn jué yǒu shén me biàn huà?",
+    "cau_hoi_vi": "Sau khi nghe xong tiết học này, cảm nhận của \"tôi\" về chữ Hán có thay đổi gì?",
+    "options": {
+      "A": {"pinyin": "Jué de hàn zì biàn de gèng nán le", "vi": "Cảm thấy chữ Hán trở nên khó hơn"},
+      "B": {"pinyin": "Jué de hàn zì biàn de qīn qiè le, xué xí fāng shì yě biàn le", "vi": "Cảm thấy chữ Hán trở nên gần gũi hơn, cách học cũng thay đổi"},
+      "C": {"pinyin": "Wán quán méi yǒu rèn hé biàn huà", "vi": "Hoàn toàn không có thay đổi gì"},
+      "D": {"pinyin": "Jué de bù xū yào zài xué xí hàn zì de yì si le", "vi": "Cảm thấy không cần học nghĩa của chữ Hán nữa"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 38",
+    "so": 5,
+    "cau_hoi_pinyin": "Zhè piān wén zhāng zhǔ yào xiǎng gào su wǒ men shén me?",
+    "cau_hoi_vi": "Bài viết này chủ yếu muốn nói với chúng ta điều gì?",
+    "options": {
+      "A": {"pinyin": "Hàn zì dōu shì hěn jiǎn dān de tú huà", "vi": "Chữ Hán đều là những hình vẽ rất đơn giản"},
+      "B": {"pinyin": "Liǎo jiě hàn zì bèi hòu de gù shi, kě yǐ ràng xué xí biàn de gèng yǒu qù", "vi": "Hiểu được câu chuyện đằng sau chữ Hán có thể khiến việc học trở nên thú vị hơn"},
+      "C": {"pinyin": "Zhǐ yǒu gǔ rén cái néng lǐ jiě hàn zì de yì si", "vi": "Chỉ có người xưa mới hiểu được nghĩa của chữ Hán"},
+      "D": {"pinyin": "Jì hàn zì zuì hǎo de fāng fǎ shì sǐ jì yìng bèi", "vi": "Cách tốt nhất để nhớ chữ Hán là học vẹt, học thuộc lòng máy móc"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 39",
+    "so": 1,
+    "cau_hoi_pinyin": "Bǐ jì běn dì yī yè shàng xiě de zì shì shén me yàng zi de?",
+    "cau_hoi_vi": "Chữ viết trên trang đầu tiên của cuốn sổ tay trông như thế nào?",
+    "options": {
+      "A": {"pinyin": "Fēi cháng zhěng qí piào liang", "vi": "Rất ngay ngắn và đẹp"},
+      "B": {"pinyin": "Wāi wāi niǔ niǔ de", "vi": "Xiêu xiêu vẹo vẹo"},
+      "C": {"pinyin": "Yòng cǎi sè bǐ xiě de", "vi": "Được viết bằng bút màu"},
+      "D": {"pinyin": "Dōu shì yīng wén dān cí", "vi": "Đều là từ tiếng Anh"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 39",
+    "so": 2,
+    "cau_hoi_pinyin": "Bǐ jì běn lǐ chú le shēng cí hé jù zi, hái jì lù le shén me?",
+    "cau_hoi_vi": "Trong cuốn sổ tay, ngoài từ mới và câu văn ra, còn ghi lại những gì?",
+    "options": {
+      "A": {"pinyin": "Lǎo shī de zhào piàn", "vi": "Ảnh của thầy giáo"},
+      "B": {"pinyin": "Zì jǐ fàn guò de xiǎo cuò wù", "vi": "Những lỗi nhỏ mà bản thân từng mắc phải"},
+      "C": {"pinyin": "Měi tiān de tiān qì", "vi": "Thời tiết mỗi ngày"},
+      "D": {"pinyin": "Péng you de diàn huà hào mǎ", "vi": "Số điện thoại của bạn bè"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 39",
+    "so": 3,
+    "cau_hoi_pinyin": "Bǐ jì běn zhōng jiān jiā zhe de shì shén me?",
+    "cau_hoi_vi": "Ở giữa cuốn sổ tay kẹp thứ gì?",
+    "options": {
+      "A": {"pinyin": "Yì zhāng lǎo shī de zhào piàn", "vi": "Một tấm ảnh của thầy giáo"},
+      "B": {"pinyin": "Yì zhāng xiǎo xiǎo de zhōng guó dì tú", "vi": "Một tấm bản đồ Trung Quốc nhỏ xíu"},
+      "C": {"pinyin": "Yì zhāng kǎo shì juàn zi", "vi": "Một tờ giấy thi"},
+      "D": {"pinyin": "Yí piàn shù yè", "vi": "Một chiếc lá cây"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 39",
+    "so": 4,
+    "cau_hoi_pinyin": "Guān yú bǎ \"mǎi\" hé \"mài\" nòng hùn de shì qing, bǐ jì běn qǐ le shén me zuò yòng?",
+    "cau_hoi_vi": "Về việc nhầm lẫn giữa \"买\" (mua) và \"卖\" (bán), cuốn sổ tay đã có tác dụng gì?",
+    "options": {
+      "A": {"pinyin": "Méi yǒu rèn hé zuò yòng", "vi": "Không có tác dụng gì cả"},
+      "B": {"pinyin": "Tí xǐng \"wǒ\" fù xí de shí hou yào xiǎo xīn zhè ge cuò wù", "vi": "Nhắc \"tôi\" khi ôn tập phải chú ý lỗi này"},
+      "C": {"pinyin": "Ràng \"wǒ\" jué dìng bú zài xué zhè liǎng gè zì", "vi": "Khiến \"tôi\" quyết định không học hai chữ này nữa"},
+      "D": {"pinyin": "Ràng lǎo shī bāng \"wǒ\" chóng xīn jiǎng yí biàn", "vi": "Khiến thầy giáo phải giảng lại cho \"tôi\" một lần nữa"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 39",
+    "so": 5,
+    "cau_hoi_pinyin": "Zhè piān wén zhāng zuì hòu xiǎng biǎo dá de dào lǐ shì shén me?",
+    "cau_hoi_vi": "Đạo lý mà bài viết này cuối cùng muốn truyền đạt là gì?",
+    "options": {
+      "A": {"pinyin": "Xué zhōng wén yì nián jiù yīng gāi néng quán bù xué huì", "vi": "Học tiếng Trung một năm là phải học được hết toàn bộ"},
+      "B": {"pinyin": "Zhǐ yào yì diǎn yì diǎn de jiān chí jì lù hé xué xí, jiù huì yuè lái yuè hǎo", "vi": "Chỉ cần kiên trì ghi chép và học tập từng chút một, sẽ ngày càng tốt hơn"},
+      "C": {"pinyin": "Yòng bǐ jì běn xué xí méi yǒu shén me yòng", "vi": "Dùng sổ tay để học không có tác dụng gì"},
+      "D": {"pinyin": "Yīng gāi jīng cháng gēng huàn xīn de bǐ jì běn", "vi": "Nên thường xuyên đổi sổ tay mới"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 40",
+    "so": 1,
+    "cau_hoi_pinyin": "Zhè cì hàn yǔ bǐ sài de nèi róng shì shén me?",
+    "cau_hoi_vi": "Nội dung của cuộc thi tiếng Hán lần này là gì?",
+    "options": {
+      "A": {"pinyin": "Yòng zhōng wén xiě yì piān zuò wén", "vi": "Viết một bài văn bằng tiếng Trung"},
+      "B": {"pinyin": "Yòng zhōng wén jiǎng yí gè xiǎo gù shi", "vi": "Kể một câu chuyện nhỏ bằng tiếng Trung"},
+      "C": {"pinyin": "Zhōng wén hàn zì tīng xiě bǐ sài", "vi": "Cuộc thi nghe viết chữ Hán"},
+      "D": {"pinyin": "Zhōng wén chàng gē bǐ sài", "vi": "Cuộc thi hát tiếng Trung"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 40",
+    "so": 2,
+    "cau_hoi_pinyin": "Lǎo shī wèi shén me tuī jiàn \"wǒ\" cān jiā zhè cì bǐ sài?",
+    "cau_hoi_vi": "Vì sao thầy giáo đề cử \"tôi\" tham gia cuộc thi lần này?",
+    "options": {
+      "A": {"pinyin": "Yīn wèi \"wǒ\" shì bān zhǎng", "vi": "Vì \"tôi\" là lớp trưởng"},
+      "B": {"pinyin": "Yīn wèi \"wǒ\" zhè yì nián jìn bù hěn dà", "vi": "Vì \"tôi\" năm nay tiến bộ rất nhiều"},
+      "C": {"pinyin": "Yīn wèi méi yǒu bié de tóng xué yuàn yì cān jiā", "vi": "Vì không có bạn học nào khác muốn tham gia"},
+      "D": {"pinyin": "Yīn wèi \"wǒ\" de pǔ tōng huà zuì biāo zhǔn", "vi": "Vì tiếng phổ thông của \"tôi\" chuẩn nhất"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 40",
+    "so": 3,
+    "cau_hoi_pinyin": "\"Wǒ\" de gù shi nèi róng zhǔ yào jiǎng le shén me?",
+    "cau_hoi_vi": "Nội dung câu chuyện của \"tôi\" chủ yếu kể về điều gì?",
+    "options": {
+      "A": {"pinyin": "Yí gè gǔ dài de chuán shuō", "vi": "Một truyền thuyết cổ xưa"},
+      "B": {"pinyin": "Zì jǐ zhè yì nián xué xí zhōng wén de jīng lì", "vi": "Trải nghiệm học tiếng Trung của bản thân trong năm qua"},
+      "C": {"pinyin": "Yí gè guān yú dòng wù de gù shi", "vi": "Một câu chuyện về động vật"},
+      "D": {"pinyin": "Zhōng guó de lì shǐ wén huà", "vi": "Lịch sử văn hóa Trung Quốc"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 40",
+    "so": 4,
+    "cau_hoi_pinyin": "Bǐ sài zhōng, \"wǒ\" yù dào le shén me xiǎo zhuàng kuàng? Yòu shì zěn me chǔ lǐ de?",
+    "cau_hoi_vi": "Trong cuộc thi, \"tôi\" đã gặp phải tình huống nhỏ gì? Và đã xử lý ra sao?",
+    "options": {
+      "A": {"pinyin": "Wán quán wàng jì le gù shi nèi róng, jiǎng bu xià qù le", "vi": "Hoàn toàn quên mất nội dung câu chuyện, không kể tiếp được nữa"},
+      "B": {"pinyin": "Zhōng jiān yǒu yí gè cí yí xià zi xiǎng bu qǐ lái, dàn màn màn xiǎng le huí lái", "vi": "Giữa chừng có một từ nhất thời không nhớ ra được, nhưng dần dần đã nhớ lại"},
+      "C": {"pinyin": "Mài kè fēng tū rán huài le", "vi": "Micro đột nhiên bị hỏng"},
+      "D": {"pinyin": "Jǐn zhāng dào shuō bu chū huà lái", "vi": "Căng thẳng đến mức không nói ra lời"}
+    }
+  },
+  {
+    "bai": "HSK2-Bài 40",
+    "so": 5,
+    "cau_hoi_pinyin": "Píng wěi duì \"wǒ\" de biǎo xiàn, gěi chū le shén me yàng de píng jià?",
+    "cau_hoi_vi": "Ban giám khảo đã đưa ra đánh giá như thế nào về phần thể hiện của \"tôi\"?",
+    "options": {
+      "A": {"pinyin": "Shuō \"wǒ\" de zhōng wén shuō de bú tài hǎo", "vi": "Nói tiếng Trung của \"tôi\" nói không được tốt lắm"},
+      "B": {"pinyin": "Shuō néng gǎn jué dào \"wǒ\" shuō de měi yí jù huà dōu hěn zhēn chéng", "vi": "Nói rằng có thể cảm nhận được mỗi câu \"tôi\" nói đều rất chân thành"},
+      "C": {"pinyin": "Shuō \"wǒ\" yīng gāi duō liàn xí fā yīn", "vi": "Nói \"tôi\" nên luyện tập phát âm nhiều hơn"},
+      "D": {"pinyin": "Méi yǒu gěi chū rèn hé píng jià", "vi": "Không đưa ra bất kỳ đánh giá nào"}
+    }
+  }
+]

@@ -1,0 +1,722 @@
+[
+ {
+  "bai": "Bài 31",
+  "so": 1,
+  "cau_hoi_pinyin": "Kàn dào dì yī cì xià xuě, zuò zhě de xīn qíng shì zěn yàng de?",
+  "cau_hoi_vi": "Khi nhìn thấy tuyết rơi lần đầu tiên, tâm trạng của tác giả như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Hěn hài pà",
+    "vi": "Rất sợ hãi"
+   },
+   "B": {
+    "pinyin": "Tè bié gāo xìng",
+    "vi": "Đặc biệt vui mừng"
+   },
+   "C": {
+    "pinyin": "Jué de hěn má fán",
+    "vi": "Cảm thấy rất phiền phức"
+   },
+   "D": {
+    "pinyin": "Hěn shēng qì",
+    "vi": "Rất tức giận"
+   }
+  }
+ },
+ {
+  "bai": "Bài 31",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě hé dì di yì qǐ zuò le shén me?",
+  "cau_hoi_vi": "Tác giả và em trai đã cùng nhau làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yì qǐ kàn diàn shì",
+    "vi": "Cùng nhau xem tivi"
+   },
+   "B": {
+    "pinyin": "Yì qǐ zuò le yí gè xuě rén",
+    "vi": "Cùng nhau đắp một người tuyết"
+   },
+   "C": {
+    "pinyin": "Yì qǐ xiě zuò yè",
+    "vi": "Cùng nhau làm bài tập"
+   },
+   "D": {
+    "pinyin": "Yì qǐ qù xué xiào",
+    "vi": "Cùng nhau đi đến trường"
+   }
+  }
+ },
+ {
+  "bai": "Bài 31",
+  "so": 3,
+  "cau_hoi_pinyin": "Wán le liǎng gè xiǎo shí yǐ hòu, zuò zhě de gǎn jué shì shén me?",
+  "cau_hoi_vi": "Sau khi chơi được hai tiếng đồng hồ, cảm giác của tác giả là gì?",
+  "options": {
+   "A": {
+    "pinyin": "Shǒu hěn lěng, dàn shì xīn lǐ hěn kāi xīn",
+    "vi": "Tay rất lạnh, nhưng trong lòng rất vui"
+   },
+   "B": {
+    "pinyin": "Shēn tǐ hěn lèi, xiǎng mǎ shàng huí jiā",
+    "vi": "Cơ thể rất mệt, muốn về nhà ngay"
+   },
+   "C": {
+    "pinyin": "Jué de wán xuě hěn wú liáo",
+    "vi": "Cảm thấy chơi tuyết rất chán"
+   },
+   "D": {
+    "pinyin": "Shǒu lěng, xīn qíng yě bù hǎo",
+    "vi": "Tay lạnh, tâm trạng cũng không tốt"
+   }
+  }
+ },
+ {
+  "bai": "Bài 32",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhè tiān, mā ma jiāo zuò zhě zuò le shén me cài?",
+  "cau_hoi_vi": "Hôm đó, mẹ đã dạy tác giả nấu món gì?",
+  "options": {
+   "A": {
+    "pinyin": "Hóng shāo ròu",
+    "vi": "Thịt kho tàu"
+   },
+   "B": {
+    "pinyin": "Xī hóng shì chǎo dàn",
+    "vi": "Trứng xào cà chua"
+   },
+   "C": {
+    "pinyin": "Qīng cài tāng",
+    "vi": "Canh rau xanh"
+   },
+   "D": {
+    "pinyin": "Chǎo mǐ fàn",
+    "vi": "Cơm chiên"
+   }
+  }
+ },
+ {
+  "bai": "Bài 32",
+  "so": 2,
+  "cau_hoi_pinyin": "Chǎo cài de shí hòu, mā ma tí xǐng zuò zhě shén me?",
+  "cau_hoi_vi": "Khi nấu ăn, mẹ đã nhắc nhở tác giả điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yào duō fàng yì diǎn yán",
+    "vi": "Phải cho thêm một chút muối"
+   },
+   "B": {
+    "pinyin": "Xiǎo xīn yì diǎnr, bié tàng dào shǒu",
+    "vi": "Cẩn thận một chút, đừng để bị bỏng tay"
+   },
+   "C": {
+    "pinyin": "Yào kuài yì diǎnr qiè cài",
+    "vi": "Phải thái rau nhanh hơn một chút"
+   },
+   "D": {
+    "pinyin": "Bú yào yòng tài duō yóu",
+    "vi": "Đừng cho quá nhiều dầu"
+   }
+  }
+ },
+ {
+  "bai": "Bài 32",
+  "so": 3,
+  "cau_hoi_pinyin": "Bà ba chī le cài yǐ hòu, shuō le shén me?",
+  "cau_hoi_vi": "Sau khi bố ăn món đó xong, đã nói gì?",
+  "options": {
+   "A": {
+    "pinyin": "Cài yǒu diǎnr xián",
+    "vi": "Món ăn hơi mặn"
+   },
+   "B": {
+    "pinyin": "Zhēn hǎo chī, bǐ fàn diàn de hái hǎo chī",
+    "vi": "Rất ngon, còn ngon hơn cả ở nhà hàng"
+   },
+   "C": {
+    "pinyin": "Xià cì hái shì bié zuò le",
+    "vi": "Lần sau thôi đừng làm nữa"
+   },
+   "D": {
+    "pinyin": "Cài yǒu diǎnr liáng le",
+    "vi": "Món ăn hơi nguội rồi"
+   }
+  }
+ },
+ {
+  "bai": "Bài 33",
+  "so": 1,
+  "cau_hoi_pinyin": "Xiǎo lì gāng lái de shí hòu, kàn qǐ lái zěn me yàng?",
+  "cau_hoi_vi": "Khi Tiểu Lệ mới đến, trông như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Hěn kāi xīn, shuō huà hěn duō",
+    "vi": "Rất vui vẻ, nói chuyện rất nhiều"
+   },
+   "B": {
+    "pinyin": "Yǒu diǎnr gū dān, bú tài shuō huà",
+    "vi": "Có chút cô đơn, không nói chuyện nhiều"
+   },
+   "C": {
+    "pinyin": "Hěn tiáo pí, xǐ huān nào",
+    "vi": "Rất nghịch ngợm, thích quậy phá"
+   },
+   "D": {
+    "pinyin": "Duì dà jiā dōu hěn bú kè qì",
+    "vi": "Đối với mọi người đều rất bất lịch sự"
+   }
+  }
+ },
+ {
+  "bai": "Bài 33",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě shì zěn me kāi shǐ gēn xiǎo lì zuò péng yǒu de?",
+  "cau_hoi_vi": "Tác giả đã bắt đầu làm bạn với Tiểu Lệ như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Xiǎo lì xiān gēn zuò zhě shuō huà",
+    "vi": "Tiểu Lệ chủ động bắt chuyện với tác giả trước"
+   },
+   "B": {
+    "pinyin": "Zuò zhě zhǔ dòng gēn tā dǎ zhāo hū, qǐng tā chī wǔ fàn",
+    "vi": "Tác giả chủ động chào hỏi cô ấy, mời cô ấy ăn trưa"
+   },
+   "C": {
+    "pinyin": "Lǎo shī ràng tā men zuò péng yǒu",
+    "vi": "Giáo viên bảo họ làm bạn với nhau"
+   },
+   "D": {
+    "pinyin": "Tā men běn lái jiù rèn shí",
+    "vi": "Họ vốn đã quen biết nhau từ trước"
+   }
+  }
+ },
+ {
+  "bai": "Bài 33",
+  "so": 3,
+  "cau_hoi_pinyin": "Xiàn zài, xiǎo lì hé zuò zhě de guān xì zěn me yàng?",
+  "cau_hoi_vi": "Hiện tại, mối quan hệ giữa Tiểu Lệ và tác giả như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Hái shì bú tài shú",
+    "vi": "Vẫn chưa thân lắm"
+   },
+   "B": {
+    "pinyin": "Chéng le hǎo péng yǒu, jī hū měi tiān yì qǐ shàng xué huí jiā",
+    "vi": "Đã trở thành bạn thân, gần như ngày nào cũng cùng nhau đi học và về nhà"
+   },
+   "C": {
+    "pinyin": "Yīn wèi yì xiē shì qíng chǎo jià le",
+    "vi": "Vì một số chuyện mà cãi nhau rồi"
+   },
+   "D": {
+    "pinyin": "Xiǎo lì zhuǎn xué le, bú zài yí gè bān le",
+    "vi": "Tiểu Lệ đã chuyển trường, không còn học chung lớp nữa"
+   }
+  }
+ },
+ {
+  "bai": "Bài 34",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě yì bān shén me shí hòu qù tú shū guǎn?",
+  "cau_hoi_vi": "Tác giả thường đi thư viện vào lúc nào?",
+  "options": {
+   "A": {
+    "pinyin": "Měi tiān zǎo shàng",
+    "vi": "Mỗi buổi sáng"
+   },
+   "B": {
+    "pinyin": "Měi gè xīng qī liù xià wǔ",
+    "vi": "Chiều thứ Bảy hằng tuần"
+   },
+   "C": {
+    "pinyin": "Zhǐ yǒu kǎo shì yǐ qián cái qù",
+    "vi": "Chỉ đi trước khi thi"
+   },
+   "D": {
+    "pinyin": "Hán jià de shí hòu",
+    "vi": "Vào kỳ nghỉ đông"
+   }
+  }
+ },
+ {
+  "bai": "Bài 34",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuò zhě zuì xǐ huān zuò zài tú shū guǎn de shén me wèi zhì?",
+  "cau_hoi_vi": "Tác giả thích ngồi ở vị trí nào nhất trong thư viện?",
+  "options": {
+   "A": {
+    "pinyin": "Mén kǒu de wèi zhì",
+    "vi": "Vị trí gần cửa ra vào"
+   },
+   "B": {
+    "pinyin": "Chuāng biān de wèi zhì, ān jìng yòu yǒu yáng guāng",
+    "vi": "Vị trí cạnh cửa sổ, vừa yên tĩnh vừa có ánh nắng"
+   },
+   "C": {
+    "pinyin": "Kào jìn kā fēi jiǎo de wèi zhì",
+    "vi": "Vị trí gần góc cà phê"
+   },
+   "D": {
+    "pinyin": "Gōng zuò rén yuán páng biān de wèi zhì",
+    "vi": "Vị trí bên cạnh nhân viên"
+   }
+  }
+ },
+ {
+  "bai": "Bài 34",
+  "so": 3,
+  "cau_hoi_pinyin": "Duì zuò zhě lái shuō, tú shū guǎn shì yí gè shén me yàng de dì fāng?",
+  "cau_hoi_vi": "Đối với tác giả, thư viện là một nơi như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Kě yǐ ràng xīn jìng xià lái de dì fāng",
+    "vi": "Nơi có thể giúp tâm hồn lắng lại"
+   },
+   "B": {
+    "pinyin": "Kě yǐ rèn shí hěn duō xīn péng yǒu de dì fāng",
+    "vi": "Nơi có thể quen biết nhiều bạn mới"
+   },
+   "C": {
+    "pinyin": "Kě yǐ mǎi dào pián yi de shū de dì fāng",
+    "vi": "Nơi có thể mua được sách giá rẻ"
+   },
+   "D": {
+    "pinyin": "Zhǐ shì xiě zuò yè de dì fāng",
+    "vi": "Chỉ là nơi làm bài tập"
+   }
+  }
+ },
+ {
+  "bai": "Bài 35",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě wèi shén me yì bān xuǎn zé zuò gōng jiāo chē shàng xué?",
+  "cau_hoi_vi": "Vì sao tác giả thường chọn đi xe buýt đến trường?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi jiā lí xué xiào hěn yuǎn, yào yí gè xiǎo shí",
+    "vi": "Vì nhà cách trường rất xa, phải mất một tiếng đồng hồ"
+   },
+   "B": {
+    "pinyin": "Yīn wèi zǒu lù yào sān shí fēn zhōng, bǐ jiào jiǔ",
+    "vi": "Vì đi bộ mất ba mươi phút, khá lâu"
+   },
+   "C": {
+    "pinyin": "Yīn wèi bà ba mā ma bú ràng tā zǒu lù",
+    "vi": "Vì bố mẹ không cho đi bộ"
+   },
+   "D": {
+    "pinyin": "Yīn wèi gōng jiāo chē miǎn fèi",
+    "vi": "Vì xe buýt miễn phí"
+   }
+  }
+ },
+ {
+  "bai": "Bài 35",
+  "so": 2,
+  "cau_hoi_pinyin": "Gōng jiāo chē shàng, zuò zhě zuò le shén me ràng lǎo rén gǎn dào wēn nuǎn de shì?",
+  "cau_hoi_vi": "Trên xe buýt, tác giả đã làm gì khiến người già cảm thấy ấm lòng?",
+  "options": {
+   "A": {
+    "pinyin": "Bāng lǎo rén ná dōng xī",
+    "vi": "Giúp người già cầm đồ"
+   },
+   "B": {
+    "pinyin": "Bǎ zì jǐ de wèi zhì ràng gěi lǎo rén",
+    "vi": "Nhường chỗ ngồi của mình cho người già"
+   },
+   "C": {
+    "pinyin": "Gēn lǎo rén liáo tiān",
+    "vi": "Trò chuyện cùng người già"
+   },
+   "D": {
+    "pinyin": "Gěi lǎo rén mǎi le shuǐ",
+    "vi": "Mua nước cho người già"
+   }
+  }
+ },
+ {
+  "bai": "Bài 35",
+  "so": 3,
+  "cau_hoi_pinyin": "Duì yú zuò gōng jiāo chē huā fèi de shí jiān, zuò zhě shì zěn me kàn de?",
+  "cau_hoi_vi": "Đối với thời gian tiêu tốn khi đi xe buýt, tác giả nhìn nhận như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Jué de hěn làng fèi shí jiān, hěn tǎo yàn",
+    "vi": "Cảm thấy rất lãng phí thời gian, rất khó chịu"
+   },
+   "B": {
+    "pinyin": "Jué de yě shì guān chá shēng huó de yí duàn shí jiān, bìng bù jué de làng fèi",
+    "vi": "Cảm thấy đó cũng là khoảng thời gian để quan sát cuộc sống, không hề thấy lãng phí"
+   },
+   "C": {
+    "pinyin": "Jué de yīng gāi huàn chéng qí zì xíng chē",
+    "vi": "Cảm thấy nên đổi sang đi xe đạp"
+   },
+   "D": {
+    "pinyin": "Wán quán méi yǒu xiǎng fǎ",
+    "vi": "Hoàn toàn không có suy nghĩ gì"
+   }
+  }
+ },
+ {
+  "bai": "Bài 36",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě diū de dōng xī shì shén me? Wèi shén me zhè me zhòng yào?",
+  "cau_hoi_vi": "Thứ tác giả làm mất là gì? Vì sao nó lại quan trọng như vậy?",
+  "options": {
+   "A": {
+    "pinyin": "Yì běn shū, shì lǎo shī sòng de",
+    "vi": "Một quyển sách, do thầy cô tặng"
+   },
+   "B": {
+    "pinyin": "Yí gè yào shi liàn, shì nǎi nai sòng de lǐ wù",
+    "vi": "Một chiếc móc chìa khóa, là món quà bà tặng"
+   },
+   "C": {
+    "pinyin": "Yí bù shǒu jī, hěn guì",
+    "vi": "Một chiếc điện thoại, rất đắt"
+   },
+   "D": {
+    "pinyin": "Yí jiàn yī fú, hěn xǐ huān",
+    "vi": "Một chiếc áo, rất thích"
+   }
+  }
+ },
+ {
+  "bai": "Bài 36",
+  "so": 2,
+  "cau_hoi_pinyin": "Mā ma shì zěn me bāng zhù zuò zhě de?",
+  "cau_hoi_vi": "Mẹ đã giúp đỡ tác giả như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Bāng tā qù mǎi yí gè xīn de",
+    "vi": "Giúp cậu ấy đi mua một cái mới"
+   },
+   "B": {
+    "pinyin": "Ràng tā bú yào zháo jí, yì qǐ zǐ xì xiǎng xiǎng",
+    "vi": "Bảo cậu ấy đừng lo lắng, cùng nhau suy nghĩ kỹ lại"
+   },
+   "C": {
+    "pinyin": "Mà tā bù xiǎo xīn",
+    "vi": "Mắng cậu ấy bất cẩn"
+   },
+   "D": {
+    "pinyin": "Shuō zhè jiàn shì bú zhòng yào",
+    "vi": "Nói rằng việc này không quan trọng"
+   }
+  }
+ },
+ {
+  "bai": "Bài 36",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuò zhě zuì hòu zài nǎ lǐ zhǎo dào le yào shi liàn?",
+  "cau_hoi_vi": "Cuối cùng tác giả đã tìm thấy chiếc móc chìa khóa ở đâu?",
+  "options": {
+   "A": {
+    "pinyin": "Zài shū bāo lǐ",
+    "vi": "Trong cặp sách"
+   },
+   "B": {
+    "pinyin": "Zài cāo chǎng de cǎo dì shàng",
+    "vi": "Trên bãi cỏ ở sân vận động"
+   },
+   "C": {
+    "pinyin": "Zài jiào shì de zhuō zi xià miàn",
+    "vi": "Dưới gầm bàn trong lớp học"
+   },
+   "D": {
+    "pinyin": "Zài huí jiā de lù shàng",
+    "vi": "Trên đường về nhà"
+   }
+  }
+ },
+ {
+  "bai": "Bài 37",
+  "so": 1,
+  "cau_hoi_pinyin": "Wèi le zhǔn bèi bǐ sài, zuò zhě zuò le shén me?",
+  "cau_hoi_vi": "Để chuẩn bị cho cuộc thi, tác giả đã làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Měi tiān liàn xí bàn gè xiǎo shí",
+    "vi": "Mỗi ngày luyện tập nửa tiếng"
+   },
+   "B": {
+    "pinyin": "Zhǎo péng yǒu bāng máng xiě gē",
+    "vi": "Nhờ bạn bè giúp viết bài hát"
+   },
+   "C": {
+    "pinyin": "Xiàng lǎo shī qǐng jià",
+    "vi": "Xin phép nghỉ với giáo viên"
+   },
+   "D": {
+    "pinyin": "Shén me dōu méi yǒu zuò",
+    "vi": "Không làm gì cả"
+   }
+  }
+ },
+ {
+  "bai": "Bài 37",
+  "so": 2,
+  "cau_hoi_pinyin": "Shàng tái yǐ qián, zuò zhě de jǐn zhāng wèi shén me shǎo le yì xiē?",
+  "cau_hoi_vi": "Trước khi lên sân khấu, vì sao sự lo lắng của tác giả giảm bớt đi một chút?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi yīn yuè tíng le",
+    "vi": "Vì âm nhạc đã dừng lại"
+   },
+   "B": {
+    "pinyin": "Yīn wèi kàn dào péng yǒu men zài wèi tā gǔ zhǎng",
+    "vi": "Vì thấy các bạn đang vỗ tay cổ vũ cho mình"
+   },
+   "C": {
+    "pinyin": "Yīn wèi lǎo shī ràng tā bú yào jǐn zhāng",
+    "vi": "Vì giáo viên bảo cậu ấy đừng căng thẳng"
+   },
+   "D": {
+    "pinyin": "Yīn wèi bǐ sài qǔ xiāo le",
+    "vi": "Vì cuộc thi đã bị hủy"
+   }
+  }
+ },
+ {
+  "bai": "Bài 37",
+  "so": 3,
+  "cau_hoi_pinyin": "Lǎo shī shuō de nà jù huà, zhǔ yào xiǎng gào sù dà jiā shén me?",
+  "cau_hoi_vi": "Câu nói của giáo viên chủ yếu muốn nói với mọi người điều gì?",
+  "options": {
+   "A": {
+    "pinyin": "Zhǐ yǒu yíng le bǐ sài cái yǒu yì yì",
+    "vi": "Chỉ có thắng cuộc thi mới có ý nghĩa"
+   },
+   "B": {
+    "pinyin": "Bǐ sài de yì yì yě zài yú yǒng gǎn de zhǎn shì zì jǐ",
+    "vi": "Ý nghĩa của cuộc thi còn nằm ở việc dũng cảm thể hiện bản thân"
+   },
+   "C": {
+    "pinyin": "Shū le bǐ sài jiù bú yòng zài cān jiā le",
+    "vi": "Thua cuộc thi thì không cần tham gia nữa"
+   },
+   "D": {
+    "pinyin": "Chàng gē bǐ sài bǐ xué xí gèng zhòng yào",
+    "vi": "Thi hát quan trọng hơn học tập"
+   }
+  }
+ },
+ {
+  "bai": "Bài 38",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě wèi shén me jué dìng bāng mā ma zuò jiā wù?",
+  "cau_hoi_vi": "Vì sao tác giả quyết định giúp mẹ làm việc nhà?",
+  "options": {
+   "A": {
+    "pinyin": "Yīn wèi mā ma ràng tā bì xū zuò",
+    "vi": "Vì mẹ bắt buộc phải làm"
+   },
+   "B": {
+    "pinyin": "Yīn wèi kàn dào mā ma měi tiān hěn xīn kǔ",
+    "vi": "Vì thấy mẹ mỗi ngày đều rất vất vả"
+   },
+   "C": {
+    "pinyin": "Yīn wèi tā xiǎng yào líng huā qián",
+    "vi": "Vì cậu ấy muốn có tiền tiêu vặt"
+   },
+   "D": {
+    "pinyin": "Yīn wèi lǎo shī ràng xué shēng huí jiā zuò jiā wù",
+    "vi": "Vì giáo viên yêu cầu học sinh về nhà làm việc nhà"
+   }
+  }
+ },
+ {
+  "bai": "Bài 38",
+  "so": 2,
+  "cau_hoi_pinyin": "Gāng kāi shǐ zuò jiā wù de shí hòu, fā shēng le shén me shì?",
+  "cau_hoi_vi": "Khi mới bắt đầu làm việc nhà, đã xảy ra chuyện gì?",
+  "options": {
+   "A": {
+    "pinyin": "Yí qiè dōu zuò de hěn hǎo",
+    "vi": "Mọi việc đều làm rất tốt"
+   },
+   "B": {
+    "pinyin": "Dǎ pò le yí gè bēi zi",
+    "vi": "Làm vỡ một cái cốc"
+   },
+   "C": {
+    "pinyin": "Bǎ yī fú xǐ huài le",
+    "vi": "Giặt hỏng quần áo"
+   },
+   "D": {
+    "pinyin": "Mā ma bú ràng tā zuò",
+    "vi": "Mẹ không cho cậu ấy làm"
+   }
+  }
+ },
+ {
+  "bai": "Bài 38",
+  "so": 3,
+  "cau_hoi_pinyin": "Guān yú zuò de hǎo bù hǎo, mā ma shì zěn me kàn de?",
+  "cau_hoi_vi": "Về việc làm tốt hay không, mẹ nhìn nhận như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Yí dìng yào zuò de yòu kuài yòu hǎo",
+    "vi": "Nhất định phải làm vừa nhanh vừa tốt"
+   },
+   "B": {
+    "pinyin": "Zhǐ yào yuàn yì bāng máng, zuò de hǎo bù hǎo bú zhòng yào",
+    "vi": "Chỉ cần sẵn lòng giúp đỡ, làm tốt hay không không quan trọng"
+   },
+   "C": {
+    "pinyin": "Zuò bù hǎo jiù bú yào zài zuò le",
+    "vi": "Làm không tốt thì thôi đừng làm nữa"
+   },
+   "D": {
+    "pinyin": "Yīng gāi qǐng zhuān yè de rén lái zuò",
+    "vi": "Nên mời người chuyên nghiệp đến làm"
+   }
+  }
+ },
+ {
+  "bai": "Bài 39",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuò zhě jué de wǎng shàng mǎi dōng xī fāng biàn zài nǎ lǐ?",
+  "cau_hoi_vi": "Tác giả cảm thấy mua đồ trên mạng tiện lợi ở điểm nào?",
+  "options": {
+   "A": {
+    "pinyin": "Dōng xī dōu bǐ shāng diàn pián yi",
+    "vi": "Đồ đều rẻ hơn ở cửa hàng"
+   },
+   "B": {
+    "pinyin": "Bú yòng chū mén, zài jiā jiù néng xuǎn",
+    "vi": "Không cần ra ngoài, ở nhà là có thể chọn được"
+   },
+   "C": {
+    "pinyin": "Sòng huò wán quán bú yòng děng",
+    "vi": "Giao hàng hoàn toàn không cần chờ đợi"
+   },
+   "D": {
+    "pinyin": "Zhì liàng dōu hěn hǎo",
+    "vi": "Chất lượng đều rất tốt"
+   }
+  }
+ },
+ {
+  "bai": "Bài 39",
+  "so": 2,
+  "cau_hoi_pinyin": "Wǎng shàng mǎi dōng xī, zuò zhě yù dào le shén me wèn tí?",
+  "cau_hoi_vi": "Khi mua đồ trên mạng, tác giả đã gặp phải vấn đề gì?",
+  "options": {
+   "A": {
+    "pinyin": "Mǎi de xié zi tài xiǎo le",
+    "vi": "Đôi giày mua bị quá nhỏ"
+   },
+   "B": {
+    "pinyin": "Mǎi de yī fú yán sè gēn zhào piān bù yí yàng",
+    "vi": "Màu quần áo mua được không giống với trong ảnh"
+   },
+   "C": {
+    "pinyin": "Dōng xī yì zhí méi yǒu sòng dào",
+    "vi": "Đồ mãi không được giao đến"
+   },
+   "D": {
+    "pinyin": "Huā le tài duō qián",
+    "vi": "Tốn quá nhiều tiền"
+   }
+  }
+ },
+ {
+  "bai": "Bài 39",
+  "so": 3,
+  "cau_hoi_pinyin": "Xiàn zài, zuò zhě wǎng shàng mǎi dōng xī yǐ qián huì xiān zuò shén me?",
+  "cau_hoi_vi": "Hiện tại, trước khi mua đồ trên mạng, tác giả sẽ làm gì trước?",
+  "options": {
+   "A": {
+    "pinyin": "Xiān wèn péng yǒu de yì jiàn",
+    "vi": "Hỏi ý kiến bạn bè trước"
+   },
+   "B": {
+    "pinyin": "Xiān kàn kàn bié rén xiě de píng jià",
+    "vi": "Xem trước các đánh giá do người khác viết"
+   },
+   "C": {
+    "pinyin": "Xiān qù shí tǐ diàn kàn kàn",
+    "vi": "Đến cửa hàng thực tế xem trước"
+   },
+   "D": {
+    "pinyin": "Xiān gēn kè fú liáo tiān",
+    "vi": "Trò chuyện với nhân viên chăm sóc khách hàng trước"
+   }
+  }
+ },
+ {
+  "bai": "Bài 40",
+  "so": 1,
+  "cau_hoi_pinyin": "Mā ma shuō, dǎ sǎo fáng zi shì wèi le shén me?",
+  "cau_hoi_vi": "Mẹ nói, dọn dẹp nhà cửa là để làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Wèi le ràng fáng zi kàn qǐ lái gèng dà",
+    "vi": "Để căn nhà trông rộng hơn"
+   },
+   "B": {
+    "pinyin": "Wèi le sòng zǒu jiù nián, yíng jiē xīn nián",
+    "vi": "Để tiễn năm cũ, đón năm mới"
+   },
+   "C": {
+    "pinyin": "Wèi le zhǔn bèi zhāo dài kè rén",
+    "vi": "Để chuẩn bị tiếp đón khách"
+   },
+   "D": {
+    "pinyin": "Yīn wèi guò nián qián huī chén bǐ jiào duō",
+    "vi": "Vì trước Tết bụi bặm khá nhiều"
+   }
+  }
+ },
+ {
+  "bai": "Bài 40",
+  "so": 2,
+  "cau_hoi_pinyin": "Chú xī wǎn shàng, quán jiā rén zuò le shén me?",
+  "cau_hoi_vi": "Tối giao thừa, cả nhà đã làm gì?",
+  "options": {
+   "A": {
+    "pinyin": "Qù bié rén jiā zuò kè",
+    "vi": "Đến nhà người khác làm khách"
+   },
+   "B": {
+    "pinyin": "Yì qǐ chī nián yè fàn, kàn diàn shì děng xīn nián",
+    "vi": "Cùng nhau ăn cơm tất niên, xem tivi chờ đón năm mới"
+   },
+   "C": {
+    "pinyin": "Gè zì huí zì jǐ de fáng jiān",
+    "vi": "Mỗi người về phòng riêng của mình"
+   },
+   "D": {
+    "pinyin": "Yì qǐ qù gōng yuán sàn bù",
+    "vi": "Cùng nhau đi dạo công viên"
+   }
+  }
+ },
+ {
+  "bai": "Bài 40",
+  "so": 3,
+  "cau_hoi_pinyin": "Guān yú zhè sì shí piān kè wén, zuò zhě zuì hòu shì zěn me kàn de?",
+  "cau_hoi_vi": "Về bốn mươi bài khóa này, cuối cùng tác giả nhìn nhận như thế nào?",
+  "options": {
+   "A": {
+    "pinyin": "Jué de xiě qǐ lái hěn má fán",
+    "vi": "Cảm thấy viết ra rất phiền phức"
+   },
+   "B": {
+    "pinyin": "Jué de dōu shì shēng huó xiǎo shì, dàn hěn zhēn xī",
+    "vi": "Cảm thấy đều là những chuyện nhỏ trong cuộc sống, nhưng rất trân trọng"
+   },
+   "C": {
+    "pinyin": "Xī wàng yǐ hòu bú yòng zài xiě le",
+    "vi": "Mong sau này không cần viết nữa"
+   },
+   "D": {
+    "pinyin": "Jué de nèi róng dōu chà bu duō, méi yǒu yì si",
+    "vi": "Cảm thấy nội dung đều gần giống nhau, không có gì thú vị"
+   }
+  }
+ }
+]

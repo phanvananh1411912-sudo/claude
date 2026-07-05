@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK3-Bài 28",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Tuī\" hé \"lā\" zhè liǎng gè zì de yìsi shì zěnyàng de?",
+  "cau_hoi_vi": "Ý nghĩa của hai chữ \"推\" (đẩy) và \"拉\" (kéo) như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng", "vi": "Hoàn toàn giống nhau"},
+   "B": {"pinyin": "Zhènghǎo xiāngfǎn", "vi": "Hoàn toàn trái ngược nhau"},
+   "C": {"pinyin": "Yǒu yìdiǎnr xiāngsì", "vi": "Có một chút giống nhau"},
+   "D": {"pinyin": "Gēn shǒu méiyǒu guānxi", "vi": "Không liên quan gì đến tay"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 28",
+  "so": 3,
+  "cau_hoi_pinyin": "Lǎoshī tíxǐng, xuéxí tíshǒupáng de guīlǜ shí yào zhùyì shénme?",
+  "cau_hoi_vi": "Giáo viên nhắc nhở, khi học quy luật của bộ thủ tay cần chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Suǒyǒu dài tíshǒupáng de zì dōu yídìng gēn shǒu yǒuguān, méiyǒu lìwài", "vi": "Tất cả các chữ có bộ thủ tay đều chắc chắn liên quan đến tay, không có ngoại lệ"},
+   "B": {"pinyin": "Dà bùfen dōu gēn shǒu yǒuguān, dàn yě yǒu gèbié lìwài, xūyào dāndú jìzhu", "vi": "Phần lớn đều liên quan đến tay, nhưng cũng có một vài ngoại lệ, cần phải nhớ riêng"},
+   "C": {"pinyin": "Búyòng jìzhu rènhé guīlǜ", "vi": "Không cần nhớ bất kỳ quy luật nào"},
+   "D": {"pinyin": "Tíshǒupáng zhǐ yòng yú biǎoshì qíngxù", "vi": "Bộ thủ tay chỉ dùng để biểu thị cảm xúc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 28",
+  "so": 4,
+  "cau_hoi_pinyin": "Guānyú \"wǒ\" zhè ge zì, wénzhāng shì zěnme shuō de?",
+  "cau_hoi_vi": "Về chữ \"我\" (tôi), bài viết nói như thế nào?",
+  "options": {
+   "A": {"pinyin": "Tā wánquán fúhé tíshǒupáng de guīlǜ", "vi": "Nó hoàn toàn phù hợp với quy luật của bộ thủ tay"},
+   "B": {"pinyin": "Tā kàn qǐlái yǒudiǎnr xiàng, dàn qíshí lìshǐ bǐjiào tèshū, bù shǔyú zhège guīlǜ", "vi": "Nó trông có vẻ giống, nhưng thực ra về mặt lịch sử khá đặc biệt, không thuộc quy luật này"},
+   "C": {"pinyin": "Tā gēn shǒu wánquán méiyǒu guānxi, yàngzi yě bú xiàng", "vi": "Nó hoàn toàn không liên quan đến tay, hình dạng cũng không giống"},
+   "D": {"pinyin": "Wénzhāng méiyǒu tídào zhège zì", "vi": "Bài viết không nhắc đến chữ này"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 28",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè jié kè ràng zuòzhě fāxiàn le shénme?",
+  "cau_hoi_vi": "Tiết học này đã giúp tác giả phát hiện ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Guānchá bùshǒu méiyǒu shénme yòng", "vi": "Quan sát bộ thủ chẳng có tác dụng gì"},
+   "B": {"pinyin": "Guānchá bùshǒu jiù xiàng guānchá zì de \"shēnfènzhèng\", néng bāngzhù liǎojiě dàgài yìsi", "vi": "Quan sát bộ thủ giống như quan sát \"chứng minh thư\" của chữ, có thể giúp hiểu được ý nghĩa đại khái"},
+   "C": {"pinyin": "Suǒyǒu Hànzì dōu hěn nán lǐjiě", "vi": "Tất cả chữ Hán đều rất khó hiểu"},
+   "D": {"pinyin": "Xuéxí bùshǒu guīlǜ bù xūyào xìxīn", "vi": "Học quy luật bộ thủ không cần tỉ mỉ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 29",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Huǒ\" zhège zì běnshēn shì shénme yàng de yì zhǒng zì?",
+  "cau_hoi_vi": "Bản thân chữ \"火\" (lửa) là loại chữ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Huìyìzì", "vi": "Chữ hội ý"},
+   "B": {"pinyin": "Xiàngxíngzì", "vi": "Chữ tượng hình"},
+   "C": {"pinyin": "Zhǐshìzì", "vi": "Chữ chỉ sự"},
+   "D": {"pinyin": "Xíngshēngzì", "vi": "Chữ hình thanh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 29",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Huī\" zì biǎoshì shénme yìsi?",
+  "cau_hoi_vi": "Chữ \"灰\" (tro) biểu thị ý nghĩa gì?",
+  "options": {
+   "A": {"pinyin": "Yì zhǒng yánsè", "vi": "Một loại màu sắc"},
+   "B": {"pinyin": "Dōngxi bèi huǒ shāoguo yǐhòu shèngxià de dōngxi", "vi": "Thứ còn lại sau khi đồ vật bị lửa đốt cháy"},
+   "C": {"pinyin": "Yì zhǒng tiānqì", "vi": "Một loại thời tiết"},
+   "D": {"pinyin": "Gēn huǒ wánquán méiyǒu guānxi", "vi": "Hoàn toàn không liên quan đến lửa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 29",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Zhǔ\" hé \"xióng\" zhè liǎng gè zì, xiàmiàn de bùfen jiàozuò shénme?",
+  "cau_hoi_vi": "Phần bên dưới của hai chữ \"煮\" (nấu) và \"熊\" (gấu) được gọi là gì?",
+  "options": {
+   "A": {"pinyin": "Shùxīnpáng", "vi": "Bộ tâm đứng"},
+   "B": {"pinyin": "Sìdiǎndǐ", "vi": "Bộ bốn chấm (hỏa)"},
+   "C": {"pinyin": "Tíshǒupáng", "vi": "Bộ thủ tay"},
+   "D": {"pinyin": "Mùzìpáng", "vi": "Bộ mộc (cây)"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 29",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī jiěshì, \"xióng\" zì xiàmiàn de sì diǎn biǎoshì shénme?",
+  "cau_hoi_vi": "Giáo viên giải thích, bốn chấm bên dưới chữ \"熊\" (gấu) biểu thị điều gì?",
+  "options": {
+   "A": {"pinyin": "Xióng hěn xiōngměng", "vi": "Gấu rất hung dữ"},
+   "B": {"pinyin": "Xióng zài hánlěng shí yǒu xiàng huǒ yíyàng wēnnuǎn de pímáo, bāngzhù bǎonuǎn", "vi": "Gấu khi trời lạnh có bộ lông ấm như lửa, giúp giữ ấm"},
+   "C": {"pinyin": "Xióng xǐhuan chī kǎo de shíwù", "vi": "Gấu thích ăn đồ nướng"},
+   "D": {"pinyin": "Gēn huǒ wánquán méiyǒu guānxi", "vi": "Hoàn toàn không liên quan đến lửa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 29",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè jié kè ràng zuòzhě gèngjiā quèdìng le shénme?",
+  "cau_hoi_vi": "Tiết học này khiến tác giả càng khẳng định thêm điều gì?",
+  "options": {
+   "A": {"pinyin": "Bùshǒu dōu shì suíbiàn juédìng de, méiyǒu yìyì", "vi": "Bộ thủ đều được quyết định tùy tiện, không có ý nghĩa gì"},
+   "B": {"pinyin": "Měi yí gè bùshǒu bèihòu dōu kěnéng cángzhe gēn gǔrén shēnghuó jīngyàn yǒuguān de gùshi", "vi": "Đằng sau mỗi bộ thủ đều có thể ẩn chứa những câu chuyện liên quan đến kinh nghiệm sống của người xưa"},
+   "C": {"pinyin": "Zhǐyǒu \"huǒ\" zìpáng de zì cái yǒu yìsi", "vi": "Chỉ có những chữ mang bộ hỏa mới thú vị"},
+   "D": {"pinyin": "Xuéxí bùshǒu méiyǒu yòngchu", "vi": "Học bộ thủ không có tác dụng gì"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 30",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Chuò\" zhège bùshǒu, gēn \"zǒu\" zì yǒu shénme guānxi?",
+  "cau_hoi_vi": "Bộ thủ \"辶\" (sước) có quan hệ gì với chữ \"走\" (đi)?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu guānxi", "vi": "Hoàn toàn không liên quan"},
+   "B": {"pinyin": "Tā shì \"zǒu\" zì jìnyíbù jiǎnhuà yǐhòu de xiěfǎ", "vi": "Nó là cách viết sau khi chữ \"走\" được đơn giản hóa thêm một bước nữa"},
+   "C": {"pinyin": "Tā shì \"zǒu\" zì de fǎnyìcí", "vi": "Nó là từ trái nghĩa của chữ \"走\""},
+   "D": {"pinyin": "Tā bǐ \"zǒu\" zì gèng gǔlǎo", "vi": "Nó cổ xưa hơn chữ \"走\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 30",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Jìn\" hé \"tuì\" zhè liǎng gè zì de yìsi shì zěnyàng de?",
+  "cau_hoi_vi": "Ý nghĩa của hai chữ \"进\" (tiến) và \"退\" (lùi) như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng", "vi": "Hoàn toàn giống nhau"},
+   "B": {"pinyin": "Zhènghǎo xiāngfǎn", "vi": "Hoàn toàn trái ngược nhau"},
+   "C": {"pinyin": "Yǒu yìdiǎnr xiāngsì", "vi": "Có một chút giống nhau"},
+   "D": {"pinyin": "Gēn yídòng méiyǒu guānxi", "vi": "Không liên quan gì đến sự di chuyển"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 30",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Zhè\" hé \"nà\" zhè liǎng gè zì, gēn \"chuò\" bùshǒu yǒu shénme guānxi?",
+  "cau_hoi_vi": "Hai chữ \"这\" (này) và \"那\" (kia) có quan hệ gì với bộ thủ \"辶\" (sước)?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu guānxi", "vi": "Hoàn toàn không liên quan"},
+   "B": {"pinyin": "Běnshēn bù biǎoshì yídòng, dàn lìshǐ shàng gēn zhǐshì fāngxiàng yǒuguān", "vi": "Bản thân không biểu thị sự di chuyển, nhưng về mặt lịch sử có liên quan đến việc chỉ phương hướng"},
+   "C": {"pinyin": "Biǎoshì hěn kuài de yídòng sùdù", "vi": "Biểu thị tốc độ di chuyển rất nhanh"},
+   "D": {"pinyin": "Wénzhāng méiyǒu tídào zhè liǎng gè zì", "vi": "Bài viết không nhắc đến hai chữ này"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 30",
+  "so": 4,
+  "cau_hoi_pinyin": "Xuéwán zhè wǔ jié guānyú bùshǒu de kè, zuòzhě yǒu shénme biànhuà?",
+  "cau_hoi_vi": "Học xong năm tiết học về bộ thủ này, tác giả có sự thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu biànhuà", "vi": "Hoàn toàn không có thay đổi gì"},
+   "B": {"pinyin": "Kàn Hànzì de fāngshì biàn le, huì zhǔdòng sīkǎo měi ge bùfen de yìsi", "vi": "Cách nhìn chữ Hán đã thay đổi, sẽ chủ động suy nghĩ về ý nghĩa của từng bộ phận"},
+   "C": {"pinyin": "Juédìng bú zài xuéxí Hànzì", "vi": "Quyết định không học chữ Hán nữa"},
+   "D": {"pinyin": "Zhǐ jìzhu le bǐhuà, méiyǒu bié de shōuhuò", "vi": "Chỉ nhớ được nét bút, không có thu hoạch gì khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 30",
+  "so": 5,
+  "cau_hoi_pinyin": "Lǎoshī zuìhòu xīwàng wǒmen yǐhòu xuéxí Hànzì shí, yīnggāi zěnme zuò?",
+  "cau_hoi_vi": "Cuối cùng, giáo viên mong muốn sau này khi học chữ Hán, chúng ta nên làm như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐ xūyào sǐjìyìngbèi", "vi": "Chỉ cần học thuộc lòng một cách máy móc"},
+   "B": {"pinyin": "Duō wèn yi wèn \"wèishénme\", zhèyàng xuéxí huì gèng yǒu yìsi, gèng yǒu xiàolǜ", "vi": "Hãy hỏi thêm \"tại sao\", như vậy việc học sẽ thú vị hơn, hiệu quả hơn"},
+   "C": {"pinyin": "Búyòng liǎojiě bùshǒu de yìsi", "vi": "Không cần hiểu ý nghĩa của bộ thủ"},
+   "D": {"pinyin": "Zhǐ xuéxí zuì jiǎndān de zì jiù kěyǐ le", "vi": "Chỉ cần học những chữ đơn giản nhất là được"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 31",
+  "so": 1,
+  "cau_hoi_pinyin": "Yéye tíyì kàn de shì yí bù shénme yàng de diànyǐng?",
+  "cau_hoi_vi": "Ông đề nghị xem là một bộ phim như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zuìxīn shàngyìng de diànyǐng", "vi": "Bộ phim mới ra rạp gần đây nhất"},
+   "B": {"pinyin": "Tā niánqīng shíhou tèbié xǐhuan de hēibái lǎo diànyǐng", "vi": "Bộ phim đen trắng cũ mà ông đặc biệt thích hồi trẻ"},
+   "C": {"pinyin": "Yí bù wàiguó diànyǐng", "vi": "Một bộ phim nước ngoài"},
+   "D": {"pinyin": "Yí bù dònghuàpiàn", "vi": "Một bộ phim hoạt hình"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 31",
+  "so": 2,
+  "cau_hoi_pinyin": "Kàndào yíbàn de shíhou, yéye shuō le shénme?",
+  "cau_hoi_vi": "Khi xem được nửa chừng, ông đã nói gì?",
+  "options": {
+   "A": {"pinyin": "Zhè bù diànyǐng tā cónglái méi kànguo", "vi": "Bộ phim này ông chưa từng xem qua"},
+   "B": {"pinyin": "Zhè bù diànyǐng tā xiǎoshíhou kànguo hěn duō cì, měi cì dōu huì yīnwèi mǒu ge qíngjié liúlèi", "vi": "Bộ phim này hồi nhỏ ông đã xem rất nhiều lần, lần nào cũng rơi nước mắt vì một tình tiết nào đó"},
+   "C": {"pinyin": "Zhè bù diànyǐng hěn wúliáo", "vi": "Bộ phim này rất chán"},
+   "D": {"pinyin": "Tā bú jìde zhè bù diànyǐng de nèiróng le", "vi": "Ông không còn nhớ nội dung của bộ phim này nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 31",
+  "so": 3,
+  "cau_hoi_pinyin": "Yéye shuō, yǐqián kàn diànyǐng shì yí jiàn zěnyàng de shìqing?",
+  "cau_hoi_vi": "Ông nói, ngày xưa xem phim là một việc như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng jiǎndān, suíshí dōu néng kàn", "vi": "Rất đơn giản, lúc nào cũng có thể xem"},
+   "B": {"pinyin": "Hěn nándé, yǒu shíhou yào páiduì hěn cháng shíjiān cái néng mǎidào piào", "vi": "Rất hiếm có, có lúc phải xếp hàng rất lâu mới mua được vé"},
+   "C": {"pinyin": "Wánquán bù xūyào huāqián", "vi": "Hoàn toàn không cần tốn tiền"},
+   "D": {"pinyin": "Gēn xiànzài méiyǒu rènhé chābié", "vi": "Không có sự khác biệt gì so với bây giờ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 31",
+  "so": 4,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Trải nghiệm lần này đã giúp tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Lǎo diànyǐng wánquán méiyǒu jiàzhí", "vi": "Phim cũ hoàn toàn không có giá trị gì"},
+   "B": {"pinyin": "Diànyǐng bù zhǐshì yúlè fāngshì, yě shì jìlù shídài shēnghuó hé qínggǎn de zhòngyào zàitǐ", "vi": "Điện ảnh không chỉ là một hình thức giải trí, mà còn là phương tiện quan trọng ghi lại đời sống và tình cảm của mỗi thời đại"},
+   "C": {"pinyin": "Xiàndài diànyǐng yídìng bǐ lǎo diànyǐng hǎo", "vi": "Phim hiện đại chắc chắn hay hơn phim cũ"},
+   "D": {"pinyin": "Yīnggāi duō huāqián mǎi zuìxīn de diànyǐng piào", "vi": "Nên bỏ nhiều tiền hơn để mua vé xem phim mới nhất"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 31",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuòzhě zuìhòu duì lǎo diànyǐng de kànfǎ shì zěnyàng de?",
+  "cau_hoi_vi": "Cuối cùng, quan điểm của tác giả về phim cũ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde wánquán méiyǒu yìsi", "vi": "Cảm thấy hoàn toàn chẳng có gì thú vị"},
+   "B": {"pinyin": "Rènwéi pǔsù yòu zhēnshí de gùshi, yīrán yǒu dútè de mèilì", "vi": "Cho rằng những câu chuyện mộc mạc mà chân thực vẫn có sức hấp dẫn riêng"},
+   "C": {"pinyin": "Juédìng yǐhòu zhǐ kàn lǎo diànyǐng", "vi": "Quyết định sau này chỉ xem phim cũ"},
+   "D": {"pinyin": "Juéde lǎo diànyǐng bǐ xīn diànyǐng gèng làngfèi shíjiān", "vi": "Cảm thấy phim cũ tốn thời gian hơn phim mới"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 32",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě shì zài shénme chǎnghé dì-yī cì tīngdào gǔzhēng yǎnzòu de?",
+  "cau_hoi_vi": "Tác giả đã lần đầu tiên nghe biểu diễn đàn tranh trong hoàn cảnh nào?",
+  "options": {
+   "A": {"pinyin": "Zài diànshì shàng", "vi": "Trên tivi"},
+   "B": {"pinyin": "Zài xuéxiào de biǎoyǎn huódòng zhōng", "vi": "Trong một hoạt động biểu diễn ở trường"},
+   "C": {"pinyin": "Zài yīnyuèhuì shàng", "vi": "Tại một buổi hòa nhạc"},
+   "D": {"pinyin": "Zài wǎngshàng", "vi": "Trên mạng"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 32",
+  "so": 2,
+  "cau_hoi_pinyin": "Péngyoumen duì zuòzhě xuéxí gǔzhēng yǒu shénme kànfǎ?",
+  "cau_hoi_vi": "Bạn bè có nhận xét gì về việc tác giả học đàn tranh?",
+  "options": {
+   "A": {"pinyin": "Dōu fēicháng zhīchí", "vi": "Đều rất ủng hộ"},
+   "B": {"pinyin": "Juéde zhè zhǒng chuántǒng yuèqì xué qǐlái yídìng hěn kūzào", "vi": "Cho rằng loại nhạc cụ truyền thống này học chắc chắn sẽ rất khô khan"},
+   "C": {"pinyin": "Juéde gǔzhēng hěn róngyì xué", "vi": "Cho rằng đàn tranh rất dễ học"},
+   "D": {"pinyin": "Wánquán méiyǒu kànfǎ", "vi": "Hoàn toàn không có ý kiến gì"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 32",
+  "so": 3,
+  "cau_hoi_pinyin": "Lǎoshī gàosu zuòzhě, tán gǔzhēng chúle jìqiǎo, gèng xūyào shénme?",
+  "cau_hoi_vi": "Giáo viên nói với tác giả, chơi đàn tranh ngoài kỹ thuật ra, còn cần điều gì hơn nữa?",
+  "options": {
+   "A": {"pinyin": "Ángguì de yuèqì", "vi": "Nhạc cụ đắt tiền"},
+   "B": {"pinyin": "Nàixīn hé duì yīnyuè de gǎnshòulì", "vi": "Sự kiên nhẫn và khả năng cảm thụ âm nhạc"},
+   "C": {"pinyin": "Hěn duō guānzhòng", "vi": "Nhiều khán giả"},
+   "D": {"pinyin": "Kuàisù de shǒuzhǐ dòngzuò", "vi": "Động tác ngón tay nhanh nhẹn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 32",
+  "so": 4,
+  "cau_hoi_pinyin": "Liànxí le bàn nián yǐhòu, zuòzhě zuò le shénme?",
+  "cau_hoi_vi": "Sau khi luyện tập được nửa năm, tác giả đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Juédìng fàngqì xuéxí gǔzhēng", "vi": "Quyết định từ bỏ việc học đàn tranh"},
+   "B": {"pinyin": "Zài xiǎoxíng yīnyuèhuì shàng dì-yī cì yǎnzòu le yì shǒu wánzhěng de qǔzi", "vi": "Lần đầu tiên biểu diễn trọn vẹn một bản nhạc tại một buổi hòa nhạc nhỏ"},
+   "C": {"pinyin": "Huàn le yì zhǒng xīn de yuèqì", "vi": "Đổi sang một loại nhạc cụ mới"},
+   "D": {"pinyin": "Cānjiā le yí ge dàxíng bǐsài", "vi": "Tham gia một cuộc thi lớn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 32",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè duàn xuéxí gǔzhēng de jīnglì ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Trải nghiệm học đàn tranh này đã giúp tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Chuántǒng yìshù fēicháng kūzào, méiyǒu yìsi", "vi": "Nghệ thuật truyền thống rất khô khan, chẳng thú vị gì"},
+   "B": {"pinyin": "Chuántǒng yìshù bìng bù kūzào, chōngmǎn le zhíde mànmàn fāxiàn de měi", "vi": "Nghệ thuật truyền thống hoàn toàn không khô khan, mà chứa đầy vẻ đẹp đáng để từ từ khám phá"},
+   "C": {"pinyin": "Xuéxí yuèqì hěn làngfèi shíjiān", "vi": "Học nhạc cụ rất tốn thời gian"},
+   "D": {"pinyin": "Zhǐyǒu zhuānyè de rén cái néng xuéhǎo gǔzhēng", "vi": "Chỉ có người chuyên nghiệp mới học tốt được đàn tranh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 33",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhōngguóhuà gēn xīfāng yóuhuà yǒu shénme bù yíyàng?",
+  "cau_hoi_vi": "Tranh Trung Quốc khác gì với tranh sơn dầu phương Tây?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng, méiyǒu qūbié", "vi": "Hoàn toàn giống nhau, không có sự khác biệt"},
+   "B": {"pinyin": "Zhōngguóhuà dàduō shì hēibái de, yánsè fēicháng jiǎndān", "vi": "Tranh Trung Quốc phần lớn là đen trắng, màu sắc rất đơn giản"},
+   "C": {"pinyin": "Zhōngguóhuà yídìng bǐ yóuhuà guì", "vi": "Tranh Trung Quốc chắc chắn đắt hơn tranh sơn dầu"},
+   "D": {"pinyin": "Xīfāng yóuhuà bú yòng yánsè", "vi": "Tranh sơn dầu phương Tây không dùng màu sắc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 33",
+  "so": 2,
+  "cau_hoi_pinyin": "Shuǐmòhuà de zhǔyào cáiliào shì shénme?",
+  "cau_hoi_vi": "Nguyên liệu chính của tranh thủy mặc là gì?",
+  "options": {
+   "A": {"pinyin": "Yóuhuà yánliào", "vi": "Màu vẽ tranh sơn dầu"},
+   "B": {"pinyin": "Hēisè mòshuǐ", "vi": "Mực đen"},
+   "C": {"pinyin": "Cǎisè qiānbǐ", "vi": "Bút chì màu"},
+   "D": {"pinyin": "Shuǐcǎi yánliào", "vi": "Màu nước"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 33",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiǎngjiěyuán shuō, shuǐmòhuà jiǎngjiu shénme?",
+  "cau_hoi_vi": "Người thuyết minh nói, tranh thủy mặc chú trọng điều gì?",
+  "options": {
+   "A": {"pinyin": "Yòng hěn duō zhǒng yánsè", "vi": "Dùng rất nhiều loại màu sắc"},
+   "B": {"pinyin": "\"Liúbái\", gùyì liúxià yìxiē kòngbái", "vi": "\"Lưu bạch\", cố ý để lại một số khoảng trống"},
+   "C": {"pinyin": "Huà de yuè fùzá yuè hǎo", "vi": "Vẽ càng phức tạp càng tốt"},
+   "D": {"pinyin": "Yídìng yào huà de fēicháng zhēnshí", "vi": "Nhất định phải vẽ thật chân thực"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 33",
+  "so": 4,
+  "cau_hoi_pinyin": "Péngyou shuō, Zhōngguóhuà zài biǎodá shénme?",
+  "cau_hoi_vi": "Bạn nói, tranh Trung Quốc đang thể hiện điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì yǎnjing kàndào de dōngxi", "vi": "Chỉ là những gì mắt nhìn thấy"},
+   "B": {"pinyin": "Bù zhǐshì kàndào de dōngxi, gèng shì huàjiā xīnlǐ de gǎnshòu hé xiǎngfǎ", "vi": "Không chỉ là những gì nhìn thấy, mà còn là cảm nhận và suy nghĩ trong lòng người họa sĩ"},
+   "C": {"pinyin": "Zhǐshì yì zhǒng zhuāngshì", "vi": "Chỉ là một loại trang trí"},
+   "D": {"pinyin": "Gēn huàjiā de gǎnshòu méiyǒu guānxi", "vi": "Không liên quan gì đến cảm nhận của họa sĩ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 33",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì kàn zhǎnlǎn de jīnglì, ràng zuòzhě duì shénme yǒu le xīn de lǐjiě?",
+  "cau_hoi_vi": "Trải nghiệm xem triển lãm lần này đã giúp tác giả có cách hiểu mới về điều gì?",
+  "options": {
+   "A": {"pinyin": "\"Fùzá\" zhège cí", "vi": "Từ \"phức tạp\""},
+   "B": {"pinyin": "\"Jiǎndān\" zhège cí", "vi": "Từ \"đơn giản\""},
+   "C": {"pinyin": "\"Yánsè\" zhège cí", "vi": "Từ \"màu sắc\""},
+   "D": {"pinyin": "\"Jiàgé\" zhège cí", "vi": "Từ \"giá cả\""}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 34",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě gāng kāishǐ xuéxí shūfǎ shí, liàn de shì nǎ zhǒng zìtǐ?",
+  "cau_hoi_vi": "Khi mới bắt đầu học thư pháp, tác giả luyện loại chữ nào?",
+  "options": {
+   "A": {"pinyin": "Cǎoshū", "vi": "Chữ thảo"},
+   "B": {"pinyin": "Kǎishū", "vi": "Chữ khải"},
+   "C": {"pinyin": "Xíngshū", "vi": "Chữ hành"},
+   "D": {"pinyin": "Jiǎgǔwén", "vi": "Chữ giáp cốt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 34",
+  "so": 2,
+  "cau_hoi_pinyin": "Liànxí kǎishū de guòchéng, zuòzhě juéde zěnmeyàng?",
+  "cau_hoi_vi": "Tác giả cảm thấy quá trình luyện chữ khải như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng yǒuqù, yìdiǎnr dōu bù kūzào", "vi": "Rất thú vị, không hề khô khan chút nào"},
+   "B": {"pinyin": "Xiāngdāng kūzào, xūyào fǎnfù xiě tóng yí ge zì", "vi": "Khá khô khan, phải viết đi viết lại cùng một chữ"},
+   "C": {"pinyin": "Wánquán bù xūyào liànxí", "vi": "Hoàn toàn không cần luyện tập"},
+   "D": {"pinyin": "Yí cì jiù néng xiěhǎo", "vi": "Chỉ cần viết một lần là được"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 34",
+  "so": 3,
+  "cau_hoi_pinyin": "Cǎoshū gēn kǎishū bǐ qǐlái, yǒu shénme tèdiǎn?",
+  "cau_hoi_vi": "So với chữ khải, chữ thảo có đặc điểm gì?",
+  "options": {
+   "A": {"pinyin": "Bǐhuà gèng qīngchu", "vi": "Nét bút rõ ràng hơn"},
+   "B": {"pinyin": "Bǐhuà jiǎnhuà hěn duō, sùdù gèng kuài, dàn gèng nán biànrèn", "vi": "Nét bút được đơn giản hóa rất nhiều, tốc độ viết nhanh hơn, nhưng khó nhận biết hơn"},
+   "C": {"pinyin": "Wánquán yíyàng, méiyǒu qūbié", "vi": "Hoàn toàn giống nhau, không có khác biệt"},
+   "D": {"pinyin": "Gèng shìhé chūxuézhě", "vi": "Phù hợp hơn với người mới học"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 34",
+  "so": 4,
+  "cau_hoi_pinyin": "Cānjiā shūfǎ bǐsài yǐhòu, píngwěi lǎoshī gěi le zuòzhě shénme píngjià?",
+  "cau_hoi_vi": "Sau khi tham gia cuộc thi thư pháp, giám khảo đã đánh giá tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shuō tā xiě de bù hǎo", "vi": "Nói rằng anh ấy viết không tốt"},
+   "B": {"pinyin": "Shuō tā de zì lǐ néng kànchū yì zhǒng chénwěn de qìzhì", "vi": "Nói rằng trong chữ viết của anh ấy có thể nhìn thấy một khí chất điềm tĩnh, chững chạc"},
+   "C": {"pinyin": "Méiyǒu gěichū rènhé píngjià", "vi": "Không đưa ra bất kỳ đánh giá nào"},
+   "D": {"pinyin": "Shuō tā yīnggāi huàn yì zhǒng zìtǐ", "vi": "Nói rằng anh ấy nên đổi sang một kiểu chữ khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 34",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè duàn liànxí shūfǎ de jīnglì ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Trải nghiệm luyện thư pháp này đã giúp tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Shūfǎ zhǐshì yì zhǒng xiězì de jìqiǎo", "vi": "Thư pháp chỉ là một kỹ thuật viết chữ"},
+   "B": {"pinyin": "Shūfǎ bù zhǐshì jìqiǎo, gèng shì xiūyǎng shēnxīn, péiyǎng nàixīn de fāngshì", "vi": "Thư pháp không chỉ là kỹ thuật, mà còn là cách rèn luyện tâm tính và bồi dưỡng sự kiên nhẫn"},
+   "C": {"pinyin": "Liànxí shūfǎ méiyǒu shénme yòng", "vi": "Luyện thư pháp chẳng có tác dụng gì"},
+   "D": {"pinyin": "Zhǐyǒu zhuānyè de rén cái néng liànxí shūfǎ", "vi": "Chỉ có người chuyên nghiệp mới có thể luyện thư pháp"}
+  }
+ }
+]

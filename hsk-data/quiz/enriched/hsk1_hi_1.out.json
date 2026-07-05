@@ -1,0 +1,362 @@
+[
+  {
+    "bai": "Bài 21",
+    "so": 1,
+    "cau_hoi_pinyin": "Zhè bù shǒu jī shì zěn me lái de?",
+    "cau_hoi_vi": "Chiếc điện thoại này có được như thế nào?",
+    "options": {
+      "A": {"pinyin": "Shì zuò zhě zì jǐ mǎi de", "vi": "Là do tác giả tự mua"},
+      "B": {"pinyin": "Shì bà ba sòng de shēng rì lǐ wù", "vi": "Là quà sinh nhật do bố tặng"},
+      "C": {"pinyin": "Shì péng yǒu sòng de", "vi": "Là do bạn tặng"},
+      "D": {"pinyin": "Shì zài shāng diàn lǐ jiǎn dào de", "vi": "Là nhặt được ở trong cửa hàng"}
+    }
+  },
+  {
+    "bai": "Bài 21",
+    "so": 2,
+    "cau_hoi_pinyin": "Wǎn shàng shuì jiào yǐ qián, zuò zhě huì zěn me zuò?",
+    "cau_hoi_vi": "Trước khi đi ngủ vào buổi tối, tác giả thường làm gì?",
+    "options": {
+      "A": {"pinyin": "Bǎ shǒu jī fàng zài chuáng shàng", "vi": "Để điện thoại lên giường"},
+      "B": {"pinyin": "Bǎ shǒu jī fàng zài zhuō zi shàng, bú fàng chuáng shàng", "vi": "Để điện thoại lên bàn, không để lên giường"},
+      "C": {"pinyin": "Yì zhí wán shǒu jī dào hěn wǎn", "vi": "Chơi điện thoại liên tục đến rất khuya"},
+      "D": {"pinyin": "Bǎ shǒu jī guān jī fàng zài bāo lǐ", "vi": "Tắt nguồn điện thoại rồi để vào túi"}
+    }
+  },
+  {
+    "bai": "Bài 21",
+    "so": 3,
+    "cau_hoi_pinyin": "Mā ma shuō de nà jù huà, zhǔ yào shì xiǎng gào sù zuò zhě shén me?",
+    "cau_hoi_vi": "Câu nói đó của mẹ chủ yếu là muốn nói với tác giả điều gì?",
+    "options": {
+      "A": {"pinyin": "Shǒu jī hěn guì, yào xiǎo xīn shǐ yòng", "vi": "Điện thoại rất đắt, phải sử dụng cẩn thận"},
+      "B": {"pinyin": "Bú yào ràng shǒu jī zhàn yòng tài duō shí jiān", "vi": "Đừng để điện thoại chiếm quá nhiều thời gian"},
+      "C": {"pinyin": "Wǎn shàng bù kě yǐ yòng shǒu jī", "vi": "Buổi tối không được dùng điện thoại"},
+      "D": {"pinyin": "Shǒu jī kě yǐ bāng zhù xué xí", "vi": "Điện thoại có thể giúp ích cho việc học"}
+    }
+  },
+  {
+    "bai": "Bài 22",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě wèi shén me xǐ huān lán sè?",
+    "cau_hoi_vi": "Vì sao tác giả thích màu xanh dương?",
+    "options": {
+      "A": {"pinyin": "Yīn wèi lán sè hěn guì", "vi": "Vì màu xanh dương rất đắt"},
+      "B": {"pinyin": "Yīn wèi lán sè ràng tā jué de hěn ān jìng", "vi": "Vì màu xanh dương khiến anh ấy cảm thấy rất yên tĩnh"},
+      "C": {"pinyin": "Yīn wèi mèi mei yě xǐ huān lán sè", "vi": "Vì em gái cũng thích màu xanh dương"},
+      "D": {"pinyin": "Yīn wèi lán sè shì tā xué xiào de yán sè", "vi": "Vì màu xanh dương là màu của trường anh ấy"}
+    }
+  },
+  {
+    "bai": "Bài 22",
+    "so": 2,
+    "cau_hoi_pinyin": "Mèi mei zuì xǐ huān de yán sè shì shén me?",
+    "cau_hoi_vi": "Màu mà em gái thích nhất là màu gì?",
+    "options": {
+      "A": {"pinyin": "Lán sè", "vi": "Màu xanh dương"},
+      "B": {"pinyin": "Fěn sè", "vi": "Màu hồng"},
+      "C": {"pinyin": "Huáng sè", "vi": "Màu vàng"},
+      "D": {"pinyin": "Lǜ sè", "vi": "Màu xanh lá"}
+    }
+  },
+  {
+    "bai": "Bài 22",
+    "so": 3,
+    "cau_hoi_pinyin": "Guān yú liǎng rén xǐ huān de yán sè bù tóng, wén zhāng de tài dù shì shén me?",
+    "cau_hoi_vi": "Về việc hai người thích màu sắc khác nhau, thái độ của bài viết là gì?",
+    "options": {
+      "A": {"pinyin": "Jué de mèi mei de xuǎn zé bú duì", "vi": "Cho rằng lựa chọn của em gái là không đúng"},
+      "B": {"pinyin": "Jué de xǐ huān shén me yán sè shì hěn gè rén de shì qíng, kě yǐ bù tóng", "vi": "Cho rằng thích màu gì là chuyện rất cá nhân, có thể khác nhau"},
+      "C": {"pinyin": "Xī wàng mèi mei yě xǐ huān lán sè", "vi": "Hy vọng em gái cũng thích màu xanh dương"},
+      "D": {"pinyin": "Jué de liǎng gè rén yīng gāi xǐ huān yí yàng de yán sè", "vi": "Cho rằng hai người nên thích cùng một màu"}
+    }
+  },
+  {
+    "bai": "Bài 23",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě zhè cì zuò huǒ chē qù zuò shén me?",
+    "cau_hoi_vi": "Lần này tác giả đi tàu hỏa để làm gì?",
+    "options": {
+      "A": {"pinyin": "Qù běi jīng lǚ yóu", "vi": "Đi Bắc Kinh du lịch"},
+      "B": {"pinyin": "Qù běi jīng kàn yé ye nǎi nai", "vi": "Đi Bắc Kinh thăm ông bà"},
+      "C": {"pinyin": "Qù běi jīng shàng xué", "vi": "Đi Bắc Kinh học"},
+      "D": {"pinyin": "Qù běi jīng gōng zuò", "vi": "Đi Bắc Kinh làm việc"}
+    }
+  },
+  {
+    "bai": "Bài 23",
+    "so": 2,
+    "cau_hoi_pinyin": "Dì yī cì zì jǐ zuò huǒ chē, zuò zhě de xīn qíng shì zěn yàng de?",
+    "cau_hoi_vi": "Lần đầu tiên tự mình đi tàu hỏa, tâm trạng của tác giả như thế nào?",
+    "options": {
+      "A": {"pinyin": "Zhǐ yǒu gāo xìng, méi yǒu bié de gǎn jué", "vi": "Chỉ có vui, không có cảm giác nào khác"},
+      "B": {"pinyin": "Yòu gāo xìng yòu yǒu diǎnr jǐn zhāng", "vi": "Vừa vui vừa hơi lo lắng"},
+      "C": {"pinyin": "Hěn hài pà, bù xiǎng qù", "vi": "Rất sợ, không muốn đi"},
+      "D": {"pinyin": "Jué de hěn wú liáo", "vi": "Cảm thấy rất buồn chán"}
+    }
+  },
+  {
+    "bai": "Bài 23",
+    "so": 3,
+    "cau_hoi_pinyin": "Dào le běi jīng chē zhàn, fā shēng le shén me shì?",
+    "cau_hoi_vi": "Đến ga Bắc Kinh, đã xảy ra chuyện gì?",
+    "options": {
+      "A": {"pinyin": "Méi yǒu rén lái jiē zuò zhě", "vi": "Không có ai đến đón tác giả"},
+      "B": {"pinyin": "Yé ye nǎi nai yǐ jīng zài děng tā le", "vi": "Ông bà đã đợi anh ấy ở đó rồi"},
+      "C": {"pinyin": "Zuò zhě mí lù le", "vi": "Tác giả bị lạc đường"},
+      "D": {"pinyin": "Huǒ chē wǎn diǎn le", "vi": "Tàu hỏa bị trễ giờ"}
+    }
+  },
+  {
+    "bai": "Bài 24",
+    "so": 1,
+    "cau_hoi_pinyin": "Zhāng nǎi nai wèi shén me yí gè rén zhù?",
+    "cau_hoi_vi": "Vì sao bà Trương sống một mình?",
+    "options": {
+      "A": {"pinyin": "Yīn wèi tā de hái zi zài bié de chéng shì gōng zuò", "vi": "Vì con của bà ấy làm việc ở thành phố khác"},
+      "B": {"pinyin": "Yīn wèi tā bù xǐ huān gēn jiā rén zhù", "vi": "Vì bà ấy không thích sống cùng người nhà"},
+      "C": {"pinyin": "Yīn wèi tā de hái zi bú yào tā le", "vi": "Vì con của bà ấy không cần bà nữa"},
+      "D": {"pinyin": "Wén zhāng méi yǒu shuō míng yuán yīn", "vi": "Bài viết không nói rõ lý do"}
+    }
+  },
+  {
+    "bai": "Bài 24",
+    "so": 2,
+    "cau_hoi_pinyin": "Zhāng nǎi nai de yáng tái shàng yǒu shén me?",
+    "cau_hoi_vi": "Trên ban công của bà Trương có gì?",
+    "options": {
+      "A": {"pinyin": "Hěn duō shū", "vi": "Rất nhiều sách"},
+      "B": {"pinyin": "Hěn duō zhǒng yán sè de huā", "vi": "Rất nhiều loại hoa nhiều màu sắc"},
+      "C": {"pinyin": "Hěn duō zhāng zhào piàn", "vi": "Rất nhiều tấm ảnh"},
+      "D": {"pinyin": "Hěn duō xiǎo dòng wù", "vi": "Rất nhiều động vật nhỏ"}
+    }
+  },
+  {
+    "bai": "Bài 24",
+    "so": 3,
+    "cau_hoi_pinyin": "Zuò zhě hé zhāng nǎi nai de guān xì zěn me yàng?",
+    "cau_hoi_vi": "Quan hệ giữa tác giả và bà Trương như thế nào?",
+    "options": {
+      "A": {"pinyin": "Hù xiāng bú rèn shi", "vi": "Không quen biết nhau"},
+      "B": {"pinyin": "Guān xì hěn hǎo, xiàng jiā rén yí yàng hù xiāng guān xīn", "vi": "Quan hệ rất tốt, quan tâm lẫn nhau như người nhà"},
+      "C": {"pinyin": "Zhāng nǎi nai bù xǐ huān zuò zhě", "vi": "Bà Trương không thích tác giả"},
+      "D": {"pinyin": "Zhǐ shì pǔ tōng de lín jū, hěn shǎo lái wǎng", "vi": "Chỉ là hàng xóm bình thường, ít qua lại"}
+    }
+  },
+  {
+    "bai": "Bài 25",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě cóng shén me shí hòu kāi shǐ dǎ lán qiú?",
+    "cau_hoi_vi": "Tác giả bắt đầu chơi bóng rổ từ khi nào?",
+    "options": {
+      "A": {"pinyin": "Cóng xiǎo xué kāi shǐ", "vi": "Từ tiểu học"},
+      "B": {"pinyin": "Cóng chū zhōng kāi shǐ", "vi": "Từ trung học cơ sở"},
+      "C": {"pinyin": "Cóng gāo zhōng kāi shǐ", "vi": "Từ trung học phổ thông"},
+      "D": {"pinyin": "Cóng dà xué kāi shǐ", "vi": "Từ đại học"}
+    }
+  },
+  {
+    "bai": "Bài 25",
+    "so": 2,
+    "cau_hoi_pinyin": "Dǎ lán qiú gěi zuò zhě dài lái le shén me hǎo chù?",
+    "cau_hoi_vi": "Chơi bóng rổ đã mang lại lợi ích gì cho tác giả?",
+    "options": {
+      "A": {"pinyin": "Zhǐ shì shēn tǐ biàn hǎo le", "vi": "Chỉ là sức khỏe tốt hơn"},
+      "B": {"pinyin": "Shēn tǐ gèng hǎo, hái rèn shi le hěn duō péng yǒu", "vi": "Sức khỏe tốt hơn, còn quen biết được nhiều bạn bè"},
+      "C": {"pinyin": "Ràng tā gèng cōng míng", "vi": "Khiến anh ấy thông minh hơn"},
+      "D": {"pinyin": "Ràng tā bù yòng shàng xué", "vi": "Khiến anh ấy không cần đi học"}
+    }
+  },
+  {
+    "bai": "Bài 25",
+    "so": 3,
+    "cau_hoi_pinyin": "Zhè piān wén zhāng zuì hòu xiǎng gào sù wǒ men shén me dào lǐ?",
+    "cau_hoi_vi": "Cuối bài viết này muốn nói với chúng ta đạo lý gì?",
+    "options": {
+      "A": {"pinyin": "Dǎ lán qiú bǐ xué xí gèng zhòng yào", "vi": "Chơi bóng rổ quan trọng hơn học tập"},
+      "B": {"pinyin": "Zhǐ yào jiān chí liàn xí, zuò shén me shì dōu huì yǒu jìn bù", "vi": "Chỉ cần kiên trì luyện tập, làm việc gì cũng sẽ có tiến bộ"},
+      "C": {"pinyin": "Bú shì měi gè rén dōu néng dǎ hǎo lán qiú", "vi": "Không phải ai cũng có thể chơi bóng rổ giỏi"},
+      "D": {"pinyin": "Yùn dòng yuán de shēng huó hěn xīn kǔ", "vi": "Cuộc sống của vận động viên rất vất vả"}
+    }
+  },
+  {
+    "bai": "Bài 26",
+    "so": 1,
+    "cau_hoi_pinyin": "Dì di jīn nián shàng jǐ nián jí?",
+    "cau_hoi_vi": "Năm nay em trai học lớp mấy?",
+    "options": {
+      "A": {"pinyin": "Xiǎo xué yì nián jí", "vi": "Lớp một tiểu học"},
+      "B": {"pinyin": "Xiǎo xué sān nián jí", "vi": "Lớp ba tiểu học"},
+      "C": {"pinyin": "Chū zhōng yì nián jí", "vi": "Lớp một trung học cơ sở"},
+      "D": {"pinyin": "Hái méi yǒu shàng xué", "vi": "Vẫn chưa đi học"}
+    }
+  },
+  {
+    "bai": "Bài 26",
+    "so": 2,
+    "cau_hoi_pinyin": "Dì di zuì xǐ huān zuò de shì qíng shì shén me?",
+    "cau_hoi_vi": "Việc mà em trai thích làm nhất là gì?",
+    "options": {
+      "A": {"pinyin": "Kàn diàn shì", "vi": "Xem tivi"},
+      "B": {"pinyin": "Tī zú qiú", "vi": "Đá bóng"},
+      "C": {"pinyin": "Huà huàr", "vi": "Vẽ tranh"},
+      "D": {"pinyin": "Tán gāng qín", "vi": "Chơi đàn piano"}
+    }
+  },
+  {
+    "bai": "Bài 26",
+    "so": 3,
+    "cau_hoi_pinyin": "Guān yú liǎng rén de guān xì, wén zhāng zhǔ yào xiǎng shuō míng shén me?",
+    "cau_hoi_vi": "Về mối quan hệ giữa hai người, bài viết chủ yếu muốn nói lên điều gì?",
+    "options": {
+      "A": {"pinyin": "Dì di tài má fán, zuò zhě bù xǐ huān tā", "vi": "Em trai quá phiền phức, tác giả không thích cậu ấy"},
+      "B": {"pinyin": "Suī rán dì di yǒu diǎnr má fán, dàn shì xiōng dì gǎn qíng hěn hǎo", "vi": "Tuy em trai hơi phiền một chút, nhưng tình cảm anh em rất tốt"},
+      "C": {"pinyin": "Liǎng gè rén cháng cháng chǎo jià", "vi": "Hai người thường xuyên cãi nhau"},
+      "D": {"pinyin": "Zuò zhě bù xǐ huān péi dì di wán", "vi": "Tác giả không thích chơi cùng em trai"}
+    }
+  },
+  {
+    "bai": "Bài 27",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě jiā fù jìn de yóu yǒng guǎn, zěn me qù bǐ jiào fāng biàn?",
+    "cau_hoi_vi": "Bể bơi gần nhà tác giả, đi bằng cách nào thì tiện hơn?",
+    "options": {
+      "A": {"pinyin": "Zǒu lù qù, wǔ fēn zhōng jiù dào", "vi": "Đi bộ, năm phút là tới"},
+      "B": {"pinyin": "Zuò gōng jiāo chē, shí fēn zhōng jiù dào", "vi": "Đi xe buýt, mười phút là tới"},
+      "C": {"pinyin": "Qí zì xíng chē, bàn gè xiǎo shí", "vi": "Đi xe đạp, mất nửa tiếng"},
+      "D": {"pinyin": "Yào zuò chū zū chē cái néng dào", "vi": "Phải đi taxi mới đến được"}
+    }
+  },
+  {
+    "bai": "Bài 27",
+    "so": 2,
+    "cau_hoi_pinyin": "Guān yú zuò zhě yóu yǒng de shuǐ píng, wén zhāng shuō le shén me?",
+    "cau_hoi_vi": "Về trình độ bơi lội của tác giả, bài viết đã nói gì?",
+    "options": {
+      "A": {"pinyin": "Yóu de zuì kuài, shì bān lǐ dì yī míng", "vi": "Bơi nhanh nhất, đứng nhất lớp"},
+      "B": {"pinyin": "Bú shì yóu de zuì kuài, dàn shì néng yóu hěn jiǔ", "vi": "Không phải bơi nhanh nhất, nhưng có thể bơi rất lâu"},
+      "C": {"pinyin": "Gāng kāi shǐ xué yóu yǒng, hái bú huì", "vi": "Mới bắt đầu học bơi, vẫn chưa biết bơi"},
+      "D": {"pinyin": "Hěn pà shuǐ, bù gǎn yóu yǒng", "vi": "Rất sợ nước, không dám bơi"}
+    }
+  },
+  {
+    "bai": "Bài 27",
+    "so": 3,
+    "cau_hoi_pinyin": "Yóu yǒng yǐ hòu, zuò zhě de gǎn jué shì shén me?",
+    "cau_hoi_vi": "Sau khi bơi xong, cảm giác của tác giả là gì?",
+    "options": {
+      "A": {"pinyin": "Shēn tǐ hěn lèi, xiǎng mǎ shàng shuì jiào", "vi": "Cơ thể rất mệt, muốn đi ngủ ngay"},
+      "B": {"pinyin": "Shēn tǐ qīng sōng, xīn qíng yě hěn hǎo", "vi": "Cơ thể nhẹ nhõm, tâm trạng cũng rất tốt"},
+      "C": {"pinyin": "Jué de shuǐ tài liáng, bù shū fú", "vi": "Cảm thấy nước quá lạnh, khó chịu"},
+      "D": {"pinyin": "Jué de yóu yǒng hěn má fán, bù xiǎng zài qù", "vi": "Cảm thấy bơi lội rất phiền phức, không muốn đi nữa"}
+    }
+  },
+  {
+    "bai": "Bài 28",
+    "so": 1,
+    "cau_hoi_pinyin": "Zhè liàng zì xíng chē shì shén me shí hòu, shuí sòng gěi zuò zhě de?",
+    "cau_hoi_vi": "Chiếc xe đạp này là do ai tặng cho tác giả và vào lúc nào?",
+    "options": {
+      "A": {"pinyin": "Shí suì shēng rì, mā ma sòng de", "vi": "Sinh nhật mười tuổi, mẹ tặng"},
+      "B": {"pinyin": "Shí èr suì shēng rì, bà ba sòng de", "vi": "Sinh nhật mười hai tuổi, bố tặng"},
+      "C": {"pinyin": "Shí èr suì shēng rì, mā ma sòng de", "vi": "Sinh nhật mười hai tuổi, mẹ tặng"},
+      "D": {"pinyin": "Shí suì shēng rì, bà ba sòng de", "vi": "Sinh nhật mười tuổi, bố tặng"}
+    }
+  },
+  {
+    "bai": "Bài 28",
+    "so": 2,
+    "cau_hoi_pinyin": "Qí zì xíng chē de shí hòu, zuò zhě de gǎn jué shì shén me?",
+    "cau_hoi_vi": "Khi đạp xe đạp, cảm giác của tác giả là gì?",
+    "options": {
+      "A": {"pinyin": "Hěn lèi, hěn má fán", "vi": "Rất mệt, rất phiền phức"},
+      "B": {"pinyin": "Hěn zì yóu, hěn kāi xīn", "vi": "Rất tự do, rất vui vẻ"},
+      "C": {"pinyin": "Hěn hài pà, bù gǎn qí kuài", "vi": "Rất sợ, không dám đạp nhanh"},
+      "D": {"pinyin": "Jué de hěn wú liáo", "vi": "Cảm thấy rất buồn chán"}
+    }
+  },
+  {
+    "bai": "Bài 28",
+    "so": 3,
+    "cau_hoi_pinyin": "Zì xíng chē huài le de shí hòu, zuò zhě de xīn qíng zěn me yàng?",
+    "cau_hoi_vi": "Khi xe đạp bị hỏng, tâm trạng của tác giả như thế nào?",
+    "options": {
+      "A": {"pinyin": "Méi shén me gǎn jué, wú suǒ wèi", "vi": "Không có cảm giác gì, thấy bình thường"},
+      "B": {"pinyin": "Hěn nán guò, hǎo xiàng shī qù le péng yǒu", "vi": "Rất buồn, giống như mất đi một người bạn"},
+      "C": {"pinyin": "Hěn shēng qì, xiǎng mǎi yí liàng xīn de", "vi": "Rất tức giận, muốn mua một chiếc mới"},
+      "D": {"pinyin": "Hěn gāo xìng, kě yǐ huàn xīn chē le", "vi": "Rất vui, có thể đổi xe mới rồi"}
+    }
+  },
+  {
+    "bai": "Bài 29",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě wèi shén me gǎn mào le?",
+    "cau_hoi_vi": "Vì sao tác giả bị cảm?",
+    "options": {
+      "A": {"pinyin": "Yīn wèi tā shēng huó xí guàn bù hǎo", "vi": "Vì thói quen sinh hoạt của anh ấy không tốt"},
+      "B": {"pinyin": "Yīn wèi tiān qì tū rán biàn lěng, tā méi duō chuān yī fu", "vi": "Vì thời tiết đột nhiên trở lạnh, anh ấy không mặc thêm áo"},
+      "C": {"pinyin": "Yīn wèi tā chī le bù xīn xiān de shí wù", "vi": "Vì anh ấy đã ăn đồ ăn không tươi"},
+      "D": {"pinyin": "Yīn wèi tā hěn jiǔ méi yǒu yùn dòng le", "vi": "Vì đã lâu anh ấy không vận động"}
+    }
+  },
+  {
+    "bai": "Bài 29",
+    "so": 2,
+    "cau_hoi_pinyin": "Mā ma zhī dào zuò zhě shēng bìng yǐ hòu, zuò le shén me?",
+    "cau_hoi_vi": "Sau khi biết tác giả bị bệnh, mẹ đã làm gì?",
+    "options": {
+      "A": {"pinyin": "Dài tā qù gōng yuán sàn bù", "vi": "Đưa anh ấy đi dạo công viên"},
+      "B": {"pinyin": "Zuò rè tāng, qǐng jià zài jiā zhào gù tā", "vi": "Nấu canh nóng, xin nghỉ phép ở nhà chăm sóc anh ấy"},
+      "C": {"pinyin": "Ràng tā zì jǐ zài jiā xiū xī", "vi": "Để anh ấy tự nghỉ ngơi ở nhà một mình"},
+      "D": {"pinyin": "Gěi tā mǎi le hěn duō yào, zì jǐ qù shàng bān", "vi": "Mua cho anh ấy nhiều thuốc rồi tự mình đi làm"}
+    }
+  },
+  {
+    "bai": "Bài 29",
+    "so": 3,
+    "cau_hoi_pinyin": "Zhè jiàn shì ràng zuò zhě míng bái le shén me dào lǐ?",
+    "cau_hoi_vi": "Việc này đã giúp tác giả hiểu ra đạo lý gì?",
+    "options": {
+      "A": {"pinyin": "Shēng bìng le yào duō shuì jiào", "vi": "Bị bệnh thì phải ngủ nhiều"},
+      "B": {"pinyin": "Jiàn kāng shì zuì zhòng yào de, yào zhù yì bǎo nuǎn", "vi": "Sức khỏe là quan trọng nhất, phải chú ý giữ ấm"},
+      "C": {"pinyin": "Gǎn mào le yào mǎ shàng qù yī yuàn", "vi": "Bị cảm thì phải đi bệnh viện ngay"},
+      "D": {"pinyin": "Mā ma de tāng hěn hǎo hē", "vi": "Canh của mẹ rất ngon"}
+    }
+  },
+  {
+    "bai": "Bài 30",
+    "so": 1,
+    "cau_hoi_pinyin": "Zuò zhě xiǎng dāng yī shēng de xiǎng fǎ, shì cóng shén me shí hòu kāi shǐ de?",
+    "cau_hoi_vi": "Ý định muốn làm bác sĩ của tác giả bắt đầu từ khi nào?",
+    "options": {
+      "A": {"pinyin": "Kàn le yí bù guān yú yī shēng de diàn yǐng yǐ hòu", "vi": "Sau khi xem một bộ phim về bác sĩ"},
+      "B": {"pinyin": "Xiǎo shí hòu zhù yuàn de jīng lì", "vi": "Trải nghiệm nằm viện hồi nhỏ"},
+      "C": {"pinyin": "Zhǎng dà yǐ hòu zì jǐ jué dìng de", "vi": "Là tự anh ấy quyết định sau khi trưởng thành"},
+      "D": {"pinyin": "Yīn wèi bà ba mā ma shì yī shēng", "vi": "Vì bố mẹ là bác sĩ"}
+    }
+  },
+  {
+    "bai": "Bài 30",
+    "so": 2,
+    "cau_hoi_pinyin": "Zuò zhě wèi shén me xiǎng chéng wéi yī shēng?",
+    "cau_hoi_vi": "Vì sao tác giả muốn trở thành bác sĩ?",
+    "options": {
+      "A": {"pinyin": "Yīn wèi yī shēng de gōng zī hěn gāo", "vi": "Vì lương của bác sĩ rất cao"},
+      "B": {"pinyin": "Yīn wèi yī shēng kě yǐ bāng zhù hěn duō rén", "vi": "Vì bác sĩ có thể giúp đỡ được nhiều người"},
+      "C": {"pinyin": "Yīn wèi mā ma ràng tā dāng yī shēng", "vi": "Vì mẹ bảo anh ấy làm bác sĩ"},
+      "D": {"pinyin": "Yīn wèi dāng yī shēng hěn qīng sōng", "vi": "Vì làm bác sĩ rất nhàn nhã"}
+    }
+  },
+  {
+    "bai": "Bài 30",
+    "so": 3,
+    "cau_hoi_pinyin": "Wèi le shí xiàn mèng xiǎng, zuò zhě xiàn zài zuò le shén me?",
+    "cau_hoi_vi": "Để thực hiện ước mơ, hiện tại tác giả đã làm gì?",
+    "options": {
+      "A": {"pinyin": "Měi tiān dōu qù yī yuàn kàn yī shēng", "vi": "Mỗi ngày đều đến bệnh viện gặp bác sĩ"},
+      "B": {"pinyin": "Rèn zhēn xué xí, tè bié shì shù xué hé kē xué", "vi": "Học tập chăm chỉ, đặc biệt là môn toán và khoa học"},
+      "C": {"pinyin": "Shén me dōu bú yòng zuò, děng zhe zhǎng dà", "vi": "Không cần làm gì cả, chỉ chờ lớn lên"},
+      "D": {"pinyin": "Měi tiān dōu qù yùn dòng, duàn liàn shēn tǐ", "vi": "Mỗi ngày đều đi vận động, rèn luyện thân thể"}
+    }
+  }
+]

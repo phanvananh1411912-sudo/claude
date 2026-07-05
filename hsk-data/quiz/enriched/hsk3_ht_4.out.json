@@ -1,0 +1,422 @@
+[
+ {
+  "bai": "HSK3-Hội thoại 33",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng rènwéi, chéngshú de wèidào xūyào shénme?",
+  "cau_hoi_vi": "德盛 cho rằng hương vị chín muồi cần điều gì?",
+  "options": {
+   "A": {"pinyin": "Lìkè jiù néng zuò chūlái.", "vi": "Có thể làm ra ngay lập tức"},
+   "B": {"pinyin": "Xūyào jīngguò mànmàn tiáozhěng de guòchéng, jí bù lái.", "vi": "Cần trải qua quá trình điều chỉnh từ từ, không thể vội được"},
+   "C": {"pinyin": "Bù xūyào rènhé nàixīn.", "vi": "Không cần bất kỳ sự kiên nhẫn nào"},
+   "D": {"pinyin": "Gēn shíjiān méiyǒu guānxi.", "vi": "Không liên quan gì đến thời gian"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 33",
+  "so": 5,
+  "cau_hoi_pinyin": "Yúnyīng duì Déshèng zuìhòu nà jù huà yǒu shénme fǎnyìng?",
+  "cau_hoi_vi": "云英 có phản ứng gì với câu nói cuối cùng đó của 德盛?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu fǎnyìng.", "vi": "Hoàn toàn không có phản ứng gì"},
+   "B": {"pinyin": "Juéde zhè jù huà, yòng zài chī de shàngmiàn, yě kěyǐ yòng zài biéde dìfang.", "vi": "Cảm thấy câu này, dùng cho chuyện ăn uống, cũng có thể dùng ở những chỗ khác"},
+   "C": {"pinyin": "Juéde wánquán bù hélǐ.", "vi": "Cảm thấy hoàn toàn vô lý"},
+   "D": {"pinyin": "Lìkè fǎnbó le tā.", "vi": "Lập tức phản bác lại anh ấy"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 34",
+  "so": 1,
+  "cau_hoi_pinyin": "Luóbogāo de kǒugǎn shì zěnyàng de?",
+  "cau_hoi_vi": "Kết cấu (độ giòn mềm) của bánh củ cải là như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán shì ruǎn de.", "vi": "Hoàn toàn mềm"},
+   "B": {"pinyin": "Wàimiàn jiān de jīnhuáng, yǎo yì kǒu wài cuì lǐ ruǎn.", "vi": "Bên ngoài chiên vàng ươm, cắn một miếng ngoài giòn trong mềm"},
+   "C": {"pinyin": "Wánquán shì yìng de.", "vi": "Hoàn toàn cứng"},
+   "D": {"pinyin": "Méiyǒu rènhé tèbié de kǒugǎn.", "vi": "Không có kết cấu gì đặc biệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 34",
+  "so": 2,
+  "cau_hoi_pinyin": "Déshèng dì-yī cì wéndào chòudòufu de wèidào shí, fǎnyìng shì zěnyàng de?",
+  "cau_hoi_vi": "Khi 德盛 lần đầu ngửi thấy mùi đậu phụ thối, phản ứng của anh ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "Lìkè jiù hěn xǐhuan.", "vi": "Lập tức rất thích"},
+   "B": {"pinyin": "Yóuyù le yíxià, chàdiǎnr méi gǎn chī.", "vi": "Do dự một chút, suýt nữa không dám ăn"},
+   "C": {"pinyin": "Wánquán méiyǒu rènhé fǎnyìng.", "vi": "Hoàn toàn không có phản ứng gì"},
+   "D": {"pinyin": "Mǎshàng jiù chī le hěn duō.", "vi": "Lập tức ăn rất nhiều"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 34",
+  "so": 3,
+  "cau_hoi_pinyin": "Chīle chòudòufu yǐhòu, Déshèng fāxiàn le shénme?",
+  "cau_hoi_vi": "Sau khi ăn đậu phụ thối, 德盛 đã phát hiện ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Wèidào gēn xiǎngxiàng de yíyàng chà.", "vi": "Mùi vị tệ giống như tưởng tượng"},
+   "B": {"pinyin": "Wèidào gēn xiǎngxiàng de wánquán bù yíyàng, tèbié xiāng, hái xiǎng zài chī.", "vi": "Mùi vị hoàn toàn khác với tưởng tượng, đặc biệt thơm, còn muốn ăn thêm"},
+   "C": {"pinyin": "Wánquán méiyǒu wèidào.", "vi": "Hoàn toàn không có mùi vị"},
+   "D": {"pinyin": "Wèidào bǐ xiǎngxiàng de gèng chà.", "vi": "Mùi vị còn tệ hơn tưởng tượng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 34",
+  "so": 4,
+  "cau_hoi_pinyin": "Yúnyīng miáoshù méiguībǐng de xiāngwèi shì zěnyàng de?",
+  "cau_hoi_vi": "云英 miêu tả hương thơm của bánh hoa hồng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Hěn nóng, hěn kuài jiù sàn le.", "vi": "Rất đậm, nhưng tan rất nhanh"},
+   "B": {"pinyin": "Hěn dàn, dàn chīwán yǐhòu huì yìzhí liú zài zuǐ lǐ hé xīn lǐ, hěn jiǔ dōu sàn bú diào.", "vi": "Rất nhạt, nhưng ăn xong sẽ lưu mãi trong miệng và trong lòng, rất lâu vẫn không tan hết"},
+   "C": {"pinyin": "Wánquán méiyǒu wèidào.", "vi": "Hoàn toàn không có mùi vị"},
+   "D": {"pinyin": "Gēn biéde diǎnxīn wèidào yíyàng.", "vi": "Giống mùi vị của các món điểm tâm khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 34",
+  "so": 5,
+  "cau_hoi_pinyin": "Déshèng tīngwán Yúnyīng shuō de huà, shì shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi nghe xong lời 云英 nói, 德盛 có phản ứng gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu rènhé gǎnjué.", "vi": "Hoàn toàn không có cảm giác gì"},
+   "B": {"pinyin": "Lèng le yíxià, juéde zhè jù huà bú tài xiàng zài shuō bǐng, xīwàng zhè zhǒng yúxiāng néng yìzhí liúzhe.", "vi": "Sững người một chút, cảm thấy câu này không giống như đang nói về bánh, mong hương vị vương lại có thể lưu giữ mãi"},
+   "C": {"pinyin": "Juéde Yúnyīng shuō cuò le.", "vi": "Cảm thấy 云英 nói sai rồi"},
+   "D": {"pinyin": "Lìkè zhuǎnyí le huàtí.", "vi": "Lập tức chuyển sang chủ đề khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 35",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng shuōqǐ zuò zhēnzhū shí, tā qiángdiào de shì nǎ yì diǎn?",
+  "cau_hoi_vi": "Khi 德盛 nói về việc làm trân châu, anh ấy nhấn mạnh điều gì?",
+  "options": {
+   "A": {"pinyin": "huǒhou", "vi": "độ lửa, mức lửa"},
+   "B": {"pinyin": "jiǎngjiu", "vi": "kỹ càng, cẩn trọng"},
+   "C": {"pinyin": "suíbiàn", "vi": "tùy tiện, qua loa"},
+   "D": {"pinyin": "hǎochī", "vi": "ngon miệng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 35",
+  "so": 2,
+  "cau_hoi_pinyin": "Yúnyīng rènwéi fènglísū zuì lìhai de dìfang shì shénme?",
+  "cau_hoi_vi": "云英 cho rằng điểm lợi hại nhất của bánh dứa là gì?",
+  "options": {
+   "A": {"pinyin": "cuìruò", "vi": "mong manh, dễ vỡ"},
+   "B": {"pinyin": "biǎolǐ bùyī", "vi": "ngoài và trong không giống nhau"},
+   "C": {"pinyin": "yì yǎo jiù suì", "vi": "cắn một cái là vỡ"},
+   "D": {"pinyin": "wánquán méi wèidào", "vi": "hoàn toàn không có vị"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 35",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng yì kāishǐ shuō \"jīntiān zuì xiǎng shuō de, gēn fènglísū méi shénme guānxi\" shí, yǔqì shì zěnyàng de?",
+  "cau_hoi_vi": "Khi 云英 lúc đầu nói \"điều tôi muốn nói nhất hôm nay chẳng liên quan gì đến bánh dứa\", giọng điệu của cô ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "shēngqì", "vi": "tức giận"},
+   "B": {"pinyin": "gùyì mài guānzi", "vi": "cố tình úp mở, giữ bí mật"},
+   "C": {"pinyin": "wúliáo", "vi": "nhàm chán"},
+   "D": {"pinyin": "tànqì", "vi": "thở dài"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 35",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng wèn \"nǐ shì shuō... zhǔbō Wáng Déshèng?\" shí, tā de mùdì shì shénme?",
+  "cau_hoi_vi": "Khi 德盛 hỏi \"Ý em nói... MC 王德盛?\", mục đích của anh ấy là gì?",
+  "options": {
+   "A": {"pinyin": "zhuāng shǎ", "vi": "giả ngu, giả bộ không biết"},
+   "B": {"pinyin": "míngzhīdào què gùyì zhuāng bù dǒng", "vi": "biết rõ nhưng cố tình giả ngơ"},
+   "C": {"pinyin": "zhēnde bù zhīdào", "vi": "thực sự không biết"},
+   "D": {"pinyin": "shēngqì de fǎnwèn", "vi": "hỏi lại trong tức giận"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 35",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhěng duàn duìhuà de jiéwěi, Yúnyīng hé Déshèng de guānxi fāshēng le shénme biànhuà?",
+  "cau_hoi_vi": "Ở đoạn kết của toàn bộ cuộc hội thoại, mối quan hệ giữa 云英 và 德盛 đã có thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "biǎobái", "vi": "tỏ tình"},
+   "B": {"pinyin": "cóng àimèi biànchéng gōngkāi biǎobái", "vi": "từ mập mờ chuyển thành tỏ tình công khai"},
+   "C": {"pinyin": "guānxi biàn de shūyuǎn", "vi": "quan hệ trở nên xa cách"},
+   "D": {"pinyin": "liǎng rén chǎojià le", "vi": "hai người cãi nhau"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 36",
+  "so": 1,
+  "cau_hoi_pinyin": "Yúnyīng shuō jīdànzǎi \"měi yì kē dōu jǐnjǐn lián zài yìqǐ\", zhè jù huà zhǔyào xiǎng biǎodá shénme?",
+  "cau_hoi_vi": "云英 nói món trứng gà nướng (鸡蛋仔) \"mỗi viên đều dính chặt với nhau\", câu này chủ yếu muốn diễn đạt điều gì?",
+  "options": {
+   "A": {"pinyin": "jǐnjǐn lián zài yìqǐ", "vi": "dính chặt với nhau"},
+   "B": {"pinyin": "qiángdiào bǐcǐ fēn bù kāi", "vi": "nhấn mạnh chúng không thể tách rời nhau"},
+   "C": {"pinyin": "wèidào hěn qíguài", "vi": "vị lạ"},
+   "D": {"pinyin": "zuòfǎ hěn jiǎndān", "vi": "cách làm đơn giản"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 36",
+  "so": 2,
+  "cau_hoi_pinyin": "Guānyú sīwà nǎichá de wèidào biànhuà, Déshèng de miáoshù shuōmíng le shénme dàolǐ?",
+  "cau_hoi_vi": "Về sự thay đổi hương vị của trà sữa bít tất (丝袜奶茶), lời miêu tả của 德盛 nói lên đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "sè", "vi": "chát"},
+   "B": {"pinyin": "yì kāishǐ bù hǎo de yìnxiàng, hòulái huì gǎibiàn", "vi": "ấn tượng ban đầu không tốt, sau đó có thể thay đổi"},
+   "C": {"pinyin": "wèidào yìzhí hěn chà", "vi": "vị luôn tệ"},
+   "D": {"pinyin": "wánquán méiyǒu biànhuà", "vi": "hoàn toàn không thay đổi"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 36",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"wǒ fāxiàn, zuìjìn lù jiémù de shíhou, wǒ hǎoxiàng yǒudiǎn, róngyì yīnwèi nǐ fēnxīn\", zhè jù huà fǎnyìng le tā zěnyàng de xīnqíng?",
+  "cau_hoi_vi": "云英 nói \"Em phát hiện ra, gần đây khi ghi hình chương trình, em cảm thấy hình như có chút, dễ mất tập trung vì anh\", câu này phản ánh tâm trạng như thế nào của cô ấy?",
+  "options": {
+   "A": {"pinyin": "fēnxīn", "vi": "mất tập trung"},
+   "B": {"pinyin": "bú zìjué de zàiyì duìfāng", "vi": "vô thức để tâm đến đối phương"},
+   "C": {"pinyin": "duì gōngzuò bù mǎnyì", "vi": "không hài lòng công việc"},
+   "D": {"pinyin": "xiǎng huàn dādàng", "vi": "muốn đổi người dẫn"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 36",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng shuō \"zhè shì wǒ de cuò ma\" shí, tā de yǔqì shì zěnyàng de?",
+  "cau_hoi_vi": "Khi 德盛 nói \"Đây là lỗi của anh sao?\", giọng điệu của anh ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "wǒ de cuò", "vi": "lỗi của tôi"},
+   "B": {"pinyin": "bàn kāiwánxiào de hǎnyuān", "vi": "nửa đùa nửa kêu oan"},
+   "C": {"pinyin": "zhēnde hěn kuìjiù", "vi": "thực sự rất hối lỗi"},
+   "D": {"pinyin": "wánquán bú zàihu", "vi": "hoàn toàn không quan tâm"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 36",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè duàn duìhuà zuìhòu, liǎng rén de guānxi kěyǐ yòng shénme cí gàikuò?",
+  "cau_hoi_vi": "Ở cuối đoạn hội thoại này, mối quan hệ giữa hai người có thể được khái quát bằng từ gì?",
+  "options": {
+   "A": {"pinyin": "mìmì", "vi": "bí mật"},
+   "B": {"pinyin": "hùxiāng tǎnbái xīnyì", "vi": "cùng nhau thổ lộ tình cảm"},
+   "C": {"pinyin": "hùxiāng wùhuì", "vi": "hiểu lầm nhau"},
+   "D": {"pinyin": "jiǎzhuāng bú rènshi", "vi": "giả bộ không biết nhau"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 37",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng shuō tǔlóu de hòu qiáng \"hǎoxiàng zài shuō bùguǎn wàimiàn duō dà de fēngyǔ, lǐmiàn de rén dōu néng ānxīn\", zhè jù huà zuì néng tǐxiàn tǔlóu de shénme tèdiǎn?",
+  "cau_hoi_vi": "德盛 nói bức tường dày của thổ lâu (土楼) \"như đang nói dù bên ngoài mưa gió lớn cỡ nào, người ở bên trong đều có thể an tâm\", câu này thể hiện rõ nhất đặc điểm gì của thổ lâu?",
+  "options": {
+   "A": {"pinyin": "fēngyǔ", "vi": "mưa gió"},
+   "B": {"pinyin": "néng gěi rén ānquángǎn", "vi": "có thể mang lại cảm giác an toàn"},
+   "C": {"pinyin": "wàibiǎo hěn piàoliang", "vi": "vẻ ngoài đẹp"},
+   "D": {"pinyin": "zhù de rén hěn shǎo", "vi": "người ở rất ít"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 37",
+  "so": 2,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"zhēnzhèng ràng rén fàngxīn de dōngxi, wǎngwǎng dōu shì kànzhe pǔsù, qíshí tèbié láokào\", zhè jù huà de zhòngdiǎn shì shénme?",
+  "cau_hoi_vi": "云英 nói \"những thứ thực sự khiến người ta yên tâm, thường trông có vẻ mộc mạc, nhưng thực ra rất chắc chắn\", trọng tâm của câu này là gì?",
+  "options": {
+   "A": {"pinyin": "pǔsù", "vi": "mộc mạc"},
+   "B": {"pinyin": "bù néng zhǐ kàn wàibiǎo pànduàn", "vi": "không thể chỉ nhìn vẻ ngoài mà đánh giá"},
+   "C": {"pinyin": "wàibiǎo juédìng yíqiè", "vi": "vẻ ngoài quyết định tất cả"},
+   "D": {"pinyin": "láokào de dōngxi yídìng hěn guì", "vi": "đồ chắc chắn chắc chắn đắt"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 37",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng \"jǐnggào\" Déshèng bù néng duì biérén xiào de nàme tián, zhège xíngwéi fǎnyìng le tā zěnyàng de xīnlǐ?",
+  "cau_hoi_vi": "云英 \"cảnh cáo\" 德盛 không được cười ngọt ngào như vậy với người khác, hành vi này phản ánh tâm lý như thế nào của cô ấy?",
+  "options": {
+   "A": {"pinyin": "jǐnggào", "vi": "cảnh cáo"},
+   "B": {"pinyin": "yǐncáng bú zhù de chīcù xīnlǐ", "vi": "cảm giác ghen không giấu được"},
+   "C": {"pinyin": "wánquán bú zàiyì Déshèng", "vi": "hoàn toàn không quan tâm 德盛"},
+   "D": {"pinyin": "dānchún kāiwánxiào méiyǒu biéde yìsi", "vi": "chỉ đơn thuần đùa không có ý gì khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 37",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng huíyìng \"hǎo hǎo hǎo, zūnmìng, yǐhòu zhè fèn tián zhǐ gěi nǐ kàn\", zhè jù huà shuōmíng tā zěnyàng de tàidù?",
+  "cau_hoi_vi": "德盛 đáp lại \"được được được, tuân lệnh, sau này vị ngọt này chỉ để dành cho em xem thôi\", câu này cho thấy thái độ như thế nào của anh ấy?",
+  "options": {
+   "A": {"pinyin": "zūnmìng", "vi": "tuân lệnh"},
+   "B": {"pinyin": "shùn zhe tā de xīnyì chǒng zhe tā", "vi": "thuận theo ý cô, chiều cô"},
+   "C": {"pinyin": "juéde tā de yāoqiú hěn wúlǐ", "vi": "thấy yêu cầu của cô vô lý"},
+   "D": {"pinyin": "wánquán méi tīngdǒng tā de yìsi", "vi": "hoàn toàn không hiểu ý cô"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 37",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhěng duàn duìhuà jiéwěi de qìfēn kěyǐ zěnyàng gàikuò?",
+  "cau_hoi_vi": "Bầu không khí ở cuối đoạn hội thoại này có thể được khái quát như thế nào?",
+  "options": {
+   "A": {"pinyin": "tián", "vi": "ngọt"},
+   "B": {"pinyin": "sājiāo yòu tiánmì de lāche", "vi": "vừa nũng nịu vừa giằng co ngọt ngào"},
+   "C": {"pinyin": "yánsù de zhēngchǎo", "vi": "cãi vã nghiêm túc"},
+   "D": {"pinyin": "wánquán méiyǒu gǎnqíng sècǎi", "vi": "hoàn toàn không có sắc thái cảm xúc"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 38",
+  "so": 1,
+  "cau_hoi_pinyin": "Yúnyīng shuō yóucàihuā pèi shàng báiqiáng hēiwǎ \"ràng rén yí kàn xīnqíng jiù hǎo le\", zhè jù huà zhǔyào shuōmíng shénme?",
+  "cau_hoi_vi": "云英 nói hoa cải dầu kết hợp với tường trắng mái đen \"khiến người ta chỉ cần nhìn thấy là tâm trạng đã tốt lên rồi\", câu này chủ yếu nói lên điều gì?",
+  "options": {
+   "A": {"pinyin": "báiqiáng hēiwǎ", "vi": "tường trắng mái đen"},
+   "B": {"pinyin": "yánsè néng dàilái hǎo xīnqíng", "vi": "màu sắc có thể mang lại tâm trạng tốt"},
+   "C": {"pinyin": "yóucàihuā hěn nán zhòng", "vi": "hoa cải dầu khó trồng"},
+   "D": {"pinyin": "Wùyuán méiyǒu lǎo fángzi", "vi": "Vụ Nguyên không có nhà cổ"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 38",
+  "so": 2,
+  "cau_hoi_pinyin": "Déshèng shuō kǎo bāozi \"wàipí kànzhe tǐng yìng de, qíshí lǐmiàn yòu ruǎn yòu tàng\", zhè jù huà qiángdiào de shì shénme?",
+  "cau_hoi_vi": "德盛 nói bánh bao nướng \"lớp vỏ nhìn có vẻ khá cứng, nhưng thực ra bên trong vừa mềm vừa nóng\", câu này nhấn mạnh điều gì?",
+  "options": {
+   "A": {"pinyin": "yìng", "vi": "cứng"},
+   "B": {"pinyin": "wàibiǎo hé nèizài bù yíyàng", "vi": "vẻ ngoài và bên trong không giống nhau"},
+   "C": {"pinyin": "bāozi wánquán méiyǒu xiàn", "vi": "bánh bao hoàn toàn không có nhân"},
+   "D": {"pinyin": "wèidào hěn nánchī", "vi": "vị rất khó ăn"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 38",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"Déshèng, nǐ zhīdào ma, wǒ gāngcái kuā nǐ, nǐ jūrán hái zhuīwèn, yìdiǎn dōu bù shíqù\", tā de yǔqì shì zěnyàng de?",
+  "cau_hoi_vi": "云英 nói \"德盛, anh biết không, em vừa mới khen anh, anh lại còn hỏi vặn lại, chẳng biết điều gì cả\", giọng điệu của cô ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "shíqù", "vi": "biết điều"},
+   "B": {"pinyin": "jiǎzhuāng shēngqì shíjì shì sājiāo", "vi": "giả vờ giận, thực chất là nũng nịu"},
+   "C": {"pinyin": "zhēnde fēicháng fènnù", "vi": "thực sự rất tức giận"},
+   "D": {"pinyin": "wánquán bú zàihu Déshèng de fǎnyìng", "vi": "hoàn toàn không quan tâm phản ứng 德盛"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 38",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng còujìn ānwèi Yúnyīng bìng shuō tā shì \"xīnlǐ zuì liàng de yánsè\", zhège xíngwéi de mùdì shì shénme?",
+  "cau_hoi_vi": "德盛 xích lại gần an ủi 云英 và nói cô ấy là \"màu sắc rực rỡ nhất trong lòng anh\", mục đích của hành động này là gì?",
+  "options": {
+   "A": {"pinyin": "tǎohǎo", "vi": "lấy lòng"},
+   "B": {"pinyin": "hǒng tā kāixīn zhǔdòng rèncuò", "vi": "dỗ cho cô vui, chủ động nhận lỗi"},
+   "C": {"pinyin": "xiǎng yíngdé zhēngchǎo", "vi": "muốn thắng cuộc tranh luận"},
+   "D": {"pinyin": "xiǎng huàn ge huàtí", "vi": "muốn đổi chủ đề"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 38",
+  "so": 5,
+  "cau_hoi_pinyin": "Yúnyīng zuìhòu shuō \"suàn nǐ huì shuōhuà, miǎnqiǎng yuánliàng nǐ\", zhè fǎnyìng le tā zěnyàng de xīnlǐ?",
+  "cau_hoi_vi": "云英 cuối cùng nói \"coi như anh biết nói chuyện, miễn cưỡng tha thứ cho anh\", điều này phản ánh tâm lý như thế nào của cô ấy?",
+  "options": {
+   "A": {"pinyin": "yuánliàng", "vi": "tha thứ"},
+   "B": {"pinyin": "zuǐshàng shuō bú yào xīnlǐ què tǐng gāoxìng", "vi": "miệng nói không cần nhưng trong lòng lại vui"},
+   "C": {"pinyin": "wánquán méiyǒu yuánliàng tā", "vi": "hoàn toàn không tha thứ cho anh"},
+   "D": {"pinyin": "juéde Déshèng hěn fán", "vi": "cảm thấy 德盛 rất phiền"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 39",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng shuō pùbù de shuǐ \"yìzhí bù tíng, hǎoxiàng shénme dōu lán bú zhù tā\", zhè jù huà zhǔyào xíngróng pùbù de shénme tèdiǎn?",
+  "cau_hoi_vi": "德盛 nói nước thác \"chảy mãi không ngừng, dường như không gì có thể ngăn được nó\", câu này chủ yếu miêu tả đặc điểm gì của thác nước?",
+  "options": {
+   "A": {"pinyin": "lán bú zhù", "vi": "không ngăn được"},
+   "B": {"pinyin": "lìliàng qiángdà wúfǎ zǔdǎng", "vi": "sức mạnh to lớn, không thể ngăn cản"},
+   "C": {"pinyin": "shuǐ hěn qiǎn hěn ānjìng", "vi": "nước rất cạn rất yên tĩnh"},
+   "D": {"pinyin": "zhǐ zài tèdìng jìjié cái yǒu", "vi": "chỉ có vào mùa cố định"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 39",
+  "so": 2,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"zhēnzhèng dǎdòng rén de lìliàng, wǎngwǎng bú shì ānjìng de, ér shì zhè zhǒng yìzhí wǎng qián de jiānchí\", zhè jù huà xiǎng biǎodá shénme dàolǐ?",
+  "cau_hoi_vi": "云英 nói \"sức mạnh thực sự lay động lòng người, thường không phải là sự yên tĩnh, mà là kiểu kiên trì tiến về phía trước không ngừng này\", câu này muốn diễn đạt đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "ānjìng", "vi": "yên tĩnh"},
+   "B": {"pinyin": "chíxù de jiānchí gèng yǒu lìliàng", "vi": "sự kiên trì liên tục mạnh mẽ hơn"},
+   "C": {"pinyin": "ānjìng de dōngxi gèng dǎdòng rén", "vi": "thứ yên tĩnh cảm động hơn"},
+   "D": {"pinyin": "lìliàng gēn jiānchí méiyǒu guānxi", "vi": "sức mạnh không liên quan kiên trì"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 39",
+  "so": 3,
+  "cau_hoi_pinyin": "Déshèng shuō hē suāntāngyú \"yì kāishǐ juéde yǒudiǎnr qiàng, kěshì hēzhe hēzhe, fǎn'ér lí bù kāi\", zhè jù huà shuōmíng le shénme?",
+  "cau_hoi_vi": "德盛 nói khi uống canh chua cá \"lúc đầu cảm thấy hơi gắt (khó nuốt), nhưng uống dần lại thấy không thể rời xa được\", câu này nói lên điều gì?",
+  "options": {
+   "A": {"pinyin": "qiàng", "vi": "hăng, gắt"},
+   "B": {"pinyin": "dì-yī yìnxiàng bù hǎo dàn hòulái shàngyǐn le", "vi": "ấn tượng đầu không tốt, nhưng sau đó bị nghiện"},
+   "C": {"pinyin": "yìzhí dōu hěn xǐhuan méiyǒu biànhuà", "vi": "luôn thích, không đổi"},
+   "D": {"pinyin": "wánquán méiyǒu hē wán", "vi": "hoàn toàn không uống hết"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 39",
+  "so": 4,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"wǒ zuìjìn xīntiào bú tài zhèngcháng, juéduì shì nǐ de guō\", zhè jù huà de zhēnzhèng yìsi shì shénme?",
+  "cau_hoi_vi": "云英 nói \"gần đây tim em đập không bình thường lắm, chắc chắn là lỗi của anh\", ý nghĩa thực sự của câu này là gì?",
+  "options": {
+   "A": {"pinyin": "guō", "vi": "cái nồi / đổ lỗi"},
+   "B": {"pinyin": "yòng kāiwánxiào de fāngshì biǎodá xīndòng", "vi": "dùng cách nói đùa để bày tỏ sự xao xuyến"},
+   "C": {"pinyin": "shēntǐ zhēnde shēngbìng le", "vi": "cơ thể thực sự bị bệnh"},
+   "D": {"pinyin": "wánquán zài zéguài Déshèng", "vi": "hoàn toàn đang trách 德盛"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 39",
+  "so": 5,
+  "cau_hoi_pinyin": "Déshèng tíyì \"tiāntiān péi nǐ lù jiémù\" zuòwéi péicháng, zhè fǎnyìng le tā zěnyàng de xīnyì?",
+  "cau_hoi_vi": "德盛 đề nghị \"ngày nào cũng đồng hành ghi hình cùng em\" như một sự đền bù, điều này phản ánh tấm lòng như thế nào của anh ấy?",
+  "options": {
+   "A": {"pinyin": "péicháng", "vi": "đền bù"},
+   "B": {"pinyin": "yuànyì chángjiǔ péibàn duìfāng", "vi": "sẵn lòng đồng hành lâu dài với đối phương"},
+   "C": {"pinyin": "zhǐshì xiǎng kuàidiǎn jiéshù huàtí", "vi": "chỉ muốn kết thúc chủ đề nhanh"},
+   "D": {"pinyin": "juéde zhè shì bú bìyào de máfan", "vi": "thấy đây là rắc rối không cần thiết"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 40",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng shuō hē xián nǎichá \"yì kāishǐ hái yǐwéi shì tián de, jiéguǒ hē xiàqù shì xián de\", zhè jù huà zhǔyào biǎodá shénme?",
+  "cau_hoi_vi": "德盛 nói khi uống trà sữa mặn \"lúc đầu còn tưởng là ngọt, kết quả uống vào lại là mặn\", câu này chủ yếu diễn đạt điều gì?",
+  "options": {
+   "A": {"pinyin": "xián", "vi": "mặn"},
+   "B": {"pinyin": "gēn yùqī wánquán bù yíyàng", "vi": "hoàn toàn khác với dự đoán"},
+   "C": {"pinyin": "wèidào gēn píngshí de yíyàng", "vi": "vị giống bình thường"},
+   "D": {"pinyin": "wánquán méiyǒu wèidào", "vi": "hoàn toàn không có vị"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 40",
+  "so": 2,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"yǒuxiē wèidào, bú kào tián lái tǎohǎo rén, fǎn'ér kàozhe nà zhǒng pǔshí de xiánxiāng, ràng rén yìzhí xiǎng hē xiàqù\", zhè jù huà de zhòngdiǎn shì shénme?",
+  "cau_hoi_vi": "云英 nói \"có những hương vị không dựa vào vị ngọt để lấy lòng người, mà lại dựa vào hương mặn mộc mạc kiểu đó, khiến người ta cứ muốn uống mãi\", trọng tâm của câu này là gì?",
+  "options": {
+   "A": {"pinyin": "tǎohǎo", "vi": "lấy lòng"},
+   "B": {"pinyin": "pǔshí de dōngxi gèng nàirén xúnwèi", "vi": "thứ mộc mạc lại càng đáng để thưởng thức lâu dài"},
+   "C": {"pinyin": "tián de dōngxi cái hǎohē", "vi": "đồ ngọt mới ngon"},
+   "D": {"pinyin": "xián nǎichá wánquán bù hǎohē", "vi": "trà sữa mặn hoàn toàn không ngon"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 40",
+  "so": 3,
+  "cau_hoi_pinyin": "Yúnyīng shuō \"bǐqǐ tiányánmìyǔ, nà zhǒng shíshízàizài de dōngxi, fǎn'ér gèng ràng rén fàngxīn\", zhè jù huà fǎnyìng le tā zěnyàng de jiàzhíguān?",
+  "cau_hoi_vi": "云英 nói \"so với những lời đường mật, những thứ chân thật thiết thực đó lại càng khiến người ta yên tâm hơn\", câu này phản ánh quan điểm giá trị như thế nào của cô ấy?",
+  "options": {
+   "A": {"pinyin": "tiányánmìyǔ", "vi": "lời đường mật"},
+   "B": {"pinyin": "zhòngshì zhēnchéng ér fēi huāyán qiǎoyǔ", "vi": "coi trọng sự chân thành hơn lời hoa mỹ"},
+   "C": {"pinyin": "xǐhuan tīng hǎotīng de huà", "vi": "thích nghe lời hay"},
+   "D": {"pinyin": "bú zàihu duìfāng de tàidù", "vi": "không quan tâm thái độ đối phương"}
+  }
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK3-Bài 14",
+  "so": 4,
+  "cau_hoi_pinyin": "Zhōu Yǔ tīng wán zuòzhě de huà yǐhòu, shì shénme fǎnyìng?",
+  "cau_hoi_vi": "Sau khi nghe xong lời của tác giả, Chu Vũ có phản ứng gì?",
+  "options": {
+   "A": {"pinyin": "Shēngqì de zǒu kāi le", "vi": "Tức giận bỏ đi"},
+   "B": {"pinyin": "Lèng le yíxià, ránhòu shuō tā yě céngjīng zhùyì dào zuòzhě", "vi": "Sững người một lúc, sau đó nói rằng cô ấy cũng từng để ý đến tác giả"},
+   "C": {"pinyin": "Wánquán méiyǒu rènhé fǎnyìng", "vi": "Hoàn toàn không có phản ứng gì"},
+   "D": {"pinyin": "Shuō tā gēnběn bú rènshi zuòzhě", "vi": "Nói rằng cô ấy hoàn toàn không quen biết tác giả"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 14",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuìhòu, liǎng gè rén juédìng zěnme zuò?",
+  "cau_hoi_vi": "Cuối cùng, hai người quyết định làm thế nào?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng quèdìng liàn'ài guānxì", "vi": "Lập tức xác định mối quan hệ yêu đương"},
+   "B": {"pinyin": "Xiān shìzhe zuò péngyǒu, mànman liǎojiě duìfāng", "vi": "Trước tiên thử làm bạn, từ từ tìm hiểu đối phương"},
+   "C": {"pinyin": "Cóngcǐ bú zài liánxì", "vi": "Từ đó không liên lạc nữa"},
+   "D": {"pinyin": "Yìqǐ qù tóng yí gè chéngshì shàng dàxué", "vi": "Cùng nhau đến cùng một thành phố học đại học"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 15",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě hé Xǔ Nuò shì shénme guānxì?",
+  "cau_hoi_vi": "Tác giả và Hứa Nặc là quan hệ gì?",
+  "options": {
+   "A": {"pinyin": "Xiànzài de nánnǚ péngyǒu", "vi": "Bạn trai bạn gái hiện tại"},
+   "B": {"pinyin": "Shí nián qián gāozhōng shíqī bǐcǐ de chūliàn", "vi": "Mối tình đầu của nhau thời trung học mười năm trước"},
+   "C": {"pinyin": "Xiōngdì jiěmèi", "vi": "Anh chị em"},
+   "D": {"pinyin": "Wánquán bú rènshi de rén", "vi": "Người hoàn toàn không quen biết"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 15",
+  "so": 2,
+  "cau_hoi_pinyin": "Gāozhōng bìyè yǐhòu, liǎng gè rén wèishénme jiànjiàn fēnkāi le?",
+  "cau_hoi_vi": "Sau khi tốt nghiệp trung học, vì sao hai người dần dần xa nhau?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi chǎojià le", "vi": "Vì cãi nhau"},
+   "B": {"pinyin": "Yīnwèi qù le bùtóng chéngshì, jùlí tài yuǎn, liánxì biàn shǎo", "vi": "Vì đến các thành phố khác nhau, khoảng cách quá xa, liên lạc giảm dần"},
+   "C": {"pinyin": "Yīnwèi Xǔ Nuò yǒu le xīn de nǚpéngyǒu", "vi": "Vì Hứa Nặc có bạn gái mới"},
+   "D": {"pinyin": "Yīnwèi jiā lǐ rén fǎnduì", "vi": "Vì người nhà phản đối"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 15",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě shì zài shénme chǎnghé zàicì jiàndào Xǔ Nuò de?",
+  "cau_hoi_vi": "Tác giả đã gặp lại Hứa Nặc trong hoàn cảnh nào?",
+  "options": {
+   "A": {"pinyin": "Zài gōngsī shàngbān de shíhou", "vi": "Lúc đang đi làm ở công ty"},
+   "B": {"pinyin": "Huí jiāxiāng cānjiā gāozhōng tóngxué jùhuì de shíhou", "vi": "Lúc về quê tham gia buổi họp mặt bạn học trung học"},
+   "C": {"pinyin": "Zài wǎngshàng ǒurán liáotiān", "vi": "Tình cờ trò chuyện trên mạng"},
+   "D": {"pinyin": "Xǔ Nuò zhǔdòng lái zhǎo zuòzhě", "vi": "Hứa Nặc chủ động đến tìm tác giả"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 15",
+  "so": 4,
+  "cau_hoi_pinyin": "Jùhuì jiéshù yǐhòu, liǎng gè rén zuò le shénme?",
+  "cau_hoi_vi": "Sau khi buổi họp mặt kết thúc, hai người đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng gèzì huí jiā le", "vi": "Lập tức ai về nhà nấy"},
+   "B": {"pinyin": "Dāndú qù kāfēidiàn liáo le hěn jiǔ", "vi": "Riêng đến quán cà phê trò chuyện rất lâu"},
+   "C": {"pinyin": "Yìqǐ qù le lǚxíng", "vi": "Cùng nhau đi du lịch"},
+   "D": {"pinyin": "Méiyǒu zài shuōhuà", "vi": "Không nói chuyện nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 15",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuìhòu, zuòzhě duì zhè cì chóngféng yǒu shénme gǎnshòu?",
+  "cau_hoi_vi": "Cuối cùng, tác giả có cảm nhận gì về lần tái ngộ này?",
+  "options": {
+   "A": {"pinyin": "Juéde wánquán méiyǒu yìyì", "vi": "Cảm thấy hoàn toàn không có ý nghĩa gì"},
+   "B": {"pinyin": "Juéde zhè shì yì zhǒng zhēnguì de yuánfèn", "vi": "Cảm thấy đây là một duyên phận quý giá"},
+   "C": {"pinyin": "Hòuhuǐ cānjiā le zhè cì jùhuì", "vi": "Hối hận vì đã tham gia buổi họp mặt này"},
+   "D": {"pinyin": "Juédìng mǎshàng quèdìng liàn'ài guānxì", "vi": "Quyết định lập tức xác định mối quan hệ yêu đương"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 16",
+  "so": 1,
+  "cau_hoi_pinyin": "Yuánxiāojié shì nónglì jǐ yuè jǐ rì?",
+  "cau_hoi_vi": "Tết Nguyên Tiêu là ngày mấy tháng mấy âm lịch?",
+  "options": {
+   "A": {"pinyin": "Zhēngyuè chūyī", "vi": "Mùng một tháng Giêng"},
+   "B": {"pinyin": "Zhēngyuè shíwǔ", "vi": "Rằm tháng Giêng (15 tháng Giêng)"},
+   "C": {"pinyin": "Bāyuè shíwǔ", "vi": "Rằm tháng Tám (15 tháng 8)"},
+   "D": {"pinyin": "Wǔyuè chūwǔ", "vi": "Mùng năm tháng Năm"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 16",
+  "so": 2,
+  "cau_hoi_pinyin": "Huādēng de yàngzi yǒu nǎxiē zhǒnglèi?",
+  "cau_hoi_vi": "Hình dáng của đèn lồng có những loại nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐ yǒu yì zhǒng yàngzi", "vi": "Chỉ có một kiểu dáng"},
+   "B": {"pinyin": "Yǒu shí'èr shēngxiào xíngzhuàng de, yě yǒu gǔdài chuánshuō rénwù xíngzhuàng de", "vi": "Có hình mười hai con giáp, cũng có hình nhân vật truyền thuyết cổ đại"},
+   "C": {"pinyin": "Zhǐ yǒu dòngwù xíngzhuàng de", "vi": "Chỉ có hình động vật"},
+   "D": {"pinyin": "Wénzhāng méiyǒu miáoshù yàngzi", "vi": "Bài viết không miêu tả hình dáng"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 16",
+  "so": 3,
+  "cau_hoi_pinyin": "Māma shuō, Yuánxiāojié hái yǒu shénme zhòngyào de xísú?",
+  "cau_hoi_vi": "Mẹ nói, Tết Nguyên Tiêu còn có phong tục quan trọng gì?",
+  "options": {
+   "A": {"pinyin": "Fàng yānhuā", "vi": "Bắn pháo hoa"},
+   "B": {"pinyin": "Quánjiā rén yìqǐ chī yuánxiāo, xiàngzhēng tuányuán měimǎn", "vi": "Cả nhà cùng ăn bánh trôi (nguyên tiêu), tượng trưng cho đoàn viên viên mãn"},
+   "C": {"pinyin": "Sòng hóngbāo", "vi": "Tặng bao lì xì"},
+   "D": {"pinyin": "Qù sìmiào bàibài", "vi": "Đi chùa lễ Phật"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 16",
+  "so": 4,
+  "cau_hoi_pinyin": "Guàng wán huādēng yǐhòu, tāmen zuò le shénme?",
+  "cau_hoi_vi": "Sau khi xem đèn lồng xong, họ đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Mǎshàng huí jiā le", "vi": "Lập tức về nhà"},
+   "B": {"pinyin": "Zhǎo le yì jiā xiǎodiàn, chī le rè téngténg de yuánxiāo", "vi": "Tìm một quán nhỏ, ăn bánh trôi nóng hổi"},
+   "C": {"pinyin": "Qù kàn le lìng yí gè zhǎnlǎn", "vi": "Đi xem một triển lãm khác"},
+   "D": {"pinyin": "Mǎi le hěn duō huādēng dài huí jiā", "vi": "Mua rất nhiều đèn lồng mang về nhà"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 16",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì jīnglì ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Trải nghiệm lần này khiến tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Yuánxiāojié zhǐshì yí gè fàngjià de rìzi", "vi": "Tết Nguyên Tiêu chỉ là một ngày nghỉ lễ"},
+   "B": {"pinyin": "Chuántǒng jiérì bùzhǐ shì fàngjià xiūxi, gèng shì gǎnshòu chuántǒng wénhuà de jīhuì", "vi": "Ngày lễ truyền thống không chỉ là nghỉ ngơi, mà còn là cơ hội cảm nhận văn hóa truyền thống"},
+   "C": {"pinyin": "Kàn huādēng hěn làngfèi shíjiān", "vi": "Xem đèn lồng rất lãng phí thời gian"},
+   "D": {"pinyin": "Yuánxiāo bù hǎochī", "vi": "Bánh trôi không ngon"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 17",
+  "so": 1,
+  "cau_hoi_pinyin": "Quánjiā rén fàng yānhuā shì zài shénme shíhou?",
+  "cau_hoi_vi": "Cả nhà bắn pháo hoa vào lúc nào?",
+  "options": {
+   "A": {"pinyin": "Yuánxiāojié wǎnshang", "vi": "Tối Tết Nguyên Tiêu"},
+   "B": {"pinyin": "Chúxī wǎnshang, chī wán tuányuánfàn yǐhòu", "vi": "Tối giao thừa, sau khi ăn xong bữa cơm đoàn viên"},
+   "C": {"pinyin": "Zhōngqiūjié wǎnshang", "vi": "Tối Tết Trung Thu"},
+   "D": {"pinyin": "Chūnjié qián yí gè xīngqī", "vi": "Một tuần trước Tết Nguyên Đán"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 17",
+  "so": 2,
+  "cau_hoi_pinyin": "Dìdi dì yī cì diǎn yānhuā de shíhou, qíngkuàng zěnmeyàng?",
+  "cau_hoi_vi": "Lúc em trai lần đầu tiên đốt pháo hoa, tình hình thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng qīngsōng, yìdiǎnr dōu bú hàipà", "vi": "Rất thoải mái, không sợ chút nào"},
+   "B": {"pinyin": "Yīnwèi hàipà, shǒu fādǒu, zài bàba bāngzhù xià cái diǎnzháo", "vi": "Vì sợ nên tay run, phải có bố giúp mới đốt được"},
+   "C": {"pinyin": "Wánquán bù gǎn kàojìn yānhuā", "vi": "Hoàn toàn không dám lại gần pháo hoa"},
+   "D": {"pinyin": "Yí cì jiù chénggōng le, méiyǒu rènhé kùnnán", "vi": "Chỉ một lần là thành công, không gặp khó khăn gì"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 17",
+  "so": 3,
+  "cau_hoi_pinyin": "Nǎinai shuō, wèishénme xiànzài hěn duō chéngshì xiànzhì le yānhuā?",
+  "cau_hoi_vi": "Bà nội nói, vì sao hiện nay nhiều thành phố hạn chế pháo hoa?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi yānhuā tài guì le", "vi": "Vì pháo hoa quá đắt"},
+   "B": {"pinyin": "Wèile ānquán hé huánbǎo", "vi": "Vì an toàn và bảo vệ môi trường"},
+   "C": {"pinyin": "Yīnwèi dàjiā bù xǐhuan fàng yānhuā le", "vi": "Vì mọi người không còn thích bắn pháo hoa nữa"},
+   "D": {"pinyin": "Yīnwèi méiyǒu zúgòu de yānhuā", "vi": "Vì không đủ pháo hoa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 17",
+  "so": 4,
+  "cau_hoi_pinyin": "Chúle zuòzhě jiā, zhōuwéi de qíngkuàng shì zěnyàng de?",
+  "cau_hoi_vi": "Ngoài nhà tác giả ra, tình hình xung quanh như thế nào?",
+  "options": {
+   "A": {"pinyin": "Línjūmen dōu hěn ānjìng, méiyǒu fàng yānhuā", "vi": "Hàng xóm đều rất yên tĩnh, không bắn pháo hoa"},
+   "B": {"pinyin": "Línjū yě zài fàng yānhuā, zhěnggè xiǎoqū de tiānkōng dōu bèi zhàoliàng", "vi": "Hàng xóm cũng đang bắn pháo hoa, cả bầu trời khu chung cư đều được thắp sáng"},
+   "C": {"pinyin": "Línjūmen dōu qù bié de dìfang guònián le", "vi": "Hàng xóm đều đi nơi khác đón Tết"},
+   "D": {"pinyin": "Zhǐyǒu zuòzhě jiā zài fàng yānhuā", "vi": "Chỉ có nhà tác giả đang bắn pháo hoa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 17",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhège chúxī yè, gěi zuòzhě liú xià le shénme yàng de yìnxiàng?",
+  "cau_hoi_vi": "Đêm giao thừa này để lại cho tác giả ấn tượng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde hěn wúliáo, hěn làngfèi shíjiān", "vi": "Cảm thấy rất nhàm chán, rất lãng phí thời gian"},
+   "B": {"pinyin": "Rènao yòu wēnnuǎn, chéng le nánwàng de jìyì", "vi": "Náo nhiệt lại ấm áp, trở thành ký ức khó quên"},
+   "C": {"pinyin": "Juéde fàng yānhuā hěn wēixiǎn, bù xiǎng zài fàng le", "vi": "Cảm thấy bắn pháo hoa rất nguy hiểm, không muốn bắn nữa"},
+   "D": {"pinyin": "Wánquán méiyǒu tèbié de gǎnjué", "vi": "Hoàn toàn không có cảm giác gì đặc biệt"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 18",
+  "so": 1,
+  "cau_hoi_pinyin": "Shèqū zǔzhī de zhè chǎng wǎnhuì, zhǔyào huódòng shì shénme?",
+  "cau_hoi_vi": "Buổi dạ hội do khu phố tổ chức có hoạt động chính là gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì chànggē bǐsài", "vi": "Chỉ là cuộc thi hát"},
+   "B": {"pinyin": "Shǎngyuè, chī yuèbǐng, kàn biǎoyǎn", "vi": "Ngắm trăng, ăn bánh trung thu, xem biểu diễn"},
+   "C": {"pinyin": "Zhǐshì fā yuèbǐng", "vi": "Chỉ là phát bánh trung thu"},
+   "D": {"pinyin": "Fàng yānhuā", "vi": "Bắn pháo hoa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 18",
+  "so": 2,
+  "cau_hoi_pinyin": "Jǐ wèi lǎorén shàngtái zuò le shénme?",
+  "cau_hoi_vi": "Mấy vị người cao tuổi lên sân khấu đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Biǎoyǎn le wǔdǎo", "vi": "Biểu diễn múa"},
+   "B": {"pinyin": "Jiǎng le tāmen xiǎoshíhou guò Zhōngqiūjié de gùshi", "vi": "Kể chuyện lúc nhỏ họ đón Tết Trung Thu"},
+   "C": {"pinyin": "Chàng le yì shǒu gē", "vi": "Hát một bài hát"},
+   "D": {"pinyin": "Jièshào le yuèbǐng de zuòfǎ", "vi": "Giới thiệu cách làm bánh trung thu"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 18",
+  "so": 3,
+  "cau_hoi_pinyin": "Shèqū zhǔnbèi de yuèbǐng, yǒu nǎxiē kǒuwèi?",
+  "cau_hoi_vi": "Bánh trung thu khu phố chuẩn bị có những vị nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐ yǒu yì zhǒng kǒuwèi", "vi": "Chỉ có một vị"},
+   "B": {"pinyin": "Yǒu chuántǒng de dòushā wèi, yě yǒu xīnyǐng de bīngqílín wèi", "vi": "Có vị đậu đỏ truyền thống, cũng có vị kem mới lạ"},
+   "C": {"pinyin": "Zhǐ yǒu bīngqílín wèi", "vi": "Chỉ có vị kem"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng kǒuwèi", "vi": "Bài viết không nói rõ hương vị"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 18",
+  "so": 4,
+  "cau_hoi_pinyin": "Wǎnhuì zuìhòu, dàjiā yìqǐ zuò le shénme?",
+  "cau_hoi_vi": "Cuối buổi dạ hội, mọi người đã cùng nhau làm gì?",
+  "options": {
+   "A": {"pinyin": "Gèzì huí jiā le", "vi": "Ai về nhà nấy"},
+   "B": {"pinyin": "Yìqǐ chàng le yì shǒu guānyú tuányuán de gē", "vi": "Cùng nhau hát một bài hát về đoàn viên"},
+   "C": {"pinyin": "Yìqǐ chī le wǎnfàn", "vi": "Cùng nhau ăn tối"},
+   "D": {"pinyin": "Yìqǐ fàng le yānhuā", "vi": "Cùng nhau bắn pháo hoa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 18",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì wǎnhuì ràng zuòzhě gǎnshòu dào le shénme?",
+  "cau_hoi_vi": "Buổi dạ hội này khiến tác giả cảm nhận được điều gì?",
+  "options": {
+   "A": {"pinyin": "Yí gè rén zhù hěn gūdān, méiyǒu yìyì", "vi": "Sống một mình rất cô đơn, không có ý nghĩa"},
+   "B": {"pinyin": "Mòshēng de línjū yě kěyǐ xiàng jiārén yíyàng wēnnuǎn", "vi": "Hàng xóm xa lạ cũng có thể ấm áp như người thân"},
+   "C": {"pinyin": "Zhōngqiūjié bú shìhé yí gè rén guò", "vi": "Tết Trung Thu không thích hợp để đón một mình"},
+   "D": {"pinyin": "Yīnggāi zǎodiǎn huí jiā gēn jiārén tuányuán", "vi": "Nên về nhà sớm đoàn viên cùng người thân"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 19",
+  "so": 1,
+  "cau_hoi_pinyin": "Luòyáng Mǔdān Huājié shì zài měi nián shénme shíhou jǔxíng?",
+  "cau_hoi_vi": "Lễ hội hoa mẫu đơn Lạc Dương được tổ chức vào thời gian nào hằng năm?",
+  "options": {
+   "A": {"pinyin": "Yīyuè", "vi": "Tháng một"},
+   "B": {"pinyin": "Sìyuè", "vi": "Tháng tư"},
+   "C": {"pinyin": "Bāyuè", "vi": "Tháng tám"},
+   "D": {"pinyin": "Shí'èryuè", "vi": "Tháng mười hai"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 19",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuòzhě kàndào de mǔdānhuā, yǒu nǎxiē yánsè?",
+  "cau_hoi_vi": "Hoa mẫu đơn mà tác giả nhìn thấy có những màu nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐ yǒu hóngsè", "vi": "Chỉ có màu đỏ"},
+   "B": {"pinyin": "Hóngsè, fěnsè, hái yǒu bǐjiào shǎojiàn de lǜsè hé hēisè", "vi": "Màu đỏ, màu hồng, còn có màu xanh lá và màu đen khá hiếm gặp"},
+   "C": {"pinyin": "Zhǐ yǒu báisè hé huángsè", "vi": "Chỉ có màu trắng và màu vàng"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng yánsè", "vi": "Bài viết không nói rõ màu sắc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 19",
+  "so": 3,
+  "cau_hoi_pinyin": "Dǎoyóu shuō, mǔdān zài Zhōngguó wénhuà zhōng xiàngzhēngzhe shénme?",
+  "cau_hoi_vi": "Hướng dẫn viên nói, hoa mẫu đơn tượng trưng cho điều gì trong văn hóa Trung Quốc?",
+  "options": {
+   "A": {"pinyin": "Chángshòu", "vi": "Trường thọ"},
+   "B": {"pinyin": "Fùguì hé měihǎo", "vi": "Phú quý và tốt đẹp"},
+   "C": {"pinyin": "Bēishāng", "vi": "Bi thương"},
+   "D": {"pinyin": "Yǒnggǎn", "vi": "Dũng cảm"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 19",
+  "so": 4,
+  "cau_hoi_pinyin": "Huājié qījiān, gōngyuán lǐ hái jǔxíng le shénme huódòng?",
+  "cau_hoi_vi": "Trong thời gian lễ hội hoa, công viên còn tổ chức hoạt động gì?",
+  "options": {
+   "A": {"pinyin": "Yīnyuèhuì", "vi": "Buổi hòa nhạc"},
+   "B": {"pinyin": "Shèyǐng bǐsài hé mǔdān huàzhǎn", "vi": "Cuộc thi nhiếp ảnh và triển lãm tranh mẫu đơn"},
+   "C": {"pinyin": "Tǐyù bǐsài", "vi": "Thi đấu thể thao"},
+   "D": {"pinyin": "Diànyǐng fàngyìng", "vi": "Chiếu phim"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 19",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì lǚxíng ràng zuòzhě shōuhuò le shénme?",
+  "cau_hoi_vi": "Chuyến du lịch này giúp tác giả thu hoạch được điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì kàndào le měilì de huā", "vi": "Chỉ là nhìn thấy hoa đẹp"},
+   "B": {"pinyin": "Búdàn kàndào mǔdānhuā, yě gèng liǎojiě le huā de wénhuà xiàngzhēng yìyì", "vi": "Không chỉ nhìn thấy hoa mẫu đơn, mà còn hiểu thêm về ý nghĩa tượng trưng văn hóa của hoa"},
+   "C": {"pinyin": "Juéde lǚxíng hěn lèi, méiyǒu shōuhuò", "vi": "Cảm thấy chuyến đi rất mệt, không thu hoạch được gì"},
+   "D": {"pinyin": "Juédìng yǐhòu bú zài lǚxíng le", "vi": "Quyết định sau này không đi du lịch nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 20",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhè cì měishíjié jǔxíng le jǐ tiān?",
+  "cau_hoi_vi": "Lễ hội ẩm thực lần này diễn ra mấy ngày?",
+  "options": {
+   "A": {"pinyin": "Yì tiān", "vi": "Một ngày"},
+   "B": {"pinyin": "Sān tiān", "vi": "Ba ngày"},
+   "C": {"pinyin": "Yí gè xīngqī", "vi": "Một tuần"},
+   "D": {"pinyin": "Yí gè yuè", "vi": "Một tháng"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 20",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuòzhě hé péngyǒu wèishénme yí dàzǎo jiù qù le xiànchǎng?",
+  "cau_hoi_vi": "Tại sao tác giả và bạn bè từ sáng sớm đã đến hiện trường?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi guǎngchǎng hěn yuǎn", "vi": "Vì quảng trường ở rất xa"},
+   "B": {"pinyin": "Yīnwèi tīngshuō qù wǎn le, shòu huānyíng de xiǎochī huì mài guāng", "vi": "Vì nghe nói đi muộn thì món ăn vặt được ưa chuộng sẽ bán hết"},
+   "C": {"pinyin": "Yīnwèi xiǎng bāngmáng bùzhì xiànchǎng", "vi": "Vì muốn giúp bố trí hiện trường"},
+   "D": {"pinyin": "Yīnwèi yào cānjiā bǐsài", "vi": "Vì phải tham gia thi đấu"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 20",
+  "so": 3,
+  "cau_hoi_pinyin": "Nà jiā yǒumíng de jiānjiǎo diàn, jùshuō yǐjīng kāi le duō jiǔ?",
+  "cau_hoi_vi": "Quán bánh chẻo chiên nổi tiếng đó, nghe nói đã mở được bao lâu rồi?",
+  "options": {
+   "A": {"pinyin": "Shí nián", "vi": "Mười năm"},
+   "B": {"pinyin": "Èrshí nián", "vi": "Hai mươi năm"},
+   "C": {"pinyin": "Sānshí duō nián", "vi": "Hơn ba mươi năm"},
+   "D": {"pinyin": "Yī nián", "vi": "Một năm"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 20",
+  "so": 4,
+  "cau_hoi_pinyin": "Měishíjié xiànchǎng hái jǔxíng le shénme huódòng?",
+  "cau_hoi_vi": "Hiện trường lễ hội ẩm thực còn tổ chức hoạt động gì?",
+  "options": {
+   "A": {"pinyin": "Yīnyuè bǐsài", "vi": "Thi âm nhạc"},
+   "B": {"pinyin": "Měishí zhìzuò bǐsài, chúshī xiànchǎng zhǎnshì jìqiǎo", "vi": "Cuộc thi chế biến món ăn, đầu bếp trình diễn kỹ năng tại chỗ"},
+   "C": {"pinyin": "Tǐyù bǐsài", "vi": "Thi đấu thể thao"},
+   "D": {"pinyin": "Diànyǐng fàngyìng", "vi": "Chiếu phim"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 20",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì měishíjié de jīnglì ràng zuòzhě yǒu shénme fāxiàn?",
+  "cau_hoi_vi": "Trải nghiệm lễ hội ẩm thực lần này khiến tác giả phát hiện ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Chī tài duō dōngxi duì shēntǐ bù hǎo", "vi": "Ăn quá nhiều đồ không tốt cho sức khỏe"},
+   "B": {"pinyin": "Tòuguò shíwù néng gǎnshòu wénhuà, yě néng lājìn rén yǔ rén de jùlí", "vi": "Qua món ăn có thể cảm nhận văn hóa, cũng có thể rút ngắn khoảng cách giữa người với người"},
+   "C": {"pinyin": "Měishíjié de dōngxi tài guì le", "vi": "Đồ ở lễ hội ẩm thực quá đắt"},
+   "D": {"pinyin": "Běndì xiǎochī bǐ wàiguó xiǎochī gèng hǎochī", "vi": "Món ăn vặt địa phương ngon hơn món ăn vặt nước ngoài"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 21",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī shuō, xiàngxíngzì shì gēnjù shénme zào chūlái de?",
+  "cau_hoi_vi": "Thầy giáo nói, chữ tượng hình được tạo ra dựa trên điều gì?",
+  "options": {
+   "A": {"pinyin": "Shēngyīn", "vi": "Âm thanh"},
+   "B": {"pinyin": "Shìwù de yàngzi", "vi": "Hình dáng của sự vật"},
+   "C": {"pinyin": "Shùzì", "vi": "Con số"},
+   "D": {"pinyin": "Bié de guójiā de wénzì", "vi": "Chữ viết của nước khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 21",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Rì\" zì zuì kāishǐ de yàngzi shì zěnyàng de?",
+  "cau_hoi_vi": "Chữ \"日\" (nhật) lúc ban đầu có hình dáng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yí gè zhèngfāngxíng", "vi": "Một hình vuông"},
+   "B": {"pinyin": "Yí gè yuánxíng, zhōngjiān yǒu yì diǎn", "vi": "Một hình tròn, ở giữa có một chấm"},
+   "C": {"pinyin": "Sān tiáo zhíxiàn", "vi": "Ba đường thẳng"},
+   "D": {"pinyin": "Yí gè sānjiǎoxíng", "vi": "Một hình tam giác"}
+  }
+ }
+]

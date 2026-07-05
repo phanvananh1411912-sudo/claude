@@ -1,0 +1,362 @@
+[
+ {
+  "bai": "HSK3-Bài 35",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhè chǎng zhǎnlǎn tóngshí zhǎnshì le nǎ jǐ zhǒng yìshù xíngshì?",
+  "cau_hoi_vi": "Buổi triển lãm này đồng thời trưng bày những loại hình nghệ thuật nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐyǒu huìhuà", "vi": "Chỉ có hội họa"},
+   "B": {"pinyin": "Diànyǐng, yīnyuè, huìhuà hé shūfǎ", "vi": "Điện ảnh, âm nhạc, hội họa và thư pháp"},
+   "C": {"pinyin": "Zhǐyǒu yīnyuè hé shūfǎ", "vi": "Chỉ có âm nhạc và thư pháp"},
+   "D": {"pinyin": "Zhǐyǒu diànyǐng", "vi": "Chỉ có điện ảnh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 35",
+  "so": 2,
+  "cau_hoi_pinyin": "Yīnyuè zhǎnqū, guānzhòng kěyǐ xiànchǎng xīnshǎng shénme?",
+  "cau_hoi_vi": "Ở khu trưng bày âm nhạc, khán giả có thể thưởng thức trực tiếp cái gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ néng kàn shìpín", "vi": "Chỉ có thể xem video"},
+   "B": {"pinyin": "Yīnyuèjiā xiànchǎng yǎnzòu gǔzhēng, èrhú děng chuántǒng yuèqì", "vi": "Nhạc sĩ biểu diễn trực tiếp đàn tranh, nhị hồ và các nhạc cụ truyền thống khác"},
+   "C": {"pinyin": "Zhǐ néng tīng lùyīn", "vi": "Chỉ có thể nghe bản ghi âm"},
+   "D": {"pinyin": "Méiyǒu yīnyuè zhǎnqū", "vi": "Không có khu trưng bày âm nhạc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 35",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě zài shūfǎ zhǎnqū tíngliú hěn cháng shíjiān de yuányīn shì shénme?",
+  "cau_hoi_vi": "Lý do tác giả dừng lại rất lâu ở khu trưng bày thư pháp là gì?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi nàlǐ rén zuì shǎo", "vi": "Vì ở đó ít người nhất"},
+   "B": {"pinyin": "Hěn duō zuòpǐn de zìtǐ zhèng shì tā zhè jǐ nián yìzhí zài xuéxí de kǎishū hé xíngshū", "vi": "Chữ viết trong nhiều tác phẩm chính là kiểu khải thư và hành thư mà anh đã học suốt mấy năm nay"},
+   "C": {"pinyin": "Yīnwèi shūfǎ zhǎnqū zuì dà", "vi": "Vì khu trưng bày thư pháp lớn nhất"},
+   "D": {"pinyin": "Yīnwèi méiyǒu bié de dìfāng kěyǐ qù", "vi": "Vì không còn nơi nào khác để đi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 35",
+  "so": 4,
+  "cau_hoi_pinyin": "Yí wèi huàjiā shuō, wúlùn shì nǎ zhǒng yìshù xíngshì, zuì zhòngyào de shì shénme?",
+  "cau_hoi_vi": "Một họa sĩ nói, dù là loại hình nghệ thuật nào, điều quan trọng nhất là gì?",
+  "options": {
+   "A": {"pinyin": "Mài chū hěn gāo de jiàgé", "vi": "Bán được giá rất cao"},
+   "B": {"pinyin": "Tōngguò zuòpǐn biǎodá chuàngzuòzhě nèixīn zhēnshí de qínggǎn", "vi": "Thông qua tác phẩm để biểu đạt tình cảm chân thật trong lòng người sáng tác"},
+   "C": {"pinyin": "Ràng guānzhòng juéde hěn fùzá", "vi": "Khiến khán giả cảm thấy rất phức tạp"},
+   "D": {"pinyin": "Shǐyòng zuì guì de cáiliào", "vi": "Sử dụng vật liệu đắt nhất"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 35",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì zhǎnlǎn ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Buổi triển lãm này đã giúp tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Bùtóng de yìshù xíngshì wánquán méiyǒu guānxì", "vi": "Các loại hình nghệ thuật khác nhau hoàn toàn không liên quan gì đến nhau"},
+   "B": {"pinyin": "Suīrán biǎoxiàn fāngshì bùtóng, dàn dōu zhuīqiú tóng yī zhǒng dǎdòng rénxīn de lìliàng", "vi": "Tuy hình thức thể hiện khác nhau, nhưng đều theo đuổi một sức mạnh lay động lòng người"},
+   "C": {"pinyin": "Zhǐyǒu shūfǎ cái shì zhēnzhèng de yìshù", "vi": "Chỉ có thư pháp mới là nghệ thuật thực sự"},
+   "D": {"pinyin": "Chuántǒng yìshù yǐjīng guòshí, méiyǒu jiàzhí", "vi": "Nghệ thuật truyền thống đã lỗi thời, không có giá trị"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 36",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Xīyóujì\" jiǎng de shì shéi qù xīfāng qǔjīng de gùshì?",
+  "cau_hoi_vi": "Tây Du Ký kể về câu chuyện ai đi lấy kinh ở phương Tây?",
+  "options": {
+   "A": {"pinyin": "Zhǐyǒu Sūn Wùkōng yí gè rén", "vi": "Chỉ có một mình Tôn Ngộ Không"},
+   "B": {"pinyin": "Táng Sēng dàizhe Sūn Wùkōng, Zhū Bājiè hé Shā Sēng", "vi": "Đường Tăng dẫn theo Tôn Ngộ Không, Trư Bát Giới và Sa Tăng"},
+   "C": {"pinyin": "Zhǐyǒu Táng Sēng yí gè rén", "vi": "Chỉ có một mình Đường Tăng"},
+   "D": {"pinyin": "Yì qún pǔtōng de shāngrén", "vi": "Một nhóm thương nhân bình thường"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 36",
+  "so": 2,
+  "cau_hoi_pinyin": "Xiǎoshíhou, zuòzhě xǐhuan Sūn Wùkōng de yuányīn shì shénme?",
+  "cau_hoi_vi": "Hồi nhỏ, lý do tác giả thích Tôn Ngộ Không là gì?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi tā hěn lǎnduò", "vi": "Vì cậu ta rất lười biếng"},
+   "B": {"pinyin": "Yīnwèi tā huì qīshí'èr biàn, néng dǎbài gè zhǒng yāoguài", "vi": "Vì cậu ta biết bảy mươi hai phép biến hóa, có thể đánh bại mọi loại yêu quái"},
+   "C": {"pinyin": "Yīnwèi tā hěn zhōngchéng", "vi": "Vì cậu ta rất trung thành"},
+   "D": {"pinyin": "Yīnwèi tā hěn chénwěn", "vi": "Vì cậu ta rất điềm tĩnh"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 36",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě rènwéi, shītú sì rén wèishénme néng kèfú kùnnán?",
+  "cau_hoi_vi": "Tác giả cho rằng, vì sao bốn thầy trò có thể vượt qua khó khăn?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi tāmen de xìnggé wánquán xiāngtóng", "vi": "Vì tính cách của họ hoàn toàn giống nhau"},
+   "B": {"pinyin": "Yīnwèi jǐ zhǒng bùtóng de xìnggé hùxiāng pèihé", "vi": "Vì mấy tính cách khác nhau phối hợp với nhau"},
+   "C": {"pinyin": "Yīnwèi lùshàng méiyǒu yùdào rènhé kùnnán", "vi": "Vì trên đường không gặp phải khó khăn nào"},
+   "D": {"pinyin": "Yīnwèi tāmen wánquán bù xūyào hézuò", "vi": "Vì họ hoàn toàn không cần hợp tác"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 36",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě rènwéi, qǔjīng lùshàng de yāoguài, kěyǐ lǐjiě wéi shénme?",
+  "cau_hoi_vi": "Tác giả cho rằng, những yêu quái trên đường đi lấy kinh có thể được hiểu là gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu bié de yìyì", "vi": "Hoàn toàn không có ý nghĩa nào khác"},
+   "B": {"pinyin": "Rénshēng zhōng huì yùdào de gè zhǒng yòuhuò hé kùnnán", "vi": "Những cám dỗ và khó khăn khác nhau mà con người sẽ gặp phải trong cuộc đời"},
+   "C": {"pinyin": "Zhǐshì gùshì lǐ de xūgòu juésè", "vi": "Chỉ là những nhân vật hư cấu trong câu chuyện"},
+   "D": {"pinyin": "Dàibiǎo dà zìrán de wēixiǎn", "vi": "Đại diện cho những nguy hiểm của thiên nhiên"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 36",
+  "so": 5,
+  "cau_hoi_pinyin": "Bàba rènwéi, zhè bù xiǎoshuō liúchuán le jǐ bǎi nián, yīrán shòu huānyíng de yuányīn shì shénme?",
+  "cau_hoi_vi": "Bố cho rằng, lý do cuốn tiểu thuyết này lưu truyền mấy trăm năm mà vẫn được yêu thích là gì?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi gùshì hěn jiǎndān", "vi": "Vì câu chuyện rất đơn giản"},
+   "B": {"pinyin": "Yīnwèi bùtóng niánlíng de rén, dōu néng cóngzhōng dú chū bù yíyàng de yìyì", "vi": "Vì những người ở các độ tuổi khác nhau đều có thể đọc ra những ý nghĩa khác nhau từ đó"},
+   "C": {"pinyin": "Yīnwèi zhè shì wéiyī de yí bù gǔdiǎn xiǎoshuō", "vi": "Vì đây là cuốn tiểu thuyết cổ điển duy nhất"},
+   "D": {"pinyin": "Yīnwèi lǐmiàn méiyǒu rènhé dàolǐ", "vi": "Vì trong đó không có đạo lý gì cả"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 37",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī tuījiàn dú \"Sānguó Yǎnyì\" de yuányīn shì shénme?",
+  "cau_hoi_vi": "Lý do thầy giáo giới thiệu đọc Tam Quốc Diễn Nghĩa là gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì yīnwèi gùshì jīngcǎi", "vi": "Chỉ vì câu chuyện hay"},
+   "B": {"pinyin": "Gùshì jīngcǎi, hái néng bāngzhù liǎojiě nà duàn lìshǐ", "vi": "Câu chuyện hay, còn giúp hiểu về giai đoạn lịch sử đó"},
+   "C": {"pinyin": "Yīnwèi kǎoshì huì kǎo", "vi": "Vì thi sẽ ra đề"},
+   "D": {"pinyin": "Yīnwèi zhè shì wéiyī de lìshǐshū", "vi": "Vì đây là cuốn sách lịch sử duy nhất"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 37",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuòzhě zuì xǐhuan de rénwù shì shéi? Wèishénme?",
+  "cau_hoi_vi": "Nhân vật mà tác giả thích nhất là ai? Vì sao?",
+  "options": {
+   "A": {"pinyin": "Guān Yǔ, yīnwèi tā hěn yǒnggǎn", "vi": "Quan Vũ, vì ông rất dũng cảm"},
+   "B": {"pinyin": "Zhūgě Liàng, yīnwèi tā fēicháng cōngmíng, shànyú fēnxī júshì", "vi": "Gia Cát Lượng, vì ông rất thông minh, giỏi phân tích tình thế"},
+   "C": {"pinyin": "Zhāng Fēi, yīnwèi tā hěn zhōngchéng", "vi": "Trương Phi, vì ông rất trung thành"},
+   "D": {"pinyin": "Wénzhāng méiyǒu tídào zuì xǐhuan de rénwù", "vi": "Bài viết không nhắc đến nhân vật yêu thích nhất"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 37",
+  "so": 3,
+  "cau_hoi_pinyin": "Zhūgě Liàng shì zěnme yùcè dàfēng de?",
+  "cau_hoi_vi": "Gia Cát Lượng đã dự đoán gió lớn bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Kào cāicè", "vi": "Dựa vào phỏng đoán"},
+   "B": {"pinyin": "Tōngguò zǐxì guānchá tiānqì de biànhuà", "vi": "Thông qua việc quan sát kỹ sự thay đổi của thời tiết"},
+   "C": {"pinyin": "Biérén gàosu tā de", "vi": "Do người khác nói cho ông biết"},
+   "D": {"pinyin": "Wénzhāng méiyǒu shuōmíng fāngfǎ", "vi": "Bài viết không nói rõ phương pháp"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 37",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī shuō, \"Sānguó Yǎnyì\" gēn zhēnshí lìshǐ yǒu shénme guānxì?",
+  "cau_hoi_vi": "Thầy giáo nói, Tam Quốc Diễn Nghĩa có quan hệ gì với lịch sử thật?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng, méiyǒu rènhé qūbié", "vi": "Hoàn toàn giống nhau, không có bất kỳ khác biệt nào"},
+   "B": {"pinyin": "Shì xiǎoshuō, gēn zhēnshí lìshǐ yǒu yìxiē bùtóng, dàn tǐxiàn de zhìhuì yīrán yǒuyòng", "vi": "Đây là tiểu thuyết, có một số khác biệt so với lịch sử thật, nhưng trí tuệ thể hiện trong đó vẫn còn hữu ích"},
+   "C": {"pinyin": "Wánquán shì xūgòu de, gēn lìshǐ méiyǒu guānxì", "vi": "Hoàn toàn là hư cấu, không liên quan gì đến lịch sử"},
+   "D": {"pinyin": "Bǐ zhēnshí lìshǐ gèng zhǔnquè", "vi": "Chính xác hơn cả lịch sử thật"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 37",
+  "so": 5,
+  "cau_hoi_pinyin": "Dú wán zhè bù xiǎoshuō, zuòzhě yǒu shénme shōuhuò?",
+  "cau_hoi_vi": "Đọc xong cuốn tiểu thuyết này, tác giả thu hoạch được điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì zhīdào le yìxiē lìshǐ shìjiàn", "vi": "Chỉ là biết thêm một số sự kiện lịch sử"},
+   "B": {"pinyin": "Duì lìshǐ yǒu le gèng shēn liǎojiě, yě xuédào le guānyú zhìhuì hé pǐngé de dàolǐ", "vi": "Hiểu sâu hơn về lịch sử, đồng thời học được những đạo lý về trí tuệ và phẩm cách"},
+   "C": {"pinyin": "Juéde dú xiǎoshuō hěn làngfèi shíjiān", "vi": "Cảm thấy đọc tiểu thuyết rất lãng phí thời gian"},
+   "D": {"pinyin": "Juédìng bú zài xuéxí lìshǐ", "vi": "Quyết định không học lịch sử nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 38",
+  "so": 1,
+  "cau_hoi_pinyin": "Lǎoshī shuō, Tángcháo shì Zhōngguó gǔdài shénme fāzhǎn zuì fánróng de shíqī?",
+  "cau_hoi_vi": "Thầy giáo nói, thời Đường là thời kỳ nào phát triển rực rỡ nhất trong lịch sử cổ đại Trung Quốc?",
+  "options": {
+   "A": {"pinyin": "Huìhuà", "vi": "Hội họa"},
+   "B": {"pinyin": "Shīgē", "vi": "Thơ ca"},
+   "C": {"pinyin": "Yīnyuè", "vi": "Âm nhạc"},
+   "D": {"pinyin": "Shūfǎ", "vi": "Thư pháp"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 38",
+  "so": 2,
+  "cau_hoi_pinyin": "Lǐ Bái de shī fēnggé shì zěnyàng de?",
+  "cau_hoi_vi": "Phong cách thơ của Lý Bạch như thế nào?",
+  "options": {
+   "A": {"pinyin": "Púshí, guānzhù pǔtōng bǎixìng", "vi": "Giản dị, quan tâm đến dân thường"},
+   "B": {"pinyin": "Háofàng, cháng yùnyòng kuāzhāng shǒufǎ miáoxiě zhuàngguān jǐngsè", "vi": "Phóng khoáng, thường dùng thủ pháp cường điệu để miêu tả cảnh sắc hùng vĩ"},
+   "C": {"pinyin": "Bēishāng, chénmèn", "vi": "Buồn bã, u uất"},
+   "D": {"pinyin": "Jiǎndān, méiyǒu qínggǎn", "vi": "Đơn giản, không có cảm xúc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 38",
+  "so": 3,
+  "cau_hoi_pinyin": "Dù Fǔ de shī gēn Lǐ Bái bǐ qǐlái, yǒu shénme bùtóng?",
+  "cau_hoi_vi": "Thơ của Đỗ Phủ so với Lý Bạch có gì khác biệt?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng", "vi": "Hoàn toàn giống nhau"},
+   "B": {"pinyin": "Gèngjiā guānzhù pǔtōng bǎixìng de shēnghuó, yǔyán gèng púshí shēnchén", "vi": "Quan tâm nhiều hơn đến cuộc sống của dân thường, ngôn ngữ giản dị và sâu lắng hơn"},
+   "C": {"pinyin": "Gèngjiā háofàng", "vi": "Phóng khoáng hơn"},
+   "D": {"pinyin": "Wánquán bù miáoxiě zìrán jǐngsè", "vi": "Hoàn toàn không miêu tả cảnh sắc thiên nhiên"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 38",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī tíxǐng, dú Tángshī de shíhou yào zhùyì shénme?",
+  "cau_hoi_vi": "Thầy giáo nhắc nhở, khi đọc thơ Đường cần chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ xūyào guānzhù biǎomiàn de yìsi", "vi": "Chỉ cần chú ý đến ý nghĩa bề mặt"},
+   "B": {"pinyin": "Bù néng zhǐ guānzhù biǎomiàn yìsi, gèng yào tǐhuì bèihòu shīrén de xīnqíng hé chǔjìng", "vi": "Không thể chỉ chú ý đến ý nghĩa bề mặt, mà còn phải cảm nhận tâm trạng và hoàn cảnh của nhà thơ đằng sau đó"},
+   "C": {"pinyin": "Bù xūyào lǐjiě shī de nèiróng", "vi": "Không cần hiểu nội dung bài thơ"},
+   "D": {"pinyin": "Zhǐ xūyào jìzhù shīrén de míngzì", "vi": "Chỉ cần nhớ tên nhà thơ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 38",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè jǐ jié guānyú Tángshī de kè, ràng zuòzhě tǐhuì dào le shénme?",
+  "cau_hoi_vi": "Mấy tiết học về thơ Đường này đã giúp tác giả cảm nhận được điều gì?",
+  "options": {
+   "A": {"pinyin": "Tángshī yǐjīng guòshí, méiyǒu yìyì", "vi": "Thơ Đường đã lỗi thời, không có ý nghĩa"},
+   "B": {"pinyin": "Zhōngguó gǔdài wénxué zhōng, jièjǐng shūqíng de dútè mèilì", "vi": "Sức hấp dẫn độc đáo của việc mượn cảnh tả tình trong văn học cổ đại Trung Quốc"},
+   "C": {"pinyin": "Tángshī hěn nán lǐjiě, méiyǒu xìngqù", "vi": "Thơ Đường rất khó hiểu, không có hứng thú"},
+   "D": {"pinyin": "Zhǐyǒu Lǐ Bái de shī zhíde xuéxí", "vi": "Chỉ có thơ Lý Bạch mới đáng học"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 39",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Hónglóu Mèng\" bèi rènwéi shì shénme yàng de yí bù zuòpǐn?",
+  "cau_hoi_vi": "Hồng Lâu Mộng được coi là tác phẩm như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yìshù chéngjiù zuì dī de zuòpǐn", "vi": "Tác phẩm có thành tựu nghệ thuật thấp nhất"},
+   "B": {"pinyin": "Zhōngguó gǔdiǎn xiǎoshuō zhōng yìshù chéngjiù zuì gāo de zuòpǐn zhī yī", "vi": "Một trong những tác phẩm có thành tựu nghệ thuật cao nhất trong tiểu thuyết cổ điển Trung Quốc"},
+   "C": {"pinyin": "Yí bù pǔtōng de àiqíng xiǎoshuō", "vi": "Một cuốn tiểu thuyết tình yêu bình thường"},
+   "D": {"pinyin": "Yí bù lìshǐshū", "vi": "Một cuốn sách lịch sử"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 39",
+  "so": 2,
+  "cau_hoi_pinyin": "Gāng kāishǐ dú de shíhou, zuòzhě yùdào le shénme kùnnán?",
+  "cau_hoi_vi": "Khi mới bắt đầu đọc, tác giả đã gặp phải khó khăn gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu kùnnán", "vi": "Hoàn toàn không gặp khó khăn gì"},
+   "B": {"pinyin": "Rénwù tèbié duō, guānxì fùzá, yídù nányǐ jiānchí", "vi": "Nhân vật quá nhiều, quan hệ phức tạp, có lúc khó mà kiên trì đọc tiếp"},
+   "C": {"pinyin": "Yǔyán tài jiǎndān", "vi": "Ngôn ngữ quá đơn giản"},
+   "D": {"pinyin": "Gùshì tài duǎn", "vi": "Câu chuyện quá ngắn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 39",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě zuì gǎn xìngqù de rénwù shì shéi? Tā de xìnggé shì zěnyàng de?",
+  "cau_hoi_vi": "Nhân vật mà tác giả cảm thấy hứng thú nhất là ai? Tính cách của cô ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "Jiǎ Bǎoyù, xìnggé kāilǎng", "vi": "Giả Bảo Ngọc, tính cách vui vẻ cởi mở"},
+   "B": {"pinyin": "Lín Dàiyù, mǐngǎn, cōngmíng, yǒu cáihuá, dàn dàizhe yōuyù hé cuìruò", "vi": "Lâm Đại Ngọc, nhạy cảm, thông minh, có tài, nhưng mang nét u buồn và yếu đuối"},
+   "C": {"pinyin": "Yí gè pǔtōng de yāhuan", "vi": "Một nha hoàn bình thường"},
+   "D": {"pinyin": "Wénzhāng méiyǒu tídào jùtǐ rénwù", "vi": "Bài viết không nhắc đến nhân vật cụ thể"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 39",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī shuō, \"Hónglóu Mèng\" bù zhǐshì shénme, gèng shì shénme?",
+  "cau_hoi_vi": "Thầy giáo nói, Hồng Lâu Mộng không chỉ là gì, mà còn là gì?",
+  "options": {
+   "A": {"pinyin": "Bù zhǐshì lìshǐshū, gèng shì dìlǐshū", "vi": "Không chỉ là sách lịch sử, mà còn là sách địa lý"},
+   "B": {"pinyin": "Bù zhǐshì àiqíng gùshì, gèng shì fǎnyìng shèhuì xiànshí de wěidà zuòpǐn", "vi": "Không chỉ là câu chuyện tình yêu, mà còn là tác phẩm vĩ đại phản ánh hiện thực xã hội"},
+   "C": {"pinyin": "Bù zhǐshì xiǎoshuō, gèng shì yì běn càipǔ", "vi": "Không chỉ là tiểu thuyết, mà còn là một cuốn sách nấu ăn"},
+   "D": {"pinyin": "Bù zhǐshì wénxué zuòpǐn, gèng shì yīnyuè zuòpǐn", "vi": "Không chỉ là tác phẩm văn học, mà còn là tác phẩm âm nhạc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 39",
+  "so": 5,
+  "cau_hoi_pinyin": "Dú wán zhè bù xiǎoshuō, zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Đọc xong cuốn tiểu thuyết này, tác giả đã hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhè bù xiǎoshuō méiyǒu shénme yánjiū jiàzhí", "vi": "Cuốn tiểu thuyết này không có giá trị nghiên cứu gì"},
+   "B": {"pinyin": "Míngbai le wèishénme yìzhí yǒu xuézhě zhuānmén yánjiū \"Hónglóu Mèng\", yīnwèi nèiróng tài fēngfù shēnkè", "vi": "Hiểu ra vì sao luôn có học giả chuyên nghiên cứu Hồng Lâu Mộng, vì nội dung quá phong phú và sâu sắc"},
+   "C": {"pinyin": "Juédìng bú zài dú gǔdiǎn xiǎoshuō", "vi": "Quyết định không đọc tiểu thuyết cổ điển nữa"},
+   "D": {"pinyin": "Juéde zhè bù xiǎoshuō tài jiǎndān le", "vi": "Cảm thấy cuốn tiểu thuyết này quá đơn giản"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 40",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě zhè ge xuéqī dú wán le nǎ sān bù xiǎoshuō?",
+  "cau_hoi_vi": "Học kỳ này tác giả đã đọc xong ba cuốn tiểu thuyết nào?",
+  "options": {
+   "A": {"pinyin": "\"Xīyóujì\", \"Sānguó Yǎnyì\" hé \"Shuǐhǔ Zhuàn\"", "vi": "Tây Du Ký, Tam Quốc Diễn Nghĩa và Thủy Hử"},
+   "B": {"pinyin": "\"Xīyóujì\", \"Sānguó Yǎnyì\" hé \"Hónglóu Mèng\"", "vi": "Tây Du Ký, Tam Quốc Diễn Nghĩa và Hồng Lâu Mộng"},
+   "C": {"pinyin": "Zhǐ dú le \"Hónglóu Mèng\"", "vi": "Chỉ đọc Hồng Lâu Mộng"},
+   "D": {"pinyin": "Sì bù dōu shì zhè ge xuéqī dú de", "vi": "Cả bốn cuốn đều đọc trong học kỳ này"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 40",
+  "so": 2,
+  "cau_hoi_pinyin": "\"Shuǐhǔ Zhuàn\" jiǎng de shì shénme gùshì?",
+  "cau_hoi_vi": "Thủy Hử kể về câu chuyện gì?",
+  "options": {
+   "A": {"pinyin": "Yìbǎi líng bā wèi hǎohàn jù zài yìqǐ, zǒushàng fǎnkàng dàolù", "vi": "Một trăm lẻ tám vị hảo hán tụ tập lại với nhau, bước lên con đường phản kháng"},
+   "B": {"pinyin": "Yí gè jiāzú yóu xīngshèng zǒuxiàng shuāibài", "vi": "Một gia tộc từ hưng thịnh đi đến suy tàn"},
+   "C": {"pinyin": "Táng Sēng dàizhe túdì qù qǔjīng", "vi": "Đường Tăng dẫn đồ đệ đi lấy kinh"},
+   "D": {"pinyin": "Sān gè guójiā zhēngduó tiānxià", "vi": "Ba nước tranh giành thiên hạ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 40",
+  "so": 3,
+  "cau_hoi_pinyin": "\"Sānguó Yǎnyì\" ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Tam Quốc Diễn Nghĩa đã giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Dāndú de lìliàng bǐ tuánjié gèng qiángdà", "vi": "Sức mạnh đơn lẻ mạnh hơn đoàn kết"},
+   "B": {"pinyin": "Tuánjié yǔ hézuò wǎngwǎng bǐ dāndú de lìliàng gèng qiángdà", "vi": "Đoàn kết và hợp tác thường mạnh hơn sức mạnh đơn lẻ"},
+   "C": {"pinyin": "Lìshǐ gēn zhìhuì méiyǒu guānxì", "vi": "Lịch sử không liên quan gì đến trí tuệ"},
+   "D": {"pinyin": "Zhànzhēng shì jiějué wèntí de wéiyī fāngfǎ", "vi": "Chiến tranh là phương pháp duy nhất để giải quyết vấn đề"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 40",
+  "so": 4,
+  "cau_hoi_pinyin": "Lǎoshī shuō, zhè sì bù zuòpǐn bèi chēngwéi \"míngzhù\" de yuányīn shì shénme?",
+  "cau_hoi_vi": "Thầy giáo nói, lý do bốn tác phẩm này được gọi là \"danh tác\" là gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì yīnwèi tāmen xiě dé bǐjiào cháng", "vi": "Chỉ vì chúng được viết khá dài"},
+   "B": {"pinyin": "Dàibiǎo le dāngshí wénxué chuàngzuò de zuì gāo shuǐpíng, yě yùnhán shēnkè de rénshēng zhìhuì", "vi": "Đại diện cho trình độ sáng tác văn học cao nhất thời bấy giờ, đồng thời chứa đựng trí tuệ nhân sinh sâu sắc"},
+   "C": {"pinyin": "Yīnwèi tāmen dōu shì guānyú lìshǐ de", "vi": "Vì chúng đều nói về lịch sử"},
+   "D": {"pinyin": "Yīnwèi tāmen dōu hěn róngyì dú dǒng", "vi": "Vì chúng đều rất dễ đọc hiểu"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 40",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuòzhě xiāngxìn, jiānglái chóngxīn yuèdú zhè sì bù jīngdiǎn huì zěnyàng?",
+  "cau_hoi_vi": "Tác giả tin rằng, sau này đọc lại bốn tác phẩm kinh điển này sẽ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Bú huì yǒu rènhé xīn de shōuhuò", "vi": "Sẽ không có thu hoạch mới nào"},
+   "B": {"pinyin": "Suízhe niánlíng hé yuèlì zēngzhǎng, néng dú chū gèng duō, gèng shēn de yìyì", "vi": "Cùng với tuổi tác và trải nghiệm tăng lên, sẽ đọc ra được nhiều ý nghĩa sâu sắc hơn"},
+   "C": {"pinyin": "Huì juéde zhèxiē shū yǐjīng guòshí, méiyǒu yìyì", "vi": "Sẽ cảm thấy những cuốn sách này đã lỗi thời, không còn ý nghĩa"},
+   "D": {"pinyin": "Juédìng yǐhòu bú zài yuèdú jīngdiǎn zuòpǐn", "vi": "Quyết định sau này không đọc tác phẩm kinh điển nữa"}
+  }
+ }
+]

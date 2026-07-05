@@ -1,0 +1,422 @@
+[
+ {
+  "bai": "HSK3-Hội thoại 40",
+  "so": 4,
+  "cau_hoi_pinyin": "Yún Yīng tíyì \"dǎ ge dǔ\", dǔ Déshèng gǎn bu gǎn shuōchū xǐ bu xǐhuan zìjǐ, zhège xíngwéi shuōmíngle shénme?",
+  "cau_hoi_vi": "云英 đề nghị \"đánh cược\", cược xem 德盛 có dám nói ra là có thích mình (云英) hay không, hành động này nói lên điều gì?",
+  "options": {
+   "A": {"pinyin": "dǎdǔ", "vi": "đánh cược"},
+   "B": {"pinyin": "yòng wánxiào de fāngshì zhǔdòng shìtàn", "vi": "dùng cách đùa để chủ động dò hỏi"},
+   "C": {"pinyin": "wánquán bù xiǎng zhīdào dá'àn", "vi": "hoàn toàn không muốn biết câu trả lời"},
+   "D": {"pinyin": "zhǐshì suíkǒu yì shuō méiyǒu mùdì", "vi": "chỉ nói lỡ miệng, không có mục đích"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 40",
+  "so": 5,
+  "cau_hoi_pinyin": "Déshèng huídá \"Wǒ xǐhuan nǐ, dá'àn yìzhí dōu zài, zhǐshì méi rén wèn\" zhīhòu, Yún Yīng de fǎnyìng shuōmíngle shénme?",
+  "cau_hoi_vi": "Sau khi 德盛 trả lời \"Anh thích em, câu trả lời vẫn luôn ở đó, chỉ là chưa ai hỏi\", phản ứng của 云英 nói lên điều gì?",
+  "options": {
+   "A": {"pinyin": "liǎnhóng", "vi": "đỏ mặt"},
+   "B": {"pinyin": "bèi zhíjiē de tǎnbái nòng de yòu jīng yòu xǐ", "vi": "bị lời thổ lộ trực tiếp làm vừa bất ngờ vừa vui"},
+   "C": {"pinyin": "wánquán bù xiāngxìn Déshèng", "vi": "hoàn toàn không tin 德盛"},
+   "D": {"pinyin": "juéde Déshèng zài kāiwánxiào", "vi": "cho rằng 德盛 đang đùa"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 14",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng gāozhōng shíhou yǒu shénme xíguàn?",
+  "cau_hoi_vi": "德盛 hồi cấp ba có thói quen gì?",
+  "options": {
+   "A": {"pinyin": "Měitiān xiě rìjì", "vi": "mỗi ngày viết nhật ký"},
+   "B": {"pinyin": "Měitiān xiě xìn", "vi": "mỗi ngày viết thư"},
+   "C": {"pinyin": "Měitiān pāizhào", "vi": "mỗi ngày chụp ảnh"},
+   "D": {"pinyin": "Měitiān huàhuà", "vi": "mỗi ngày vẽ tranh"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 14",
+  "so": 2,
+  "cau_hoi_pinyin": "Déshèng shì zěnme fāxiàn zìjǐ rìjì lǐ cháng chūxiàn nà wèi tóngxué de?",
+  "cau_hoi_vi": "德盛 phát hiện ra bạn học đó thường xuất hiện trong nhật ký của mình bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Biérén gàosu tā de", "vi": "do người khác nói cho anh ấy biết"},
+   "B": {"pinyin": "Zìjǐ fānkàn yǐqián xiě de rìjì shí cái fāxiàn", "vi": "tự mình lật xem cuốn nhật ký đã viết trước đây mới phát hiện ra"},
+   "C": {"pinyin": "Nà wèi tóngxué zìjǐ shuō de", "vi": "do chính bạn học đó nói ra"},
+   "D": {"pinyin": "Lǎoshī tíxǐng tā de", "vi": "do thầy/cô nhắc nhở anh ấy"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 14",
+  "so": 3,
+  "cau_hoi_pinyin": "Fāxiàn zhè jiàn shì yǐhòu, Déshèng xīnlǐ yǒule shénme yuànwàng?",
+  "cau_hoi_vi": "Sau khi phát hiện chuyện này, trong lòng 德盛 nảy sinh nguyện vọng gì?",
+  "options": {
+   "A": {"pinyin": "Xiǎng huàn yì běn xīn de rìjìběn", "vi": "muốn đổi một cuốn nhật ký mới"},
+   "B": {"pinyin": "Xīwàng yǐhòu xiě de měi yí yè rìjì, dōu néng jìxù yǒu tā de míngzì", "vi": "mong rằng sau này mỗi trang nhật ký viết ra đều tiếp tục có tên của cô ấy"},
+   "C": {"pinyin": "Xiǎng bú zài xiě rìjì le", "vi": "không muốn viết nhật ký nữa"},
+   "D": {"pinyin": "Xiǎng bǎ rìjì gěi tā kàn", "vi": "muốn đưa nhật ký cho cô ấy xem"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 14",
+  "so": 4,
+  "cau_hoi_pinyin": "Déshèng yǒu méiyǒu zhíjiē gàosu nà wèi tóngxué zhè jiàn shì?",
+  "cau_hoi_vi": "德盛 có trực tiếp nói cho bạn học đó biết chuyện này không?",
+  "options": {
+   "A": {"pinyin": "Yǒu, tā zǎo jiù shuō le", "vi": "Có, anh ấy đã nói từ lâu rồi"},
+   "B": {"pinyin": "Méiyǒu, zhǐshì zìjǐ xīnlǐ yìzhí zhèyàng xiǎng", "vi": "Không, chỉ là trong lòng luôn tự nghĩ như vậy"},
+   "C": {"pinyin": "Tōngguò xiě xìn gàosu tā le", "vi": "thông qua viết thư để nói cho cô ấy biết"},
+   "D": {"pinyin": "Qǐng péngyou bāngmáng shuō de", "vi": "nhờ bạn bè nói giúp"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 14",
+  "so": 5,
+  "cau_hoi_pinyin": "Yún Yīng rènwéi, méi shuōchūkǒu de xīnyì huì zěnmeyàng?",
+  "cau_hoi_vi": "云英 cho rằng, tình cảm chưa nói ra sẽ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Hěn kuài jiù huì bèi wàngjì", "vi": "sẽ nhanh chóng bị quên lãng"},
+   "B": {"pinyin": "Fǎn'ér huì bèi jìde gèng jiǔ", "vi": "ngược lại sẽ được nhớ lâu hơn"},
+   "C": {"pinyin": "Wánquán méiyǒu yìyì", "vi": "hoàn toàn không có ý nghĩa"},
+   "D": {"pinyin": "Yīnggāi jǐnkuài shuō chūlái", "vi": "nên nói ra càng sớm càng tốt"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 15",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng shuō, gāo sān nà nián tā de shēnghuó jīběn shàng shì zěnyàng de?",
+  "cau_hoi_vi": "德盛 nói năm lớp 12 cuộc sống của anh ấy về cơ bản như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng fēngfù duōcǎi", "vi": "vô cùng phong phú đa dạng"},
+   "B": {"pinyin": "Shàngkè, xiě zuòyè, kǎoshì, gǎnjué tèbié dāndiào", "vi": "lên lớp, làm bài tập, thi cử, cảm thấy đặc biệt đơn điệu"},
+   "C": {"pinyin": "Měitiān dōu zài wán", "vi": "ngày nào cũng chơi"},
+   "D": {"pinyin": "Wánquán méiyǒu yālì", "vi": "hoàn toàn không có áp lực"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 15",
+  "so": 2,
+  "cau_hoi_pinyin": "Déshèng de tóngzhuō shì zěnme guānxīn tā de?",
+  "cau_hoi_vi": "Bạn cùng bàn của 德盛 quan tâm anh ấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhíjiē gàosu tā yào zhùyì chī zǎofàn", "vi": "trực tiếp bảo anh ấy chú ý ăn sáng"},
+   "B": {"pinyin": "Tōutōu bǎ niúnǎi fàng jìn tā de shūzhuō lǐ, méiyǒu shuō", "vi": "lặng lẽ để sữa vào ngăn bàn của anh ấy, không nói gì"},
+   "C": {"pinyin": "Qǐng lǎoshī tíxǐng tā", "vi": "nhờ thầy cô nhắc nhở anh ấy"},
+   "D": {"pinyin": "Sòng gěi tā hěn guì de lǐwù", "vi": "tặng anh ấy món quà rất đắt tiền"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 15",
+  "so": 3,
+  "cau_hoi_pinyin": "Déshèng shì zěnme fāxiàn tóngzhuō fàng niúnǎi zhè jiàn shì de?",
+  "cau_hoi_vi": "德盛 phát hiện ra chuyện bạn cùng bàn để sữa bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Tóngzhuō zhíjiē gàosu tā de", "vi": "do bạn cùng bàn trực tiếp nói cho anh ấy biết"},
+   "B": {"pinyin": "Zìjǐ dǎkāi shūzhuō de shíhou fāxiàn de", "vi": "tự mình mở ngăn bàn ra thì phát hiện"},
+   "C": {"pinyin": "Biéde tóngxué gàosu tā de", "vi": "do bạn học khác nói cho anh ấy biết"},
+   "D": {"pinyin": "Lǎoshī shuō de", "vi": "do thầy cô nói"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 15",
+  "so": 4,
+  "cau_hoi_pinyin": "Tóngzhuō wèishénme zài xiàoménkǒu de shù xià děng Déshèng?",
+  "cau_hoi_vi": "Tại sao bạn cùng bàn đứng dưới gốc cây ở cổng trường đợi 德盛?",
+  "options": {
+   "A": {"pinyin": "Tā yě yào liú xiàlái dǎsǎo jiàoshì", "vi": "cô ấy cũng phải ở lại dọn dẹp lớp học"},
+   "B": {"pinyin": "Pà tā yí gè rén zǒu nà duàn méiyǒu dēng de lù bù ānquán, xiǎng péi tā zǒu", "vi": "sợ anh ấy đi một mình trên đoạn đường không có đèn không an toàn, nên muốn đi cùng anh ấy"},
+   "C": {"pinyin": "Tā wàngjì huí jiā le", "vi": "cô ấy quên mất việc về nhà"},
+   "D": {"pinyin": "Lǎoshī ràng tā děng de", "vi": "do thầy cô bảo cô ấy đợi"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 15",
+  "so": 5,
+  "cau_hoi_pinyin": "Yún Yīng zuìhòu shuō, xìxiǎo de guānxīn wǎngwǎng huì zěnmeyàng?",
+  "cau_hoi_vi": "云英 cuối cùng nói rằng, sự quan tâm nhỏ bé thường sẽ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Hěn kuài jiù bèi wàngjì", "vi": "rất nhanh sẽ bị lãng quên"},
+   "B": {"pinyin": "Bǐ hěn duō dà de lǐwù, gèng ràng rén jìdezhù", "vi": "khiến người ta nhớ lâu hơn nhiều món quà lớn"},
+   "C": {"pinyin": "Wánquán méiyǒu yìyì", "vi": "hoàn toàn không có ý nghĩa"},
+   "D": {"pinyin": "Bùrú zhíjiē shuō chūlái", "vi": "chẳng bằng nói thẳng ra"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 16",
+  "so": 1,
+  "cau_hoi_pinyin": "Déshèng chéngjì diào le yǐhòu, xīnlǐ gǎnjué zěnyàng?",
+  "cau_hoi_vi": "Sau khi điểm số của 德盛 tụt xuống, trong lòng anh ấy cảm thấy thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán bú zàiyì", "vi": "hoàn toàn không bận tâm"},
+   "B": {"pinyin": "Tèbié nánguò, juéde ràng dàjiā dōu shīwàng le", "vi": "rất buồn, cảm thấy mình đã làm mọi người thất vọng"},
+   "C": {"pinyin": "Juéde hěn qīngsōng", "vi": "cảm thấy rất nhẹ nhõm"},
+   "D": {"pinyin": "Juédìng fàngqì xuéxí", "vi": "quyết định từ bỏ việc học"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 16",
+  "so": 2,
+  "cau_hoi_pinyin": "Nà wèi tóngxué shì zěnme guānxīn Déshèng de?",
+  "cau_hoi_vi": "Bạn học đó quan tâm 德盛 như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì shuō \"xià cì huì gèng hǎo\"", "vi": "chỉ nói \"lần sau sẽ tốt hơn\""},
+   "B": {"pinyin": "Rènzhēn wèn tā shì bu shì tài lèi le, shì bu shì gāi duō xiūxi", "vi": "nghiêm túc hỏi anh ấy có phải quá mệt không, có nên nghỉ ngơi nhiều hơn không"},
+   "C": {"pinyin": "Wánquán méiyǒu guānxīn tā", "vi": "hoàn toàn không quan tâm anh ấy"},
+   "D": {"pinyin": "Pīpíng tā bú gòu nǔlì", "vi": "phê bình anh ấy không đủ cố gắng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 16",
+  "so": 3,
+  "cau_hoi_pinyin": "Nà wèi tóngxué shuō, tā xīwàng Déshèng zěnyàng?",
+  "cau_hoi_vi": "Bạn học đó nói rằng, cô ấy mong 德盛 như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yìzhí kǎo dì yī míng", "vi": "luôn thi đứng nhất"},
+   "B": {"pinyin": "Kāikaixīnxīn de, jiànjiànkāngkāng de, gēn tā yìqǐ hǎohǎo dùguò měi yì tiān", "vi": "vui vẻ, khỏe mạnh, cùng cô ấy sống thật tốt từng ngày"},
+   "C": {"pinyin": "Huàn yí gè xuéxiào", "vi": "chuyển sang trường khác"},
+   "D": {"pinyin": "Bú yào zài gēn tā shuōhuà", "vi": "đừng nói chuyện với cô ấy nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 16",
+  "so": 4,
+  "cau_hoi_pinyin": "Tīngwán zhè jù huà, Déshèng hòulái xuéhuì le shénme?",
+  "cau_hoi_vi": "Nghe xong câu này, sau đó 德盛 đã học được điều gì?",
+  "options": {
+   "A": {"pinyin": "Gèngjiā nǔlì zhuīqiú dì yī míng", "vi": "càng nỗ lực theo đuổi vị trí thứ nhất"},
+   "B": {"pinyin": "Bú yào bǎ suǒyǒu jiàzhí dōu fàng zài chéngjì shàngmiàn, yě yào zhàogù hǎo shēntǐ hé xīnqíng", "vi": "không nên đặt hết giá trị vào điểm số, cũng cần chăm sóc tốt sức khỏe và tâm trạng"},
+   "C": {"pinyin": "Juédìng bú zài xuéxí", "vi": "quyết định không học nữa"},
+   "D": {"pinyin": "Wánquán bú zàiyì biérén de kànfǎ", "vi": "hoàn toàn không quan tâm suy nghĩ của người khác"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 16",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiànzài, Déshèng zěnme kàndài nà duàn gǎnqíng hé nà duàn shíguāng?",
+  "cau_hoi_vi": "Bây giờ, 德盛 nhìn nhận mối tình đó và khoảng thời gian đó như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde wánquán méiyǒu yìyì", "vi": "cảm thấy hoàn toàn không có ý nghĩa"},
+   "B": {"pinyin": "Juéde shì yí duàn hěn zhēnguì de shíguāng, yǐngxiǎng yìzhí dōu zài", "vi": "cảm thấy đó là một khoảng thời gian rất quý giá, ảnh hưởng vẫn còn mãi"},
+   "C": {"pinyin": "Yǐjīng wánquán wàngjì le", "vi": "đã hoàn toàn quên rồi"},
+   "D": {"pinyin": "Juéde hěn hòuhuǐ", "vi": "cảm thấy rất hối hận"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 21",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhìyuǎn shuō, zuò shēngyi zhè xiē nián, tā xíguàn le shénmeyàng de sīkǎo fāngshì?",
+  "cau_hoi_vi": "志远 nói rằng, những năm làm kinh doanh này, anh ấy đã quen với kiểu tư duy như thế nào?",
+  "options": {
+   "A": {"pinyin": "Suíbiàn zuò juédìng", "vi": "tùy tiện đưa ra quyết định"},
+   "B": {"pinyin": "Rènhé juédìng qián xiān jìsuàn chéngběn hé lìrùn", "vi": "trước bất kỳ quyết định nào đều tính toán chi phí và lợi nhuận trước"},
+   "C": {"pinyin": "Wánquán bù kǎolǜ fēngxiǎn", "vi": "hoàn toàn không cân nhắc rủi ro"},
+   "D": {"pinyin": "Ràng biérén bāng tā juédìng", "vi": "để người khác quyết định giúp"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 21",
+  "so": 2,
+  "cau_hoi_pinyin": "Gōngsī yùdào kùnnan de shíhou, hěn duō hézuò huǒbàn shì zěnme zuò de?",
+  "cau_hoi_vi": "Khi công ty gặp khó khăn, nhiều đối tác hợp tác đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Yìzhí zhīchí Zhìyuǎn", "vi": "luôn ủng hộ 志远"},
+   "B": {"pinyin": "Fēnfēn kāishǐ kǎolǜ tuìchū, dānxīn zìjǐ de lìyì", "vi": "lần lượt bắt đầu tính chuyện rút lui, lo lắng cho lợi ích của bản thân"},
+   "C": {"pinyin": "Zhǔdòng tígōng gèng duō zījīn", "vi": "chủ động cung cấp thêm vốn"},
+   "D": {"pinyin": "Wánquán méiyǒu shòudào yǐngxiǎng", "vi": "hoàn toàn không bị ảnh hưởng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 21",
+  "so": 3,
+  "cau_hoi_pinyin": "Nà duàn kùnnan shíqī, nǚpéngyou shì zěnme zuò de?",
+  "cau_hoi_vi": "Trong giai đoạn khó khăn đó, bạn gái đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Yě xuǎnzé líkāi", "vi": "cũng chọn cách rời đi"},
+   "B": {"pinyin": "Yìzhí zài pángbiān péizhe tā, ānjìng de zhīchí tā", "vi": "luôn ở bên cạnh anh ấy, lặng lẽ ủng hộ anh ấy"},
+   "C": {"pinyin": "Yāoqiú tā xiān jiějué cáiwù wèntí", "vi": "yêu cầu anh ấy giải quyết vấn đề tài chính trước"},
+   "D": {"pinyin": "Wánquán bù guānxīn", "vi": "hoàn toàn không quan tâm"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 21",
+  "so": 4,
+  "cau_hoi_pinyin": "Rúguǒ ànzhào zuò shēngyi de luójí, Zhìyuǎn yīnggāi zěnme duìdài zhè duàn gǎnqíng?",
+  "cau_hoi_vi": "Nếu theo logic làm kinh doanh, 志远 nên đối xử với mối tình này như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán bú yòng kǎolǜ", "vi": "hoàn toàn không cần cân nhắc"},
+   "B": {"pinyin": "Jǐnshèn de pínggū, zhí bu zhíde tóurù zhème duō jīnglì", "vi": "đánh giá thận trọng xem có đáng để đầu tư nhiều tâm sức như vậy không"},
+   "C": {"pinyin": "Mǎshàng jiéshù zhè duàn gǎnqíng", "vi": "kết thúc mối tình này ngay lập tức"},
+   "D": {"pinyin": "Gēn tā zuò shēngyi", "vi": "làm ăn kinh doanh với cô ấy"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 21",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhìyuǎn zuìhòu shuō, zhè duàn gǎnqíng duì tā lái shuō shì shénme?",
+  "cau_hoi_vi": "志远 cuối cùng nói rằng, mối tình này đối với anh ấy là gì?",
+  "options": {
+   "A": {"pinyin": "Yí cì shībài de tóuzī", "vi": "một lần đầu tư thất bại"},
+   "B": {"pinyin": "Shēnghuó lǐ wéiyī yí cì wánquán bú jìsuàn chéngběn de \"tóuzī\"", "vi": "\"khoản đầu tư\" duy nhất trong đời hoàn toàn không tính toán chi phí"},
+   "C": {"pinyin": "Gēn zuò shēngyi wánquán yíyàng de shìqing", "vi": "chuyện hoàn toàn giống như làm kinh doanh"},
+   "D": {"pinyin": "Yí cì xūyào jǐnshèn pínggū de juédìng", "vi": "một quyết định cần đánh giá thận trọng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 22",
+  "so": 1,
+  "cau_hoi_pinyin": "Zài shāngyè shàng, \"lǒngduàn\" tōngcháng bèi rènwéi shì zěnyàng de xiànxiàng?",
+  "cau_hoi_vi": "Trong kinh doanh, \"độc quyền\" thường được coi là hiện tượng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Duì shìchǎng hěn jiànkāng", "vi": "rất tốt cho sức khỏe thị trường"},
+   "B": {"pinyin": "Bú tài hǎo, yīnwèi huì shānghài jìngzhēng, duì shìchǎng bú jiànkāng", "vi": "không tốt lắm, vì sẽ gây tổn hại đến cạnh tranh, không tốt cho thị trường"},
+   "C": {"pinyin": "Wánquán méiyǒu yǐngxiǎng", "vi": "hoàn toàn không có ảnh hưởng"},
+   "D": {"pinyin": "Zhǐ duì xiāofèizhě yǒu hǎochù", "vi": "chỉ có lợi cho người tiêu dùng"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 22",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhìyuǎn shuō, zuò shēngyi de shíhou, tā tíxǐng tuánduì yào zhùyì shénme?",
+  "cau_hoi_vi": "志远 nói rằng, khi làm kinh doanh, anh ấy nhắc nhở đội ngũ phải chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Jǐnliàng zhànjù gèng dà de shìchǎng", "vi": "cố gắng chiếm lĩnh thị phần lớn hơn"},
+   "B": {"pinyin": "Bù néng ràng mǒu gè kèhù huò chǎnpǐn zhànjù tài dà bǐlì, yào fēnsàn fēngxiǎn", "vi": "không thể để một khách hàng hay sản phẩm nào đó chiếm tỷ trọng quá lớn, cần phân tán rủi ro"},
+   "C": {"pinyin": "Zhǐ gēn yí gè kèhù hézuò", "vi": "chỉ hợp tác với một khách hàng duy nhất"},
+   "D": {"pinyin": "Wánquán bú yòng kǎolǜ fēngxiǎn", "vi": "hoàn toàn không cần cân nhắc rủi ro"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 22",
+  "so": 3,
+  "cau_hoi_pinyin": "Zài gǎnqíng zhè jiàn shì shàng, Zhìyuǎn de xiǎngfǎ shì zěnyàng de?",
+  "cau_hoi_vi": "Về vấn đề tình cảm, suy nghĩ của 志远 như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yě xīwàng fēnsàn, gēn shāngyè yuánzé yíyàng", "vi": "cũng mong muốn phân tán, giống như nguyên tắc kinh doanh"},
+   "B": {"pinyin": "Wánquán bù xiǎng fēnsàn, xīwàng zìjǐ shì tā xīnlǐ wéiyī, méiyǒu jìngzhēng duìshǒu de cúnzài", "vi": "hoàn toàn không muốn phân tán, mong mình là duy nhất trong lòng cô ấy, không có đối thủ cạnh tranh nào"},
+   "C": {"pinyin": "Wánquán bú zàiyì zhège wèntí", "vi": "hoàn toàn không bận tâm đến vấn đề này"},
+   "D": {"pinyin": "Xīwàng tā xīnlǐ yǒu hěn duō rén", "vi": "mong rằng trong lòng cô ấy có nhiều người"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 22",
+  "so": 4,
+  "cau_hoi_pinyin": "Zhìyuǎn rènwéi, shāngyè shàng de \"lǒngduàn\" hé gǎnqíng lǐ de \"dúyīwú'èr\", yǒu shénme bùtóng?",
+  "cau_hoi_vi": "志远 cho rằng, \"độc quyền\" trong kinh doanh và \"độc nhất vô nhị\" trong tình cảm khác nhau ở điểm gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng, méiyǒu qūbié", "vi": "hoàn toàn giống nhau, không có khác biệt"},
+   "B": {"pinyin": "Shāngyè lǒngduàn shānghài biérén lìyì, gǎnqíng lǐ de dúyīwú'èr bú huì shānghài rènhé rén", "vi": "độc quyền kinh doanh gây tổn hại lợi ích người khác, còn độc nhất vô nhị trong tình cảm không làm tổn thương ai"},
+   "C": {"pinyin": "Liǎng zhě dōu huì shānghài biérén", "vi": "cả hai đều gây tổn hại cho người khác"},
+   "D": {"pinyin": "Liǎng zhě dōu bú huì shānghài rènhé rén", "vi": "cả hai đều không làm tổn thương ai"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 22",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhìyuǎn zuìhòu shuō, gǎnqíng ràng tā míngbai le shénme?",
+  "cau_hoi_vi": "志远 cuối cùng nói rằng, tình cảm đã giúp anh ấy hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Shāngyè guīzé yǒngyuǎn bù néng gǎibiàn", "vi": "quy tắc kinh doanh vĩnh viễn không thể thay đổi"},
+   "B": {"pinyin": "Yǒuxiē guīzé, kěyǐ wèi yí gè rén chóngxīn dìngyì", "vi": "có những quy tắc, có thể được định nghĩa lại vì một người"},
+   "C": {"pinyin": "Gǎnqíng gēn shāngyè guīzé wánquán méiyǒu guānxi", "vi": "tình cảm hoàn toàn không liên quan gì đến quy tắc kinh doanh"},
+   "D": {"pinyin": "Yīnggāi bǎ shāngyè guīzé yòng dào gǎnqíng lǐ", "vi": "nên áp dụng quy tắc kinh doanh vào tình cảm"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 19",
+  "so": 1,
+  "cau_hoi_pinyin": "Dàwěi de gōngzuò shì zuò shénme?",
+  "cau_hoi_vi": "Công việc của 大伟 là làm gì?",
+  "options": {
+   "A": {"pinyin": "Jiāoshū", "vi": "dạy học"},
+   "B": {"pinyin": "Ānpái huòwù de yùnshū lùxiàn", "vi": "sắp xếp tuyến đường vận chuyển hàng hóa"},
+   "C": {"pinyin": "Zuòfàn", "vi": "nấu ăn"},
+   "D": {"pinyin": "Mài dōngxi", "vi": "bán đồ"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 19",
+  "so": 2,
+  "cau_hoi_pinyin": "Yǒu yí cì Dàwěi gōngzuò dào shēnyè, shì yīnwèi shénme?",
+  "cau_hoi_vi": "Có một lần 大伟 làm việc đến khuya, là vì sao?",
+  "options": {
+   "A": {"pinyin": "Tā zìjǐ xiǎng jiābān", "vi": "do anh ấy tự muốn tăng ca"},
+   "B": {"pinyin": "Gōngsī xìtǒng chū wèntí, dìngdān sònghuò shíjiān bèi yánwù", "vi": "hệ thống công ty gặp trục trặc, thời gian giao hàng của đơn hàng bị chậm trễ"},
+   "C": {"pinyin": "Lǎobǎn ràng tā jiābān", "vi": "do sếp bảo anh ấy tăng ca"},
+   "D": {"pinyin": "Méiyǒu yuányīn", "vi": "không có lý do"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 19",
+  "so": 3,
+  "cau_hoi_pinyin": "Nà tiān wǎnshang, nǚpéngyou shì zěnme fǎnyìng de?",
+  "cau_hoi_vi": "Tối hôm đó, bạn gái đã phản ứng như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shēngqì de dǎ diànhuà gěi tā", "vi": "tức giận gọi điện cho anh ấy"},
+   "B": {"pinyin": "Ràng tā xiān chǔlǐ hǎo gōngzuò, shuō huì yìzhí děng tā xiàbān", "vi": "bảo anh ấy cứ xử lý xong công việc trước, nói sẽ luôn đợi anh ấy tan làm"},
+   "C": {"pinyin": "Wánquán bù lǐ tā", "vi": "hoàn toàn không để ý đến anh ấy"},
+   "D": {"pinyin": "Ràng tā mǎshàng huí jiā", "vi": "bảo anh ấy về nhà ngay lập tức"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 19",
+  "so": 4,
+  "cau_hoi_pinyin": "Dàwěi shuō, zài gōngzuò hé gǎnqíng lǐ, tā fēnbié shì zěnme ānpái \"shùnxù\" de?",
+  "cau_hoi_vi": "大伟 nói rằng, trong công việc và tình cảm, anh ấy sắp xếp \"thứ tự ưu tiên\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán yíyàng, dōu ànzhào xìtǒng ānpái", "vi": "hoàn toàn giống nhau, đều sắp xếp theo hệ thống"},
+   "B": {"pinyin": "Gōngzuò shàng gěi měi gè dìngdān ānpái zuì kuài lùxiàn, gǎnqíng shàng zǒng huì xiān bǎ shíjiān liú gěi tā", "vi": "trong công việc thì sắp xếp tuyến đường nhanh nhất cho từng đơn hàng, còn trong tình cảm thì luôn dành thời gian cho cô ấy trước"},
+   "C": {"pinyin": "Gǎnqíng wánquán bù xūyào ānpái shíjiān", "vi": "tình cảm hoàn toàn không cần sắp xếp thời gian"},
+   "D": {"pinyin": "Gōngzuò bǐ gǎnqíng gèng zhòngyào", "vi": "công việc quan trọng hơn tình cảm"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 19",
+  "so": 5,
+  "cau_hoi_pinyin": "Jiāyí bǎ nǚpéngyou bǐyù chéng shénme?",
+  "cau_hoi_vi": "佳怡 ví bạn gái (của 大伟) như là gì?",
+  "options": {
+   "A": {"pinyin": "Yí gè pǔtōng de dìngdān", "vi": "một đơn hàng bình thường"},
+   "B": {"pinyin": "Dàwěi xīnlǐ yǒngyuǎn pái zài dì yī wèi de \"mùdìdì\"", "vi": "\"điểm đến\" luôn xếp vị trí số một trong lòng 大伟"},
+   "C": {"pinyin": "Xìtǒng lǐ de yí gè cuòwù", "vi": "một lỗi trong hệ thống"},
+   "D": {"pinyin": "Gēn gōngzuò méiyǒu guānxi de rén", "vi": "người không liên quan gì đến công việc"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 20",
+  "so": 1,
+  "cau_hoi_pinyin": "Zài wùliú hángyè, yùdào tiānqì bù hǎo huò dàolù fēng le, yìbān zěnme chǔlǐ?",
+  "cau_hoi_vi": "Trong ngành logistics, khi gặp thời tiết xấu hoặc đường bị phong tỏa, thường xử lý như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shénme dōu bú zuò", "vi": "không làm gì cả"},
+   "B": {"pinyin": "Tíqián zhǔnbèi bèiyòng fāng'àn, kěyǐ mǎshàng huàn lùxiàn", "vi": "chuẩn bị trước phương án dự phòng, có thể đổi tuyến đường ngay lập tức"},
+   "C": {"pinyin": "Tíngzhǐ suǒyǒu gōngzuò", "vi": "dừng toàn bộ công việc"},
+   "D": {"pinyin": "Ràng kèhù zìjǐ jiějué", "vi": "để khách hàng tự giải quyết"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 20",
+  "so": 2,
+  "cau_hoi_pinyin": "Dàwěi shuō, zhège hángyè de jīběn yuánzé shì shénme?",
+  "cau_hoi_vi": "大伟 nói rằng, nguyên tắc cơ bản của ngành này là gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ yīlài yí gè fāng'àn jiù gòu le", "vi": "chỉ cần dựa vào một phương án là đủ"},
+   "B": {"pinyin": "Yǒngyuǎn bù néng zhǐ yīlài yí gè fāng'àn, bùrán fēngxiǎn tài dà", "vi": "vĩnh viễn không được chỉ dựa vào một phương án duy nhất, nếu không rủi ro sẽ rất lớn"},
+   "C": {"pinyin": "Bù xūyào tíqián zhǔnbèi", "vi": "không cần chuẩn bị trước"},
+   "D": {"pinyin": "Wánquán bú yòng kǎolǜ fēngxiǎn", "vi": "hoàn toàn không cần cân nhắc rủi ro"}
+  }
+ },
+ {
+  "bai": "HSK3-Hội thoại 20",
+  "so": 3,
+  "cau_hoi_pinyin": "Zài gǎnqíng fāngmiàn, Dàwěi yǒu méiyǒu gěi zìjǐ liú \"bèiyòng xuǎnxiàng\"?",
+  "cau_hoi_vi": "Về mặt tình cảm, 大伟 có để lại cho mình \"phương án dự phòng\" không?",
+  "options": {
+   "A": {"pinyin": "Yǒu, gēn gōngzuò yíyàng", "vi": "Có, giống như trong công việc"},
+   "B": {"pinyin": "Méiyǒu, cóng quèdìng xǐhuan tā nà yí kè qǐ, jiù méi xiǎngguò liú bèiyòng xuǎnxiàng", "vi": "Không, từ khoảnh khắc xác định là thích cô ấy, anh ấy chưa từng nghĩ đến việc để lại phương án dự phòng"},
+   "C": {"pinyin": "Bú quèdìng", "vi": "không chắc chắn"},
+   "D": {"pinyin": "Wénzhāng méiyǒu tídào", "vi": "bài viết không đề cập đến"}
+  }
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK2-Bài 30",
+  "so": 2,
+  "cau_hoi_pinyin": "Māma shì zěnme bāngzhù \"wǒ\" tiáozhěng xīntài de?",
+  "cau_hoi_vi": "Mẹ đã giúp \"tôi\" điều chỉnh tâm lý như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shuō yǐhòu kěyǐ bú yòng xué shùxué le", "vi": "Nói rằng sau này có thể không cần học toán nữa"},
+   "B": {"pinyin": "Shuō zhòngyào de shì yǒu méiyǒu zhēn de nǔlì qù xué, bú shì zhǐ kàn chéngjì", "vi": "Nói rằng điều quan trọng là có thực sự nỗ lực học hay không, chứ không chỉ nhìn vào điểm số"},
+   "C": {"pinyin": "Bāng \"wǒ\" qǐng le yí wèi shùxué jiājiào", "vi": "Giúp \"tôi\" mời một gia sư dạy toán"},
+   "D": {"pinyin": "Shuō zhè cì kǎo bù hǎo yě méi guānxì, fǎnzhèng xià cì zài kǎo", "vi": "Nói rằng lần này thi không tốt cũng không sao, dù sao lần sau còn thi lại"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 30",
+  "so": 3,
+  "cau_hoi_pinyin": "Tīng le māma de huà yǐhòu, \"wǒ\" shì zěnme tiáozhěng zìjǐ de?",
+  "cau_hoi_vi": "Sau khi nghe lời mẹ nói, \"tôi\" đã điều chỉnh bản thân như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juédìng bú zài xué shùxué le", "vi": "Quyết định không học toán nữa"},
+   "B": {"pinyin": "Bú zài zhǐ xiǎngzhe fēnshù, ér shì zhuānxīn bǎ měi dào tí nòngdǒng", "vi": "Không còn chỉ nghĩ đến điểm số nữa, mà tập trung hiểu rõ từng câu hỏi"},
+   "C": {"pinyin": "Juédìng huàn yí gè xīn de xuéxí jìhuàbiǎo", "vi": "Quyết định đổi một thời gian biểu học tập mới"},
+   "D": {"pinyin": "Qǐngqiú lǎoshī jiàngdī kǎoshì nándù", "vi": "Xin thầy cô giảm bớt độ khó của bài thi"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 30",
+  "so": 4,
+  "cau_hoi_pinyin": "Zǒu chū kǎochǎng de shíhòu, \"wǒ\" de gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Khi bước ra khỏi phòng thi, cảm giác của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng jǐnzhāng, pà zìjǐ kǎo de bù hǎo", "vi": "Rất căng thẳng, sợ mình thi không tốt"},
+   "B": {"pinyin": "Bìng bú xiàng yǐqián nàyàng jǐnzhāng, fǎn'ér yǒu yì zhǒng tāshi de gǎnjué", "vi": "Không còn căng thẳng như trước nữa, ngược lại có một cảm giác yên tâm"},
+   "C": {"pinyin": "Wánquán bú zàihu kǎoshì jiéguǒ", "vi": "Hoàn toàn không quan tâm đến kết quả thi"},
+   "D": {"pinyin": "Juéde kǎoshì tài jiǎndān le", "vi": "Cảm thấy bài thi quá đơn giản"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 30",
+  "so": 5,
+  "cau_hoi_pinyin": "Lǎoshī zài chéngjìdān shàng xiě de nà jù huà, zhǔyào xiǎng biǎodá shénme?",
+  "cau_hoi_vi": "Câu thầy/cô viết trên phiếu điểm chủ yếu muốn nói lên điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhǐ yǒu kǎo gāofēn cái zhíde biǎoyáng", "vi": "Chỉ có thi được điểm cao mới đáng được khen ngợi"},
+   "B": {"pinyin": "Kàndào \"wǒ\" zhēnzhèng de nǔlì, zhè zhǒng tàidù bǐ fēnshù gèng ràng lǎoshī gāoxìng", "vi": "Nhìn thấy sự nỗ lực thực sự của \"tôi\", thái độ này khiến thầy cô vui hơn cả điểm số"},
+   "C": {"pinyin": "\"Wǒ\" zhè cì kǎoshì yùnqì hěn hǎo", "vi": "Lần thi này \"tôi\" gặp may mắn"},
+   "D": {"pinyin": "Shùxué chéngjì hái xūyào jìxù tígāo hěn duō", "vi": "Điểm toán vẫn cần tiếp tục nâng cao nhiều"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 31",
+  "so": 1,
+  "cau_hoi_pinyin": "\"Wǒ\" hé bàba shì shénme shíhòu chūfā qù páshān de?",
+  "cau_hoi_vi": "\"Tôi\" và bố xuất phát đi leo núi vào lúc nào?",
+  "options": {
+   "A": {"pinyin": "Zǎoshang qī diǎn", "vi": "Bảy giờ sáng"},
+   "B": {"pinyin": "Bànyè", "vi": "Nửa đêm"},
+   "C": {"pinyin": "Zhōngwǔ", "vi": "Buổi trưa"},
+   "D": {"pinyin": "Xiàwǔ", "vi": "Buổi chiều"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 31",
+  "so": 2,
+  "cau_hoi_pinyin": "Pá dào yí bàn de shíhòu, \"wǒ\" shì zěnme xiǎng de?",
+  "cau_hoi_vi": "Khi leo được nửa chừng, \"tôi\" đã nghĩ như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde hěn qīngsōng, yìdiǎnr dōu bú lèi", "vi": "Cảm thấy rất nhẹ nhàng, chẳng mệt chút nào"},
+   "B": {"pinyin": "Tuǐ kāishǐ téng le, xiǎngzhe shì bu shì yīnggāi fàngqì", "vi": "Chân bắt đầu đau, nghĩ không biết có nên bỏ cuộc không"},
+   "C": {"pinyin": "Xiǎng yào pǎo de gèng kuài yìdiǎnr", "vi": "Muốn chạy nhanh hơn một chút"},
+   "D": {"pinyin": "Wánquán méiyǒu rènhé gǎnjué", "vi": "Hoàn toàn không có cảm giác gì"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 31",
+  "so": 3,
+  "cau_hoi_pinyin": "Guānyú tiānkōng yánsè de biànhuà, wénzhāng shì zěnme miáoshù de?",
+  "cau_hoi_vi": "Về sự thay đổi màu sắc của bầu trời, bài viết miêu tả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yìzhí dōu shì hēisè de", "vi": "Luôn luôn là màu đen"},
+   "B": {"pinyin": "Cóng hēisè biànchéng lánsè, yòu biànchéng fěnsè, zuìhòu chūxiàn jīnhuángsè de guāng", "vi": "Từ màu đen chuyển sang màu xanh, rồi chuyển sang màu hồng, cuối cùng xuất hiện ánh sáng vàng kim"},
+   "C": {"pinyin": "Cóng lánsè zhíjiē biànchéng hóngsè", "vi": "Từ màu xanh chuyển thẳng sang màu đỏ"},
+   "D": {"pinyin": "Wénzhāng méiyǒu miáoshù yánsè", "vi": "Bài viết không miêu tả màu sắc"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 31",
+  "so": 4,
+  "cau_hoi_pinyin": "Kàndào rìchū de nà yí kè, \"wǒ\" de gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Khoảnh khắc nhìn thấy mặt trời mọc, cảm giác của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Tuǐ háishi hěn téng, yìdiǎnr dōu bù kāixīn", "vi": "Chân vẫn còn đau, chẳng vui chút nào"},
+   "B": {"pinyin": "Tuǐ shàng de téng hǎoxiàng bú jiàn le, xīnlǐ mǎnmǎn de kāixīn hé gǎndòng", "vi": "Cơn đau ở chân dường như biến mất, trong lòng tràn đầy niềm vui và xúc động"},
+   "C": {"pinyin": "Juéde fēngjǐng méiyǒu xiǎngxiàng zhōng hǎokàn", "vi": "Cảm thấy phong cảnh không đẹp như tưởng tượng"},
+   "D": {"pinyin": "Zhǐ xiǎng mǎshàng xiàshān", "vi": "Chỉ muốn xuống núi ngay lập tức"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 31",
+  "so": 5,
+  "cau_hoi_pinyin": "Bàba shuō de nà jù huà, zhǔyào xiǎng gàosu \"wǒ\" shénme?",
+  "cau_hoi_vi": "Câu bố nói chủ yếu muốn nói với \"tôi\" điều gì?",
+  "options": {
+   "A": {"pinyin": "Páshān qíshí hěn jiǎndān", "vi": "Leo núi thực ra rất đơn giản"},
+   "B": {"pinyin": "Zhǐyào bú fàngqì, měilì de dōngxi zǒng huì chūxiàn", "vi": "Chỉ cần không bỏ cuộc, những điều đẹp đẽ rồi sẽ xuất hiện"},
+   "C": {"pinyin": "Xià cì yīnggāi zǎo yìdiǎnr chūfā", "vi": "Lần sau nên xuất phát sớm hơn một chút"},
+   "D": {"pinyin": "Kàn rìchū méiyǒu nàme zhòngyào", "vi": "Ngắm mặt trời mọc không quan trọng đến thế"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 32",
+  "so": 1,
+  "cau_hoi_pinyin": "Huábīngchǎng de dēngguāng hé bīngmiàn shì shénme yàngzi de?",
+  "cau_hoi_vi": "Ánh đèn và mặt băng của sân trượt băng trông như thế nào?",
+  "options": {
+   "A": {"pinyin": "Hóngsè de dēngguāng, bīngmiàn shì huīsè de", "vi": "Ánh đèn màu đỏ, mặt băng màu xám"},
+   "B": {"pinyin": "Dàndàn de lánsè dēngguāng, zhào zài báibái de bīngmiàn shàng", "vi": "Ánh đèn xanh nhạt nhạt chiếu lên mặt băng trắng trắng"},
+   "C": {"pinyin": "Méiyǒu dēngguāng, hěn àn", "vi": "Không có ánh đèn, rất tối"},
+   "D": {"pinyin": "Huángsè de dēngguāng, bīngmiàn shì hēisè de", "vi": "Ánh đèn màu vàng, mặt băng màu đen"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 32",
+  "so": 2,
+  "cau_hoi_pinyin": "Dì yī cì zhàn zài bīngxié shàng de shíhòu, \"wǒ\" shì shénme gǎnjué?",
+  "cau_hoi_vi": "Lần đầu tiên đứng trên giày trượt băng, cảm giác của \"tôi\" thế nào?",
+  "options": {
+   "A": {"pinyin": "Hěn wěn, yìdiǎnr wèntí dōu méiyǒu", "vi": "Rất vững, không có vấn đề gì cả"},
+   "B": {"pinyin": "Liǎng zhī jiǎo bù tíng de huǎng, hěn kuài jiù shuāidǎo le", "vi": "Hai chân cứ lắc lư không ngừng, rất nhanh đã ngã"},
+   "C": {"pinyin": "Gǎnjué fēicháng qīngsōng yúkuài", "vi": "Cảm thấy rất thoải mái vui vẻ"},
+   "D": {"pinyin": "Wánquán bù juéde hàipà", "vi": "Hoàn toàn không cảm thấy sợ hãi"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 32",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiàoliàn shì zěnme gǔlì \"wǒ\" de?",
+  "cau_hoi_vi": "Huấn luyện viên đã động viên \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shuō huábīng qíshí hěn jiǎndān", "vi": "Nói rằng trượt băng thực ra rất đơn giản"},
+   "B": {"pinyin": "Shuō shuāidǎo bù kěpà, kěpà de shì shuāidǎo le bù gǎn zài zhàn qǐlái", "vi": "Nói rằng ngã không đáng sợ, đáng sợ là ngã rồi mà không dám đứng dậy nữa"},
+   "C": {"pinyin": "Ràng \"wǒ\" xiān huí jiā xiūxi", "vi": "Bảo \"tôi\" về nhà nghỉ ngơi trước"},
+   "D": {"pinyin": "Shuō \"wǒ\" bú shìhé xué huábīng", "vi": "Nói rằng \"tôi\" không thích hợp học trượt băng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 32",
+  "so": 4,
+  "cau_hoi_pinyin": "\"Wǒ\" shì zěnme miànduì yí cì yòu yí cì shuāidǎo de?",
+  "cau_hoi_vi": "\"Tôi\" đã đối mặt với việc ngã hết lần này đến lần khác như thế nào?",
+  "options": {
+   "A": {"pinyin": "Shuāidǎo yí cì yǐhòu jiù bú zài chángshì le", "vi": "Ngã một lần là không thử lại nữa"},
+   "B": {"pinyin": "Shuāidǎo le hěn duō cì, yòu zhàn qǐlái hěn duō cì, yìzhí liàn dào guānmén", "vi": "Ngã rất nhiều lần, rồi lại đứng dậy rất nhiều lần, luyện tập cho đến khi đóng cửa"},
+   "C": {"pinyin": "Zhǐ liànxí le jǐ fēnzhōng jiù huí jiā le", "vi": "Chỉ luyện tập vài phút là về nhà"},
+   "D": {"pinyin": "Qǐng jiàoliàn yìzhí fúzhe zìjǐ", "vi": "Nhờ huấn luyện viên luôn đỡ mình"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 32",
+  "so": 5,
+  "cau_hoi_pinyin": "Zǒu chū huábīngchǎng de shíhòu, \"wǒ\" de gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Khi bước ra khỏi sân trượt băng, cảm giác của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Húnshēn téng, xīnqíng yě hěn bù hǎo", "vi": "Toàn thân đau nhức, tâm trạng cũng rất tệ"},
+   "B": {"pinyin": "Húnshēn téng, dàn xīnlǐ juéde mǎnzú yòu kuàilè", "vi": "Toàn thân đau nhức, nhưng trong lòng cảm thấy mãn nguyện và vui vẻ"},
+   "C": {"pinyin": "Wánquán bù juéde téng, yě méi shénme tèbié gǎnjué", "vi": "Hoàn toàn không thấy đau, cũng chẳng có cảm giác gì đặc biệt"},
+   "D": {"pinyin": "Hòuhuǐ jīntiān lái xué huábīng", "vi": "Hối hận vì hôm nay đến học trượt băng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 33",
+  "so": 1,
+  "cau_hoi_pinyin": "Zhòng shù nà tiān, tiānqì zěnmeyàng?",
+  "cau_hoi_vi": "Hôm trồng cây, thời tiết như thế nào?",
+  "options": {
+   "A": {"pinyin": "Xiàzhe dàyǔ", "vi": "Đang mưa to"},
+   "B": {"pinyin": "Tiānqì hěn hǎo, yángguāng zhàozhe, fēng qīngqīng chuīzhe", "vi": "Thời tiết rất đẹp, ánh nắng chiếu rọi, gió thổi nhẹ nhàng"},
+   "C": {"pinyin": "Guāzhe hěn dà de fēng", "vi": "Đang có gió rất to"},
+   "D": {"pinyin": "Yòu lěng yòu yīn", "vi": "Vừa lạnh vừa âm u"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 33",
+  "so": 2,
+  "cau_hoi_pinyin": "Lǎoshī shuō de nà jù huà, zhǔyào xiǎng gàosu xuésheng shénme?",
+  "cau_hoi_vi": "Câu thầy cô nói chủ yếu muốn nói với học sinh điều gì?",
+  "options": {
+   "A": {"pinyin": "Zhòng shù bù xūyào huā tài duō shíjiān", "vi": "Trồng cây không cần tốn quá nhiều thời gian"},
+   "B": {"pinyin": "Xiǎo shù xūyào shíjiān zhǎngdà, jiù xiàng xuéxí yíyàng bù néng zháojí", "vi": "Cây non cần thời gian để lớn lên, giống như học tập vậy, không thể nóng vội"},
+   "C": {"pinyin": "Yīnggāi jīngcháng gěi xiǎo shù huàn dìfang", "vi": "Nên thường xuyên đổi chỗ cho cây non"},
+   "D": {"pinyin": "Xiǎo shù zhǎng bú dà jiù yīnggāi chóngxīn zhòng yì kē", "vi": "Cây non không lớn được thì nên trồng lại một cây khác"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 33",
+  "so": 3,
+  "cau_hoi_pinyin": "Xià dàyǔ de shíhòu, \"wǒ\" zuò le shénme?",
+  "cau_hoi_vi": "Khi trời mưa to, \"tôi\" đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Shénme dōu méi zuò, zài jiā lǐ děng yǔ tíng", "vi": "Không làm gì cả, ở nhà đợi mưa tạnh"},
+   "B": {"pinyin": "Dānxīn xiǎo shù bèi fēng chuīdǎo, tèdì pǎo qù huāyuán kàn", "vi": "Lo lắng cây non bị gió thổi đổ, đặc biệt chạy ra vườn xem"},
+   "C": {"pinyin": "Qǐng bàba qù bāngmáng jiǎnchá", "vi": "Nhờ bố đi giúp kiểm tra"},
+   "D": {"pinyin": "Juédìng bǎ xiǎo shù bān huí jiā lǐ", "vi": "Quyết định mang cây non về nhà"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 33",
+  "so": 4,
+  "cau_hoi_pinyin": "Guò le jǐ gè yuè, xiǎo shù fāshēng le shénme biànhuà?",
+  "cau_hoi_vi": "Sau vài tháng, cây non đã có sự thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu biànhuà", "vi": "Hoàn toàn không có thay đổi gì"},
+   "B": {"pinyin": "Zhǎng gāo le yìdiǎnr, yèzi biàn de gèng duō gèng lǜ", "vi": "Cao lên một chút, lá trở nên nhiều hơn và xanh hơn"},
+   "C": {"pinyin": "Yèzi dōu diàoguāng le", "vi": "Lá đã rụng hết"},
+   "D": {"pinyin": "Bèi fēng chuīdǎo le", "vi": "Bị gió thổi đổ"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 33",
+  "so": 5,
+  "cau_hoi_pinyin": "Kànzhe xiǎo shù, \"wǒ\" xiǎngdào le shénme?",
+  "cau_hoi_vi": "Nhìn cây non, \"tôi\" đã nghĩ đến điều gì?",
+  "options": {
+   "A": {"pinyin": "Xiǎngdào yīnggāi zhòng gèng duō de shù", "vi": "Nghĩ rằng nên trồng thêm nhiều cây hơn"},
+   "B": {"pinyin": "Xiǎngdào zìjǐ yě shì zài yìtiān yìtiān de mànmàn zhǎngdà hé jìnbù", "vi": "Nghĩ rằng bản thân mình cũng đang từng ngày từng ngày chậm rãi lớn lên và tiến bộ"},
+   "C": {"pinyin": "Xiǎngdào yīnggāi bǎ xiǎo shù sòng gěi biérén", "vi": "Nghĩ rằng nên tặng cây non cho người khác"},
+   "D": {"pinyin": "Xiǎngdào huāyuán xūyào gèng duō yángguāng", "vi": "Nghĩ rằng khu vườn cần thêm ánh nắng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 34",
+  "so": 1,
+  "cau_hoi_pinyin": "Bǐsài nà tiān de tiānqì shì zěnyàng de?",
+  "cau_hoi_vi": "Thời tiết hôm thi đấu như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yángguāng hěn hǎo", "vi": "Nắng rất đẹp"},
+   "B": {"pinyin": "Xiàzhe bù xiǎo de yǔ, tiānkōng shì huīsè de", "vi": "Mưa khá to, bầu trời màu xám"},
+   "C": {"pinyin": "Guāzhe dà fēng, dàn méiyǒu yǔ", "vi": "Gió thổi mạnh nhưng không mưa"},
+   "D": {"pinyin": "Yòu lěng yòu qínglǎng", "vi": "Vừa lạnh vừa trong xanh"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 34",
+  "so": 2,
+  "cau_hoi_pinyin": "Pǎo dào yí bàn de shíhòu, \"wǒ\" de shēntǐ gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Khi chạy được nửa chặng đường, cơ thể \"tôi\" cảm thấy như thế nào?",
+  "options": {
+   "A": {"pinyin": "Gǎnjué yuè lái yuè qīngsōng", "vi": "Cảm thấy ngày càng nhẹ nhàng"},
+   "B": {"pinyin": "Hūxī yuè lái yuè zhòng, shuāng tuǐ yuè lái yuè chén, sùdù màn xiàlái", "vi": "Hơi thở ngày càng nặng nề, hai chân ngày càng nặng trĩu, tốc độ chậm lại"},
+   "C": {"pinyin": "Wánquán méiyǒu rènhé biànhuà", "vi": "Hoàn toàn không có thay đổi gì"},
+   "D": {"pinyin": "Tūrán juéde bù téng le", "vi": "Bỗng nhiên cảm thấy không đau nữa"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 34",
+  "so": 3,
+  "cau_hoi_pinyin": "Shì shénme ràng \"wǒ\" xīnlǐ juéde nuǎn le yìdiǎnr?",
+  "cau_hoi_vi": "Điều gì khiến trong lòng \"tôi\" cảm thấy ấm áp hơn một chút?",
+  "options": {
+   "A": {"pinyin": "Tàiyáng tūrán chūlái le", "vi": "Mặt trời bỗng nhiên ló ra"},
+   "B": {"pinyin": "Tóngxuémen chēngzhe yǔsǎn zài pángbiān wèi \"wǒ\" jiāyóu", "vi": "Các bạn học che ô đứng bên cạnh cổ vũ cho \"tôi\""},
+   "C": {"pinyin": "Hē le yì bēi rèshuǐ", "vi": "Uống một cốc nước nóng"},
+   "D": {"pinyin": "Jiàoliàn kāichē guòlái jiē \"wǒ\"", "vi": "Huấn luyện viên lái xe đến đón \"tôi\""}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 34",
+  "so": 4,
+  "cau_hoi_pinyin": "Chōng guò zhōngdiǎnxiàn yǐhòu, \"wǒ\" de gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Sau khi băng qua vạch đích, cảm giác của \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yòu shī yòu lèi, xīnlǐ hěn hòuhuǐ cānjiā bǐsài", "vi": "Vừa ướt vừa mệt, trong lòng rất hối hận vì đã tham gia thi đấu"},
+   "B": {"pinyin": "Yòu shī yòu lèi, dàn xīnlǐ tèbié tāshi", "vi": "Vừa ướt vừa mệt, nhưng trong lòng đặc biệt thấy yên tâm"},
+   "C": {"pinyin": "Wánquán bù juéde lèi", "vi": "Hoàn toàn không thấy mệt"},
+   "D": {"pinyin": "Juéde bǐsài tài jiǎndān le", "vi": "Cảm thấy cuộc thi quá đơn giản"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 34",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè chǎng bǐsài ràng zuòzhě míngbai le shénme dàolǐ?",
+  "cau_hoi_vi": "Cuộc thi này đã giúp tác giả hiểu ra đạo lý gì?",
+  "options": {
+   "A": {"pinyin": "Xià yǔ tiān bù yīnggāi jǔxíng bǐsài", "vi": "Ngày mưa không nên tổ chức thi đấu"},
+   "B": {"pinyin": "Zuì nán de shíhòu jiānchí yíxià, jiéguǒ wǎngwǎng huì bǐ xiǎngxiàng zhōng gèng hǎo", "vi": "Lúc khó khăn nhất mà cố gắng kiên trì thêm một chút, kết quả thường sẽ tốt hơn những gì mình tưởng tượng"},
+   "C": {"pinyin": "Chángpǎo bǐsài duì shēntǐ bù hǎo", "vi": "Thi chạy đường dài không tốt cho sức khỏe"},
+   "D": {"pinyin": "Yīnggāi qǔxiāo zhè zhǒng tiānqì de bǐsài", "vi": "Nên hủy bỏ các cuộc thi trong thời tiết như thế này"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 35",
+  "so": 1,
+  "cau_hoi_pinyin": "Chūfā de shíhòu, lù shàng de huánjìng shì zěnyàng de?",
+  "cau_hoi_vi": "Lúc xuất phát, môi trường trên đường như thế nào?",
+  "options": {
+   "A": {"pinyin": "Dàochù dōu shì chē, hěn chǎo", "vi": "Khắp nơi đều là xe, rất ồn ào"},
+   "B": {"pinyin": "Hěn ānjìng, zhǐ yǒu fēng chuī shùyè de shēngyīn", "vi": "Rất yên tĩnh, chỉ có tiếng gió thổi lá cây"},
+   "C": {"pinyin": "Xiàzhe xiǎo yǔ", "vi": "Đang mưa nhỏ"},
+   "D": {"pinyin": "Yǒu hěn duō rén zài qí chē", "vi": "Có rất nhiều người đang đạp xe"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 35",
+  "so": 2,
+  "cau_hoi_pinyin": "Qí dào yí bàn de shíhòu, \"wǒ\" yù dào le shénme kùnnán?",
+  "cau_hoi_vi": "Khi đạp xe được nửa chặng, \"tôi\" đã gặp phải khó khăn gì?",
+  "options": {
+   "A": {"pinyin": "Zìxíngchē huài le", "vi": "Xe đạp bị hỏng"},
+   "B": {"pinyin": "Shuǐ hē wán le, zuǐba hěn gān, sùdù màn xiàlái", "vi": "Nước đã uống hết, miệng rất khô, tốc độ chậm lại"},
+   "C": {"pinyin": "Mílù le, zhǎo bú dào fāngxiàng", "vi": "Bị lạc đường, không tìm được phương hướng"},
+   "D": {"pinyin": "Xià qǐ le dà yǔ", "vi": "Trời bắt đầu mưa to"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 35",
+  "so": 3,
+  "cau_hoi_pinyin": "Gēge shì zěnme bāngzhù \"wǒ\" de?",
+  "cau_hoi_vi": "Anh trai đã giúp đỡ \"tôi\" như thế nào?",
+  "options": {
+   "A": {"pinyin": "Ràng \"wǒ\" yí gè rén xiān huí jiā", "vi": "Bảo \"tôi\" tự về nhà trước một mình"},
+   "B": {"pinyin": "Jiànyì xiān zài shù xià xiūxi yíxià, zài jìxù qí", "vi": "Đề nghị nghỉ ngơi dưới gốc cây một lát trước, rồi tiếp tục đạp xe"},
+   "C": {"pinyin": "Bǎ zìjǐ de zìxíngchē ràng gěi \"wǒ\" qí", "vi": "Nhường xe đạp của mình cho \"tôi\" đi"},
+   "D": {"pinyin": "Dǎ diànhuà jiào chē lái jiē", "vi": "Gọi điện thoại kêu xe đến đón"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 35",
+  "so": 4,
+  "cau_hoi_pinyin": "Kuài dào hǎibiān de shíhòu, \"wǒ\" shì zěnme zhīdào de?",
+  "cau_hoi_vi": "Khi sắp đến bờ biển, \"tôi\" đã biết được bằng cách nào?",
+  "options": {
+   "A": {"pinyin": "Kàndào le lùbiāo", "vi": "Nhìn thấy biển chỉ đường"},
+   "B": {"pinyin": "Fēng lǐ duō le xiánxián de wèidào", "vi": "Trong gió có thêm vị mằn mặn"},
+   "C": {"pinyin": "Tīngdào le hǎilàng de shēngyīn", "vi": "Nghe thấy tiếng sóng biển"},
+   "D": {"pinyin": "Gēge gàosu \"wǒ\" de", "vi": "Do anh trai nói cho \"tôi\" biết"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 35",
+  "so": 5,
+  "cau_hoi_pinyin": "Gēge zuìhòu shuō de nà jù huà, zhǔyào xiǎng biǎodá shénme?",
+  "cau_hoi_vi": "Câu cuối cùng anh trai nói chủ yếu muốn diễn đạt điều gì?",
+  "options": {
+   "A": {"pinyin": "Qí zìxíngchē bǐ kāichē gèng hǎo", "vi": "Đạp xe tốt hơn lái xe ô tô"},
+   "B": {"pinyin": "Zhǐyào yìzhí jiānchí xiàqù, zài yuǎn de dìfang yě néng dàodá", "vi": "Chỉ cần luôn kiên trì, dù nơi xa đến đâu cũng có thể đến được"},
+   "C": {"pinyin": "Xià cì yīnggāi kāichē qù kàn hǎi", "vi": "Lần sau nên lái xe đi ngắm biển"},
+   "D": {"pinyin": "Kàn hǎi qíshí méiyǒu nàme hǎokàn", "vi": "Ngắm biển thực ra không đẹp đến thế"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 36",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě rènshi de dì yī gè hànzì shì shénme?",
+  "cau_hoi_vi": "Chữ Hán đầu tiên mà tác giả biết là chữ gì?",
+  "options": {
+   "A": {"pinyin": "Huǒ", "vi": "Lửa"},
+   "B": {"pinyin": "Rén", "vi": "Người"},
+   "C": {"pinyin": "Mù", "vi": "Cây, gỗ"},
+   "D": {"pinyin": "Sēn", "vi": "Rừng"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 36",
+  "so": 2,
+  "cau_hoi_pinyin": "Yī kāishǐ xué xiě hànzì de shíhòu, \"wǒ\" yù dào le shénme kùnnán?",
+  "cau_hoi_vi": "Lúc mới bắt đầu học viết chữ Hán, \"tôi\" đã gặp khó khăn gì?",
+  "options": {
+   "A": {"pinyin": "Jì bú zhù hànzì de yìsi", "vi": "Không nhớ được nghĩa của chữ Hán"},
+   "B": {"pinyin": "Bǐhuà shùnxù róngyì xiě luàn, zì yě bù hǎokàn", "vi": "Thứ tự nét bút dễ viết lộn xộn, chữ cũng không đẹp"},
+   "C": {"pinyin": "Zhǎo bú dào xuéxí hànzì de shū", "vi": "Không tìm được sách học chữ Hán"},
+   "D": {"pinyin": "Lǎoshī bú huì jiāo xiě zì", "vi": "Thầy cô không biết cách dạy viết chữ"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 36",
+  "so": 3,
+  "cau_hoi_pinyin": "Māma shì zěnme bāngzhù \"wǒ\" xiě hǎo hànzì de?",
+  "cau_hoi_vi": "Mẹ đã giúp \"tôi\" viết chữ Hán cho đẹp như thế nào?",
+  "options": {
+   "A": {"pinyin": "Ràng \"wǒ\" zìjǐ duō liànxí, bú yòng guǎn tā", "vi": "Bảo \"tôi\" tự luyện tập nhiều, không cần để ý đến mẹ"},
+   "B": {"pinyin": "Názhe \"wǒ\" de shǒu, yì bǐ yì bǐ de jiāo", "vi": "Cầm tay \"tôi\", dạy từng nét từng nét một"},
+   "C": {"pinyin": "Gěi \"wǒ\" mǎi le xiě zì de ruǎnjiàn", "vi": "Mua cho \"tôi\" phần mềm tập viết chữ"},
+   "D": {"pinyin": "Qǐng le zhuānmén de shūfǎ lǎoshī", "vi": "Mời riêng một thầy dạy thư pháp"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 36",
+  "so": 4,
+  "cau_hoi_pinyin": "Guānyú \"sēn\" zì, wénzhāng shì zěnme jiěshì de?",
+  "cau_hoi_vi": "Về chữ \"森\", bài viết giải thích như thế nào?",
+  "options": {
+   "A": {"pinyin": "Tā gēn \"huǒ\" zì de yìsi chàbuduō", "vi": "Nó có nghĩa gần giống với chữ \"火\" (lửa)"},
+   "B": {"pinyin": "Sān gè \"mù\" zì fàng zài yìqǐ, biànchéng le yí piàn shùlín", "vi": "Ba chữ \"木\" đặt cùng nhau, trở thành một khu rừng cây"},
+   "C": {"pinyin": "Tā shì zuì nán xiě de yí gè zì", "vi": "Đó là chữ khó viết nhất"},
+   "D": {"pinyin": "Tā gēn \"rén\" zì de yàngzi hěn xiàng", "vi": "Nó có hình dạng rất giống chữ \"人\" (người)"}
+  }
+ },
+ {
+  "bai": "HSK2-Bài 36",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè piān wénzhāng zhǔyào xiǎng biǎodá shénme?",
+  "cau_hoi_vi": "Bài viết này chủ yếu muốn diễn đạt điều gì?",
+  "options": {
+   "A": {"pinyin": "Xuéxí hànzì fēicháng jiǎndān, yī xué jiù huì", "vi": "Học chữ Hán rất đơn giản, học một cái là biết ngay"},
+   "B": {"pinyin": "Xuéxí hànzì xūyào nàixīn, dàn měi gè zì dōu yǒu yìsi, zhíde mànmàn xué", "vi": "Học chữ Hán cần sự kiên nhẫn, nhưng mỗi chữ đều có ý nghĩa riêng, đáng để học từ từ"},
+   "C": {"pinyin": "Zhǐ yǒu cōngmíng de rén cái néng xué hǎo hànzì", "vi": "Chỉ có người thông minh mới học tốt được chữ Hán"},
+   "D": {"pinyin": "Xuéxí hànzì bùrú xuéxí bié de yǔyán yǒu yìsi", "vi": "Học chữ Hán không thú vị bằng học ngôn ngữ khác"}
+  }
+ }
+]

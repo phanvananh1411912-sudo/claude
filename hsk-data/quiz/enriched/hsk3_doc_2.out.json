@@ -1,0 +1,410 @@
+[
+ {
+  "bai": "HSK3-Bài 7",
+  "so": 5,
+  "cau_hoi_pinyin": "Liǎng gè xīngqī yǐhòu, zuòzhě de shēntǐ qíngkuàng zěnmeyàng?",
+  "cau_hoi_vi": "Sau hai tuần, tình trạng sức khỏe của tác giả như thế nào?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu biànhuà", "vi": "Hoàn toàn không có thay đổi gì"},
+   "B": {"pinyin": "Jīngshén hǎo le hěn duō, shuìmián zhìliàng yě tígāo le", "vi": "Tinh thần tốt lên nhiều, chất lượng giấc ngủ cũng được cải thiện"},
+   "C": {"pinyin": "Qíngkuàng biàn de gèng chà le", "vi": "Tình hình trở nên tệ hơn"},
+   "D": {"pinyin": "Juédìng bú zài hē zhōngyào le", "vi": "Quyết định không uống thuốc bắc nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 8",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě wèishénme juédìng zū fángzi?",
+  "cau_hoi_vi": "Vì sao tác giả quyết định thuê nhà?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi fùmǔ bú ràng tā zhù zài jiā lǐ", "vi": "Vì bố mẹ không cho anh ấy ở nhà"},
+   "B": {"pinyin": "Xiǎng bān chū fùmǔ jiā, tǐyàn dúlì shēnghuó", "vi": "Muốn dọn ra khỏi nhà bố mẹ, trải nghiệm cuộc sống độc lập"},
+   "C": {"pinyin": "Yīnwèi gōngzuò dìdiǎn tài yuǎn", "vi": "Vì địa điểm làm việc quá xa"},
+   "D": {"pinyin": "Yīnwèi xiǎng shěng qián", "vi": "Vì muốn tiết kiệm tiền"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 8",
+  "so": 2,
+  "cau_hoi_pinyin": "Zhǎo fángzi de guòchéng zhōng, zuòzhě yùdào le shénme qíngkuàng?",
+  "cau_hoi_vi": "Trong quá trình tìm nhà, tác giả đã gặp phải tình huống gì?",
+  "options": {
+   "A": {"pinyin": "Dì yī gè fángzi jiù hěn mǎnyì", "vi": "Ngôi nhà đầu tiên đã rất hài lòng rồi"},
+   "B": {"pinyin": "Yǒu de fángzi piányi dàn wèizhì yuǎn, yǒu de wèizhì hǎo dàn zūjīn guì", "vi": "Có nhà thì rẻ nhưng vị trí xa, có nhà thì vị trí tốt nhưng giá thuê đắt"},
+   "C": {"pinyin": "Suǒyǒu fángzi dōu hěn piányi", "vi": "Tất cả các nhà đều rất rẻ"},
+   "D": {"pinyin": "Wánquán méiyǒu héshì de fángzi", "vi": "Hoàn toàn không có nhà nào phù hợp"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 8",
+  "so": 3,
+  "cau_hoi_pinyin": "Qiān hétong yǐqián, zhōngjiè tíxǐng zuòzhě yào zhùyì shénme?",
+  "cau_hoi_vi": "Trước khi ký hợp đồng, môi giới nhắc tác giả cần chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Jǐnkuài qiānzì, búyòng jiǎnchá", "vi": "Ký tên càng sớm càng tốt, không cần kiểm tra"},
+   "B": {"pinyin": "Zǐxì jiǎnchá hétong shàng de měi yì tiáo nèiróng", "vi": "Kiểm tra kỹ từng điều khoản trong hợp đồng"},
+   "C": {"pinyin": "Búyòng kàn hétong de nèiróng", "vi": "Không cần xem nội dung hợp đồng"},
+   "D": {"pinyin": "Zhíjiē fù yājīn jiù kěyǐ le", "vi": "Chỉ cần trả tiền đặt cọc trực tiếp là được"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 8",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě rènzhēn kàn hétong yǐhòu, fāxiàn le shénme wèntí?",
+  "cau_hoi_vi": "Sau khi đọc kỹ hợp đồng, tác giả đã phát hiện ra vấn đề gì?",
+  "options": {
+   "A": {"pinyin": "Fángzū de jiàgé bú duì", "vi": "Giá tiền thuê nhà không đúng"},
+   "B": {"pinyin": "Yǒu yì tiáo guānyú yājīn de guīdìng bú tài qīngchu", "vi": "Có một điều khoản về tiền đặt cọc không được rõ ràng lắm"},
+   "C": {"pinyin": "Fángzi de dìzhǐ xiě cuò le", "vi": "Địa chỉ nhà bị viết sai"},
+   "D": {"pinyin": "Hétong shàng méiyǒu zhōngjiè de míngzi", "vi": "Trên hợp đồng không có tên của môi giới"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 8",
+  "so": 5,
+  "cau_hoi_pinyin": "Yí duàn shíjiān yǐhòu, zuòzhě duì yí gè rén shēnghuó de gǎnjué shì zěnyàng de?",
+  "cau_hoi_vi": "Sau một thời gian, cảm giác của tác giả về việc sống một mình như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yìzhí juéde hěn gūdān, hěn hòuhuǐ", "vi": "Luôn cảm thấy rất cô đơn, rất hối hận"},
+   "B": {"pinyin": "Mànmàn xiǎngshòu qǐ le zhè zhǒng zìyóu de gǎnjué", "vi": "Dần dần bắt đầu tận hưởng cảm giác tự do này"},
+   "C": {"pinyin": "Juédìng mǎshàng bān huí fùmǔ jiā", "vi": "Quyết định lập tức chuyển về nhà bố mẹ"},
+   "D": {"pinyin": "Juéde wánquán méiyǒu biànhuà", "vi": "Cảm thấy hoàn toàn không có gì thay đổi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 9",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě wèishénme bèi māma dài qù yīyuàn?",
+  "cau_hoi_vi": "Vì sao tác giả bị mẹ đưa đi bệnh viện?",
+  "options": {
+   "A": {"pinyin": "Tóu hěn téng", "vi": "Đầu rất đau"},
+   "B": {"pinyin": "Dùzi tūrán téng de hěn lìhai", "vi": "Bụng đột nhiên đau dữ dội"},
+   "C": {"pinyin": "Fāshāo le", "vi": "Bị sốt"},
+   "D": {"pinyin": "Shòushāng le", "vi": "Bị thương"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 9",
+  "so": 2,
+  "cau_hoi_pinyin": "Yīshēng huáiyí zuòzhě de bìng kěnéng shì shénme yuányīn?",
+  "cau_hoi_vi": "Bác sĩ nghi ngờ bệnh của tác giả có thể do nguyên nhân gì?",
+  "options": {
+   "A": {"pinyin": "Gǎnmào", "vi": "Cảm cúm"},
+   "B": {"pinyin": "Shíwù zhòngdú", "vi": "Ngộ độc thực phẩm"},
+   "C": {"pinyin": "Yùndòng tài duō", "vi": "Vận động quá nhiều"},
+   "D": {"pinyin": "Shuìmián bú gòu", "vi": "Ngủ không đủ giấc"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 9",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiǎnchá jiéguǒ chūlái yǐhòu, yīshēng shuō qíngkuàng zěnmeyàng?",
+  "cau_hoi_vi": "Sau khi có kết quả kiểm tra, bác sĩ nói tình hình như thế nào?",
+  "options": {
+   "A": {"pinyin": "Fēicháng yánzhòng, xūyào zhùyuàn", "vi": "Rất nghiêm trọng, cần phải nhập viện"},
+   "B": {"pinyin": "Bú suàn yánzhòng, zhǐshì chángwèi yǒu yìdiǎnr fāyán", "vi": "Không tính là nghiêm trọng, chỉ là dạ dày ruột hơi bị viêm một chút"},
+   "C": {"pinyin": "Wánquán méiyǒu wèntí", "vi": "Hoàn toàn không có vấn đề gì"},
+   "D": {"pinyin": "Xūyào mǎshàng zuò shǒushù", "vi": "Cần phải phẫu thuật ngay"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 9",
+  "so": 4,
+  "cau_hoi_pinyin": "Yīshēng dīngzhǔ zuòzhě zhè jǐ tiān yào zhùyì shénme?",
+  "cau_hoi_vi": "Bác sĩ dặn dò tác giả mấy ngày này cần chú ý điều gì?",
+  "options": {
+   "A": {"pinyin": "Duō chī yóunì de shíwù", "vi": "Ăn nhiều đồ ăn dầu mỡ"},
+   "B": {"pinyin": "Chī qīngdàn de shíwù, bù néng chī yóunì hé xīnlà de dōngxi", "vi": "Ăn đồ thanh đạm, không được ăn đồ dầu mỡ và cay"},
+   "C": {"pinyin": "Wánquán bù néng chī dōngxi", "vi": "Hoàn toàn không được ăn gì"},
+   "D": {"pinyin": "Zhǐ néng hē shuǐ", "vi": "Chỉ được uống nước"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 9",
+  "so": 5,
+  "cau_hoi_pinyin": "Zhè cì shēngbìng de jīnglì ràng zuòzhě míngbai le shénme?",
+  "cau_hoi_vi": "Trải nghiệm ốm lần này đã khiến tác giả hiểu ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Shēngbìng le cái xūyào qù yīyuàn", "vi": "Bị ốm rồi mới cần đi bệnh viện"},
+   "B": {"pinyin": "Píngshí yīnggāi gèng zhùyì yǐnshí jiànkāng, bú yào suíbiàn luàn chī dōngxi", "vi": "Ngày thường nên chú ý hơn đến sức khỏe ăn uống, không nên ăn uống lung tung"},
+   "C": {"pinyin": "Yīyuàn de jiǎnchá méiyǒu yòng", "vi": "Việc kiểm tra ở bệnh viện không có tác dụng"},
+   "D": {"pinyin": "Yīnggāi jīngcháng chī xīnlà de shíwù", "vi": "Nên thường xuyên ăn đồ cay"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 10",
+  "so": 1,
+  "cau_hoi_pinyin": "Bàba cóng shénme shíhou kāishǐ měitiān qù gōngyuán dǎ tàijíquán?",
+  "cau_hoi_vi": "Bố bắt đầu mỗi ngày đi công viên tập Thái Cực Quyền từ khi nào?",
+  "options": {
+   "A": {"pinyin": "Shàngbān yǐqián", "vi": "Trước khi đi làm"},
+   "B": {"pinyin": "Tuìxiū yǐhòu", "vi": "Sau khi nghỉ hưu"},
+   "C": {"pinyin": "Shēngbìng yǐhòu", "vi": "Sau khi bị ốm"},
+   "D": {"pinyin": "Jiéhūn yǐhòu", "vi": "Sau khi kết hôn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 10",
+  "so": 2,
+  "cau_hoi_pinyin": "Jiàoliàn shuō, tàijíquán zuì zhòngyào de shì shénme?",
+  "cau_hoi_vi": "Huấn luyện viên nói, điều quan trọng nhất của Thái Cực Quyền là gì?",
+  "options": {
+   "A": {"pinyin": "Dòngzuò yào kuài", "vi": "Động tác phải nhanh"},
+   "B": {"pinyin": "Shēntǐ hé hūxī néng bu néng pèihé hǎo", "vi": "Cơ thể và hơi thở có phối hợp tốt với nhau hay không"},
+   "C": {"pinyin": "Xué de shíjiān yào cháng", "vi": "Thời gian học phải dài"},
+   "D": {"pinyin": "Chuān shénmeyàng de yīfu", "vi": "Mặc loại quần áo như thế nào"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 10",
+  "so": 3,
+  "cau_hoi_pinyin": "Liàn le yí gè xīngqī yǐhòu, zuòzhě yǒu shénme biànhuà?",
+  "cau_hoi_vi": "Sau khi tập luyện một tuần, tác giả có thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Wánquán méiyǒu biànhuà", "vi": "Hoàn toàn không có gì thay đổi"},
+   "B": {"pinyin": "Zhùyìlì gèng jízhōng le, xīnqíng gèng píngjìng", "vi": "Sự tập trung chú ý cao hơn, tâm trạng bình tĩnh hơn"},
+   "C": {"pinyin": "Shēntǐ biàn de gèng lèi le", "vi": "Cơ thể trở nên mệt mỏi hơn"},
+   "D": {"pinyin": "Juédìng bú zài liànxí le", "vi": "Quyết định không luyện tập nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 10",
+  "so": 4,
+  "cau_hoi_pinyin": "Zuòzhě yīnwèi gōngzuò yālì dà shuì bu hǎo de shíhou, bàba jiànyì le shénme?",
+  "cau_hoi_vi": "Khi tác giả vì áp lực công việc lớn mà ngủ không ngon, bố đã đề nghị điều gì?",
+  "options": {
+   "A": {"pinyin": "Duō hē kāfēi", "vi": "Uống nhiều cà phê"},
+   "B": {"pinyin": "Shuì qián liànxí jǐ gè jiǎndān de tàijíquán dòngzuò", "vi": "Trước khi ngủ tập vài động tác Thái Cực Quyền đơn giản"},
+   "C": {"pinyin": "Qù yīyuàn jiǎnchá", "vi": "Đi bệnh viện khám"},
+   "D": {"pinyin": "Shǎo gōngzuò, duō xiūxi", "vi": "Làm việc ít lại, nghỉ ngơi nhiều hơn"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 10",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiànzài, zuòzhě zěnme kàndài tàijíquán?",
+  "cau_hoi_vi": "Bây giờ, tác giả nhìn nhận Thái Cực Quyền như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde tā zhǐshì yì zhǒng pǔtōng de yùndòng", "vi": "Cảm thấy nó chỉ là một môn thể thao bình thường"},
+   "B": {"pinyin": "Juéde tā bù zhǐshì yùndòng, gèng shì yì zhǒng shēnghuó de tàidù", "vi": "Cảm thấy nó không chỉ là thể thao, mà còn là một thái độ sống"},
+   "C": {"pinyin": "Juéde xué tàijíquán hěn làngfèi shíjiān", "vi": "Cảm thấy học Thái Cực Quyền rất lãng phí thời gian"},
+   "D": {"pinyin": "Juéde tàijíquán gēn zìjǐ méiyǒu guānxi", "vi": "Cảm thấy Thái Cực Quyền không liên quan gì đến bản thân"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 11",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě ànliàn de nǚshēng jiào shénme míngzi?",
+  "cau_hoi_vi": "Cô gái mà tác giả thầm yêu tên là gì?",
+  "options": {
+   "A": {"pinyin": "Wáng Xiǎoyǔ", "vi": "Vương Tiểu Vũ"},
+   "B": {"pinyin": "Lín Xiǎoyǔ", "vi": "Lâm Tiểu Vũ"},
+   "C": {"pinyin": "Lǐ Xiǎoyǔ", "vi": "Lý Tiểu Vũ"},
+   "D": {"pinyin": "Zhāng Xiǎoyǔ", "vi": "Trương Tiểu Vũ"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 11",
+  "so": 2,
+  "cau_hoi_pinyin": "Xiǎoyǔ dì yī cì zhǔdòng gēn zuòzhě shuōhuà, shì yīnwèi shénme shì?",
+  "cau_hoi_vi": "Lần đầu tiên Tiểu Vũ chủ động bắt chuyện với tác giả là vì việc gì?",
+  "options": {
+   "A": {"pinyin": "Wèn zuòzhě jiè yì běn cānkǎoshū", "vi": "Hỏi mượn tác giả một quyển sách tham khảo"},
+   "B": {"pinyin": "Wèn zuòzhě yí dào shùxué tí", "vi": "Hỏi tác giả một bài toán"},
+   "C": {"pinyin": "Qǐng zuòzhě bāngmáng dǎsǎo jiàoshì", "vi": "Nhờ tác giả giúp dọn dẹp lớp học"},
+   "D": {"pinyin": "Yāoqǐng zuòzhě cānjiā jùhuì", "vi": "Mời tác giả tham gia buổi tụ họp"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 11",
+  "so": 3,
+  "cau_hoi_pinyin": "Měi cì yǒu jīhuì gēn Xiǎoyǔ shuō chū xīnlǐ huà, zuòzhě shì zěnme zuò de?",
+  "cau_hoi_vi": "Mỗi lần có cơ hội nói ra lời trong lòng với Tiểu Vũ, tác giả đã làm như thế nào?",
+  "options": {
+   "A": {"pinyin": "Měi cì dōu yǒnggǎn de shuō le chūlái", "vi": "Mỗi lần đều dũng cảm nói ra"},
+   "B": {"pinyin": "Yīnwèi hàipà bèi jùjué, yòu bǎ huà fàng huí xīnlǐ", "vi": "Vì sợ bị từ chối, nên lại nuốt lời vào trong lòng"},
+   "C": {"pinyin": "Qǐng péngyou dàitì zìjǐ shuō", "vi": "Nhờ bạn nói thay mình"},
+   "D": {"pinyin": "Xiě xìn gàosu tā", "vi": "Viết thư nói cho cô ấy biết"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 11",
+  "so": 4,
+  "cau_hoi_pinyin": "Gāosān kuài jiéshù de shíhou, zuòzhě yìshí dào le shénme?",
+  "cau_hoi_vi": "Khi năm lớp 12 sắp kết thúc, tác giả đã nhận ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Xiǎoyǔ qíshí yě xǐhuan zìjǐ", "vi": "Tiểu Vũ thực ra cũng thích mình"},
+   "B": {"pinyin": "Rúguǒ jìxù zhèyàng xiàqù, kěnéng huì hòuhuǐ yíbèizi", "vi": "Nếu cứ tiếp tục như thế này, có thể sẽ hối hận cả đời"},
+   "C": {"pinyin": "Yīnggāi mǎshàng zhuǎnxué", "vi": "Nên chuyển trường ngay"},
+   "D": {"pinyin": "Ànliàn shì yí jiàn hěn làngfèi shíjiān de shìqing", "vi": "Thầm yêu là một việc rất lãng phí thời gian"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 11",
+  "so": 5,
+  "cau_hoi_pinyin": "Zuìhòu, zuòzhě shì zěnme kàndài zhè duàn ànliàn de jīnglì de?",
+  "cau_hoi_vi": "Cuối cùng, tác giả nhìn nhận trải nghiệm thầm yêu này như thế nào?",
+  "options": {
+   "A": {"pinyin": "Juéde hěn hòuhuǐ, wánquán méiyǒu yìyì", "vi": "Cảm thấy rất hối hận, hoàn toàn không có ý nghĩa gì"},
+   "B": {"pinyin": "Suīrán méi néng shuō chūkǒu, dàn nà duàn shíguāng yǐjīng chéng le zhēnxī de jìyì", "vi": "Tuy không thể nói ra được, nhưng khoảng thời gian đó đã trở thành ký ức đáng trân trọng"},
+   "C": {"pinyin": "Juéde ànliàn shì yí jiàn hěn shǎ de shìqing", "vi": "Cảm thấy thầm yêu là một việc rất ngốc nghếch"},
+   "D": {"pinyin": "Juédìng yǐhòu zài yě bù xǐhuan rènhé rén le", "vi": "Quyết định sau này sẽ không thích ai nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 12",
+  "so": 1,
+  "cau_hoi_pinyin": "Chén Hào shì shénme shíhou rènshi zuòzhě de?",
+  "cau_hoi_vi": "Trần Hạo quen tác giả từ khi nào?",
+  "options": {
+   "A": {"pinyin": "Xiǎoxué", "vi": "Tiểu học"},
+   "B": {"pinyin": "Gāo'èr zhuǎnxué guòlái yǐhòu", "vi": "Sau khi chuyển trường đến vào năm lớp 11"},
+   "C": {"pinyin": "Dàxué", "vi": "Đại học"},
+   "D": {"pinyin": "Gāosān", "vi": "Lớp 12"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 12",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuòzhě xiě qíngshū yòng le duō cháng shíjiān?",
+  "cau_hoi_vi": "Tác giả viết thư tình mất bao lâu?",
+  "options": {
+   "A": {"pinyin": "Yì tiān", "vi": "Một ngày"},
+   "B": {"pinyin": "Chàbuduō yí gè xīngqī", "vi": "Gần một tuần"},
+   "C": {"pinyin": "Yí gè yuè", "vi": "Một tháng"},
+   "D": {"pinyin": "Yì nián", "vi": "Một năm"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 12",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě wèishénme yìzhí méiyǒu bǎ xìn jì chūqù?",
+  "cau_hoi_vi": "Vì sao tác giả mãi không gửi lá thư đi?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi wàng le dìzhǐ", "vi": "Vì quên mất địa chỉ"},
+   "B": {"pinyin": "Hàipà zhè fèn yǒuyì huì yīncǐ jiéshù", "vi": "Sợ rằng tình bạn này sẽ vì thế mà kết thúc"},
+   "C": {"pinyin": "Yīnwèi Chén Hào yǐjīng zhīdào le", "vi": "Vì Trần Hạo đã biết rồi"},
+   "D": {"pinyin": "Yīnwèi xìn xiě de bú gòu hǎo", "vi": "Vì lá thư viết chưa đủ hay"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 12",
+  "so": 4,
+  "cau_hoi_pinyin": "Gāosān fēnbān yǐhòu, zuòzhě hé Chén Hào de guānxi fāshēng le shénme biànhuà?",
+  "cau_hoi_vi": "Sau khi chia lớp năm lớp 12, mối quan hệ giữa tác giả và Trần Hạo đã có thay đổi gì?",
+  "options": {
+   "A": {"pinyin": "Guānxi biàn de gèng hǎo le", "vi": "Mối quan hệ trở nên tốt hơn"},
+   "B": {"pinyin": "Bèi fēn dào bù tóng bān, jiànmiàn jīhuì jiànjiàn biàn shǎo", "vi": "Bị phân vào lớp khác nhau, cơ hội gặp mặt dần dần ít đi"},
+   "C": {"pinyin": "Liǎng gè rén chǎojià le", "vi": "Hai người đã cãi nhau"},
+   "D": {"pinyin": "Wánquán méiyǒu biànhuà", "vi": "Hoàn toàn không có gì thay đổi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 12",
+  "so": 5,
+  "cau_hoi_pinyin": "Xiànzài, zuòzhě shì zěnme kàndài zhè duàn méiyǒu jiéguǒ de gǎnqíng de?",
+  "cau_hoi_vi": "Bây giờ, tác giả nhìn nhận mối tình không có kết quả này như thế nào?",
+  "options": {
+   "A": {"pinyin": "Yìzhí juéde fēicháng hòuhuǐ", "vi": "Luôn cảm thấy rất hối hận"},
+   "B": {"pinyin": "Jiànjiàn xuéhuì le jiēshòu yìxiē méiyǒu jiéguǒ de gǎnqíng", "vi": "Dần dần học được cách chấp nhận những mối tình không có kết quả"},
+   "C": {"pinyin": "Juédìng chóngxīn xiě yì fēng xìn jì chūqù", "vi": "Quyết định viết lại một lá thư khác gửi đi"},
+   "D": {"pinyin": "Wánquán wàngjì le zhè jiàn shì", "vi": "Hoàn toàn quên mất chuyện này"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 13",
+  "so": 1,
+  "cau_hoi_pinyin": "Xià Tíng yìzhí yīnwèi shénme gǎndào méiyǒu xìnxīn?",
+  "cau_hoi_vi": "Hạ Đình luôn cảm thấy không tự tin vì lý do gì?",
+  "options": {
+   "A": {"pinyin": "Yīngyǔ chéngjì bù hǎo", "vi": "Thành tích tiếng Anh không tốt"},
+   "B": {"pinyin": "Shùxué chéngjì yìzhí bú tài hǎo", "vi": "Thành tích môn Toán vẫn luôn không tốt lắm"},
+   "C": {"pinyin": "Shēntǐ bù hǎo", "vi": "Sức khỏe không tốt"},
+   "D": {"pinyin": "Méiyǒu péngyou", "vi": "Không có bạn bè"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 13",
+  "so": 2,
+  "cau_hoi_pinyin": "Zuòzhě fāxiàn, Xià Tíng de shùxué wèntí zhǔyào zài nǎlǐ?",
+  "cau_hoi_vi": "Tác giả phát hiện, vấn đề môn Toán của Hạ Đình chủ yếu nằm ở đâu?",
+  "options": {
+   "A": {"pinyin": "Tā gēnběn bù nǔlì", "vi": "Cô ấy hoàn toàn không cố gắng"},
+   "B": {"pinyin": "Zhǐshì yǒuxiē jīchǔ gàiniàn yìzhí méiyǒu zhēnzhèng lǐjiě", "vi": "Chỉ là một số khái niệm cơ bản luôn chưa được hiểu thật sự"},
+   "C": {"pinyin": "Tā wánquán tīng bu dǒng Zhōngwén", "vi": "Cô ấy hoàn toàn không nghe hiểu tiếng Trung"},
+   "D": {"pinyin": "Tā méiyǒu shíjiān xuéxí", "vi": "Cô ấy không có thời gian học"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 13",
+  "so": 3,
+  "cau_hoi_pinyin": "Jiē xiàlái de jǐ gè yuè, liǎng gè rén shì zěnme xuéxí de?",
+  "cau_hoi_vi": "Trong mấy tháng tiếp theo, hai người đã học tập như thế nào?",
+  "options": {
+   "A": {"pinyin": "Zhǐshì ǒu'ěr jiànmiàn liáoliáotiān", "vi": "Chỉ thỉnh thoảng gặp nhau nói chuyện phiếm"},
+   "B": {"pinyin": "Jīhū měitiān fàngxué hòu dōu liú zài jiàoshì yìqǐ tǎolùn tímù", "vi": "Gần như ngày nào sau khi tan học cũng ở lại lớp cùng nhau thảo luận bài tập"},
+   "C": {"pinyin": "Zhǐ zài kǎoshì qián yìqǐ fùxí", "vi": "Chỉ ôn tập cùng nhau trước kỳ thi"},
+   "D": {"pinyin": "Tōngguò dǎ diànhuà xuéxí", "vi": "Học thông qua gọi điện thoại"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 13",
+  "so": 4,
+  "cau_hoi_pinyin": "Xià Tíng mónǐ kǎoshì chéngjì tígāo yǐhòu, tā shì zěnme zuò de?",
+  "cau_hoi_vi": "Sau khi điểm thi thử của Hạ Đình được cải thiện, cô ấy đã làm gì?",
+  "options": {
+   "A": {"pinyin": "Méiyǒu gàosu rènhé rén", "vi": "Không nói cho ai biết"},
+   "B": {"pinyin": "Tèbié jīdòng de gēn zuòzhě fēnxiǎng zhège xiāoxi", "vi": "Vô cùng phấn khích chia sẻ tin này với tác giả"},
+   "C": {"pinyin": "Juéde chéngjì háishi bú gòu hǎo", "vi": "Cảm thấy thành tích vẫn chưa đủ tốt"},
+   "D": {"pinyin": "Juédìng bú zài xūyào zuòzhě bāngmáng le", "vi": "Quyết định không cần tác giả giúp đỡ nữa"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 13",
+  "so": 5,
+  "cau_hoi_pinyin": "Nà yí kè, zuòzhě yìshí dào le shénme?",
+  "cau_hoi_vi": "Vào khoảnh khắc đó, tác giả đã nhận ra điều gì?",
+  "options": {
+   "A": {"pinyin": "Zìjǐ de shùxué shuǐpíng tígāo le", "vi": "Trình độ Toán của bản thân đã được nâng cao"},
+   "B": {"pinyin": "Zìjǐ duì tā de gǎnjué hǎoxiàng yǐjīng bù zhǐshì pǔtōng tóngxué de guānxīn", "vi": "Cảm giác của bản thân đối với cô ấy dường như không chỉ còn là sự quan tâm bạn học bình thường nữa"},
+   "C": {"pinyin": "Xià Tíng bù xūyào zìjǐ de bāngzhù le", "vi": "Hạ Đình không cần sự giúp đỡ của mình nữa"},
+   "D": {"pinyin": "Gāokǎo kuài yào dào le", "vi": "Kỳ thi đại học sắp đến rồi"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 14",
+  "so": 1,
+  "cau_hoi_pinyin": "Zuòzhě wèishénme gāozhōng sān nián yìzhí méiyǒu gàosu Zhōu Yǔ zìjǐ de gǎnqíng?",
+  "cau_hoi_vi": "Vì sao suốt ba năm cấp ba, tác giả không nói cho Chu Vũ biết tình cảm của mình?",
+  "options": {
+   "A": {"pinyin": "Yīnwèi bù xǐhuan tā", "vi": "Vì không thích cô ấy"},
+   "B": {"pinyin": "Hàipà yǐngxiǎng xuéxí", "vi": "Sợ ảnh hưởng đến việc học"},
+   "C": {"pinyin": "Yīnwèi tā yǐjīng yǒu nánpéngyou le", "vi": "Vì cô ấy đã có bạn trai rồi"},
+   "D": {"pinyin": "Yīnwèi lǎoshī bù yǔnxǔ", "vi": "Vì thầy cô không cho phép"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 14",
+  "so": 2,
+  "cau_hoi_pinyin": "Péngyoumen jiànyì zuòzhě yīnggāi zěnme zuò?",
+  "cau_hoi_vi": "Bạn bè đã đề nghị tác giả nên làm gì?",
+  "options": {
+   "A": {"pinyin": "Jìxù bǎochí chénmò", "vi": "Tiếp tục giữ im lặng"},
+   "B": {"pinyin": "Jìrán gāokǎo jiéshù le, yīnggāi zhuāzhù jīhuì gàosu tā", "vi": "Đã kỳ thi đại học kết thúc rồi thì nên nắm bắt cơ hội nói cho cô ấy biết"},
+   "C": {"pinyin": "Děng shàng dàxué yǐhòu zài shuō", "vi": "Đợi lên đại học rồi hãy nói"},
+   "D": {"pinyin": "Xiān gēn lǎoshī shāngliang", "vi": "Trước tiên bàn bạc với thầy cô"}
+  }
+ },
+ {
+  "bai": "HSK3-Bài 14",
+  "so": 3,
+  "cau_hoi_pinyin": "Zuòzhě xuǎnzé zài shénme shíhou, shénme dìfang gēn Zhōu Yǔ biǎobái?",
+  "cau_hoi_vi": "Tác giả chọn thời điểm nào, địa điểm nào để tỏ tình với Chu Vũ?",
+  "options": {
+   "A": {"pinyin": "Gāokǎo qián, zài jiàoshì lǐ", "vi": "Trước kỳ thi đại học, ở trong lớp học"},
+   "B": {"pinyin": "Bìyè diǎnlǐ jiéshù yǐhòu, zài cāochǎng biānshàng", "vi": "Sau khi lễ tốt nghiệp kết thúc, ở bên cạnh sân vận động"},
+   "C": {"pinyin": "Zài Zhōu Yǔ jiā lǐ", "vi": "Ở nhà Chu Vũ"},
+   "D": {"pinyin": "Tōngguò fā duǎnxìn", "vi": "Thông qua nhắn tin"}
+  }
+ }
+]

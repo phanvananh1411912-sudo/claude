@@ -3157,8 +3157,10 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
   const [sentences,setSentences]=useState([]);
   const [loading,setLoading]=useState(true);
   const [editItem,setEditItem]=useState(null);
-  const [excelFile,setExcelFile]=useState(null);
   const [jsonInput,setJsonInput]=useState("");
+  const [parsed,setParsed]=useState([]);
+  const [splitMode,setSplitMode]=useState(false);
+  const [selectedPodcasts,setSelectedPodcasts]=useState({});
 
   useEffect(()=>{(async()=>{const ls=await fetchListeningLessons();setLessons(ls);if(ls.length)setLessonId(String(ls[0].id));setLoading(false);})();},[]);
   useEffect(()=>{if(lessonId)loadSentences(lessonId);else setSentences([]);},[lessonId]);
@@ -3171,7 +3173,6 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
     const payload={
       podcast_lesson_id:lessonId,hanzi:editItem.hanzi.trim(),pinyin:editItem.pinyin||"",
       vi:editItem.vi||"",meaning:editItem.meaning||editItem.vi||"",focus:editItem.focus||"",
-      start_time:editItem.startTime||null,end_time:editItem.endTime||null,audio_url:editItem.audioUrl||null,
       order_num:editItem.orderNum||(Math.max(...sentences.map(s=>s.orderNum||0),0)+1)
     };
     try{
@@ -3187,10 +3188,50 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
     try{
       let d=JSON.parse(raw.replace(/```json|```/g,"").trim());
       if(!Array.isArray(d))d=[d];
-      const toAdd=d.map((s,i)=>({_new:true,hanzi:s.hanzi||"",pinyin:s.pinyin||"",vi:s.vi||s.meaning||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",startTime:s.start_time??null,endTime:s.end_time??null,audioUrl:s.audio_url||null,orderNum:(Math.max(...sentences.map(ss=>ss.orderNum||0),0)+i+1)})).filter(s=>s.hanzi);
-      onFlash(`✓ Chuẩn bị thêm ${toAdd.length} câu`);
-      (async()=>{for(const s of toAdd){setEditItem(s);await new Promise(r=>setTimeout(r,100));await saveSentence();await new Promise(r=>setTimeout(r,100));}onFlash(`✓ Thêm xong ${toAdd.length} câu`);setJsonInput("");})();
+      const toAdd=d.map((s,i)=>({_new:true,podcast_id:s.podcast_id||s.podcast_lesson_id,hanzi:s.hanzi||"",pinyin:s.pinyin||"",vi:s.vi||s.meaning||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",orderNum:s.orderNum||i})).filter(s=>s.hanzi);
+      if(splitMode){
+        const groups=toAdd.reduce((acc,s)=>{const pid=s.podcast_id;if(!acc[pid])acc[pid]=[];acc[pid].push(s);return acc;},{});
+        setParsed(toAdd);
+        setSelectedPodcasts(Object.fromEntries(Object.keys(groups).map(pid=>[pid,true])));
+        onFlash(`✓ Tìm thấy ${Object.keys(groups).length} podcast với ${toAdd.length} câu`);
+      }else{
+        setParsed(toAdd);
+        onFlash(`✓ Chuẩn bị thêm ${toAdd.length} câu`);
+      }
     }catch(e){onFlash("❌ JSON lỗi: "+e.message);}
+  }
+
+  function generateSplitJson(){
+    if(!jsonInput.trim()){onFlash("⚠ Dán JSON trước");return;}
+    try{
+      let d=JSON.parse(jsonInput.replace(/```json|```/g,"").trim());
+      if(!Array.isArray(d))d=[d];
+      const grouped=d.reduce((acc,item)=>{const pid=item.podcast_id||item.podcast_lesson_id||"unknown";if(!acc[pid])acc[pid]=[];acc[pid].push(item);return acc;},{});
+      const split=Object.entries(grouped).map(([pid,items])=>({podcast_id:parseInt(pid),sentences:items}));
+      const json=JSON.stringify(split,null,2);
+      navigator.clipboard.writeText(json).then(()=>onFlash("✓ Đã copy JSON tách thành clipboard")).catch(()=>onFlash("❌ Không copy được"));
+    }catch(e){onFlash("❌ "+e.message);}
+  }
+
+  async function uploadParsed(){
+    if(!parsed.length){onFlash("⚠ Không có câu để lưu");return;}
+    if(!lessonId&&!splitMode){onFlash("⚠ Chọn bài nghe hoặc bật chế độ Tách podcast");return;}
+    try{
+      let total=0;
+      for(const s of parsed){
+        let lid=lessonId;
+        if(splitMode&&s.podcast_id){
+          const podcastLesson=lessons.find(x=>x.id==s.podcast_id);
+          if(!podcastLesson)continue;
+          lid=s.podcast_id;
+        }
+        if(!lid)continue;
+        const payload={podcast_lesson_id:lid,hanzi:s.hanzi.trim(),pinyin:s.pinyin||"",vi:s.vi||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",order_num:s.orderNum??total};
+        await sbPost("podcast_dictation_sentences",payload);
+        total++;
+      }
+      onFlash(`✓ Đã thêm ${total} câu`);setParsed([]);setJsonInput("");setSelectedPodcasts({});loadSentences(lessonId);
+    }catch(e){onFlash("❌ "+e.message);}
   }
 
   return(<div>
@@ -3206,12 +3247,30 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
         <button onClick={()=>setEditItem({_new:true,hanzi:"",pinyin:"",vi:"",meaning:"",focus:"",startTime:null,endTime:null,audioUrl:null,orderNum:(Math.max(...sentences.map(s=>s.orderNum||0),0)+1)})} style={btnS("#3fae86")}>+ Thêm câu</button>
       </div>
 
-      <div style={{marginBottom:16,display:"flex",gap:8,flexWrap:"wrap"}}>
+      <div style={{marginBottom:16,display:"flex",gap:8,flexWrap:"wrap",alignItems:"center"}}>
         <button onClick={()=>{const t=document.getElementById("json-input");t&&t.focus();}} style={btnS("#7dd3a8")}>Dán JSON</button>
+        <label style={{display:"flex",alignItems:"center",gap:8,fontSize:13,cursor:"pointer",color:"var(--fg)"}}>
+          <input type="checkbox" checked={splitMode} onChange={e=>setSplitMode(e.target.checked)} style={{cursor:"pointer",width:16,height:16}}/>
+          Tách từng podcast
+        </label>
+        {jsonInput.trim()&&<button onClick={generateSplitJson} style={btnS("#d9a441")}>📋 Chia tách JSON</button>}
       </div>
 
       <textarea id="json-input" style={{...inp(),fontFamily:"monospace",fontSize:12,minHeight:100}} placeholder='[{"hanzi":"我们一起走","pinyin":"wǒmen yīqǐ zǒu","vi":"Chúng ta cùng đi","meaning":"We go together","focus":""}]' value={jsonInput} onChange={e=>setJsonInput(e.target.value)}/>
-      {jsonInput.trim()&&<button onClick={parseJson} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)",marginBottom:14}}>↓ Phân tích & thêm</button>}
+      <div style={{display:"flex",gap:8,marginBottom:14}}>
+        {jsonInput.trim()&&<button onClick={parseJson} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)"}}>✅ Phân tích JSON</button>}
+        {parsed.length>0&&<button onClick={uploadParsed} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)"}}>☁ Lưu {parsed.length} câu</button>}
+      </div>
+
+      {parsed.length>0&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
+        <div style={{fontSize:13,fontWeight:700,marginBottom:8}}>Xem trước ({parsed.length} câu)</div>
+        <div style={{fontSize:12,color:"var(--muted)",maxHeight:200,overflowY:"auto",borderLeft:"3px solid #3fae86",paddingLeft:12}}>
+          {parsed.slice(0,10).map((s,i)=>(<div key={i} style={{padding:"4px 0",borderTop:i>0?"1px dashed var(--border)":"none"}}>
+            {splitMode&&s.podcast_id?`[Podcast ${s.podcast_id}] `:""}Câu {i+1}: {String(s.hanzi).slice(0,60)}{s.hanzi.length>60?"...":""}
+          </div>))}
+          {parsed.length>10&&<div style={{padding:"6px 0",color:"var(--muted)",fontStyle:"italic"}}>... và {parsed.length-10} câu nữa</div>}
+        </div>
+      </div>)}
 
       {editItem&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
         <div style={{fontSize:13,fontWeight:700,color:"#3fae86",marginBottom:10}}>{editItem._new?"Thêm câu mới":"Sửa câu"}</div>

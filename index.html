@@ -3570,12 +3570,12 @@ function QuizAdminQuestions({inp,btnS,rowS,onFlash}){
       <div style={{fontSize:11.5,color:"var(--muted)",marginBottom:8,lineHeight:1.6}}>
         1) Copy prompt mẫu → gửi cho AI kèm từ vựng/ngữ pháp/câu mẫu của bài → nhận JSON. 2) JSON mỗi câu: <code style={{fontSize:11}}>q, text, text_pinyin, text_nghia, a[4], ans</code>. 3) Mỗi phần tử của <b>a</b> là object <code style={{fontSize:11}}>{"{hanzi,pinyin,nghia}"}</code> (để pinyin/nghia rỗng nếu đáp án không phải chữ Hán).
       </div>
-      <textarea style={{...inp(),minHeight:140,fontFamily:”'JetBrains Mono',monospace”}} placeholder='[{“q”:1,”text”:””觉得” trong câu này có nghĩa là gì?”,”text_pinyin”:””,”text_nghia”:””,”a”:[{“hanzi”:”cảm thấy”,”pinyin”:””,”nghia”:””},{“hanzi”:”muốn”,”pinyin”:””,”nghia”:””},{“hanzi”:”...”,”pinyin”:””,”nghia”:””},{“hanzi”:”...”,”pinyin”:””,”nghia”:””}],”ans”:0}]' value={jsonInput} onChange={e=>setJsonInput(e.target.value)}/>
-      <div style={{display:”flex”,gap:8,flexWrap:”wrap”}}>
-        <button onClick={parseJson} style={{...btnS(“#3fae86”),background:”#3fae86”,color:”var(--bg)”}}>✅ Parse JSON</button>
-        <input type=”file” accept=”.json” id=”vocab-json-file-input” style={{display:”none”}} onChange={e=>{const f=e.target.files[0];if(f){const r=new FileReader();r.onload=ev=>{setJsonInput(ev.target.result);onFlash(`✓ Đã tải ${f.name}`)};r.readAsText(f);}}}/>
-        <button onClick={()=>document.getElementById(“vocab-json-file-input”).click()} style={btnS(“#7dd3a8”)}>📂 Tải file JSON</button>
-        <button onClick={()=>setShowPrompt(v=>!v)} style={btnS(“#2D9CDB”)}>{showPrompt?”Ẩn prompt mẫu”:”📋 Prompt mẫu”}</button>
+      <textarea style={{...inp(),minHeight:140,fontFamily:"'JetBrains Mono',monospace"}} placeholder='[{"q":1,"text":"“觉得” trong câu này có nghĩa là gì?","text_pinyin":"","text_nghia":"","a":[{"hanzi":"cảm thấy","pinyin":"","nghia":""},{"hanzi":"muốn","pinyin":"","nghia":""},{"hanzi":"...","pinyin":"","nghia":""},{"hanzi":"...","pinyin":"","nghia":""}],"ans":0}]' value={jsonInput} onChange={e=>setJsonInput(e.target.value)}/>
+      <div style={{display:"flex",gap:8,flexWrap:"wrap"}}>
+        <button onClick={parseJson} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)"}}>✅ Parse JSON</button>
+        <input type="file" accept=".json" id="vocab-json-file-input" style={{display:"none"}} onChange={e=>{const f=e.target.files[0];if(f){const r=new FileReader();r.onload=ev=>{setJsonInput(ev.target.result);onFlash(`✓ Đã tải ${f.name}`)};r.readAsText(f);}}}/>
+        <button onClick={()=>document.getElementById("vocab-json-file-input").click()} style={btnS("#7dd3a8")}>📂 Tải file JSON</button>
+        <button onClick={()=>setShowPrompt(v=>!v)} style={btnS("#2D9CDB")}>{showPrompt?"Ẩn prompt mẫu":"📋 Prompt mẫu"}</button>
       </div>
       {showPrompt&&(<div style={{marginTop:10}}>
         <textarea readOnly style={{...inp(),minHeight:220,fontFamily:"'JetBrains Mono',monospace",background:"var(--surface2)"}} value={SAMPLE_QUIZ_PROMPT}/>

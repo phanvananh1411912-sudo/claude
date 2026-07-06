@@ -1408,7 +1408,8 @@ Chỉ trả JSON, không thêm chữ nào ngoài JSON:
 }
 
 /* ============================================================ PODCAST DICTATION APP ============================================================ */
-function PodcastDictApp({onHome}){
+// embedded=true: bỏ khung toàn màn hình + nút "← Trang chủ" để nhúng vào tab bên trong màn Podcast luyện nghe.
+function PodcastDictApp({onHome,embedded,onViewChange}){
   const [lessons,setLessons]=useState([]);const [lessonsLoaded,setLessonsLoaded]=useState(false);const [view,setView]=useState("select");const [lesson,setLesson]=useState(null);const [lessonData,setLessonData]=useState(null);const [loadingLesson,setLoadingLesson]=useState(false);const [idx,setIdx]=useState(0);const [inputs,setInputs]=useState({});const [results,setResults]=useState({});const [grading,setGrading]=useState(false);const [playingId,setPlayingId]=useState(null);const [showAns,setShowAns]=useState(false);
   const [recording,setRecording]=useState(false);
   const [showPinyinMeaning,setShowPinyinMeaning]=useState(()=>defaultPinyinMeaningOn());
@@ -1416,6 +1417,7 @@ function PodcastDictApp({onHome}){
   const stoppedRef=React.useRef(false);
   const audioRef=React.useRef(null);
   useEffect(()=>{fetchListeningLessons().then(setLessons).finally(()=>setLessonsLoaded(true));},[]);
+  useEffect(()=>{onViewChange&&onViewChange(view);},[view,onViewChange]);
   const startLesson=(l)=>{
     setLesson(l);setIdx(0);setInputs({});setResults({});setShowAns(false);setLoadingLesson(true);setLessonData(null);setView("practice");
     fetchPodcastDictationSentences(l.id).then(sentences=>{
@@ -1436,21 +1438,25 @@ function PodcastDictApp({onHome}){
   function stopRecord(){stoppedRef.current=true;try{recogRef.current&&recogRef.current.close();}catch{}setRecording(false);}
   const gradedCount=sentences.filter(x=>results[x.id]).length;
   const ERR_LABEL={wrong:"Sai ký tự",missing:"Thiếu ký tự",extra:"Thừa ký tự"};const ERR_COLOR={wrong:"#e0584f",missing:"#d9a441",extra:"var(--muted)"};
+  const pinyinToggle=(
+    <button onClick={()=>setShowPinyinMeaning(v=>!v)} className={`px-4 py-2.5 rounded-2xl border text-sm font-semibold transition ${showPinyinMeaning?'bg-indigo-600 text-white border-indigo-600':'bg-white text-gray-600 border-gray-200 hover:border-indigo-300'}`}>
+      {showPinyinMeaning?"👁 Đang hiện Pinyin & Nghĩa":"👁 Hiện Pinyin & Nghĩa"}
+    </button>
+  );
   return(
-    <div className="min-h-screen bg-[#f8f9fc] pb-12">
-      <div className={`${view==="practice"?"max-w-7xl":"max-w-3xl"} mx-auto px-6 pt-8`}>
+    <div className={embedded?"":"min-h-screen bg-[#f8f9fc] pb-12"}>
+      <div className={embedded?"":`${view==="practice"?"max-w-7xl":"max-w-3xl"} mx-auto px-6 pt-8`}>
+        {!embedded&&(
         <div className="flex flex-wrap items-center gap-4 mb-6">
           <button onClick={onHome} className="px-5 py-3 bg-white border border-gray-200 rounded-2xl hover:bg-gray-50 text-gray-700 font-medium">← Trang chủ</button>
           <div className="flex-1 min-w-[160px]">
             <div className="text-3xl font-semibold text-gray-950">🎧 Podcast - Chép chính tả</div>
             <div className="text-gray-500">{view==="select"?"Chọn bài podcast để bắt đầu luyện.":"Nghe podcast tiếng Trung và viết lại các câu bạn nghe được."}</div>
           </div>
-          {view==="practice"&&(
-            <button onClick={()=>setShowPinyinMeaning(v=>!v)} className={`px-4 py-2.5 rounded-2xl border text-sm font-semibold transition ${showPinyinMeaning?'bg-indigo-600 text-white border-indigo-600':'bg-white text-gray-600 border-gray-200 hover:border-indigo-300'}`}>
-              {showPinyinMeaning?"👁 Đang hiện Pinyin & Nghĩa":"👁 Hiện Pinyin & Nghĩa"}
-            </button>
-          )}
+          {view==="practice"&&pinyinToggle}
         </div>
+        )}
+        {embedded&&view==="practice"&&(<div className="flex justify-end mb-4">{pinyinToggle}</div>)}
 
         {view==="select"&&<div className="screen-hint">
           <span style={{fontSize:18}}>💡</span>
@@ -8173,13 +8179,14 @@ function Onboarding({onFinish}){
 }
 /* ============================================================ NGHE PODCAST (Listening) — dữ liệu chỉ do Admin thiết lập, người dùng chỉ học/tra cứu ============================================================ */
 function ListeningApp({onHome}){
-  const [subMode,setSubMode]=useState("hoc"); // hoc | phantich
+  const [subMode,setSubMode]=useState("hoc"); // hoc | phantich | chinhta
   const [huTuMap,setHuTuMap]=useState({});
   const [huTuLoaded,setHuTuLoaded]=useState(false);
-  const [panelView,setPanelView]=useState("select"); // theo dõi view con của ListeningStudyPanel để mở rộng khung khi vào màn làm bài
+  const [panelView,setPanelView]=useState("select"); // theo dõi view con của panel để mở rộng khung khi vào màn làm bài
+  const [dictView,setDictView]=useState("select");
   useEffect(()=>{fetchHuTuMap().then(setHuTuMap).finally(()=>setHuTuLoaded(true));},[]);
 
-  const wide=subMode==="hoc"&&panelView==="practice";
+  const wide=(subMode==="hoc"&&panelView==="practice")||(subMode==="chinhta"&&dictView==="practice");
   return(
     <div className="min-h-screen bg-[#f8f9fc] pb-12">
       <div className={`${wide?"max-w-7xl":"max-w-3xl"} mx-auto px-6 pt-8`}>
@@ -8187,18 +8194,19 @@ function ListeningApp({onHome}){
           <button onClick={onHome} className="px-5 py-3 bg-white border border-gray-200 rounded-2xl hover:bg-gray-50 text-gray-700 font-medium">← Trang chủ</button>
           <div className="flex-1 min-w-[160px]">
             <div className="text-3xl font-semibold text-gray-950">Podcast luyện nghe</div>
-            <div className="text-gray-500">Luyện nghe HSK · phân tích hư từ (虚词)</div>
+            <div className="text-gray-500">Luyện nghe HSK · chép chính tả · phân tích hư từ (虚词)</div>
           </div>
         </div>
 
-        <div className="inline-flex bg-white border border-gray-200 rounded-3xl p-1 mb-6">
-          {[["hoc","📚 Học bài"],["phantich","🔍 Phân tích câu"]].map(([id,label])=>(
+        <div className="inline-flex bg-white border border-gray-200 rounded-3xl p-1 mb-6 flex-wrap">
+          {[["hoc","📚 Học bài"],["chinhta","✍️ Chép chính tả"],["phantich","🔍 Phân tích câu"]].map(([id,label])=>(
             <button key={id} onClick={()=>setSubMode(id)}
               className={`px-5 py-2.5 rounded-[22px] font-medium transition text-sm ${subMode===id?'bg-indigo-600 text-white':'text-gray-700 hover:bg-gray-100'}`}>{label}</button>
           ))}
         </div>
 
         {subMode==="hoc"&&<ListeningStudyPanel huTuMap={huTuMap} onViewChange={setPanelView}/>}
+        {subMode==="chinhta"&&<PodcastDictApp embedded onViewChange={setDictView}/>}
         {subMode==="phantich"&&<ListeningAnalyzePanel huTuMap={huTuMap} huTuLoaded={huTuLoaded}/>}
       </div>
     </div>

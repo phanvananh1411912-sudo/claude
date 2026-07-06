@@ -1412,7 +1412,7 @@ function PodcastDictApp({onHome}){
     }).finally(()=>setLoadingLesson(false));
   };
   const sentences=lessonData?.sentences||[];const s=sentences[idx];
-  const playAudio=async(sent)=>{setPlayingId(sent.id);await speak(sent.hanzi,"zh",{audioUrl:lesson.audio_url,entityType:"sentence",entityId:sent.id});setPlayingId(null);};
+  const playAudio=async(sent)=>{setPlayingId(sent.id);await speak(sent.hanzi,"zh",{entityType:"podcast_sentence",entityId:sent.id});setPlayingId(null);};
   const handleGrade=async()=>{setGrading(true);const r=await gradeDictation(s,inputs[s.id]||"");setResults(p=>({...p,[s.id]:r}));setGrading(false);};
   function startRecord(){
     if(!s||results[s.id])return;
@@ -3210,7 +3210,7 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
         <button onClick={()=>{const t=document.getElementById("json-input");t&&t.focus();}} style={btnS("#7dd3a8")}>Dán JSON</button>
       </div>
 
-      <textarea id="json-input" style={{...inp(),fontFamily:"monospace",fontSize:12,minHeight:100}} placeholder='[{"hanzi":"我们一起走","pinyin":"wǒmen yīqǐ zǒu","vi":"Chúng ta cùng đi","meaning":"We go together","focus":"共同行为","start_time":10,"end_time":12}]' value={jsonInput} onChange={e=>setJsonInput(e.target.value)}/>
+      <textarea id="json-input" style={{...inp(),fontFamily:"monospace",fontSize:12,minHeight:100}} placeholder='[{"hanzi":"我们一起走","pinyin":"wǒmen yīqǐ zǒu","vi":"Chúng ta cùng đi","meaning":"We go together","focus":""}]' value={jsonInput} onChange={e=>setJsonInput(e.target.value)}/>
       {jsonInput.trim()&&<button onClick={parseJson} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)",marginBottom:14}}>↓ Phân tích & thêm</button>}
 
       {editItem&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
@@ -3220,17 +3220,6 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
         <input style={inp()} placeholder="Nghĩa tiếng Việt" value={editItem.vi||""} onChange={e=>setEditItem({...editItem,vi:e.target.value})}/>
         <input style={inp()} placeholder="Meaning (English hoặc bổ sung)" value={editItem.meaning||""} onChange={e=>setEditItem({...editItem,meaning:e.target.value})}/>
         <input style={inp()} placeholder="Trọng tâm (ngữ pháp/từ vựng)" value={editItem.focus||""} onChange={e=>setEditItem({...editItem,focus:e.target.value})}/>
-        <div style={{display:"flex",gap:8,fontSize:12,marginBottom:6}}>
-          <div style={{flex:1}}>
-            <label style={{display:"block",marginBottom:2,color:"var(--muted)",fontWeight:600}}>Bắt đầu (giây)</label>
-            <input type="number" style={inp()} value={editItem.startTime??""} onChange={e=>setEditItem({...editItem,startTime:e.target.value?parseFloat(e.target.value):null})}/>
-          </div>
-          <div style={{flex:1}}>
-            <label style={{display:"block",marginBottom:2,color:"var(--muted)",fontWeight:600}}>Kết thúc (giây)</label>
-            <input type="number" style={inp()} value={editItem.endTime??""} onChange={e=>setEditItem({...editItem,endTime:e.target.value?parseFloat(e.target.value):null})}/>
-          </div>
-        </div>
-        <input style={inp()} placeholder="Audio URL (tùy chọn)" value={editItem.audioUrl||""} onChange={e=>setEditItem({...editItem,audioUrl:e.target.value})}/>
         <div style={{display:"flex",gap:8,marginTop:4}}>
           <button onClick={saveSentence} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)"}}>Lưu</button>
           <button onClick={()=>setEditItem(null)} style={btnS("var(--muted)")}>Huỷ</button>

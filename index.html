@@ -2979,10 +2979,12 @@ function parseLessonsExcelRows(rows){
   if(hi<0)hi=0;
   const header=(rows[hi]||[]).map(c=>String(c||"").trim().toLowerCase());
   const findExact=(...names)=>{for(const n of names){const i=header.findIndex(h=>h===n.toLowerCase());if(i>=0)return i;}return -1;};
-  const cTitle=findExact("tên bài","title");
-  const cLevel=findExact("cấp độ","level");
-  const cAudio=findExact("audio url","audio","link mp3");
-  const cYoutube=findExact("youtube url","youtube","link youtube");
+  // Nếu không khớp chính xác tên cột, thử khớp gần đúng (chứa từ khoá) để tránh bỏ sót cột do đặt tên khác đi chút ít
+  const findLike=(...keywords)=>{const exact=findExact(...keywords);if(exact>=0)return exact;return header.findIndex(h=>keywords.some(kw=>h.includes(kw)));};
+  const cTitle=findLike("tên bài","title");
+  const cLevel=findLike("cấp độ","level");
+  const cAudio=findLike("audio url","audio","link mp3");
+  const cYoutube=findLike("youtube url","youtube","link youtube");
   const dataRows=rows.slice(hi+1).filter(r=>r.some(c=>String(c||"").trim()));
   return dataRows.map(r=>{
     const cell=i=>i>=0?String(r[i]||"").trim():"";
@@ -3508,9 +3510,20 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       const titleToId={};
       existingLessons.forEach(l=>{titleToId[l.title]=l.id;});
       const newLessons=lessonsToAdd.filter(l=>!titleToId[l.title]);
+      const updateLessons=lessonsToAdd.filter(l=>titleToId[l.title]);
       if(newLessons.length){
         const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:l.title,level:l.level||"",audio_url:l.audio_url||null,youtube_url:l.youtube_url||null})));
         (created||[]).forEach(l=>{titleToId[l.title]=l.id;});
+      }
+      // Bài nghe đã có sẵn (trùng tên) — cập nhật audio/youtube/cấp độ từ file thay vì bỏ qua
+      let updatedLessonsCount=0;
+      for(const l of updateLessons){
+        const lid=titleToId[l.title];
+        const patch={};
+        if(l.level)patch.level=l.level;
+        if(l.audio_url)patch.audio_url=l.audio_url;
+        if(l.youtube_url)patch.youtube_url=l.youtube_url;
+        if(Object.keys(patch).length){await sbPatch(`listeningpodcast_lessons?id=eq.${lid}`,patch);updatedLessonsCount++;}
       }
 
       // 2) Câu hỏi: khớp theo cột "Bài" với tên bài ở bước 1 (hoặc bài đã có sẵn)
@@ -3543,7 +3556,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       const warn=[];
       if(qUnresolved.length)warn.push(`⚠ ${qUnresolved.length} câu hỏi không khớp bài: ${[...new Set(qUnresolved)].join(", ")}`);
       if(dUnresolved.length)warn.push(`⚠ ${dUnresolved.length} câu chép chính tả không khớp bài: ${[...new Set(dUnresolved)].join(", ")}`);
-      onFlash(`✓ Đã lưu: ${newLessons.length} bài nghe mới · ${qTotal} câu hỏi · ${dTotal} câu chép chính tả${warn.length?" · "+warn.join(" · "):""}`);
+      onFlash(`✓ Đã lưu: ${newLessons.length} bài nghe mới · ${updatedLessonsCount} bài đã cập nhật · ${qTotal} câu hỏi · ${dTotal} câu chép chính tả${warn.length?" · "+warn.join(" · "):""}`);
       setFileName("");setLessonsToAdd([]);setQuestionsToAdd([]);setDictationToAdd([]);
       fetchListeningLessons().then(setExistingLessons);
     }catch(e){onFlash("❌ Lỗi lưu Supabase: "+e.message);}finally{setUploading(false);}
@@ -3573,7 +3586,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       <div style={{fontSize:12,color:"var(--muted)",display:"flex",flexDirection:"column",gap:10}}>
         <div>
           <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>📚 Bài nghe ({lessonsToAdd.length})</div>
-          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{titleExists(existingLessons,l.title)?" · đã có sẵn (dùng lại)":" · sẽ tạo mới"}</div>))}
+          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{titleExists(existingLessons,l.title)?" · đã có sẵn — sẽ cập nhật audio/YouTube/cấp độ":" · sẽ tạo mới"}</div>))}
           {lessonsToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {lessonsToAdd.length-5} bài nữa</div>}
           {lessonsToAdd.length===0&&<div style={{fontStyle:"italic"}}>Không có bài nghe mới trong sheet "Bài nghe"</div>}
         </div>

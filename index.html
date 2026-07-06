@@ -3003,7 +3003,7 @@ function parseLessonsExcelRows(rows){
     const cell=i=>i>=0?String(r[i]||"").trim():"";
     // title = "Tên bài" (mã bài ngắn, dùng làm khoá khớp với cột "Bài" ở 2 sheet kia) · tuade = "Tựa đề" (tên đầy đủ hiển thị cho học viên)
     return{title:cell(cTitle),tuade:cell(cTuaDe)||null,level:cell(cLevel),audio_url:cell(cAudio)||null,youtube_url:cell(cYoutube)||null};
-  }).filter(r=>r.title);
+  }).filter(r=>r.title||r.tuade); // hợp lệ nếu có ÍT NHẤT 1 trong 2 cột Tên bài / Tựa đề
 }
 // Đọc sheet "Chép chính tả" của file Excel import 3-trong-1: cột Bài · Hán tự · Pinyin · Nghĩa tiếng Việt · Meaning · Trọng tâm
 function parseDictationExcelRows(rows){
@@ -3520,26 +3520,35 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
     if(!hasData){onFlash("⚠ Chưa có dữ liệu — tải file Excel trước");return;}
     setUploading(true);
     try{
-      // 1) Bài nghe: "Tên bài" (mã ngắn) là khoá khớp; "Tựa đề" + mã ghép lại thành title lưu DB.
-      // Bài nào đã có mã trùng thì dùng lại id cũ và cập nhật, chưa có thì tạo mới.
+      // 1) Bài nghe: khoá khớp = "Tên bài" (mã ngắn) HOẶC "Tựa đề" (nếu bỏ trống mã).
+      // "Tên bài" + "Tựa đề" ghép lại thành title lưu DB. Bài đã có (trùng khoá) → cập nhật, chưa có → tạo mới.
       const titleToId={};
-      existingLessons.forEach(l=>{titleToId[lessonShortLabel(l.title)]=l.id;titleToId[l.title]=l.id;});
-      const newLessons=lessonsToAdd.filter(l=>!titleToId[l.title]);
-      const updateLessons=lessonsToAdd.filter(l=>titleToId[l.title]);
+      const regKey=(k,id)=>{const key=String(k||"").trim();if(key)titleToId[key]=id;};
+      const registerLesson=(storedTitle,id,rawTitle,rawTuaDe)=>{
+        regKey(storedTitle,id);
+        regKey(lessonShortLabel(storedTitle),id);
+        regKey(lessonTitleParts(storedTitle).tuade,id);
+        regKey(rawTitle,id);regKey(rawTuaDe,id);
+      };
+      existingLessons.forEach(l=>registerLesson(l.title,l.id));
+      const lessonKey=l=>(l.title||l.tuade||"").trim();
+      const newLessons=lessonsToAdd.filter(l=>lessonKey(l)&&!titleToId[lessonKey(l)]);
+      const updateLessons=lessonsToAdd.filter(l=>lessonKey(l)&&titleToId[lessonKey(l)]);
       if(newLessons.length){
         const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:combineLessonTitle(l.title,l.tuade),level:l.level||"",audio_url:l.audio_url||null,youtube_url:l.youtube_url||null})));
-        (created||[]).forEach((l,idx)=>{titleToId[newLessons[idx].title]=l.id;titleToId[l.title]=l.id;});
+        (created||[]).forEach((row,idx)=>{const src=newLessons[idx];registerLesson(row.title,row.id,src.title,src.tuade);});
       }
-      // Bài nghe đã có sẵn (trùng mã) — cập nhật tựa đề/audio/youtube/cấp độ từ file thay vì bỏ qua
+      // Bài nghe đã có sẵn (trùng khoá) — cập nhật tựa đề/audio/youtube/cấp độ từ file thay vì bỏ qua
       let updatedLessonsCount=0;
       for(const l of updateLessons){
-        const lid=titleToId[l.title];
+        const lid=titleToId[lessonKey(l)];
         const existing=existingLessons.find(x=>x.id===lid);
+        registerLesson(existing?existing.title:"",lid,l.title,l.tuade); // để câu hỏi/dictation khớp được cả tên mới
         const patch={};
         if(l.level)patch.level=l.level;
         if(l.audio_url)patch.audio_url=l.audio_url;
         if(l.youtube_url)patch.youtube_url=l.youtube_url;
-        if(l.tuade)patch.title=combineLessonTitle(existing?lessonShortLabel(existing.title):l.title,l.tuade);
+        if(l.tuade)patch.title=combineLessonTitle(l.title||(existing?lessonShortLabel(existing.title):""),l.tuade);
         if(Object.keys(patch).length){await sbPatch(`listeningpodcast_lessons?id=eq.${lid}`,patch);updatedLessonsCount++;}
       }
 
@@ -3582,7 +3591,8 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
   return(<div>
     <div style={{fontSize:12,color:"var(--muted)",lineHeight:1.7,marginBottom:14,background:"var(--surface2)",border:"1px solid var(--border)",borderRadius:10,padding:"10px 12px"}}>
       Import <b style={{color:"var(--fg)"}}>1 file Excel duy nhất</b> gồm 3 sheet: <b style={{color:"var(--fg)"}}>Bài nghe</b> (tạo/khớp bài) · <b style={{color:"var(--fg)"}}>Câu hỏi</b> · <b style={{color:"var(--fg)"}}>Chép chính tả</b>.
-      Cột <b style={{color:"var(--fg)"}}>"Bài"</b> ở 2 sheet sau phải ghi đúng tên bài đã khai ở sheet "Bài nghe" (hoặc tên bài đã có sẵn trong hệ thống) để tự khớp đúng bài — sai tên sẽ bị bỏ qua và báo rõ trong thông báo kết quả.
+      Sheet "Bài nghe": cột <b style={{color:"var(--fg)"}}>Tên bài</b> (mã ngắn, vd "Podcast 01" — dùng làm khoá khớp) và <b style={{color:"var(--fg)"}}>Tựa đề</b> (tên đầy đủ) — cần ít nhất 1 trong 2; kèm Cấp độ / Audio URL / YouTube URL.
+      Cột <b style={{color:"var(--fg)"}}>"Bài"</b> ở 2 sheet sau phải ghi đúng Tên bài (hoặc Tựa đề) đã khai ở sheet "Bài nghe" (hoặc bài đã có sẵn) để tự khớp đúng — sai tên sẽ bị bỏ qua và báo rõ trong thông báo kết quả.
     </div>
 
     <div style={{display:"flex",gap:8,flexWrap:"wrap",marginBottom:14}}>
@@ -3603,7 +3613,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       <div style={{fontSize:12,color:"var(--muted)",display:"flex",flexDirection:"column",gap:10}}>
         <div>
           <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>📚 Bài nghe ({lessonsToAdd.length})</div>
-          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{l.tuade?` — ${l.tuade}`:""}{titleExists(existingLessons,l.title)?" · đã có sẵn — sẽ cập nhật":" · sẽ tạo mới"}</div>))}
+          {lessonsToAdd.slice(0,5).map((l,i)=>{const key=(l.title||l.tuade||"").trim();return(<div key={i} style={{padding:"2px 0"}}>{l.title||"(không mã)"}{l.tuade?` — ${l.tuade}`:""}{key&&titleExists(existingLessons,key)?" · đã có sẵn — sẽ cập nhật":" · sẽ tạo mới"}</div>);})}
           {lessonsToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {lessonsToAdd.length-5} bài nữa</div>}
           {lessonsToAdd.length===0&&<div style={{fontStyle:"italic"}}>Không có bài nghe mới trong sheet "Bài nghe"</div>}
         </div>
@@ -3621,7 +3631,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
     </div>)}
   </div>);
 }
-function titleExists(lessons,shortLabel){return lessons.some(l=>lessonShortLabel(l.title)===shortLabel||l.title===shortLabel);}
+function titleExists(lessons,key){const k=String(key||"").trim();if(!k)return false;return lessons.some(l=>lessonShortLabel(l.title)===k||l.title===k||lessonTitleParts(l.title).tuade===k);}
 
 function ListeningAdminTab({onFlash}){
   const [subTab,setSubTab]=useState("importAll");

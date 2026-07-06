@@ -3020,15 +3020,17 @@ function ListeningAdminQuestions({inp,btnS,rowS,onFlash}){
       (grouped[lid]=grouped[lid]||[]).push(q);
     });
     if(!Object.keys(grouped).length){onFlash('⚠ Chọn bài nghe trước, hoặc thêm cột "Bài" khớp đúng tên bài');return;}
-    let total=0;
-    for(const [lid,qs] of Object.entries(grouped)){
-      const rows=qs.map(q=>({lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,hint:q.hint||null,trans:q.trans,a:q.a,ans:q.ans,starttime:q.start??null,endtime:q.end??null}));
-      await sbPost("questions",rows);total+=rows.length;
-    }
-    onFlash(`✓ Đã thêm ${total} câu${unresolved.length?` · ⚠ bỏ qua ${unresolved.length} câu không khớp tên bài: ${[...new Set(unresolved)].join(", ")}`:""}`);
-    setJsonInput("");setParsed([]);setExcelFile(null);loadQ(lessonId);
+    try{
+      let total=0;
+      for(const [lid,qs] of Object.entries(grouped)){
+        const rows=qs.map(q=>({lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,hint:q.hint||null,trans:q.trans,a:q.a,ans:q.ans,starttime:q.start??null,endtime:q.end??null}));
+        await sbPost("questions",rows);total+=rows.length;
+      }
+      onFlash(`✓ Đã thêm ${total} câu${unresolved.length?` · ⚠ bỏ qua ${unresolved.length} câu không khớp tên bài: ${[...new Set(unresolved)].join(", ")}`:""}`);
+      setJsonInput("");setParsed([]);setExcelFile(null);loadQ(lessonId);
+    }catch(e){onFlash("❌ Lỗi lưu Supabase: "+e.message);}
   }
-  async function delQuestion(id){if(!confirm("Xoá câu hỏi này?"))return;await sbDel(`questions?id=eq.${id}`);onFlash("✓ Đã xoá");loadQ(lessonId);}
+  async function delQuestion(id){if(!confirm("Xoá câu hỏi này?"))return;try{await sbDel(`questions?id=eq.${id}`);onFlash("✓ Đã xoá");loadQ(lessonId);}catch(e){onFlash("❌ "+e.message);}}
   async function copyPrompt(){try{await navigator.clipboard.writeText(SAMPLE_LISTENING_PROMPT);onFlash("✓ Đã copy prompt");}catch(e){}}
 
   return(<div>
@@ -3162,7 +3164,7 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
   const [jsonInput,setJsonInput]=useState("");
   const [parsed,setParsed]=useState([]);
   const [splitMode,setSplitMode]=useState(false);
-  const [selectedPodcasts,setSelectedPodcasts]=useState({});
+  const [podcastMapping,setPodcastMapping]=useState({}); // {podcast_id: lessonId}
 
   useEffect(()=>{(async()=>{const ls=await fetchListeningLessons();setLessons(ls);if(ls.length)setLessonId(String(ls[0].id));setLoading(false);})();},[]);
   useEffect(()=>{if(lessonId)loadSentences(lessonId);else setSentences([]);},[lessonId]);
@@ -3185,19 +3187,27 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
   }
   async function delSentence(s){if(!confirm(`Xoá câu "${s.hanzi}"?`))return;try{await sbDel(`podcast_dictation_sentences?id=eq.${s.id}`);onFlash("✓ Đã xoá");loadSentences(lessonId);}catch(e){onFlash("❌ "+e.message);}}
 
+  // Đoán bài nghe khớp với 1 podcast_id bằng cách tìm số trong tên bài (vd tên bài "Podcast 01" khớp podcast_id=1)
+  function guessLessonForPodcast(pid){
+    const num=parseInt(pid,10);if(Number.isNaN(num))return "";
+    const found=lessons.find(l=>{const m=String(l.title||"").match(/\d+/);return m&&parseInt(m[0],10)===num;});
+    return found?String(found.id):"";
+  }
+
   function parseJson(){
     const raw=jsonInput.trim();if(!raw){onFlash("⚠ Dán JSON trước");return;}
     try{
       let d=JSON.parse(raw.replace(/```json|```/g,"").trim());
       if(!Array.isArray(d))d=[d];
-      const toAdd=d.map((s,i)=>({_new:true,podcast_id:s.podcast_id||s.podcast_lesson_id,hanzi:s.hanzi||"",pinyin:s.pinyin||"",vi:s.vi||s.meaning||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",orderNum:s.orderNum||i})).filter(s=>s.hanzi);
+      const toAdd=d.map((s,i)=>({_new:true,podcast_id:s.podcast_id??s.podcast_lesson_id??null,hanzi:s.hanzi||"",pinyin:s.pinyin||"",vi:s.vi||s.meaning||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",orderNum:s.orderNum??i})).filter(s=>s.hanzi);
+      setParsed(toAdd);
       if(splitMode){
-        const groups=toAdd.reduce((acc,s)=>{const pid=s.podcast_id;if(!acc[pid])acc[pid]=[];acc[pid].push(s);return acc;},{});
-        setParsed(toAdd);
-        setSelectedPodcasts(Object.fromEntries(Object.keys(groups).map(pid=>[pid,true])));
-        onFlash(`✓ Tìm thấy ${Object.keys(groups).length} podcast với ${toAdd.length} câu`);
+        const pids=[...new Set(toAdd.map(s=>s.podcast_id).filter(p=>p!=null))];
+        const initMap={};pids.forEach(pid=>{initMap[pid]=guessLessonForPodcast(pid);});
+        setPodcastMapping(initMap);
+        const guessed=Object.values(initMap).filter(Boolean).length;
+        onFlash(`✓ Tìm thấy ${pids.length} podcast với ${toAdd.length} câu · đã tự khớp ${guessed}/${pids.length} bài — kiểm tra lại bên dưới trước khi lưu`);
       }else{
-        setParsed(toAdd);
         onFlash(`✓ Chuẩn bị thêm ${toAdd.length} câu`);
       }
     }catch(e){onFlash("❌ JSON lỗi: "+e.message);}
@@ -3208,32 +3218,44 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
     try{
       let d=JSON.parse(jsonInput.replace(/```json|```/g,"").trim());
       if(!Array.isArray(d))d=[d];
-      const grouped=d.reduce((acc,item)=>{const pid=item.podcast_id||item.podcast_lesson_id||"unknown";if(!acc[pid])acc[pid]=[];acc[pid].push(item);return acc;},{});
+      const grouped=d.reduce((acc,item)=>{const pid=item.podcast_id??item.podcast_lesson_id??"unknown";if(!acc[pid])acc[pid]=[];acc[pid].push(item);return acc;},{});
       const split=Object.entries(grouped).map(([pid,items])=>({podcast_id:parseInt(pid),sentences:items}));
       const json=JSON.stringify(split,null,2);
       navigator.clipboard.writeText(json).then(()=>onFlash("✓ Đã copy JSON tách thành clipboard")).catch(()=>onFlash("❌ Không copy được"));
     }catch(e){onFlash("❌ "+e.message);}
   }
 
+  const podcastGroups=(()=>{
+    if(!splitMode)return [];
+    const map={};
+    parsed.forEach(s=>{if(s.podcast_id==null)return;map[s.podcast_id]=(map[s.podcast_id]||0)+1;});
+    return Object.entries(map).map(([pid,count])=>({pid,count}));
+  })();
+
   async function uploadParsed(){
     if(!parsed.length){onFlash("⚠ Không có câu để lưu");return;}
-    if(!lessonId&&!splitMode){onFlash("⚠ Chọn bài nghe hoặc bật chế độ Tách podcast");return;}
+    if(!splitMode&&!lessonId){onFlash("⚠ Chọn bài nghe trước");return;}
+    const grouped={};
+    let skipped=0;
+    parsed.forEach((s,i)=>{
+      let lid=lessonId;
+      if(splitMode){
+        lid=s.podcast_id!=null?podcastMapping[s.podcast_id]:"";
+        if(!lid){skipped++;return;}
+      }
+      if(!lid){skipped++;return;}
+      (grouped[lid]=grouped[lid]||[]).push({podcast_lesson_id:lid,hanzi:s.hanzi.trim(),pinyin:s.pinyin||"",vi:s.vi||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",order_num:s.orderNum??i});
+    });
+    if(!Object.keys(grouped).length){onFlash("⚠ Chưa có câu nào khớp bài nghe — chọn bài cho từng podcast bên dưới trước khi lưu");return;}
     try{
       let total=0;
-      for(const s of parsed){
-        let lid=lessonId;
-        if(splitMode&&s.podcast_id){
-          const podcastLesson=lessons.find(x=>x.id==s.podcast_id);
-          if(!podcastLesson)continue;
-          lid=s.podcast_id;
-        }
-        if(!lid)continue;
-        const payload={podcast_lesson_id:lid,hanzi:s.hanzi.trim(),pinyin:s.pinyin||"",vi:s.vi||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",order_num:s.orderNum??total};
-        await sbPost("podcast_dictation_sentences",payload);
-        total++;
+      for(const [lid,rows] of Object.entries(grouped)){
+        await sbPost("podcast_dictation_sentences",rows);
+        total+=rows.length;
       }
-      onFlash(`✓ Đã thêm ${total} câu`);setParsed([]);setJsonInput("");setSelectedPodcasts({});loadSentences(lessonId);
-    }catch(e){onFlash("❌ "+e.message);}
+      onFlash(`✓ Đã thêm ${total} câu${skipped?` · ⚠ bỏ qua ${skipped} câu chưa khớp bài`:""}`);
+      setParsed([]);setJsonInput("");setPodcastMapping({});loadSentences(lessonId);
+    }catch(e){onFlash("❌ Lỗi lưu Supabase: "+e.message);}
   }
 
   return(<div>
@@ -3273,6 +3295,22 @@ function ListeningAdminDictation({inp,btnS,rowS,onFlash}){
             {splitMode&&s.podcast_id?`[Podcast ${s.podcast_id}] `:""}Câu {i+1}: {String(s.hanzi).slice(0,60)}{s.hanzi.length>60?"...":""}
           </div>))}
           {parsed.length>10&&<div style={{padding:"6px 0",color:"var(--muted)",fontStyle:"italic"}}>... và {parsed.length-10} câu nữa</div>}
+        </div>
+      </div>)}
+
+      {splitMode&&podcastGroups.length>0&&(<div style={{background:"var(--surface)",border:"1px solid #d9a441",borderRadius:12,padding:16,marginBottom:16}}>
+        <div style={{fontSize:13,fontWeight:700,marginBottom:2}}>🔗 Khớp podcast → bài nghe ({podcastGroups.filter(g=>podcastMapping[g.pid]).length}/{podcastGroups.length} đã khớp)</div>
+        <div style={{fontSize:11.5,color:"var(--muted)",marginBottom:10,lineHeight:1.6}}>
+          Hệ thống tự đoán bài nghe dựa vào số trong tên bài (vd tên bài "Podcast 01" khớp với podcast_id 1). Kiểm tra lại và chọn thủ công nếu chưa đúng — câu của podcast chưa chọn bài sẽ <b style={{color:"var(--fg)"}}>bị bỏ qua</b> khi lưu.
+        </div>
+        <div style={{maxHeight:280,overflowY:"auto",display:"flex",flexDirection:"column",gap:6}}>
+          {podcastGroups.map(g=>(<div key={g.pid} style={{display:"flex",gap:8,alignItems:"center",background:"var(--surface2)",border:"1px solid var(--border)",borderRadius:8,padding:"6px 10px"}}>
+            <div style={{fontSize:12,fontWeight:600,minWidth:110}}>Podcast {g.pid} <span style={{color:"var(--muted)",fontWeight:400}}>({g.count} câu)</span></div>
+            <select style={{...inp("auto"),margin:0,flex:1}} value={podcastMapping[g.pid]||""} onChange={e=>setPodcastMapping(p=>({...p,[g.pid]:e.target.value}))}>
+              <option value="">— Chưa chọn bài —</option>
+              {lessons.map(l=>(<option key={l.id} value={l.id}>{l.title}</option>))}
+            </select>
+          </div>))}
         </div>
       </div>)}
 
@@ -3537,15 +3575,17 @@ function QuizAdminQuestions({inp,btnS,rowS,onFlash}){
       (grouped[lid]=grouped[lid]||[]).push(q);
     });
     if(!Object.keys(grouped).length){onFlash('⚠ Chọn bài học trước, hoặc thêm cột "Bài" khớp đúng tên bài');return;}
-    let total=0;
-    for(const [lid,qs] of Object.entries(grouped)){
-      const rows=qs.map(q=>({id:`${lid}-quiz${String(q.q).padStart(3,"0")}-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,a:q.a,ans:q.ans}));
-      await sbPost("quiz_questions",rows);total+=rows.length;
-    }
-    onFlash(`✓ Đã thêm ${total} câu${unresolved.length?` · ⚠ bỏ qua ${unresolved.length} câu không khớp tên bài: ${[...new Set(unresolved)].join(", ")}`:""}`);
-    setJsonInput("");setParsed([]);setExcelFile(null);loadQ(lessonId);
+    try{
+      let total=0;
+      for(const [lid,qs] of Object.entries(grouped)){
+        const rows=qs.map(q=>({id:`${lid}-quiz${String(q.q).padStart(3,"0")}-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,a:q.a,ans:q.ans}));
+        await sbPost("quiz_questions",rows);total+=rows.length;
+      }
+      onFlash(`✓ Đã thêm ${total} câu${unresolved.length?` · ⚠ bỏ qua ${unresolved.length} câu không khớp tên bài: ${[...new Set(unresolved)].join(", ")}`:""}`);
+      setJsonInput("");setParsed([]);setExcelFile(null);loadQ(lessonId);
+    }catch(e){onFlash("❌ Lỗi lưu Supabase: "+e.message);}
   }
-  async function delQuestion(id){if(!confirm("Xoá câu hỏi này?"))return;await sbDel(`quiz_questions?id=eq.${id}`);onFlash("✓ Đã xoá");loadQ(lessonId);}
+  async function delQuestion(id){if(!confirm("Xoá câu hỏi này?"))return;try{await sbDel(`quiz_questions?id=eq.${id}`);onFlash("✓ Đã xoá");loadQ(lessonId);}catch(e){onFlash("❌ "+e.message);}}
   async function copyPrompt(){try{await navigator.clipboard.writeText(SAMPLE_QUIZ_PROMPT);onFlash("✓ Đã copy prompt");}catch(e){}}
 
   return(<div>

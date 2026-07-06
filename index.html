@@ -3578,7 +3578,7 @@ function QuizAdminQuestions({inp,btnS,rowS,onFlash}){
     try{
       let total=0;
       for(const [lid,qs] of Object.entries(grouped)){
-        const rows=qs.map(q=>({id:`${lid}-quiz${String(q.q).padStart(3,"0")}-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,a:q.a,ans:q.ans}));
+        const rows=qs.map(q=>({lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,a:q.a,ans:q.ans}));
         await sbPost("quiz_questions",rows);total+=rows.length;
       }
       onFlash(`✓ Đã thêm ${total} câu${unresolved.length?` · ⚠ bỏ qua ${unresolved.length} câu không khớp tên bài: ${[...new Set(unresolved)].join(", ")}`:""}`);
@@ -3734,7 +3734,7 @@ function AdminApp({onHome}){
   async function loadData(){setLoading(true);try{const[lessons,vocab,grammar]=await Promise.all([fetchAllLessons(),fetchAllVocab(),fetchAllGrammar()]);setData({lessons,vocab,grammar});if(lessons.length&&!selLesson)setSelLesson(lessons[0].id);}finally{setLoading(false);}}
   async function loadSentences(lid){if(!lid)return;setLoading(true);try{setSentences(await fetchAllSentences(lid));}finally{setLoading(false);}}
   useEffect(()=>{if(selLesson)loadSentences(selLesson);},[selLesson]);
-  function flash(msg){setSaveMsg(msg);setTimeout(()=>setSaveMsg(""),2500);}
+  function flash(msg){setSaveMsg(msg);const isErr=msg.startsWith("❌");const isWarn=msg.startsWith("⚠");setTimeout(()=>setSaveMsg(m=>m===msg?"":m),isErr||isWarn?7000:3000);}
 
   const inp=(w="100%")=>({width:w,fontFamily:"inherit",fontSize:13,background:"var(--surface2)",color:"var(--fg)",border:"1px solid var(--border)",borderRadius:8,padding:"8px 10px",outline:"none",marginBottom:6});
   const btnS=(col="#3fae86",bg="transparent")=>({border:`1px solid ${col}`,background:bg,color:col,cursor:"pointer",borderRadius:8,padding:"6px 12px",fontSize:13,fontWeight:600,fontFamily:"inherit"});
@@ -3770,9 +3770,15 @@ function AdminApp({onHome}){
       <div className="flex items-center gap-4 mb-8">
         <button onClick={onHome} className="px-5 py-3 bg-white border border-gray-200 rounded-2xl hover:bg-gray-50 text-gray-700 font-medium">← Trang chủ</button>
         <div className="font-display text-3xl font-semibold flex-1 text-gray-950">⚙ Admin</div>
-        {saveMsg&&<span style={{fontSize:13,color:"#3fae86",fontWeight:600}}>{saveMsg}</span>}
         <button onClick={logout} style={{...btnS("#e0584f")}}>Đăng xuất</button>
       </div>
+
+      {saveMsg&&(()=>{const isErr=saveMsg.startsWith("❌");const isWarn=saveMsg.startsWith("⚠");const col=isErr?"#e0584f":isWarn?"#d9a441":"#3fae86";return(
+        <div style={{position:"fixed",top:16,left:"50%",transform:"translateX(-50%)",zIndex:99999,maxWidth:"min(560px,90vw)",background:"#1a1d23",color:"#fff",border:`1.5px solid ${col}`,borderRadius:12,padding:"12px 16px",boxShadow:"0 10px 32px rgba(0,0,0,.35)",fontSize:13.5,fontWeight:600,display:"flex",alignItems:"flex-start",gap:10}}>
+          <span style={{flex:1,wordBreak:"break-word",whiteSpace:"pre-wrap"}}>{saveMsg}</span>
+          <button onClick={()=>setSaveMsg("")} style={{border:"none",background:"transparent",color:"#fff",opacity:.6,cursor:"pointer",fontSize:15,lineHeight:1,padding:0}}>✕</button>
+        </div>
+      );})()}
 
       <div className="flex gap-1 mb-8 bg-white border border-gray-200 rounded-3xl p-1 flex-wrap">
         {TABS.map(([id,label])=>(<button key={id} onClick={()=>{setTab(id);setEditItem(null);if(id==="audio")refreshQueueStats();}} style={{border:"none",borderRadius:9,padding:"9px 12px",fontFamily:"inherit",fontSize:12,fontWeight:600,cursor:"pointer",flex:"1 1 auto",background:tab===id?"var(--fg)":"transparent",color:tab===id?"var(--bg)":"var(--muted)",transition:".16s"}}>{label}</button>))}

@@ -539,6 +539,17 @@ const PODCAST_NHOM_LABEL={"Phương pháp học tiếng Trung":"Phương pháp h
 // Metadata cho 1 bài: ưu tiên bảng nhúng theo youtube_url, fallback về cột level của DB.
 function podMeta(l){const m=(l&&l.youtube_url&&PODCAST_META[l.youtube_url])||{};return {nhom:m.nhom||"Khác",hsk:m.hsk||l.level||"—",thu_tu:m.thu_tu!=null?m.thu_tu:9999};}
 async function fetchListeningLessons(){return(await sbGetAll(`listeningpodcast_lessons?order=id.asc`))||[];}
+// Bài nghe lưu title dạng "Mã bài · Tựa đề" (mã bài tuỳ chọn) để màn hình học viên hiện badge + tên riêng.
+// Tách/ghép 2 phần này để admin nhập vào 2 ô riêng thay vì tự gõ dấu " · ".
+function lessonTitleParts(title){
+  const parts=String(title||"").split(" · ");
+  return parts.length>1?{label:parts[0],tuade:parts.slice(1).join(" · ")}:{label:"",tuade:title||""};
+}
+function combineLessonTitle(label,tuade){
+  const l=(label||"").trim(),t=(tuade||"").trim();
+  return l&&t?`${l} · ${t}`:(t||l);
+}
+function lessonShortLabel(title){return lessonTitleParts(title).label||title||"";}
 async function fetchListeningQuestions(lessonId){
   const rows=(await sbGet(`questions?lesson_id=eq.${lessonId}&order=q.asc`))||[];
   return rows.map(r=>({id:r.id,q:r.q,text:r.text,textPinyin:r.text_pinyin,textNghia:r.text_nghia,hint:r.hint,trans:r.trans,a:r.a,ans:r.ans,start:r.starttime,end:r.endtime}));
@@ -2852,7 +2863,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
   useEffect(()=>{load();},[]);
 
   async function save(){
-    if(!editItem.title||!editItem.title.trim()){onFlash("⚠ Nhập tên bài nghe");return;}
+    if(!editItem.tuade||!editItem.tuade.trim()){onFlash("⚠ Nhập tựa đề bài nghe");return;}
     if(editItem.youtube_url&&editItem.youtube_url.trim()&&!ytId(editItem.youtube_url.trim())){onFlash("⚠ Link YouTube không hợp lệ — cần dạng youtube.com/watch?v=... hoặc youtu.be/...");return;}
     setSaving(true);
     try{
@@ -2861,7 +2872,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
         const path=`podcast_${Date.now()}_${audioFile.name.replace(/[^a-zA-Z0-9._-]/g,"_")}`;
         audioUrl=await sbStorageUpload("podcast-audio",path,audioFile);
       }
-      const payload={title:editItem.title.trim(),level:editItem.level||"",audio_url:audioUrl,youtube_url:editItem.youtube_url&&editItem.youtube_url.trim()?editItem.youtube_url.trim():null};
+      const payload={title:combineLessonTitle(editItem.label,editItem.tuade),level:editItem.level||"",audio_url:audioUrl,youtube_url:editItem.youtube_url&&editItem.youtube_url.trim()?editItem.youtube_url.trim():null};
       if(editItem.id&&!editItem._new){await sbPatch(`listeningpodcast_lessons?id=eq.${editItem.id}`,payload);}
       else{await sbPost("listeningpodcast_lessons",payload);}
       onFlash("✓ Đã lưu bài nghe");setEditItem(null);setAudioFile(null);load();
@@ -2876,11 +2887,12 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
   return(<div>
     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
       <div style={{fontSize:15,fontWeight:700}}>Bài nghe ({lessons.length})</div>
-      <button onClick={()=>{setEditItem({_new:true,title:"",level:"HSK1-3",youtube_url:""});setAudioFile(null);}} style={btnS("#3fae86")}>+ Thêm bài</button>
+      <button onClick={()=>{setEditItem({_new:true,label:"",tuade:"",level:"HSK1-3",youtube_url:""});setAudioFile(null);}} style={btnS("#3fae86")}>+ Thêm bài</button>
     </div>
     {editItem&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
       <div style={{fontSize:13,fontWeight:700,color:"#3fae86",marginBottom:10}}>{editItem._new?"Thêm bài mới":"Sửa bài nghe"}</div>
-      <input style={inp()} placeholder="Tên bài nghe" value={editItem.title||""} onChange={e=>setEditItem({...editItem,title:e.target.value})}/>
+      <input style={inp()} placeholder="Mã bài (tuỳ chọn, vd: Podcast 01)" value={editItem.label||""} onChange={e=>setEditItem({...editItem,label:e.target.value})}/>
+      <input style={inp()} placeholder="Tựa đề bài nghe (bắt buộc)" value={editItem.tuade||""} onChange={e=>setEditItem({...editItem,tuade:e.target.value})}/>
       <input style={inp()} placeholder="Cấp độ (vd HSK1-3)" value={editItem.level||""} onChange={e=>setEditItem({...editItem,level:e.target.value})}/>
       <label style={{fontSize:12,color:"var(--muted)",fontWeight:600,display:"block",marginTop:4}}>File MP3 (upload — cần bucket Storage "podcast-audio" public đã tạo sẵn)</label>
       <input type="file" accept="audio/*" style={inp()} onChange={e=>setAudioFile(e.target.files[0]||null)}/>
@@ -2902,7 +2914,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
           <div style={{fontWeight:700}}>{l.title}</div>
           <div style={{fontSize:12,color:"var(--muted)",marginTop:2}}>{l.level||"—"} · {l.youtube_url?"▶ YouTube":l.audio_url?"🎵 có audio":"🔇 chưa audio"}</div>
         </div>
-        <button onClick={()=>{setEditItem({...l,_new:false});setAudioFile(null);}} style={btnS("#d9a441")}>Sửa</button>
+        <button onClick={()=>{setEditItem({...l,...lessonTitleParts(l.title),_new:false});setAudioFile(null);}} style={btnS("#d9a441")}>Sửa</button>
         <button onClick={()=>del(l)} style={btnS("#e0584f")}>Xoá</button>
       </div>))}
       {lessons.length===0&&<div style={{textAlign:"center",color:"var(--muted)",padding:24,fontSize:13}}>Chưa có bài nghe nào.</div>}
@@ -2982,13 +2994,15 @@ function parseLessonsExcelRows(rows){
   // Nếu không khớp chính xác tên cột, thử khớp gần đúng (chứa từ khoá) để tránh bỏ sót cột do đặt tên khác đi chút ít
   const findLike=(...keywords)=>{const exact=findExact(...keywords);if(exact>=0)return exact;return header.findIndex(h=>keywords.some(kw=>h.includes(kw)));};
   const cTitle=findLike("tên bài","title");
+  const cTuaDe=findLike("tựa đề","tua de","tựa đề bài","tên đầy đủ");
   const cLevel=findLike("cấp độ","level");
   const cAudio=findLike("audio url","audio","link mp3");
   const cYoutube=findLike("youtube url","youtube","link youtube");
   const dataRows=rows.slice(hi+1).filter(r=>r.some(c=>String(c||"").trim()));
   return dataRows.map(r=>{
     const cell=i=>i>=0?String(r[i]||"").trim():"";
-    return{title:cell(cTitle),level:cell(cLevel),audio_url:cell(cAudio)||null,youtube_url:cell(cYoutube)||null};
+    // title = "Tên bài" (mã bài ngắn, dùng làm khoá khớp với cột "Bài" ở 2 sheet kia) · tuade = "Tựa đề" (tên đầy đủ hiển thị cho học viên)
+    return{title:cell(cTitle),tuade:cell(cTuaDe)||null,level:cell(cLevel),audio_url:cell(cAudio)||null,youtube_url:cell(cYoutube)||null};
   }).filter(r=>r.title);
 }
 // Đọc sheet "Chép chính tả" của file Excel import 3-trong-1: cột Bài · Hán tự · Pinyin · Nghĩa tiếng Việt · Meaning · Trọng tâm
@@ -3448,8 +3462,8 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
   function downloadTemplate(){
     const wb=XLSX.utils.book_new();
     const wsLessons=XLSX.utils.aoa_to_sheet([
-      ["Tên bài","Cấp độ","Audio URL","YouTube URL"],
-      ["Podcast 01","HSK3-4","https://.../podcast01.mp3","https://www.youtube.com/watch?v=xxxxxxxxxxx"]
+      ["Tên bài","Tựa đề","Cấp độ","Audio URL","YouTube URL"],
+      ["Podcast 01","How Lazy People Start Learning Chinese - 懒人中文学习法","HSK3-4","https://.../podcast01.mp3","https://www.youtube.com/watch?v=xxxxxxxxxxx"]
     ]);
     const wsQuestions=XLSX.utils.aoa_to_sheet([
       ["Bài","#","Câu hỏi","Pinyin câu hỏi","Nghĩa câu hỏi","Gợi ý","A - Hán tự","A - Pinyin","A - Nghĩa","B - Hán tự","B - Pinyin","B - Nghĩa","C - Hán tự","C - Pinyin","C - Nghĩa","D - Hán tự","D - Pinyin","D - Nghĩa","Đáp án đúng","Transcript","Bắt đầu (giây)","Kết thúc (giây)"],
@@ -3506,23 +3520,26 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
     if(!hasData){onFlash("⚠ Chưa có dữ liệu — tải file Excel trước");return;}
     setUploading(true);
     try{
-      // 1) Bài nghe: bài nào đã có tên trùng thì dùng lại id cũ, chưa có thì tạo mới
+      // 1) Bài nghe: "Tên bài" (mã ngắn) là khoá khớp; "Tựa đề" + mã ghép lại thành title lưu DB.
+      // Bài nào đã có mã trùng thì dùng lại id cũ và cập nhật, chưa có thì tạo mới.
       const titleToId={};
-      existingLessons.forEach(l=>{titleToId[l.title]=l.id;});
+      existingLessons.forEach(l=>{titleToId[lessonShortLabel(l.title)]=l.id;titleToId[l.title]=l.id;});
       const newLessons=lessonsToAdd.filter(l=>!titleToId[l.title]);
       const updateLessons=lessonsToAdd.filter(l=>titleToId[l.title]);
       if(newLessons.length){
-        const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:l.title,level:l.level||"",audio_url:l.audio_url||null,youtube_url:l.youtube_url||null})));
-        (created||[]).forEach(l=>{titleToId[l.title]=l.id;});
+        const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:combineLessonTitle(l.title,l.tuade),level:l.level||"",audio_url:l.audio_url||null,youtube_url:l.youtube_url||null})));
+        (created||[]).forEach((l,idx)=>{titleToId[newLessons[idx].title]=l.id;titleToId[l.title]=l.id;});
       }
-      // Bài nghe đã có sẵn (trùng tên) — cập nhật audio/youtube/cấp độ từ file thay vì bỏ qua
+      // Bài nghe đã có sẵn (trùng mã) — cập nhật tựa đề/audio/youtube/cấp độ từ file thay vì bỏ qua
       let updatedLessonsCount=0;
       for(const l of updateLessons){
         const lid=titleToId[l.title];
+        const existing=existingLessons.find(x=>x.id===lid);
         const patch={};
         if(l.level)patch.level=l.level;
         if(l.audio_url)patch.audio_url=l.audio_url;
         if(l.youtube_url)patch.youtube_url=l.youtube_url;
+        if(l.tuade)patch.title=combineLessonTitle(existing?lessonShortLabel(existing.title):l.title,l.tuade);
         if(Object.keys(patch).length){await sbPatch(`listeningpodcast_lessons?id=eq.${lid}`,patch);updatedLessonsCount++;}
       }
 
@@ -3586,7 +3603,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       <div style={{fontSize:12,color:"var(--muted)",display:"flex",flexDirection:"column",gap:10}}>
         <div>
           <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>📚 Bài nghe ({lessonsToAdd.length})</div>
-          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{titleExists(existingLessons,l.title)?" · đã có sẵn — sẽ cập nhật audio/YouTube/cấp độ":" · sẽ tạo mới"}</div>))}
+          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{l.tuade?` — ${l.tuade}`:""}{titleExists(existingLessons,l.title)?" · đã có sẵn — sẽ cập nhật":" · sẽ tạo mới"}</div>))}
           {lessonsToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {lessonsToAdd.length-5} bài nữa</div>}
           {lessonsToAdd.length===0&&<div style={{fontStyle:"italic"}}>Không có bài nghe mới trong sheet "Bài nghe"</div>}
         </div>
@@ -3604,7 +3621,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
     </div>)}
   </div>);
 }
-function titleExists(lessons,title){return lessons.some(l=>l.title===title);}
+function titleExists(lessons,shortLabel){return lessons.some(l=>lessonShortLabel(l.title)===shortLabel||l.title===shortLabel);}
 
 function ListeningAdminTab({onFlash}){
   const [subTab,setSubTab]=useState("importAll");

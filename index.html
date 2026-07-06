@@ -2961,6 +2961,51 @@ function parseListeningExcelRows(rows){
     };
   }).filter(r=>r.text);
 }
+// Đọc sheet "Bài nghe" của file Excel import 3-trong-1: cột Tên bài · Cấp độ · Audio URL
+function parseLessonsExcelRows(rows){
+  const HEADER_KW=["tên bài","ten bai","title","cấp độ"];
+  let hi=-1;
+  for(let i=0;i<Math.min(8,rows.length);i++){
+    const cells=(rows[i]||[]).map(c=>String(c||"").trim().toLowerCase());
+    if(cells.filter(Boolean).length<=1)continue;
+    if(HEADER_KW.some(kw=>cells.some(c=>c.includes(kw)))){hi=i;break;}
+  }
+  if(hi<0)hi=0;
+  const header=(rows[hi]||[]).map(c=>String(c||"").trim().toLowerCase());
+  const findExact=(...names)=>{for(const n of names){const i=header.findIndex(h=>h===n.toLowerCase());if(i>=0)return i;}return -1;};
+  const cTitle=findExact("tên bài","title");
+  const cLevel=findExact("cấp độ","level");
+  const cAudio=findExact("audio url","audio","link mp3");
+  const dataRows=rows.slice(hi+1).filter(r=>r.some(c=>String(c||"").trim()));
+  return dataRows.map(r=>{
+    const cell=i=>i>=0?String(r[i]||"").trim():"";
+    return{title:cell(cTitle),level:cell(cLevel),audio_url:cell(cAudio)||null};
+  }).filter(r=>r.title);
+}
+// Đọc sheet "Chép chính tả" của file Excel import 3-trong-1: cột Bài · Hán tự · Pinyin · Nghĩa tiếng Việt · Meaning · Trọng tâm
+function parseDictationExcelRows(rows){
+  const HEADER_KW=["hán tự","han tu","hanzi","pinyin"];
+  let hi=-1;
+  for(let i=0;i<Math.min(8,rows.length);i++){
+    const cells=(rows[i]||[]).map(c=>String(c||"").trim().toLowerCase());
+    if(cells.filter(Boolean).length<=1)continue;
+    if(HEADER_KW.some(kw=>cells.some(c=>c.includes(kw)))){hi=i;break;}
+  }
+  if(hi<0)hi=0;
+  const header=(rows[hi]||[]).map(c=>String(c||"").trim().toLowerCase());
+  const findExact=(...names)=>{for(const n of names){const i=header.findIndex(h=>h===n.toLowerCase());if(i>=0)return i;}return -1;};
+  const cBai=findExact("bài","lesson");
+  const cHanzi=findExact("hán tự","hanzi");
+  const cPinyin=findExact("pinyin");
+  const cVi=findExact("nghĩa tiếng việt","nghĩa","vi");
+  const cMeaning=findExact("meaning");
+  const cFocus=findExact("trọng tâm","focus");
+  const dataRows=rows.slice(hi+1).filter(r=>r.some(c=>String(c||"").trim()));
+  return dataRows.map((r,i)=>{
+    const cell=idx=>idx>=0?String(r[idx]||"").trim():"";
+    return{lessonLabel:cell(cBai)||null,hanzi:cell(cHanzi),pinyin:cell(cPinyin),vi:cell(cVi),meaning:cell(cMeaning),focus:cell(cFocus),orderNum:i};
+  }).filter(r=>r.hanzi);
+}
 function ListeningAdminQuestions({inp,btnS,rowS,onFlash}){
   const [lessons,setLessons]=useState([]);
   const [lessonId,setLessonId]=useState("");
@@ -3378,12 +3423,175 @@ TUYỆT ĐỐI không thêm chữ nào ngoài JSON.
 Transcript:
 [DÁN TRANSCRIPT VÀO ĐÂY]`;
 
+function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
+  const [existingLessons,setExistingLessons]=useState([]);
+  const [fileName,setFileName]=useState("");
+  const [lessonsToAdd,setLessonsToAdd]=useState([]);
+  const [questionsToAdd,setQuestionsToAdd]=useState([]);
+  const [dictationToAdd,setDictationToAdd]=useState([]);
+  const [uploading,setUploading]=useState(false);
+
+  useEffect(()=>{fetchListeningLessons().then(setExistingLessons);},[]);
+
+  const isValidQ=q=>q.trans&&q.text&&q.a&&q.a.length===4&&q.a.every(mcqOptValid)&&q.ans!==undefined&&q.ans!==null&&!Number.isNaN(q.ans);
+  const hasData=lessonsToAdd.length>0||questionsToAdd.length>0||dictationToAdd.length>0;
+
+  function downloadTemplate(){
+    const wb=XLSX.utils.book_new();
+    const wsLessons=XLSX.utils.aoa_to_sheet([
+      ["Tên bài","Cấp độ","Audio URL"],
+      ["Podcast 01","HSK3-4","https://.../podcast01.mp3"]
+    ]);
+    const wsQuestions=XLSX.utils.aoa_to_sheet([
+      ["Bài","#","Câu hỏi","Pinyin câu hỏi","Nghĩa câu hỏi","Gợi ý","A - Hán tự","A - Pinyin","A - Nghĩa","B - Hán tự","B - Pinyin","B - Nghĩa","C - Hán tự","C - Pinyin","C - Nghĩa","D - Hán tự","D - Pinyin","D - Nghĩa","Đáp án đúng","Transcript","Bắt đầu (giây)","Kết thúc (giây)"],
+      ["Podcast 01",1,"妙妙在做什么？","Miàomiào zài zuò shénme?","Diệu Diệu đang làm gì?","Chú ý động từ đầu câu","看书","kàn shū","đọc sách","睡觉","shuì jiào","ngủ","吃饭","chī fàn","ăn cơm","跑步","pǎo bù","chạy bộ","A","妙妙在看书。",14,27]
+    ]);
+    const wsDictation=XLSX.utils.aoa_to_sheet([
+      ["Bài","Hán tự","Pinyin","Nghĩa tiếng Việt","Meaning","Trọng tâm"],
+      ["Podcast 01","你好，现在是晚上了。","nǐ hǎo, xiàn zài shì wǎn shàng le.","Xin chào, bây giờ là buổi tối rồi.","","问候"]
+    ]);
+    XLSX.utils.book_append_sheet(wb,wsLessons,"Bài nghe");
+    XLSX.utils.book_append_sheet(wb,wsQuestions,"Câu hỏi");
+    XLSX.utils.book_append_sheet(wb,wsDictation,"Chép chính tả");
+    XLSX.writeFile(wb,"mau_import_podcast_3trong1.xlsx");
+  }
+
+  function detectSheets(names){
+    const used=new Set();
+    const findBy=keywords=>{
+      const idx=names.findIndex((n,i)=>!used.has(i)&&keywords.some(kw=>n.toLowerCase().includes(kw)));
+      if(idx>=0){used.add(idx);return names[idx];}
+      return null;
+    };
+    let lessonSheet=findBy(["bài nghe","bai nghe","lesson"]);
+    let questionSheet=findBy(["câu hỏi","cau hoi","question"]);
+    let dictationSheet=findBy(["chính tả","chinh ta","dictation"]);
+    const remaining=names.filter((n,i)=>!used.has(i));
+    if(!lessonSheet&&remaining.length)lessonSheet=remaining.shift();
+    if(!questionSheet&&remaining.length)questionSheet=remaining.shift();
+    if(!dictationSheet&&remaining.length)dictationSheet=remaining.shift();
+    return{lessonSheet,questionSheet,dictationSheet};
+  }
+
+  function handleFile(f){
+    setFileName(f.name);
+    const reader=new FileReader();
+    reader.onload=e=>{
+      try{
+        const wb=XLSX.read(new Uint8Array(e.target.result),{type:"array"});
+        const{lessonSheet,questionSheet,dictationSheet}=detectSheets(wb.SheetNames);
+        const toRows=name=>name?XLSX.utils.sheet_to_json(wb.Sheets[name],{header:1,defval:""}):[];
+        const lessons=parseLessonsExcelRows(toRows(lessonSheet));
+        const questions=parseListeningExcelRows(toRows(questionSheet));
+        const dictation=parseDictationExcelRows(toRows(dictationSheet));
+        setLessonsToAdd(lessons);setQuestionsToAdd(questions);setDictationToAdd(dictation);
+        const validQ=questions.filter(isValidQ).length;
+        onFlash(`✓ Đọc "${f.name}": ${lessons.length} bài nghe · ${validQ}/${questions.length} câu hỏi hợp lệ · ${dictation.length} câu chép chính tả`);
+      }catch(err){onFlash("❌ Lỗi đọc file: "+err.message);}
+    };
+    reader.onerror=()=>onFlash("❌ Không đọc được file");
+    reader.readAsArrayBuffer(f);
+  }
+
+  async function uploadAll(){
+    if(!hasData){onFlash("⚠ Chưa có dữ liệu — tải file Excel trước");return;}
+    setUploading(true);
+    try{
+      // 1) Bài nghe: bài nào đã có tên trùng thì dùng lại id cũ, chưa có thì tạo mới
+      const titleToId={};
+      existingLessons.forEach(l=>{titleToId[l.title]=l.id;});
+      const newLessons=lessonsToAdd.filter(l=>!titleToId[l.title]);
+      if(newLessons.length){
+        const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:l.title,level:l.level||"",audio_url:l.audio_url||null})));
+        (created||[]).forEach(l=>{titleToId[l.title]=l.id;});
+      }
+
+      // 2) Câu hỏi: khớp theo cột "Bài" với tên bài ở bước 1 (hoặc bài đã có sẵn)
+      const qUnresolved=[];const qGrouped={};
+      questionsToAdd.filter(isValidQ).forEach(q=>{
+        const label=q.lessonLabel||"(trống)";
+        const lid=q.lessonLabel?titleToId[q.lessonLabel]:null;
+        if(!lid){qUnresolved.push(label);return;}
+        (qGrouped[lid]=qGrouped[lid]||[]).push(q);
+      });
+      let qTotal=0;
+      for(const[lid,qs] of Object.entries(qGrouped)){
+        const rows=qs.map(q=>({lesson_id:lid,q:q.q,text:q.text,text_pinyin:q.textPinyin||null,text_nghia:q.textNghia||null,hint:q.hint||null,trans:q.trans,a:q.a,ans:q.ans,starttime:q.start??null,endtime:q.end??null}));
+        await sbPost("questions",rows);qTotal+=rows.length;
+      }
+
+      // 3) Chép chính tả: khớp theo cột "Bài" tương tự
+      const dUnresolved=[];const dGrouped={};
+      dictationToAdd.forEach((s,i)=>{
+        const label=s.lessonLabel||"(trống)";
+        const lid=s.lessonLabel?titleToId[s.lessonLabel]:null;
+        if(!lid){dUnresolved.push(label);return;}
+        (dGrouped[lid]=dGrouped[lid]||[]).push({podcast_lesson_id:lid,hanzi:s.hanzi,pinyin:s.pinyin||"",vi:s.vi||"",meaning:s.meaning||s.vi||"",focus:s.focus||"",order_num:s.orderNum??i});
+      });
+      let dTotal=0;
+      for(const[lid,rows] of Object.entries(dGrouped)){
+        await sbPost("podcast_dictation_sentences",rows);dTotal+=rows.length;
+      }
+
+      const warn=[];
+      if(qUnresolved.length)warn.push(`⚠ ${qUnresolved.length} câu hỏi không khớp bài: ${[...new Set(qUnresolved)].join(", ")}`);
+      if(dUnresolved.length)warn.push(`⚠ ${dUnresolved.length} câu chép chính tả không khớp bài: ${[...new Set(dUnresolved)].join(", ")}`);
+      onFlash(`✓ Đã lưu: ${newLessons.length} bài nghe mới · ${qTotal} câu hỏi · ${dTotal} câu chép chính tả${warn.length?" · "+warn.join(" · "):""}`);
+      setFileName("");setLessonsToAdd([]);setQuestionsToAdd([]);setDictationToAdd([]);
+      fetchListeningLessons().then(setExistingLessons);
+    }catch(e){onFlash("❌ Lỗi lưu Supabase: "+e.message);}finally{setUploading(false);}
+  }
+
+  return(<div>
+    <div style={{fontSize:12,color:"var(--muted)",lineHeight:1.7,marginBottom:14,background:"var(--surface2)",border:"1px solid var(--border)",borderRadius:10,padding:"10px 12px"}}>
+      Import <b style={{color:"var(--fg)"}}>1 file Excel duy nhất</b> gồm 3 sheet: <b style={{color:"var(--fg)"}}>Bài nghe</b> (tạo/khớp bài) · <b style={{color:"var(--fg)"}}>Câu hỏi</b> · <b style={{color:"var(--fg)"}}>Chép chính tả</b>.
+      Cột <b style={{color:"var(--fg)"}}>"Bài"</b> ở 2 sheet sau phải ghi đúng tên bài đã khai ở sheet "Bài nghe" (hoặc tên bài đã có sẵn trong hệ thống) để tự khớp đúng bài — sai tên sẽ bị bỏ qua và báo rõ trong thông báo kết quả.
+    </div>
+
+    <div style={{display:"flex",gap:8,flexWrap:"wrap",marginBottom:14}}>
+      <button onClick={downloadTemplate} style={btnS("#2D9CDB")}>📥 Tải file mẫu Excel</button>
+    </div>
+
+    <div style={{background:"var(--surface)",border:"1px solid var(--border)",borderRadius:12,padding:16,marginBottom:16}}>
+      <div style={{fontSize:13,fontWeight:700,marginBottom:8}}>📊 Tải lên file Excel (3 sheet)</div>
+      <input type="file" accept=".xlsx,.xls" style={inp()} onChange={e=>{const f=e.target.files[0];if(f)handleFile(f);}}/>
+      {fileName&&<div style={{fontSize:12,color:"#3fae86"}}>✓ {fileName}</div>}
+    </div>
+
+    {hasData&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:10,flexWrap:"wrap",gap:8}}>
+        <div style={{fontSize:13,fontWeight:700}}>Xem trước</div>
+        <button onClick={uploadAll} disabled={uploading} style={{...btnS("var(--accent-violet)"),background:"var(--accent-violet)",color:"#fff"}}>{uploading?"⏳ Đang lưu…":"☁ Lưu tất cả lên Supabase"}</button>
+      </div>
+      <div style={{fontSize:12,color:"var(--muted)",display:"flex",flexDirection:"column",gap:10}}>
+        <div>
+          <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>📚 Bài nghe ({lessonsToAdd.length})</div>
+          {lessonsToAdd.slice(0,5).map((l,i)=>(<div key={i} style={{padding:"2px 0"}}>{l.title}{titleExists(existingLessons,l.title)?" · đã có sẵn (dùng lại)":" · sẽ tạo mới"}</div>))}
+          {lessonsToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {lessonsToAdd.length-5} bài nữa</div>}
+          {lessonsToAdd.length===0&&<div style={{fontStyle:"italic"}}>Không có bài nghe mới trong sheet "Bài nghe"</div>}
+        </div>
+        <div>
+          <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>❓ Câu hỏi ({questionsToAdd.filter(isValidQ).length}/{questionsToAdd.length} hợp lệ)</div>
+          {questionsToAdd.slice(0,5).map((q,i)=>{const ok=isValidQ(q);return(<div key={i}>{q.lessonLabel?`[${q.lessonLabel}] `:"[trống] "}{q.text?String(q.text).slice(0,50):"(thiếu)"}{!ok&&<span style={{color:"#e0584f"}}> ⚠ thiếu trường</span>}</div>);})}
+          {questionsToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {questionsToAdd.length-5} câu nữa</div>}
+        </div>
+        <div>
+          <div style={{fontWeight:700,color:"var(--fg)",marginBottom:4}}>🎧 Chép chính tả ({dictationToAdd.length})</div>
+          {dictationToAdd.slice(0,5).map((s,i)=>(<div key={i}>{s.lessonLabel?`[${s.lessonLabel}] `:"[trống] "}{String(s.hanzi).slice(0,50)}</div>))}
+          {dictationToAdd.length>5&&<div style={{fontStyle:"italic"}}>... và {dictationToAdd.length-5} câu nữa</div>}
+        </div>
+      </div>
+    </div>)}
+  </div>);
+}
+function titleExists(lessons,title){return lessons.some(l=>l.title===title);}
+
 function ListeningAdminTab({onFlash}){
-  const [subTab,setSubTab]=useState("lessons");
+  const [subTab,setSubTab]=useState("importAll");
   const inp=(w="100%")=>({width:w,fontFamily:"inherit",fontSize:13,background:"var(--surface2)",color:"var(--fg)",border:"1px solid var(--border)",borderRadius:8,padding:"8px 10px",outline:"none",marginBottom:6,boxSizing:"border-box"});
   const btnS=(col="#3fae86",bg="transparent")=>({border:`1px solid ${col}`,background:bg,color:col,cursor:"pointer",borderRadius:8,padding:"6px 12px",fontSize:13,fontWeight:600,fontFamily:"inherit"});
   const rowS={display:"flex",gap:8,alignItems:"flex-start",background:"var(--surface2)",border:"1px solid var(--border)",borderRadius:10,padding:"10px 12px",marginBottom:8};
-  const SUBTABS=[["lessons","📚 Bài nghe"],["questions","❓ Câu hỏi"],["dictation","🎧 Chép chính tả"],["hutu","🈳 Hư từ"]];
+  const SUBTABS=[["importAll","📦 Import 3-trong-1"],["lessons","📚 Bài nghe"],["questions","❓ Câu hỏi"],["dictation","🎧 Chép chính tả"],["hutu","🈳 Hư từ"]];
 
   return(<div>
     <div style={{fontSize:12,color:"var(--muted)",lineHeight:1.6,marginBottom:14,background:"var(--surface2)",border:"1px solid var(--border)",borderRadius:10,padding:"10px 12px"}}>
@@ -3392,6 +3600,7 @@ function ListeningAdminTab({onFlash}){
     <div style={{display:"flex",gap:6,marginBottom:16,flexWrap:"wrap"}}>
       {SUBTABS.map(([id,label])=>(<button key={id} onClick={()=>setSubTab(id)} style={{border:"1px solid var(--border)",borderRadius:9,padding:"8px 14px",fontFamily:"inherit",fontSize:12.5,fontWeight:600,cursor:"pointer",background:subTab===id?"var(--fg)":"var(--surface)",color:subTab===id?"var(--bg)":"var(--muted)"}}>{label}</button>))}
     </div>
+    {subTab==="importAll"&&<ListeningAdminImportAll inp={inp} btnS={btnS} rowS={rowS} onFlash={onFlash}/>}
     {subTab==="lessons"&&<ListeningAdminLessons inp={inp} btnS={btnS} rowS={rowS} onFlash={onFlash}/>}
     {subTab==="questions"&&<ListeningAdminQuestions inp={inp} btnS={btnS} rowS={rowS} onFlash={onFlash}/>}
     {subTab==="dictation"&&<ListeningAdminDictation inp={inp} btnS={btnS} rowS={rowS} onFlash={onFlash}/>}

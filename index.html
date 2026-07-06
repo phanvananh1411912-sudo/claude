@@ -2853,6 +2853,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
 
   async function save(){
     if(!editItem.title||!editItem.title.trim()){onFlash("⚠ Nhập tên bài nghe");return;}
+    if(editItem.youtube_url&&editItem.youtube_url.trim()&&!ytId(editItem.youtube_url.trim())){onFlash("⚠ Link YouTube không hợp lệ — cần dạng youtube.com/watch?v=... hoặc youtu.be/...");return;}
     setSaving(true);
     try{
       let audioUrl=editItem.audio_url||null;
@@ -2860,7 +2861,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
         const path=`podcast_${Date.now()}_${audioFile.name.replace(/[^a-zA-Z0-9._-]/g,"_")}`;
         audioUrl=await sbStorageUpload("podcast-audio",path,audioFile);
       }
-      const payload={title:editItem.title.trim(),level:editItem.level||"",audio_url:audioUrl};
+      const payload={title:editItem.title.trim(),level:editItem.level||"",audio_url:audioUrl,youtube_url:editItem.youtube_url&&editItem.youtube_url.trim()?editItem.youtube_url.trim():null};
       if(editItem.id&&!editItem._new){await sbPatch(`listeningpodcast_lessons?id=eq.${editItem.id}`,payload);}
       else{await sbPost("listeningpodcast_lessons",payload);}
       onFlash("✓ Đã lưu bài nghe");setEditItem(null);setAudioFile(null);load();
@@ -2875,7 +2876,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
   return(<div>
     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
       <div style={{fontSize:15,fontWeight:700}}>Bài nghe ({lessons.length})</div>
-      <button onClick={()=>{setEditItem({_new:true,title:"",level:"HSK1-3"});setAudioFile(null);}} style={btnS("#3fae86")}>+ Thêm bài</button>
+      <button onClick={()=>{setEditItem({_new:true,title:"",level:"HSK1-3",youtube_url:""});setAudioFile(null);}} style={btnS("#3fae86")}>+ Thêm bài</button>
     </div>
     {editItem&&(<div style={{background:"var(--surface)",border:"1px solid #3fae86",borderRadius:12,padding:16,marginBottom:16}}>
       <div style={{fontSize:13,fontWeight:700,color:"#3fae86",marginBottom:10}}>{editItem._new?"Thêm bài mới":"Sửa bài nghe"}</div>
@@ -2885,6 +2886,11 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
       <input type="file" accept="audio/*" style={inp()} onChange={e=>setAudioFile(e.target.files[0]||null)}/>
       <label style={{fontSize:12,color:"var(--muted)",fontWeight:600,display:"block"}}>…hoặc dán link MP3 công khai (chắc ăn hơn upload file)</label>
       <input style={inp()} placeholder="https://.../podcast.mp3" value={editItem.audio_url||""} onChange={e=>setEditItem({...editItem,audio_url:e.target.value})}/>
+      <label style={{fontSize:12,color:"var(--muted)",fontWeight:600,display:"block",marginTop:4}}>Link YouTube (tuỳ chọn — nếu có sẽ phát video thay vì chỉ audio)</label>
+      <input style={inp()} placeholder="https://www.youtube.com/watch?v=..." value={editItem.youtube_url||""} onChange={e=>setEditItem({...editItem,youtube_url:e.target.value})}/>
+      {editItem.youtube_url&&editItem.youtube_url.trim()&&(ytId(editItem.youtube_url.trim())?
+        <div style={{fontSize:11.5,color:"#3fae86",marginBottom:6}}>✓ Link YouTube hợp lệ</div>:
+        <div style={{fontSize:11.5,color:"#e0584f",marginBottom:6}}>⚠ Chưa nhận ra được video ID từ link này</div>)}
       <div style={{display:"flex",gap:8,marginTop:4}}>
         <button onClick={save} disabled={saving} style={{...btnS("#3fae86"),background:"#3fae86",color:"var(--bg)"}}>{saving?"⏳ Đang lưu…":"Lưu"}</button>
         <button onClick={()=>{setEditItem(null);setAudioFile(null);}} style={btnS("var(--muted)")}>Huỷ</button>
@@ -2894,7 +2900,7 @@ function ListeningAdminLessons({inp,btnS,rowS,onFlash}){
       {lessons.map(l=>(<div key={l.id} style={rowS}>
         <div style={{flex:1}}>
           <div style={{fontWeight:700}}>{l.title}</div>
-          <div style={{fontSize:12,color:"var(--muted)",marginTop:2}}>{l.level||"—"} · {l.audio_url?"🎵 có audio":"🔇 chưa audio"}</div>
+          <div style={{fontSize:12,color:"var(--muted)",marginTop:2}}>{l.level||"—"} · {l.youtube_url?"▶ YouTube":l.audio_url?"🎵 có audio":"🔇 chưa audio"}</div>
         </div>
         <button onClick={()=>{setEditItem({...l,_new:false});setAudioFile(null);}} style={btnS("#d9a441")}>Sửa</button>
         <button onClick={()=>del(l)} style={btnS("#e0584f")}>Xoá</button>
@@ -2976,10 +2982,11 @@ function parseLessonsExcelRows(rows){
   const cTitle=findExact("tên bài","title");
   const cLevel=findExact("cấp độ","level");
   const cAudio=findExact("audio url","audio","link mp3");
+  const cYoutube=findExact("youtube url","youtube","link youtube");
   const dataRows=rows.slice(hi+1).filter(r=>r.some(c=>String(c||"").trim()));
   return dataRows.map(r=>{
     const cell=i=>i>=0?String(r[i]||"").trim():"";
-    return{title:cell(cTitle),level:cell(cLevel),audio_url:cell(cAudio)||null};
+    return{title:cell(cTitle),level:cell(cLevel),audio_url:cell(cAudio)||null,youtube_url:cell(cYoutube)||null};
   }).filter(r=>r.title);
 }
 // Đọc sheet "Chép chính tả" của file Excel import 3-trong-1: cột Bài · Hán tự · Pinyin · Nghĩa tiếng Việt · Meaning · Trọng tâm
@@ -3439,8 +3446,8 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
   function downloadTemplate(){
     const wb=XLSX.utils.book_new();
     const wsLessons=XLSX.utils.aoa_to_sheet([
-      ["Tên bài","Cấp độ","Audio URL"],
-      ["Podcast 01","HSK3-4","https://.../podcast01.mp3"]
+      ["Tên bài","Cấp độ","Audio URL","YouTube URL"],
+      ["Podcast 01","HSK3-4","https://.../podcast01.mp3","https://www.youtube.com/watch?v=xxxxxxxxxxx"]
     ]);
     const wsQuestions=XLSX.utils.aoa_to_sheet([
       ["Bài","#","Câu hỏi","Pinyin câu hỏi","Nghĩa câu hỏi","Gợi ý","A - Hán tự","A - Pinyin","A - Nghĩa","B - Hán tự","B - Pinyin","B - Nghĩa","C - Hán tự","C - Pinyin","C - Nghĩa","D - Hán tự","D - Pinyin","D - Nghĩa","Đáp án đúng","Transcript","Bắt đầu (giây)","Kết thúc (giây)"],
@@ -3502,7 +3509,7 @@ function ListeningAdminImportAll({inp,btnS,rowS,onFlash}){
       existingLessons.forEach(l=>{titleToId[l.title]=l.id;});
       const newLessons=lessonsToAdd.filter(l=>!titleToId[l.title]);
       if(newLessons.length){
-        const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:l.title,level:l.level||"",audio_url:l.audio_url||null})));
+        const created=await sbPost("listeningpodcast_lessons",newLessons.map(l=>({title:l.title,level:l.level||"",audio_url:l.audio_url||null,youtube_url:l.youtube_url||null})));
         (created||[]).forEach(l=>{titleToId[l.title]=l.id;});
       }
 

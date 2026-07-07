@@ -1,0 +1,20 @@
+{
+  "source": "CC-CEDICT (cedict.json via npm cedict-json package, equivalent to cedict_ts.u8)",
+  "ranking_source": "HSK 3.0 word lists levels 1-6 (npm @leonsilicon/hsk3.0), most common first",
+  "filter": "2-4 hanzi compound words only; skipped variant-of/surname/old-variant/see-also/CL-only entries",
+  "total_candidates_top_priority": 3000,
+  "total_translated": 3000,
+  "batches_done": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "batch_size": 500,
+  "output_file": "cedict.vi.txt",
+  "remaining_compounds_available": 96682,
+  "remaining_compounds_file": "not yet generated (would need further batches beyond top 3000)",
+  "status": "complete_top_3000"
+}

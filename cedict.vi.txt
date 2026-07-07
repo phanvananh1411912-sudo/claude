@@ -1,0 +1,3000 @@
+爱好	sở thích
+白天	ban ngày
+半年	nửa năm
+半天	nửa ngày / rất lâu
+帮忙	giúp đỡ
+包子	bánh bao
+杯子	cái cốc
+北边	phía bắc
+北京	Bắc Kinh
+本子	quyển vở
+别的	cái khác
+别人	người khác
+病人	bệnh nhân
+不大	không lắm
+不对	không đúng
+不客气	không có gì
+不用	không cần
+常常	thường thường
+唱歌	hát
+车票	vé xe
+车站	bến xe
+吃饭	ăn cơm
+出来	đi ra
+出去	đi ra ngoài
+打车	bắt taxi
+打电话	gọi điện thoại
+打开	mở ra
+打球	chơi bóng
+大学	đại học
+大学生	sinh viên
+得到	đạt được
+地点	địa điểm
+地方	nơi chốn
+地上	trên mặt đất
+地图	bản đồ
+电话	điện thoại
+电脑	máy tính
+电视	ti vi
+电视机	máy ti vi
+电影	phim
+电影院	rạp chiếu phim
+东边	phía đông
+东西	đồ vật
+动作	động tác
+读书	đọc sách / đi học
+对不起	xin lỗi
+多少	bao nhiêu
+儿子	con trai
+饭店	nhà hàng / khách sạn
+房间	phòng
+房子	nhà
+放假	nghỉ lễ
+放学	tan học
+飞机	máy bay
+非常	rất
+干净	sạch sẽ
+干什么	làm gì
+高兴	vui vẻ
+告诉	nói cho biết
+工人	công nhân
+工作	công việc
+关上	đóng lại
+国家	quốc gia
+国外	nước ngoài
+还是	vẫn / hay là
+还有	còn có
+孩子	đứa trẻ
+汉语	tiếng Trung
+汉字	chữ Hán
+好吃	ngon
+好看	đẹp
+好听	hay (nghe)
+好玩儿	thú vị
+后边	phía sau
+后天	ngày kia
+回答	trả lời
+回到	trở về
+回家	về nhà
+回来	quay về
+回去	quay về
+火车	tàu hỏa
+机场	sân bay
+机票	vé máy bay
+鸡蛋	trứng gà
+记得	nhớ
+记住	ghi nhớ
+家里	trong nhà
+家人	người nhà
+见面	gặp mặt
+教学楼	tòa nhà giảng dạy
+介绍	giới thiệu
+今年	năm nay
+今天	hôm nay
+进来	đi vào
+进去	đi vào
+觉得	cảm thấy
+开车	lái xe
+开会	họp
+开玩笑	nói đùa
+看病	khám bệnh
+看到	nhìn thấy
+看见	nhìn thấy
+考试	thi cử
+课本	sách giáo khoa
+课文	bài khóa
+来到	đến
+老人	người già
+老师	giáo viên
+里边	bên trong
+楼上	trên lầu
+楼下	dưới lầu
+路口	ngã tư
+路上	trên đường
+马路	đường phố
+马上	ngay lập tức
+没关系	không sao
+没什么	không có gì
+没事儿	không sao
+没有	không có
+门口	cửa ra vào
+门票	vé vào cửa
+米饭	cơm
+面包	bánh mì
+面条儿	mì sợi
+名字	tên
+明白	hiểu rõ
+明年	năm sau
+明天	ngày mai
+哪里	ở đâu
+哪儿	ở đâu
+哪些	những cái nào
+那边	đằng kia
+那里	nơi đó
+那儿	ở đó
+那些	những cái đó
+奶奶	bà nội
+男孩儿	cậu bé
+男朋友	bạn trai
+男人	đàn ông
+男生	nam sinh
+南边	phía nam
+你们	các bạn
+牛奶	sữa bò
+女儿	con gái
+女孩儿	bé gái
+女朋友	bạn gái
+女人	phụ nữ
+女生	nữ sinh
+旁边	bên cạnh
+朋友	bạn bè
+起床	thức dậy
+起来	đứng dậy / lên
+汽车	ô tô
+前边	phía trước
+前天	hôm kia
+钱包	ví tiền
+请假	xin nghỉ phép
+请进	mời vào
+请问	xin hỏi
+请坐	mời ngồi
+去年	năm ngoái
+认识	quen biết
+认真	nghiêm túc
+日期	ngày tháng
+商场	trung tâm mua sắm
+商店	cửa hàng
+上班	đi làm
+上边	phía trên
+上车	lên xe
+上次	lần trước
+上课	lên lớp
+上网	lên mạng
+上午	buổi sáng
+上学	đi học
+身上	trên người
+身体	sức khỏe
+什么	cái gì
+生病	bị bệnh
+生气	tức giận
+生日	sinh nhật
+时候	lúc
+时间	thời gian
+是不是	có phải không
+手机	điện thoại di động
+书包	cặp sách
+书店	hiệu sách
+水果	trái cây
+睡觉	ngủ
+说话	nói chuyện
+他们	họ
+她们	họ (nữ)
+天气	thời tiết
+听到	nghe thấy
+听见	nghe thấy
+听写	chính tả
+同学	bạn học
+图书馆	thư viện
+外边	bên ngoài
+外国	nước ngoài
+外语	ngoại ngữ
+玩儿	chơi
+晚饭	bữa tối
+晚上	buổi tối
+网上	trên mạng
+网友	bạn qua mạng
+忘记	quên
+我们	chúng tôi
+午饭	bữa trưa
+西边	phía tây
+洗手间	nhà vệ sinh
+喜欢	thích
+下班	tan làm
+下边	phía dưới
+下车	xuống xe
+下次	lần sau
+下课	tan học
+下午	buổi chiều
+下雨	mưa
+先生	ông / tiên sinh
+现在	hiện tại
+小孩儿	trẻ con
+小姐	cô
+小朋友	các cháu
+小时	giờ
+小学	trường tiểu học
+小学生	học sinh tiểu học
+谢谢	cảm ơn
+新年	năm mới
+星期	tuần
+星期日	chủ nhật
+星期天	chủ nhật
+休息	nghỉ ngơi
+学生	học sinh
+学习	học tập
+学校	trường học
+学院	học viện
+爷爷	ông nội
+衣服	quần áo
+医生	bác sĩ
+医院	bệnh viện
+一半	một nửa
+一会儿	một lát
+一块儿	cùng nhau
+一下儿	một chút
+一样	giống nhau
+一边	một bên
+一点儿	một chút
+一起	cùng nhau
+一些	một vài
+有的	có người / có cái
+有名	nổi tiếng
+有用	hữu ích
+右边	bên phải
+再见	tạm biệt
+在家	ở nhà
+早饭	bữa sáng
+早上	buổi sáng sớm
+怎么	thế nào
+找到	tìm thấy
+这边	bên này
+这里	ở đây
+这儿	ở đây
+这些	những cái này
+真的	thật sự
+正在	đang
+知道	biết
+知识	kiến thức
+中国	Trung Quốc
+中间	ở giữa
+中文	tiếng Trung
+中午	buổi trưa
+中学	trường trung học
+中学生	học sinh trung học
+重要	quan trọng
+准备	chuẩn bị
+桌子	cái bàn
+走路	đi bộ
+最好	tốt nhất
+最后	cuối cùng
+昨天	hôm qua
+左边	bên trái
+坐下	ngồi xuống
+爱情	tình yêu
+爱人	vợ / chồng
+安静	yên tĩnh
+安全	an toàn
+白色	màu trắng
+班长	lớp trưởng
+办法	cách / biện pháp
+办公室	văn phòng
+半夜	nửa đêm
+帮助	giúp đỡ
+报名	đăng ký
+报纸	báo (tờ báo)
+北方	miền bắc
+比如	ví dụ như
+比如说	ví dụ như
+笔记	ghi chép
+笔记本	vở ghi chép / laptop
+必须	phải
+变成	biến thành
+表示	bày tỏ
+不错	khá tốt
+不但	không những
+不够	không đủ
+不过	nhưng
+不要	đừng
+不好意思	ngại / xin lỗi
+不久	chẳng bao lâu
+不满	không hài lòng
+不如	không bằng
+不少	không ít
+不同	khác nhau
+不行	không được
+不一定	chưa chắc
+部分	bộ phận
+菜单	thực đơn
+参观	tham quan
+参加	tham gia
+草地	bãi cỏ
+差不多	gần như
+常见	thường gặp
+常用	thường dùng
+超过	vượt qua
+超市	siêu thị
+车辆	xe cộ
+成绩	thành tích
+成为	trở thành
+重复	lặp lại
+重新	làm lại
+出发	xuất phát
+出国	ra nước ngoài
+出口	lối ra
+出门	ra ngoài
+出生	sinh ra
+出现	xuất hiện
+出院	xuất viện
+出租	cho thuê
+出租车	taxi
+春节	Tết Nguyên đán
+春天	mùa xuân
+词典	từ điển
+词语	từ ngữ
+从小	từ nhỏ
+答应	đồng ý
+打工	đi làm thêm
+打算	dự định
+打印	in ấn
+大部分	phần lớn
+大大	to lớn
+大多数	đa số
+大海	biển cả
+大家	mọi người
+大量	số lượng lớn
+大门	cổng lớn
+大人	người lớn
+大声	to tiếng
+大小	kích thước
+大衣	áo khoác dài
+大自然	thiên nhiên
+带来	mang đến
+单位	đơn vị
+但是	nhưng
+当时	lúc đó
+到处	khắp nơi
+道理	đạo lý
+道路	con đường
+得出	rút ra (kết luận)
+的话	nếu như
+等到	đợi đến khi
+等于	tương đương
+地球	trái đất
+地铁	tàu điện ngầm
+地铁站	ga tàu điện ngầm
+点头	gật đầu
+东北	đông bắc
+东方	phương đông
+东南	đông nam
+冬天	mùa đông
+懂得	hiểu rõ
+动物	động vật
+动物园	vườn thú
+读音	cách đọc
+短信	tin nhắn
+队长	đội trưởng
+对话	đối thoại
+对面	đối diện
+多久	bao lâu
+多么	biết bao
+多数	đa số
+多云	nhiều mây
+而且	hơn nữa
+发现	phát hiện
+饭馆	quán ăn
+方便	tiện lợi
+方便面	mì ăn liền
+方法	phương pháp
+方面	phương diện
+方向	phương hướng
+放下	đặt xuống
+放心	yên tâm
+分开	tách ra
+分数	điểm số
+分钟	phút
+服务	phục vụ
+复习	ôn tập
+改变	thay đổi
+干杯	cạn ly
+感到	cảm thấy
+感动	cảm động
+感觉	cảm giác
+感谢	cảm ơn
+干活儿	làm việc
+刚才	vừa nãy
+刚刚	vừa mới
+高级	cao cấp
+高中	trung học phổ thông
+个子	vóc dáng
+公共汽车	xe buýt
+公交车	xe buýt
+公斤	kilogram
+公里	kilomet
+公路	đường quốc lộ
+公平	công bằng
+公司	công ty
+公园	công viên
+故事	câu chuyện
+故意	cố ý
+顾客	khách hàng
+关机	tắt máy
+关心	quan tâm
+观点	quan điểm
+广场	quảng trường
+广告	quảng cáo
+国际	quốc tế
+过来	lại đây
+过年	đón năm mới
+过去	quá khứ
+海边	bờ biển
+好处	lợi ích
+好多	nhiều
+好久	rất lâu
+好人	người tốt
+好事	việc tốt
+好像	hình như
+合适	phù hợp
+黑板	bảng đen
+黑色	màu đen
+红色	màu đỏ
+后来	sau đó
+忽然	đột nhiên
+护照	hộ chiếu
+花园	vườn hoa
+画家	họa sĩ
+画儿	bức tranh
+坏处	điều bất lợi
+坏人	người xấu
+欢迎	hoan nghênh
+黄色	màu vàng
+回国	về nước
+活动	hoạt động
+或者	hoặc là
+机会	cơ hội
+计划	kế hoạch
+计算机	máy tính
+加油	cố lên
+家庭	gia đình
+家长	phụ huynh
+假期	kỳ nghỉ
+检查	kiểm tra
+见到	gặp
+健康	sức khỏe
+讲话	nói chuyện
+交给	giao cho
+交朋友	kết bạn
+交通	giao thông
+角度	góc độ
+饺子	sủi cảo
+叫作	được gọi là
+教师	giáo viên
+教室	phòng học
+教学	giảng dạy
+教育	giáo dục
+接到	nhận được
+接受	tiếp nhận
+接下来	tiếp theo
+接着	tiếp theo
+节目	chương trình
+节日	ngày lễ
+结果	kết quả
+今后	từ nay về sau
+进入	tiến vào
+进行	tiến hành
+经常	thường xuyên
+经过	trải qua
+经理	giám đốc
+酒店	khách sạn
+就要	sắp
+举手	giơ tay
+举行	tổ chức
+句子	câu văn
+开机	khởi động máy
+开心	vui vẻ
+开学	khai giảng
+看法	cách nhìn / quan điểm
+考生	thí sinh
+科学	khoa học
+可爱	đáng yêu
+可能	có thể
+可怕	đáng sợ
+可是	nhưng
+可以	có thể / được
+客人	khách
+课堂	lớp học
+空气	không khí
+快餐	đồ ăn nhanh
+快点儿	nhanh lên
+快乐	vui vẻ
+快要	sắp
+筷子	đũa
+来自	đến từ
+蓝色	màu xanh lam
+篮球	bóng rổ
+老年	tuổi già
+老朋友	bạn cũ
+老是	luôn luôn
+离开	rời khỏi
+礼物	quà tặng
+里头	bên trong
+理想	lý tưởng
+例如	ví dụ như
+例子	ví dụ
+练习	luyện tập
+凉快	mát mẻ
+零下	dưới 0 độ
+留下	ở lại / để lại
+留学生	du học sinh
+流利	trôi chảy
+流行	phổ biến / thịnh hành
+路边	ven đường
+旅客	hành khách
+旅行	du lịch
+旅游	du lịch
+绿色	màu xanh lá
+满意	hài lòng
+面前	trước mặt
+名称	tên gọi
+名单	danh sách
+明星	ngôi sao (nổi tiếng)
+目的	mục đích
+拿出	lấy ra
+拿到	lấy được
+那会儿	lúc đó
+那么	vậy thì
+那样	như vậy
+南方	miền nam
+难过	buồn
+难看	xấu xí
+难受	khó chịu
+难题	vấn đề khó
+难听	khó nghe
+能够	có thể
+年级	lớp / khối học
+年轻	trẻ
+努力	nỗ lực
+爬山	leo núi
+排队	xếp hàng
+排球	bóng chuyền
+碰到	gặp phải
+碰见	tình cờ gặp
+便宜	rẻ
+漂亮	xinh đẹp
+平安	bình an
+平常	bình thường
+平等	bình đẳng
+平时	thường ngày
+瓶子	cái chai
+普通	bình thường / phổ thông
+普通话	tiếng phổ thông
+其他	cái khác
+其中	trong đó
+骑车	đạp xe
+起飞	cất cánh
+气温	nhiệt độ không khí
+千克	kilôgam
+前年	năm kia
+青年	thanh niên
+青少年	thanh thiếu niên
+清楚	rõ ràng
+晴天	trời nắng
+请客	mời khách
+请求	yêu cầu / thỉnh cầu
+秋天	mùa thu
+球场	sân bóng
+球队	đội bóng
+球鞋	giày thể thao
+取得	đạt được
+全部	toàn bộ
+全国	toàn quốc
+全家	cả nhà
+全年	cả năm
+全身	toàn thân
+全体	toàn thể
+然后	sau đó
+热情	nhiệt tình
+人口	dân số
+人们	mọi người
+人数	số người
+认为	cho rằng
+日报	nhật báo
+日子	ngày tháng / cuộc sống
+如果	nếu
+入口	lối vào
+商量	bàn bạc
+商人	thương nhân
+上周	tuần trước
+少数	số ít / thiểu số
+少年	thiếu niên
+身边	bên cạnh
+什么样	kiểu gì
+生词	từ mới
+生活	cuộc sống
+声音	âm thanh / giọng nói
+十分	rất
+实际	thực tế
+实习	thực tập
+实现	thực hiện
+实在	thực sự
+食物	thức ăn
+使用	sử dụng
+市长	thị trưởng
+事情	việc / chuyện
+收到	nhận được
+收入	thu nhập
+手表	đồng hồ đeo tay
+受到	nhận / chịu (ảnh hưởng)
+舒服	thoải mái
+数字	con số
+水平	trình độ
+顺利	thuận lợi
+说明	giải thích
+司机	tài xế
+送给	tặng cho
+虽然	tuy nhiên / mặc dù
+随便	tùy ý
+随时	bất cứ lúc nào
+所以	cho nên
+所有	tất cả
+它们	chúng nó
+太太	bà / vợ
+太阳	mặt trời
+态度	thái độ
+讨论	thảo luận
+特别	đặc biệt
+特点	đặc điểm
+提出	đưa ra / đề xuất
+提到	nhắc đến
+提高	nâng cao
+体育	thể dục thể thao
+体育场	sân vận động
+体育馆	nhà thi đấu
+天上	trên trời
+条件	điều kiện
+听讲	nghe giảng
+听说	nghe nói
+停车	đỗ xe
+停车场	bãi đỗ xe
+挺好	khá tốt
+通过	thông qua
+通知	thông báo
+同时	đồng thời
+同事	đồng nghiệp
+同样	giống nhau
+头发	tóc
+图片	hình ảnh
+外地	nơi khác
+外卖	đồ ăn mang đi
+完成	hoàn thành
+完全	hoàn toàn
+晚安	chúc ngủ ngon
+晚报	báo buổi chiều
+晚餐	bữa tối
+晚会	dạ hội
+网球	quần vợt
+网站	trang web
+为什么	tại sao
+味道	mùi vị
+温度	nhiệt độ
+问路	hỏi đường
+问题	vấn đề
+午餐	bữa trưa
+午睡	ngủ trưa
+西北	tây bắc
+西餐	món Tây
+西方	phương Tây
+西南	tây nam
+西医	Tây y
+习惯	thói quen
+洗衣机	máy giặt
+洗澡	tắm
+下雪	tuyết rơi
+下周	tuần sau
+夏天	mùa hè
+相同	giống nhau
+相信	tin tưởng
+想到	nghĩ đến
+想法	suy nghĩ
+想起	nhớ ra
+相机	máy ảnh
+小声	nói nhỏ
+小时候	hồi nhỏ
+小说	tiểu thuyết
+小心	cẩn thận
+小组	nhóm nhỏ
+校园	khuôn viên trường
+校长	hiệu trưởng
+笑话	chuyện cười
+笑话儿	chuyện cười
+心里	trong lòng
+心情	tâm trạng
+心中	trong lòng
+新闻	tin tức
+信号	tín hiệu
+信息	thông tin
+信心	sự tự tin
+信用卡	thẻ tín dụng
+星星	ngôi sao
+行动	hành động
+行人	người đi bộ
+行为	hành vi
+休假	nghỉ phép
+许多	nhiều
+学期	học kỳ
+颜色	màu sắc
+眼睛	mắt
+样子	dáng vẻ
+要求	yêu cầu
+药店	hiệu thuốc
+药片	viên thuốc
+药水	thuốc nước
+也许	có lẽ
+夜里	ban đêm
+一部分	một phần
+一定	nhất định
+一共	tổng cộng
+一路平安	thượng lộ bình an
+一路顺风	thuận buồm xuôi gió
+已经	đã
+以后	sau này
+以前	trước đây
+以上	trở lên
+以外	ngoài ra
+以为	tưởng rằng
+以下	trở xuống
+椅子	cái ghế
+一般	bình thường / nói chung
+一点点	một chút xíu
+一生	cả đời
+一直	luôn / liên tục
+意见	ý kiến
+意思	ý nghĩa
+因为	bởi vì
+阴天	trời âm u
+音节	âm tiết
+音乐	âm nhạc
+音乐会	buổi hòa nhạc
+银行	ngân hàng
+银行卡	thẻ ngân hàng
+应该	nên / phải
+英文	tiếng Anh
+英语	tiếng Anh
+影片	bộ phim
+影响	ảnh hưởng
+永远	mãi mãi
+游客	du khách
+友好	thân thiện
+有空儿	rảnh rỗi
+有人	có người
+有意思	thú vị
+语言	ngôn ngữ
+原来	hóa ra
+原因	nguyên nhân
+院长	viện trưởng
+院子	sân / vườn
+愿意	sẵn lòng
+月份	tháng
+月亮	mặt trăng
+越来越	ngày càng
+运动	vận động / thể thao
+咱们	chúng ta
+早餐	bữa sáng
+早晨	buổi sáng sớm
+早就	từ lâu
+怎么办	phải làm sao
+怎么样	thế nào
+怎样	như thế nào
+站住	đứng lại
+长大	lớn lên
+找出	tìm ra
+照顾	chăm sóc
+照片	ảnh chụp
+照相	chụp ảnh
+这么	như vậy
+这样	như vậy
+真正	thật sự
+正常	bình thường
+正好	vừa đúng lúc
+正确	chính xác
+正是	chính là
+直接	trực tiếp
+只能	chỉ có thể
+只要	chỉ cần
+中餐	món Trung Quốc
+中级	trung cấp
+中年	trung niên
+中小学	trường tiểu học và trung học
+中心	trung tâm
+中医	Đông y
+重点	trọng điểm
+重视	coi trọng
+周末	cuối tuần
+周年	chu niên
+主人	chủ nhân
+主要	chủ yếu
+住房	nhà ở
+住院	nhập viện
+准确	chính xác
+自己	bản thân
+自行车	xe đạp
+自由	tự do
+字典	từ điển chữ Hán
+走过	đi qua
+走进	bước vào
+走开	tránh ra
+组成	hợp thành
+组长	tổ trưởng
+最近	gần đây
+作家	nhà văn
+作文	bài tập làm văn
+作业	bài tập về nhà
+作用	tác dụng
+座位	chỗ ngồi
+做到	làm được
+做法	cách làm
+做饭	nấu cơm
+爱心	lòng yêu thương
+安排	sắp xếp
+安装	lắp đặt / cài đặt
+按照	theo / căn cứ vào
+把握	nắm chắc
+白菜	cải thảo
+班级	lớp học
+搬家	chuyển nhà
+办理	xử lý / làm thủ tục
+保安	bảo vệ
+保持	giữ gìn / duy trì
+保存	lưu giữ
+保护	bảo vệ
+保留	giữ lại / bảo lưu
+保险	bảo hiểm
+保证	đảm bảo
+报到	báo cáo / đăng ký nhập học
+报道	đưa tin
+报告	báo cáo
+北部	miền bắc
+背后	đằng sau
+被子	chăn
+本来	vốn dĩ
+本领	bản lĩnh / năng lực
+本事	bản lĩnh / năng lực
+比较	so sánh / tương đối
+比例	tỷ lệ
+比赛	thi đấu
+必然	tất yếu
+必要	cần thiết
+变化	thay đổi
+变为	biến thành
+标题	tiêu đề
+标准	tiêu chuẩn
+表达	diễn đạt
+表格	biểu mẫu
+表面	bề mặt
+表明	chứng tỏ
+表现	biểu hiện / thể hiện
+表演	biểu diễn
+并且	và / hơn nữa
+播出	phát sóng
+播放	phát (chương trình)
+不必	không cần
+不断	không ngừng
+不论	bất kể
+补充	bổ sung
+不安	bất an
+不得不	buộc phải
+不光	không chỉ
+不仅	không những
+部门	bộ phận
+部长	bộ trưởng
+才能	tài năng
+采取	áp dụng (biện pháp)
+采用	áp dụng / sử dụng
+彩色	nhiều màu
+曾经	đã từng
+产生	phát sinh
+长城	Vạn Lý Trường Thành
+长处	ưu điểm
+长期	lâu dài
+场合	trường hợp / dịp
+场所	nơi chốn
+超级	siêu cấp
+吵架	cãi nhau
+衬衫	áo sơ mi
+衬衣	áo sơ mi
+称为	được gọi là
+成功	thành công
+成果	thành quả
+成就	thành tựu
+成立	thành lập
+成熟	chín / trưởng thành
+成员	thành viên
+成长	trưởng thành
+城市	thành phố
+程度	mức độ
+持续	tiếp tục / kéo dài
+充满	tràn đầy
+初步	bước đầu
+初级	sơ cấp
+初中	trung học cơ sở
+除了	ngoài (ra)
+处理	xử lý
+传播	truyền bá / lan truyền
+传来	truyền đến
+传说	truyền thuyết
+创新	sáng tạo / đổi mới
+创业	khởi nghiệp
+创造	sáng tạo
+创作	sáng tác
+从来	từ trước đến nay
+从前	trước kia
+从事	làm (nghề)
+存在	tồn tại
+错误	sai lầm
+达到	đạt được
+打破	phá vỡ
+打听	hỏi thăm / dò hỏi
+大概	đại khái
+大使馆	đại sứ quán
+大约	khoảng chừng
+大夫	bác sĩ
+代表	đại diện
+代表团	đoàn đại biểu
+带动	thúc đẩy
+带领	dẫn dắt
+单元	đơn vị / đơn nguyên
+当初	lúc đầu
+当地	địa phương
+当然	đương nhiên
+当中	ở giữa / trong số
+导演	đạo diễn
+到达	đến nơi
+到底	rốt cuộc
+得分	ghi điểm
+等待	chờ đợi
+底下	bên dưới
+地区	khu vực
+电视剧	phim truyền hình
+电视台	đài truyền hình
+电台	đài phát thanh
+电子邮件	thư điện tử
+调查	điều tra
+定期	định kỳ
+东部	miền đông
+动力	động lực
+动人	cảm động
+读者	độc giả
+短处	khuyết điểm
+短裤	quần đùi
+短期	ngắn hạn
+队员	đội viên
+对待	đối xử
+对方	đối phương
+对手	đối thủ
+对象	đối tượng / người yêu
+发表	phát biểu / công bố
+发出	phát ra
+发达	phát triển
+发动	phát động
+发明	phát minh
+发生	xảy ra
+发送	gửi đi
+发言	phát biểu
+发展	phát triển
+反对	phản đối
+反复	lặp đi lặp lại
+反应	phản ứng
+反正	dù sao
+范围	phạm vi
+方式	phương thức
+防止	phòng ngừa
+房东	chủ nhà
+房屋	nhà cửa
+房租	tiền thuê nhà
+访问	thăm hỏi / truy cập
+飞行	bay / chuyến bay
+费用	chi phí
+分别	chia tay / phân biệt
+分配	phân phối
+分组	chia nhóm
+丰富	phong phú
+风险	rủi ro
+否定	phủ định
+否认	phủ nhận
+服装	trang phục
+父母	cha mẹ
+父亲	cha
+负责	phụ trách
+复印	photo / sao chụp
+复杂	phức tạp
+改进	cải tiến
+改造	cải tạo
+概念	khái niệm
+赶到	vội đến
+赶紧	vội vàng
+赶快	mau lên
+感冒	cảm cúm
+感情	tình cảm
+感受	cảm nhận
+高速	tốc độ cao
+高速公路	đường cao tốc
+告别	từ biệt
+歌迷	người hâm mộ ca sĩ
+歌声	tiếng hát
+歌手	ca sĩ
+个人	cá nhân
+个性	cá tính
+各地	khắp nơi
+各位	các vị
+各种	các loại
+各自	mỗi người / riêng
+根本	căn bản
+更加	càng thêm
+工厂	nhà máy
+工程师	kỹ sư
+工夫	công phu / thời gian rảnh
+工具	công cụ
+工业	công nghiệp
+工资	tiền lương
+公布	công bố
+公共	công cộng
+公开	công khai
+公民	công dân
+公务员	công chức
+功夫	công phu / kung fu
+功课	bài tập về nhà
+功能	chức năng
+共同	chung / cùng nhau
+共有	tổng cộng / sở hữu chung
+姑娘	cô gái
+古代	thời cổ đại
+故乡	quê hương
+关系	quan hệ
+关注	quan tâm / theo dõi
+观察	quan sát
+观看	xem
+观念	quan niệm
+观众	khán giả
+管理	quản lý
+光明	ánh sáng / tươi sáng
+广播	phát thanh
+广大	rộng lớn
+规定	quy định
+规范	quy phạm / chuẩn mực
+国内	trong nước
+国庆	quốc khánh
+果然	quả nhiên
+果汁	nước ép trái cây
+过程	quá trình
+哈哈	ha ha
+海关	hải quan
+害怕	sợ hãi
+好好	cẩn thận / chu đáo
+好奇	tò mò
+合法	hợp pháp
+合格	đạt chuẩn
+合理	hợp lý
+合作	hợp tác
+和平	hòa bình
+红茶	hồng trà
+红酒	rượu vang đỏ
+后果	hậu quả
+后面	phía sau
+后年	năm sau nữa
+互联网	Internet
+互相	lẫn nhau
+划船	chèo thuyền
+华人	người Hoa
+话剧	kịch nói
+话题	chủ đề
+欢乐	vui vẻ
+环保	bảo vệ môi trường
+环境	môi trường
+会议	cuộc họp / hội nghị
+会员	hội viên
+机器	máy móc
+积极	tích cực
+基本	cơ bản
+基本上	về cơ bản
+基础	cơ sở / nền tảng
+及时	kịp thời
+集体	tập thể
+集中	tập trung
+计算	tính toán
+记录	ghi lại / ghi chép
+记者	nhà báo
+纪念	kỷ niệm
+技术	kỹ thuật / công nghệ
+继续	tiếp tục
+加工	gia công
+加快	tăng tốc
+加强	tăng cường
+家具	đồ nội thất
+家属	thân nhân
+家乡	quê hương
+价格	giá cả
+价钱	giá cả
+价值	giá trị
+坚持	kiên trì
+坚决	kiên quyết
+坚强	kiên cường
+简单	đơn giản
+简直	thật là / quả thực
+建成	xây xong
+建立	thành lập
+建设	xây dựng
+建议	đề nghị / gợi ý
+将近	gần như
+将来	tương lai
+交费	đóng phí
+交警	cảnh sát giao thông
+交流	giao lưu
+交往	qua lại / giao thiệp
+交易	giao dịch
+教材	giáo trình
+教练	huấn luyện viên
+结实	chắc chắn
+接待	tiếp đón
+接近	gần gũi / tiếp cận
+节约	tiết kiệm
+结合	kết hợp
+结婚	kết hôn
+结束	kết thúc
+解决	giải quyết
+解开	mở ra / tháo ra
+金牌	huy chương vàng
+仅仅	chỉ / chỉ mỗi
+尽量	cố gắng hết sức
+紧急	khẩn cấp
+紧张	căng thẳng
+进步	tiến bộ
+进一步	tiến thêm một bước
+进展	tiến triển
+近期	gần đây / sắp tới
+京剧	Kinh kịch
+经济	kinh tế
+经历	trải nghiệm
+经验	kinh nghiệm
+经营	kinh doanh
+精彩	tuyệt vời / đặc sắc
+精神	tinh thần
+景色	phong cảnh
+警察	cảnh sát
+就是	chính là
+就业	việc làm
+举办	tổ chức
+具体	cụ thể
+具有	có / sở hữu
+剧场	rạp hát
+据说	nghe nói
+决定	quyết định
+决赛	chung kết
+决心	quyết tâm
+绝对	tuyệt đối
+咖啡	cà phê
+开发	khai thác / phát triển
+开放	mở cửa
+开始	bắt đầu
+开业	khai trương
+开展	triển khai
+看起来	trông có vẻ
+看上去	trông có vẻ như
+考验	thử thách
+科技	khoa học kỹ thuật
+可靠	đáng tin cậy
+可乐	cô-ca
+克服	khắc phục
+客观	khách quan
+课程	khóa học / chương trình học
+空调	máy lạnh
+恐怕	e rằng
+空儿	thời gian rảnh
+裤子	quần
+快速	nhanh chóng
+困难	khó khăn
+浪费	lãng phí
+老百姓	dân thường
+老板	ông chủ
+老太太	bà lão
+乐观	lạc quan
+类似	tương tự
+离婚	ly hôn
+里面	bên trong
+理发	cắt tóc
+理解	hiểu / lý giải
+理论	lý thuyết
+理由	lý do
+力量	sức mạnh
+立刻	ngay lập tức
+利用	lợi dụng / tận dụng
+连忙	vội vàng
+连续	liên tục
+连续剧	phim truyền hình nhiều tập
+联合	liên kết / liên hợp
+联合国	Liên Hợp Quốc
+联系	liên hệ
+凉水	nước lạnh
+领导	lãnh đạo
+领先	dẫn đầu
+另外	ngoài ra
+另一方面	mặt khác
+留学	du học
+录音	ghi âm
+路线	tuyến đường
+旅馆	khách sạn
+旅行社	công ty du lịch
+绿茶	trà xanh
+落后	lạc hậu
+麻烦	phiền phức
+满足	thỏa mãn
+慢慢	từ từ
+毛病	tật xấu / hỏng hóc
+没用	vô dụng
+媒体	truyền thông
+美好	tốt đẹp
+美丽	xinh đẹp
+美食	món ngon / ẩm thực
+美术	mỹ thuật
+美元	đô la Mỹ
+面对	đối mặt
+面积	diện tích
+民间	dân gian
+民族	dân tộc
+明确	rõ ràng / xác định
+明显	rõ rệt
+命运	số phận
+母亲	mẹ
+木头	gỗ
+目标	mục tiêu
+目前	hiện nay
+奶茶	trà sữa
+男子	đàn ông
+南部	miền nam
+难道	chẳng lẽ
+难度	độ khó
+内容	nội dung
+内心	nội tâm
+能力	năng lực
+年初	đầu năm
+年代	thập niên
+年底	cuối năm
+年纪	tuổi tác
+农村	nông thôn
+农民	nông dân
+农业	nông nghiệp
+女子	phụ nữ
+暖和	ấm áp
+排名	xếp hạng
+牌子	nhãn hiệu / bảng hiệu
+判断	phán đoán
+跑步	chạy bộ
+配合	phối hợp
+批评	phê bình
+批准	phê chuẩn
+皮包	cặp da / túi xách
+啤酒	bia
+票价	giá vé
+评价	đánh giá
+苹果	táo / Apple
+破坏	phá hoại
+普遍	phổ biến
+普及	phổ cập
+其次	thứ hai / tiếp theo
+其实	thực ra
+奇怪	kỳ lạ
+气候	khí hậu
+千万	ngàn vạn / nhất định
+前后	trước sau
+前进	tiến lên
+前面	phía trước
+前往	đi đến / tiến đến
+强大	hùng mạnh
+强调	nhấn mạnh
+强烈	mạnh mẽ / mãnh liệt
+亲切	thân mật
+亲人	người thân
+亲自	tự mình / đích thân
+情感	tình cảm
+情况	tình hình
+请教	xin chỉ giáo
+庆祝	chúc mừng
+球迷	người hâm mộ bóng đá
+区别	khác biệt / phân biệt
+取消	hủy bỏ
+去世	qua đời
+全场	toàn sân / mọi người có mặt
+全面	toàn diện
+全球	toàn cầu
+缺点	nhược điểm
+缺少	thiếu
+确保	đảm bảo
+确定	xác định
+确实	thực sự
+裙子	váy
+热爱	yêu mến
+热烈	nhiệt liệt
+人才	nhân tài
+人工	nhân công / nhân tạo
+人类	nhân loại
+人民	nhân dân
+人民币	nhân dân tệ
+人群	đám đông
+人生	nhân sinh / cuộc đời
+人员	nhân viên
+认出	nhận ra
+认得	nhận biết / quen biết
+认可	công nhận
+任何	bất kỳ
+任务	nhiệm vụ
+仍然	vẫn còn
+日常	hàng ngày
+容易	dễ dàng
+如何	như thế nào
+散步	đi dạo
+沙发	ghế sofa
+沙子	cát
+伤心	đau lòng
+商品	hàng hóa
+商业	thương mại
+上来	đi lên / lên đây
+上面	phía trên
+上去	đi lên
+上升	tăng lên
+上衣	áo khoác / áo trên
+设备	thiết bị
+设计	thiết kế
+设立	thiết lập
+社会	xã hội
+身份证	chứng minh thư / căn cước
+深刻	sâu sắc
+深入	thâm nhập / sâu vào
+生产	sản xuất
+生存	sinh tồn
+生动	sinh động
+生命	sinh mệnh / mạng sống
+生意	việc buôn bán / kinh doanh
+生长	sinh trưởng
+声明	tuyên bố
+胜利	thắng lợi
+失去	mất đi
+石头	đá
+石油	dầu mỏ
+时代	thời đại
+时刻	thời khắc
+实际上	thực ra / trên thực tế
+实力	thực lực
+实行	thực hiện
+实验	thí nghiệm
+实验室	phòng thí nghiệm
+食品	thực phẩm
+始终	luôn luôn / từ đầu đến cuối
+世纪	thế kỷ
+世界	thế giới
+世界杯	World Cup
+市场	thị trường
+事故	sự cố / tai nạn
+事件	sự kiện
+事实	sự thật
+事实上	thực ra / trên thực tế
+事业	sự nghiệp
+试题	đề thi
+试验	thử nghiệm
+适合	phù hợp
+适应	thích nghi
+适用	áp dụng được
+收费	thu phí
+收看	xem (truyền hình)
+收听	nghe (đài)
+收音机	radio
+手续	thủ tục
+手指	ngón tay
+首都	thủ đô
+首先	trước tiên
+受伤	bị thương
+书架	giá sách
+输入	nhập vào
+熟人	người quen
+属于	thuộc về
+数量	số lượng
+双方	hai bên / song phương
+思想	tư tưởng
+速度	tốc độ
+所长	sở trường
+谈话	nói chuyện
+谈判	đàm phán
+特色	đặc sắc / đặc trưng
+提前	sớm hơn dự kiến
+提问	đặt câu hỏi
+题目	đề mục / đề bài
+体会	cảm nhận / thể nghiệm
+体现	thể hiện
+体验	trải nghiệm
+天空	bầu trời
+调整	điều chỉnh
+跳高	nhảy cao
+跳舞	nhảy múa
+跳远	nhảy xa
+铁路	đường sắt
+听力	khả năng nghe
+听众	thính giả
+停止	dừng lại
+通常	thông thường
+通信	thông tin liên lạc
+同意	đồng ý
+痛苦	đau khổ
+头脑	đầu óc
+突出	nổi bật
+突然	đột nhiên
+图画	tranh vẽ
+团结	đoàn kết
+团体	đoàn thể / tập thể
+推动	thúc đẩy
+推广	quảng bá / phổ biến
+推进	đẩy mạnh
+推开	đẩy ra / đẩy mở
+退出	rút lui / thoát ra
+退休	nghỉ hưu
+外交	ngoại giao
+外面	bên ngoài
+外文	ngoại văn
+完美	hoàn hảo
+完善	hoàn thiện
+完整	hoàn chỉnh
+玩具	đồ chơi
+往往	thường thường
+危害	nguy hại
+危险	nguy hiểm
+伟大	vĩ đại
+卫生	vệ sinh
+卫生间	phòng vệ sinh
+为了	để / vì
+温暖	ấm áp
+文化	văn hóa
+文件	văn bản / tài liệu
+文明	văn minh
+文学	văn học
+文章	bài viết
+文字	chữ viết / văn tự
+握手	bắt tay
+屋子	căn phòng / nhà
+武器	vũ khí
+武术	võ thuật
+舞台	sân khấu
+西部	miền tây
+希望	hy vọng
+下来	đi xuống
+下面	phía dưới
+下去	đi xuống / tiếp tục
+先进	tiên tiến
+显得	tỏ ra / có vẻ
+显然	rõ ràng / hiển nhiên
+显示	hiển thị
+现场	hiện trường
+现代	hiện đại
+现金	tiền mặt
+现实	hiện thực / thực tế
+现象	hiện tượng
+相比	so với
+相当	khá là / tương đương
+相关	liên quan
+相互	lẫn nhau
+相似	tương tự
+香蕉	chuối
+消费	tiêu dùng
+消失	biến mất
+消息	tin tức
+效果	hiệu quả
+写作	viết văn / sáng tác
+信封	phong bì
+信任	tin tưởng
+行李	hành lý
+形成	hình thành
+形式	hình thức
+形象	hình tượng
+形状	hình dạng
+幸福	hạnh phúc
+幸运	may mắn
+性别	giới tính
+性格	tính cách
+修改	sửa đổi
+需求	nhu cầu
+需要	cần / nhu cầu
+宣布	tuyên bố
+宣传	tuyên truyền
+选手	vận động viên / tuyển thủ
+学费	học phí
+训练	huấn luyện
+压力	áp lực
+眼前	trước mắt
+演唱	biểu diễn ca hát
+演唱会	buổi hòa nhạc
+演出	biểu diễn
+演员	diễn viên
+阳光	ánh nắng
+要是	nếu như
+衣架	móc treo quần áo
+一切	tất cả
+以来	từ trước đến nay
+一方面	một mặt
+艺术	nghệ thuật
+意外	bất ngờ / tai nạn
+意义	ý nghĩa
+因此	vì vậy
+银牌	huy chương bạc
+印象	ấn tượng
+应当	nên
+迎接	đón tiếp
+营养	dinh dưỡng
+影视	phim ảnh và truyền hình
+应用	ứng dụng
+优点	ưu điểm
+优势	ưu thế
+由于	do / bởi vì
+邮件	thư điện tử
+邮票	tem thư
+邮箱	hộp thư / email
+游戏	trò chơi
+游泳	bơi lội
+有的是	có thừa
+有利	có lợi
+有效	có hiệu quả
+预报	dự báo
+预防	phòng ngừa
+预计	dự tính
+预习	học bài trước
+员工	nhân viên
+愿望	nguyện vọng
+乐队	ban nhạc
+运输	vận chuyển
+杂志	tạp chí
+早已	đã từ lâu
+造成	gây ra
+责任	trách nhiệm
+增加	tăng thêm
+增长	tăng trưởng
+展开	triển khai / mở ra
+真实	chân thực
+争取	phấn đấu giành lấy
+整个	cả / toàn bộ
+整理	sắp xếp
+整齐	gọn gàng
+整体	tổng thể
+整天	cả ngày
+整整	trọn vẹn
+正式	chính thức
+证件	giấy tờ tùy thân
+证据	bằng chứng
+证明	chứng minh
+支持	ủng hộ
+支付	thanh toán
+直播	phát sóng trực tiếp
+直到	cho đến khi
+值得	đáng, xứng đáng
+职工	công nhân viên
+职业	nghề nghiệp
+只好	đành phải
+只是	chỉ là
+只有	chỉ có
+指出	chỉ ra
+指导	chỉ đạo / hướng dẫn
+至今	đến nay
+至少	ít nhất
+志愿	tình nguyện
+志愿者	tình nguyện viên
+制定	đề ra / soạn thảo
+制度	chế độ
+制造	chế tạo
+制作	chế tác / làm ra
+中部	miền trung
+中华民族	dân tộc Trung Hoa
+终于	cuối cùng
+种子	hạt giống
+重大	trọng đại
+周围	xung quanh
+主持	chủ trì
+主动	chủ động
+主任	chủ nhiệm
+主意	ý kiến / chủ ý
+主张	chủ trương
+注意	chú ý
+抓住	nắm bắt / tóm lấy
+专家	chuyên gia
+专门	chuyên môn / đặc biệt
+专题	chuyên đề
+专业	chuyên ngành
+转变	chuyển biến
+状况	tình trạng
+状态	trạng thái
+资格	tư cách
+资金	vốn
+子女	con cái
+自从	từ khi
+自动	tự động
+自觉	tự giác
+自然	tự nhiên
+自身	bản thân
+自主	tự chủ
+总结	tổng kết
+总是	luôn luôn
+足够	đủ
+足球	bóng đá
+组合	tổ hợp / kết hợp
+左右	khoảng / xung quanh
+作品	tác phẩm
+作者	tác giả
+做客	làm khách
+阿姨	dì / cô
+矮小	thấp bé
+爱国	yêu nước
+爱护	yêu quý bảo vệ
+安置	sắp xếp ổn định
+按时	đúng giờ
+暗示	ám chỉ / gợi ý
+巴士	xe buýt
+百货	bách hóa
+摆动	lắc lư / đung đưa
+摆脱	thoát khỏi
+办事	làm việc / giải quyết công việc
+包裹	bưu kiện / gói hàng
+包含	bao hàm
+包括	bao gồm
+宝宝	bé cưng
+宝贝	báu vật / cưng
+宝贵	quý báu
+宝石	đá quý
+保密	giữ bí mật
+保守	bảo thủ
+背景	bối cảnh / lý lịch
+被迫	bị ép buộc
+本科	đại học chính quy
+比分	tỷ số
+毕业	tốt nghiệp
+毕业生	sinh viên tốt nghiệp
+避免	tránh
+辩论	tranh luận
+标志	biểu tượng / dấu hiệu
+表情	biểu cảm
+表扬	khen ngợi
+冰箱	tủ lạnh
+冰雪	băng tuyết
+不要紧	không sao / không quan trọng
+不在乎	không để tâm
+不管	bất kể / mặc kệ
+不然	nếu không
+布置	bố trí / sắp xếp
+步行	đi bộ
+材料	nguyên liệu / tài liệu
+财产	tài sản
+财富	của cải
+采访	phỏng vấn
+参考	tham khảo
+参与	tham gia
+操场	sân tập / sân chơi
+操作	thao tác
+测量	đo lường
+测试	kiểm tra / thử nghiệm
+茶叶	lá trà
+产品	sản phẩm
+长途	đường dài
+常识	kiến thức thông thường
+唱片	đĩa hát
+抄写	sao chép / chép lại
+潮流	trào lưu
+潮湿	ẩm ướt
+彻底	triệt để
+沉默	im lặng
+沉重	nặng nề
+称赞	ca ngợi
+成人	người lớn
+诚实	trung thực
+诚信	thành tín / uy tín
+承担	đảm nhận
+承认	thừa nhận
+承受	chịu đựng
+程序	chương trình / thủ tục
+吃惊	kinh ngạc
+迟到	đến muộn
+尺寸	kích thước
+尺子	cái thước
+充电	sạc điện
+充电器	bộ sạc
+充分	đầy đủ
+虫子	côn trùng / sâu bọ
+抽奖	bốc thăm trúng thưởng
+抽烟	hút thuốc
+出色	xuất sắc
+出售	bán ra
+出席	tham dự
+处于	ở vào
+穿上	mặc vào
+传统	truyền thống
+窗户	cửa sổ
+窗台	bệ cửa sổ
+窗子	cửa sổ
+春季	mùa xuân
+纯净水	nước tinh khiết
+词汇	từ vựng
+此外	ngoài ra
+刺激	kích thích
+从此	từ đó
+粗心	bất cẩn / cẩu thả
+促进	thúc đẩy
+促使	khiến cho
+促销	khuyến mãi
+措施	biện pháp
+答案	đáp án
+打败	đánh bại
+打雷	có sấm sét
+打扫	quét dọn
+打折	giảm giá
+打针	tiêm thuốc
+大巴	xe buýt lớn
+大多	đa số
+大方	hào phóng
+大哥	anh cả
+大规模	quy mô lớn
+大会	đại hội
+大姐	chị cả
+大楼	tòa nhà
+大陆	đại lục
+大妈	bác gái / cô
+大型	cỡ lớn
+大爷	bác trai
+大众	đại chúng
+代替	thay thế
+待遇	đãi ngộ
+担保	bảo đảm
+担任	đảm nhiệm
+担心	lo lắng
+单纯	đơn thuần
+单调	đơn điệu
+单独	riêng lẻ / một mình
+导游	hướng dẫn viên du lịch
+导致	dẫn đến
+倒闭	phá sản
+倒车	chuyển xe / lùi xe
+得意	đắc ý
+灯光	ánh đèn
+登记	đăng ký
+登录	đăng nhập
+登山	leo núi
+的确	đích thực / quả thật
+敌人	kẻ thù
+地面	mặt đất
+地位	địa vị
+地下	dưới lòng đất / ngầm
+地址	địa chỉ
+典型	điển hình
+点名	điểm danh
+电灯	đèn điện
+电动车	xe điện
+电梯	thang máy
+电源	nguồn điện
+冬季	mùa đông
+动画片	phim hoạt hình
+动摇	dao động / lung lay
+豆腐	đậu phụ
+独立	độc lập
+独特	độc đáo
+独自	một mình
+堵车	tắc đường
+肚子	bụng
+度过	trải qua
+锻炼	rèn luyện
+对比	so sánh / đối chiếu
+对付	đối phó
+对于	đối với
+多次	nhiều lần
+多年	nhiều năm
+多样	đa dạng
+多种	nhiều loại
+恶心	buồn nôn
+儿童	trẻ em
+而是	mà là
+耳机	tai nghe
+二手	đã qua sử dụng / cũ
+发挥	phát huy
+发票	hóa đơn
+发烧	sốt
+法官	thẩm phán
+法律	pháp luật
+法院	tòa án
+翻译	dịch / phiên dịch
+反而	trái lại / ngược lại
+反映	phản ánh
+方案	phương án
+方针	phương châm
+放松	thư giãn / nới lỏng
+分布	phân bố
+分散	phân tán
+分手	chia tay
+分为	chia thành
+纷纷	lần lượt / tới tấp
+奋斗	phấn đấu
+风格	phong cách
+风景	phong cảnh
+风俗	phong tục
+封闭	phong tỏa / đóng kín
+否则	nếu không thì
+夫妇	vợ chồng
+夫妻	vợ chồng
+夫人	phu nhân
+符号	ký hiệu
+符合	phù hợp
+付出	bỏ ra / cống hiến
+负担	gánh nặng
+附近	gần đây / lân cận
+复制	sao chép
+改善	cải thiện
+改正	sửa chữa
+概括	khái quát
+感兴趣	quan tâm / hứng thú
+高潮	cao trào
+高价	giá cao
+高尚	cao thượng
+高铁	tàu cao tốc
+格外	đặc biệt
+隔开	ngăn cách
+个别	cá biệt
+个体	cá thể
+各个	từng cái / mỗi
+根据	căn cứ vào
+工程	công trình
+公元	công nguyên
+供应	cung ứng
+构成	cấu thành
+构造	cấu tạo
+购买	mua
+购物	mua sắm
+骨头	xương
+固定	cố định
+关闭	đóng cửa
+关于	về / liên quan đến
+官方	chính thức / nhà nước
+光临	quang lâm / đến thăm
+光盘	đĩa CD
+规律	quy luật
+规模	quy mô
+规则	quy tắc
+果实	quả / thành quả
+过分	quá đáng
+海水	nước biển
+海鲜	hải sản
+含量	hàm lượng
+含义	hàm ý
+含有	chứa
+寒假	nghỉ đông
+寒冷	lạnh giá
+行业	ngành nghề
+航班	chuyến bay
+航空	hàng không
+毫米	milimét
+毫升	mililít
+好友	bạn thân
+号码	số hiệu
+合同	hợp đồng
+黑暗	đen tối
+红包	phong bao đỏ / lì xì
+后头	phía sau
+呼吸	hô hấp / thở
+忽视	xem nhẹ / bỏ qua
+护士	y tá
+怀念	nhớ nhung / hoài niệm
+怀疑	nghi ngờ
+缓解	giảm bớt
+黄瓜	dưa chuột
+黄金	vàng
+回复	phản hồi / trả lời
+汇报	báo cáo
+汇率	tỷ giá hối đoái
+婚礼	lễ cưới
+伙伴	bạn đồng hành / đối tác
+或许	có lẽ
+获得	đạt được
+获奖	đoạt giải
+获取	thu được
+几乎	hầu như
+机构	cơ quan / tổ chức
+机遇	cơ hội / thời cơ
+积累	tích lũy
+激动	kích động / xúc động
+激烈	kịch liệt / gay gắt
+及格	đạt yêu cầu / đỗ (thi)
+极其	cực kỳ
+即将	sắp sửa
+急忙	vội vàng
+集合	tập hợp
+记载	ghi chép
+纪律	kỷ luật
+技巧	kỹ xảo / kỹ năng
+季度	quý (thời gian)
+季节	mùa
+既然	đã vậy
+加班	làm thêm giờ
+加入	gia nhập
+加油站	trạm xăng
+家务	việc nhà
+假如	giả sử / nếu
+坚固	kiên cố
+检测	kiểm tra / xét nghiệm
+减肥	giảm cân
+减少	giảm bớt
+简历	sơ yếu lý lịch
+健身	tập thể hình
+渐渐	dần dần
+讲究	chú trọng / cầu kỳ
+讲座	buổi giảng / bài giảng
+奖金	tiền thưởng
+奖学金	học bổng
+降低	hạ thấp
+降价	giảm giá
+降落	hạ cánh
+降温	giảm nhiệt độ / hạ nhiệt
+交换	trao đổi
+交际	giao tiếp
+教授	giáo sư
+教训	bài học / dạy dỗ
+阶段	giai đoạn
+街道	đường phố
+节省	tiết kiệm
+结构	kết cấu
+结论	kết luận
+姐妹	chị em
+解释	giải thích
+尽快	càng sớm càng tốt
+紧密	chặt chẽ
+尽力	cố gắng hết sức
+进口	nhập khẩu
+近代	cận đại
+禁止	cấm
+经典	kinh điển
+精力	sức lực
+竟然	lại / thế mà
+镜头	ống kính / cảnh quay
+镜子	gương
+究竟	rốt cuộc
+酒吧	quán bar
+居民	cư dân
+居住	cư trú
+巨大	to lớn
+具备	có đủ / hội đủ
+距离	khoảng cách
+聚会	buổi họp mặt
+角色	vai trò / nhân vật
+开花	nở hoa
+开水	nước sôi
+看不起	coi thường
+看来	xem ra
+看望	thăm hỏi
+考察	khảo sát
+考虑	suy nghĩ / cân nhắc
+可见	có thể thấy
+空间	không gian
+口袋	túi
+口语	khẩu ngữ
+会计	kế toán
+快递	chuyển phát nhanh
+宽广	rộng lớn
+矿泉水	nước khoáng
+扩大	mở rộng
+扩展	mở rộng, phát triển
+括号	dấu ngoặc
+垃圾	rác
+拉开	kéo ra / mở ra
+来不及	không kịp
+来得及	kịp
+来源	nguồn gốc
+老公	chồng
+老家	quê nhà
+老婆	vợ
+老实	thật thà
+乐趣	niềm vui / thú vui
+泪水	nước mắt
+类型	loại / thể loại
+冷静	bình tĩnh
+厘米	xăng-ti-mét
+离不开	không thể tách rời
+力气	sức lực
+历史	lịch sử
+立即	lập tức
+利息	tiền lãi
+利益	lợi ích
+良好	tốt đẹp
+粮食	lương thực
+两边	hai bên
+疗养	điều dưỡng
+了不起	tuyệt vời / ghê gớm
+了解	hiểu rõ
+列车	đoàn tàu
+列入	liệt vào danh sách
+列为	xếp vào loại
+临时	tạm thời
+零食	đồ ăn vặt
+流传	lưu truyền
+楼梯	cầu thang
+陆地	đất liền
+陆续	lần lượt
+录取	tuyển sinh / trúng tuyển
+律师	luật sư
+轮船	tàu thủy
+轮椅	xe lăn
+轮子	bánh xe
+论文	luận văn
+毛巾	khăn mặt
+毛衣	áo len
+帽子	mũ
+没错	đúng rồi
+没法儿	không có cách nào
+没想到	không ngờ
+美金	đô la Mỹ
+美女	người đẹp
+梦见	mơ thấy
+梦想	ước mơ
+秘密	bí mật
+秘书	thư ký
+密码	mật khẩu
+密切	mật thiết
+免费	miễn phí
+面临	đối mặt với
+面试	phỏng vấn
+描述	miêu tả
+描写	miêu tả
+名牌儿	hàng hiệu
+名片	danh thiếp
+名人	người nổi tiếng
+模特儿	người mẫu
+模型	mô hình
+默默	lặng lẽ
+哪怕	dù cho
+男女	nam nữ
+男士	quý ông
+难免	khó tránh khỏi
+脑袋	cái đầu
+闹钟	đồng hồ báo thức
+内部	nội bộ / bên trong
+内科	khoa nội
+能干	giỏi giang
+宁静	yên tĩnh
+女士	quý bà
+暖气	lò sưởi
+拍照	chụp ảnh
+排列	sắp xếp
+盘子	cái đĩa
+胖子	người béo
+培训	đào tạo
+培训班	lớp đào tạo
+培养	bồi dưỡng
+培育	nuôi dưỡng
+片面	phiến diện
+品质	phẩm chất
+平方	bình phương / mét vuông
+平静	bình tĩnh / yên tĩnh
+平均	trung bình
+平稳	êm ả / ổn định
+迫切	cấp bách
+破产	phá sản
+妻子	vợ
+期待	mong đợi
+期间	thời gian / giai đoạn
+期末	cuối kỳ
+期限	thời hạn
+期中	giữa kỳ
+其余	còn lại
+企业	doanh nghiệp
+气球	bóng bay
+汽水	nước ngọt có ga
+汽油	xăng
+器官	cơ quan (nội tạng)
+前头	phía trước
+前途	tiền đồ
+巧克力	sô cô la
+亲爱	thân yêu
+亲密	thân mật
+青春	thanh xuân
+轻松	nhẹ nhàng
+轻易	dễ dàng
+清醒	tỉnh táo
+情景	cảnh tượng
+穷人	người nghèo
+秋季	mùa thu
+趋势	xu hướng
+权利	quyền lợi
+确认	xác nhận
+然而	tuy nhiên
+燃料	nhiên liệu
+燃烧	đốt cháy
+热闹	nhộn nhịp
+热心	nhiệt tình
+人家	người ta
+日记	nhật ký
+日历	lịch
+如今	hiện nay
+色彩	màu sắc
+森林	rừng
+闪电	tia chớp
+善良	lương thiện
+善于	giỏi về
+伤害	gây tổn thương
+商务	thương vụ
+上个月	tháng trước
+上楼	lên lầu
+上门	đến tận nhà
+设施	cơ sở vật chất
+设置	thiết lập
+申请	xin / đăng ký
+身材	vóc dáng
+身份	thân phận
+身高	chiều cao
+深厚	sâu sắc
+神话	thần thoại
+神秘	thần bí / bí ẩn
+甚至	thậm chí
+失败	thất bại
+失望	thất vọng
+失业	thất nghiệp
+诗人	nhà thơ
+实施	thực thi
+实用	thực dụng
+食堂	nhà ăn
+使劲	dùng hết sức
+士兵	binh sĩ
+市区	nội thành
+似的	giống như
+事物	sự vật
+事先	trước đó
+试卷	đề thi
+是否	có hay không
+收回	thu hồi
+收获	thu hoạch
+收益	lợi nhuận
+手工	thủ công
+手里	trong tay
+手术	phẫu thuật
+手套	găng tay
+受不了	không chịu nổi
+售货员	nhân viên bán hàng
+叔叔	chú
+舒适	thoải mái
+熟练	thành thạo
+暑假	nghỉ hè
+树林	rừng cây
+树叶	lá cây
+数据	dữ liệu
+数码	kỹ thuật số
+刷牙	đánh răng
+刷子	bàn chải
+帅哥	anh chàng đẹp trai
+率先	dẫn đầu
+睡着	ngủ say
+顺序	thứ tự
+说不定	có lẽ
+说服	thuyết phục
+思考	suy nghĩ
+似乎	dường như
+松树	cây thông
+塑料	nhựa
+塑料袋	túi ni lông
+酸奶	sữa chua
+随手	tiện tay
+孙女	cháu gái
+孙子	Tôn Tử / cháu trai
+缩短	rút ngắn
+缩小	thu nhỏ
+台阶	bậc thềm
+台上	trên sân khấu
+套餐	suất ăn / combo
+特价	giá đặc biệt
+特殊	đặc biệt
+特征	đặc trưng
+提供	cung cấp
+提醒	nhắc nhở
+体操	thể dục dụng cụ
+体检	khám sức khỏe
+体重	cân nặng
+替代	thay thế
+天真	ngây thơ
+填空	điền vào chỗ trống
+挑选	lựa chọn
+调皮	nghịch ngợm
+挑战	thách thức
+停下	dừng lại
+通知书	giấy báo
+同情	thông cảm
+童话	truyện cổ tích
+童年	tuổi thơ
+统计	thống kê
+统一	thống nhất
+痛快	sảng khoái
+投入	đầu tư / dốc sức
+投诉	khiếu nại
+投资	đầu tư
+透明	trong suốt / minh bạch
+图案	họa tiết
+途中	trên đường đi
+土地	đất đai
+推迟	hoãn lại
+推销	tiếp thị bán hàng
+袜子	tất / vớ
+外汇	ngoại hối
+外交官	nhà ngoại giao
+外套	áo khoác
+晚点	trễ giờ
+万一	lỡ như
+网络	mạng internet
+网址	địa chỉ trang web
+微笑	mỉm cười
+微信	WeChat
+围巾	khăn quàng cổ
+维持	duy trì
+维护	bảo vệ / duy trì
+维修	bảo trì / sửa chữa
+尾巴	cái đuôi
+未必	chưa chắc
+未来	tương lai
+位于	nằm ở / tọa lạc tại
+位置	vị trí
+味儿	mùi vị
+稳定	ổn định
+问候	hỏi thăm
+无法	không thể
+无聊	buồn chán
+无论	bất luận / dù cho
+无数	vô số
+无所谓	không sao / không quan trọng
+无限	vô hạn
+五颜六色	sặc sỡ nhiều màu
+误会	hiểu lầm
+西瓜	dưa hấu
+吸管	ống hút
+吸收	hấp thụ
+吸烟	hút thuốc
+吸引	thu hút
+喜爱	yêu thích
+系列	loạt / series
+系统	hệ thống
+细节	chi tiết
+细致	tỉ mỉ
+下个月	tháng sau
+下降	giảm xuống
+下楼	xuống lầu
+下载	tải xuống
+夏季	mùa hè
+鲜花	hoa tươi
+鲜明	rõ ràng / tươi sáng
+显著	rõ rệt
+限制	hạn chế
+相处	chung sống hòa hợp
+相反	ngược lại
+箱子	va li / cái hộp
+想念	nhớ nhung
+想象	tưởng tượng
+项目	dự án / hạng mục
+相片	ảnh chụp
+消化	tiêu hóa
+销售	bán hàng
+小吃	món ăn vặt
+小伙子	chàng trai trẻ
+小型	cỡ nhỏ
+效率	hiệu suất
+心理	tâm lý
+新郎	chú rể
+新娘	cô dâu
+新鲜	tươi mới
+新型	kiểu mới
+兴奋	hưng phấn
+形容	hình dung / miêu tả
+形势	tình hình
+型号	kiểu / model
+兴趣	sở thích
+性质	tính chất
+兄弟	anh em
+胸部	ngực
+修理	sửa chữa
+选择	lựa chọn
+学分	tín chỉ
+学年	năm học
+学时	tiết học
+学术	học thuật
+学问	học vấn
+寻找	tìm kiếm
+迅速	nhanh chóng
+牙刷	bàn chải đánh răng
+亚运会	Đại hội thể thao châu Á
+延长	kéo dài
+延期	hoãn lại
+延续	kéo dài / tiếp diễn
+严格	nghiêm ngặt
+严重	nghiêm trọng
+研究	nghiên cứu
+研究生	nghiên cứu sinh
+研制	nghiên cứu chế tạo
+眼镜	kính mắt
+眼泪	nước mắt
+演讲	diễn thuyết
+阳台	ban công
+养成	hình thành (thói quen)
+药物	dược phẩm
+业余	nghiệp dư
+叶子	lá cây
+医疗	y tế
+医学	y học
+依靠	dựa vào
+依然	vẫn như cũ
+一律	đều như nhau
+一再	nhiều lần
+一致	nhất trí
+移动	di động
+移民	di dân / nhập cư
+遗产	di sản
+遗传	di truyền
+疑问	nghi vấn / thắc mắc
+以及	và / cũng như
+以内	trong vòng
+一般来说	nói chung
+义务	nghĩa vụ
+议论	bàn luận
+引导	dẫn dắt
+引进	du nhập / nhập khẩu
+引起	gây ra
+英勇	anh dũng
+营业	kinh doanh
+赢得	giành được
+影子	cái bóng
+勇敢	dũng cảm
+勇气	dũng khí
+用途	công dụng
+优良	ưu tú
+优美	đẹp đẽ
+优秀	xuất sắc
+邮局	bưu điện
+有趣	thú vị
+有限	có hạn
+幼儿园	trường mẫu giáo
+于是	vì thế
+语法	ngữ pháp
+语音	ngữ âm / giọng nói
+玉米	ngô / bắp
+预测	dự đoán
+预订	đặt trước
+遇到	gặp phải
+遇见	gặp gỡ
+原料	nguyên liệu
+原则	nguyên tắc
+圆满	viên mãn / trọn vẹn
+约会	hẹn hò
+月底	cuối tháng
+阅读	đọc
+运动会	hội thao
+运动员	vận động viên
+运气	vận may
+运用	vận dụng
+再三	nhiều lần
+在乎	để tâm
+在于	nằm ở / tùy thuộc vào
+赞成	tán thành
+赞赏	khen ngợi
+赞助	tài trợ
+造型	tạo hình
+战斗	chiến đấu
+战胜	chiến thắng
+战士	chiến sĩ
+战争	chiến tranh
+丈夫	chồng
+招呼	chào hỏi
+着火	bốc cháy
+着急	lo lắng / sốt ruột
+召开	triệu tập (họp)
+针对	nhắm vào
+争论	tranh luận
+征服	chinh phục
+征求	trưng cầu ý kiến
+政府	chính phủ
+政治	chính trị
+之后	sau đó
+之间	giữa
+之前	trước đó
+之一	một trong những
+植物	thực vật
+指挥	chỉ huy
+制订	soạn thảo / đề ra
+质量	chất lượng
+治疗	điều trị
+智力	trí tuệ
+智能	thông minh
+中介	trung gian / môi giới
+种类	chủng loại
+中奖	trúng thưởng
+种植	trồng trọt
+重量	trọng lượng
+逐步	từng bước
+逐渐	dần dần
+主题	chủ đề
+主席	chủ tịch
+祝福	chúc phúc
+著名	nổi tiếng
+著作	tác phẩm
+抓紧	tranh thủ / nắm chắc
+专心	chuyên tâm
+转动	xoay / quay
+转告	chuyển lời
+转身	quay người
+转弯	rẽ / quẹo
+转移	chuyển dời
+装修	sửa nhà / trang trí nội thất
+装置	thiết bị
+追求	theo đuổi
+准时	đúng giờ
+资料	tài liệu
+资源	tài nguyên
+自信	tự tin
+字母	chữ cái
+综合	tổng hợp
+总共	tổng cộng
+总理	thủ tướng
+总统	tổng thống
+总之	tóm lại
+阻止	ngăn cản
+嘴巴	miệng
+最初	ban đầu
+作出	đưa ra (quyết định)
+作为	với tư cách là
+做梦	nằm mơ
+安慰	an ủi
+岸上	trên bờ
+按摩	mát-xa
+白酒	rượu trắng
+拜访	thăm hỏi
+扮演	đóng vai
+包围	bao vây
+包装	đóng gói / bao bì
+保卫	bảo vệ
+保养	bảo dưỡng
+报答	báo đáp
+报警	báo cảnh sát
+抱怨	phàn nàn
+背包	ba lô
+悲剧	bi kịch
+悲伤	bi thương
+北极	Bắc Cực
+被动	bị động
+本人	bản thân
+鼻子	cái mũi
+比方	ví dụ
+比重	tỷ trọng
+彼此	lẫn nhau
+必需	cần thiết
+毕竟	dù sao / rốt cuộc
+闭幕	bế mạc
+闭幕式	lễ bế mạc
+边境	biên giới
+编辑	biên tập
+变动	thay đổi
+便利	tiện lợi
+便条	mảnh giấy nhắn
+便于	tiện cho
+宾馆	khách sạn
+饼干	bánh quy
+病毒	vi rút
+玻璃	kính / thủy tinh
+博客	blog
+博览会	hội chợ triển lãm
+博士	tiến sĩ
+博物馆	bảo tàng
+薄弱	yếu ớt
+不顾	bất chấp
+不利	bất lợi
+不耐烦	mất kiên nhẫn
+不幸	bất hạnh
+不易	không dễ
+补偿	bồi thường
+补贴	trợ cấp
+不曾	chưa từng
+不得了	kinh khủng / vô cùng
+不敢当	không dám nhận
+不良	không tốt / xấu
+不免	khó tránh khỏi
+不能不	không thể không
+不时	thỉnh thoảng
+不停	không ngừng
+不许	không được phép
+不止	không chỉ / hơn
+不足	không đủ / thiếu
+部位	vị trí (bộ phận)
+猜测	đoán / suy đoán
+裁判	trọng tài / phán quyết
+采购	thu mua
+彩票	vé số
+餐馆	quán ăn
+餐厅	nhà hàng
+餐饮	ăn uống
+草原	thảo nguyên
+层次	tầng bậc / cấp độ
+叉子	cái nĩa
+差别	sự khác biệt
+差距	khoảng cách
+查询	tra cứu
+拆除	phá dỡ
+产业	ngành / sản nghiệp
+长度	chiều dài
+长寿	trường thọ
+尝试	thử / thử nghiệm
+厂长	giám đốc nhà máy
+场面	cảnh tượng
+倡导	khởi xướng
+超越	vượt qua
+车主	chủ xe
+称号	danh hiệu
+成本	giá thành
+成交	giao dịch thành công
+成效	hiệu quả
+成语	thành ngữ
+承办	đảm nhận tổ chức
+乘车	đi xe
+乘客	hành khách
+乘坐	đi (bằng phương tiện)
+吃力	vất vả / tốn sức
+池子	cái ao / bể
+冲动	bốc đồng
+冲突	xung đột
+充足	đầy đủ / dồi dào
+出版	xuất bản
+出差	đi công tác
+出汗	đổ mồ hôi
+出于	xuất phát từ
+初期	giai đoạn đầu
+除非	trừ phi
+除夕	giao thừa
+厨房	nhà bếp
+处罚	xử phạt
+处分	kỷ luật
+处在	ở vào (tình trạng)
+传达	truyền đạt
+传递	truyền đi
+传真	fax
+窗帘	rèm cửa
+创立	sáng lập
+辞典	từ điển
+辞职	từ chức
+此后	từ đó về sau
+此刻	lúc này
+此时	lúc này
+聪明	thông minh
+从而	nhờ đó / do đó
+从中	từ trong đó
+存款	tiền gửi ngân hàng
+达成	đạt được
+答复	trả lời / phúc đáp
+打扮	trang điểm / ăn diện
+打包	đóng gói
+打击	đánh / tấn công
+打架	đánh nhau
+打扰	làm phiền
+大胆	táo bạo
+大都	phần lớn / đa số
+大纲	đề cương
+大伙儿	mọi người
+大奖赛	giải Grand Prix
+大脑	não bộ
+大事	việc lớn / đại sự
+大厅	sảnh lớn
+大象	con voi
+大熊猫	gấu trúc lớn
+大于	lớn hơn
+大致	đại khái / khoảng
+代价	cái giá phải trả
+代理	đại lý / thay mặt
+带有	mang tính / có
+贷款	khoản vay
+单一	đơn nhất / duy nhất
+胆小	nhát gan
+蛋糕	bánh kem
+当场	ngay tại chỗ
+当代	đương đại
+当年	năm đó / hồi đó
+当前	hiện tại / trước mắt
+当选	trúng cử
+到来	đến / tới
+倒是	lại / ngược lại
+道德	đạo đức
+得了	được rồi / thôi được
+得以	nhờ đó có thể
+等候	chờ đợi
+等级	cấp bậc
+低于	thấp hơn
+地带	khu vực / địa đới
+地形	địa hình
+地震	động đất
+递给	đưa cho
+典礼	lễ / nghi lễ
+点燃	đốt cháy / thắp
+电池	pin
+电饭锅	nồi cơm điện
+电子版	bản điện tử
+调动	điều động
+动机	động cơ
+动手	ra tay / bắt tay vào
+动态	động thái / diễn biến
+动员	động viên / huy động
+豆制品	sản phẩm từ đậu
+对立	đối lập
+对应	tương ứng
+儿女	con cái
+耳朵	cái tai
+二维码	mã QR
+发布	công bố / phát hành
+发觉	phát hiện ra
+发射	phóng / bắn
+发行	phát hành
+罚款	tiền phạt
+法规	quy định pháp luật
+法制	pháp chế
+繁荣	phồn vinh / thịnh vượng
+返回	quay về
+防治	phòng và chữa
+放大	phóng to
+放弃	từ bỏ
+分成	chia thành
+分解	phân giải
+分类	phân loại
+分离	tách ra / phân ly
+分析	phân tích
+分享	chia sẻ
+丰收	được mùa
+风度	phong độ / phong thái
+风光	phong cảnh
+疯狂	điên cuồng
+服从	phục tùng
+幅度	biên độ / mức độ
+福利	phúc lợi
+辅助	hỗ trợ
+负责人	người phụ trách
+附件	phụ lục / tệp đính kèm
+改革	cải cách
+干脆	dứt khoát
+干扰	gây nhiễu / quấy rối
+干预	can thiệp
+感想	cảm nghĩ
+钢笔	bút máy
+钢琴	đàn piano
+高大	cao lớn
+高度	độ cao
+高跟鞋	giày cao gót
+高温	nhiệt độ cao
+高于	cao hơn
+高原	cao nguyên
+搞好	làm tốt
+歌曲	bài hát
+隔壁	hàng xóm / bên cạnh
+个儿	vóc dáng / kích cỡ
+跟前	trước mặt
+跟随	đi theo / theo sau
+更换	thay đổi / thay thế
+更新	cập nhật
+工艺	kỹ nghệ thủ công
+工作日	ngày làm việc
+公告	thông báo
+公认	công nhận rộng rãi
+公式	công thức
+公正	công bằng
+共计	tổng cộng
+共享	chia sẻ chung
+沟通	giao tiếp
+估计	ước tính / đoán chừng
+古老	cổ xưa
+鼓励	khích lệ
+鼓掌	vỗ tay
+顾问	cố vấn
+关怀	quan tâm / chăm sóc
+关键	then chốt
+冠军	vô địch
+光荣	vinh quang
+光线	ánh sáng
+广泛	rộng rãi
+规划	quy hoạch
+柜子	tủ
+国籍	quốc tịch
+国民	quốc dân / công dân
+过度	quá mức
+过敏	dị ứng
+过于	quá / quá mức
+好运	may mắn
+号召	kêu gọi
+合并	sáp nhập
+合成	hợp thành / tổng hợp
+盒饭	cơm hộp
+盒子	hộp
+贺卡	thiệp chúc mừng
+后悔	hối hận
+胡同儿	ngõ hẻm
+胡子	râu
+华语	tiếng Hoa
+化石	hóa thạch
+划分	phân chia
+画面	khung hình / cảnh
+环节	khâu / mắt xích
+慌忙	vội vàng / hoảng hốt
+灰色	màu xám
+恢复	khôi phục
+回报	đền đáp
+回避	né tránh
+回顾	hồi tưởng / nhìn lại
+回收	tái chế / thu hồi
+回头	quay đầu / lát nữa
+回信	thư trả lời
+回忆	hồi ức / nhớ lại
+汇款	chuyển tiền
+会谈	hội đàm
+活力	sức sống
+活泼	hoạt bát
+火柴	diêm quẹt
+火腿	giăm bông
+火灾	hỏa hoạn
+或是	hoặc là
+机器人	người máy / robot
+机制	cơ chế
+肌肉	cơ bắp
+基地	căn cứ
+基金	quỹ
+即使	ngay cả khi
+集团	tập đoàn
+记忆	ký ức / trí nhớ
+技能	kỹ năng
+继承	kế thừa
+加热	làm nóng
+加上	cộng thêm
+加速	tăng tốc
+加以	tiến hành / hơn nữa
+驾驶	lái xe
+驾照	bằng lái xe
+坚定	kiên định
+艰苦	gian khổ
+艰难	gian nan
+检验	kiểm nghiệm
+减轻	giảm nhẹ
+剪刀	cái kéo
+剪子	cái kéo
+间接	gián tiếp
+建造	xây dựng
+建筑	kiến trúc / công trình
+健全	hoàn thiện / kiện toàn
+键盘	bàn phím
+将要	sắp / sẽ
+奖励	khen thưởng
+交代	dặn dò / giao phó
+郊区	ngoại ô
+胶带	băng dính
+胶水	keo dán
+脚步	bước chân
+接触	tiếp xúc
+接连	liên tiếp
+解除	giải trừ / gỡ bỏ
+解放	giải phóng
+今日	hôm nay
+尽管	mặc dù
+紧紧	chặt chẽ
+尽可能	hết sức có thể
+进化	tiến hóa
+近来	gần đây
+经费	kinh phí
+景象	cảnh tượng
+警告	cảnh cáo
+竞赛	cuộc thi / thi đấu
+竞争	cạnh tranh
+酒鬼	ma men
+救灾	cứu trợ thiên tai
+居然	không ngờ / thế mà
+局面	cục diện
+局长	cục trưởng
+举动	hành động / cử chỉ
+拒绝	từ chối
+俱乐部	câu lạc bộ
+剧本	kịch bản
+决不	quyết không
+绝望	tuyệt vọng
+军人	quân nhân
+开幕	khai mạc
+开幕式	lễ khai mạc
+看成	coi là
+看出	nhận ra
+看待	nhìn nhận / đối xử
+考核	đánh giá (năng lực)
+烤肉	thịt nướng
+烤鸭	vịt quay
+靠近	đến gần
+可怜	đáng thương
+可惜	tiếc là
+渴望	khao khát
+客户	khách hàng
+客气	khách sáo / lịch sự
+客厅	phòng khách
+课题	đề tài nghiên cứu
+肯定	khẳng định / chắc chắn
+空中	trên không
+控制	kiểm soát
+口号	khẩu hiệu
+快活	vui vẻ
+宽度	chiều rộng
+困扰	gây phiền phức
+来信	thư gửi đến
+朗读	đọc to
+浪漫	lãng mạn
+劳动	lao động
+礼拜	tuần lễ
+礼貌	lễ phép / lịch sự
+厉害	ghê gớm / lợi hại
+立场	lập trường
+利润	lợi nhuận
+例外	ngoại lệ
+连接	kết nối
+联络	liên lạc
+联想	liên tưởng
+脸盆	chậu rửa mặt
+脸色	sắc mặt
+恋爱	yêu đương
+两岸	hai bờ / đôi bờ
+邻居	hàng xóm
+铃声	tiếng chuông
+领带	cà vạt
+流动	lưu động / di chuyển
+流通	lưu thông
+漏洞	lỗ hổng
+逻辑	logic
+落实	thực hiện
+码头	bến tàu / cảng
+买卖	mua bán
+漫长	dài đằng đẵng
+漫画	truyện tranh
+毛笔	bút lông
+矛盾	mâu thuẫn
+贸易	mậu dịch / thương mại
+煤气	khí gas
+门诊	khám ngoại trú
+迷人	quyến rũ
+迷信	mê tín
+面貌	diện mạo
+面子	thể diện
+敏感	nhạy cảm
+明亮	sáng sủa
+明明	rõ ràng là
+命令	mệnh lệnh
+模范	gương mẫu
+模仿	bắt chước
+模糊	mơ hồ / mờ nhạt
+模式	mô hình
+摩擦	ma sát / xích mích
+摩托	xe máy
+模样	dáng vẻ
+目光	ánh mắt
+耐心	kiên nhẫn
+男性	nam giới
+南北	nam bắc
+南极	nam cực
+难得	hiếm có
+难以	khó mà
+脑子	đầu óc
+内在	nội tại / bên trong
+能量	năng lượng
+年度	hàng năm / niên độ
+年龄	tuổi tác
+年前	cuối năm / trước tết
+牛仔裤	quần jean
+农产品	nông sản
+女性	nữ giới
+偶尔	thỉnh thoảng
+偶然	ngẫu nhiên
+偶像	thần tượng
+拍摄	quay phim / chụp ảnh
+排除	loại trừ
+赔偿	bồi thường
+配备	trang bị
+配套	đồng bộ
+皮肤	da
+皮鞋	giày da
+脾气	tính khí
+骗子	kẻ lừa đảo
+频道	kênh (truyền hình)
+频繁	thường xuyên / liên tục
+品种	giống loài / chủng loại
+平坦	bằng phẳng
+平原	đồng bằng
+评估	đánh giá
+评论	bình luận
+葡萄	nho
+葡萄酒	rượu vang
+期望	kỳ vọng
+齐全	đầy đủ
+启动	khởi động
+启发	gợi mở
+启事	thông báo
+起到	phát huy (tác dụng)
+起码	ít nhất
+气体	chất khí
+气象	khí tượng
+签订	ký kết
+签名	ký tên
+签约	ký hợp đồng
+签证	thị thực / visa
+签字	ký tên
+前景	triển vọng
+前提	tiền đề
+强度	cường độ
+墙壁	tường vách
+抢救	cấp cứu
+强迫	ép buộc
+悄悄	lặng lẽ
+敲门	gõ cửa
+勤奋	cần cù
+清晨	sáng sớm
+清理	dọn dẹp
+情节	tình tiết
+情形	tình hình
+晴朗	trời quang / trong xanh
+区域	khu vực
+全都	tất cả đều
+全世界	toàn thế giới
+缺乏	thiếu
+确立	xác lập
+群体	quần thể
+群众	quần chúng
+热量	nhiệt lượng
+热门	thịnh hành
+人间	nhân gian
+人力	nhân lực
+人士	nhân sĩ
+人物	nhân vật
+忍不住	không nhịn được
+忍受	chịu đựng
+认定	xác định / khẳng định
+仍旧	vẫn như cũ
+如此	như vậy
+如同	giống như
+如下	như sau
+入门	nhập môn
+软件	phần mềm
+散文	tản văn
+杀毒	diệt virus
+沙漠	sa mạc
+山区	vùng núi
+扇子	cái quạt
+商标	nhãn hiệu
+上级	cấp trên
+上下	trên dưới
+上涨	tăng lên
+稍微	hơi / một chút
+舍不得	tiếc không nỡ
+舍得	sẵn lòng / nỡ
+设想	hình dung / dự tính
+社区	khu dân cư
+射击	bắn súng
+摄像	quay phim
+摄像机	máy quay phim
+摄影	chụp ảnh
+摄影师	nhiếp ảnh gia
+深处	nơi sâu thẳm
+深度	độ sâu
+神经	thần kinh
+神奇	kỳ diệu
+神情	thần thái / vẻ mặt
+升高	tăng cao
+生成	hình thành
+胜负	thắng thua
+剩下	còn lại
+失误	sai sót
+师傅	sư phụ
+诗歌	thơ ca
+十足	hoàn toàn / đầy đủ
+时常	thường xuyên
+时光	thời gian / năm tháng
+时机	thời cơ
+时事	thời sự
+实惠	thiết thực / rẻ
+使得	khiến cho

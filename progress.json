@@ -2,7 +2,7 @@
   "source": "CC-CEDICT (cedict.json via npm cedict-json package, equivalent to cedict_ts.u8)",
   "ranking_source": "HSK 3.0 word lists levels 1-9 (npm @leonsilicon/hsk3.0), then remaining CEDICT compounds in dictionary order",
   "filter": "2-4 hanzi compound words for HSK stages; from wave 3 onward ONLY 2-hanzi compound words per user request ('chỉ dịch từ ghép từ 2 chữ')",
-  "total_translated": 24367,
+  "total_translated": 31867,
   "stages": [
     {
       "stage": "top 3000 common words",
@@ -25,10 +25,19 @@
       "batches": 30,
       "batch_size": 500,
       "batch_files": "scratchpad cedict_work/batches_all/b_001.json .. b_030.json"
+    },
+    {
+      "stage": "2-hanzi-only CEDICT compounds (post scope change), wave 1 of N",
+      "words": 7500,
+      "ranking": "CEDICT dictionary order, filtered to len(word)==2 only",
+      "batches": 15,
+      "batch_size": 500,
+      "batch_files": "scratchpad cedict_work/batches_2char/b_001.json .. b_015.json"
     }
   ],
   "output_file": "cedict.vi.txt",
-  "scope_change": "User requested (mid-run) to stop translating 3-4 hanzi words and continue with 2-hanzi compounds only. Waves 1-2 above (mixed length, already in flight) were kept since already processed. From wave 3 onward, batches are built from a 2-hanzi-only filtered list.",
+  "scope_change": "User requested (mid-run) to stop translating 3-4 hanzi words and continue with 2-hanzi compounds only. Waves 1-2 (mixed length, already in flight at the time) were kept since already processed. From wave 3 onward (renamed batches_2char), batches are built from a 2-hanzi-only filtered list.",
   "status": "in_progress_2char_only",
-  "resume_instructions": "2-hanzi-only remaining word list to be built at scratchpad cedict_work/remaining_all.json filtered to len(word)==2, minus words already in cedict.vi.txt, pre-split into 500-word batches at scratchpad cedict_work/batches_2char/b_NNN.json. To resume: pick next unprocessed b_NNN.json, translate via agent into out_NNN.tsv, verify line count, append to cedict.vi.txt, update this file."
+  "remaining_2char_available": 34214,
+  "resume_instructions": "2-hanzi-only remaining word list at scratchpad cedict_work/remaining_2char.json (41714 records at time of filtering), pre-split into 500-word batches at scratchpad cedict_work/batches_2char/b_NNN.json (84 batches total). To resume: pick next unprocessed b_NNN.json (016 onward), translate via agent into out_NNN.tsv, verify line count, append to cedict.vi.txt, update this file."
 }

@@ -2,7 +2,7 @@
   "source": "CC-CEDICT (cedict.json via npm cedict-json package, equivalent to cedict_ts.u8)",
   "ranking_source": "HSK 3.0 word lists levels 1-9 (npm @leonsilicon/hsk3.0), then remaining CEDICT compounds in dictionary order",
   "filter": "2-4 hanzi compound words for HSK stages; from wave 3 onward ONLY 2-hanzi compound words per user request ('chỉ dịch từ ghép từ 2 chữ')",
-  "total_translated": 46867,
+  "total_translated": 50853,
   "stages": [
     {
       "stage": "top 3000 common words",
@@ -56,13 +56,15 @@
   "status": "in_progress_2char_and_idioms",
   "remaining_2char_available": 19214,
   "idiom_stage": {
-    "status": "in_progress",
-    "total_candidates": 3986,
+    "status": "complete",
+    "total_translated": 3986,
     "source": "CEDICT entries tagged (idiom)/proverb (4-5 hanzi) union HSK3.0_chengyu.json + HSK3.0_4char_phrases.json",
     "batches": 8,
     "batch_size": 500,
     "batch_files": "scratchpad cedict_work/batches_idiom/b_001.json .. b_008.json",
-    "translation_style": "figurative/idiomatic meaning (fig. sense), not literal word-by-word"
+    "translation_style": "figurative/idiomatic meaning (fig. sense), not literal word-by-word",
+    "length_breakdown": "3821 four-char idioms, 165 five-char idioms"
   },
+  "2char_stage_status": "paused_by_user_request (dịch chữ đơn đủ rồi); wave 6 (batches_2char b_046..b_060) was in-flight when the request came in and is being merged in separately once all 15 batches finish; no further waves will be started. ~19,214 2-hanzi words remain untranslated if resumed later",
   "resume_instructions": "2-hanzi-only remaining word list at scratchpad cedict_work/remaining_2char.json (41714 records at time of filtering), pre-split into 500-word batches at scratchpad cedict_work/batches_2char/b_NNN.json (84 batches total). To resume: pick next unprocessed b_NNN.json (016 onward), translate via agent into out_NNN.tsv, verify line count, append to cedict.vi.txt, update this file."
 }

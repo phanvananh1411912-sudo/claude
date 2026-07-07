@@ -2,7 +2,7 @@
   "source": "CC-CEDICT (cedict.json via npm cedict-json package, equivalent to cedict_ts.u8)",
   "ranking_source": "HSK 3.0 word lists levels 1-9 (npm @leonsilicon/hsk3.0), then remaining CEDICT compounds in dictionary order",
   "filter": "2-4 hanzi compound words for HSK stages; from wave 3 onward ONLY 2-hanzi compound words per user request ('chỉ dịch từ ghép từ 2 chữ')",
-  "total_translated": 58353,
+  "total_translated": 62562,
   "stages": [
     {
       "stage": "top 3000 common words",
@@ -74,5 +74,16 @@
     "length_breakdown": "3821 four-char idioms, 165 five-char idioms"
   },
   "2char_stage_status": "paused_by_user_request (dịch chữ đơn đủ rồi). Wave 4/batches_2char (b_046-b_060) was in-flight when the request came in; it was allowed to finish and has been merged. No further 2-hanzi waves will be started unless the user asks to resume. 11,714 2-hanzi words remain untranslated.",
+  "thematic_stage": {
+    "status": "complete",
+    "total_translated": 4209,
+    "themes_requested": ["ăn uống", "du lịch", "du học", "sức khỏe", "máy bay", "di chuyển", "tiền bạc", "trường lớp", "y tế", "công nghệ thông tin"],
+    "method": "keyword regex match against original CC-CEDICT English glosses (per-theme keyword list), applied to all not-yet-translated 2-5 hanzi CEDICT entries regardless of length",
+    "category_counts": {"an_uong": 972, "du_lich": 241, "du_hoc": 1, "suc_khoe_y_te": 668, "may_bay_di_chuyen": 599, "tien_bac": 822, "truong_lop": 503, "cntt": 539},
+    "note": "du_hoc had almost no remaining candidates because core study-abroad vocabulary (留学, 出国, 交换生, 奖学金, 签证...) was already translated during earlier HSK/2-char stages. Category counts overlap (a word can match multiple themes) so they sum to more than 4209 unique words.",
+    "batches": 9,
+    "batch_size": 500,
+    "batch_files": "scratchpad cedict_work/batches_theme/b_001.json .. b_009.json"
+  },
   "resume_instructions": "2-hanzi-only remaining word list at scratchpad cedict_work/remaining_2char.json (41714 records at time of filtering), pre-split into 500-word batches at scratchpad cedict_work/batches_2char/b_NNN.json (84 batches total). To resume: pick next unprocessed b_NNN.json (016 onward), translate via agent into out_NNN.tsv, verify line count, append to cedict.vi.txt, update this file."
 }

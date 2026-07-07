@@ -1,0 +1,1 @@
+🔺 -> 1f53a.png (không xác định được thư mục khớp trong microsoft/fluentui-emoji; đã thử "Red triangle pointed up", "Up-pointing red triangle", "Red triangle up" và các biến thể khác qua metadata.json, không có kết quả 200 nào khớp unicode 1f53a)

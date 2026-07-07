@@ -1,0 +1,2705 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ghép Chữ — Icon (bản clone)</title>
+<!-- Google Fonts đã gỡ: game phải chạy offline/sau tường lửa TQ. Font stack tự rơi về Kaiti SC/hệ thống. -->
+<style>
+:root{
+  --paper:#f7f2e8; --paper-2:#efe7d6; --grid:rgba(60,40,20,.06);
+  --ink:#1e1a15; --ink-dim:#544d43;
+  --seal:#c1392b; --seal-deep:#8f2418; --jade:#2e7d5b; --gold:#b8860b;
+  --tile:#ffffff; --tile-border:#e6dcc7;
+  --shadow-sm:0 1px 2px rgba(60,40,20,.06);
+  --shadow:0 4px 14px -4px rgba(60,40,20,.12), 0 1px 2px rgba(60,40,20,.06);
+  --shadow-lg:0 18px 40px -12px rgba(60,40,20,.25), 0 4px 10px -4px rgba(60,40,20,.1);
+  --radius:14px;
+  --hanzi-font:"Noto Serif SC","Kaiti SC","STKaiti","KaiTi","BiauKai",serif;
+  --brand-font:"ZCOOL XiaoWei","Noto Serif SC",serif;
+  --ui-font:"Inter",-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --sem:#2e7d5b;   /* xanh lá — bộ TẠO NGHĨA (semantic) */
+  --pho:#2f6fae;   /* xanh dương — bộ TẠO ÂM (phonetic) */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:var(--ui-font);color:var(--ink);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(193,57,43,.06), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(46,125,91,.06), transparent 60%),
+    linear-gradient(var(--grid) 1px, transparent 1px) 0 0/56px 56px,
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0/56px 56px,
+    linear-gradient(180deg, var(--paper) 0%, var(--paper-2) 100%);
+  background-attachment: fixed;
+  display:flex;flex-direction:column;align-items:center;
+  min-height:100vh;min-height:100dvh;
+  padding:14px 12px calc(20px + env(safe-area-inset-bottom));
+}
+button{font-family:inherit;cursor:pointer}
+button,.tile,.lvl-btn{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+:focus-visible{outline:3px solid var(--seal);outline-offset:3px;border-radius:12px}
+button:focus-visible,.tile:focus-visible,.lvl-btn:focus-visible,.help-btn:focus-visible{outline:3px solid var(--seal);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip-link{position:absolute;left:-9999px;top:6px;background:var(--ink);color:#fff;padding:8px 14px;border-radius:8px;font-weight:600;z-index:100}
+.skip-link:focus{left:12px}
+.help-btn{width:34px;height:34px;border-radius:10px;border:1px solid var(--tile-border);background:linear-gradient(180deg,#fff,#fbf7ee);color:var(--ink);font-weight:700;font-size:16px;box-shadow:var(--shadow-sm);display:inline-flex;align-items:center;justify-content:center;transition:transform .12s,box-shadow .12s}
+.help-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.hd{width:100%;max-width:600px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;position:sticky;top:8px;z-index:20;background:color-mix(in oklab,var(--paper) 82%, transparent);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border:1px solid var(--tile-border);border-radius:16px;padding:10px 14px;box-shadow:var(--shadow)}
+.hd h1{font-family:var(--brand-font);font-size:22px;font-weight:700;letter-spacing:.01em;display:flex;align-items:center;gap:8px}
+.hd h1 .seal-dot{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--seal),var(--seal-deep));color:#fff;border-radius:8px;width:34px;height:34px;font-family:var(--hanzi-font);font-size:20px;font-weight:700;box-shadow:0 3px 8px -2px rgba(193,57,43,.5),inset 0 -2px 0 rgba(0,0,0,.15);transform:rotate(-6deg)}
+.stats{display:flex;gap:8px;font-size:13px;color:var(--ink-dim)}
+.stats b{color:var(--ink);font-size:16px;font-variant-numeric:tabular-nums;font-weight:700}
+.stat{background:linear-gradient(180deg,#fff,#fbf7ee);border:1px solid var(--tile-border);border-radius:12px;padding:5px 12px 6px;box-shadow:var(--shadow-sm);text-align:center;min-width:58px}
+.stat .lbl{display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-dim);font-weight:600}
+.streak-fire{color:var(--seal);font-weight:700}
+.round-bar{width:100%;max-width:600px;display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;font-size:13px;color:var(--ink-dim);padding:0 6px}
+.round-bar .rname{font-weight:600;color:var(--ink);letter-spacing:.01em}
+.round-bar #roundCount{font-variant-numeric:tabular-nums;font-weight:600}
+.prog{height:6px;background:rgba(60,40,20,.09);border-radius:99px;flex:1;margin:0 14px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(60,40,20,.08)}
+.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--jade),#3fa574);border-radius:99px;transition:width .45s cubic-bezier(.2,.9,.3,1);box-shadow:0 0 8px rgba(46,125,91,.4)}
+.reveal-row{display:flex;align-items:flex-end;justify-content:center;gap:14px;margin:2px auto 4px;flex-wrap:wrap}
+.reveal-wrap{position:relative;width:140px;height:140px}
+.reveal-cap{text-align:center;font-size:10.5px;color:var(--ink-dim);margin-top:6px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.trad-wrap{position:relative;opacity:0;transform:scale(.7);transition:opacity .3s,transform .3s ease}
+.trad-wrap.show{opacity:1;transform:scale(1)}
+.tzg-multi{display:flex}
+.tzg-multi .tcell{width:96px;height:96px;background:#fff;border:2px solid var(--pho);position:relative;border-radius:6px;box-shadow:var(--shadow-sm)}
+.tzg-multi .tcell + .tcell{border-left:none}
+.tzg-multi .tcell::before{content:"";position:absolute;inset:0;pointer-events:none;background:
+  linear-gradient(to right, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px)),
+  linear-gradient(to bottom, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px));}
+.tzg-multi .tcell span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--hanzi-font);font-size:60px;line-height:1;color:var(--pho)}
+@media (max-width:430px){.tzg-multi .tcell{width:72px;height:72px}.tzg-multi .tcell span{font-size:46px}}
+.tzg{width:140px;height:140px;background:linear-gradient(180deg,#fff,#fdf9f0);border:2.5px solid var(--seal);position:relative;box-shadow:var(--shadow-lg);border-radius:8px}
+.tzg::before,.tzg::after{content:"";position:absolute;inset:0;pointer-events:none}
+.tzg::before{background:
+  linear-gradient(to right, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px)),
+  linear-gradient(to bottom, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px));}
+.tzg::after{background:
+  linear-gradient(45deg, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px)),
+  linear-gradient(-45deg, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px));}
+.tzg .glyph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--hanzi-font);font-size:104px;line-height:1;color:var(--ink);z-index:2}
+.tzg .placeholder{color:#e0d3b8;font-size:74px;font-weight:400}
+/* Preview of currently selected radicals inside the target cell */
+.tzg .preview{position:absolute;left:0;right:0;bottom:6px;display:flex;justify-content:center;align-items:center;gap:6px;z-index:3;font-family:var(--hanzi-font);font-size:22px;color:var(--seal);pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .2s ease, transform .2s ease}
+.tzg .preview.on{opacity:.92;transform:translateY(0)}
+.tzg .preview .plus{font-family:var(--ui-font);font-weight:700;color:var(--ink-dim);font-size:16px}
+/* Selection pulse on the target cell */
+.tzg.pulse{animation:tzgPulse .5s ease}
+@keyframes tzgPulse{0%{box-shadow:var(--shadow-lg)}50%{box-shadow:0 0 0 6px rgba(193,57,43,.22), var(--shadow-lg)}100%{box-shadow:var(--shadow-lg)}}
+/* 3D flip-in reveal for the merged glyph */
+.tzg{perspective:700px}
+.tzg.flipin .glyph{animation:glyphFlip .55s cubic-bezier(.2,1.4,.35,1)}
+.tzg.flipin .cell{animation:glyphFlip .55s cubic-bezier(.2,1.4,.35,1)}
+@keyframes glyphFlip{
+  0%{transform:rotateY(90deg) scale(.6);opacity:0}
+  60%{transform:rotateY(-8deg) scale(1.02);opacity:1}
+  100%{transform:rotateY(0) scale(1);opacity:1}
+}
+/* từ ghép: ô chính nới rộng, chứa nhiều ô 田字格 con, mỗi chữ to như chữ đơn */
+.reveal-wrap.wide{width:auto;height:140px}
+.tzg.multi{width:auto;height:140px;display:flex;gap:0;border:none;background:transparent;box-shadow:none}
+.tzg.multi::before,.tzg.multi::after{display:none}
+.tzg.multi .cell{width:118px;height:140px;background:linear-gradient(180deg,#fff,#fdf9f0);border:2.5px solid var(--seal);position:relative;box-shadow:var(--shadow)}
+.tzg.multi .cell + .cell{border-left:none}
+.tzg.multi .cell::before{content:"";position:absolute;inset:0;pointer-events:none;background:
+  linear-gradient(to right, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px)),
+  linear-gradient(to bottom, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px));}
+.tzg.multi .cell::after{content:"";position:absolute;inset:0;pointer-events:none;background:
+  linear-gradient(45deg, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px)),
+  linear-gradient(-45deg, transparent calc(50% - .5px), var(--grid) calc(50% - .5px), var(--grid) calc(50% + .5px), transparent calc(50% + .5px));}
+.tzg.multi .cell span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--hanzi-font);font-size:88px;line-height:1;color:var(--ink)}
+.tzg.multi.quad .cell{width:96px;height:120px}
+.tzg.multi.quad .cell span{font-size:72px}
+@media (max-width:430px){
+  .tzg.multi .cell{width:88px;height:110px}
+  .tzg.multi .cell span{font-size:64px}
+  .tzg.multi.quad .cell{width:76px;height:96px}
+  .tzg.multi.quad .cell span{font-size:56px}
+  .reveal-wrap.wide,.tzg.multi{height:110px}
+}
+.seal-stamp{position:absolute;right:-14px;bottom:-12px;z-index:3;background:linear-gradient(180deg,var(--seal),var(--seal-deep));color:#fff;font-family:var(--hanzi-font);font-size:19px;padding:5px 10px;border-radius:8px;transform:rotate(-8deg) scale(0);box-shadow:0 4px 12px rgba(150,30,20,.45),inset 0 -2px 0 rgba(0,0,0,.18);font-weight:700}
+.stamped .seal-stamp{animation:stamp .45s cubic-bezier(.2,1.6,.4,1) forwards}
+@keyframes stamp{to{transform:rotate(-8deg) scale(1)}}
+.pop .glyph{animation:pop .5s cubic-bezier(.2,1.8,.4,1)}
+@keyframes pop{0%{transform:scale(.2);opacity:0}100%{transform:scale(1);opacity:1}}
+.shakeit{animation:shk .4s}
+@keyframes shk{20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-5px)}80%{transform:translateX(4px)}}
+.reveal-info{min-height:52px;text-align:center;margin:10px auto 12px;max-width:560px;padding:0 8px}
+.reveal-info .py{font-size:22px;color:var(--seal);font-weight:600;margin-right:10px;letter-spacing:.01em}
+.reveal-info .hv{font-size:15px;color:var(--gold);font-style:italic;margin:0 6px}
+.reveal-info .vi{font-size:16px;color:var(--ink);font-weight:500}
+.reveal-info .idea{font-size:13.5px;color:var(--ink-dim);margin-top:5px;line-height:1.55}
+.comp-oneline{text-align:left;max-width:100%;margin:6px auto 3px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;font-size:13px;line-height:1.45;padding:2px 0}
+.comp-oneline .cap{font-size:12px;color:var(--ink-dim);margin-right:6px}
+.comp-inline{white-space:nowrap}
+.comp-ch{font-family:var(--hanzi-font);font-size:17px}
+.comp-py{color:var(--seal);font-size:11px;margin:0 4px}
+.comp-gl{color:var(--ink-dim);font-size:11px}
+.comp-sep{color:#c4b5a0;margin:0 5px}
+.der-scroll{max-width:100%;margin:0 auto;max-height:140px;overflow-y:auto;-webkit-overflow-scrolling:touch;line-height:1.6}
+.der-chip{display:inline-flex;flex-direction:column;align-items:center;margin:3px 4px;padding:5px 7px;background:#fff;border:1px solid var(--tile-border);border-radius:8px;vertical-align:top;max-width:76px;overflow:hidden}
+.der-chip .hz{font-family:var(--hanzi-font);font-size:20px;line-height:1.1}
+.der-chip .py{color:var(--seal);font-size:10px;margin-top:2px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.der-chip .gl{color:var(--ink-dim);font-size:10px;line-height:1.25;margin-top:2px;text-align:center;max-width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-word}
+.word-scroll{max-width:100%;margin:0 auto;max-height:150px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.word-row{padding:3px 0;border-bottom:1px solid #efe7d8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+.word-row .w{font-family:var(--hanzi-font);font-size:18px;margin-right:6px}
+.word-row .py{color:var(--seal);font-size:12px;margin-right:6px}
+.word-row .m{color:var(--ink-dim);font-size:12px}
+.board{width:100%;max-width:600px;display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:12px;margin:6px 0 18px;padding:14px;background:linear-gradient(180deg,rgba(255,255,255,.5),rgba(255,255,255,.25));border:1px solid var(--tile-border);border-radius:20px;box-shadow:inset 0 1px 0 rgba(255,255,255,.6),var(--shadow-sm)}
+.tile{background:linear-gradient(180deg,#fff,#faf5e8);border:1.5px solid var(--tile-border);border-radius:14px;min-height:108px;padding:8px 5px 6px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--hanzi-font);box-shadow:var(--shadow);transition:transform .15s cubic-bezier(.2,.9,.3,1), border-color .15s, box-shadow .15s, background .15s;position:relative;user-select:none;cursor:pointer}
+.tile .g{font-size:50px;line-height:1.05;font-weight:500}
+.tile .g-wrap{display:flex;flex-direction:column;align-items:center;gap:1px}
+/* Icon 3D nhỏ — chip nổi có chiều sâu */
+.rad-icon.icon3d-real img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none}
+.rad-icon.icon3d{
+  position:relative;display:inline-flex;align-items:center;justify-content:center;
+  border-radius:5px;padding:2px;flex:none;
+  background:linear-gradient(155deg,#fff 0%,#efe7d8 48%,#d5cabb 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.95),
+    inset 0 -1px 0 rgba(80,60,30,.08),
+    0 1.5px 0 #c4b5a0,
+    0 3px 6px rgba(60,40,20,.16);
+  transform:perspective(240px) rotateX(14deg) rotateY(-12deg);
+  transform-style:preserve-3d;
+  color:var(--seal);
+}
+.rad-icon.icon3d::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(135deg,rgba(255,255,255,.45) 0%,transparent 42%,rgba(0,0,0,.06) 100%);
+}
+.rad-icon .icon3d-face{
+  position:relative;z-index:1;display:flex;align-items:center;justify-content:center;
+  width:100%;height:100%;filter:drop-shadow(0 .5px 0 rgba(255,255,255,.6));
+}
+.rad-icon.icon3d svg{width:100%;height:100%;display:block;stroke-width:2.4}
+.rad-icon.icon3d svg path,
+.rad-icon.icon3d svg circle,
+.rad-icon.icon3d svg polygon,
+.rad-icon.icon3d svg polyline,
+.rad-icon.icon3d svg line,
+.rad-icon.icon3d svg rect{fill:currentColor;fill-opacity:.18;stroke:currentColor}
+.rad-icon.tile-ic{width:16px;height:16px;border-radius:4px;padding:1.5px}
+.rad-icon.formula-ic{width:14px;height:14px;border-radius:3px;padding:1px;vertical-align:-2px;margin-right:1px}
+.rad-icon.merge-ic{width:30px;height:30px;border-radius:7px;padding:4px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(80,60,30,.1),0 2px 0 #c4b5a0,0 6px 14px rgba(193,57,43,.28);
+  transform:perspective(320px) rotateX(16deg) rotateY(-14deg) scale(1.05);
+}
+.rad-icon.merge-ic svg{filter:drop-shadow(0 2px 3px rgba(60,40,20,.25))}
+.rad-icon.icon-fallback-glyph{color:#7a6a52;background:linear-gradient(155deg,#faf6ef,#e8ddc9,#d4c4a5)}
+.rad-icon.icon-fallback-glyph .icon3d-face{font-family:var(--hanzi-font);font-weight:600;display:flex;align-items:center;justify-content:center;line-height:1}
+.rad-icon.tile-ic.icon-fallback-glyph .icon3d-face{font-size:11px}
+.rad-icon.formula-ic.icon-fallback-glyph .icon3d-face{font-size:10px}
+.rad-icon.merge-ic.icon-fallback-glyph .icon3d-face{font-size:16px}
+.tile:hover .rad-icon.tile-ic{transform:perspective(240px) rotateX(10deg) rotateY(-8deg) translateY(-1px)}
+/* màu theo loại icon */
+.rad-icon[data-ic="water"],.rad-icon[data-ic="rain"],.rad-icon[data-ic="ice"]{color:#2f6fae;background:linear-gradient(155deg,#f3f8ff,#cfe3f8,#9ec4eb)}
+.rad-icon[data-ic="fire"],.rad-icon[data-ic="bolt"]{color:#c1392b;background:linear-gradient(155deg,#fff5f3,#ffc9bf,#f09585)}
+.rad-icon[data-ic="tree"],.rad-icon[data-ic="plant"],.rad-icon[data-ic="flower"],.rad-icon[data-ic="rice"]{color:#2e7d5b;background:linear-gradient(155deg,#f2fbf6,#c8ead8,#95d4b3)}
+.rad-icon[data-ic="mountain"],.rad-icon[data-ic="rock"]{color:#6b5a45;background:linear-gradient(155deg,#faf6ef,#ddd0bc,#c0ad94)}
+.rad-icon[data-ic="sun"],.rad-icon[data-ic="moon"],.rad-icon[data-ic="star"]{color:#b8860b;background:linear-gradient(155deg,#fffbf0,#f5e4b8,#e6cc7a)}
+.rad-icon[data-ic="coin"],.rad-icon[data-ic="gem"],.rad-icon[data-ic="crown"]{color:#9a7b2f;background:linear-gradient(155deg,#fffdf5,#f0e0a8,#d4bc6a)}
+.rad-icon[data-ic="person"],.rad-icon[data-ic="child"],.rad-icon[data-ic="hand"],.rad-icon[data-ic="foot"]{color:#544d43;background:linear-gradient(155deg,#fff,#ece4d8,#d8cdbf)}
+.rad-icon[data-ic="dog"],.rad-icon[data-ic="cat"],.rad-icon[data-ic="horse"],.rad-icon[data-ic="fish"],.rad-icon[data-ic="bird"],.rad-icon[data-ic="bug"]{color:#7a5230;background:linear-gradient(155deg,#fff8f0,#ecd9c4,#d4b896)}
+.rad-icon[data-ic="home"],.rad-icon[data-ic="door"],.rad-icon[data-ic="car"],.rad-icon[data-ic="boat"],.rad-icon[data-ic="plane"]{color:#3d5a80;background:linear-gradient(155deg,#f4f8fc,#cddaea,#a5bdd8)}
+.rad-icon[data-ic="food"],.rad-icon[data-ic="noodle"],.rad-icon[data-ic="wine"]{color:#a0522d;background:linear-gradient(155deg,#fff7f0,#f5d5bc,#e8b48e)}
+.rad-icon[data-ic="speech"],.rad-icon[data-ic="book"],.rad-icon[data-ic="pen"],.rad-icon[data-ic="music"]{color:#5c4d7a;background:linear-gradient(155deg,#f8f5ff,#ddd2f0,#c0aedf)}
+.rad-icon[data-ic="heart"]{color:#c1392b;background:linear-gradient(155deg,#fff0f0,#ffcaca,#f09595)}
+.rad-icon[data-ic="forbidden"]{color:#888;background:linear-gradient(155deg,#f5f5f5,#ddd,#bbb)}
+.tzg .preview .rad-icon.formula-ic{transform:perspective(200px) rotateX(10deg) rotateY(-8deg);vertical-align:-1px}
+.icon-merge-fx{position:fixed;inset:0;z-index:55;pointer-events:none}
+.icon-merge-piece{position:fixed;transform:translate(-50%,-50%);transition:transform .55s cubic-bezier(.2,1.1,.3,1),opacity .35s ease;z-index:56;filter:drop-shadow(0 8px 16px rgba(60,40,20,.25))}
+.icon-merge-piece.fly{z-index:57}
+.icon-merge-piece.fly .rad-icon.merge-ic{transform:perspective(400px) rotateX(20deg) rotateY(-18deg) scale(1.1)}
+.icon-merge-piece.fuse{opacity:0;transform:translate(-50%,-50%) scale(.15)!important}
+.icon-merge-burst{position:fixed;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:radial-gradient(circle,rgba(193,57,43,.4) 0%,transparent 68%);opacity:0;animation:iconBurst .5s ease forwards;z-index:58}
+@keyframes iconBurst{0%{opacity:1;transform:translate(-50%,-50%) scale(.3)}100%{opacity:0;transform:translate(-50%,-50%) scale(2.2)}}
+.tzg.icon-merge-reveal .glyph,.tzg.icon-merge-reveal .cell span{animation:iconRevealChar .45s cubic-bezier(.2,1.4,.35,1) forwards}
+@keyframes iconRevealChar{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+.tile .n{font-size:10.5px;color:var(--ink-dim);font-family:var(--ui-font);margin-top:4px;text-align:center;padding:0 3px;width:100%;line-height:1.28;font-weight:500;letter-spacing:.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word;hyphens:auto}
+.tile:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:#d4c7a8}
+.tile:active{transform:translateY(-1px)}
+.tile.sel,.tile[aria-pressed="true"]{border-color:var(--seal);background:linear-gradient(180deg,#fff,#fdf0ed);box-shadow:0 0 0 3px rgba(193,57,43,.28), var(--shadow-lg);transform:translateY(-4px)}
+.tile.sel::before{content:"";position:absolute;inset:-2px;border-radius:15px;background:linear-gradient(135deg,rgba(193,57,43,.18),transparent 60%);pointer-events:none;animation:tileSelIn .35s ease}
+@keyframes tileSelIn{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+.tile.made{border-color:var(--jade);background:linear-gradient(180deg,#f4fbf7,#e8f5ee)}
+.tile.made::after{content:"mới";position:absolute;top:-7px;right:-4px;background:linear-gradient(180deg,var(--jade),#256a49);color:#fff;font-size:9px;font-family:var(--ui-font);padding:2px 7px;border-radius:99px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;box-shadow:0 2px 6px rgba(46,125,91,.4)}
+.tile.gone{animation:van .35s forwards}
+@keyframes van{to{transform:scale(.3);opacity:0}}
+.tile.born{animation:brn .4s cubic-bezier(.2,1.6,.4,1)}
+@keyframes brn{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+.ctrl{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;width:100%;max-width:600px;margin:0 auto}
+.btn{border:1.5px solid var(--tile-border);background:linear-gradient(180deg,#fff,#faf5e8);color:var(--ink);border-radius:12px;padding:11px 20px;font-size:14.5px;font-weight:600;box-shadow:var(--shadow);transition:transform .12s, box-shadow .12s, background .12s;letter-spacing:.01em;min-height:44px}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.btn:active{transform:translateY(0)}
+.btn.pri{background:linear-gradient(180deg,var(--seal),var(--seal-deep));border-color:var(--seal-deep);color:#fff;box-shadow:0 6px 16px -4px rgba(193,57,43,.45),inset 0 -2px 0 rgba(0,0,0,.15)}
+.btn.jade{background:linear-gradient(180deg,var(--jade),#215e43);border-color:#215e43;color:#fff;box-shadow:0 6px 16px -4px rgba(46,125,91,.45),inset 0 -2px 0 rgba(0,0,0,.15)}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:var(--shadow-sm)}
+.toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;font-size:13px;padding:10px 20px;border-radius:99px;opacity:0;pointer-events:none;transition:.28s cubic-bezier(.2,.9,.3,1);z-index:50;box-shadow:0 10px 30px -8px rgba(0,0,0,.4);font-weight:500}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.overlay{position:fixed;inset:0;background:rgba(35,28,20,.5);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:16px;z-index:40;animation:fadeIn .25s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.card{background:linear-gradient(180deg,var(--paper),var(--paper-2));border:1px solid var(--tile-border);border-radius:22px;max-width:480px;width:100%;padding:28px 24px;box-shadow:0 30px 80px -20px rgba(40,25,10,.5),0 0 0 1px rgba(255,255,255,.4) inset;text-align:center;max-height:90vh;overflow:auto;animation:cardIn .35s cubic-bezier(.2,1.4,.4,1)}
+@keyframes cardIn{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+.card h2{font-family:var(--brand-font);font-size:25px;margin-bottom:8px;font-weight:700;letter-spacing:.01em}
+.card p{font-size:13.5px;color:var(--ink-dim);margin-bottom:14px;line-height:1.6}
+/* Lưới thẻ "vừa ghép được" trong popup Hoàn thành vòng — 4 thẻ/hàng desktop,
+   2 thẻ/hàng tablet, 1 thẻ/hàng mobile; mọi thẻ cùng kích thước, cao tự co
+   theo nội dung (không space-between), cuộn dọc nếu nhiều hơn khung popup. */
+.learned{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 18px;max-height:min(46vh,340px);overflow-y:auto;padding:2px}
+@media (max-width:700px){.learned{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:430px){.learned{grid-template-columns:1fr}}
+.lchip{background:linear-gradient(180deg,#fff,#faf5e8);border:1px solid var(--tile-border);border-radius:12px;padding:10px 8px;text-align:center;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.lchip .c{font-family:var(--hanzi-font);font-size:34px;display:block;font-weight:500;line-height:1.15}
+.lchip .p{font-size:13px;color:var(--seal);font-weight:600;margin-top:2px}
+.lchip .m{font-size:11.5px;color:var(--ink-dim);margin-top:1px;max-width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-word;line-height:1.3}
+.hidden{display:none !important}
+.small{font-size:12px;color:var(--ink-dim);margin-top:10px}
+/* ===== Component Card: Soft UI + Glassmorphism + Apple HIG + Duolingo ===== */
+.cc-card{
+  position:relative; margin:10px auto 14px; max-width:420px;
+  padding:22px 20px 16px; border-radius:26px;
+  background:linear-gradient(155deg,rgba(255,255,255,.72),rgba(255,255,255,.42));
+  backdrop-filter:blur(18px) saturate(160%); -webkit-backdrop-filter:blur(18px) saturate(160%);
+  border:1px solid rgba(255,255,255,.75);
+  box-shadow:0 1px 0 rgba(255,255,255,.9) inset, 0 -12px 24px -18px rgba(60,40,20,.15) inset,
+             0 14px 32px -14px rgba(60,40,20,.22), 0 3px 8px -2px rgba(60,40,20,.08);
+  animation:ccPop .5s cubic-bezier(.22,1.4,.36,1) both;
+}
+@keyframes ccPop{0%{opacity:0;transform:translateY(10px) scale(.94)}100%{opacity:1;transform:translateY(0) scale(1)}}
+.cc-row{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.cc-chip{
+  width:60px;height:60px;border-radius:20px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(155deg,#ffffff,var(--paper-2));
+  box-shadow:2px 3px 6px rgba(60,40,20,.14), -3px -3px 7px rgba(255,255,255,.9), inset 0 0 0 1px rgba(255,255,255,.5);
+  font-family:var(--hanzi-font); font-size:26px; color:var(--ink); position:relative;
+}
+.cc-chip img,.cc-chip .icon3d-face{width:34px;height:34px}
+.cc-chip .cc-sub{position:absolute;bottom:-18px;left:0;right:0;text-align:center;font-family:var(--ui-font);font-size:10.5px;color:var(--ink-dim);font-weight:600;white-space:nowrap}
+.cc-op{
+  font-family:var(--ui-font); font-weight:800; font-size:15px; color:#fff;
+  background:var(--jade); width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 3px 8px -1px rgba(46,125,91,.45), 0 1px 0 rgba(255,255,255,.4) inset;
+}
+.cc-op.cc-eq{background:var(--seal);box-shadow:0 3px 8px -1px rgba(193,57,43,.45), 0 1px 0 rgba(255,255,255,.4) inset}
+.cc-result{
+  width:74px;height:74px;border-radius:22px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(155deg,#fffdf7,#fff);
+  font-family:var(--hanzi-font);font-size:40px;font-weight:600;color:var(--ink);
+  box-shadow:0 4px 10px rgba(60,40,20,.16), -3px -3px 8px rgba(255,255,255,.95), inset 0 0 0 1.5px rgba(46,125,91,.35);
+  flex-shrink:0;
+}
+.cc-caption{
+  margin-top:26px; padding-top:12px; border-top:1px solid rgba(60,40,20,.08);
+  display:flex; align-items:baseline; justify-content:center; gap:8px; flex-wrap:wrap;
+  font-family:var(--ui-font); font-size:14px; color:var(--ink-dim);
+}
+.cc-caption b{color:var(--ink);font-weight:700}
+.cc-caption .cc-py{color:var(--jade);font-weight:700}
+/* Biến thể THÀNH NGỮ (nhiều chip hơn, không "=" / kết quả) — luôn một hàng,
+   không bao giờ để bộ cuối rớt xuống dòng riêng; hết chỗ thì cuộn ngang. */
+.cc-card.cc-idiom{max-width:480px}
+.cc-card.cc-idiom .cc-row{flex-wrap:nowrap;justify-content:flex-start;gap:8px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+.cc-card.cc-idiom .cc-chip{width:52px;height:52px;border-radius:16px;flex:0 0 auto}
+.cc-card.cc-idiom .cc-chip .cc-sub{font-size:9.5px}
+.cc-card.cc-idiom .cc-op{width:24px;height:24px;font-size:14px;flex:0 0 auto}
+@media (max-width:480px){
+  .cc-card.cc-idiom .cc-chip{width:46px;height:46px;border-radius:14px}
+  .cc-card.cc-idiom .cc-chip .cc-sub{font-size:9px}
+  .cc-card.cc-idiom .cc-op{width:20px;height:20px;font-size:12px}
+}
+.formula{font-family:var(--hanzi-font);font-size:26px;margin:6px 0 12px;font-weight:500}
+.formula .plus{color:var(--seal);font-family:var(--ui-font);font-weight:700;margin:0 7px;font-size:22px}
+.formula .sem{color:var(--sem)}
+.formula .pho{color:var(--pho)}
+.legend{font-size:11.5px;color:var(--ink-dim);margin-top:4px;letter-spacing:.02em}
+.legend .sem, .legend .pho{font-weight:700}
+.legend .sem{color:var(--sem)} .legend .pho{color:var(--pho)}
+.tile.sem-role{border-color:var(--sem);box-shadow:0 0 0 2px rgba(46,125,91,.18), var(--shadow)}
+.tile.pho-role{border-color:var(--pho);box-shadow:0 0 0 2px rgba(47,111,174,.18), var(--shadow)}
+.lvl-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}
+@media (max-width:700px){.lvl-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:430px){.lvl-grid{grid-template-columns:1fr}}
+.lvl-btn{border:1.5px solid var(--tile-border);background:linear-gradient(180deg,#fff,#faf5e8);border-radius:14px;padding:14px 8px;box-shadow:var(--shadow);transition:transform .12s, box-shadow .12s, border-color .12s;cursor:pointer}
+.lvl-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--seal)}
+.lvl-btn b{display:block;font-size:18px;font-family:var(--brand-font);font-weight:700;margin-bottom:2px}
+.lvl-btn span{font-size:11px;color:var(--ink-dim);font-weight:500}
+.err{color:var(--seal-deep);font-size:13px;line-height:1.6;text-align:left;background:#fff;border:1px solid var(--tile-border);border-radius:12px;padding:14px}
+code{background:#efe7d0;border-radius:5px;padding:2px 7px;font-size:12px;font-family:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
+/* ============ Onboarding tour ============ */
+.tour{position:fixed;inset:0;z-index:60;pointer-events:none}
+.tour.on{pointer-events:auto}
+.tour-mask{position:fixed;background:rgba(20,15,8,.55);transition:all .3s cubic-bezier(.2,.9,.3,1);pointer-events:auto}
+.tour-ring{position:fixed;border-radius:16px;box-shadow:0 0 0 3px var(--seal), 0 0 0 6px rgba(193,57,43,.25), 0 0 40px rgba(193,57,43,.35);transition:all .35s cubic-bezier(.2,.9,.3,1);pointer-events:none;animation:ringPulse 1.8s ease-in-out infinite}
+@keyframes ringPulse{50%{box-shadow:0 0 0 3px var(--seal), 0 0 0 10px rgba(193,57,43,.15), 0 0 50px rgba(193,57,43,.5)}}
+.tour-card{position:fixed;background:linear-gradient(180deg,#fff,#fbf7ee);border:1px solid var(--tile-border);border-radius:16px;padding:16px 18px;box-shadow:0 20px 50px -12px rgba(0,0,0,.35);max-width:320px;width:calc(100vw - 32px);pointer-events:auto;transition:top .35s cubic-bezier(.2,.9,.3,1),left .35s cubic-bezier(.2,.9,.3,1)}
+.tour-card h3{font-family:var(--brand-font);font-size:17px;font-weight:700;margin-bottom:6px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.tour-card h3 .num{background:var(--seal);color:#fff;font-family:var(--ui-font);font-size:11px;padding:2px 8px;border-radius:99px;font-weight:700}
+.tour-card p{font-size:13.5px;line-height:1.55;color:var(--ink);margin-bottom:12px}
+.tour-card kbd{display:inline-block;background:#efe7d0;border:1px solid var(--tile-border);border-bottom-width:2px;border-radius:5px;padding:1px 6px;font-size:11px;font-family:ui-monospace,monospace;color:var(--ink);margin:0 2px}
+.tour-actions{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.tour-actions .dots{display:flex;gap:5px}
+.tour-actions .dots i{width:6px;height:6px;border-radius:99px;background:var(--tile-border);display:block}
+.tour-actions .dots i.on{background:var(--seal);width:16px}
+.tour-actions .btns{display:flex;gap:8px}
+.tour-btn{border:1px solid var(--tile-border);background:#fff;color:var(--ink);border-radius:9px;padding:7px 14px;font-size:13px;font-weight:600;cursor:pointer;transition:transform .1s,background .12s}
+.tour-btn:hover{transform:translateY(-1px)}
+.tour-btn.pri{background:linear-gradient(180deg,var(--seal),var(--seal-deep));border-color:var(--seal-deep);color:#fff}
+.tour-btn.ghost{background:transparent;border-color:transparent;color:var(--ink-dim)}
+/* ============ A11y toggles / display options ============ */
+body.motion-reduce *{animation:none !important;transition:none !important}
+body.high-contrast{--ink:#000;--ink-dim:#1a1610;--tile-border:#8a7a5c;--paper:#fff;--paper-2:#f4ecdb}
+body.high-contrast .tile{border-width:2px}
+body.high-contrast .btn{border-width:2px}
+body.high-contrast .prog i{background:#000}
+body.big-tiles .tile .g{font-size:60px}
+body.big-tiles .tile .n{font-size:12.5px}
+body.big-tiles .board{grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:14px}
+body.big-tiles .btn{font-size:16px;padding:13px 22px}
+/* Accessibility overlay */
+.a11y-table{width:100%;text-align:left;border-collapse:collapse;margin:8px 0 14px}
+.a11y-table th,.a11y-table td{padding:7px 8px;border-bottom:1px solid var(--tile-border);font-size:13px;vertical-align:top}
+.a11y-table th{color:var(--ink-dim);font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;background:rgba(0,0,0,.02)}
+.a11y-table td kbd{background:#efe7d0;border:1px solid var(--tile-border);border-bottom-width:2px;border-radius:5px;padding:1px 7px;font-size:11.5px;font-family:ui-monospace,monospace;color:var(--ink);margin-right:3px;display:inline-block}
+.a11y-section{text-align:left;margin:14px 0 4px;font-size:11px;font-weight:700;color:var(--ink-dim);text-transform:uppercase;letter-spacing:.1em}
+.a11y-toggles{display:flex;flex-direction:column;gap:8px;text-align:left;margin:8px 0 14px}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1px solid var(--tile-border);border-radius:12px;background:#fff;gap:10px}
+.toggle-row .tt{font-size:13.5px;color:var(--ink);font-weight:600}
+.toggle-row .ss{font-size:11.5px;color:var(--ink-dim);margin-top:2px;font-weight:500}
+.toggle-row input[type=checkbox]{width:20px;height:20px;accent-color:var(--seal);cursor:pointer;flex:none}
+.a11y-tip{font-size:11.5px;color:var(--ink-dim);text-align:left;line-height:1.55;background:#fff;border:1px dashed var(--tile-border);padding:10px 12px;border-radius:10px;margin-top:8px}
+@media (max-width:430px){
+  body{padding:10px 10px calc(96px + env(safe-area-inset-bottom))}
+  .tile .g{font-size:40px}
+  .tile .n{font-size:10px;line-height:1.25;-webkit-line-clamp:4}
+  .board{grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:8px;padding:10px;border-radius:16px}
+  .hd{padding:8px 10px;gap:8px;top:6px;border-radius:14px;flex-wrap:nowrap}
+  .hd h1{font-size:18px;gap:6px;min-width:0}
+  .hd h1 .seal-dot{width:28px;height:28px;font-size:16px}
+  .stats{gap:6px;flex:0 0 auto}
+  .stat{min-width:46px;padding:4px 8px 5px}
+  .stats b{font-size:14px}
+  .help-btn{width:40px;height:40px;font-size:18px}
+  .round-bar{margin-bottom:10px;font-size:12px;padding:0 4px}
+  .prog{margin:0 10px}
+  .reveal-row{gap:10px}
+  .reveal-info{margin:8px auto 10px;min-height:44px}
+  .reveal-info .py{font-size:19px}
+  .reveal-info .vi{font-size:14px}
+  .ctrl{position:fixed;left:0;right:0;bottom:0;z-index:30;gap:8px;padding:10px 10px calc(10px + env(safe-area-inset-bottom));background:color-mix(in oklab,var(--paper) 92%, transparent);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-top:1px solid var(--tile-border);box-shadow:0 -6px 20px -8px rgba(40,25,10,.25);flex-wrap:nowrap;max-width:100%}
+  .ctrl .btn{flex:1 1 0;min-width:0;padding:12px 8px;font-size:13.5px;min-height:48px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .toast{bottom:calc(84px + env(safe-area-inset-bottom))}
+  .tour-card{max-width:calc(100vw - 24px)}
+  .card{padding:22px 18px;border-radius:18px;max-height:calc(100dvh - 32px)}
+  .card h2{font-size:22px}
+}
+@media (max-width:360px){
+  .tile .g{font-size:36px}
+  .board{grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:7px}
+  .ctrl .btn{font-size:12.5px;padding:12px 4px}
+  .hd h1{font-size:16px}
+  .stat{min-width:40px;padding:3px 6px 4px}
+  .tzg.multi.quad .cell{width:64px;height:82px}
+  .tzg.multi.quad .cell span{font-size:46px}
+}
+</style>
+</head>
+<body>
+
+<a href="#board" class="skip-link">Bỏ qua tới bàn ghép</a>
+<span id="boardHelp" class="sr-only">Bàn ghép có nhiều ô bộ thủ. Dùng phím mũi tên để di chuyển giữa các ô, Enter hoặc Space để chọn, Escape để bỏ chọn. Chọn hai ô để thử ghép thành chữ đích.</span>
+<span id="tzgHelp" class="sr-only">Ô 田字格 hiển thị chữ Hán bạn cần ghép được. Khi bạn chọn bộ thủ ở bàn, chúng sẽ hiện thu nhỏ tại đây trước khi ghép.</span>
+
+<header class="hd" role="banner">
+  <h1><span class="seal-dot" aria-hidden="true">拼</span>Ghép Chữ · Icon</h1>
+  <div class="stats" role="group" aria-label="Điểm và chuỗi">
+    <div class="stat"><span class="lbl" id="scoreLbl">Điểm</span><b id="score" aria-labelledby="scoreLbl score" aria-live="polite">0</b></div>
+    <div class="stat"><span class="lbl" id="streakLbl">Chuỗi</span><b id="streak" aria-labelledby="streakLbl streak" aria-live="polite">0</b></div>
+    <button id="helpBtn" class="help-btn" type="button" aria-label="Mở hướng dẫn chơi (phím tắt: dấu hỏi)" title="Hướng dẫn (?)"><span aria-hidden="true">?</span></button>
+    <button id="a11yBtn" class="help-btn" type="button" aria-label="Mở trợ năng, phím tắt và tùy chọn hiển thị (phím tắt: A)" title="Trợ năng (A)"><span aria-hidden="true">♿</span></button>
+  </div>
+</header>
+
+<main id="main" role="main" aria-label="Trò chơi ghép chữ">
+
+<div class="round-bar">
+  <span class="rname" id="roundName" aria-live="polite">—</span>
+  <div class="prog" role="progressbar" id="progBar" aria-label="Tiến độ vòng" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="prog" style="width:0%"></i></div>
+  <span id="roundCount" aria-label="Số cặp đã ghép trên tổng">0/0</span>
+</div>
+
+<div class="reveal-row">
+  <div role="group" aria-labelledby="mainCap" aria-describedby="tzgHelp">
+    <div class="reveal-wrap">
+      <div class="tzg" id="tzg" tabindex="-1">
+        <div class="glyph placeholder" id="glyph" aria-live="polite" aria-atomic="true">？</div>
+        <div class="preview" id="tzgPreview" aria-hidden="true"></div>
+        <div class="seal-stamp">正</div>
+      </div>
+    </div>
+    <div class="reveal-cap" id="mainCap">giản thể</div>
+  </div>
+  <div id="tradBox" class="hidden">
+    <div class="trad-wrap" id="tradWrap">
+      <div class="tzg-multi" id="tradCells"></div>
+    </div>
+    <div class="reveal-cap" id="tradCap">phồn thể (繁)</div>
+  </div>
+</div>
+<div class="reveal-info" id="revealInfo" aria-live="polite" aria-atomic="false"></div>
+
+<div class="board" id="board" role="grid" aria-label="Bàn ghép bộ kiện" aria-describedby="boardHelp" tabindex="-1"></div>
+
+<div class="ctrl" role="group" aria-label="Điều khiển ván chơi">
+  <button class="btn" id="hintBtn" aria-keyshortcuts="H" aria-label="Xem gợi ý, trừ 15 điểm. Phím tắt: H">💡 Gợi ý (−15đ)</button>
+  <button class="btn" id="skipBtn" aria-keyshortcuts="S" aria-label="Chuyển vòng khác. Phím tắt: S">Vòng khác ↻</button>
+  <button class="btn" id="lvlBtn" aria-keyshortcuts="L" aria-label="Đổi cấp độ và chế độ chơi. Phím tắt: L">Đổi cấp độ</button>
+</div>
+
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Onboarding tour -->
+<div class="tour hidden" id="tourRoot" role="dialog" aria-modal="true" aria-labelledby="tourTitle" aria-describedby="tourBody">
+  <div class="tour-mask" id="tourMask"></div>
+  <div class="tour-ring" id="tourRing" aria-hidden="true"></div>
+  <div class="tour-card" id="tourCard">
+    <h3 id="tourTitle"><span class="num" id="tourNum">1/5</span><span id="tourHead">Cách chơi</span></h3>
+    <p id="tourBody">…</p>
+    <div class="tour-actions">
+      <div class="dots" id="tourDots"></div>
+      <div class="btns">
+        <button type="button" class="tour-btn ghost" id="tourSkip">Bỏ qua</button>
+        <button type="button" class="tour-btn" id="tourPrev">← Trước</button>
+        <button type="button" class="tour-btn pri" id="tourNext">Tiếp →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- loading / error -->
+<div class="overlay" id="loadOv">
+  <div class="card">
+    <h2>拼字 · Ghép bộ thủ thành chữ</h2>
+    <p id="loadMsg">Đang nạp dữ liệu chữ Hán (dictionary.txt)…</p>
+    <div id="loadErr" class="err hidden"></div>
+  </div>
+</div>
+
+<!-- level select -->
+<div class="overlay hidden" id="lvlOv">
+  <div class="card">
+    <h2>Chọn chế độ & cấp độ</h2>
+    <div class="ctrl" id="modeBox" style="margin-bottom:12px"></div>
+    <p>Xếp theo độ khó HSK. Trong mỗi cấp, mục dễ ra trước.</p>
+    <div class="lvl-grid" id="lvlGrid"></div>
+    <p class="small" id="dataStat"></p>
+  </div>
+</div>
+
+<!-- round summary -->
+<div class="overlay hidden" id="sumOv">
+  <div class="card">
+    <h2 id="sumTitle">Hoàn thành vòng!</h2>
+    <p id="sumSub"></p>
+    <div class="learned" id="sumChars"></div>
+    <button class="btn jade" id="nextBtn" style="font-size:15px;padding:11px 26px">Vòng tiếp theo →</button>
+  </div>
+</div>
+
+<!-- accessibility & help center -->
+<div class="overlay hidden" id="a11yOv" role="dialog" aria-modal="true" aria-labelledby="a11yTitle">
+  <div class="card" style="max-width:520px;text-align:left">
+    <h2 id="a11yTitle" style="text-align:center">♿ Trợ năng &amp; Hướng dẫn</h2>
+    <p style="text-align:center">Phím tắt, cách chơi và tùy chọn hiển thị.</p>
+
+    <div class="a11y-section">Cách chơi ngắn gọn</div>
+    <ol style="padding-left:20px;font-size:13.5px;line-height:1.65;color:var(--ink)">
+      <li>Xem chữ Hán trong ô 田字格 phía trên — đó là <b>chữ đích</b>.</li>
+      <li>Ở bàn ghép, chọn <b>2 bộ thủ</b> có thể ghép thành chữ đích.</li>
+      <li>Ghép đúng: được điểm, có thể ghép chuỗi để nhân đôi.</li>
+      <li>Bí quá thì bấm <b>💡 Gợi ý</b> (trừ 15 điểm) hoặc đổi vòng.</li>
+    </ol>
+
+    <div class="a11y-section">Phím tắt</div>
+    <table class="a11y-table" aria-label="Danh sách phím tắt">
+      <thead><tr><th style="width:38%">Phím</th><th>Chức năng</th></tr></thead>
+      <tbody>
+        <tr><td><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd></td><td>Di chuyển giữa các ô bộ thủ</td></tr>
+        <tr><td><kbd>Home</kbd> / <kbd>End</kbd></td><td>Ô đầu / ô cuối trong bàn</td></tr>
+        <tr><td><kbd>Enter</kbd> / <kbd>Space</kbd></td><td>Chọn ô đang focus</td></tr>
+        <tr><td><kbd>Esc</kbd></td><td>Bỏ chọn / đóng hộp thoại</td></tr>
+        <tr><td><kbd>H</kbd></td><td>Xem gợi ý (−15 điểm)</td></tr>
+        <tr><td><kbd>S</kbd></td><td>Đổi vòng khác</td></tr>
+        <tr><td><kbd>L</kbd></td><td>Đổi cấp độ / chế độ</td></tr>
+        <tr><td><kbd>?</kbd></td><td>Mở tour hướng dẫn</td></tr>
+        <tr><td><kbd>A</kbd></td><td>Mở trang trợ năng này</td></tr>
+      </tbody>
+    </table>
+
+    <div class="a11y-section">Tùy chọn hiển thị</div>
+    <div class="a11y-toggles">
+      <label class="toggle-row">
+        <span><span class="tt">Giảm chuyển động</span><br><span class="ss">Tắt animation, phù hợp khi say hình hoặc dùng trình đọc màn hình.</span></span>
+        <input type="checkbox" id="tglMotion" aria-label="Bật/tắt giảm chuyển động">
+      </label>
+      <label class="toggle-row">
+        <span><span class="tt">Tương phản cao</span><br><span class="ss">Chữ đậm, viền rõ, nền trắng — dễ đọc hơn.</span></span>
+        <input type="checkbox" id="tglContrast" aria-label="Bật/tắt tương phản cao">
+      </label>
+      <label class="toggle-row">
+        <span><span class="tt">Ô chữ lớn</span><br><span class="ss">Phóng to bộ thủ trong bàn ghép.</span></span>
+        <input type="checkbox" id="tglBig" aria-label="Bật/tắt ô chữ lớn">
+      </label>
+    </div>
+
+    <div class="a11y-section">Ván chơi đã lưu</div>
+    <p class="a11y-tip" id="saveInfo">Tự động lưu điểm, chuỗi và tiến độ vòng. Tải lại trang sẽ khôi phục ván này.</p>
+
+    <div class="ctrl" style="margin-top:14px">
+      <button class="btn" id="a11yResetBtn" type="button">🗑 Xoá ván đã lưu</button>
+      <button class="btn pri" id="a11yCloseBtn" type="button">Đóng</button>
+    </div>
+  </div>
+</div>
+
+<script>
+"use strict";
+/* ---- Pinyin: chuyển dạng số (da3) sang dấu thanh (dǎ) ---- */
+const TONE_MAP = {
+  a:["ā","á","ǎ","à","a"], e:["ē","é","ě","è","e"], i:["ī","í","ǐ","ì","i"],
+  o:["ō","ó","ǒ","ò","o"], u:["ū","ú","ǔ","ù","u"], "ü":["ǖ","ǘ","ǚ","ǜ","ü"],
+  A:["Ā","Á","Ǎ","À","A"], E:["Ē","É","Ě","È","E"], O:["Ō","Ó","Ǒ","Ò","O"]
+};
+function toneOne(syl){
+  const m = syl.match(/^([a-zA-ZüÜ:]+?)([1-5])$/);
+  if(!m) return syl.replace(/u:/g,"ü").replace(/v/g,"ü");
+  let base = m[1].replace(/u:/g,"ü").replace(/v/g,"ü");
+  const tone = +m[2];
+  if(tone===5 || tone===0) return base;
+  const lower = base.toLowerCase(); let idx=-1;
+  if(lower.includes("a")) idx=lower.indexOf("a");
+  else if(lower.includes("e")) idx=lower.indexOf("e");
+  else if(lower.includes("ou")) idx=lower.indexOf("o");
+  else{ for(let i=base.length-1;i>=0;i--){ if("aeiouü".includes(lower[i])){ idx=i; break; } } }
+  if(idx<0) return base;
+  const ch = base[idx];
+  const rep = TONE_MAP[ch] ? TONE_MAP[ch][tone-1] : ch;
+  return base.slice(0,idx)+rep+base.slice(idx+1);
+}
+function pinyinTone(s){
+  if(!s) return "";
+  return String(s).split(/[\s,]+/).filter(Boolean).map(toneOne).join(" ");
+}
+/* =====================================================================
+   GHÉP CHỮ v2 — dữ liệu sinh tự động từ TOÀN BỘ Make Me a Hanzi
+   - Đọc ./dictionary.txt (đặt cùng thư mục; chạy qua local server)
+   - Đọc ./hsk.txt nếu có (mỗi dòng: <chữ><space/tab><cấp 1-6>) để thay
+     bảng HSK nhúng sẵn bằng bảng chính xác của bạn.
+   - Combo = chữ có decomposition IDS 2 thành phần (⿰⿱⿴…), cả 2 thành
+     phần hiển thị được. Vòng chơi sinh động: 4 combo/vòng, ưu tiên chuỗi,
+     không cặp mơ hồ trong cùng vòng.
+===================================================================== */
+
+/* ---- Tên bộ thủ biến thể thường gặp (để chú thích thẻ) ---- */
+const RADICAL_NAME = {
+  "亻":"nhân đứng · người","氵":"thủy · nước","扌":"thủ · tay","讠":"ngôn · lời",
+  "忄":"tâm đứng","艹":"thảo · cỏ","宀":"miên · mái nhà","辶":"sước · đi",
+  "阝":"phụ/ấp","犭":"khuyển · chó","饣":"thực · ăn","纟":"mịch · tơ",
+  "钅":"kim · kim loại","衤":"y · áo","礻":"thị/kỳ","冫":"băng · lạnh",
+  "刂":"đao · dao","灬":"hỏa · lửa","攵":"phốc","彳":"xích","廴":"dẫn",
+  "尢":"uông","彡":"sam","夂":"truy","匕":"chuỷ · thìa","勹":"bao",
+  "亠":"đầu","冖":"mịch","凵":"khảm","匚":"phương","卩":"tiết","厂":"hán",
+  "厶":"khư","囗":"vi · vây","巛":"xuyên","幺":"yêu","广":"nghiễm",
+  "廾":"củng","弋":"dặc","彐":"kệ","戈":"qua · giáo","户":"hộ · cửa",
+  "斤":"cân · rìu","无":"vô","曰":"viết","歹":"đãi","殳":"thù","毋":"vô",
+  "疒":"nạch · bệnh","癶":"bát","禸":"nhựu","糸":"mịch","缶":"phữu",
+  "网":"võng · lưới","罒":"võng","耒":"lỗi","聿":"duật","肀":"duật",
+  "臼":"cữu","舛":"suyễn","艮":"cấn","虍":"hô · hổ","衣":"y · áo",
+  "西":"tây","覀":"á","豸":"trãi","釆":"biện","隹":"chuy · chim","飞":"phi · bay",
+  "口":"khẩu · miệng","日":"nhật · mặt trời","月":"nguyệt · trăng",
+  "木":"mộc · cây","水":"thủy · nước","火":"hỏa · lửa","土":"thổ · đất",
+  "金":"kim · vàng","山":"sơn · núi","石":"thạch · đá","田":"điền · ruộng",
+  "人":"nhân · người","女":"nữ · phụ nữ","子":"tử · con","心":"tâm · tim",
+  "手":"thủ · tay","目":"mục · mắt","耳":"nhĩ · tai","足":"túc · chân",
+  "马":"mã · ngựa","鸟":"điểu · chim","鱼":"ngư · cá","虫":"trùng · sâu",
+  "米":"mễ · gạo","禾":"hòa · lúa","竹":"trúc · tre","雨":"vũ · mưa",
+  "车":"xa · xe","门":"môn · cửa","力":"lực · sức","刀":"đao · dao",
+  "大":"đại · to","小":"tiểu · nhỏ","一":"nhất · một","十":"thập · mười"
+};
+
+/* ---- Emoji gắn với bộ thủ / thành phần thường gặp ---- */
+const RADICAL_EMOJI = {
+  "口":"👄","日":"☀️","月":"🌙","木":"🌳","林":"🌲","森":"🌳",
+  "水":"💧","氵":"💧","氺":"💧","火":"🔥","灬":"🔥","炎":"🔥",
+  "土":"🏔️","士":"🎓","山":"⛰️","石":"🪨","田":"🌾","禾":"🌾",
+  "米":"🍚","竹":"🎋","艹":"🌿","草":"🌿","花":"🌸","果":"🍎",
+  "叶":"🍃","谷":"🌾","豆":"🫘","瓜":"🍈","麦":"🌾","黍":"🌾",
+  "朩":"🌳","人":"🧍","亻":"🧍","儿":"🧒","女":"👩","子":"👶",
+  "心":"❤️","忄":"❤️","手":"✋","扌":"✋","足":"🦶","目":"👁️",
+  "耳":"👂","舌":"👅","牙":"🦷","自":"👃","鼻":"👃","面":"😀",
+  "首":"🙂","頁":"🙂","页":"🙂","身":"🧘","骨":"🦴","血":"🩸",
+  "肉":"🥩","月肉":"🥩","毛":"🪶","皮":"🫳","老":"👴","父":"👨",
+  "母":"👩‍🍼","夫":"🤵","立":"🧍","走":"🏃","辶":"🏃","彳":"🚶",
+  "止":"🛑","疋":"🦵","尸":"🛌","匕":"🥄","马":"🐴","牛":"🐮",
+  "羊":"🐑","犬":"🐕","犭":"🐕","鸟":"🐦","隹":"🐦","鱼":"🐟",
+  "虫":"🐛","豕":"🐷","豸":"🐆","鹿":"🦌","虎":"🐯","龙":"🐉",
+  "龍":"🐉","兔":"🐇","猫":"🐱","羽":"🪶","角":"🐮","龟":"🐢",
+  "黾":"🐸","雨":"🌧️","雪":"❄️","风":"💨","風":"💨","云":"☁️",
+  "電":"⚡","电":"⚡","冫":"🧊","冰":"🧊","气":"💨","星":"⭐",
+  "门":"🚪","門":"🚪","户":"🚪","宀":"🏠","广":"🏛️","厂":"🏭",
+  "穴":"🕳️","囗":"⬜","国":"🌏","城":"🏰","邑":"🏘️","阝":"🏘️",
+  "里":"🏘️","车":"🛠️","車":"🚗","舟":"⛵","船":"🚢","飞":"✈️",
+  "行":"🚶","金":"🪙","钅":"🪙","贝":"🐚","玉":"💎","王":"👑",
+  "衣":"👕","衤":"👕","巾":"🧣","纟":"🧵","糸":"🧵","丝":"🧵",
+  "革":"🧵","韦":"🧵","刀":"🔪","刂":"🔪","弓":"🏹","矢":"🏹",
+  "戈":"⚔️","斤":"🪓","力":"💪","工":"🔨","皿":"🍽️","酉":"🍶",
+  "食":"🍜","饣":"🍜","缶":"🏺","井":"🕳️","言":"💬","讠":"💬",
+  "文":"📜","书":"📖","笔":"🖊️","音":"🎵","一":"1️⃣","二":"2️⃣",
+  "三":"3️⃣","四":"4️⃣","五":"5️⃣","十":"🔟","大":"🙆","小":"🤏",
+  "少":"🤏","多":"🙌","高":"📏","长":"📏","生":"🌱","死":"💀",
+  "病":"🤒","疒":"🤒","幺":"🧶","方":"🧭","示":"🙏","礻":"🙏",
+  "神":"🙏","鬼":"👻","巫":"🔮","占":"🔮","不":"🚫","上":"⬆️",
+  "下":"⬇️","中":"🎯","内":"📥","外":"📤","左":"⬅️","右":"➡️",
+  "攵":"✍️","尢":"🦯","彡":"〰️","夂":"🍂","勹":"📦","亠":"🔺",
+  "冖":"🎩","凵":"🫙","匚":"📥","卩":"🔖","厶":"〰️","巛":"🌊",
+  "廾":"🤲","弋":"🎯","彐":"📐","歹":"☠️","殳":"🪃","毋":"🚫",
+  "癶":"👣","禸":"🐾","罒":"🕸️","耒":"🚜","聿":"🖋️","肀":"⬆️",
+  "臼":"🫕","舛":"🔀","艮":"⛰️","虍":"🐅","西":"🌇","覀":"🌇",
+  "釆":"🎨","⺈":"🔪","⺀":"🧊","⺊":"➕","⺗":"💭","⺳":"🎩",
+  "⺧":"🐂","⺼":"🥓","夊":"🚶","尣":"🦯","廴":"🛤️","⻊":"🦶",
+  "⻖":"🏘️","⻏":"🏙️","⻍":"🚶","⻌":"🏃","齐":"🎋","齊":"🎋",
+  "齿":"🦷","齒":"🦷","见":"👀","見":"👀","貝":"💰","赤":"🔴",
+  "青":"🟢","黄":"🟡","黃":"🟡","黑":"⚫","白":"⚪","朱":"🔴",
+  "麻":"🧶","非":"❌","韋":"🧥","韭":"🌿","香":"🌸","馬":"🐎",
+  "魚":"🐠","鳥":"🐤","卤":"🧂","鹵":"🧂","麥":"🌾","黹":"🪡",
+  "黽":"🐢","鼎":"🍲","鼓":"🥁","鼠":"🐭","龜":"🐢","丨":"📏",
+  "丶":"⚫","丿":"↗️","乙":"🔄","亅":"🪝","入":"📥","八":"8️⃣",
+  "冂":"⌒","几":"🪑","匸":"⊐","卜":"🔮","又":"✌️","夕":"🌆",
+  "寸":"📐","屮":"🌱","己":"🪞","干":"🪵","支":"🌿","攴":"✊",
+  "斗":"🪣","无":"🈚","曰":"💬","欠":"😮","比":"⚖️","氏":"👪",
+  "爪":"🦅","爻":"☯️","爿":"🛏️","片":"📋","玄":"🔮","瓦":"🧱",
+  "甘":"🍬","用":"🔧","矛":"🔱","网":"🕸️","而":"〰️","臣":"🤵",
+  "至":"⬇️","色":"🎨","艸":"🌸","襾":"🌅","辛":"🧂","辰":"🐉",
+  "辵":"🚶","阜":"⛰️","隶":"📝","髟":"💇","鬥":"🥊","鬯":"🍶",
+  "鬲":"🍲","龠":"🎵","者":"🧑","爫":"🐾","巴":"🐍","川":"🏞️",
+  "㔾":"🧎","巳":"🐍","⺌":"🤏","民":"👥","卷":"📜"
+};
+/* strict=true: CHỈ nhận emoji khớp trực tiếp với chính glyph này (bảng thủ
+   công RADICAL_EMOJI/VARIANT) — dùng cho THÀNH NGỮ/TỪ VỰNG, nơi `g` là một
+   CHỮ HOÀN CHỈNH chứ không phải bộ thủ/thành phần. Bỏ qua các tầng suy đoán
+   theo `radical`/gợi ý tên (chỉ hợp lý khi `g` là một thành phần cấu tạo),
+   nếu không chữ như 七 (không có emoji riêng) sẽ "mượn" nhầm emoji của bộ
+   拆 ra (một 一 → 1️⃣) và hiện icon vô nghĩa. */
+function emojiOf(g, strict){
+  if(RADICAL_EMOJI[g]) return RADICAL_EMOJI[g];
+  if(typeof VARIANT !== "undefined" && VARIANT[g] && RADICAL_EMOJI[VARIANT[g]])
+    return RADICAL_EMOJI[VARIANT[g]];
+  if(strict) return "";
+  const e = DICT.get(g);
+  if(e && e.radical && RADICAL_EMOJI[e.radical]) return RADICAL_EMOJI[e.radical];
+  if(RADICAL_NAME[g]){
+    const hint = RADICAL_NAME[g].split(" · ").pop();
+    if(hint.includes("nước")||hint.includes("thủy")) return "💧";
+    if(hint.includes("lửa")||hint.includes("hỏa")) return "🔥";
+    if(hint.includes("người")||hint.includes("nhân")) return "🧍";
+    if(hint.includes("tay")||hint.includes("thủ")) return "✋";
+    if(hint.includes("chó")||hint.includes("khuyển")) return "🐕";
+    if(hint.includes("chim")) return "🐦";
+    if(hint.includes("cá")||hint.includes("ngư")) return "🐟";
+    if(hint.includes("cây")||hint.includes("mộc")) return "🌳";
+    if(hint.includes("miệng")||hint.includes("khẩu")) return "👄";
+    if(hint.includes("lời")||hint.includes("ngôn")) return "💬";
+    if(hint.includes("mặt trời")||hint.includes("nhật")) return "☀️";
+    if(hint.includes("trăng")||hint.includes("nguyệt")) return "🌙";
+    if(hint.includes("ruộng")||hint.includes("điền")) return "🌾";
+    if(hint.includes("núi")||hint.includes("sơn")) return "⛰️";
+    if(hint.includes("vàng")||hint.includes("kim")) return "🪙";
+    if(hint.includes("mưa")||hint.includes("vũ")) return "🌧️";
+    if(hint.includes("xe")||hint.includes("xa")) return "🚗";
+    if(hint.includes("cửa")||hint.includes("môn")) return "🚪";
+    if(hint.includes("tim")||hint.includes("tâm")) return "❤️";
+    if(hint.includes("mắt")||hint.includes("mục")) return "👁️";
+    if(hint.includes("chân")||hint.includes("túc")) return "🦶";
+    if(hint.includes("ngựa")||hint.includes("mã")) return "🐴";
+    if(hint.includes("ăn")||hint.includes("thực")) return "🍜";
+    if(hint.includes("cỏ")||hint.includes("thảo")) return "🌿";
+    if(hint.includes("bệnh")||hint.includes("nạch")) return "🤒";
+    if(hint.includes("dao")||hint.includes("đao")) return "🔪";
+    if(hint.includes("đi")||hint.includes("sước")) return "🏃";
+  }
+  return "";
+}
+
+/* ---- Icon SVG (thay emoji) ---- */
+const ICON_SVGS = {
+  water:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>`,
+  fire:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1.5-3.5C8 7 8 4 12 2c4 2 4 5 2.5 6.5S13 12 13 13a2.5 2.5 0 0 0 4.5 1.5"/></svg>`,
+  mountain:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>`,
+  tree:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-7"/><path d="M9 15h6"/><path d="M12 2v4"/><path d="M8 6c0 2 1.5 4 4 4s4-2 4-4"/><path d="M6 10c0 3 2.5 5 6 5s6-2 6-5"/></svg>`,
+  person:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>`,
+  child:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3"/><path d="M5 20c1.5-3 4-5 7-5s5.5 2 7 5"/></svg>`,
+  heart:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>`,
+  hand:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V4a2 2 0 0 1 4 0v2"/><path d="M11 6V3a2 2 0 0 1 4 0v4"/><path d="M15 7V5a2 2 0 0 1 4 0v8a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7V9a2 2 0 0 1 4 0v2"/></svg>`,
+  foot:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg>`,
+  eye:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  mouth:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14a4 4 0 0 0 4-4V5"/><path d="M8 10a4 4 0 0 0 4 4"/><path d="M8 14h8"/></svg>`,
+  sun:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>`,
+  moon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>`,
+  rain:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M8 19v1M8 14v1M12 19v1M12 14v1M16 19v1M16 14v1"/></svg>`,
+  snow:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07 19.07 4.93"/></svg>`,
+  wind:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg>`,
+  cloud:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 0 1 0 9Z"/></svg>`,
+  bolt:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>`,
+  ice:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20M7 7l10 10M17 7 7 17"/></svg>`,
+  home:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`,
+  door:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h3a2 2 0 0 1 2 2v14"/><path d="M2 20h3"/><path d="M13 20h9"/><path d="M10 12v.01"/><path d="M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z"/></svg>`,
+  car:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>`,
+  boat:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.5 0 2.5 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/><path d="M12 2v8"/></svg>`,
+  plane:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>`,
+  coin:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9 10h4a2 2 0 1 1 0 4H9"/></svg>`,
+  gem:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg>`,
+  crown:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg>`,
+  shirt:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>`,
+  food:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>`,
+  noodle:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13h12"/><path d="M6 17h12"/><path d="M6 9h12"/><path d="M4 5c4 0 5 2 8 2s4-2 8-2"/></svg>`,
+  wine:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h8"/><path d="M7 10h10"/><path d="M12 15v7"/><path d="M12 15a5 5 0 0 0 5-5c0-2-1-4-5-9-4 5-5 7-5 9a5 5 0 0 0 5 5Z"/></svg>`,
+  book:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`,
+  pen:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`,
+  music:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>`,
+  speech:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+  run:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="4" r="2"/><path d="M6 22l3-7 4 2 2-6 3 1-2 8"/></svg>`,
+  dog:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 15.313a1 1 0 0 0-.405-1.332l-2.5-1.2a1 1 0 0 0-1.332.405l-1.2 2.5a1 1 0 0 0 .405 1.332l2.5 1.2a1 1 0 0 0 1.332-.405z"/><path d="M8.5 13.5c.5 2 2 3 4 3s3.5-1 4-3"/><path d="M14.5 6.5c1.5 0 3 1 3 2.5 0 1.5-1 2.5-3 2.5"/></svg>`,
+  cat:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.08 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11 19c1.5 1 3.5 1 5 0"/></svg>`,
+  horse:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 13.5V8a4 4 0 0 0-4-4H7l-3 6v7h2l1-4h3v4h2l1-4h3v4h2l1-4h1.5a2 2 0 0 0 2-2v-1.5a2 2 0 0 0-2-2H14Z"/><circle cx="8" cy="8" r="1"/></svg>`,
+  fish:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><path d="M18 12v.5"/><path d="M16 8v-2a2 2 0 0 0-2-2h-1"/><path d="M2 12h2"/><path d="M2 16h2"/></svg>`,
+  bird:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h.01"/><path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"/><path d="m20 7 2 .5-2 .5"/><path d="M10 18v3"/><path d="M14 17.75V21"/></svg>`,
+  bug:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M19.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M18 13h4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>`,
+  plant:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M12 20v-8"/><path d="M12 12c-3-2.5-3-6.5 0-9 3 2.5 3 6.5 0 9Z"/></svg>`,
+  flower:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>`,
+  rice:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V8"/><path d="M8 12c0-2 1.5-4 4-4s4 2 4 4"/><path d="M5 8c0-2 2-4 7-4s7 2 7 4"/></svg>`,
+  sword:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 17.5 3 6V3h3l11.5 11.5"/><path d="m13 19 6-6"/><path d="m16 16 4 4"/><path d="m19 21 2-2"/></svg>`,
+  bow:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>`,
+  hammer:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 12-8.373 8.373a1 1 0 1 1-3-3L12 9"/><path d="m18 15 4-4"/><path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172V7l-2.26-2.26a6 6 0 0 0-4.202-1.756l-3.773.793a2 2 0 0 0-1.378 1.378l-.793 3.773a6 6 0 0 0 1.756 4.202L10 16l-4 4 6 2 2 6 4-4"/></svg>`,
+  skull:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M8 20v2h8v-2"/><path d="M12 20V10"/><path d="M8 10a4 4 0 0 1 8 0v1H8v-1Z"/></svg>`,
+  sick:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg>`,
+  ghost:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 10h.01"/><path d="M15 10h.01"/><path d="M12 2a8 8 0 0 0-8 8v12l3-2 3 2 3-2 3 2V10a8 8 0 0 0-8-8Z"/></svg>`,
+  forbidden:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg>`,
+  arrow:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>`,
+  arrowDown:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>`,
+  target:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>`,
+  star:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  rock:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>`,
+  thread:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>`,
+  knife:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 16 8"/><path d="M18.36 6.64a2 2 0 0 0-2.83-2.83l-1.06 1.06a2 2 0 0 0 0 2.83l8.49 8.49a2 2 0 0 0 2.83-2.83Z"/></svg>`,
+  turtle:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10a4 4 0 0 0-4 4v2h8v-2a4 4 0 0 0-4-4Z"/><path d="M8 16v2"/><path d="M16 16v2"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="M12 2v2"/><path d="M7 5 5 7"/><path d="M17 5l2 2"/></svg>`,
+  spark:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>`
+,
+  snake: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6c2 0 2 3 4 3s2-3 4-3 2 3 4 3 2-3 4-3"/><path d="M20 6v4c0 6-4 8-8 8s-4-2-4-4 2-3 4-3 4 1 4 3-2 4-4 4"/><circle cx="4" cy="6" r=".6" fill="currentColor" stroke="none"/></svg>`,
+  claw: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3c-.6 2.4-.6 4.6 0 7"/><path d="M12 2.5c-.4 2.6-.4 5 0 7.5"/><path d="M17 3c.6 2.4.6 4.6 0 7"/><path d="M5 12c1.5 4 4 7 7 7s5.5-3 7-7"/></svg>`
+};
+const EMOJI_TO_ICON = {
+  "💧":"water","🔥":"fire","🏔️":"mountain","⛰️":"mountain","🌳":"tree","🌲":"tree",
+  "🧍":"person","🧑":"person","🧒":"child","👦":"child","👧":"child","👩":"person","👶":"child",
+  "❤️":"heart","💓":"heart","✋":"hand","🤚":"hand","🦶":"foot","👁️":"eye","👀":"eye",
+  "👂":"eye","👄":"mouth","👅":"mouth","🦷":"mouth","👃":"mouth","🦴":"skull","🩸":"heart",
+  "🥩":"food","🪶":"plant","🛌":"home","🏃":"run","🚶":"run","🛑":"forbidden","🐴":"horse",
+  "🐎":"horse","🐮":"horse","🐄":"horse","🐑":"plant","🐕":"dog","🐶":"dog","🐦":"bird",
+  "🐤":"bird","🐟":"fish","🐠":"fish","🐛":"bug","🐜":"bug","🐷":"food","🦌":"plant",
+  "🐯":"cat","🐉":"spark","🐲":"spark","🐇":"cat","🐱":"cat","🌧️":"rain","☔":"rain",
+  "❄️":"snow","💨":"wind","🌬️":"wind","☁️":"cloud","⚡":"bolt","🧊":"ice","❄":"ice",
+  "🚪":"door","🏠":"home","🏡":"home","🏛️":"home","🏭":"home","🕳️":"target","⬜":"target",
+  "🌏":"target","🏰":"home","🏘️":"home","🛠️":"hammer","🚗":"car","🚙":"car","⛵":"boat",
+  "🚢":"boat","✈️":"plane","🕊️":"bird","🪙":"coin","🐚":"gem","💎":"gem","👑":"crown",
+  "👕":"shirt","👔":"shirt","🧣":"thread","🧵":"thread","🔪":"knife","🏹":"bow","⚔️":"sword",
+  "🗡️":"sword","🪓":"hammer","💪":"hammer","🔨":"hammer","🍽️":"food","🍶":"wine","🍜":"noodle",
+  "🍱":"food","🍚":"rice","🌾":"rice","🌽":"rice","🫘":"food","🍈":"food","🍎":"flower",
+  "🌿":"plant","🌸":"flower","🍃":"plant","🌱":"plant","💬":"speech","🗣️":"speech",
+  "📜":"book","📖":"book","🖊️":"pen","✒️":"pen","🎵":"music","🔊":"music","1️⃣":"star",
+  "2️⃣":"star","3️⃣":"star","4️⃣":"star","5️⃣":"star","🔟":"star","🙆":"person","🤏":"target",
+  "🙌":"hand","📏":"target","💀":"skull","🤒":"sick","👻":"ghost","👹":"ghost","🔮":"spark",
+  "🚫":"forbidden","⬆️":"arrow","⬇️":"arrowDown","⬅️":"arrow","➡️":"arrow","🎯":"target",
+  "✍️":"pen","🌊":"water","📦":"home","🐅":"cat","🌇":"sun","🎨":"spark","🐂":"horse",
+  "🛤️":"run","🏙️":"home","🎋":"plant","💰":"coin","🔴":"target","🟢":"plant","🟡":"star",
+  "⚫":"target","⚪":"target","🧶":"thread","❌":"forbidden","⛔":"forbidden","🍲":"food",
+  "🥁":"music","🐭":"bug","🧂":"food","🎎":"flower","😀":"mouth","😊":"mouth","🙂":"person",
+  "🫳":"hand","👴":"person","👨":"person","👨‍🦳":"person","🤵":"person","🧘":"person",
+  "🥄":"food","🪨":"rock","🌍":"mountain","🎓":"book","🍬":"food","🏥":"sick","🏋️":"hammer",
+  "🐘":"horse","🐜":"bug","🦁":"cat","🐖":"food","🐡":"fish","🪽":"bird","💇":"person",
+  "🥊":"hammer","💀":"skull","🌑":"moon","🐊":"turtle","🐢":"turtle","🐸":"bug",
+  "🌞":"sun","🌜":"moon","🌆":"sun","🌄":"mountain","☀️":"sun","🌙":"moon","⭐":"star",
+  "🌼":"flower","💐":"flower","🏇":"horse","⚰️":"skull","🧤":"shirt","👢":"shirt",
+  "👘":"shirt","🥬":"plant","🫛":"food","🥒":"food","🧱":"rock","🗿":"rock","⛩️":"home",
+  "🛏️":"home","🛡️":"sword","⚖️":"target","👪":"person","☯️":"spark","🦅":"bird",
+  "📋":"book","📰":"book","📃":"book","📄":"book","📍":"target","🏅":"coin","💍":"gem",
+  "🧱":"rock","🫕":"food","🪘":"music","🐀":"bug","🤧":"mouth","🎐":"music","😬":"mouth",
+  "🫗":"food","🪑":"home","🪞":"spark","🪵":"tree","🎀":"thread","⚙️":"hammer","🔱":"sword",
+  "🧯":"fire","💦":"water","🍷":"wine","🍬":"food","🔧":"hammer","🕸️":"thread","🌸":"flower",
+  "🌬":"wind","🫠":"mouth","💚":"plant","❤️‍🔥":"heart","🏃‍♂️":"run","🚶‍♂️":"run",
+  "🧍‍♂️":"person","8️⃣":"star","👣":"foot","👂🏻":"eye","🚶‍♀️":"run","🎭":"spark"
+,
+  "🧑":"person","👥":"person","🧎":"person","🏞️":"water","📜":"book","🤏":"hand","🐍":"snake","🐾":"claw"
+};
+/* Manifest ảnh 3D THẬT đã tải (Fluent Emoji, xem icons3d/) — nhúng cứng danh
+   sách mã đã xác nhận CÓ file, để không phải dò 404 lúc chạy. */
+const PNG3D_AVAILABLE = new Set(["1f21a","1f307","1f30a","1f30f","1f319","1f327-fe0f","1f331","1f332","1f333","1f338","1f33e","1f33f","1f342","1f343","1f348","1f34e","1f35a","1f35c","1f376","1f37d-fe0f","1f38b","1f393","1f3a8","1f3a9","1f3af","1f3b5","1f3c3","1f3d4-fe0f","1f3d8-fe0f","1f3db-fe0f","1f3de-fe0f","1f3e0","1f3ed","1f3f0","1f3f9","1f3fa","1f405","1f406","1f407","1f409","1f40d","1f411","1f415","1f41a","1f41b","1f41f","1f422","1f426","1f42e","1f42f","1f431","1f434","1f437","1f438","1f43e","1f441-fe0f","1f442","1f443","1f444","1f445","1f451","1f455","1f463","1f465","1f468","1f469","1f469-200d-1f37c","1f474","1f476","1f47b","1f480","1f48e","1f4a7","1f4a8","1f4aa","1f4ac","1f4cf","1f4d0","1f4d6","1f4dc","1f4e5","1f4e6","1f500","1f516","1f51f","1f525","1f528","1f52a","1f52e","1f573-fe0f","1f578-fe0f","1f58a-fe0f","1f58b-fe0f","1f600","1f642","1f646","1f64c","1f64f","1f697","1f69c","1f6a2","1f6aa","1f6ab","1f6b6","1f6cc","1f6d1","1f6e0-fe0f","1f6e4-fe0f","1f90f","1f912","1f932","1f935","1f944","1f969","1f98c","1f9af","1f9b4","1f9b5","1f9b6","1f9b7","1f9ca","1f9cd","1f9ce","1f9d1","1f9d2","1f9d8","1f9e3","1f9ed","1f9f5","1f9f6","1fa78","1fa83","1fa93","1fa99","1faa8","1fab6","1fad5","1fad8","1fad9","1faf3","2600-fe0f","2601-fe0f","2620-fe0f","2694-fe0f","26a1","26f0-fe0f","26f5","2708-fe0f","270b","270d-fe0f","2744-fe0f","2764-fe0f","2b06-fe0f","2b1c","2b50","3030-fe0f","31-fe0f-20e3","32-fe0f-20e3","33-fe0f-20e3","34-fe0f-20e3","35-fe0f-20e3"]);
+function emojiToCodepoint(e){
+  return [...e].map(c=>c.codePointAt(0).toString(16)).join("-");
+}
+function png3dPathOf(g, strict){
+  const em = emojiOf(g, strict);
+  if(!em) return null;
+  const cp = emojiToCodepoint(em);
+  return PNG3D_AVAILABLE.has(cp) ? "icons3d/"+cp+".png" : null;
+}
+function iconKeyOf(g, strict){
+  const em = emojiOf(g, strict);
+  if(!em) return "";
+  return EMOJI_TO_ICON[em] || "spark";
+}
+function svgOrGlyphHtml(g, cls, key){
+  // ƯU TIÊN 2: icon SVG tự vẽ khi CÓ khớp nghĩa rõ (không phải "spark" mặc định)
+  if(key && key!=="spark"){
+    const svg = ICON_SVGS[key];
+    return `<span class="rad-icon icon3d ${cls||""}" data-ic="${key}" aria-hidden="true"><span class="icon3d-face">${svg}</span></span>`;
+  }
+  // ƯU TIÊN 3: không có gì khớp (kể cả "spark" mặc định vô nghĩa) -> hiện
+  // chính chữ Hán, KHÔNG để mảnh rỗng và KHÔNG dùng icon lấp lánh chung chung
+  // đánh đồng mọi bộ khác nhau thành một hình.
+  return `<span class="rad-icon icon3d ${cls||""} icon-fallback-glyph" aria-hidden="true"><span class="icon3d-face">${g}</span></span>`;
+}
+/* Manifest PNG3D_AVAILABLE chỉ ghi lại mã đã XÁC NHẬN tồn tại lúc soạn dữ
+   liệu — nếu thư mục icons3d/ triển khai thực tế thiếu file (vd chỉ có vài
+   ảnh mẫu), <img> phải rơi về lớp SVG/chữ Hán ngay khi lỗi tải, không được
+   để lại icon vỡ (broken image) trên giao diện. */
+window.__iconImgFallback = function(imgEl, g, cls, key){
+  const wrap = imgEl.closest(".rad-icon");
+  if(wrap) wrap.outerHTML = svgOrGlyphHtml(g, cls, key);
+};
+function iconHtml(g, cls, strict){
+  const key = iconKeyOf(g, strict);
+  // ƯU TIÊN 1: ảnh 3D THẬT đã tải (Fluent Emoji, icons3d/) — không tự vẽ khi đã có ảnh
+  const pngPath = png3dPathOf(g, strict);
+  if(pngPath){
+    return `<span class="rad-icon icon3d-real ${cls||""}" aria-hidden="true"><img src="${pngPath}" alt="" loading="lazy" onerror="__iconImgFallback(this,'${g}','${cls||""}','${key}')"></span>`;
+  }
+  return svgOrGlyphHtml(g, cls, key);
+}
+/* Component Card dùng chung cho ghép 2/3/N bộ — thay cho dòng .formula cũ.
+   parts: mảng glyph thành phần (2, 3 hoặc 4 phần tử). resultCh: chữ ghép được.
+   py/meaning: pinyin + nghĩa Việt để hiện dòng chú thích bên dưới. */
+/* Biến thể cho THÀNH NGỮ: đây là chuỗi cụm từ có sẵn, không phải "ghép ra
+   chữ mới" -> không dùng dấu "=", chỉ nối các chip bằng dấu cách nhỏ. */
+function buildIdiomCard(parts, py, meaning){
+  if(!parts || !parts.length) return "";
+  // strict=true: mỗi phần tử ở đây là một CHỮ HOÀN CHỈNH của thành ngữ, không
+  // phải bộ thủ — chỉ hiện icon khi có emoji khớp trực tiếp, tránh mượn nhầm
+  // icon của bộ cấu tạo bên trong (vd 七 không tự nhiên "biến thành" 1️⃣).
+  const chips = parts.map(g=>
+    `<div class="cc-chip">${iconHtml(g,"",true)}<span class="cc-sub">${g}</span></div>`
+  );
+  const rowParts = [];
+  chips.forEach((chip,i)=>{
+    if(i>0) rowParts.push(`<div class="cc-op">+</div>`);
+    rowParts.push(chip);
+  });
+  const w = parts.join("");
+  return `<div class="cc-card cc-idiom">`
+    + `<div class="cc-row">${rowParts.join("")}</div>`
+    + `<div class="cc-caption"><b>${w}</b>`
+    + (py?` <span class="cc-py">${py}</span>`:"")
+    + (meaning?` (${meaning})`:"")
+    + `</div></div>`;
+}
+
+function buildComponentCard(parts, resultCh, py, meaning, customRecap, strict){
+  const chips = parts.map(g=>
+    `<div class="cc-chip">${iconHtml(g,"",strict)}<span class="cc-sub">${g}</span></div>`
+  );
+  // chèn dấu "+" giữa các chip thành phần, rồi "=" trước kết quả
+  const rowParts = [];
+  chips.forEach((chip,i)=>{
+    if(i>0) rowParts.push(`<div class="cc-op">+</div>`);
+    rowParts.push(chip);
+  });
+  rowParts.push(`<div class="cc-op cc-eq">=</div>`);
+  rowParts.push(`<div class="cc-result">${resultCh}</div>`);
+  const recap = customRecap || parts.join(" + ");
+  return `<div class="cc-card">`
+    + `<div class="cc-row">${rowParts.join("")}</div>`
+    + `<div class="cc-caption">${recap} → <b>${resultCh}</b>`
+    + (py?` <span class="cc-py">${py}</span>`:"")
+    + (meaning?` (${meaning})`:"")
+    + `</div></div>`;
+}
+function playIconMergeFx(t1, t2, ga, gb, onDone, strict){
+  const el1 = $(t1.id), el2 = $(t2.id);
+  if(!el1 || !el2){ onDone && onDone(); return; }
+  const r1 = el1.getBoundingClientRect(), r2 = el2.getBoundingClientRect();
+  const target = tzgEl.getBoundingClientRect();
+  const cx = target.left + target.width / 2, cy = target.top + target.height / 2;
+  const fx = document.createElement("div");
+  fx.className = "icon-merge-fx";
+  function mkPiece(g, r){
+    const d = document.createElement("div");
+    d.className = "icon-merge-piece";
+    d.style.left = (r.left + r.width / 2) + "px";
+    d.style.top = (r.top + r.height / 2) + "px";
+    d.innerHTML = iconHtml(g, "merge-ic", strict);
+    return d;
+  }
+  const p1 = mkPiece(ga, r1), p2 = mkPiece(gb, r2);
+  fx.appendChild(p1); fx.appendChild(p2);
+  document.body.appendChild(fx);
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      p1.style.transform = `translate(calc(-50% + ${cx - r1.left - r1.width/2}px), calc(-50% + ${cy - r1.top - r1.height/2}px)) scale(1.15)`;
+      p2.style.transform = `translate(calc(-50% + ${cx - r2.left - r2.width/2}px), calc(-50% + ${cy - r2.top - r2.height/2}px)) scale(1.15)`;
+      p1.classList.add("fly"); p2.classList.add("fly");
+    });
+  });
+  setTimeout(()=>{
+    const burst = document.createElement("div");
+    burst.className = "icon-merge-burst";
+    burst.style.left = cx + "px"; burst.style.top = cy + "px";
+    fx.appendChild(burst);
+    p1.classList.add("fuse"); p2.classList.add("fuse");
+  }, 480);
+  setTimeout(()=>{ fx.remove(); onDone && onDone(); }, 780);
+}
+/* Chồng TUẦN TỰ TỪNG CẶP cho 3-4 mảnh (đã chốt): mảnh 1+2 bay vào giữa hoà
+   trước, rồi mảnh 3 bay vào hoà tiếp, rồi mảnh 4 (nếu có). Dùng lại đúng các
+   class CSS của playIconMergeFx (icon-merge-piece/fly/fuse/burst). */
+function playIconMergeFxSeq(picks, glyphs, onDone){
+  const els = picks.map(t=>$(t.id));
+  if(els.some(e=>!e)){ onDone && onDone(); return; }
+  const rects = els.map(e=>e.getBoundingClientRect());
+  const target = tzgEl.getBoundingClientRect();
+  const cx = target.left + target.width/2, cy = target.top + target.height/2;
+  const fx = document.createElement("div");
+  fx.className = "icon-merge-fx";
+  document.body.appendChild(fx);
+  const PAIR_MS = 560;   // thời lượng mỗi lượt hoà (ngắn hơn bản 2 mảnh cho đỡ lê thê)
+  function flyOne(i, extraScale){
+    const r = rects[i];
+    const d = document.createElement("div");
+    d.className = "icon-merge-piece";
+    d.style.left = (r.left + r.width/2) + "px";
+    d.style.top = (r.top + r.height/2) + "px";
+    d.innerHTML = iconHtml(glyphs[i], "merge-ic");
+    fx.appendChild(d);
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      d.style.transform = `translate(calc(-50% + ${cx - r.left - r.width/2}px), calc(-50% + ${cy - r.top - r.height/2}px)) scale(${extraScale||1.15})`;
+      d.classList.add("fly");
+    }));
+    return d;
+  }
+  // lượt 1: mảnh 0 + 1 cùng bay, hoà
+  const d0 = flyOne(0), d1 = flyOne(1);
+  let t = PAIR_MS;
+  setTimeout(()=>{
+    const burst=document.createElement("div");
+    burst.className="icon-merge-burst";
+    burst.style.left=cx+"px"; burst.style.top=cy+"px";
+    fx.appendChild(burst);
+    d0.classList.add("fuse"); d1.classList.add("fuse");
+  }, t-120);
+  // các lượt sau: từng mảnh một bay vào hoà tiếp với "khối" ở giữa
+  for(let i=2;i<picks.length;i++){
+    const idx=i;
+    setTimeout(()=>{ 
+      const d=flyOne(idx, 1.2);
+      setTimeout(()=>{
+        const burst=document.createElement("div");
+        burst.className="icon-merge-burst";
+        burst.style.left=cx+"px"; burst.style.top=cy+"px";
+        fx.appendChild(burst);
+        d.classList.add("fuse");
+      }, PAIR_MS-120);
+    }, t);
+    t += PAIR_MS;
+  }
+  setTimeout(()=>{ fx.remove(); onDone && onDone(); }, t+260);
+}
+
+/* ---- Bảng HSK nhúng sẵn (gần đúng; HSK1-4 tin cậy cao, 5-6 tương đối).
+       Đặt file hsk.txt cạnh game để thay bằng bảng chính xác của bạn. ---- */
+const HSK_BUILTIN = {
+1:"一七三上下不东九了二五人什今他们你好妈她学校小少岁工中么九书买五些京亮人什住候儿先八六兴再冷准分刻前北医十千午半友口叫号吃同名后吗听喂四回国在坐块多大天太女她好字学孩它安家对小少尔尺岁工师年店开当很得怎想我打找拉描换据接故文斗料新方旅族无明星昨是时晚普月有服期木本机来杯果校样桌梨欢正每比毛民气水汉沙没漂点火热爱爸片牛狗猫王现球瓶生用电男病的看真眼睛着知短礼租稍站笑第米系红纸组细客能脑脸苹茶菜蛋行西要见视觉认识话说请读谁谢起路车这那都里钟钱阴雨零面飞饭馆高鱼"
+,2:"两买事从件价便信元兄公共关农冬别到务动助千卖南去可右司吧告员咖啡问喝嗯因园址坏块外奶妹姐姓始娘婚孩它完宜实室宾就左已市帮常件么广床应店度弟往忙快您情意慢懂房所手才报教数斤新旁旅早时晴暖更服望朝末条来极查桥楼次歌步每洗游火然爱牌猪玩班瑞球瓜甜生男白百的目直相看眼票离穿站笑筷篮红级纸经绍给绿羊考肉自船色药萄行街衣西要试语课贵走跑跳踢身运还这进远送邮那部都酒醒重银错长门问间队阿附院除零非面题颜风饺馆首香马鸡"
+,3:"业丢中久乐九习乡书争事二于些交产亮亲位低体何作你使例供依便俩信借健像元先光克免入全八公六关兴其典冒冚冰决况准几刀分刚初别利刮到刷刻剧力办功加务动努包北匹区半单卖南博卫印危即卷厨去参又双发叔取受变口古另只叫可史右司吃各合同名向吓吗君吧听员周味呢命和咳哦哪哭唱啊啤售商喜喝嘴器四回图国园圆圈土地场坐块坚城基堂境增声处备复夏外多夜够大天头奇奋女奖她好如妻姑姨娃嫁子字季学孩它守安完宗官定宜实审客室害家容宿寒对导小少尝就尾层居屋展山岁工左差己已巾市布师带帮干平年幼底店庙府度座康廊建开异弄式引弟张当录彩影往律得心必忘忽怀态思急性总恐恶悉惯想愉意感愿慢懂成我或户所扇手才打扮扫护报担拿持指挂按据换排接提搬摩支收改放教数文料斯新方旁旅日早明星昨晚晨普晴暗暴曲更替最月有服望朝期木未末本机杂李材条来杨极果查树校样根梯检楚楼概模次欧正步武每比毕民气水永汗江决没河油法泳注洁洗活派流海清渴温港游满源溜演漂潜火灾炼点烦然照熊爬爱父爸片牙牛物特狗猜猪献猫王班理瓶甚生用电男画界留疼病症瘦皮盘目直相省看真眼着知短码研碗碰磁示礼社祝神票福离私秋种科秒究空穿突窗立站章童笑第等筷简算管籍米类精系素紫红级纯纸练组细织终经给绝绿网美者而联肉肚背能脚脸腿自舒航船良色节花苦英草菜蓝藏行街衣补表衬袋裙裤西要见观视觉角解言警计认讨让训记讲许论设访证识诉词试话该语误说请诸读课谁调谈谢谱貌贝负责败货质购贵费资赛走起趣足跑距跟路跳踢身躺车轻较辆边过运近还这进远连迟迎送适选透递道那邮部都配酒里重野量金钟钢铁银错长门问间队阳阴附院除险难雨雪零雾需静非面音页顶顿题颜风飘飞餐饮饺饱馆首香马骑验鲜鸟鸡黄黑鼻"
+,4:"" ,5:"", 6:""
+};
+
+/* ============ trạng thái toàn cục ============ */
+let DICT = new Map();         // char -> {def, pinyin[], decomp, radical}
+let HSK = new Map();          // char -> level 1..6
+let MODE = "char";            // "char" | "word" | "idiom4" | ...
+let WORDS = [];               // {w, a, b, py, def, level, sg}
+let WORDSET = new Set();      // mọi từ 2 chữ hợp lệ (để chặn cặp chéo)
+let IDIOMS4 = [];             // thành ngữ 4 chữ: {w, parts[], py, def_vi, level, sg, trad}
+let IDIOMSET4 = new Set();
+let ILEVELS = new Map();      // level -> idioms4[]
+let IDIOM4_OK = false;
+let TRAD = new Map();         // giản thể -> Set(phồn thể) — dựng từ căn chỉnh CEDICT
+let SHUOWEN = new Map();      // char -> {number, volume, def, vi, en} — 540 bộ thủ Thuyết Văn
+let WORDS_BY_CHAR = new Map();// char -> [{w,py,def,len}] — từ vựng chứa chữ này (chế độ chữ đơn)
+let WLEVELS = new Map();      // level -> words[]
+let CEDICT_OK = false;
+let COMBOS = [];              // {a,b,ch,py,def,level,strokesGuess}
+let LEVELS = new Map();       // level -> combos[]
+let COMBOS3 = [];             // ghép 3 bộ: {a,b,c,ch,...}
+let LEVELS3 = new Map();      // level -> combos3[]
+let COMBOSN = [];             // ghép lồng: {parts:[...], ch, formula, ...} (3-4 lá)
+let LEVELSN = new Map();      // level -> combosN[]
+let curLevel = 1, roundPool = [], roundNo = 0;
+let score = 0, streak = 0;
+let tiles = [], selected = [], combosLeft = [], madeThisRound = [];
+let tileSeq = 0;
+
+const $ = id => document.getElementById(id);
+const boardEl=$("board"), glyphEl=$("glyph"), tzgEl=$("tzg"),
+      infoEl=$("revealInfo"), toastEl=$("toast"),
+      tradBoxEl=$("tradBox"), tradWrapEl=$("tradWrap"), tradCellsEl=$("tradCells"),
+      tradCapEl=$("tradCap"),
+      mainCapEl=$("mainCap");
+
+function toast(m){toastEl.textContent=m;toastEl.classList.add("show");
+  clearTimeout(toast._t);toast._t=setTimeout(()=>toastEl.classList.remove("show"),1600);}
+
+/* ============ NẠP DỮ LIỆU ============ */
+const IDS_BINARY = new Set(["⿰","⿱","⿴","⿵","⿶","⿷","⿸","⿹","⿺","⿻"]);
+const IDS_TERNARY = new Set(["⿲","⿳"]);
+const IDS_ALL = new Set([...IDS_BINARY, ...IDS_TERNARY]);
+/* Chuyển chuỗi IDS lồng (⿱一⿻冂从) thành công thức có ngoặc thể hiện tầng:
+   一 ＋ (冂 ＋ 从). Duyệt đệ quy: toán tử nhị ăn 2 nhánh, tam ăn 3 nhánh. */
+function idsToFormula(d){
+  let i=0;
+  function walk(){
+    if(i>=d.length) return "";
+    const ch=d[i++];
+    if(IDS_BINARY.has(ch)){ const a=walk(), b=walk(); return `(${a} ＋ ${b})`; }
+    if(IDS_TERNARY.has(ch)){ const a=walk(), b=walk(), c=walk(); return `(${a} ＋ ${b} ＋ ${c})`; }
+    return ch;
+  }
+  let f=walk();
+  if(f.startsWith("(")&&f.endsWith(")")) f=f.slice(1,-1);
+  return f;
+}
+
+async function loadData(){
+  let text, usedVi=false;
+  // ưu tiên bản đã dịch tiếng Việt — nhận cả 2 kiểu tên file
+  for(const fn of ["dictionary_vi.txt","dictionary.vi.txt"]){
+    try{
+      const rv = await fetch(fn);
+      if(rv.ok){ text = await rv.text(); usedVi=true; break; }
+    }catch(_){}
+  }
+  if(!text){
+    try{
+      const res = await fetch("dictionary.txt");
+      if(!res.ok) throw new Error("HTTP "+res.status);
+      text = await res.text();
+    }catch(e){ showLoadError(e); return false; }
+  }
+  // parse từng dòng JSON
+  for(const line of text.split("\n")){
+    const s=line.trim(); if(!s) continue;
+    let o; try{o=JSON.parse(s);}catch(_){continue;}
+    if(!o.character) continue;
+    // gắn bản dịch Việt của mnemonic vào etymology để hiển thị dùng luôn
+    const etym = o.etymology ? {...o.etymology} : null;
+    if(etym && o.etymology_hint_vi) etym.hint_vi = o.etymology_hint_vi;
+    DICT.set(o.character,{
+      def:o.definition||"", def_vi:o.definition_vi||"",
+      pinyin:o.pinyin||[],
+      decomp:o.decomposition||"", radical:o.radical||"",
+      etym: etym
+    });
+  }
+  if(usedVi) toast("Đã nạp nghĩa tiếng Việt");
+  // bảng HSK: file ngoài (nếu có) đè lên bảng nhúng
+  for(const [lv,chars] of Object.entries(HSK_BUILTIN)){
+    for(const ch of chars) if(!HSK.has(ch)) HSK.set(ch, +lv);
+  }
+  try{
+    const r2 = await fetch("hsk.txt");
+    if(r2.ok){
+      const t2 = await r2.text();
+      for(const ln of t2.split("\n")){
+        const m = ln.trim().match(/^(\S)\s+([1-9])/);
+        if(m) HSK.set(m[1], +m[2]);
+      }
+      toast("Đã nạp bảng HSK riêng (hsk.txt)");
+    }
+  }catch(_){/* không có hsk.txt — dùng bảng nhúng */}
+  buildCombos();
+  await loadCedict();          // không bắt buộc — thiếu thì chỉ tắt chế độ từ vựng
+  await loadShuowen();         // không bắt buộc — thiếu thì không hiện dòng Thuyết Văn
+  return true;
+}
+
+/* ---- 540 bộ thủ Thuyết Văn Giải Tự (說文解字) ----
+   Ưu tiên bản enriched (đã chạy fetch_shuowen_definitions.py, có định nghĩa
+   cổ văn từ ctext.org); chưa có thì dùng bản nền — vẫn hiện huy hiệu
+   "bộ thứ N/540", định nghĩa tự xuất hiện khi có dữ liệu. ---- */
+async function loadShuowen(){
+  for(const fname of ["shuowen_540_radicals_enriched.json","shuowen_540_radicals.json"]){
+    try{
+      const res = await fetch(fname);
+      if(!res.ok) continue;
+      const arr = await res.json();
+      for(const r of arr){
+        if(!r.char) continue;
+        SHUOWEN.set(r.char, {
+          number: r.number, volume: r.volume,
+          def: r.shuowen_definition_zh || null,
+          vi: r.meaning_vi || null, en: r.meaning_en || null
+        });
+      }
+      return;
+    }catch(_){/* thử file tiếp theo */}
+  }
+}
+/* Liệt kê từ VỰNG chứa chữ `ch`, kèm pinyin dấu + nghĩa.
+   Ưu tiên từ ngắn (2 chữ) và từ mở đầu bằng chính chữ đó (打电话 trước 打). */
+function wordsWithCharLine(ch){
+  const arr = WORDS_BY_CHAR.get(ch);
+  if(!arr || !arr.length) return "";
+  const withVi = arr.filter(v=>v.def_vi && v.def_vi.trim());
+  if(!withVi.length) return "";
+  const sorted = [...withVi].sort((x,y)=>{
+    const ax = x.w[0]===ch ? 0 : 1, ay = y.w[0]===ch ? 0 : 1;
+    if(ax!==ay) return ax-ay;
+    return x.len - y.len;
+  }).slice(0, 12);
+  const rows = sorted.map(v=>{
+    const meaning = v.def_vi.split(/[;\/]/)[0].slice(0,42);
+    return `<div class="word-row">`
+      + `<span class="w">${v.w||""}</span>`
+      + `<span class="py">${v.py||""}</span>`
+      + `<span class="m">${meaning||""}</span></div>`;
+  }).join("");
+  return `<div class="idea" style="text-align:left;max-width:100%;margin:6px auto 2px">`
+    + `Từ vựng chứa <b>${ch}</b> (${withVi.length>12?"12/"+withVi.length:withVi.length}):</div>`
+    + `<div class="word-scroll">${rows}</div>`;
+}
+
+/* Liệt kê MỌI chữ Hán mà chữ `ch` tham gia tạo thành (làm bộ thủ/thành phần),
+   kèm pinyin dấu thanh. Dữ liệu từ chỉ mục APPEARS_IN dựng lúc buildCombos. */
+function derivedFromLine(ch){
+  const set = APPEARS_IN.get(ch);
+  if(!set || !set.size) return "";
+  const list = [...set].sort((x,y)=> (DICT.get(x)?strokeGuessShallow(x):99) - (DICT.get(y)?strokeGuessShallow(y):99));
+  const chips = list.map(x=>{
+    const e = DICT.get(x);
+    const py = e ? pinyinTone((e.pinyin||[]).join(", ")) : "";
+    const gl = viGloss(x, e);
+    return `<span class="der-chip">`
+      + `<span class="hz">${x}</span>`
+      + (py?`<span class="py">${py}</span>`:"")
+      + (gl?`<span class="gl">${gl}</span>`:"")
+      + `</span>`;
+  }).join("");
+  return `<div class="idea" style="text-align:left;max-width:100%;margin:6px auto 2px">`
+    + `<b>${ch}</b> góp mặt trong ${set.size} chữ:</div>`
+    + `<div class="der-scroll">${chips}</div>`;
+}
+
+function shuowenLine(chars){
+  const seen = new Set(); const lines = [];
+  for(const ch0 of chars){
+    if(!ch0) continue;
+    // 540 bộ Thuyết Văn ghi dạng gốc (言水手心火刀衣食人犬糸金示…) trong khi
+    // bộ kiện trên bàn thường là biến thể giản thể (讠氵扌忄灬刂衤饣亻犭纟钅礻) ->
+    // phải quy đổi trước khi tra, không thì tra trật gần hết.
+    const ch = VARIANT[ch0] || ch0;
+    if(seen.has(ch)) continue; seen.add(ch);   // khử trùng theo dạng chuẩn hoá
+    const sw = SHUOWEN.get(ch);
+    if(!sw) continue;
+    const label = ch0!==ch ? `${ch0}（${ch}）` : ch0;
+    let txt = `📜 <b>${label}</b> — bộ thủ Thuyết Văn số ${sw.number}/540`;
+    if(sw.vi) txt += ` · ${sw.vi}`;
+    if(sw.def) txt += `<br><span style="font-family:var(--hanzi-font)">「${sw.def}」</span>`;
+    lines.push(`<div class="idea" style="text-align:left;max-width:420px;margin:2px auto">${txt}</div>`);
+    if(lines.length>=3) break;   // tối đa 3 dòng (2 thành phần + chữ), tránh ngập
+  }
+  return lines.join("");
+}
+
+/* ---- CC-CEDICT: nguồn TỪ GHÉP (Make Me a Hanzi chỉ có chữ đơn) ---- */
+const CEDICT_RE = /^(\S+)\s+(\S+)\s+\[([^\]]*)\]\s*\/(.*)\/\s*$/;
+function extractCedictText(raw){
+  // file .js bọc chuỗi (nieldlr/hanzi) hoặc plain text CEDICT gốc
+  const sample = raw.split("\n").slice(0,20);
+  if(sample.some(l=>CEDICT_RE.test(l.trim()))) return raw;
+  let m = raw.match(/`([\s\S]*)`/);
+  if(m) return m[1];
+  m = raw.match(/"([\s\S]*)"/);
+  if(m){ try{ return JSON.parse('"'+m[1]+'"'); }catch(_){ return m[1]; } }
+  return raw;
+}
+function badDef(d){
+  return /^variant of|^old variant|^surname |^\(archaic\)|^see /i.test(d);
+}
+let WORD_VI = new Map();      // từ ghép -> nghĩa tiếng Việt (từ cedict.vi.txt nếu có)
+async function loadWordVi(){
+  // định dạng linh hoạt: mỗi dòng "打电话\tgọi điện thoại" hoặc "打电话 = gọi điện thoại"
+  for(const fn of ["cedict.vi.txt","words.vi.txt","cedict_vi.txt"]){
+    try{
+      const r = await fetch(fn);
+      if(!r.ok) continue;
+      const t = await r.text();
+      for(const ln of t.split("\n")){
+        const line = ln.trim(); if(!line || line[0]==="#") continue;
+        const m = line.match(/^(\S+)[\t=|]+\s*(.+)$/);
+        if(m) WORD_VI.set(m[1], m[2].trim());
+      }
+      if(WORD_VI.size) toast("Đã nạp nghĩa Việt từ ghép ("+WORD_VI.size+" từ)");
+      return;
+    }catch(_){}
+  }
+}
+async function loadCedict(){
+  let raw;
+  try{
+    const res = await fetch("cedict_ts.u8");
+    if(!res.ok) throw 0;
+    raw = await res.text();
+  }catch(_){ CEDICT_OK=false; return; }
+  await loadWordVi();
+  const text = extractCedictText(raw);
+  const seen = new Set(), seen4 = new Set();
+  for(const ln of text.split("\n")){
+    const t = ln.trim();
+    if(!t || t[0]==="#") continue;
+    const m = t.match(CEDICT_RE);
+    if(!m) continue;
+    const trad = m[1], simp = m[2], py = m[3], defs = m[4].split("/").filter(Boolean);
+    // dựng bản đồ giản->phồn theo TỪNG CHỮ (căn chỉnh 1:1) từ mọi dòng.
+    // một giản thể có thể ứng nhiều phồn thể (发->發/髮) nên dùng Set.
+    if(trad.length === simp.length){
+      for(let k=0;k<simp.length;k++){
+        if(trad[k]!==simp[k]){
+          if(!TRAD.has(simp[k])) TRAD.set(simp[k], new Set());
+          TRAD.get(simp[k]).add(trad[k]);
+        }
+      }
+    }
+    // chỉ mục "chữ -> các TỪ chứa chữ đó" (mọi độ dài 2-4 chữ), cho chế độ
+    // ghép bộ thủ. Lọc nghĩa rác, giới hạn để không phình bộ nhớ.
+    if(simp.length>=2 && simp.length<=4){
+      const dvi = WORD_VI.get(simp)||"";
+      if(!dvi) continue;
+      const wpy = pinyinTone(py);
+      for(const ch of new Set(simp)){
+        if(!WORDS_BY_CHAR.has(ch)) WORDS_BY_CHAR.set(ch, []);
+        const arr = WORDS_BY_CHAR.get(ch);
+        if(arr.length < 40) arr.push({ w:simp, py:wpy, def:"", def_vi:dvi, len:simp.length });
+      }
+    }
+    if(simp.length === 4){
+      if(seen4.has(simp)) continue;
+      const def4 = defs.find(d=>!badDef(d));
+      if(!def4) continue;
+      const dvi4 = WORD_VI.get(simp)||"";
+      if(!dvi4) continue;
+      const parts4 = [...simp];
+      if(!parts4.every(hasViChar)) continue;
+      seen4.add(simp);
+      const lv4 = parts4.map(ch=>HSK.get(ch)||7);
+      IDIOMS4.push({ w:simp, parts:parts4, py:pinyinTone(py), def:"", def_vi:dvi4,
+                     level:Math.max(...lv4), sg:lv4.reduce((a,b)=>a+b,0),
+                     trad: trad!==simp ? trad : null });
+      IDIOMSET4.add(simp);
+      continue;
+    }
+    if(simp.length !== 2) continue;
+    if(seen.has(simp)) continue;
+    const def = defs.find(d=>!badDef(d));
+    if(!def) continue;
+    const dvi = WORD_VI.get(simp)||"";
+    if(!dvi) continue;
+    const ca = simp[0], cb = simp[1];
+    if(!hasViChar(ca) || !hasViChar(cb)) continue;
+    seen.add(simp);
+    const la = HSK.get(ca)||7, lb = HSK.get(cb)||7;
+    WORDS.push({ w:simp, a:ca, b:cb, py:pinyinTone(py), def:"", def_vi:dvi,
+                 level:Math.max(la,lb), sg:la+lb, trad: trad!==simp ? trad : null });
+    WORDSET.add(simp);
+  }
+  for(const w of WORDS){
+    if(!WLEVELS.has(w.level)) WLEVELS.set(w.level,[]);
+    WLEVELS.get(w.level).push(w);
+  }
+  for(const arr of WLEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+  for(const id of IDIOMS4){
+    if(!ILEVELS.has(id.level)) ILEVELS.set(id.level,[]);
+    ILEVELS.get(id.level).push(id);
+  }
+  for(const arr of ILEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+  CEDICT_OK = WORDS.length > 0;
+  IDIOM4_OK = IDIOMS4.length > 0;
+}
+
+function showLoadError(e){
+  $("loadMsg").classList.add("hidden");
+  const el=$("loadErr"); el.classList.remove("hidden");
+  el.innerHTML =
+    `<b>Không nạp được <code>dictionary.txt</code></b> (${e.message}).<br><br>`+
+    `1. Tải file về: <code>curl -L -o dictionary.txt https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt</code><br>`+
+    `2. Đặt file <b>cùng thư mục</b> với game này.<br>`+
+    `3. Chạy qua local server (không mở bằng file://):<br>`+
+    `&nbsp;&nbsp;<code>python3 -m http.server 8000</code> rồi mở <code>localhost:8000/ghep_chu_game.html</code>`;
+}
+
+/* ============ SINH COMBO TỪ DECOMPOSITION ============ */
+function strokeGuess(ch){
+  // không có stroke count trong dictionary.txt — ước bằng độ dài decomposition đệ quy (đủ để xếp trong-cấp)
+  const e = DICT.get(ch); if(!e||!e.decomp) return 1;
+  let n=0; for(const c of e.decomp){ if(!IDS_BINARY.has(c) && c!=="⿲" && c!=="⿳" && c!=="？") n+=strokeGuessShallow(c); }
+  return Math.max(1,n);
+}
+function strokeGuessShallow(c){
+  const e=DICT.get(c);
+  if(!e||!e.decomp) return 1;
+  let n=0; for(const x of e.decomp){ if(!IDS_BINARY.has(x)&&x!=="⿲"&&x!=="⿳"&&x!=="？") n++; }
+  return Math.max(1,n);
+}
+function displayable(c){ return DICT.has(c) || RADICAL_NAME[c]; }
+
+/* Nghĩa tiếng Việt của chữ đơn — không fallback sang tiếng Anh. */
+function viGloss(ch, e){
+  if(e && e.def_vi){
+    return e.def_vi.split(/[;\/,]/)[0].trim();
+  }
+  if(RADICAL_NAME[ch]) return RADICAL_NAME[ch];
+  return "";
+}
+function hasViChar(ch){
+  const e = DICT.get(ch);
+  return !!(e && (e.def_vi||"").trim());
+}
+function compGlossHtml(partChars){
+  if(!partChars || !partChars.length) return "";
+  const items = partChars.map(ch=>{
+    const e = DICT.get(ch);
+    const gg = viGloss(ch, e);
+    const py = e ? pinyinTone((e.pinyin||[]).join(", ")) : "";
+    return `<span class="comp-inline"><span class="comp-ch">${ch}</span>`
+      + (py?`<span class="comp-py">${py}</span>`:"")
+      + (gg?`<span class="comp-gl">${gg}</span>`:"")
+      + `</span>`;
+  }).join('<span class="comp-sep">·</span>');
+  return `<div class="comp-oneline"><span class="cap">Từng thành phần:</span>${items}</div>`;
+}
+function meaningViHtml(c){
+  return `<span class="vi">${c.def_vi || ""}</span>`;
+}
+
+/* Một số bộ thủ có biến thể viết khác nhau tùy vị trí trong chữ — dữ liệu
+   etymology.semantic/phonetic đôi khi ghi dạng gốc (氵 vs 水, 讠 vs 言…).
+   Bảng quy đổi để so khớp đúng, tránh bỏ sót màu tạo âm/tạo nghĩa. */
+const VARIANT = {
+  "氵":"水","忄":"心","扌":"手","讠":"言","饣":"食","钅":"金","衤":"衣","纟":"糸",
+  "犭":"犬","礻":"示","阝":"邑","刂":"刀","灬":"火",
+};
+function sameComp(x,y){
+  if(!x||!y) return false;
+  if(x===y) return true;
+  const nx = VARIANT[x]||x, ny = VARIANT[y]||y;
+  return nx===ny;
+}
+/* Xác định vai trò tạo nghĩa (sem) / tạo âm (pho) của a,b trong một combo,
+   dựa trên etymology.type==="pictophonetic" + etymology.semantic/phonetic.
+   Nếu dữ liệu không đủ rõ hoặc không phải chữ hình thanh -> không tô màu
+   (an toàn hơn là đoán sai). */
+function tradOf(ch){
+  const set = TRAD.get(ch);
+  if(!set || !set.size) return null;
+  return [...set].join("/");   // 发 -> "發/髮" (hiện đủ biến thể, không đoán bừa)
+}
+function decideRoles(c){
+  const e=c.etym;
+  if(!e || e.type!=="pictophonetic") return {aRole:null,bRole:null};
+  const sem=e.semantic, pho=e.phonetic;
+  let aRole=null, bRole=null;
+  if(sameComp(c.a,sem)) aRole="sem";
+  else if(sameComp(c.a,pho)) aRole="pho";
+  if(sameComp(c.b,sem)) bRole="sem";
+  else if(sameComp(c.b,pho)) bRole="pho";
+  // chỉ tô màu khi xác định được ít nhất một bên VÀ không mâu thuẫn
+  // (vd cả hai cùng nhận "sem" thì dữ liệu không rõ ràng -> bỏ qua)
+  if(aRole && bRole && aRole===bRole) return {aRole:null,bRole:null};
+  return {aRole,bRole};
+}
+
+let APPEARS_IN = new Map();   // thành phần -> Set(chữ chứa nó)
+function buildCombos(){
+  for(const [ch,e] of DICT){
+    const d=e.decomp;
+    if(!d || d.length!==3) continue;                 // đúng dạng: <toán tử><A><B>
+    const op=d[0], a=d[1], b=d[2];
+    if(!IDS_BINARY.has(op)) continue;
+    if(a==="？"||b==="？") continue;
+    if(a===ch||b===ch) continue;
+    // chỉ mục "xuất hiện trong" — dựng cho MỌI chữ có decomposition 2 phần,
+    // kể cả chữ không lên đề, để liệt kê đầy đủ chữ ghép từ một thành phần.
+    for(const part of [a,b]){
+      if(!APPEARS_IN.has(part)) APPEARS_IN.set(part, new Set());
+      APPEARS_IN.get(part).add(ch);
+    }
+    if(!displayable(a)||!displayable(b)) continue;
+    if(!e.pinyin.length && !e.def) continue;         // chữ không có thông tin gì thì bỏ
+    COMBOS.push({
+      a,b,ch,op,
+      py:pinyinTone(e.pinyin.join(", ")),
+      def:e.def, def_vi:e.def_vi||"",
+      etym:e.etym,
+      level: HSK.get(ch) || 7,
+      sg: strokeGuess(ch)
+    });
+  }
+  // ---- COMBO 3 BỘ: chữ có decomposition ⿲/⿳ + 3 thành phần (phẳng) ----
+  for(const [ch,e] of DICT){
+    const d=e.decomp;
+    if(!d || d.length!==4) continue;                 // <toán tử 3 ngôi><A><B><C>
+    const op=d[0], a=d[1], b=d[2], cc=d[3];
+    if(op!=="⿲" && op!=="⿳") continue;
+    if(a==="？"||b==="？"||cc==="？") continue;
+    if(a===ch||b===ch||cc===ch) continue;
+    if(!displayable(a)||!displayable(b)||!displayable(cc)) continue;
+    if(!e.pinyin.length && !e.def) continue;
+    COMBOS3.push({
+      a,b,c:cc,ch,op,
+      py:pinyinTone(e.pinyin.join(", ")),
+      def:e.def, def_vi:e.def_vi||"",
+      etym:e.etym,
+      level: HSK.get(ch) || 7,
+      sg: strokeGuess(ch)
+    });
+  }
+  for(const c of COMBOS3){
+    if(!LEVELS3.has(c.level)) LEVELS3.set(c.level,[]);
+    LEVELS3.get(c.level).push(c);
+  }
+  for(const arr of LEVELS3.values()) arr.sort((x,y)=>x.sg-y.sg);
+  // ---- COMBO LỒNG NHAU: chữ decomposition cây nhiều tầng (3-4 lá sạch) ----
+  for(const [ch,e] of DICT){
+    const d=e.decomp;
+    if(!d || d.length<4) continue;
+    const nOp = [...d].filter(x=>IDS_ALL.has(x)).length;
+    if(nOp < 2) continue;                            // phải lồng (>=2 toán tử)
+    if((d[0]==="⿲"||d[0]==="⿳") && d.length===4) continue; // ⿲⿳ phẳng -> đã ở chế độ 3 bộ
+    if(d.includes("？")) continue;                   // bỏ chữ có thành phần không xác định
+    const leaves = [...d].filter(x=>!IDS_ALL.has(x) && x!=="？");
+    if(leaves.length<3 || leaves.length>4) continue; // 3-4 lá cho vừa sức
+    if(leaves.includes(ch)) continue;
+    if(!leaves.every(displayable)) continue;
+    if(!e.pinyin.length && !e.def) continue;
+    COMBOSN.push({
+      parts: leaves, ch, decomp: d,
+      formula: idsToFormula(d),
+      py:pinyinTone(e.pinyin.join(", ")),
+      def:e.def, def_vi:e.def_vi||"",
+      etym:e.etym,
+      level: HSK.get(ch) || 7,
+      sg: strokeGuess(ch)
+    });
+  }
+  for(const c of COMBOSN){
+    if(!LEVELSN.has(c.level)) LEVELSN.set(c.level,[]);
+    LEVELSN.get(c.level).push(c);
+  }
+  for(const arr of LEVELSN.values()) arr.sort((x,y)=>x.parts.length-y.parts.length || x.sg-y.sg);
+  // gom theo cấp + sắp trong-cấp theo số nét ước lượng
+  for(const c of COMBOS){
+    if(!LEVELS.has(c.level)) LEVELS.set(c.level,[]);
+    LEVELS.get(c.level).push(c);
+  }
+  for(const arr of LEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+}
+
+/* ============ SINH VÒNG (4 combo, không mơ hồ, ưu tiên chuỗi) ============ */
+let lastRoundResults = new Set();   // kết quả vòng trước — tránh lặp >50% sang vòng sau
+let lastRoundCompleted = new Set(); // mục đã ghép đúng vòng trước — không xuất hiện vòng sau
+
+function modeShortLabel(m){
+  const mode = m || MODE;
+  if(mode==="word") return "Từ vựng";
+  if(mode==="idiom4") return "Thành ngữ 4 chữ";
+  if(mode==="char3") return "Ghép 3 bộ";
+  if(mode==="charN") return "Ghép lồng";
+  return "Ghép 2 bộ";
+}
+function modePools(){
+  if(MODE==="word") return WLEVELS;
+  if(MODE==="idiom4") return ILEVELS;
+  if(MODE==="char3") return LEVELS3;
+  if(MODE==="charN") return LEVELSN;
+  return LEVELS;
+}
+function comboResultKey(c){
+  return (MODE==="word"||MODE==="idiom4") ? c.w : c.ch;
+}
+
+function roundResultKeys(round){
+  return round.map(comboResultKey);
+}
+function isComboBlocked(combo){
+  return lastRoundCompleted.has(comboResultKey(combo));
+}
+function roundHasBlockedCombo(round){
+  return round.some(isComboBlocked);
+}
+function overlapRatio(prevResults, round){
+  const keys = roundResultKeys(round);
+  if(!keys.length || !prevResults.size) return 0;
+  let hit = 0;
+  for(const k of keys) if(prevResults.has(k)) hit++;
+  return hit / keys.length;
+}
+/* Chọn vòng mới sao cho |giao với vòng trước| / |vòng mới| < 50% */
+function comboGlyphs(combo){
+  if(MODE==="word") return [combo.w, combo.a, combo.b];
+  if(MODE==="idiom4") return [combo.w, ...(combo.parts||[])];
+  if(MODE==="char3") return [combo.ch, combo.a, combo.b, combo.c];
+  if(MODE==="charN") return [combo.ch, ...(combo.parts||[])];
+  return [combo.ch, combo.a, combo.b];
+}
+function comboHasChar(combo, ch){
+  return comboGlyphs(combo).some(s=> s && String(s).includes(ch));
+}
+function roundBuShangCounts(round){
+  let bu=0, shang=0;
+  for(const c of round){
+    if(comboHasChar(c,"不")) bu++;
+    if(comboHasChar(c,"上")) shang++;
+  }
+  return {bu, shang};
+}
+function roundPassesBuShangLimit(round){
+  const {bu, shang} = roundBuShangCounts(round);
+  return bu <= 1 && shang <= 1;
+}
+/* Đếm số thẻ từng chữ trên bàn ghép trong vòng (đúng logic nextRound) */
+function roundTileGlyphs(round){
+  const counts = new Map();
+  if(MODE==="word"){
+    for(const c of round) for(const g of [c.a,c.b]) counts.set(g,(counts.get(g)||0)+1);
+    return counts;
+  }
+  if(MODE==="idiom4"){
+    for(const c of round) for(const g of c.parts) counts.set(g,(counts.get(g)||0)+1);
+    return counts;
+  }
+  if(MODE==="char3"){
+    for(const c of round) for(const g of [c.a,c.b,c.c]) counts.set(g,(counts.get(g)||0)+1);
+    return counts;
+  }
+  if(MODE==="charN"){
+    for(const c of round) for(const g of c.parts) counts.set(g,(counts.get(g)||0)+1);
+    return counts;
+  }
+  const results = new Set(round.map(c=>c.ch));
+  for(const c of round){
+    for(const g of [c.a,c.b]){
+      if(results.has(g)) continue;
+      counts.set(g,(counts.get(g)||0)+1);
+    }
+  }
+  return counts;
+}
+function roundPassesTileDupLimit(round){
+  for(const n of roundTileGlyphs(round).values()) if(n > 2) return false;
+  return true;
+}
+function roundPassesAllLimits(round){
+  return roundPassesBuShangLimit(round) && roundPassesTileDupLimit(round) && !roundHasBlockedCombo(round);
+}
+function canAddToRound(round, combo){
+  return roundPassesAllLimits([...round, combo]);
+}
+function buildTilesFromRound(round){
+  const out = [];
+  for(const [g,n] of roundTileGlyphs(round)){
+    for(let i=0;i<n;i++) out.push(mkTile(g,false));
+  }
+  return out;
+}
+function pickRoundLowOverlap(gen, pool, cursor, prevResults){
+  const N = pool.length;
+  if(!N) return {round:[], cursor:0};
+  const maxTry = Math.min(N, 80);
+  let best = null, bestRatio = 1;
+  let fallback = null, fallbackRatio = 1;
+  for(let t=0; t<maxTry; t++){
+    const start = prevResults && prevResults.size ? (cursor + t) % N : (t===0?cursor:(cursor+t)%N);
+    const {round, cursor:nc} = gen(pool, start);
+    if(!round.length) continue;
+    if(roundHasBlockedCombo(round)) continue;
+    const ratio = prevResults && prevResults.size ? overlapRatio(prevResults, round) : 0;
+    const limitOk = roundPassesAllLimits(round);
+    if(limitOk && ratio < 0.5) return {round, cursor:nc};
+    if(limitOk && ratio < bestRatio){ bestRatio = ratio; best = {round, cursor:nc}; }
+    if(ratio < fallbackRatio){ fallbackRatio = ratio; fallback = {round, cursor:nc}; }
+  }
+  if(best) return best;
+  if(fallback && roundPassesAllLimits(fallback.round)) return fallback;
+  return gen(pool, cursor);
+}
+
+function pairKey(a,b){ return a<b ? a+"|"+b : b+"|"+a; }
+
+function makeRound(levelCombos, cursor){
+  const round=[], usedPairs=new Set(), usedResults=new Set();
+  let i=cursor;
+  const N=levelCombos.length;
+  let scanned=0;
+  while(round.length<4 && scanned<N){
+    const c=levelCombos[i%N]; i++; scanned++;
+    const pk=pairKey(c.a,c.b);
+    if(usedPairs.has(pk)) continue;
+    if(usedResults.has(c.ch)) continue;
+    if(isComboBlocked(c)) continue;
+    if(!canAddToRound(round, c)) continue;
+    round.push(c); usedPairs.add(pk); usedResults.add(c.ch);
+    if(round.length<4){
+      const chain=levelCombos.find(x=>!usedResults.has(x.ch)&&!isComboBlocked(x)&&(x.a===c.ch||x.b===c.ch)&&!usedPairs.has(pairKey(x.a,x.b))&&canAddToRound(round,x));
+      if(chain){ round.push(chain); usedPairs.add(pairKey(chain.a,chain.b)); usedResults.add(chain.ch); }
+    }
+  }
+  return {round, cursor: i%N};
+}
+
+/* ---- Sinh vòng chế độ TỪ: 4 từ/vòng.
+   Hai bẫy riêng của từ ghép phải chặn từ lúc RA ĐỀ:
+   (1) cặp đảo: 蜂蜜 và 蜜蜂 đều là từ thật -> không cho cùng vòng;
+   (2) cặp chéo: thẻ của 2 từ khác nhau vô tình ghép thành từ thật ngoài đề
+       (điện+não từ 电话+电脑 -> 电脑 lại là đề thì ok, nhưng 话+脑 thì không
+        được là từ thật nào) -> quét mọi tổ hợp chéo với WORDSET. ---- */
+function makeWordRound(pool, cursor){
+  const round=[]; let i=cursor, scanned=0; const N=pool.length;
+  const inRound = new Set();
+  while(round.length<4 && scanned<N){
+    const w = pool[i%N]; i++; scanned++;
+    if(inRound.has(w.w)) continue;
+    if(isComboBlocked(w)) continue;
+    const rev = w.b + w.a;
+    if(inRound.has(rev)) continue;                       // cặp đảo cùng vòng
+    // thử thêm w: quét cặp chéo giữa mọi thẻ hiện có + thẻ mới
+    const tilesNow = [];
+    round.forEach(x=>{tilesNow.push(x.a,x.b);});
+    let conflict = false;
+    for(const t of tilesNow){
+      for(const u of [w.a, w.b]){
+        for(const cand of [t+u, u+t]){
+          if(WORDSET.has(cand) && cand!==w.w && !inRound.has(cand)
+             && !round.some(x=>x.w===cand)){ conflict=true; break; }
+        }
+        if(conflict) break;
+      }
+      if(conflict) break;
+    }
+    if(conflict) continue;
+    if(!canAddToRound(round, w)) continue;
+    round.push(w); inRound.add(w.w);
+  }
+  return {round, cursor: i%N};
+}
+
+/* ---- Sinh vòng THÀNH NGỮ 4 CHỮ: 2 thành ngữ/vòng = 8 thẻ. ---- */
+function makeIdiom4Round(pool, cursor){
+  const round=[]; let i=cursor, scanned=0; const N=pool.length;
+  const inRound = new Set();
+  while(round.length<2 && scanned<N){
+    const item = pool[i%N]; i++; scanned++;
+    if(inRound.has(item.w)) continue;
+    if(isComboBlocked(item)) continue;
+    if(!canAddToRound(round, item)) continue;
+    round.push(item); inRound.add(item.w);
+  }
+  return {round, cursor: i%N};
+}
+
+/* ============ VÒNG CHƠI (engine như v1) ============ */
+let levelCursor = new Map();   // level -> vị trí đọc tiếp trong pool
+
+function startLevel(lv){
+  curLevel=lv; roundNo=0;
+  lastRoundResults = new Set();
+  lastRoundCompleted = new Set();
+  if(!levelCursor.has(lv)) levelCursor.set(lv,0);
+  $("lvlOv").classList.add("hidden");
+  nextRound();
+}
+function cursorKey(){ return MODE+":"+curLevel; }
+/* ---- Sinh vòng GHÉP 3 BỘ: 3 combo/vòng = 9 thẻ.
+   Chặn mơ hồ: bộ ba {a,b,c} không thứ tự chỉ ra một chữ trong vòng. ---- */
+function tripleKey(a,b,c){ return [a,b,c].sort().join("|"); }
+function makeRound3(pool, cursor){
+  const round=[], usedTriples=new Set(), usedResults=new Set();
+  let i=cursor, scanned=0; const N=pool.length;
+  while(round.length<3 && scanned<N){
+    const c=pool[i%N]; i++; scanned++;
+    const tk=tripleKey(c.a,c.b,c.c);
+    if(usedTriples.has(tk)) continue;
+    if(usedResults.has(c.ch)) continue;
+    if(isComboBlocked(c)) continue;
+    if(!canAddToRound(round, c)) continue;
+    round.push(c); usedTriples.add(tk); usedResults.add(c.ch);
+  }
+  return {round, cursor: i%N};
+}
+/* ---- Sinh vòng GHÉP LỒNG: 3 combo/vòng. Khớp theo ĐA TẬP lá (có lá trùng
+   như 众=人人人) nên khoá theo tập lá đã sắp. ---- */
+function partsKey(parts){ return [...parts].sort().join("|"); }
+function makeRoundN(pool, cursor){
+  const round=[], usedKeys=new Set(), usedResults=new Set();
+  let i=cursor, scanned=0; const N=pool.length;
+  while(round.length<3 && scanned<N){
+    const c=pool[i%N]; i++; scanned++;
+    const k=partsKey(c.parts);
+    if(usedKeys.has(k)) continue;
+    if(usedResults.has(c.ch)) continue;
+    if(isComboBlocked(c)) continue;
+    if(!canAddToRound(round, c)) continue;
+    round.push(c); usedKeys.add(k); usedResults.add(c.ch);
+  }
+  return {round, cursor: i%N};
+}
+
+function nextRound(){
+  if(madeThisRound.length){
+    for(const c of madeThisRound) lastRoundCompleted.add(comboResultKey(c));
+  }
+  const pools = modePools();
+  const pool = pools.get(curLevel)||[];
+  if(!pool.length){ toast("Cấp này không có gì để ghép"); showLevelSelect(); return; }
+  if(!levelCursor.has(cursorKey())) levelCursor.set(cursorKey(),0);
+  const gen = MODE==="word" ? makeWordRound
+    : (MODE==="idiom4" ? makeIdiom4Round
+    : (MODE==="char3" ? makeRound3 : (MODE==="charN" ? makeRoundN : makeRound)));
+  let {round,cursor} = pickRoundLowOverlap(gen, pool, levelCursor.get(cursorKey()), lastRoundResults);
+  if(!round.length && lastRoundCompleted.size){
+    lastRoundCompleted.clear();
+    toast("Đã ôn hết mục — quay lại từ đầu");
+    ({round,cursor} = pickRoundLowOverlap(gen, pool, levelCursor.get(cursorKey()), lastRoundResults));
+  }
+  if(!round.length){ toast("Cấp này không có gì để ghép"); showLevelSelect(); return; }
+  levelCursor.set(cursorKey(),cursor);
+  lastRoundResults = new Set(roundResultKeys(round));
+  roundNo++;
+  combosLeft = round.map(c=>({...c}));
+  madeThisRound=[]; selected=[];
+  tiles = buildTilesFromRound(combosLeft);
+  if(MODE==="word" || MODE==="idiom4" || MODE==="char3" || MODE==="charN"){
+    for(let i=tiles.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [tiles[i],tiles[j]]=[tiles[j],tiles[i]]; }
+  }
+  glyphEl.textContent="？"; glyphEl.className="glyph placeholder";
+  glyphEl.style.fontSize="";
+  tzgEl.classList.remove("stamped","pop","multi","quad");
+  tzgEl.parentElement.classList.remove("wide");
+  glyphEl.style.display="";
+  tzgEl.classList.remove("stamped","pop");
+  tradBoxEl.classList.add("hidden"); tradWrapEl.classList.remove("show"); tradCellsEl.innerHTML="";
+  mainCapEl.textContent = (MODE==="word"||MODE==="idiom4") ? (MODE==="idiom4"?"thành ngữ":"từ vựng") : "giản thể";
+  infoEl.innerHTML = MODE==="word"
+    ? '<span style="font-size:13px;color:var(--ink-dim)">Chạm 2 chữ ghép được thành một TỪ (thứ tự nào cũng nhận)</span>'
+    : ( MODE==="idiom4"
+        ? '<span style="font-size:13px;color:var(--ink-dim)">Chạm 4 chữ ghép được thành ngữ 4 chữ (thứ tự nào cũng nhận)</span>'
+        : ( MODE==="char3"
+            ? '<span style="font-size:13px;color:var(--ink-dim)">Chạm 3 bộ ghép được thành một chữ (thứ tự nào cũng nhận)</span>'
+            : ( MODE==="charN"
+                ? '<span style="font-size:13px;color:var(--ink-dim)">Chạm tất cả các bộ (ghép lồng) thành một chữ</span>'
+                : '<span style="font-size:13px;color:var(--ink-dim)">Chạm 2 bộ ghép được thành một chữ</span>' ) ) );
+  renderBoard(); updHud();
+}
+function mkTile(g,m){return{id:"t"+(++tileSeq),glyph:g,isMade:m};}
+function glyphCountOnBoard(g){ return tiles.filter(t=>t.glyph===g).length; }
+
+function tileName(g){
+  const e = DICT.get(g);
+  const d = viGloss(g, e);
+  const p = e ? pinyinTone(e.pinyin[0]||"") : "";
+  let base = [p, d].filter(Boolean).join(" · ");
+  const tv = tradOf(g);
+  if(tv) base = (base ? base+" " : "") + "("+tv+")";
+  return base;
+}
+function tileIconHtml(g){
+  // Ở chế độ "word"/"idiom4" mỗi ô trên bàn là một CHỮ HOÀN CHỈNH (không phải
+  // bộ thủ) — dùng strict để không mượn nhầm icon của thành phần cấu tạo bên
+  // trong chữ đó (vd 七 không có emoji riêng thì hiện lại chính chữ, không
+  // "biến thành" 1️⃣ mượn từ bộ 一 bên trong).
+  return iconHtml(g, "tile-ic", MODE==="word"||MODE==="idiom4");
+}
+function renderBoard(){
+  boardEl.innerHTML="";
+  tiles.forEach(t=>{
+    const el=document.createElement("button");
+    el.className="tile"+(t.isMade?" made":"")+(selected.includes(t.id)?" sel":"");
+    el.id=t.id;
+    const ic = tileIconHtml(t.glyph);
+    el.innerHTML=`<span class="g-wrap">${ic}<span class="g">${t.glyph}</span></span><span class="n">${tileName(t.glyph)}</span>`;
+    el.addEventListener("click",()=>tapTile(t.id));
+    boardEl.appendChild(el);
+  });
+}
+function updHud(){
+  $("score").textContent=score;
+  const st=$("streak"); st.textContent=streak; st.className=streak>=3?"streak-fire":"";
+  const total=combosLeft.length+madeThisRound.length;
+  $("roundName").textContent=`${modeShortLabel()} · ${lvName(curLevel)} · Vòng ${roundNo}`;
+  $("roundCount").textContent=`${madeThisRound.length}/${total}`;
+  $("prog").style.width=total?(madeThisRound.length/total*100)+"%":"0%";
+}
+function lvName(l){return l===7?"Ngoài HSK":"HSK "+l;}
+
+function tapTile(id){
+  if(selected.includes(id)){selected=selected.filter(x=>x!==id);renderBoard();return;}
+  selected.push(id);
+  if(MODE==="charN"){
+    // ghép lồng: cần chạm đủ số lá; khớp theo ĐA TẬP (kể cả lá trùng 众=人人人)
+    const pickedGlyphs = selected.map(x=>tiles.find(t=>t.id===x).glyph);
+    const maxParts = Math.max(...combosLeft.map(c=>c.parts.length));
+    if(selected.length < 2){ renderBoard(); return; }
+    const key = partsKey(pickedGlyphs);
+    const hit = combosLeft.findIndex(c=>partsKey(c.parts)===key);
+    if(hit>=0){ const picks=selected.map(x=>tiles.find(t=>t.id===x)); mergeN(hit,picks); return; }
+    if(selected.length>=maxParts){ const picks=selected.map(x=>tiles.find(t=>t.id===x)); wrongN(picks); }
+    else renderBoard();
+    return;
+  }
+  if(MODE==="idiom4"){
+    if(selected.length < 4){ renderBoard(); return; }
+    const picks = selected.map(s=>tiles.find(t=>t.id===s));
+    const key = partsKey(picks.map(t=>t.glyph));
+    const hit = combosLeft.findIndex(c=>partsKey(c.parts)===key);
+    if(hit>=0) merge4(hit, picks); else wrong4(picks);
+    return;
+  }
+  const need = MODE==="char3" ? 3 : 2;
+  if(selected.length<need){renderBoard();return;}
+  const picks = selected.map(s=>tiles.find(t=>t.id===s));
+  let hit;
+  if(MODE==="char3"){
+    // 3 bộ: khớp không kể thứ tự (so sánh tập hợp glyph)
+    const key = picks.map(t=>t.glyph).sort().join("|");
+    hit = combosLeft.findIndex(c=>[c.a,c.b,c.c].sort().join("|")===key);
+    if(hit>=0) merge3(hit, picks); else wrong3(picks);
+    return;
+  }
+  const [t1,t2]=picks;
+  // 2 bộ / từ: chạm thứ tự nào cũng nhận
+  hit=combosLeft.findIndex(c=>(c.a===t1.glyph&&c.b===t2.glyph)||(c.a===t2.glyph&&c.b===t1.glyph));
+  if(hit>=0) merge(hit,t1,t2); else wrong(t1,t2);
+}
+function wrong4(picks){
+  streak=0;updHud();
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("shakeit");});
+  tzgEl.classList.add("shakeit");
+  setTimeout(()=>{tzgEl.classList.remove("shakeit");selected=[];renderBoard();},420);
+  toast("Chưa ghép được — thử bộ bốn chữ khác!");
+}
+function wrong(t1,t2){
+  streak=0;updHud();
+  [t1,t2].forEach(t=>{const el=$(t.id);if(el)el.classList.add("shakeit");});
+  tzgEl.classList.add("shakeit");
+  setTimeout(()=>{tzgEl.classList.remove("shakeit");selected=[];renderBoard();},420);
+  toast("Chưa ghép được — thử cặp khác!");
+}
+function wrong3(picks){
+  streak=0;updHud();
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("shakeit");});
+  tzgEl.classList.add("shakeit");
+  setTimeout(()=>{tzgEl.classList.remove("shakeit");selected=[];renderBoard();},420);
+  toast("Chưa ghép được — thử bộ ba khác!");
+}
+function merge(ci,t1,t2){
+  const c=combosLeft.splice(ci,1)[0];
+  const chain=t1.isMade||t2.isMade;
+  streak++;
+  const gain=(chain?15:10)*(streak>=3?2:1);
+  score+=gain; madeThisRound.push(c);
+  selected=[];
+  [t1,t2].forEach(t=>{const el=$(t.id);if(el)el.classList.add("gone");});
+  const shown = MODE==="word" ? c.w : c.ch;
+  const isWordMerge = MODE==="word";
+  const revealMerge = ()=>{
+    if(isWordMerge && shown.length>1){
+      glyphEl.style.display="none";
+      tzgEl.classList.add("multi","icon-merge-reveal");
+      tzgEl.parentElement.classList.add("wide");
+      tzgEl.querySelectorAll(".cell").forEach(el=>el.remove());
+      for(const chr of shown){
+        const cell=document.createElement("div"); cell.className="cell";
+        const sp=document.createElement("span"); sp.textContent=chr;
+        cell.appendChild(sp); tzgEl.appendChild(cell);
+      }
+    } else {
+      glyphEl.style.display="";
+      tzgEl.classList.remove("multi","quad","icon-merge-reveal");
+      tzgEl.parentElement.classList.remove("wide");
+      tzgEl.querySelectorAll(".cell").forEach(el=>el.remove());
+      glyphEl.textContent=shown; glyphEl.className="glyph";
+      glyphEl.style.fontSize="";
+      tzgEl.classList.add("icon-merge-reveal");
+    }
+    tzgEl.classList.remove("stamped","pop"); void tzgEl.offsetWidth;
+    tzgEl.classList.add("stamped","pop");
+    setTimeout(()=>tzgEl.classList.remove("icon-merge-reveal"),500);
+    finishMergeInfo(c, t1, t2, chain, gain);
+  };
+  // theo logic đã chốt: hiệu ứng bay-hoà chạy ở CẢ ghép 2 bộ lẫn ghép từ
+  playIconMergeFx(t1, t2, c.a, c.b, revealMerge, MODE==="word");
+}
+function finishMergeInfo(c, t1, t2, chain, gain){
+  const icA=iconHtml(c.a,"formula-ic"), icB=iconHtml(c.b,"formula-ic");
+  const roles = MODE==="word" ? {aRole:null,bRole:null} : decideRoles(c);
+  const aTag = roles.aRole ? `<span class="${roles.aRole}">${c.a}</span>` : c.a;
+  const bTag = roles.bRole ? `<span class="${roles.bRole}">${c.b}</span>` : c.b;
+  let mn="";
+  if(c.etym){
+    if(c.etym.hint_vi) mn=c.etym.hint_vi;
+    else if(c.etym.hint) mn=c.etym.hint;
+    else if(c.etym.type==="pictophonetic"&&(c.etym.semantic||c.etym.phonetic))
+      mn=`${c.etym.semantic||"?"} gợi nghĩa · ${c.etym.phonetic||"?"} gợi âm`;
+  }
+  const legend = (roles.aRole||roles.bRole)
+    ? `<div class="legend"><span class="sem">■</span> tạo nghĩa &nbsp; <span class="pho">■</span> tạo âm</div>` : "";
+  const tv = MODE==="word" ? c.trad : tradOf(c.ch);
+  if(tv){
+    const variants = tv.split("/");
+    const isMultiVariant = variants.length > 1;
+    tradCellsEl.innerHTML = "";
+    for(const variant of variants){
+      for(const chr of variant){
+        const cell=document.createElement("div"); cell.className="tcell";
+        const sp=document.createElement("span"); sp.textContent=chr;
+        cell.appendChild(sp); tradCellsEl.appendChild(cell);
+      }
+    }
+    tradCapEl.textContent = isMultiVariant
+      ? `phồn thể (繁) · ${variants.length} biến thể`
+      : "phồn thể (繁)";
+    tradBoxEl.classList.remove("hidden");
+    requestAnimationFrame(()=>requestAnimationFrame(()=>tradWrapEl.classList.add("show")));
+  } else {
+    tradBoxEl.classList.add("hidden"); tradWrapEl.classList.remove("show");
+  }
+  let tradLine = "";
+  const swLine = MODE==="word" ? shuowenLine([c.a,c.b]) : shuowenLine([c.a,c.b,c.ch]);
+  const meaningHtml = meaningViHtml(c);
+  const compGloss = compGlossHtml([c.a, c.b]);
+  const derivedLine = (MODE==="word") ? "" : derivedFromLine(c.ch);
+  const wordsLine   = (MODE==="word") ? "" : wordsWithCharLine(c.ch);
+  infoEl.innerHTML=
+    buildComponentCard([c.a,c.b], MODE==="word"?c.w:c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40), null, MODE==="word")+
+    legend+
+    meaningHtml+
+    compGloss+
+    tradLine+
+    (mn?`<div class="idea">💡 ${mn}</div>`:"")+
+    swLine+
+    wordsLine+
+    derivedLine+
+    `<div class="idea">${lvName(c.level)}${chain?' · <b style="color:var(--jade)">Chuỗi +'+gain+'đ!</b>':' · +'+gain+'đ'}${streak>=3?' 🔥 x2':''}</div>`;
+  setTimeout(()=>{
+    tiles=tiles.filter(t=>t.id!==t1.id&&t.id!==t2.id);
+    const usedLater = MODE!=="word" && MODE!=="idiom4" && combosLeft.some(cc=>cc.a===c.ch||cc.b===c.ch);
+    if(usedLater && glyphCountOnBoard(c.ch) < 2){
+      const nt=mkTile(c.ch,true); tiles.push(nt); renderBoard();
+      const el=$(nt.id); if(el)el.classList.add("born");
+      toast("Chữ mới lên bàn — ghép tiếp!");
+    } else renderBoard();
+    updHud();
+    if(!combosLeft.length) setTimeout(showSummary,650);
+  },360);
+}
+
+function merge4(ci, picks){
+  const c=combosLeft.splice(ci,1)[0];
+  streak++;
+  const gain=14*(streak>=3?2:1);
+  score+=gain; madeThisRound.push(c);
+  selected=[];
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("gone");});
+  const shown = c.w;
+  glyphEl.style.display="none";
+  tzgEl.classList.add("multi","quad");
+  tzgEl.parentElement.classList.add("wide");
+  tzgEl.querySelectorAll(".cell").forEach(el=>el.remove());
+  for(const chr of shown){
+    const cell=document.createElement("div"); cell.className="cell";
+    const sp=document.createElement("span"); sp.textContent=chr;
+    cell.appendChild(sp); tzgEl.appendChild(cell);
+  }
+  tzgEl.classList.remove("stamped","pop"); void tzgEl.offsetWidth;
+  tzgEl.classList.add("stamped","pop");
+  const tv = c.trad;
+  if(tv){
+    const variants = tv.split("/");
+    const isMultiVariant = variants.length > 1;
+    tradCellsEl.innerHTML = "";
+    for(const variant of variants){
+      for(const chr of variant){
+        const cell=document.createElement("div"); cell.className="tcell";
+        const sp=document.createElement("span"); sp.textContent=chr;
+        cell.appendChild(sp); tradCellsEl.appendChild(cell);
+      }
+    }
+    tradCapEl.textContent = isMultiVariant
+      ? `phồn thể (繁) · ${variants.length} biến thể`
+      : "phồn thể (繁)";
+    tradBoxEl.classList.remove("hidden");
+    requestAnimationFrame(()=>requestAnimationFrame(()=>tradWrapEl.classList.add("show")));
+  } else {
+    tradBoxEl.classList.add("hidden"); tradWrapEl.classList.remove("show");
+  }
+  const swLine = shuowenLine(c.parts);
+  const compGloss = compGlossHtml(c.parts);
+  infoEl.innerHTML=
+    buildIdiomCard(c.parts, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,50))+
+    meaningViHtml(c)+
+    compGloss+
+    swLine+
+    `<div class="idea">${lvName(c.level)} · +${gain}đ${streak>=3?' 🔥 x2':''}</div>`;
+  setTimeout(()=>{
+    const goneIds=new Set(picks.map(t=>t.id));
+    tiles=tiles.filter(t=>!goneIds.has(t.id));
+    renderBoard(); updHud();
+    if(!combosLeft.length) setTimeout(showSummary,650);
+  },360);
+}
+
+function merge3(ci, picks){
+  const c=combosLeft.splice(ci,1)[0];
+  streak++;
+  const gain=12*(streak>=3?2:1);   // ghép 3 bộ khó hơn -> thưởng cao hơn ghép 2
+  score+=gain; madeThisRound.push(c);
+  selected=[];
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("gone");});
+  // hiệu ứng chồng tuần tự (1+2 rồi +3) chạy TRƯỚC, reveal chạy trong callback
+  playIconMergeFxSeq(picks, [c.a,c.b,c.c], ()=>{
+  glyphEl.style.display=""; tzgEl.classList.remove("multi");
+  tzgEl.parentElement.classList.remove("wide");
+  tzgEl.querySelectorAll(".cell").forEach(el=>el.remove());
+  glyphEl.textContent=c.ch; glyphEl.className="glyph"; glyphEl.style.fontSize="";
+  tzgEl.classList.remove("stamped","pop"); void tzgEl.offsetWidth;
+  tzgEl.classList.add("stamped","pop");
+  tzgEl.classList.add("icon-merge-reveal");
+  setTimeout(()=>tzgEl.classList.remove("icon-merge-reveal"),500);
+  const roles = decideRoles3(c);
+  const legend = (roles.a||roles.b||roles.c)
+    ? `<div class="legend"><span class="sem">■</span> tạo nghĩa &nbsp; <span class="pho">■</span> tạo âm</div>` : "";
+  let mn="";
+  if(c.etym){
+    if(c.etym.hint_vi) mn=c.etym.hint_vi;
+    else if(c.etym.hint) mn=c.etym.hint;
+  }
+  const tv = tradOf(c.ch);
+  if(tv){
+    const variants=tv.split("/"); tradCellsEl.innerHTML="";
+    for(const v of variants) for(const chr of v){
+      const cell=document.createElement("div");cell.className="tcell";
+      const sp=document.createElement("span");sp.textContent=chr;
+      cell.appendChild(sp);tradCellsEl.appendChild(cell);
+    }
+    tradCapEl.textContent = variants.length>1 ? `phồn thể (繁) · ${variants.length} biến thể` : "phồn thể (繁)";
+    tradBoxEl.classList.remove("hidden");
+    requestAnimationFrame(()=>requestAnimationFrame(()=>tradWrapEl.classList.add("show")));
+  } else { tradBoxEl.classList.add("hidden"); tradWrapEl.classList.remove("show"); }
+  const swLine = shuowenLine([c.a,c.b,c.c,c.ch]);
+  const meaningHtml = meaningViHtml(c);
+  const compGloss = compGlossHtml([c.a, c.b, c.c]);
+  const derivedLine = derivedFromLine(c.ch);
+  const wordsLine   = wordsWithCharLine(c.ch);
+  infoEl.innerHTML=
+    buildComponentCard([c.a,c.b,c.c], c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40))
+    + legend
+    + meaningHtml
+    + compGloss
+    + (mn?`<div class="idea">💡 ${mn}</div>`:"")
+    + swLine
+    + wordsLine
+    + derivedLine
+    + `<div class="idea">${lvName(c.level)} · ghép 3 bộ · +${gain}đ${streak>=3?' 🔥 x2':''}</div>`;
+  setTimeout(()=>{
+    const goneIds=new Set(picks.map(t=>t.id));
+    tiles=tiles.filter(t=>!goneIds.has(t.id));
+    renderBoard(); updHud();
+    if(!combosLeft.length) setTimeout(showSummary,650);
+  },200);
+  });   // đóng callback playIconMergeFxSeq của merge3
+}
+function decideRoles3(c){
+  const e=c.etym; const out={a:null,b:null,c:null};
+  if(!e || e.type!=="pictophonetic") return out;
+  const sem=e.semantic, pho=e.phonetic;
+  for(const k of ["a","b","c"]){
+    if(sameComp(c[k],sem)) out[k]="sem";
+    else if(sameComp(c[k],pho)) out[k]="pho";
+  }
+  return out;
+}
+function wrongN(picks){
+  streak=0;updHud();
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("shakeit");});
+  tzgEl.classList.add("shakeit");
+  setTimeout(()=>{tzgEl.classList.remove("shakeit");selected=[];renderBoard();},420);
+  toast("Chưa đúng — thử tổ hợp bộ khác!");
+}
+function mergeN(ci, picks){
+  const c=combosLeft.splice(ci,1)[0];
+  streak++;
+  const gain=15*(streak>=3?2:1);   // ghép lồng khó nhất -> thưởng cao nhất
+  score+=gain; madeThisRound.push(c);
+  selected=[];
+  picks.forEach(t=>{const el=$(t.id);if(el)el.classList.add("gone");});
+  // chồng tuần tự: 1+2 trước, rồi +3, +4 (nếu có) — reveal trong callback
+  playIconMergeFxSeq(picks, c.parts, ()=>{
+  glyphEl.style.display=""; tzgEl.classList.remove("multi");
+  tzgEl.parentElement.classList.remove("wide");
+  tzgEl.querySelectorAll(".cell").forEach(el=>el.remove());
+  glyphEl.textContent=c.ch; glyphEl.className="glyph"; glyphEl.style.fontSize="";
+  tzgEl.classList.remove("stamped","pop"); void tzgEl.offsetWidth;
+  tzgEl.classList.add("stamped","pop");
+  tzgEl.classList.add("icon-merge-reveal");
+  setTimeout(()=>tzgEl.classList.remove("icon-merge-reveal"),500);
+  let mn="";
+  if(c.etym){ if(c.etym.hint_vi) mn=c.etym.hint_vi; else if(c.etym.hint) mn=c.etym.hint; }
+  const tv=tradOf(c.ch);
+  if(tv){
+    const variants=tv.split("/"); tradCellsEl.innerHTML="";
+    for(const v of variants) for(const chr of v){
+      const cell=document.createElement("div");cell.className="tcell";
+      const sp=document.createElement("span");sp.textContent=chr;
+      cell.appendChild(sp);tradCellsEl.appendChild(cell);
+    }
+    tradCapEl.textContent = variants.length>1 ? `phồn thể (繁) · ${variants.length} biến thể` : "phồn thể (繁)";
+    tradBoxEl.classList.remove("hidden");
+    requestAnimationFrame(()=>requestAnimationFrame(()=>tradWrapEl.classList.add("show")));
+  } else { tradBoxEl.classList.add("hidden"); tradWrapEl.classList.remove("show"); }
+  const swLine = shuowenLine([...c.parts, c.ch]);
+  const meaningHtml = meaningViHtml(c);
+  const compGloss = compGlossHtml(c.parts);
+  const derivedLine = derivedFromLine(c.ch);
+  const wordsLine   = wordsWithCharLine(c.ch);
+  infoEl.innerHTML=
+    buildComponentCard(c.parts, c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40), c.formula)
+    + meaningHtml
+    + compGloss
+    + (mn?`<div class="idea">💡 ${mn}</div>`:"")
+    + swLine
+    + wordsLine
+    + derivedLine
+    + `<div class="idea">${lvName(c.level)} · ghép lồng (${c.parts.length} bộ) · +${gain}đ${streak>=3?' 🔥 x2':''}</div>`;
+  setTimeout(()=>{
+    const goneIds=new Set(picks.map(t=>t.id));
+    tiles=tiles.filter(t=>!goneIds.has(t.id));
+    renderBoard(); updHud();
+    if(!combosLeft.length) setTimeout(showSummary,650);
+  },200);
+  });   // đóng callback playIconMergeFxSeq của mergeN
+}
+
+$("hintBtn").addEventListener("click",()=>{
+  if(!combosLeft.length)return;
+  selected=[];
+  if(MODE==="char3"){
+    const c=combosLeft[0];
+    score=Math.max(0,score-15);updHud();
+    for(const g of [c.a,c.b,c.c]){
+      const t=tiles.find(x=>x.glyph===g && !x._hinted);
+      if(t){ t._hinted=true; const el=$(t.id); if(el){el.classList.add("sel");setTimeout(()=>el.classList.remove("sel"),1500);} }
+    }
+    tiles.forEach(x=>delete x._hinted);
+    toast(`Gợi ý: thử ${c.a} ${c.b} ${c.c}`);
+    return;
+  }
+  if(MODE==="charN"){
+    const c=combosLeft[0];
+    score=Math.max(0,score-15);updHud();
+    for(const g of c.parts){
+      const t=tiles.find(x=>x.glyph===g && !x._hinted);
+      if(t){ t._hinted=true; const el=$(t.id); if(el){el.classList.add("sel");setTimeout(()=>el.classList.remove("sel"),1500);} }
+    }
+    tiles.forEach(x=>delete x._hinted);
+    toast(`Gợi ý: ${c.parts.join(" ")}`);
+    return;
+  }
+  if(MODE==="idiom4"){
+    const c=combosLeft[0];
+    score=Math.max(0,score-15);updHud();
+    for(const g of c.parts){
+      const t=tiles.find(x=>x.glyph===g && !x._hinted);
+      if(t){ t._hinted=true; const el=$(t.id); if(el){el.classList.add("sel");setTimeout(()=>el.classList.remove("sel"),1500);} }
+    }
+    tiles.forEach(x=>delete x._hinted);
+    toast(`Gợi ý: ${c.parts.join(" ")}`);
+    return;
+  }
+  const avail=new Map(); tiles.forEach(t=>avail.set(t.glyph,(avail.get(t.glyph)||0)+1));
+  const c=combosLeft.find(cc=>cc.a===cc.b?(avail.get(cc.a)||0)>=2:(avail.has(cc.a)&&avail.has(cc.b)));
+  if(!c){toast("Hãy ghép chuỗi trước đã!");return;}
+  score=Math.max(0,score-15);updHud();
+  const f=tiles.find(t=>t.glyph===c.a);
+  const s=tiles.find(t=>t.glyph===c.b&&t.id!==f.id);
+  [f,s].forEach(t=>{if(!t)return;const el=$(t.id);if(el){el.classList.add("sel");setTimeout(()=>el.classList.remove("sel"),1500);}});
+  toast(`Gợi ý: thử ${c.a} với ${c.b}`);
+});
+$("skipBtn").addEventListener("click",()=>{streak=0;nextRound();});
+$("lvlBtn").addEventListener("click",showLevelSelect);
+
+function showSummary(){
+  $("sumTitle").textContent=`✅ ${lvName(curLevel)} · Vòng ${roundNo} xong!`;
+  $("sumSub").textContent = MODE==="idiom4"
+    ? "Những thành ngữ bạn vừa ghép được:"
+    : "Những chữ bạn vừa ghép được:";
+  const box=$("sumChars");box.innerHTML="";
+  madeThisRound.forEach(c=>{
+    const d=document.createElement("div");d.className="lchip";
+    const isWholeChars = MODE==="word" || MODE==="idiom4"; // parts đây là CHỮ, không phải bộ thủ
+    const parts = MODE==="idiom4" ? (c.parts||[]) : [c.a, c.b].filter(Boolean);
+    const fe=parts.map(g=>iconHtml(g,"formula-ic",isWholeChars)).join("");
+    const shown = isWholeChars ? (c.w||"") : (c.ch||"");
+    const tv = isWholeChars ? c.trad : tradOf(c.ch);
+    const tvTag = tv ? `<span style="color:var(--ink-dim);font-size:.6em"> ${tv}</span>` : "";
+    d.innerHTML=`<span class="c" style="${isWholeChars?'font-size:22px':''}">${shown}${tvTag}</span><span class="p">${c.py||""}${fe?" "+fe:""}</span><span class="m">${c.def_vi||""}</span>`;
+    box.appendChild(d);
+  });
+  $("sumOv").classList.remove("hidden");
+}
+$("nextBtn").addEventListener("click",()=>{$("sumOv").classList.add("hidden");nextRound();});
+
+function showLevelSelect(){
+  // hàng nút chuyển chế độ
+  const modeBox=$("modeBox");
+  modeBox.innerHTML="";
+  [["char","🧩 Ghép 2 bộ → chữ", true],
+   ["char3","🧩 Ghép 3 bộ → chữ", COMBOS3.length>0],
+   ["charN","🪆 Ghép lồng → chữ", COMBOSN.length>0],
+   ["word","🔗 Ghép 2 chữ → từ", CEDICT_OK],
+   ["idiom4","📜 Ghép 4 chữ → thành ngữ", IDIOM4_OK]].forEach(([m,label,ok])=>{
+    const b=document.createElement("button");
+    b.className="btn"+(MODE===m?" pri":"");
+    b.textContent=label;
+    b.disabled=!ok;
+    if(!ok && m==="word") b.title="Cần file cedict_ts.u8 cùng thư mục";
+    if(!ok && m==="idiom4") b.title="Cần cedict_ts.u8 + cedict.vi.txt (thành ngữ 4 chữ có nghĩa Việt)";
+    if(!ok && m==="char3") b.title="Không có chữ ghép 3 bộ trong dữ liệu";
+    if(!ok && m==="charN") b.title="Không có chữ ghép lồng trong dữ liệu";
+    b.addEventListener("click",()=>{ MODE=m; showLevelSelect(); });
+    modeBox.appendChild(b);
+  });
+  const grid=$("lvlGrid");grid.innerHTML="";
+  const pools = modePools();
+  const unit = MODE==="word" ? "từ ghép được"
+             : (MODE==="idiom4" ? "thành ngữ ghép được"
+             : (MODE==="char3" ? "chữ (ghép 3 bộ)"
+             : (MODE==="charN" ? "chữ (ghép lồng)" : "chữ (ghép 2 bộ)")));
+  [1,2,3,4,5,6,7].forEach(lv=>{
+    const n=(pools.get(lv)||[]).length;
+    if(!n)return;
+    const b=document.createElement("button");
+    b.className="lvl-btn";
+    b.innerHTML=`<b>${lvName(lv)}</b><span>${n} ${unit}</span>`;
+    b.addEventListener("click",()=>startLevel(lv));
+    grid.appendChild(b);
+  });
+  $("dataStat").textContent = MODE==="word"
+    ? `Tổng: ${WORDS.length} từ 2 chữ (CC-CEDICT) — cấp HSK của từ = cấp cao nhất trong các chữ`
+    : ( MODE==="idiom4"
+        ? `Tổng: ${IDIOMS4.length} thành ngữ 4 chữ (CC-CEDICT) — chỉ hiện mục có nghĩa tiếng Việt`
+        : ( MODE==="char3"
+            ? `Tổng: ${COMBOS3.length} chữ ghép từ 3 bộ (⿲/⿳) — thứ tự chạm nào cũng nhận`
+            : ( MODE==="charN"
+                ? `Tổng: ${COMBOSN.length} chữ ghép lồng (cấu trúc nhiều tầng, 3-4 bộ)`
+                : `Tổng: ${COMBOS.length} chữ ghép từ 2 bộ`
+                  + (CEDICT_OK ? "" : " · (chưa thấy cedict_ts.u8 — chế độ từ tắt)") ) ) );
+  $("lvlOv").classList.remove("hidden");
+}
+
+/* ============ KHỞI ĐỘNG ============ */
+(async()=>{
+  const ok=await loadData();
+  if(!ok)return;
+  $("loadOv").classList.add("hidden");
+  showLevelSelect();
+})();
+
+/* =====================================================================
+   UX ENHANCEMENTS: keyboard nav, target-cell preview/flip, onboarding tour
+===================================================================== */
+(function(){
+  const boardEl = document.getElementById("board");
+  const tzgEl   = document.getElementById("tzg");
+  const prevEl  = document.getElementById("tzgPreview");
+
+  /* --- Selection preview inside 田字格 --- */
+  function currentSelectedGlyphs(){
+    if(typeof selected==="undefined"||typeof tiles==="undefined")return [];
+    return selected.map(id=>{const t=tiles.find(x=>x.id===id);return t?t.glyph:null;}).filter(Boolean);
+  }
+  function updPreview(){
+    if(!prevEl)return;
+    const gs = currentSelectedGlyphs();
+    if(!gs.length){ prevEl.classList.remove("on"); prevEl.innerHTML=""; return; }
+    const strict = MODE==="word"||MODE==="idiom4"; // đang chọn CHỮ (từ vựng/thành ngữ), không phải bộ thủ
+    prevEl.innerHTML = gs.map((g,i)=> (i?'<span class="plus">+</span>':'') + iconHtml(g,"formula-ic",strict) + `<span>${g}</span>`).join("");
+    prevEl.classList.add("on");
+  }
+  function pulseTzg(){
+    if(!tzgEl)return;
+    tzgEl.classList.remove("pulse"); void tzgEl.offsetWidth; tzgEl.classList.add("pulse");
+    setTimeout(()=>tzgEl.classList.remove("pulse"),520);
+  }
+  function triggerFlip(){
+    if(!tzgEl)return;
+    tzgEl.classList.remove("flipin"); void tzgEl.offsetWidth; tzgEl.classList.add("flipin");
+    setTimeout(()=>tzgEl.classList.remove("flipin"),600);
+  }
+  function clearPreview(){ if(prevEl){prevEl.classList.remove("on");prevEl.innerHTML="";} }
+
+  /* --- Wrap game functions to enhance behavior --- */
+  const _tapTile = tapTile;
+  tapTile = function(id){
+    const before = (typeof selected!=="undefined"?selected.length:0);
+    const r = _tapTile.apply(this, arguments);
+    updPreview();
+    if((selected||[]).length !== before) pulseTzg();
+    return r;
+  };
+  const _merge = merge;
+  merge = function(){
+    const r = _merge.apply(this, arguments);
+    clearPreview();
+    triggerFlip();
+    return r;
+  };
+  const _merge4 = merge4;
+  merge4 = function(){
+    const r = _merge4.apply(this, arguments);
+    clearPreview();
+    triggerFlip();
+    return r;
+  };
+  const _resetRound = (typeof resetRound==="function")?resetRound:null;
+  if(_resetRound){
+    resetRound = function(){ const r=_resetRound.apply(this,arguments); clearPreview(); return r; };
+  }
+
+  /* --- Enrich rendered tiles with ARIA + keyboard --- */
+  const _renderBoard = renderBoard;
+  renderBoard = function(){
+    const r = _renderBoard.apply(this, arguments);
+    const els = boardEl.querySelectorAll(".tile");
+    els.forEach((el,i)=>{
+      const t = tiles.find(x=>x.id===el.id);
+      const name = t ? (typeof tileName==="function" ? tileName(t.glyph) : "") : "";
+      el.setAttribute("role","gridcell");
+      el.setAttribute("tabindex", i===0 ? "0" : "-1");
+      el.setAttribute("aria-pressed", selected.includes(el.id) ? "true" : "false");
+      if(t) el.setAttribute("aria-label", `Bộ ${t.glyph}${name?` — ${name}`:""}`);
+    });
+    // keep focus on the currently selected/last-touched tile if possible
+    if(document.activeElement && document.activeElement.classList && document.activeElement.classList.contains("tile")===false){
+      // no-op
+    }
+    return r;
+  };
+
+  /* --- Board keyboard navigation --- */
+  function focusableTiles(){ return Array.from(boardEl.querySelectorAll(".tile")); }
+  function moveFocus(from, dir){
+    const list = focusableTiles(); if(!list.length) return;
+    let i = list.indexOf(from); if(i<0) i=0;
+    const style = window.getComputedStyle(boardEl);
+    const cols = (style.gridTemplateColumns||"").split(" ").filter(Boolean).length || 1;
+    let ni = i;
+    if(dir==="left") ni = Math.max(0, i-1);
+    else if(dir==="right") ni = Math.min(list.length-1, i+1);
+    else if(dir==="up") ni = Math.max(0, i-cols);
+    else if(dir==="down") ni = Math.min(list.length-1, i+cols);
+    else if(dir==="home") ni = 0;
+    else if(dir==="end") ni = list.length-1;
+    list.forEach(el=>el.setAttribute("tabindex","-1"));
+    list[ni].setAttribute("tabindex","0");
+    list[ni].focus();
+  }
+  boardEl.addEventListener("keydown",(e)=>{
+    const t = e.target.closest(".tile"); if(!t) return;
+    const k = e.key;
+    if(["ArrowLeft","ArrowRight","ArrowUp","ArrowDown","Home","End"].includes(k)){
+      e.preventDefault();
+      moveFocus(t, {ArrowLeft:"left",ArrowRight:"right",ArrowUp:"up",ArrowDown:"down",Home:"home",End:"end"}[k]);
+    } else if(k==="Escape"){
+      if(selected && selected.length){ selected.length=0; renderBoard(); clearPreview(); }
+    }
+  });
+
+  /* --- Global hotkeys --- */
+  function anyOverlayOpen(){
+    return !!document.querySelector(".overlay:not(.hidden)") || document.getElementById("tourRoot").classList.contains("on");
+  }
+  document.addEventListener("keydown",(e)=>{
+    if(e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+    if(anyOverlayOpen()) return;
+    const k = e.key.toLowerCase();
+    if(k==="h"){ e.preventDefault(); document.getElementById("hintBtn").click(); }
+    else if(k==="s"){ e.preventDefault(); document.getElementById("skipBtn").click(); }
+    else if(k==="l"){ e.preventDefault(); document.getElementById("lvlBtn").click(); }
+    else if(k==="?" || (e.shiftKey && k==="/")){ e.preventDefault(); startTour(); }
+  });
+
+  /* --- Onboarding tour --- */
+  const STEPS = [
+    {sel:"#tzg",     head:"田字格 — chữ mục tiêu", body:"Đây là chữ bạn cần <b>ghép được</b>. Bên dưới sẽ hiện bộ thủ (radical) để bạn chọn."},
+    {sel:"#board",   head:"Bàn ghép bộ kiện",       body:"Chạm 2 ô để ghép thành chữ đích. Dùng <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> để di chuyển, <kbd>Enter</kbd> chọn, <kbd>Esc</kbd> huỷ."},
+    {sel:"#hintBtn", head:"Gợi ý",                  body:"Bí thì bấm 💡 — mất 15 điểm. Phím tắt: <kbd>H</kbd>."},
+    {sel:"#skipBtn", head:"Đổi vòng",               body:"Bỏ vòng hiện tại, sang vòng khác. Phím tắt: <kbd>S</kbd>."},
+    {sel:"#lvlBtn",  head:"Cấp độ & chế độ",        body:"Chuyển giữa ghép <b>chữ</b> và ghép <b>từ vựng</b>, hoặc đổi HSK. Phím tắt: <kbd>L</kbd>."},
+  ];
+  const tourRoot = document.getElementById("tourRoot");
+  const tourRing = document.getElementById("tourRing");
+  const tourCard = document.getElementById("tourCard");
+  const tourMask = document.getElementById("tourMask");
+  const tourHead = document.getElementById("tourHead");
+  const tourBody = document.getElementById("tourBody");
+  const tourNum  = document.getElementById("tourNum");
+  const tourDots = document.getElementById("tourDots");
+  let tourIdx = 0;
+  let lastFocus = null;
+
+  function placeTour(target){
+    const r = target.getBoundingClientRect();
+    const pad = 8;
+    // ring around target
+    tourRing.style.left = (r.left - pad) + "px";
+    tourRing.style.top  = (r.top  - pad) + "px";
+    tourRing.style.width  = (r.width  + pad*2) + "px";
+    tourRing.style.height = (r.height + pad*2) + "px";
+    // full-screen mask
+    tourMask.style.left="0";tourMask.style.top="0";
+    tourMask.style.right="0";tourMask.style.bottom="0";
+    tourMask.style.width="100vw";tourMask.style.height="100vh";
+    // position card: prefer below, else above
+    const vh = window.innerHeight, vw = window.innerWidth;
+    const cardW = Math.min(320, vw - 24);
+    tourCard.style.width = cardW + "px";
+    const spaceBelow = vh - r.bottom;
+    const wantAbove  = spaceBelow < 180 && r.top > 200;
+    const cardTop = wantAbove ? Math.max(12, r.top - 12 - tourCard.offsetHeight) : Math.min(vh - tourCard.offsetHeight - 12, r.bottom + 14);
+    let cardLeft = r.left + r.width/2 - cardW/2;
+    cardLeft = Math.max(12, Math.min(vw - cardW - 12, cardLeft));
+    tourCard.style.top  = cardTop + "px";
+    tourCard.style.left = cardLeft + "px";
+  }
+
+  function renderTour(){
+    const step = STEPS[tourIdx];
+    const target = document.querySelector(step.sel);
+    if(!target){ endTour(); return; }
+    tourHead.textContent = step.head;
+    tourBody.innerHTML = step.body;
+    tourNum.textContent = (tourIdx+1) + "/" + STEPS.length;
+    tourDots.innerHTML = STEPS.map((_,i)=>`<i class="${i===tourIdx?"on":""}"></i>`).join("");
+    document.getElementById("tourPrev").disabled = tourIdx===0;
+    document.getElementById("tourNext").textContent = tourIdx===STEPS.length-1 ? "Xong ✓" : "Tiếp →";
+    // scroll into view then place
+    target.scrollIntoView({block:"center",behavior:"smooth"});
+    requestAnimationFrame(()=>requestAnimationFrame(()=>placeTour(target)));
+  }
+  function startTour(){
+    lastFocus = document.activeElement;
+    tourIdx = 0;
+    tourRoot.classList.remove("hidden");
+    tourRoot.classList.add("on");
+    renderTour();
+    setTimeout(()=>document.getElementById("tourNext").focus(),50);
+  }
+  function endTour(){
+    tourRoot.classList.add("hidden");
+    tourRoot.classList.remove("on");
+    try{ localStorage.setItem("ghepchu_tour_v1","1"); }catch(e){}
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.getElementById("tourNext").addEventListener("click",()=>{
+    if(tourIdx>=STEPS.length-1) endTour(); else { tourIdx++; renderTour(); }
+  });
+  document.getElementById("tourPrev").addEventListener("click",()=>{
+    if(tourIdx>0){ tourIdx--; renderTour(); }
+  });
+  document.getElementById("tourSkip").addEventListener("click", endTour);
+  document.getElementById("helpBtn").addEventListener("click", startTour);
+  tourMask.addEventListener("click", endTour);
+  document.addEventListener("keydown",(e)=>{
+    if(!tourRoot.classList.contains("on")) return;
+    if(e.key==="Escape"){ e.preventDefault(); endTour(); }
+    else if(e.key==="ArrowRight"||e.key==="Enter"){ e.preventDefault(); document.getElementById("tourNext").click(); }
+    else if(e.key==="ArrowLeft"){ e.preventDefault(); document.getElementById("tourPrev").click(); }
+  });
+  window.addEventListener("resize",()=>{
+    if(!tourRoot.classList.contains("on")) return;
+    const t = document.querySelector(STEPS[tourIdx].sel); if(t) placeTour(t);
+  });
+
+  /* Auto-start tour once, after the user picks a level and the first board renders */
+  let autoStarted = false;
+  function maybeAutoStart(){
+    if(autoStarted) return;
+    try{ if(localStorage.getItem("ghepchu_tour_v1")) { autoStarted=true; return; } }catch(e){}
+    const lvlOpen = !document.getElementById("lvlOv").classList.contains("hidden");
+    const loadOpen = !document.getElementById("loadOv").classList.contains("hidden");
+    if(lvlOpen || loadOpen) return;
+    if(!boardEl.querySelector(".tile")) return;
+    autoStarted = true;
+    setTimeout(startTour, 350);
+  }
+  // Poll for readiness (cheap, only until started)
+  const poll = setInterval(()=>{
+    maybeAutoStart();
+    if(autoStarted) clearInterval(poll);
+  }, 400);
+
+  /* ============ Display option toggles ============ */
+  const A11Y_KEY = "ghepchu_a11y_v1";
+  function readA11y(){ try{return JSON.parse(localStorage.getItem(A11Y_KEY)||"{}");}catch(e){return {};} }
+  function writeA11y(v){ try{localStorage.setItem(A11Y_KEY,JSON.stringify(v));}catch(e){} }
+  function applyA11y(v){
+    document.body.classList.toggle("motion-reduce", !!v.motion);
+    document.body.classList.toggle("high-contrast", !!v.contrast);
+    document.body.classList.toggle("big-tiles", !!v.big);
+  }
+  const a11yState = readA11y();
+  applyA11y(a11yState);
+  const tglMotion   = document.getElementById("tglMotion");
+  const tglContrast = document.getElementById("tglContrast");
+  const tglBig      = document.getElementById("tglBig");
+  tglMotion.checked   = !!a11yState.motion;
+  tglContrast.checked = !!a11yState.contrast;
+  tglBig.checked      = !!a11yState.big;
+  function onTgl(){
+    a11yState.motion   = tglMotion.checked;
+    a11yState.contrast = tglContrast.checked;
+    a11yState.big      = tglBig.checked;
+    applyA11y(a11yState); writeA11y(a11yState);
+  }
+  [tglMotion,tglContrast,tglBig].forEach(el=>el.addEventListener("change",onTgl));
+
+  /* ============ Accessibility overlay ============ */
+  const a11yOv = document.getElementById("a11yOv");
+  let a11yLastFocus = null;
+  function openA11y(){
+    a11yLastFocus = document.activeElement;
+    a11yOv.classList.remove("hidden");
+    setTimeout(()=>document.getElementById("a11yCloseBtn").focus(),30);
+  }
+  function closeA11y(){
+    a11yOv.classList.add("hidden");
+    if(a11yLastFocus && a11yLastFocus.focus) a11yLastFocus.focus();
+  }
+  document.getElementById("a11yBtn").addEventListener("click", openA11y);
+  document.getElementById("a11yCloseBtn").addEventListener("click", closeA11y);
+  a11yOv.addEventListener("click",(e)=>{ if(e.target===a11yOv) closeA11y(); });
+  document.addEventListener("keydown",(e)=>{
+    if(!a11yOv.classList.contains("hidden")){
+      if(e.key==="Escape"){ e.preventDefault(); closeA11y(); return; }
+    }
+    if(a11yOv.classList.contains("hidden") && !anyOverlayOpen()){
+      if(e.key && e.key.toLowerCase()==="a" && !e.ctrlKey && !e.metaKey && !e.altKey){
+        if(e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+        e.preventDefault(); openA11y();
+      }
+    }
+  });
+
+  /* ============ Save & restore game state ============ */
+  const SAVE_KEY = "ghepchu_save_v1";
+  let restoring = false;
+  function readSave(){
+    try{ const s = localStorage.getItem(SAVE_KEY); if(!s) return null; const o = JSON.parse(s);
+      if(!o || o.v!==1 || !Array.isArray(o.combosLeft)) return null; return o; }catch(e){return null;}
+  }
+  function writeSave(){
+    if(restoring) return;
+    if(!Array.isArray(combosLeft) || (!combosLeft.length && !madeThisRound.length)) return;
+    try{
+      const snap = {
+        v:1, ts:Date.now(),
+        MODE, curLevel, roundNo, score, streak,
+        combosLeft, madeThisRound, tiles, selected, tileSeq,
+      };
+      localStorage.setItem(SAVE_KEY, JSON.stringify(snap));
+      updateSaveInfo();
+    }catch(e){}
+  }
+  function clearSave(){ try{localStorage.removeItem(SAVE_KEY);}catch(e){} updateSaveInfo(); }
+  function updateSaveInfo(){
+    const el = document.getElementById("saveInfo"); if(!el) return;
+    const s = readSave();
+    if(!s){ el.textContent = "Chưa có ván lưu. Tự động lưu điểm và tiến độ khi bạn chơi."; return; }
+    const d = new Date(s.ts);
+    const total = (s.combosLeft?.length||0) + (s.madeThisRound?.length||0);
+    el.textContent = `Đã lưu · ${modeShortLabel(s.MODE)} · HSK ${s.curLevel===7?"ngoài":s.curLevel} · vòng ${s.roundNo} · ${s.madeThisRound?.length||0}/${total} · ${s.score}đ · ${d.toLocaleString()}`;
+  }
+  document.getElementById("a11yResetBtn").addEventListener("click",()=>{
+    clearSave(); toast("Đã xoá ván lưu. Lần mở sau sẽ bắt đầu mới.");
+  });
+
+  // Debounced save after any state mutation
+  let saveT = null;
+  function scheduleSave(){ clearTimeout(saveT); saveT=setTimeout(writeSave,120); }
+  const _renderBoard2 = renderBoard;
+  renderBoard = function(){ const r = _renderBoard2.apply(this,arguments); scheduleSave(); return r; };
+  const _updHud = updHud;
+  updHud = function(){ const r = _updHud.apply(this,arguments); scheduleSave();
+    // sync progress ARIA
+    const pb = document.getElementById("progBar");
+    if(pb){ const total=combosLeft.length+madeThisRound.length; const pct = total?Math.round(madeThisRound.length/total*100):0;
+      pb.setAttribute("aria-valuenow", String(pct));
+      pb.setAttribute("aria-valuetext", `${madeThisRound.length} trên ${total} cặp đã ghép (${pct} phần trăm)`);}
+    return r; };
+
+  // Restore instead of level select on first boot after data ready
+  let pendingRestore = !!readSave();
+  const _showLevelSelect = showLevelSelect;
+  showLevelSelect = function(){
+    if(pendingRestore){
+      pendingRestore = false;
+      const s = readSave();
+      if(s){
+        restoring = true;
+        try{
+          MODE = s.MODE; curLevel = s.curLevel; roundNo = s.roundNo;
+          score = s.score; streak = s.streak;
+          combosLeft = s.combosLeft; madeThisRound = s.madeThisRound;
+          tiles = s.tiles; selected = Array.isArray(s.selected)?s.selected:[];
+          tileSeq = s.tileSeq||tiles.length;
+          document.getElementById("lvlOv").classList.add("hidden");
+          document.getElementById("loadOv").classList.add("hidden");
+          renderBoard(); updHud();
+          setTimeout(()=>toast("Đã khôi phục ván trước · nhấn A để mở Trợ năng"),400);
+          updateSaveInfo();
+          restoring = false;
+          return;
+        }catch(e){ restoring = false; clearSave(); }
+      }
+    }
+    return _showLevelSelect.apply(this,arguments);
+  };
+
+  updateSaveInfo();
+})();
+</script>
+</body>
+</html>

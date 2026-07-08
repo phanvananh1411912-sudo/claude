@@ -52,7 +52,7 @@ function Tianzige(parts,dimComp){
    Tầng chọn bởi pickIconLayer (resolver.mjs — thuần, test được).
    "seal" = placeholder chữ Hán trong khung tròn xanh.
    TODO: thay placeholder seal bằng SVG chữ TIỂU TRIỆN tải từ GlyphWiki (glyphwiki.org). */
-let ICON_MODE="svg";      // "3d" | "svg" — probe icons3d/shui.png quyết định mặc định
+let ICON_MODE="svg";      // "3d" | "svg" — probe icons3d/1f4a7_水.png quyết định mặc định
 let ICON3D_OK=false;
 function semIconSvgLayer(base,px){
   const ic=RAD_ICON[base];
@@ -356,7 +356,7 @@ function renderQuiz(){
   }};
 }
 
-(function(){const im=new Image();im.onload=()=>{ICON3D_OK=true;setIconMode("3d");};im.onerror=()=>{ICON3D_OK=false;};im.src="icons3d/shui.png";})();
+(function(){const im=new Image();im.onload=()=>{ICON3D_OK=true;setIconMode("3d");};im.onerror=()=>{ICON3D_OK=false;};im.src="icons3d/1f4a7_水.png";})();
 
 function runResolverTests(){
   const T=[];const eq=(a,b,name)=>T.push({name,pass:a===b,got:a,exp:b});
@@ -730,7 +730,7 @@ function renderRoute(){
 /* ================= ICON TOGGLE + PROBE ================= */
 function setIconMode(m){ICON_MODE=m;document.querySelectorAll("#iconToggle button").forEach(b=>b.classList.toggle("active",b.dataset.m===m));renderRoute();}
 document.querySelectorAll("#iconToggle button").forEach(b=>b.onclick=()=>{setIconMode(b.dataset.m);beep(700,50,"sine",0.04);});
-(function(){const im=new Image();im.onload=()=>{ICON3D_OK=true;setIconMode("3d");};im.onerror=()=>{ICON3D_OK=false;};im.src="icons3d/shui.png";})();
+(function(){const im=new Image();im.onload=()=>{ICON3D_OK=true;setIconMode("3d");};im.onerror=()=>{ICON3D_OK=false;};im.src="icons3d/1f4a7_水.png";})();
 
 
 /* ================= KHỞI ĐỘNG ================= */

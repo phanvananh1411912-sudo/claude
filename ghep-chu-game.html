@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Ghép Chữ — Icon (bản clone)</title>
+<title>Ghép Chữ — Học chữ Hán</title>
 <!-- Google Fonts đã gỡ: game phải chạy offline/sau tường lửa TQ. Font stack tự rơi về Kaiti SC/hệ thống. -->
 <style>
 :root{
@@ -150,9 +150,12 @@ button:focus-visible,.tile:focus-visible,.lvl-btn:focus-visible,.help-btn:focus-
 .word-row .py{color:var(--seal);font-size:12px;margin-right:6px}
 .word-row .m{color:var(--ink-dim);font-size:12px}
 .board{width:100%;max-width:600px;display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:12px;margin:6px 0 18px;padding:14px;background:linear-gradient(180deg,rgba(255,255,255,.5),rgba(255,255,255,.25));border:1px solid var(--tile-border);border-radius:20px;box-shadow:inset 0 1px 0 rgba(255,255,255,.6),var(--shadow-sm)}
-.tile{background:linear-gradient(180deg,#fff,#faf5e8);border:1.5px solid var(--tile-border);border-radius:14px;min-height:108px;padding:8px 5px 6px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--hanzi-font);box-shadow:var(--shadow);transition:transform .15s cubic-bezier(.2,.9,.3,1), border-color .15s, box-shadow .15s, background .15s;position:relative;user-select:none;cursor:pointer}
-.tile .g{font-size:50px;line-height:1.05;font-weight:500}
-.tile .g-wrap{display:flex;flex-direction:column;align-items:center;gap:1px}
+.tile{background:linear-gradient(180deg,#fff,#faf5e8);border:1.5px solid var(--tile-border);border-radius:14px;min-height:118px;padding:8px 5px 7px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;font-family:var(--hanzi-font);box-shadow:var(--shadow);transition:transform .15s cubic-bezier(.2,.9,.3,1), border-color .15s, box-shadow .15s, background .15s;position:relative;user-select:none;cursor:pointer}
+.tile .g{font-size:50px;line-height:1.05;font-weight:500;flex-shrink:0}
+.tile .py{font-size:11px;color:var(--seal);font-family:var(--ui-font);margin-top:3px;text-align:center;padding:0 3px;width:100%;line-height:1.25;font-weight:600;word-break:break-word}
+.tile .m{font-size:10.5px;color:var(--ink-dim);font-family:var(--ui-font);margin-top:2px;text-align:center;padding:0 3px;width:100%;line-height:1.32;font-weight:500;word-break:break-word;overflow-wrap:break-word;hyphens:auto;max-height:none;overflow:visible}
+.tile .m.long{font-size:9.5px;line-height:1.28}
+.tile .m.xlong{font-size:8.5px;line-height:1.25}
 /* Icon 3D nhỏ — chip nổi có chiều sâu */
 .rad-icon.icon3d-real img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none}
 .rad-icon.icon3d{
@@ -190,6 +193,8 @@ button:focus-visible,.tile:focus-visible,.lvl-btn:focus-visible,.help-btn:focus-
   transform:perspective(320px) rotateX(16deg) rotateY(-14deg) scale(1.05);
 }
 .rad-icon.merge-ic svg{filter:drop-shadow(0 2px 3px rgba(60,40,20,.25))}
+.rad-icon.cc-result-ic{width:56px;height:56px;border-radius:16px;padding:8px}
+.rad-icon.cc-result-ic.icon-fallback-glyph .icon3d-face{font-family:var(--hanzi-font);font-size:40px}
 .rad-icon.icon-fallback-glyph{color:#7a6a52;background:linear-gradient(155deg,#faf6ef,#e8ddc9,#d4c4a5)}
 .rad-icon.icon-fallback-glyph .icon3d-face{font-family:var(--hanzi-font);font-weight:600;display:flex;align-items:center;justify-content:center;line-height:1}
 .rad-icon.tile-ic.icon-fallback-glyph .icon3d-face{font-size:11px}
@@ -220,7 +225,6 @@ button:focus-visible,.tile:focus-visible,.lvl-btn:focus-visible,.help-btn:focus-
 @keyframes iconBurst{0%{opacity:1;transform:translate(-50%,-50%) scale(.3)}100%{opacity:0;transform:translate(-50%,-50%) scale(2.2)}}
 .tzg.icon-merge-reveal .glyph,.tzg.icon-merge-reveal .cell span{animation:iconRevealChar .45s cubic-bezier(.2,1.4,.35,1) forwards}
 @keyframes iconRevealChar{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
-.tile .n{font-size:10.5px;color:var(--ink-dim);font-family:var(--ui-font);margin-top:4px;text-align:center;padding:0 3px;width:100%;line-height:1.28;font-weight:500;letter-spacing:.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word;hyphens:auto}
 .tile:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:#d4c7a8}
 .tile:active{transform:translateY(-1px)}
 .tile.sel,.tile[aria-pressed="true"]{border-color:var(--seal);background:linear-gradient(180deg,#fff,#fdf0ed);box-shadow:0 0 0 3px rgba(193,57,43,.28), var(--shadow-lg);transform:translateY(-4px)}
@@ -256,7 +260,9 @@ button:focus-visible,.tile:focus-visible,.lvl-btn:focus-visible,.help-btn:focus-
 .lchip{background:linear-gradient(180deg,#fff,#faf5e8);border:1px solid var(--tile-border);border-radius:12px;padding:10px 8px;text-align:center;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
 .lchip .c{font-family:var(--hanzi-font);font-size:34px;display:block;font-weight:500;line-height:1.15}
 .lchip .p{font-size:13px;color:var(--seal);font-weight:600;margin-top:2px}
-.lchip .m{font-size:11.5px;color:var(--ink-dim);margin-top:1px;max-width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-word;line-height:1.3}
+.lchip .m{font-size:11.5px;color:var(--ink-dim);margin-top:1px;max-width:100%;word-break:break-word;overflow-wrap:break-word;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.lchip .m.long{font-size:10.2px;line-height:1.3}
+.lchip .m.xlong{font-size:9.2px;line-height:1.26}
 .hidden{display:none !important}
 .small{font-size:12px;color:var(--ink-dim);margin-top:10px}
 /* ===== Component Card: Soft UI + Glassmorphism + Apple HIG + Duolingo ===== */
@@ -359,7 +365,8 @@ body.high-contrast .tile{border-width:2px}
 body.high-contrast .btn{border-width:2px}
 body.high-contrast .prog i{background:#000}
 body.big-tiles .tile .g{font-size:60px}
-body.big-tiles .tile .n{font-size:12.5px}
+body.big-tiles .tile .m{font-size:12px}
+body.big-tiles .tile .py{font-size:12.5px}
 body.big-tiles .board{grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:14px}
 body.big-tiles .btn{font-size:16px;padding:13px 22px}
 /* Accessibility overlay */
@@ -377,7 +384,8 @@ body.big-tiles .btn{font-size:16px;padding:13px 22px}
 @media (max-width:430px){
   body{padding:10px 10px calc(96px + env(safe-area-inset-bottom))}
   .tile .g{font-size:40px}
-  .tile .n{font-size:10px;line-height:1.25;-webkit-line-clamp:4}
+  .tile .py{font-size:10px}
+  .tile .m{font-size:9.5px;line-height:1.28}
   .board{grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:8px;padding:10px;border-radius:16px}
   .hd{padding:8px 10px;gap:8px;top:6px;border-radius:14px;flex-wrap:nowrap}
   .hd h1{font-size:18px;gap:6px;min-width:0}
@@ -604,8 +612,8 @@ function pinyinTone(s){
    - Đọc ./hsk.txt nếu có (mỗi dòng: <chữ><space/tab><cấp 1-6>) để thay
      bảng HSK nhúng sẵn bằng bảng chính xác của bạn.
    - Combo = chữ có decomposition IDS 2 thành phần (⿰⿱⿴…), cả 2 thành
-     phần hiển thị được. Vòng chơi sinh động: 4 combo/vòng, ưu tiên chuỗi,
-     không cặp mơ hồ trong cùng vòng.
+     phần hiển thị được. Vòng chơi: 8 lượt ghép/vòng; vòng sau lặp tối đa
+     10% chữ vòng trước; thiếu lượt thì lấy thêm từ cấp HSK kế tiếp.
 ===================================================================== */
 
 /* ---- Tên bộ thủ biến thể thường gặp (để chú thích thẻ) ---- */
@@ -930,8 +938,12 @@ function buildComponentCard(parts, resultCh, py, meaning, customRecap, strict){
     rowParts.push(chip);
   });
   rowParts.push(`<div class="cc-op cc-eq">=</div>`);
-  rowParts.push(`<div class="cc-result">${resultCh}</div>`);
+  // Ô kết quả ưu tiên icon 3D thật/SVG nếu chữ đã có, rơi về đúng chữ Hán
+  // (font-size khớp thiết kế cũ qua CSS .cc-result-ic) khi chưa có icon nào.
+  rowParts.push(`<div class="cc-result">${iconHtml(resultCh,"cc-result-ic")}</div>`);
   const recap = customRecap || parts.join(" + ");
+  // Caption LUÔN hiện chữ Hán thật dạng text — không đổi sang icon ở đây, để
+  // người học luôn thấy mặt chữ dù ô kết quả phía trên đã đổi thành icon.
   return `<div class="cc-card">`
     + `<div class="cc-row">${rowParts.join("")}</div>`
     + `<div class="cc-caption">${recap} → <b>${resultCh}</b>`
@@ -1014,7 +1026,7 @@ function playIconMergeFxSeq(picks, glyphs, onDone){
   // các lượt sau: từng mảnh một bay vào hoà tiếp với "khối" ở giữa
   for(let i=2;i<picks.length;i++){
     const idx=i;
-    setTimeout(()=>{ 
+    setTimeout(()=>{
       const d=flyOne(idx, 1.2);
       setTimeout(()=>{
         const burst=document.createElement("div");
@@ -1059,6 +1071,8 @@ let COMBOS3 = [];             // ghép 3 bộ: {a,b,c,ch,...}
 let LEVELS3 = new Map();      // level -> combos3[]
 let COMBOSN = [];             // ghép lồng: {parts:[...], ch, formula, ...} (3-4 lá)
 let LEVELSN = new Map();      // level -> combosN[]
+/* Danh mục vocab_rows.csv — ưu tiên mục có trong cả game lẫn file này */
+let VOCAB_ROWS = new Set();
 let curLevel = 1, roundPool = [], roundNo = 0;
 let score = 0, streak = 0;
 let tiles = [], selected = [], combosLeft = [], madeThisRound = [];
@@ -1141,8 +1155,21 @@ async function loadData(){
       toast("Đã nạp bảng HSK riêng (hsk.txt)");
     }
   }catch(_){/* không có hsk.txt — dùng bảng nhúng */}
+  const vocabN = await loadVocabRows();
   buildCombos();
   await loadCedict();          // không bắt buộc — thiếu thì chỉ tắt chế độ từ vựng
+  applyVocabPrioritySort();
+  if(vocabN){
+    const st = vocabOverlapStats();
+    if(st){
+      toast(`vocab_rows: ${st.vocabRows} mục · trùng ${st.hitChar} chữ ghép, ${st.hitWord} từ, ${st.hitIdiom} thành ngữ`);
+      console.log(
+        `[vocab_rows.csv] ${st.vocabRows} mục đọc được. Ưu tiên (priority=1) khớp: `+
+        `${st.hitChar}/${st.totalChar} chữ ghép (char), ${st.hitWord}/${st.totalWord} từ (word), `+
+        `${st.hitIdiom}/${st.totalIdiom} thành ngữ (idiom4). Phần còn lại là priority=2 (mặc định).`
+      );
+    }
+  }
   await loadShuowen();         // không bắt buộc — thiếu thì không hiện dòng Thuyết Văn
   return true;
 }
@@ -1169,6 +1196,76 @@ async function loadShuowen(){
     }catch(_){/* thử file tiếp theo */}
   }
 }
+
+/* ---- vocab_rows.csv: ưu tiên mục có trong cả game lẫn danh mục này ---- */
+function parseCsvLine(line){
+  const out=[]; let cur="", inQ=false;
+  for(let i=0;i<line.length;i++){
+    const c=line[i];
+    if(c==='"'){ inQ=!inQ; continue; }
+    if(c==="," && !inQ){ out.push(cur); cur=""; continue; }
+    cur+=c;
+  }
+  out.push(cur);
+  return out;
+}
+async function loadVocabRows(){
+  VOCAB_ROWS = new Set();
+  try{
+    const res = await fetch("vocab_rows.csv");
+    if(!res.ok) return 0;
+    const text = (await res.text()).replace(/^\uFEFF/,"");
+    const lines = text.split(/\r?\n/);
+    if(lines.length<2) return 0;
+    const header = parseCsvLine(lines[0]);
+    const hi = header.indexOf("hanzi");
+    const col = hi >= 0 ? hi : 1;
+    for(let i=1;i<lines.length;i++){
+      const ln = lines[i].trim();
+      if(!ln) continue;
+      const cols = parseCsvLine(ln);
+      const h = (cols[col]||"").trim();
+      if(h) VOCAB_ROWS.add(h);
+    }
+    return VOCAB_ROWS.size;
+  }catch(_){ return 0; }
+}
+function vocabPriority(key){
+  return key && VOCAB_ROWS.has(key) ? 0 : 1;
+}
+function sortByVocabThen(arr, keyFn, tieFn){
+  arr.sort((x,y)=>{
+    const px=vocabPriority(keyFn(x)), py=vocabPriority(keyFn(y));
+    if(px!==py) return px-py;
+    return tieFn(x,y);
+  });
+}
+function applyVocabPrioritySort(){
+  if(!VOCAB_ROWS.size) return;
+  for(const arr of LEVELS.values())
+    sortByVocabThen(arr, c=>c.ch, (x,y)=>x.sg-y.sg);
+  for(const arr of LEVELS3.values())
+    sortByVocabThen(arr, c=>c.ch, (x,y)=>x.sg-y.sg);
+  for(const arr of LEVELSN.values())
+    sortByVocabThen(arr, c=>c.ch, (x,y)=>x.parts.length-y.parts.length || x.sg-y.sg);
+  for(const arr of WLEVELS.values())
+    sortByVocabThen(arr, w=>w.w, (x,y)=>x.sg-y.sg);
+  for(const arr of ILEVELS.values())
+    sortByVocabThen(arr, id=>id.w, (x,y)=>x.sg-y.sg);
+}
+function vocabOverlapStats(){
+  if(!VOCAB_ROWS.size) return null;
+  return {
+    vocabRows: VOCAB_ROWS.size,
+    hitChar: COMBOS.filter(c=>VOCAB_ROWS.has(c.ch)).length,
+    totalChar: COMBOS.length,
+    hitWord: WORDS.filter(w=>VOCAB_ROWS.has(w.w)).length,
+    totalWord: WORDS.length,
+    hitIdiom: IDIOMS4.filter(id=>VOCAB_ROWS.has(id.w)).length,
+    totalIdiom: IDIOMS4.length
+  };
+}
+
 /* Liệt kê từ VỰNG chứa chữ `ch`, kèm pinyin dấu + nghĩa.
    Ưu tiên từ ngắn (2 chữ) và từ mở đầu bằng chính chữ đó (打电话 trước 打). */
 function wordsWithCharLine(ch){
@@ -1177,12 +1274,14 @@ function wordsWithCharLine(ch){
   const withVi = arr.filter(v=>v.def_vi && v.def_vi.trim());
   if(!withVi.length) return "";
   const sorted = [...withVi].sort((x,y)=>{
+    const vx=vocabPriority(x.w), vy=vocabPriority(y.w);
+    if(vx!==vy) return vx-vy;
     const ax = x.w[0]===ch ? 0 : 1, ay = y.w[0]===ch ? 0 : 1;
     if(ax!==ay) return ax-ay;
     return x.len - y.len;
   }).slice(0, 12);
   const rows = sorted.map(v=>{
-    const meaning = v.def_vi.split(/[;\/]/)[0].slice(0,42);
+    const meaning = v.def_vi.split(/[;\/]/)[0].trim();
     return `<div class="word-row">`
       + `<span class="w">${v.w||""}</span>`
       + `<span class="py">${v.py||""}</span>`
@@ -1198,7 +1297,11 @@ function wordsWithCharLine(ch){
 function derivedFromLine(ch){
   const set = APPEARS_IN.get(ch);
   if(!set || !set.size) return "";
-  const list = [...set].sort((x,y)=> (DICT.get(x)?strokeGuessShallow(x):99) - (DICT.get(y)?strokeGuessShallow(y):99));
+  const list = [...set].sort((x,y)=>{
+    const px=vocabPriority(x), py=vocabPriority(y);
+    if(px!==py) return px-py;
+    return (DICT.get(x)?strokeGuessShallow(x):99) - (DICT.get(y)?strokeGuessShallow(y):99);
+  });
   const chips = list.map(x=>{
     const e = DICT.get(x);
     const py = e ? pinyinTone((e.pinyin||[]).join(", ")) : "";
@@ -1340,12 +1443,12 @@ async function loadCedict(){
     if(!WLEVELS.has(w.level)) WLEVELS.set(w.level,[]);
     WLEVELS.get(w.level).push(w);
   }
-  for(const arr of WLEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+  for(const arr of WLEVELS.values()) sortByVocabThen(arr, w=>w.w, (x,y)=>x.sg-y.sg);
   for(const id of IDIOMS4){
     if(!ILEVELS.has(id.level)) ILEVELS.set(id.level,[]);
     ILEVELS.get(id.level).push(id);
   }
-  for(const arr of ILEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+  for(const arr of ILEVELS.values()) sortByVocabThen(arr, id=>id.w, (x,y)=>x.sg-y.sg);
   CEDICT_OK = WORDS.length > 0;
   IDIOM4_OK = IDIOMS4.length > 0;
 }
@@ -1491,7 +1594,7 @@ function buildCombos(){
     if(!LEVELS3.has(c.level)) LEVELS3.set(c.level,[]);
     LEVELS3.get(c.level).push(c);
   }
-  for(const arr of LEVELS3.values()) arr.sort((x,y)=>x.sg-y.sg);
+  for(const arr of LEVELS3.values()) sortByVocabThen(arr, c=>c.ch, (x,y)=>x.sg-y.sg);
   // ---- COMBO LỒNG NHAU: chữ decomposition cây nhiều tầng (3-4 lá sạch) ----
   for(const [ch,e] of DICT){
     const d=e.decomp;
@@ -1519,17 +1622,19 @@ function buildCombos(){
     if(!LEVELSN.has(c.level)) LEVELSN.set(c.level,[]);
     LEVELSN.get(c.level).push(c);
   }
-  for(const arr of LEVELSN.values()) arr.sort((x,y)=>x.parts.length-y.parts.length || x.sg-y.sg);
+  for(const arr of LEVELSN.values()) sortByVocabThen(arr, c=>c.ch, (x,y)=>x.parts.length-y.parts.length || x.sg-y.sg);
   // gom theo cấp + sắp trong-cấp theo số nét ước lượng
   for(const c of COMBOS){
     if(!LEVELS.has(c.level)) LEVELS.set(c.level,[]);
     LEVELS.get(c.level).push(c);
   }
-  for(const arr of LEVELS.values()) arr.sort((x,y)=>x.sg-y.sg);
+  for(const arr of LEVELS.values()) sortByVocabThen(arr, c=>c.ch, (x,y)=>x.sg-y.sg);
 }
 
-/* ============ SINH VÒNG (4 combo, không mơ hồ, ưu tiên chuỗi) ============ */
-let lastRoundResults = new Set();   // kết quả vòng trước — tránh lặp >50% sang vòng sau
+/* ============ SINH VÒNG (8 lượt/vòng, lặp ≤10% vòng trước) ============ */
+const COMBOS_PER_ROUND = 8;
+const ROUND_OVERLAP_MAX = 0.1;   // tối đa 10% kết quả trùng vòng trước
+let lastRoundResults = new Set();   // kết quả vòng trước — tránh lặp >10% sang vòng sau
 let lastRoundCompleted = new Set(); // mục đã ghép đúng vòng trước — không xuất hiện vòng sau
 
 function modeShortLabel(m){
@@ -1567,7 +1672,7 @@ function overlapRatio(prevResults, round){
   for(const k of keys) if(prevResults.has(k)) hit++;
   return hit / keys.length;
 }
-/* Chọn vòng mới sao cho |giao với vòng trước| / |vòng mới| < 50% */
+/* Chọn vòng mới sao cho |giao với vòng trước| / |vòng mới| ≤ 10% */
 function comboGlyphs(combo){
   if(MODE==="word") return [combo.w, combo.a, combo.b];
   if(MODE==="idiom4") return [combo.w, ...(combo.parts||[])];
@@ -1648,7 +1753,7 @@ function pickRoundLowOverlap(gen, pool, cursor, prevResults){
     if(roundHasBlockedCombo(round)) continue;
     const ratio = prevResults && prevResults.size ? overlapRatio(prevResults, round) : 0;
     const limitOk = roundPassesAllLimits(round);
-    if(limitOk && ratio < 0.5) return {round, cursor:nc};
+    if(limitOk && ratio <= ROUND_OVERLAP_MAX) return {round, cursor:nc};
     if(limitOk && ratio < bestRatio){ bestRatio = ratio; best = {round, cursor:nc}; }
     if(ratio < fallbackRatio){ fallbackRatio = ratio; fallback = {round, cursor:nc}; }
   }
@@ -1659,12 +1764,57 @@ function pickRoundLowOverlap(gen, pool, cursor, prevResults){
 
 function pairKey(a,b){ return a<b ? a+"|"+b : b+"|"+a; }
 
+function canAddWordToRound(round, w){
+  if(isComboBlocked(w)) return false;
+  const inRound = new Set(round.map(x=>x.w));
+  if(inRound.has(w.w)) return false;
+  const rev = w.b + w.a;
+  if(inRound.has(rev)) return false;
+  const tilesNow = [];
+  round.forEach(x=>{tilesNow.push(x.a,x.b);});
+  let conflict = false;
+  for(const t of tilesNow){
+    for(const u of [w.a, w.b]){
+      for(const cand of [t+u, u+t]){
+        if(WORDSET.has(cand) && cand!==w.w && !inRound.has(cand)
+           && !round.some(x=>x.w===cand)){ conflict=true; break; }
+      }
+      if(conflict) break;
+    }
+    if(conflict) break;
+  }
+  if(conflict) return false;
+  return canAddToRound(round, w);
+}
+
+/* Bổ sung lượt ghép: ưu tiên đủ 8 — quét lại cấp hiện tại rồi HSK cao hơn */
+function fillRoundToEight(round){
+  if(round.length >= COMBOS_PER_ROUND) return {round, extra:0};
+  const pools = modePools();
+  let extra = 0;
+  const inRound = new Set(round.map(comboResultKey));
+  for(let lv = curLevel; lv <= 7 && round.length < COMBOS_PER_ROUND; lv++){
+    const pool = pools.get(lv) || [];
+    for(const item of pool){
+      if(round.length >= COMBOS_PER_ROUND) break;
+      const key = comboResultKey(item);
+      if(inRound.has(key)) continue;
+      const ok = MODE === "word" ? canAddWordToRound(round, item) : canAddToRound(round, item);
+      if(!ok) continue;
+      round.push(item);
+      inRound.add(key);
+      if(lv > curLevel) extra++;
+    }
+  }
+  return {round, extra};
+}
+
 function makeRound(levelCombos, cursor){
   const round=[], usedPairs=new Set(), usedResults=new Set();
   let i=cursor;
   const N=levelCombos.length;
   let scanned=0;
-  while(round.length<4 && scanned<N){
+  while(round.length<COMBOS_PER_ROUND && scanned<N){
     const c=levelCombos[i%N]; i++; scanned++;
     const pk=pairKey(c.a,c.b);
     if(usedPairs.has(pk)) continue;
@@ -1672,7 +1822,7 @@ function makeRound(levelCombos, cursor){
     if(isComboBlocked(c)) continue;
     if(!canAddToRound(round, c)) continue;
     round.push(c); usedPairs.add(pk); usedResults.add(c.ch);
-    if(round.length<4){
+    if(round.length<COMBOS_PER_ROUND){
       const chain=levelCombos.find(x=>!usedResults.has(x.ch)&&!isComboBlocked(x)&&(x.a===c.ch||x.b===c.ch)&&!usedPairs.has(pairKey(x.a,x.b))&&canAddToRound(round,x));
       if(chain){ round.push(chain); usedPairs.add(pairKey(chain.a,chain.b)); usedResults.add(chain.ch); }
     }
@@ -1680,16 +1830,11 @@ function makeRound(levelCombos, cursor){
   return {round, cursor: i%N};
 }
 
-/* ---- Sinh vòng chế độ TỪ: 4 từ/vòng.
-   Hai bẫy riêng của từ ghép phải chặn từ lúc RA ĐỀ:
-   (1) cặp đảo: 蜂蜜 và 蜜蜂 đều là từ thật -> không cho cùng vòng;
-   (2) cặp chéo: thẻ của 2 từ khác nhau vô tình ghép thành từ thật ngoài đề
-       (điện+não từ 电话+电脑 -> 电脑 lại là đề thì ok, nhưng 话+脑 thì không
-        được là từ thật nào) -> quét mọi tổ hợp chéo với WORDSET. ---- */
+/* ---- Sinh vòng chế độ TỪ: 8 từ/vòng. ---- */
 function makeWordRound(pool, cursor){
   const round=[]; let i=cursor, scanned=0; const N=pool.length;
   const inRound = new Set();
-  while(round.length<4 && scanned<N){
+  while(round.length<COMBOS_PER_ROUND && scanned<N){
     const w = pool[i%N]; i++; scanned++;
     if(inRound.has(w.w)) continue;
     if(isComboBlocked(w)) continue;
@@ -1716,11 +1861,11 @@ function makeWordRound(pool, cursor){
   return {round, cursor: i%N};
 }
 
-/* ---- Sinh vòng THÀNH NGỮ 4 CHỮ: 2 thành ngữ/vòng = 8 thẻ. ---- */
+/* ---- Sinh vòng THÀNH NGỮ 4 CHỮ: 8 thành ngữ/vòng. ---- */
 function makeIdiom4Round(pool, cursor){
   const round=[]; let i=cursor, scanned=0; const N=pool.length;
   const inRound = new Set();
-  while(round.length<2 && scanned<N){
+  while(round.length<COMBOS_PER_ROUND && scanned<N){
     const item = pool[i%N]; i++; scanned++;
     if(inRound.has(item.w)) continue;
     if(isComboBlocked(item)) continue;
@@ -1742,13 +1887,12 @@ function startLevel(lv){
   nextRound();
 }
 function cursorKey(){ return MODE+":"+curLevel; }
-/* ---- Sinh vòng GHÉP 3 BỘ: 3 combo/vòng = 9 thẻ.
-   Chặn mơ hồ: bộ ba {a,b,c} không thứ tự chỉ ra một chữ trong vòng. ---- */
+/* ---- Sinh vòng GHÉP 3 BỘ: 8 combo/vòng. ---- */
 function tripleKey(a,b,c){ return [a,b,c].sort().join("|"); }
 function makeRound3(pool, cursor){
   const round=[], usedTriples=new Set(), usedResults=new Set();
   let i=cursor, scanned=0; const N=pool.length;
-  while(round.length<3 && scanned<N){
+  while(round.length<COMBOS_PER_ROUND && scanned<N){
     const c=pool[i%N]; i++; scanned++;
     const tk=tripleKey(c.a,c.b,c.c);
     if(usedTriples.has(tk)) continue;
@@ -1759,13 +1903,12 @@ function makeRound3(pool, cursor){
   }
   return {round, cursor: i%N};
 }
-/* ---- Sinh vòng GHÉP LỒNG: 3 combo/vòng. Khớp theo ĐA TẬP lá (có lá trùng
-   như 众=人人人) nên khoá theo tập lá đã sắp. ---- */
+/* ---- Sinh vòng GHÉP LỒNG: 8 combo/vòng. ---- */
 function partsKey(parts){ return [...parts].sort().join("|"); }
 function makeRoundN(pool, cursor){
   const round=[], usedKeys=new Set(), usedResults=new Set();
   let i=cursor, scanned=0; const N=pool.length;
-  while(round.length<3 && scanned<N){
+  while(round.length<COMBOS_PER_ROUND && scanned<N){
     const c=pool[i%N]; i++; scanned++;
     const k=partsKey(c.parts);
     if(usedKeys.has(k)) continue;
@@ -1795,6 +1938,9 @@ function nextRound(){
     ({round,cursor} = pickRoundLowOverlap(gen, pool, levelCursor.get(cursorKey()), lastRoundResults));
   }
   if(!round.length){ toast("Cấp này không có gì để ghép"); showLevelSelect(); return; }
+  const fill = fillRoundToEight(round);
+  round = fill.round;
+  if(fill.extra) toast(`Bổ sung ${fill.extra} lượt từ HSK cao hơn`);
   levelCursor.set(cursorKey(),cursor);
   lastRoundResults = new Set(roundResultKeys(round));
   roundNo++;
@@ -1826,21 +1972,19 @@ function nextRound(){
 function mkTile(g,m){return{id:"t"+(++tileSeq),glyph:g,isMade:m};}
 function glyphCountOnBoard(g){ return tiles.filter(t=>t.glyph===g).length; }
 
-function tileName(g){
+function tilePy(g){
   const e = DICT.get(g);
-  const d = viGloss(g, e);
-  const p = e ? pinyinTone(e.pinyin[0]||"") : "";
-  let base = [p, d].filter(Boolean).join(" · ");
-  const tv = tradOf(g);
-  if(tv) base = (base ? base+" " : "") + "("+tv+")";
-  return base;
+  return e ? pinyinTone(e.pinyin[0]||"") : "";
 }
-function tileIconHtml(g){
-  // Ở chế độ "word"/"idiom4" mỗi ô trên bàn là một CHỮ HOÀN CHỈNH (không phải
-  // bộ thủ) — dùng strict để không mượn nhầm icon của thành phần cấu tạo bên
-  // trong chữ đó (vd 七 không có emoji riêng thì hiện lại chính chữ, không
-  // "biến thành" 1️⃣ mượn từ bộ 一 bên trong).
-  return iconHtml(g, "tile-ic", MODE==="word"||MODE==="idiom4");
+function tileMeaning(g){
+  const e = DICT.get(g);
+  return viGloss(g, e) || "";
+}
+function meaningSizeClass(text){
+  const n = (text||"").length;
+  if(n > 36) return " xlong";
+  if(n > 22) return " long";
+  return "";
 }
 function renderBoard(){
   boardEl.innerHTML="";
@@ -1848,8 +1992,11 @@ function renderBoard(){
     const el=document.createElement("button");
     el.className="tile"+(t.isMade?" made":"")+(selected.includes(t.id)?" sel":"");
     el.id=t.id;
-    const ic = tileIconHtml(t.glyph);
-    el.innerHTML=`<span class="g-wrap">${ic}<span class="g">${t.glyph}</span></span><span class="n">${tileName(t.glyph)}</span>`;
+    const py = tilePy(t.glyph);
+    const meaning = tileMeaning(t.glyph);
+    el.innerHTML=`<span class="g">${t.glyph}</span>`
+      + (py?`<span class="py">${py}</span>`:"")
+      + (meaning?`<span class="m${meaningSizeClass(meaning)}">${meaning}</span>`:"");
     el.addEventListener("click",()=>tapTile(t.id));
     boardEl.appendChild(el);
   });
@@ -1963,7 +2110,6 @@ function merge(ci,t1,t2){
   playIconMergeFx(t1, t2, c.a, c.b, revealMerge, MODE==="word");
 }
 function finishMergeInfo(c, t1, t2, chain, gain){
-  const icA=iconHtml(c.a,"formula-ic"), icB=iconHtml(c.b,"formula-ic");
   const roles = MODE==="word" ? {aRole:null,bRole:null} : decideRoles(c);
   const aTag = roles.aRole ? `<span class="${roles.aRole}">${c.a}</span>` : c.a;
   const bTag = roles.bRole ? `<span class="${roles.bRole}">${c.b}</span>` : c.b;
@@ -2003,7 +2149,7 @@ function finishMergeInfo(c, t1, t2, chain, gain){
   const derivedLine = (MODE==="word") ? "" : derivedFromLine(c.ch);
   const wordsLine   = (MODE==="word") ? "" : wordsWithCharLine(c.ch);
   infoEl.innerHTML=
-    buildComponentCard([c.a,c.b], MODE==="word"?c.w:c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40), null, MODE==="word")+
+    buildComponentCard([c.a,c.b], MODE==="word"?c.w:c.ch, c.py, (c.def_vi||c.def||"").trim(), null, MODE==="word")+
     legend+
     meaningHtml+
     compGloss+
@@ -2068,7 +2214,7 @@ function merge4(ci, picks){
   const swLine = shuowenLine(c.parts);
   const compGloss = compGlossHtml(c.parts);
   infoEl.innerHTML=
-    buildIdiomCard(c.parts, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,50))+
+    buildIdiomCard(c.parts, c.py, (c.def_vi||c.def||"").trim())+
     meaningViHtml(c)+
     compGloss+
     swLine+
@@ -2124,7 +2270,7 @@ function merge3(ci, picks){
   const derivedLine = derivedFromLine(c.ch);
   const wordsLine   = wordsWithCharLine(c.ch);
   infoEl.innerHTML=
-    buildComponentCard([c.a,c.b,c.c], c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40))
+    buildComponentCard([c.a,c.b,c.c], c.ch, c.py, (c.def_vi||c.def||"").trim())
     + legend
     + meaningHtml
     + compGloss
@@ -2195,7 +2341,7 @@ function mergeN(ci, picks){
   const derivedLine = derivedFromLine(c.ch);
   const wordsLine   = wordsWithCharLine(c.ch);
   infoEl.innerHTML=
-    buildComponentCard(c.parts, c.ch, c.py, (c.def_vi||c.def||"").split(/[;\/]/)[0].slice(0,40), c.formula)
+    buildComponentCard(c.parts, c.ch, c.py, (c.def_vi||c.def||"").trim(), c.formula)
     + meaningHtml
     + compGloss
     + (mn?`<div class="idea">💡 ${mn}</div>`:"")
@@ -2266,15 +2412,14 @@ function showSummary(){
     ? "Những thành ngữ bạn vừa ghép được:"
     : "Những chữ bạn vừa ghép được:";
   const box=$("sumChars");box.innerHTML="";
+  // Màn tổng kết CHỈ còn 3 dòng: chữ/từ/thành ngữ — pinyin — nghĩa. Không
+  // icon (đã bỏ ở màn này từ trước), không phồn thể — khác với Component
+  // Card lúc chơi (buildComponentCard/buildIdiomCard) vẫn giữ đầy đủ icon.
   madeThisRound.forEach(c=>{
     const d=document.createElement("div");d.className="lchip";
-    const isWholeChars = MODE==="word" || MODE==="idiom4"; // parts đây là CHỮ, không phải bộ thủ
-    const parts = MODE==="idiom4" ? (c.parts||[]) : [c.a, c.b].filter(Boolean);
-    const fe=parts.map(g=>iconHtml(g,"formula-ic",isWholeChars)).join("");
-    const shown = isWholeChars ? (c.w||"") : (c.ch||"");
-    const tv = isWholeChars ? c.trad : tradOf(c.ch);
-    const tvTag = tv ? `<span style="color:var(--ink-dim);font-size:.6em"> ${tv}</span>` : "";
-    d.innerHTML=`<span class="c" style="${isWholeChars?'font-size:22px':''}">${shown}${tvTag}</span><span class="p">${c.py||""}${fe?" "+fe:""}</span><span class="m">${c.def_vi||""}</span>`;
+    const shown = (MODE==="word" || MODE==="idiom4") ? (c.w||"") : (c.ch||"");
+    const meaning = (c.def_vi||c.def||"").trim();
+    d.innerHTML=`<span class="c" style="${(MODE==="word"||MODE==="idiom4")?'font-size:22px':''}">${shown}</span><span class="p">${c.py||""}</span><span class="m${meaningSizeClass(meaning)}">${meaning}</span>`;
     box.appendChild(d);
   });
   $("sumOv").classList.remove("hidden");
@@ -2355,7 +2500,7 @@ function showLevelSelect(){
     const gs = currentSelectedGlyphs();
     if(!gs.length){ prevEl.classList.remove("on"); prevEl.innerHTML=""; return; }
     const strict = MODE==="word"||MODE==="idiom4"; // đang chọn CHỮ (từ vựng/thành ngữ), không phải bộ thủ
-    prevEl.innerHTML = gs.map((g,i)=> (i?'<span class="plus">+</span>':'') + iconHtml(g,"formula-ic",strict) + `<span>${g}</span>`).join("");
+    prevEl.innerHTML = gs.map((g,i)=> (i?'<span class="plus">+</span>':'') + `<span>${g}</span>`).join("");
     prevEl.classList.add("on");
   }
   function pulseTzg(){
@@ -2405,7 +2550,9 @@ function showLevelSelect(){
     const els = boardEl.querySelectorAll(".tile");
     els.forEach((el,i)=>{
       const t = tiles.find(x=>x.id===el.id);
-      const name = t ? (typeof tileName==="function" ? tileName(t.glyph) : "") : "";
+      const py = t && typeof tilePy==="function" ? tilePy(t.glyph) : "";
+      const meaning = t && typeof tileMeaning==="function" ? tileMeaning(t.glyph) : "";
+      const name = [py, meaning].filter(Boolean).join(" — ");
       el.setAttribute("role","gridcell");
       el.setAttribute("tabindex", i===0 ? "0" : "-1");
       el.setAttribute("aria-pressed", selected.includes(el.id) ? "true" : "false");

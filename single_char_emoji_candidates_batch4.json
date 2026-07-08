@@ -1,0 +1,266 @@
+[
+  {
+    "char": "嘴",
+    "emoji": "👄",
+    "codepoint": "1f444",
+    "definition": "mouth",
+    "confidence": "high",
+    "note": "primary nghĩa = miệng, khớp thẳng"
+  },
+  {
+    "char": "卫",
+    "emoji": "💂",
+    "codepoint": "1f482",
+    "definition": "guard",
+    "confidence": "medium",
+    "note": "verb 'bảo vệ' bắc cầu sang icon người-gác, giống mẫu 走→🏃 đã có"
+  },
+  {
+    "char": "守",
+    "emoji": "💂",
+    "codepoint": "1f482",
+    "definition": "guard",
+    "confidence": "medium",
+    "note": "verb 'canh giữ' bắc cầu sang icon người-gác"
+  },
+  {
+    "char": "护",
+    "emoji": "💂",
+    "codepoint": "1f482",
+    "definition": "guard",
+    "confidence": "medium",
+    "note": "verb 'bảo hộ' bắc cầu sang icon người-gác"
+  },
+  {
+    "char": "警",
+    "emoji": "💂",
+    "codepoint": "1f482",
+    "definition": "guard",
+    "confidence": "medium",
+    "note": "'cảnh giác/canh gác' bắc cầu, gần cụm cảnh sát nhưng không lấy 🚓/👮 để tránh lệch nghĩa"
+  },
+  {
+    "char": "娃",
+    "emoji": "👶",
+    "codepoint": "1f476",
+    "definition": "baby",
+    "confidence": "high",
+    "note": "primary nghĩa = em bé"
+  },
+  {
+    "char": "孩",
+    "emoji": "🧒",
+    "codepoint": "1f9d2",
+    "definition": "child",
+    "confidence": "high",
+    "note": "孩(子) = đứa trẻ"
+  },
+  {
+    "char": "童",
+    "emoji": "🧒",
+    "codepoint": "1f9d2",
+    "definition": "child",
+    "confidence": "high",
+    "note": "đồng = trẻ em, dùng chung icon với 孩"
+  },
+  {
+    "char": "宗",
+    "emoji": "👪",
+    "codepoint": "1f46a",
+    "definition": "family",
+    "confidence": "medium",
+    "note": "tổ tông/dòng họ, rút gọn về 'gia đình'"
+  },
+  {
+    "char": "家",
+    "emoji": "🏠",
+    "codepoint": "1f3e0",
+    "definition": "house",
+    "confidence": "high",
+    "note": "nhà/gia đình, nghĩa lõi rất rõ"
+  },
+  {
+    "char": "屋",
+    "emoji": "🏠",
+    "codepoint": "1f3e0",
+    "definition": "house",
+    "confidence": "high",
+    "note": "nhà cửa"
+  },
+  {
+    "char": "房",
+    "emoji": "🏠",
+    "codepoint": "1f3e0",
+    "definition": "house",
+    "confidence": "high",
+    "note": "nhà/phòng ốc"
+  },
+  {
+    "char": "室",
+    "emoji": "🏠",
+    "codepoint": "1f3e0",
+    "definition": "house",
+    "confidence": "medium",
+    "note": "thường dùng nghĩa hẹp hơn 'phòng' (vd 教室), nhưng nghĩa gốc liệt kê là house/room"
+  },
+  {
+    "char": "师",
+    "emoji": "🧑‍🏫",
+    "codepoint": "1f9d1-200d-1f3eb",
+    "definition": "teacher",
+    "confidence": "high",
+    "note": "thầy/sư, nghĩa lõi giáo viên rất rõ"
+  },
+  {
+    "char": "床",
+    "emoji": "🛏",
+    "codepoint": "1f6cf",
+    "definition": "bed",
+    "confidence": "high",
+    "note": "cái giường"
+  },
+  {
+    "char": "坐",
+    "emoji": "💺",
+    "codepoint": "1f4ba",
+    "definition": "seat",
+    "confidence": "medium",
+    "note": "verb 'ngồi' bắc cầu sang vật ghế ngồi"
+  },
+  {
+    "char": "座",
+    "emoji": "💺",
+    "codepoint": "1f4ba",
+    "definition": "seat",
+    "confidence": "medium",
+    "note": "danh từ ghế/bệ, hay dùng làm lượng từ toà nhà nên độ tin cậy vừa"
+  },
+  {
+    "char": "校",
+    "emoji": "🏫",
+    "codepoint": "1f3eb",
+    "definition": "school",
+    "confidence": "high",
+    "note": "trường học (学校/校长)"
+  },
+  {
+    "char": "梨",
+    "emoji": "🍐",
+    "codepoint": "1f350",
+    "definition": "pear",
+    "confidence": "high",
+    "note": "quả lê"
+  },
+  {
+    "char": "梯",
+    "emoji": "🪜",
+    "codepoint": "1fa9c",
+    "definition": "ladder",
+    "confidence": "high",
+    "note": "cái thang"
+  },
+  {
+    "char": "熊",
+    "emoji": "🐻",
+    "codepoint": "1f43b",
+    "definition": "bear",
+    "confidence": "high",
+    "note": "con gấu"
+  },
+  {
+    "char": "狗",
+    "emoji": "🐕",
+    "codepoint": "1f415",
+    "definition": "dog",
+    "confidence": "high",
+    "note": "con chó"
+  },
+  {
+    "char": "猪",
+    "emoji": "🐖",
+    "codepoint": "1f416",
+    "definition": "pig",
+    "confidence": "high",
+    "note": "con lợn"
+  },
+  {
+    "char": "男",
+    "emoji": "👨",
+    "codepoint": "1f468",
+    "definition": "man",
+    "confidence": "high",
+    "note": "nam giới"
+  },
+  {
+    "char": "窗",
+    "emoji": "🪟",
+    "codepoint": "1fa9f",
+    "definition": "window",
+    "confidence": "high",
+    "note": "cửa sổ"
+  },
+  {
+    "char": "筷",
+    "emoji": "🥢",
+    "codepoint": "1f962",
+    "definition": "chopsticks",
+    "confidence": "high",
+    "note": "đôi đũa"
+  },
+  {
+    "char": "篮",
+    "emoji": "🧺",
+    "codepoint": "1f9fa",
+    "definition": "basket",
+    "confidence": "high",
+    "note": "cái giỏ/rổ (nghĩa gốc của 篮球=bóng rổ)"
+  },
+  {
+    "char": "脑",
+    "emoji": "🧠",
+    "codepoint": "1f9e0",
+    "definition": "brain",
+    "confidence": "high",
+    "note": "bộ não"
+  },
+  {
+    "char": "脚",
+    "emoji": "🦶",
+    "codepoint": "1f9b6",
+    "definition": "foot",
+    "confidence": "high",
+    "note": "bàn chân"
+  },
+  {
+    "char": "萄",
+    "emoji": "🍇",
+    "codepoint": "1f347",
+    "definition": "grapes",
+    "confidence": "medium",
+    "note": "chỉ xuất hiện trong từ ghép 葡萄 (nho), không đứng riêng nhưng gán cùng nghĩa cả cụm"
+  },
+  {
+    "char": "蛋",
+    "emoji": "🥚",
+    "codepoint": "1f95a",
+    "definition": "egg",
+    "confidence": "high",
+    "note": "quả trứng"
+  },
+  {
+    "char": "雾",
+    "emoji": "🌫",
+    "codepoint": "1f32b",
+    "definition": "fog",
+    "confidence": "high",
+    "note": "sương mù"
+  },
+  {
+    "char": "鸡",
+    "emoji": "🐔",
+    "codepoint": "1f414",
+    "definition": "chicken",
+    "confidence": "high",
+    "note": "con gà"
+  }
+]

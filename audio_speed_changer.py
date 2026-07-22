@@ -1,25 +1,28 @@
 """
-Ứng dụng Desktop: Thay đổi tốc độ & hiệu ứng giọng nói cho file âm thanh (MP3/WAV)
+Ứng dụng Desktop: Tạo hiệu ứng "giọng ma/giọng quỷ" bằng cách chồng 10 lớp trầm giọng
 Yêu cầu hệ thống: đã cài đặt FFmpeg và thêm vào biến môi trường PATH.
 """
 
 import os
-import queue
 import subprocess
-import threading
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
+
+# Tổng số vòng lặp xử lý (theo yêu cầu: đúng 10 lần)
+TONG_SO_LAN = 10
+# Hệ số hạ pitch dùng ở Lần 1 (đi kèm với việc đổi tốc độ theo thanh trượt)
+HE_SO_PITCH_LAN_DAU = 0.8
+# Hệ số hạ pitch dùng cho mỗi lần lặp từ Lần 2 đến Lần 10 (có thể tinh chỉnh để giọng
+# trầm nhanh/chậm hơn qua từng lớp, miễn nằm trong khoảng ffmpeg atempo hỗ trợ tốt)
+HE_SO_PITCH_MOI_LAN = 0.95
 
 
 class AudioSpeedChangerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Công Cụ Đổi Tốc Độ Âm Thanh")
+        self.root.title("Công Cụ Đổi Tốc Độ & Chồng Hiệu Ứng Trầm Giọng")
         self.root.geometry("560x420")
         self.root.resizable(False, False)
-
-        # Hàng đợi dùng để luồng xử lý ffmpeg (chạy nền) gửi trạng thái về luồng giao diện chính
-        self.status_queue = queue.Queue()
 
         # Biến lưu đường dẫn file đang chọn, liên kết trực tiếp với ô Entry
         self.file_path = tk.StringVar()
@@ -27,8 +30,6 @@ class AudioSpeedChangerApp:
         self.speed_var = tk.DoubleVar(value=1.2)
 
         self._build_ui()
-        # Khởi động vòng lặp kiểm tra hàng đợi trạng thái mỗi 100ms
-        self.root.after(100, self._process_queue)
 
     def _build_ui(self):
         # Khung chứa chính, có padding đều 4 phía để giao diện thoáng và cân đối
@@ -49,7 +50,7 @@ class AudioSpeedChangerApp:
         file_frame.pack(fill="x", pady=5)
 
         # Nút "Duyệt..." để mở hộp thoại chọn file
-        browse_btn = ttk.Button(file_frame, text="Duyệt...", command=self.browse_file)
+        browse_btn = ttk.Button(file_frame, text="Duyệt file", command=self.browse_file)
         browse_btn.pack(side="left")
 
         # Ô văn bản hiển thị đường dẫn file đã chọn (chỉ đọc, không cho gõ tay)
@@ -125,6 +126,31 @@ class AudioSpeedChangerApp:
             self.file_path.set(path)
             self.status_label.config(text="Đã chọn file. Sẵn sàng xử lý.", foreground="#555555")
 
+    def _cap_nhat_trang_thai(self, text, color="#555555"):
+        # Cập nhật nhãn trạng thái rồi ép tkinter vẽ lại ngay lập tức,
+        # tránh để cửa sổ bị coi là "không phản hồi" trong lúc xử lý dài
+        self.status_label.config(text=text, foreground=color)
+        self.root.update()
+
+    def _goi_ffmpeg(self, input_path, output_path, filter_str):
+        # Câu lệnh gọi FFmpeg thông qua subprocess (dạng list để tránh lỗi shell injection)
+        command = [
+            "ffmpeg",
+            "-y",  # Tự động ghi đè nếu file đầu ra đã tồn tại
+            "-i", input_path,  # File âm thanh đầu vào của bước này
+            "-filter:a", filter_str,  # Bộ lọc âm thanh áp dụng cho bước này
+            output_path,  # File âm thanh đầu ra của bước này
+        ]
+        # Chạy ffmpeg và đợi hoàn tất; gộp log lỗi vào stdout để không làm rối terminal
+        result = subprocess.run(
+            command,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+        )
+        if result.returncode != 0:
+            raise RuntimeError(f"FFmpeg báo lỗi với mã thoát {result.returncode}.")
+
     def start_processing(self):
         input_path = self.file_path.get()
 
@@ -149,101 +175,74 @@ class AudioSpeedChangerApp:
 
         # Vô hiệu hóa nút bấm trong lúc xử lý để tránh người dùng bấm nhiều lần
         self.process_btn.config(state="disabled")
-        self.status_label.config(text="Đang chuẩn bị xử lý...", foreground="#555555")
 
-        # Chạy FFmpeg trên một luồng (thread) riêng để không làm treo giao diện chính
-        worker = threading.Thread(
-            target=self._run_ffmpeg, args=(input_path, speed_v, ext), daemon=True
-        )
-        worker.start()
-
-    def _run_ffmpeg(self, input_path, speed_v, ext):
+        # Danh sách lưu đường dẫn các file tạm đã tạo ra, dùng để dọn dẹp sau này
+        file_tam_list = []
         try:
-            # Công thức bắt buộc: asetrate=44100*0.8 làm bài hát chậm/trầm đi 0.8 lần
-            # Để bù lại và đạt tốc độ cuối cùng V, phải tính atempo = V / 0.8
-            atempo_value = round(speed_v / 0.8, 4)
-
-            # Xác định thư mục và tên file gốc để tạo đường dẫn file đầu ra
             folder = os.path.dirname(input_path)
             base_name = os.path.splitext(os.path.basename(input_path))[0]
-            # File đầu ra: cùng thư mục với file gốc, thêm hậu tố "_effect_{V}x"
-            output_path = os.path.join(folder, f"{base_name}_effect_{speed_v:.1f}x{ext}")
 
-            # Chuỗi bộ lọc âm thanh ghép hai bước: hạ tần số lấy mẫu rồi bù tốc độ
-            filter_str = f"asetrate=44100*0.8,atempo={atempo_value}"
+            current_input = input_path  # Đầu vào của vòng lặp hiện tại
 
-            # Câu lệnh gọi FFmpeg thông qua subprocess (dạng list để tránh lỗi shell injection)
-            command = [
-                "ffmpeg",
-                "-y",  # Tự động ghi đè nếu file đầu ra đã tồn tại
-                "-i", input_path,  # Chỉ định file âm thanh đầu vào
-                "-filter:a", filter_str,  # Áp dụng chuỗi bộ lọc âm thanh vừa tính toán
-                output_path,  # Đường dẫn file đầu ra
-            ]
+            # Vòng lặp for chạy đúng 10 lần, mỗi lần dùng đầu ra của lần trước làm đầu vào
+            for lan in range(1, TONG_SO_LAN + 1):
+                self._cap_nhat_trang_thai(f"Đang xử lý lần {lan}/{TONG_SO_LAN}...")
 
-            self.status_queue.put(("status", "Đang gọi FFmpeg xử lý âm thanh..."))
+                file_tam = os.path.join(folder, f"{base_name}_file_tam_{lan}{ext}")
 
-            # Khởi chạy tiến trình FFmpeg, gộp stderr vào stdout để đọc log tiến trình
-            process = subprocess.Popen(
-                command,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                text=True,
-                encoding="utf-8",
-                errors="ignore",
-            )
+                if lan == 1:
+                    # Lần 1: áp dụng ĐỒNG THỜI đổi tốc độ (theo V) và hạ pitch lần đầu
+                    # asetrate=44100*0.8 làm pitch trầm xuống nhưng cũng làm chậm đi 0.8 lần
+                    # -> phải bù atempo = V / 0.8 để tốc độ cuối cùng đúng bằng V
+                    atempo_bu_toc_do = round(speed_v / HE_SO_PITCH_LAN_DAU, 4)
+                    filter_str = f"asetrate=44100*{HE_SO_PITCH_LAN_DAU},atempo={atempo_bu_toc_do}"
+                else:
+                    # Lần 2 -> 10: CHỈ hạ thêm pitch, tuyệt đối không đổi tốc độ nữa
+                    # Vì asetrate luôn kéo theo thay đổi tốc độ, phải bù atempo = 1 / hệ_số_pitch
+                    # để triệt tiêu phần chậm/nhanh sinh ra, giữ nguyên tốc độ đã đạt ở Lần 1
+                    atempo_bu_toc_do = round(1 / HE_SO_PITCH_MOI_LAN, 4)
+                    filter_str = f"asetrate=44100*{HE_SO_PITCH_MOI_LAN},atempo={atempo_bu_toc_do}"
 
-            # Đọc từng dòng log của FFmpeg theo thời gian thực để cập nhật trạng thái
-            for line in process.stdout:
-                line = line.strip()
-                if "time=" in line:
-                    # Trích phần "time=" trong log để biết FFmpeg đã xử lý tới đâu
-                    time_part = line.split("time=")[-1].split(" ")[0]
-                    self.status_queue.put(("status", f"Đang xử lý... (đã qua: {time_part})"))
+                # Gọi FFmpeg xử lý bước này: đầu vào là kết quả bước trước, đầu ra là file tạm mới
+                self._goi_ffmpeg(current_input, file_tam, filter_str)
 
-            # Chờ tiến trình FFmpeg kết thúc và lấy mã thoát (return code)
-            process.wait()
+                file_tam_list.append(file_tam)
+                current_input = file_tam  # File tạm vừa tạo sẽ là đầu vào cho lần lặp kế tiếp
 
-            # Nếu FFmpeg thoát với mã lỗi khác 0 nghĩa là xử lý thất bại
-            if process.returncode != 0:
-                raise RuntimeError(f"FFmpeg báo lỗi với mã thoát {process.returncode}.")
+            # ---------- Dọn dẹp: đổi tên file tạm cuối cùng thành file kết quả ----------
+            self._cap_nhat_trang_thai("Đang hoàn tất và dọn dẹp file tạm...")
 
-            self.status_queue.put(("success", output_path))
+            final_output = os.path.join(folder, f"{base_name}_10x_Lower{ext}")
+            # Đổi tên file_tam_10 thành file thành phẩm cuối cùng
+            os.replace(file_tam_list[-1], final_output)
+
+            # Xóa sạch các file trung gian từ file_tam_1 đến file_tam_9
+            for file_thua in file_tam_list[:-1]:
+                os.remove(file_thua)
+
+            self._cap_nhat_trang_thai("Hoàn tất! Đã tạo file hiệu ứng.", "#27ae60")
+            messagebox.showinfo("Thành công", f"Đã tạo file:\n{final_output}")
 
         except FileNotFoundError:
             # Trường hợp hệ điều hành không tìm thấy lệnh "ffmpeg" (chưa cài hoặc chưa có trong PATH)
-            self.status_queue.put((
-                "error",
-                "Không tìm thấy FFmpeg. Vui lòng cài đặt FFmpeg và thêm vào biến môi trường PATH.",
-            ))
+            self._cap_nhat_trang_thai("Đã xảy ra lỗi.", "#e74c3c")
+            messagebox.showerror(
+                "Lỗi", "Không tìm thấy FFmpeg. Vui lòng cài đặt FFmpeg và thêm vào biến môi trường PATH."
+            )
         except Exception as exc:
             # Bắt mọi lỗi phát sinh khác (file hỏng, quyền truy cập, v.v.)
-            self.status_queue.put(("error", str(exc)))
-
-    def _process_queue(self):
-        # Lấy hết các thông báo đang chờ trong hàng đợi để cập nhật giao diện
-        try:
-            while True:
-                kind, payload = self.status_queue.get_nowait()
-                if kind == "status":
-                    # Cập nhật nhãn trạng thái với thông tin tiến trình hiện tại
-                    self.status_label.config(text=payload, foreground="#555555")
-                elif kind == "success":
-                    # Xử lý thành công: bật lại nút bấm và báo kết quả cho người dùng
-                    self.status_label.config(text="Hoàn tất! Đã tạo file hiệu ứng.", foreground="#27ae60")
-                    self.process_btn.config(state="normal")
-                    messagebox.showinfo("Thành công", f"Đã tạo file:\n{payload}")
-                elif kind == "error":
-                    # Xử lý thất bại: bật lại nút bấm và hiển thị hộp thoại lỗi
-                    self.status_label.config(text="Đã xảy ra lỗi.", foreground="#e74c3c")
-                    self.process_btn.config(state="normal")
-                    messagebox.showerror("Lỗi", payload)
-        except queue.Empty:
-            # Hàng đợi rỗng, không có gì mới để xử lý
-            pass
+            self._cap_nhat_trang_thai("Đã xảy ra lỗi.", "#e74c3c")
+            messagebox.showerror("Lỗi", str(exc))
+            # Cố gắng dọn rác các file tạm đã lỡ tạo ra trước khi lỗi xảy ra
+            for file_thua in file_tam_list:
+                try:
+                    if os.path.isfile(file_thua):
+                        os.remove(file_thua)
+                except OSError:
+                    pass
         finally:
-            # Lặp lại việc kiểm tra hàng đợi sau mỗi 100ms để cập nhật realtime
-            self.root.after(100, self._process_queue)
+            # Luôn bật lại nút bấm dù thành công hay thất bại
+            self.process_btn.config(state="normal")
 
 
 def main():

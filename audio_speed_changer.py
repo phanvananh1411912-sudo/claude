@@ -12,9 +12,11 @@ from tkinter import filedialog, messagebox, ttk
 TONG_SO_LAN = 10
 # Hệ số hạ pitch dùng ở Lần 1 (đi kèm với việc đổi tốc độ theo thanh trượt)
 HE_SO_PITCH_LAN_DAU = 0.8
-# Hệ số hạ pitch dùng cho mỗi lần lặp từ Lần 2 đến Lần 10 (có thể tinh chỉnh để giọng
-# trầm nhanh/chậm hơn qua từng lớp, miễn nằm trong khoảng ffmpeg atempo hỗ trợ tốt)
-HE_SO_PITCH_MOI_LAN = 0.95
+# Hệ số hạ pitch dùng cho mỗi lần lặp từ Lần 2 đến Lần 10.
+# Đặt ở mức 0.5 để trầm TỐI ĐA mỗi vòng: đây là giới hạn thấp nhất mà atempo bù trừ
+# (1 / 0.5 = 2.0) vẫn còn nằm trong khoảng an toàn chuẩn 0.5-2.0 của bộ lọc atempo
+# (dùng 1 lần atempo duy nhất, không cần ghép chuỗi nhiều atempo).
+HE_SO_PITCH_MOI_LAN = 0.5
 
 
 class AudioSpeedChangerApp:
